@@ -14,10 +14,12 @@ export default function ToolEngineRunner({ tool }: { tool: ToolMeta }) {
     case 'Image': return <ImageEngine toolSlug={tool.slug} toolName={tool.name} />;
     case 'Compiler': return <CompilerEngine toolSlug={tool.slug} toolName={tool.name} />;
     case 'Finance': return <FinanceEngine toolSlug={tool.slug} toolName={tool.name} />;
+    case 'Calculators':
+      if (tool.slug === 'sip-wealth-calculator') return <FinanceEngine toolSlug="sip-calculator" toolName={tool.name} />;
+      return <UniversalToolEngine tool={tool} />;
     case 'Developer':
     case 'Text':
     case 'Converters':
-    case 'Calculators':
     case 'YouTube':
       return <UniversalToolEngine tool={tool} />;
     default: return <UniversalToolEngine tool={tool} />;
