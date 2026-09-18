@@ -3,8 +3,9 @@ import type { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Scale, CheckSquare, AlertTriangle } from 'lucide-react';
+import { SITE_NAME, SITE_URL } from '@/config/site';
 
-export const metadata:Metadata={title:'Terms of Service | TheToolsGenie',description:'Terms governing use of TheToolsGenie online tools, calculators, converters, and browser utilities.',alternates:{canonical:'https://thetoolgenie.com/terms'}};
+export const metadata: Metadata = { title: 'Terms of Service | ' + SITE_NAME, description: 'Terms governing use of ' + SITE_NAME + ' online tools, calculators, converters, and browser utilities.', alternates: { canonical: SITE_URL + '/terms' } };
 
 export default function TermsPage() {
   return (
@@ -33,7 +34,7 @@ export default function TermsPage() {
                 1. Acceptance & Availability
               </h2>
               <p>
-                By using TheToolsGenie, you agree to these Terms. All utilities are provided &ldquo;as is&rdquo; without warranties of continuous availability or commercial fitness.
+                By using {SITE_NAME}, you agree to these Terms. All utilities are provided &ldquo;as is&rdquo; without warranties of continuous availability or commercial fitness.
               </p>
             </section>
 
