@@ -22,3 +22,10 @@ const all=[]; for(const dir of ['components','app']){ if(!fs.existsSync(dir)) co
 const bad=[]; for(const f of all){const s=fs.readFileSync(f,'utf8'); if(/\beval\s*\(|\bnew\s+Function\s*\(|\bFunction\s*\(/.test(s))bad.push(f)}
 if(bad.length) throw new Error(`Dynamic code execution found in: ${bad.join(', ')}`);
 console.log(JSON.stringify({tools:slugs.length,uniqueSlugs:new Set(slugs).size,categoryCounts:counts,dynamicExecutionMatches:0},null,2));
+
+
+const packageJson=JSON.parse(fs.readFileSync('package.json','utf8'));
+if(packageJson.scripts?.postinstall!=='node scripts/copy-sql-wasm.mjs') throw new Error('postinstall must copy required WASM/browser assets');
+const assetScript=fs.readFileSync('scripts/copy-sql-wasm.mjs','utf8');
+for(const asset of ['sql-wasm.wasm','qpdf.wasm','pdf.worker.min.mjs']) if(!assetScript.includes(asset)) throw new Error(`Asset copy script missing ${asset}`);
+console.log('Asset pipeline checks: OK');
