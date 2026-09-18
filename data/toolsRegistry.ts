@@ -527,7 +527,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'SIP Calculator',
     slug: 'sip-wealth-calculator',
     category: 'Calculators',
-    description: 'Compute compound interest returns and estimated future maturity on mutual fund SIPs.',
+    description: 'Estimate SIP investment growth, total contributions, and future value using a monthly contribution and annual return assumption.',
     targetKeyword: 'SIP Calculator',
   },
   {
@@ -555,7 +555,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Salary Calculator',
     slug: 'salary-calculator',
     category: 'Finance',
-    description: 'Estimate monthly take-home salary using the tax, deduction, and salary assumptions you enter.',
+    description: 'Estimate monthly take-home salary from gross monthly pay and the deductions you enter.',
     targetKeyword: 'Salary Calculator',
   },
   {
@@ -576,7 +576,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Retirement Calculator',
     slug: 'retirement-calculator',
     category: 'Finance',
-    description: 'Calculate future living expenses and target retirement savings funds.',
+    description: 'Estimate future monthly living expenses using return and inflation assumptions for retirement planning.',
     targetKeyword: 'Retirement Calculator',
   },
 
@@ -629,7 +629,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Discount Calculator',
     slug: 'discount-calculator',
     category: 'Calculators',
-    description: 'Calculate discounted prices from an original price, discount rate, and optional tax assumptions.',
+    description: 'Calculate the discount amount and final price from an original price and discount rate.',
     targetKeyword: 'Discount Calculator',
   },
   {
