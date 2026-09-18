@@ -659,7 +659,28 @@ function Calculator({slug,toolName}:{slug:string;toolName:string}){
 
   try{
     if(slug==='sip-wealth-calculator'){
-      const monthly=n(a); const annualRate=n(b); const years=Math.max(0,n(c)); const monthlyRate=annualRate/12/100; const months=years*12; const invested=monthly*months; const futureValue=monthlyRate===0?invested:monthly*((Math.pow(1+monthlyRate,months)-1)/monthlyRate)*(1+monthlyRate); out=`Monthly SIP: ${fmt(monthly)}\nTotal invested: ${fmt(invested)}\nEstimated returns: ${fmt(futureValue-invested)}\nEstimated maturity value: ${fmt(futureValue)}\n\nEstimate only; actual mutual fund returns are not guaranteed.`;
+      const monthly=n(a);
+      const annualRate=n(b);
+      const years=n(c);
+
+      if(monthly<0||annualRate<=-100||years<=0){
+        throw new Error('Enter a positive monthly SIP, a return rate above -100%, and a tenure greater than 0 years.');
+      }
+
+      const monthlyRate=annualRate/12/100;
+      const months=Math.round(years*12);
+      const invested=monthly*months;
+      const futureValue=monthlyRate===0
+        ? invested
+        : monthly*((Math.pow(1+monthlyRate,months)-1)/monthlyRate)*(1+monthlyRate);
+
+      out=`Monthly SIP: ₹${fmt(monthly)}
+Total invested: ₹${fmt(invested)}
+Estimated returns: ₹${fmt(futureValue-invested)}
+Estimated maturity value: ₹${fmt(futureValue)}
+
+Assumption: monthly SIP instalments are made at the beginning of each month.
+Estimate only; actual mutual fund returns are not guaranteed.`;
     }else if(slug==='compound-interest-calculator'){
       const p=n(a);
       const r=n(b)/100;
