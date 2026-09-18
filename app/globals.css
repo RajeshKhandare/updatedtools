@@ -69,3 +69,17 @@ body {
 .goog-tooltip:hover {
   display: none !important;
 }
+
+
+/* Premium tool-workspace polish */
+::selection { background: rgba(124, 58, 237, 0.22); }
+
+button, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button { opacity: .55; }
+
+.tool-premium-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(124,58,237,.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
