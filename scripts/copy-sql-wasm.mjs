@@ -63,3 +63,19 @@ copyAsset(
     'qpdf.wasm'
   )
 );
+
+copyAsset(
+  path.join(
+    root,
+    'node_modules',
+    'pdfjs-dist',
+    'legacy',
+    'build',
+    'pdf.worker.min.mjs'
+  ),
+  path.join(
+    root,
+    'public',
+    'pdf.worker.min.mjs'
+  )
+);
