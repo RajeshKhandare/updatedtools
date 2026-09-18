@@ -4,8 +4,9 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { Zap, ShieldCheck, Heart, Sparkles, ArrowRight } from 'lucide-react';
+import { SITE_NAME, SITE_URL } from '@/config/site';
 
-export const metadata:Metadata={title:'About TheToolsGenie | Free Browser-Based Online Tools',description:'Learn about TheToolsGenie, its browser-based architecture, and its free online tools for everyday digital tasks.',alternates:{canonical:'https://thetoolgenie.com/about'}};
+export const metadata:Metadata={title:'About {SITE_NAME} | Free Browser-Based Online Tools',description:'Learn about TheToolsGenie, its browser-based architecture, and its free online tools for everyday digital tasks.',alternates:{canonical:'`${SITE_URL}/about`'}};
 
 export default function AboutPage() {
   return (
@@ -16,7 +17,7 @@ export default function AboutPage() {
         {/* Hero Section - Balanced Top Spacing */}
         <section className="mx-auto max-w-5xl px-4 pt-8 sm:pt-10 pb-8 text-center sm:px-6">
           <span className="text-[11px] font-bold uppercase tracking-widest text-violet-600 dark:text-violet-400">
-            About TheToolsGenie
+            About {SITE_NAME}
           </span>
           <h1 className="mt-2 text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-zinc-950 dark:text-white leading-[1.14]">
             Making Everyday Digital Tasks{' '}
@@ -76,7 +77,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-4 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed pt-1">
               <p>
-                TheToolsGenie started from a simple frustration: whenever you need to quickly resize an image, test a query, calculate interest, or grab a thumbnail, modern search results lead to bloated websites covered in paywalls, forced email registrations, or daily limits.
+                {SITE_NAME} started from a simple frustration: whenever you need to quickly resize an image, test a query, calculate interest, or grab a thumbnail, modern search results lead to bloated websites covered in paywalls, forced email registrations, or daily limits.
               </p>
               <p>
                 We believed simple tasks should remain simple. You shouldn&apos;t need to download heavy desktop software or hand over personal data just to format text or convert an image.
@@ -94,7 +95,7 @@ export default function AboutPage() {
                 Core Values
               </span>
               <h2 className="text-2xl font-extrabold text-zinc-950 dark:text-white mt-1">
-                What Guides TheToolsGenie
+                What Guides {SITE_NAME}
               </h2>
             </div>
 
