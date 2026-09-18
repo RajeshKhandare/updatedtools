@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import { Scale, CheckSquare, AlertTriangle } from 'lucide-react';
 import { SITE_NAME, SITE_URL } from '@/config/site';
 
-export const metadata: Metadata = { title: 'Terms of Service | ' + SITE_NAME, description: 'Terms governing use of ' + SITE_NAME + ' online tools, calculators, converters, and browser utilities.', alternates: { canonical: SITE_URL + '/terms' } };
+export const metadata: Metadata = { title: 'Terms of Service', description: 'Terms governing use of ' + SITE_NAME + ' online tools, calculators, converters, and browser utilities.', alternates: { canonical: SITE_URL + '/terms' } };
 
 export default function TermsPage() {
   return (
