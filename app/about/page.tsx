@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { Zap, ShieldCheck, Heart, Sparkles, ArrowRight } from 'lucide-react';
 import { SITE_NAME, SITE_URL } from '@/config/site';
 
-export const metadata: Metadata = { title: 'About ' + SITE_NAME + ' | Free Browser-Based Online Tools', description: 'Learn about ' + SITE_NAME + ', its browser-based architecture, and its free online tools for everyday digital tasks.', alternates: { canonical: SITE_URL + '/about' } };
+export const metadata: Metadata = { title: 'About ' + SITE_NAME, description: 'Learn about ' + SITE_NAME + ', its browser-based architecture, and its free online tools for everyday digital tasks.', alternates: { canonical: SITE_URL + '/about' } };
 
 export default function AboutPage() {
   return (
@@ -26,7 +26,7 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="mt-3 text-xs sm:text-sm md:text-base text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto leading-relaxed">
-            A free, multi-category utility hub built to help students, developers, and creators solve daily tasks without paywalls or complicated software.
+            A free, multi-category utility hub for everyday PDF, image, developer, text, conversion, calculator, finance, compiler, and YouTube tasks.
           </p>
 
           <div className="mt-6">
