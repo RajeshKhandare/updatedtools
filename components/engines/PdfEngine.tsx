@@ -928,22 +928,66 @@ export default function PdfEngine({
       if (
         toolSlug === 'merge-pdf'
       ) {
-        const { createPdfToolkit } =
-          await import('pdfstudio');
+        if (files.length < 2) {
+          throw new Error(
+            'Select at least two PDF files to merge.'
+          );
+        }
 
-        const toolkit =
-          await createPdfToolkit({
-            wasmUrl: '/qpdf.wasm',
-          });
+        const form =
+          new FormData();
 
-        const merged =
-          await toolkit.merge(files);
+        files.forEach(
+          (file) =>
+            form.append(
+              'files',
+              file
+            )
+        );
+
+        const response =
+          await fetch(
+            '/api/merge-pdf',
+            {
+              method: 'POST',
+              body: form,
+            }
+          );
+
+        if (!response.ok) {
+          let message =
+            'PDF merge failed.';
+
+          try {
+            const data =
+              await response.json();
+
+            if (
+              data &&
+              typeof data.error ===
+                'string'
+            ) {
+              message =
+                data.error;
+            }
+          } catch {
+            // Keep the generic error.
+          }
+
+          throw new Error(
+            message
+          );
+        }
 
         setOutput(
-          new Uint8Array(merged)
+          new Uint8Array(
+            await response.arrayBuffer()
+          )
         );
 
         return;
+      }
+
       }
     } catch (e) {
       setError(
