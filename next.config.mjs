@@ -4,6 +4,12 @@ const require = createRequire(
   import.meta.url
 );
 
+const {
+  NormalModuleReplacementPlugin,
+} = require(
+  'next/dist/compiled/webpack/webpack-lib.js'
+);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   poweredByHeader: false,
@@ -17,18 +23,30 @@ const nextConfig = {
       const emptyModule =
         require.resolve('./empty-node-module.js');
 
-      config.resolve =
-        config.resolve || {};
-
-      config.resolve.alias = {
-        ...(config.resolve.alias || {}),
-        'node:module': emptyModule,
-        'node:fs': emptyModule,
-        'node:path': emptyModule,
-        'node:url': emptyModule,
-        'node:crypto': emptyModule,
-        'node:fs/promises': emptyModule,
-      };
+      for (
+        const request of [
+          'node:module',
+          'node:fs',
+          'node:path',
+          'node:url',
+          'node:crypto',
+          'node:fs/promises',
+        ]
+      ) {
+        config.plugins.push(
+          new NormalModuleReplacementPlugin(
+            new RegExp(
+              '^' +
+                request.replace(
+                  /[:/]/g,
+                  '\\$&'
+                ) +
+                '$'
+            ),
+            emptyModule
+          )
+        );
+      }
     }
 
     return config;
