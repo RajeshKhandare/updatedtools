@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo, useEffect, Suspense } from 'react';
 import Link from 'next/link';
+import { SITE_NAME } from '@/config/site';
 import { useSearchParams } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -29,7 +30,7 @@ import {
 
 const FAQ_ITEMS = [
   {
-    q: 'Are my uploaded files, photos, or documents safe on TheToolsGenie?',
+    q: 'Are my uploaded files, photos, or documents safe on {SITE_NAME}?',
     a: 'Most PDF, image, text, converter, and calculator operations run directly in your browser. Compiler tools may use a configured execution runtime, so do not enter passwords, API keys, or other sensitive secrets.'
   },
   {
@@ -432,7 +433,7 @@ function HomeContent() {
                 Ready to Boost Your Digital Productivity?
               </h2>
               <p className="mt-3 text-xs sm:text-sm text-zinc-400 leading-relaxed">
-                Join creators, software engineers, and digital agencies using TheToolsGenie every day for clean, zero-trace file workflows.
+                Join creators, software engineers, and digital agencies using {SITE_NAME} every day for clean, zero-trace file workflows.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-3">
                 <Link
