@@ -463,65 +463,59 @@ export default function PdfEngine({
 
     try {
       if (
-        toolSlug ===
-        'protect-pdf-password'
+        toolSlug === 'protect-pdf-password' ||
+        toolSlug === 'unlock-pdf-password'
       ) {
         if (!input2) {
           throw new Error(
-            'Enter a password.'
+            toolSlug === 'protect-pdf-password'
+              ? 'Enter a password.'
+              : 'Enter the PDF password.'
           );
         }
 
-        const mod: any =
-          await import('pdfstudio');
-
-        const toolkit =
-          await mod.createPdfToolkit();
-
-        const result =
-          await toolkit.lock(
-            files[0],
-            {
-              userPassword:
-                input2,
-            }
-          );
-
-        setOutput(
-          new Uint8Array(result)
+        const form = new FormData();
+        form.append('file', files[0]);
+        form.append('password', input2);
+        form.append(
+          'operation',
+          toolSlug === 'protect-pdf-password'
+            ? 'protect'
+            : 'unlock'
         );
 
-        return;
-      }
+        const response = await fetch(
+          '/api/pdf-password',
+          {
+            method: 'POST',
+            body: form,
+          }
+        );
 
-      if (
-        toolSlug ===
-        'unlock-pdf-password'
-      ) {
-        if (!input2) {
-          throw new Error(
-            'Enter the PDF password.'
-          );
+        if (!response.ok) {
+          let message =
+            'PDF password operation failed.';
+          try {
+            const data = await response.json();
+            if (
+              data &&
+              typeof data.error === 'string'
+            ) {
+              message = data.error;
+            }
+          } catch {
+            // Keep the generic message when the API
+            // does not return JSON.
+          }
+          throw new Error(message);
         }
 
-        const mod: any =
-          await import('pdfstudio');
-
-        const toolkit =
-          await mod.createPdfToolkit();
-
-        const result =
-          await toolkit.unlock(
-            files[0],
-            {
-              password: input2,
-            }
+        const bytes =
+          new Uint8Array(
+            await response.arrayBuffer()
           );
 
-        setOutput(
-          new Uint8Array(result)
-        );
-
+        setOutput(bytes);
         return;
       }
 
