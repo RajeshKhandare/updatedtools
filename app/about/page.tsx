@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { Zap, ShieldCheck, Heart, Sparkles, ArrowRight } from 'lucide-react';
 
-export const metadata:Metadata={title:'About TheToolsGenie',description:'Learn about TheToolsGenie and its free online tools for everyday digital tasks.'};
+export const metadata:Metadata={title:'About TheToolsGenie | Free Browser-Based Online Tools',description:'Learn about TheToolsGenie, its browser-based architecture, and its free online tools for everyday digital tasks.',alternates:{canonical:'https://thetoolgenie.com/about'}};
 
 export default function AboutPage() {
   return (
