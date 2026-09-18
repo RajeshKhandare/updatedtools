@@ -1025,6 +1025,8 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
 
   if(tool.category==='YouTube'){
     if(tool.slug==='youtube-money-calculator'){
+      const [revenue,setRevenue]=useState('');
+
       return (
         <div className={card}>
           <h3 className="text-lg font-bold">
@@ -1060,11 +1062,19 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
                 (document.getElementById('rpm') as HTMLInputElement).value
               );
 
-              alert(`Estimated revenue: $${(v*r/1000).toFixed(2)}`);
+              setRevenue(
+                `Estimated revenue: ${(v*r/1000).toFixed(2)}`
+              );
             }}
           >
             Calculate
           </button>
+
+          {revenue&&(
+            <div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-5 text-lg font-bold">
+              {revenue}
+            </div>
+          )}
 
           <p className="text-xs text-zinc-500">
             Estimate only; actual YouTube revenue varies by RPM, geography,
