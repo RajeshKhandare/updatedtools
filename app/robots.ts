@@ -1,3 +1,3 @@
 import { MetadataRoute } from 'next';
-const SITE_URL=process.env.NEXT_PUBLIC_SITE_URL||'https://thetoolgenie.com';
+const SITE_URL = 'https://thetoolgenie.com';
 export default function robots():MetadataRoute.Robots{return{rules:{userAgent:'*',allow:'/'},sitemap:SITE_URL+'/sitemap.xml'};}
