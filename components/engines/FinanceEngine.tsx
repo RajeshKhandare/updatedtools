@@ -45,13 +45,20 @@ export default function FinanceEngine({
     try {
       if (toolSlug === 'sip-calculator') {
         const monthlyRate = r / 1200;
-        const months = Math.max(0, Math.floor(t * 12));
+        const months = Math.max(
+          0,
+          Math.floor(t * 12)
+        );
 
         const futureValue =
           monthlyRate === 0
             ? p * months
             : p *
-              ((Math.pow(1 + monthlyRate, months) - 1) /
+              ((Math.pow(
+                1 + monthlyRate,
+                months
+              ) -
+                1) /
                 monthlyRate) *
               (1 + monthlyRate);
 
@@ -59,13 +66,20 @@ export default function FinanceEngine({
 
         return [
           ['Invested', money(invested)],
-          ['Estimated returns', money(futureValue - invested)],
+          [
+            'Estimated returns',
+            money(futureValue - invested),
+          ],
           ['Future value', money(futureValue)],
         ];
       }
 
       if (toolSlug === 'emi-calculator') {
-        const months = Math.max(1, Math.floor(t * 12));
+        const months = Math.max(
+          1,
+          Math.floor(t * 12)
+        );
+
         const monthlyRate = r / 1200;
 
         const emi =
@@ -73,15 +87,28 @@ export default function FinanceEngine({
             ? p / months
             : (p *
                 monthlyRate *
-                Math.pow(1 + monthlyRate, months)) /
-              (Math.pow(1 + monthlyRate, months) - 1);
+                Math.pow(
+                  1 + monthlyRate,
+                  months
+                )) /
+              (Math.pow(
+                1 + monthlyRate,
+                months
+              ) -
+                1);
 
         const totalPayment = emi * months;
 
         return [
           ['Monthly EMI', money(emi)],
-          ['Total payment', money(totalPayment)],
-          ['Total interest', money(totalPayment - p)],
+          [
+            'Total payment',
+            money(totalPayment),
+          ],
+          [
+            'Total interest',
+            money(totalPayment - p),
+          ],
         ];
       }
 
@@ -93,21 +120,29 @@ export default function FinanceEngine({
 
         return [
           ['Invested', money(p)],
-          ['Estimated returns', money(futureValue - p)],
+          [
+            'Estimated returns',
+            money(futureValue - p),
+          ],
           ['Future value', money(futureValue)],
         ];
       }
 
       if (toolSlug === 'gst-calculator') {
-        const gstRate = Math.max(0, r) / 100;
+        const gstRate =
+          Math.max(0, r) / 100;
+
         const inclusive = x === 1;
 
         const baseAmount = inclusive
           ? p / (1 + gstRate)
           : p;
 
-        const gstAmount = baseAmount * gstRate;
-        const totalAmount = baseAmount + gstAmount;
+        const gstAmount =
+          baseAmount * gstRate;
+
+        const totalAmount =
+          baseAmount + gstAmount;
 
         return [
           ['Base amount', money(baseAmount)],
@@ -118,16 +153,30 @@ export default function FinanceEngine({
 
       if (toolSlug === 'salary-calculator') {
         const grossMonthly = p;
-        const deductions = Math.max(0, r);
+
+        const deductions = Math.max(
+          0,
+          r
+        );
+
         const inHand = Math.max(
           0,
           grossMonthly - deductions
         );
 
         return [
-          ['Gross monthly', money(grossMonthly)],
-          ['Deductions', money(deductions)],
-          ['Estimated in-hand', money(inHand)],
+          [
+            'Gross monthly',
+            money(grossMonthly),
+          ],
+          [
+            'Deductions',
+            money(deductions),
+          ],
+          [
+            'Estimated in-hand',
+            money(inHand),
+          ],
         ];
       }
 
@@ -135,11 +184,18 @@ export default function FinanceEngine({
         const years = Math.max(0, t);
 
         const maturity =
-          p * Math.pow(1 + r / 400, 4 * years);
+          p *
+          Math.pow(
+            1 + r / 400,
+            4 * years
+          );
 
         return [
           ['Principal', money(p)],
-          ['Interest', money(maturity - p)],
+          [
+            'Interest',
+            money(maturity - p),
+          ],
           ['Maturity', money(maturity)],
         ];
       }
@@ -155,7 +211,11 @@ export default function FinanceEngine({
 
         let maturity = 0;
 
-        for (let month = 1; month <= months; month++) {
+        for (
+          let month = 1;
+          month <= months;
+          month++
+        ) {
           maturity +=
             monthlyDeposit *
             Math.pow(
@@ -164,16 +224,23 @@ export default function FinanceEngine({
             );
         }
 
-        const deposits = monthlyDeposit * months;
+        const deposits =
+          monthlyDeposit * months;
 
         return [
           ['Deposits', money(deposits)],
-          ['Interest', money(maturity - deposits)],
+          [
+            'Interest',
+            money(maturity - deposits),
+          ],
           ['Maturity', money(maturity)],
         ];
       }
 
-      if (toolSlug === 'retirement-calculator') {
+      if (
+        toolSlug ===
+        'retirement-calculator'
+      ) {
         const currentMonthlyNeed = p;
         const annualReturn = r / 100;
         const years = Math.max(1, t);
@@ -181,11 +248,17 @@ export default function FinanceEngine({
 
         const futureSavings =
           currentMonthlyNeed *
-          Math.pow(1 + annualReturn, years);
+          Math.pow(
+            1 + annualReturn,
+            years
+          );
 
         const inflationAdjustedNeed =
           currentMonthlyNeed *
-          Math.pow(1 + inflation, years);
+          Math.pow(
+            1 + inflation,
+            years
+          );
 
         return [
           [
@@ -194,7 +267,9 @@ export default function FinanceEngine({
           ],
           [
             'Inflation-adjusted monthly need',
-            money(inflationAdjustedNeed),
+            money(
+              inflationAdjustedNeed
+            ),
           ],
           [
             'Future value of current savings',
@@ -229,7 +304,8 @@ export default function FinanceEngine({
               'Annual interest %',
               'Tenure (years)',
             ]
-          : toolSlug === 'retirement-calculator'
+          : toolSlug ===
+                'retirement-calculator'
             ? [
                 'Current monthly need',
                 'Annual return %',
@@ -251,7 +327,9 @@ export default function FinanceEngine({
   const values: string[] = [a, b, c];
 
   const setters: Array<
-    React.Dispatch<React.SetStateAction<string>>
+    React.Dispatch<
+      React.SetStateAction<string>
+    >
   > = [setA, setB, setC];
 
   return (
@@ -273,13 +351,16 @@ export default function FinanceEngine({
               type="number"
               value={value}
               onChange={(event) =>
-                setters[index](event.target.value)
+                setters[index](
+                  event.target.value
+                )
               }
             />
           </label>
         ))}
 
-        {toolSlug === 'retirement-calculator' && (
+        {toolSlug ===
+          'retirement-calculator' && (
           <label className="text-xs font-semibold text-zinc-500">
             {labels[3]}
 
@@ -317,8 +398,9 @@ export default function FinanceEngine({
       </div>
 
       <p className="text-[11px] text-zinc-400">
-        Estimates only; actual bank, tax, investment,
-        and retirement outcomes can differ.
+        Estimates only; actual bank, tax,
+        investment, and retirement outcomes
+        can differ.
       </p>
     </div>
   );
