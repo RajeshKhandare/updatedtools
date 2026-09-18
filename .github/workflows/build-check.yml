@@ -8,13 +8,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+
       - name: Build
         run: npm run build
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Wait for Vercel deployment
+        run: sleep 90
+
+      - name: Browser smoke test all 88 tools
+        env:
+          SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
+        run: node scripts/browser-smoke.mjs
