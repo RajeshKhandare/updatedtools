@@ -40,22 +40,22 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href="/?category=PDF#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   PDF Tools
                 </Link>
               </li>
               <li>
-                <Link href="/#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href="/?category=Image#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Image Tools
                 </Link>
               </li>
               <li>
-                <Link href="/#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href="/?category=Compiler#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Compilers & Code
                 </Link>
               </li>
               <li>
-                <Link href="/#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href="/?category=Finance#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Finance Calculators
                 </Link>
               </li>
