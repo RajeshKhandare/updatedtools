@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!tool) return { title: 'Tool Not Found', robots: { index: false, follow: false } };
 
   const keyword = tool.targetKeyword || tool.name;
-  const title = `${tool.name} - Free Online ${tool.category} Tool | ${SITE_NAME}`;
+  const title = `${tool.name} - Free Online ${tool.category} Tool`;
   const description = `${tool.description} Use this free online ${keyword.toLowerCase()} tool in your browser with no account required.`;
 
   return {
@@ -32,7 +32,7 @@ export default function ToolLayout({ children, params }: { children: React.React
   const faqs = [
     { q: `Are my files or inputs safe while using ${tool.name}?`, a: tool.category === 'Compiler'
       ? 'SQL and browser-preview operations can run locally, while compiled languages may use the configured execution runtime. Do not submit passwords, API keys, or other sensitive secrets as source code.'
-      : `For browser-based ${tool.category.toLowerCase()} tools, processing is performed in your browser. Your selected files are not intentionally uploaded by the tool engine.` },
+      : `For tools that process data in the browser, processing is performed in your browser. Some tools may use a configured runtime or external service. Your selected files are not intentionally uploaded by the tool engine.` },
     { q: `Is ${tool.name} free to use?`, a: `${tool.name} is available without a paid account. Browser, device-memory, file-size, or third-party runtime limits can still apply depending on the tool.` },
     { q: `Can I use ${tool.name} on mobile or tablet devices?`, a: 'The interface is responsive and works in modern desktop and mobile browsers. Large files and compute-heavy operations may perform differently depending on the device.' },
   ];
