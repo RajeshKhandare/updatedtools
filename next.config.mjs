@@ -2,7 +2,22 @@
 const nextConfig = {
   poweredByHeader: false,
   webpack: (config) => {
-    config.experiments = { ...(config.experiments || {}), asyncWebAssembly: true };
+    config.experiments = {
+      ...(config.experiments || {}),
+      asyncWebAssembly: true,
+    };
+
+    // pdfstudio's browser runtime contains Node-only branches for its
+    // Node.js/file: environment. Next.js 14's webpack parser still sees
+    // those node: imports while bundling the client component. They are
+    // unreachable in the browser, so keep them empty for the client bundle.
+    config.resolve = config.resolve || {};
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      'node:fs/promises': false,
+      'node:module': false,
+    };
+
     return config;
   },
   async headers() {
@@ -16,4 +31,5 @@ const nextConfig = {
     }];
   },
 };
+
 export default nextConfig;
