@@ -26,7 +26,7 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Wait for Vercel deployment
-        run: sleep 90
+        run: sleep 180
 
       - name: Browser smoke test all 88 tools
         env:
