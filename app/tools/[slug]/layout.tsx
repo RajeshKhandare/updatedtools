@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://thetoolgenie.com';
+const SITE_URL = 'https://thetoolgenie.com';
 
 export function generateStaticParams() {
   return TOOLS_REGISTRY.map((tool) => ({ slug: tool.slug }));
