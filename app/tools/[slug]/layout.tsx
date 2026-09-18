@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title,
     description,
-    keywords: [keyword, `${keyword} online`, `free ${keyword.toLowerCase()}`, `${tool.category} tools`, `${tool.name} free`],
+    keywords: [keyword, `${keyword} online`, `free ${keyword.toLowerCase()}`, `${tool.name.toLowerCase()} online`, `${tool.category.toLowerCase()} tools`, `${tool.category.toLowerCase()} online tools`, ...tool.slug.split('-').filter((part) => part.length > 2)],
     alternates: { canonical: `${SITE_URL}/tools/${tool.slug}` },
     openGraph: { title, description, url: `${SITE_URL}/tools/${tool.slug}`, siteName: SITE_NAME, type: 'website' },
     twitter: { card: 'summary_large_image', title, description },
