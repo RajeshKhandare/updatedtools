@@ -1,0 +1,1031 @@
+import fs from 'node:fs';
+import { PDFDocument, StandardFonts } from 'pdf-lib';
+import JSZip from 'jszip';
+import { chromium } from 'playwright';
+
+const BASE_URL = (
+  process.env.SMOKE_BASE_URL ||
+  'https://updatedtools-8kbg.vercel.app'
+).replace(/\/$/, '');
+
+const registrySource = fs.readFileSync(
+  'data/toolsRegistry.ts',
+  'utf8'
+);
+
+const tools = [
+  ...registrySource.matchAll(
+    /slug:\s*'([^']+)'[\s\S]*?category:\s*'([^']+)'/g
+  ),
+].map((m) => ({
+  slug: m[1],
+  category: m[2],
+}));
+
+function assert(condition, message) {
+  if (!condition) {
+    throw new Error(message);
+  }
+}
+
+async function makePdf(pageCount = 3) {
+  const pdf = await PDFDocument.create();
+  const font = await pdf.embedFont(
+    StandardFonts.Helvetica
+  );
+
+  for (let i = 1; i <= pageCount; i++) {
+    const page = pdf.addPage([612, 792]);
+    page.drawText(
+      'TheToolGenie smoke test page ' + i,
+      {
+        x: 50,
+        y: 720,
+        size: 20,
+        font,
+      }
+    );
+  }
+
+  return Buffer.from(
+    await pdf.save()
+  );
+}
+
+async function makeDocx() {
+  const zip = new JSZip();
+
+  zip.file(
+    '[Content_Types].xml',
+    '<?xml version="1.0" encoding="UTF-8"?>' +
+      '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">' +
+      '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>' +
+      '<Default Extension="xml" ContentType="application/xml"/>' +
+      '<Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>' +
+      '</Types>'
+  );
+
+  zip.file(
+    '_rels/.rels',
+    '<?xml version="1.0" encoding="UTF-8"?>' +
+      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+      '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>' +
+      '</Relationships>'
+  );
+
+  zip.file(
+    'word/document.xml',
+    '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">' +
+      '<w:body>' +
+      '<w:p><w:r><w:t>Smoke test DOCX document.</w:t></w:r></w:p>' +
+      '<w:p><w:r><w:t>This document is used to test Word to PDF conversion.</w:t></w:r></w:p>' +
+      '<w:sectPr><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440"/></w:sectPr>' +
+      '</w:body>' +
+      '</w:document>'
+  );
+
+  return Buffer.from(
+    await zip.generateAsync({
+      type: 'uint8array',
+    })
+  );
+}
+
+async function imageFixture(page, format) {
+  const result = await page.evaluate(
+    (type) => {
+      const canvas =
+        document.createElement('canvas');
+      canvas.width = 320;
+      canvas.height = 200;
+
+      const ctx =
+        canvas.getContext('2d');
+
+      ctx.fillStyle = '#7c3aed';
+      ctx.fillRect(
+        0,
+        0,
+        320,
+        200
+      );
+
+      ctx.fillStyle = '#ffffff';
+      ctx.font = '28px sans-serif';
+      ctx.fillText(
+        'ToolGenie',
+        70,
+        110
+      );
+
+      return canvas.toDataURL(
+        type,
+        0.9
+      );
+    },
+    format
+  );
+
+  return Buffer.from(
+    result.split(',')[1],
+    'base64'
+  );
+}
+
+function textInputs(page) {
+  return page.locator(
+    'input:not([type="file"]):not([type="range"]), textarea'
+  );
+}
+
+async function clickButton(page, name) {
+  const locator =
+    page.getByRole(
+      'button',
+      { name }
+    ).first();
+
+  await locator.scrollIntoViewIfNeeded();
+  await locator.click();
+}
+
+async function testPdf(page, slug, fixtures, state) {
+  await page.locator(
+    'input[type="file"]'
+  ).setInputFiles(
+    slug === 'merge-pdf'
+      ? [
+          {
+            name: 'one.pdf',
+            mimeType: 'application/pdf',
+            buffer: fixtures.pdf,
+          },
+          {
+            name: 'two.pdf',
+            mimeType: 'application/pdf',
+            buffer: fixtures.pdf2,
+          },
+        ]
+      : slug === 'jpg-to-pdf'
+        ? {
+            name: 'image.jpg',
+            mimeType: 'image/jpeg',
+            buffer: fixtures.jpg,
+          }
+        : slug === 'word-to-pdf'
+          ? {
+              name: 'test.docx',
+              mimeType:
+                'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+              buffer: fixtures.docx,
+            }
+          : {
+              name: 'test.pdf',
+              mimeType: 'application/pdf',
+              buffer:
+                slug === 'unlock-pdf-password' &&
+                state.protectedPdf
+                  ? state.protectedPdf
+                  : fixtures.pdf,
+            }
+  );
+
+  const inputs = page.locator(
+    'input:not([type="file"])'
+  );
+
+  if (
+    slug === 'protect-pdf-password' ||
+    slug === 'unlock-pdf-password'
+  ) {
+    await inputs.last().fill(
+      'SmokeTest123!'
+    );
+  }
+
+  if (slug === 'delete-pdf-pages') {
+    await inputs
+      .filter({
+        has: undefined,
+      })
+      .first()
+      .fill('2');
+  }
+
+  if (slug === 'split-pdf') {
+    await inputs.first().fill('1,2');
+  }
+
+  if (slug === 'reorder-pdf-pages') {
+    await inputs.first().fill('3,1,2');
+  }
+
+  if (slug === 'rotate-pdf') {
+    await inputs.nth(0).fill('all');
+    await inputs.nth(1).fill('90');
+  }
+
+  const run = page.getByRole(
+    'button',
+    { name: /^Run / }
+  ).first();
+
+  if (
+    slug === 'pdf-to-jpg'
+  ) {
+    const downloadPromise =
+      page.waitForEvent(
+        'download',
+        { timeout: 20000 }
+      );
+
+    await run.click();
+
+    const download =
+      await downloadPromise;
+
+    const path =
+      await download.path();
+
+    assert(
+      path &&
+        fs.statSync(path).size > 0,
+      slug +
+        ': PDF-to-JPG download was empty'
+    );
+    return;
+  }
+
+  await run.click();
+
+  const downloadButton =
+    page.getByRole(
+      'button',
+      { name: 'Download' }
+    ).first();
+
+  await downloadButton.waitFor({
+    state: 'visible',
+    timeout: 30000,
+  });
+
+  const downloadPromise =
+    page.waitForEvent(
+      'download',
+      { timeout: 20000 }
+    );
+
+  await downloadButton.click();
+
+  const download =
+    await downloadPromise;
+
+  const path =
+    await download.path();
+
+  assert(
+    path &&
+      fs.statSync(path).size > 0,
+    slug +
+      ': PDF output download was empty'
+  );
+
+  if (
+    slug ===
+    'protect-pdf-password'
+  ) {
+    state.protectedPdf =
+      fs.readFileSync(path);
+  }
+}
+
+async function testImage(page, slug, fixtures) {
+  if (
+    slug ===
+    'instant-qr-code-generator'
+  ) {
+    const input =
+      page.locator('input').first();
+
+    await input.fill(
+      'https://thetoolgenie.com/smoke-test'
+    );
+
+    await clickButton(
+      page,
+      'Generate QR'
+    );
+
+    await page.locator(
+      'img[alt="Generated QR code"]'
+    ).waitFor({
+      state: 'visible',
+      timeout: 10000,
+    });
+
+    return;
+  }
+
+  let file = fixtures.png;
+  let mime = 'image/png';
+  let name = 'test.png';
+
+  if (
+    slug.startsWith(
+      'webp-to-'
+    )
+  ) {
+    file = fixtures.webp;
+    mime = 'image/webp';
+    name = 'test.webp';
+  } else if (
+    slug ===
+    'jpg-to-png-converter' ||
+    slug ===
+    'webp-to-jpg-converter'
+  ) {
+    file = fixtures.jpg;
+    mime = 'image/jpeg';
+    name = 'test.jpg';
+  } else if (
+    slug ===
+    'svg-to-png-converter'
+  ) {
+    file = Buffer.from(
+      '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200"><rect width="320" height="200" fill="#7c3aed"/><text x="70" y="110" fill="white" font-size="28">ToolGenie</text></svg>'
+    );
+    mime = 'image/svg+xml';
+    name = 'test.svg';
+  }
+
+  await page.locator(
+    'input[type="file"]'
+  ).setInputFiles({
+    name,
+    mimeType: mime,
+    buffer: file,
+  });
+
+  await clickButton(
+    page,
+    new RegExp(
+      '^Process '
+    )
+  );
+
+  await page.locator(
+    'img[alt="Processed output"]'
+  ).waitFor({
+    state: 'visible',
+    timeout: 15000,
+  });
+
+  const downloadPromise =
+    page.waitForEvent(
+      'download',
+      { timeout: 15000 }
+    );
+
+  await page.getByRole(
+    'button',
+    { name: 'Download' }
+  ).click();
+
+  const download =
+    await downloadPromise;
+
+  const path =
+    await download.path();
+
+  assert(
+    path &&
+      fs.statSync(path).size > 0,
+    slug +
+      ': image output download was empty'
+  );
+}
+
+async function testCompiler(page, slug) {
+  const code = {
+    'online-python-compiler':
+      'print("SMOKE_OK")',
+    'online-javascript-compiler':
+      'console.log("SMOKE_OK")',
+    'online-java-compiler':
+      'public class Main { public static void main(String[] args) { System.out.println("SMOKE_OK"); } }',
+    'online-cpp-compiler':
+      '#include <iostream>\nint main(){std::cout << "SMOKE_OK";}',
+    'online-csharp-compiler':
+      'using System; class Program { static void Main(){ Console.WriteLine("SMOKE_OK"); } }',
+    'online-php-runner':
+      '<?php echo "SMOKE_OK"; ?>',
+    'online-html-editor':
+      '<!doctype html><html><body><h1>SMOKE_OK</h1></body></html>',
+    'online-sql-runner':
+      'CREATE TABLE t(id INTEGER); INSERT INTO t VALUES (1); SELECT * FROM t;',
+  }[slug];
+
+  await page.locator(
+    'textarea'
+  ).fill(code);
+
+  await clickButton(
+    page,
+    /^(Run Code|Preview)$/
+  );
+
+  if (
+    slug ===
+    'online-html-editor'
+  ) {
+    const frame =
+      page.locator(
+        'iframe[title="HTML sandbox preview"]'
+      );
+
+    await frame.waitFor({
+      state: 'visible',
+      timeout: 10000,
+    });
+
+    const body =
+      frame.contentFrame().locator(
+        'body'
+      );
+
+    await body.waitFor({
+      state: 'visible',
+      timeout: 10000,
+    });
+
+    assert(
+      (await body.textContent()).includes(
+        'SMOKE_OK'
+      ),
+      slug +
+        ': HTML preview did not render'
+    );
+    return;
+  }
+
+  const output =
+    page.locator('pre').last();
+
+  await output.waitFor({
+    state: 'visible',
+    timeout: 30000,
+  });
+
+  const text =
+    await output.textContent();
+
+  assert(
+    text.includes(
+      slug ===
+        'online-sql-runner'
+        ? 'values'
+        : 'SMOKE_OK'
+    ),
+    slug +
+      ': compiler output did not contain expected result: ' +
+      text
+  );
+}
+
+async function testUniversal(page, slug, category) {
+  if (
+    category === 'Converters'
+  ) {
+    const input =
+      page.locator(
+        'input[type="number"]'
+      ).first();
+
+    await input.fill('10');
+
+    const result =
+      page.locator(
+        'text=/Result|°/'
+      ).last();
+
+    await result.waitFor({
+      state: 'visible',
+      timeout: 5000,
+    });
+
+    const body =
+      await page.locator(
+        'body'
+      ).textContent();
+
+    assert(
+      !/Invalid result|NaN/.test(body),
+      slug +
+        ': converter returned invalid result'
+    );
+    return;
+  }
+
+  if (
+    category === 'Finance'
+  ) {
+    const inputs =
+      page.locator(
+        'input[type="number"]'
+      );
+
+    const count =
+      await inputs.count();
+
+    for (
+      let i = 0;
+      i < count;
+      i++
+    ) {
+      await inputs.nth(i).fill(
+        String(1000 + i * 2)
+      );
+    }
+
+    const body =
+      await page.locator(
+        'body'
+      ).textContent();
+
+    assert(
+      !/Invalid result|NaN/.test(body),
+      slug +
+        ': finance tool returned invalid result'
+    );
+    return;
+  }
+
+  if (
+    category === 'Calculators'
+  ) {
+    if (
+      slug === 'age-calculator'
+    ) {
+      await page.locator(
+        'input[type="date"]'
+      ).fill('2000-01-01');
+    } else if (
+      slug ===
+      'scientific-calculator'
+    ) {
+      await page.locator(
+        'input'
+      ).first().fill(
+        'sqrt(25)+2**3'
+      );
+    } else {
+      const inputs =
+        page.locator(
+          'input[type="number"]'
+        );
+
+      for (
+        let i = 0;
+        i < await inputs.count();
+        i++
+      ) {
+        await inputs.nth(i).fill(
+          String(
+            i === 0
+              ? 1000
+              : i === 1
+                ? 10
+                : 2
+          )
+        );
+      }
+    }
+
+    const body =
+      await page.locator(
+        'body'
+      ).textContent();
+
+    assert(
+      !/Invalid result|NaN|Error:/.test(body),
+      slug +
+        ': calculator returned an error'
+    );
+    return;
+  }
+
+  if (
+    category === 'YouTube'
+  ) {
+    if (
+      slug ===
+      'youtube-thumbnail-downloader'
+    ) {
+      await page.locator(
+        'input'
+      ).first().fill(
+        'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      );
+
+      await clickButton(
+        page,
+        'Get Thumbnail'
+      );
+
+      await page.locator(
+        'img[alt="YouTube thumbnail"]'
+      ).waitFor({
+        state: 'visible',
+        timeout: 10000,
+      });
+      return;
+    }
+
+    if (
+      slug ===
+      'youtube-money-calculator'
+    ) {
+      await clickButton(
+        page,
+        'Calculate'
+      );
+
+      await page.getByText(
+        /Estimated revenue:/
+      ).waitFor({
+        state: 'visible',
+        timeout: 5000,
+      });
+      return;
+    }
+
+    await page.locator(
+      'input'
+    ).first().fill(
+      'Java Spring Boot tutorial'
+    );
+
+    await clickButton(
+      page,
+      'Generate'
+    );
+
+    await page.locator(
+      'pre'
+    ).last().waitFor({
+      state: 'visible',
+      timeout: 5000,
+    });
+
+    return;
+  }
+
+  // Developer + Text tools
+  const textareas =
+    page.locator(
+      'textarea'
+    );
+
+  if (
+    await textareas.count() === 0
+  ) {
+    throw new Error(
+      slug +
+        ': expected a textarea'
+    );
+  }
+
+  const values = {
+    'json-formatter-validator':
+      '{"name":"Rajesh","value":1}',
+    'base64-encoder-decoder':
+      'TheToolGenie',
+    'clean-url-slug-generator':
+      'Hello TheToolGenie World',
+    'html-entity-encoder':
+      '<div>hello</div>',
+    'css-minifier-cleaner':
+      'body { color: red; padding: 10px; }',
+    'unix-timestamp-converter':
+      '1704067200',
+    'hex-to-rgb-hsl-converter':
+      '#7c3aed',
+    'url-component-encoder-decoder':
+      'hello world?x=1',
+    'jwt-token-inspector':
+      'eyJhbGciOiJub25lIn0.eyJzdWIiOiIxMjMifQ.',
+    'uuid-guid-v4-generator':
+      '',
+    'strong-password-generator':
+      '20',
+    'user-agent-string-parser':
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/140 Safari/537.36',
+    'word-character-counter':
+      'hello world\nhello',
+    'text-case-converter':
+      'hello world',
+    'remove-duplicate-lines':
+      'b\na\nb',
+    'lorem-ipsum-generator':
+      '2',
+    'markdown-to-html-converter':
+      '# Hello\n\n**World**',
+    'reverse-text-mirror-tool':
+      'hello world',
+    'text-diff-checker':
+      'hello\nworld',
+    'alphabetical-line-sorter':
+      'zebra\napple\nMango',
+    'strip-html-tags':
+      '<p>Hello</p><b>World</b>',
+    'find-replace-text':
+      'hello world',
+  }[slug] ?? 'TheToolGenie smoke test';
+
+  await textareas
+    .first()
+    .fill(values);
+
+  if (
+    slug ===
+    'text-diff-checker'
+  ) {
+    await textareas
+      .nth(1)
+      .fill('hello\nthere');
+  }
+
+  if (
+    slug ===
+    'find-replace-text'
+  ) {
+    const inputs =
+      page.locator(
+        'input'
+      );
+
+    await inputs
+      .nth(0)
+      .fill('world');
+
+    await inputs
+      .nth(1)
+      .fill('ToolGenie');
+  }
+
+  await clickButton(
+    page,
+    'Process'
+  );
+
+  const result =
+    page.locator(
+      'pre'
+    ).last();
+
+  await result.waitFor({
+    state: 'visible',
+    timeout: 5000,
+  });
+
+  const text =
+    await result.textContent();
+
+  assert(
+    text &&
+      !text.startsWith(
+        'Error:'
+      ),
+    slug +
+      ': tool returned an error: ' +
+      text
+  );
+}
+
+async function main() {
+  console.log(
+    'Browser smoke testing ' +
+      tools.length +
+      ' tools on ' +
+      BASE_URL
+  );
+
+  assert(
+    tools.length === 88,
+    'Registry expected 88 tools, found ' +
+      tools.length
+  );
+
+  const browser =
+    await chromium.launch({
+      headless: true,
+    });
+
+  const context =
+    await browser.newContext({
+      acceptDownloads: true,
+    });
+
+  const page =
+    await context.newPage();
+
+  page.setDefaultTimeout(
+    15000
+  );
+
+  const fixtures = {
+    pdf: await makePdf(3),
+    pdf2: await makePdf(2),
+    docx: await makeDocx(),
+    png: await imageFixture(
+      page,
+      'image/png'
+    ),
+    jpg: await imageFixture(
+      page,
+      'image/jpeg'
+    ),
+    webp: await imageFixture(
+      page,
+      'image/webp'
+    ),
+  };
+
+  const state = {
+    protectedPdf: null,
+  };
+
+  const failures = [];
+
+  for (
+    const tool of tools
+  ) {
+    const label =
+      tool.category +
+      '/' +
+      tool.slug;
+
+    try {
+      console.log(
+        'TEST ' + label
+      );
+
+      const pageErrors = [];
+
+      const onPageError =
+        (error) =>
+          pageErrors.push(
+            String(error)
+          );
+
+      page.on(
+        'pageerror',
+        onPageError
+      );
+
+      const response =
+        await page.goto(
+          BASE_URL +
+            '/tools/' +
+            tool.slug,
+          {
+            waitUntil:
+              'domcontentloaded',
+            timeout: 30000,
+          }
+        );
+
+      assert(
+        response &&
+          response.ok(),
+        label +
+          ': page HTTP status ' +
+          (response
+            ? response.status()
+            : 'none')
+      );
+
+      await page.getByRole(
+        'heading',
+        { level: 1 }
+      ).waitFor({
+        state: 'visible',
+        timeout: 15000,
+      });
+
+      const body =
+        await page.locator(
+          'body'
+        ).textContent();
+
+      assert(
+        !/Tool not found|Application error|Unhandled Runtime Error/i.test(
+          body
+        ),
+        label +
+          ': page contains an application error'
+      );
+
+      if (
+        pageErrors.length
+      ) {
+        throw new Error(
+          label +
+            ': page error: ' +
+            pageErrors.join(
+              ' | '
+            )
+        );
+      }
+
+      if (
+        tool.category ===
+        'PDF'
+      ) {
+        await testPdf(
+          page,
+          tool.slug,
+          fixtures,
+          state
+        );
+      } else if (
+        tool.category ===
+        'Image'
+      ) {
+        await testImage(
+          page,
+          tool.slug,
+          fixtures
+        );
+      } else if (
+        tool.category ===
+        'Compiler'
+      ) {
+        await testCompiler(
+          page,
+          tool.slug
+        );
+      } else {
+        await testUniversal(
+          page,
+          tool.slug,
+          tool.category
+        );
+      }
+
+      page.off(
+        'pageerror',
+        onPageError
+      );
+
+      console.log(
+        'PASS ' + label
+      );
+    } catch (error) {
+      failures.push({
+        tool: label,
+        error:
+          error instanceof Error
+            ? error.message
+            : String(error),
+      });
+
+      console.error(
+        'FAIL ' + label + ': ' +
+          (error instanceof Error
+            ? error.message
+            : String(error))
+      );
+    }
+  }
+
+  await browser.close();
+
+  console.log(
+    JSON.stringify(
+      {
+        tested: tools.length,
+        passed:
+          tools.length -
+          failures.length,
+        failed:
+          failures.length,
+        failures,
+      },
+      null,
+      2
+    )
+  );
+
+  if (
+    failures.length
+  ) {
+    process.exit(1);
+  }
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
