@@ -118,7 +118,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'PDF to Grayscale Converter',
     slug: 'pdf-grayscale-converter',
     category: 'PDF',
-    description: 'Convert colored PDF documents into monochrome black and white for cheap printing.',
+    description: 'Convert PDF pages to grayscale to reduce color information and prepare documents for monochrome printing.',
     targetKeyword: 'PDF to Grayscale Converter',
   },
 
@@ -150,7 +150,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'WebP to PNG Converter',
     slug: 'webp-to-png-converter',
     category: 'Image',
-    description: 'Convert modern WebP images into transparent lossless PNG graphics in browser memory.',
+    description: 'Convert WebP images to PNG format in browser memory, preserving transparency when present.',
     targetKeyword: 'WebP to PNG Converter',
   },
   {
@@ -178,7 +178,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'SVG to PNG Converter',
     slug: 'svg-to-png-converter',
     category: 'Image',
-    description: 'Rasterize vector SVG files into crisp, high-resolution raster graphics.',
+    description: 'Convert SVG vector files into PNG raster images at a selected output size.',
     targetKeyword: 'SVG to PNG Converter',
   },
   {
@@ -312,7 +312,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'HTML Entity Encoder',
     slug: 'html-entity-encoder',
     category: 'Developer',
-    description: 'Convert special symbols and characters into secure HTML entities.',
+    description: 'Convert special symbols and reserved characters into their corresponding HTML entities.',
     targetKeyword: 'HTML Entity Encoder',
   },
   {
@@ -368,7 +368,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'User Agent Parser',
     slug: 'user-agent-string-parser',
     category: 'Developer',
-    description: 'Parse browser client strings to detect OS, engine, and device models.',
+    description: 'Parse user-agent strings to identify reported browser, rendering engine, operating system, and device details.',
     targetKeyword: 'User Agent Parser',
   },
 
@@ -488,28 +488,28 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Time Converter',
     slug: 'time-duration-converter',
     category: 'Converters',
-    description: 'Convert seconds, minutes, hours, days, weeks, months, and years.',
+    description: 'Convert common time units such as seconds, minutes, hours, days, weeks, months, and years.',
     targetKeyword: 'Time Converter',
   },
   {
     name: 'Area Converter',
     slug: 'area-land-converter',
     category: 'Converters',
-    description: 'Convert Square Feet, Square Meters, Acres, Hectares, and Bigha.',
+    description: 'Convert common area units including square feet, square meters, acres, hectares, and Bigha.',
     targetKeyword: 'Area Converter',
   },
   {
     name: 'Pressure Converter',
     slug: 'pressure-unit-converter',
     category: 'Converters',
-    description: 'Convert Pascal (Pa), Bar, PSI, and Atmosphere units.',
+    description: 'Convert pressure units including Pascal (Pa), bar, PSI, and standard atmosphere (atm).',
     targetKeyword: 'Pressure Converter',
   },
   {
     name: 'Energy Converter',
     slug: 'energy-work-converter',
     category: 'Converters',
-    description: 'Convert Joules, Kilojoules, Calories, Kilocalories, and Kilowatt-hours.',
+    description: 'Convert energy units including joules, kilojoules, calories, kilocalories, and kilowatt-hours.',
     targetKeyword: 'Energy Converter',
   },
   {
@@ -555,7 +555,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Salary Calculator',
     slug: 'salary-calculator',
     category: 'Finance',
-    description: 'Calculate monthly in-hand take-home salary after taxes and deductions.',
+    description: 'Estimate monthly take-home salary using the tax, deduction, and salary assumptions you enter.',
     targetKeyword: 'Salary Calculator',
   },
   {
@@ -615,7 +615,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'BMI Calculator',
     slug: 'bmi-calculator',
     category: 'Calculators',
-    description: 'Calculate BMI metric score and healthy weight categories based on height.',
+    description: 'Calculate body mass index (BMI) from height and weight and show commonly used BMI categories.',
     targetKeyword: 'BMI Calculator',
   },
   {
@@ -629,7 +629,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Discount Calculator',
     slug: 'discount-calculator',
     category: 'Calculators',
-    description: 'Calculate final prices after store coupon discounts and applicable sales taxes.',
+    description: 'Calculate discounted prices from an original price, discount rate, and optional tax assumptions.',
     targetKeyword: 'Discount Calculator',
   },
   {
@@ -647,7 +647,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'YouTube Thumbnail Downloader',
     slug: 'youtube-thumbnail-downloader',
     category: 'YouTube',
-    description: 'Grab full-resolution HD, 1080p, and 4K cover thumbnails from any public YouTube video.',
+    description: 'Retrieve available thumbnail image resolutions for public YouTube videos using their video IDs or URLs.',
     targetKeyword: 'YouTube Thumbnail Downloader',
   },
   {
