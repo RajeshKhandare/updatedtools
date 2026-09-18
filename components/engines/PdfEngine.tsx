@@ -58,13 +58,15 @@ async function renderPdf(
     'pdfjs-dist/legacy/build/pdf.mjs'
   );
 
+  pdfjs.GlobalWorkerOptions.workerSrc =
+    'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
+
   const data = new Uint8Array(
     await file.arrayBuffer()
   );
 
   const doc = await pdfjs.getDocument({
     data,
-    disableWorker: true,
   }).promise;
 
   const pages: {
@@ -475,48 +477,43 @@ export default function PdfEngine({
           );
         }
 
-        const form = new FormData();
-        form.append('file', files[0]);
-        form.append('password', input2);
-        form.append(
-          'operation',
+        const { createPdfToolkit } =
+          await import('pdfstudio');
+
+        const toolkit =
+          await createPdfToolkit({
+            wasmUrl: '/qpdf.wasm',
+          });
+
+        const result =
           toolSlug === 'protect-pdf-password'
-            ? 'protect'
-            : 'unlock'
+            ? await toolkit.lock(
+                files[0],
+                {
+                  userPassword:
+                    input2,
+                  ownerPassword:
+                    input2,
+                  keyLength: 256,
+                  permissions: {
+                    print: 'full',
+                    modify: 'none',
+                    extract: false,
+                    accessibility: true,
+                  },
+                }
+              )
+            : await toolkit.unlock(
+                files[0],
+                {
+                  password: input2,
+                }
+              );
+
+        setOutput(
+          new Uint8Array(result)
         );
 
-        const response = await fetch(
-          '/api/pdf-password',
-          {
-            method: 'POST',
-            body: form,
-          }
-        );
-
-        if (!response.ok) {
-          let message =
-            'PDF password operation failed.';
-          try {
-            const data = await response.json();
-            if (
-              data &&
-              typeof data.error === 'string'
-            ) {
-              message = data.error;
-            }
-          } catch {
-            // Keep the generic message when the API
-            // does not return JSON.
-          }
-          throw new Error(message);
-        }
-
-        const bytes =
-          new Uint8Array(
-            await response.arrayBuffer()
-          );
-
-        setOutput(bytes);
         return;
       }
 
