@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ShieldCheck, Lock, EyeOff, FileLock } from 'lucide-react';
 
-export const metadata:Metadata={title:'Privacy Policy',description:'Learn how TheToolsGenie handles tool inputs, browser processing, analytics, advertising, and contact submissions.'};
+export const metadata:Metadata={title:'Privacy Policy | TheToolsGenie',description:'Learn how TheToolsGenie handles tool inputs, browser processing, analytics, advertising, and contact submissions.',alternates:{canonical:'https://thetoolgenie.com/privacy-policy'}};
 
 export default function PrivacyPolicyPage() {
   return (
