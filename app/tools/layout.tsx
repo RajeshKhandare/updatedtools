@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: SITE_URL + '/tools' },
   openGraph: {
     title: `All Free Online Tools | ${SITE_NAME}`,
-    description: 'Browse 88 free browser-based tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.',
+    description: 'Browse 88 free online tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.',
     url: SITE_URL + '/tools',
     siteName: SITE_NAME,
     type: 'website',
@@ -22,7 +22,7 @@ export default function ToolsLayout({ children }: { children: React.ReactNode })
     '@type': 'CollectionPage',
     name: `${SITE_NAME} Free Online Tools Directory`,
     url: SITE_URL + '/tools',
-    description: 'Directory of free browser-based online tools.',
+    description: 'Directory of 88 free online tools across PDF, image, developer, text, converter, calculator, finance, compiler, and YouTube categories.',
     isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE_URL },
   };
   return (
