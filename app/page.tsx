@@ -33,7 +33,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Are there any hidden costs, credits, or file-size subscriptions?',
-    a: 'None at all. All 80+ tools across PDF, Image, Code, and Finance categories are completely unrestricted, free forever, and require no account registration or payment details.',
+    a: 'None at all. All 88 tools across PDF, Image, Code, and Finance categories are completely unrestricted, free forever, and require no account registration or payment details.',
   },
   {
     q: 'Can I use these developer and utility tools on mobile devices?',
@@ -44,6 +44,8 @@ const FAQ_ITEMS = [
     a: 'Traditional platforms require sending multi-megabyte files over the internet to a server queue and waiting for processing. We eliminate network overhead by executing the code directly on your device CPU and RAM.',
   },
 ];
+
+const HOME_FAQ_SCHEMA={ '@context':'https://schema.org', '@type':'FAQPage', mainEntity:FAQ_ITEMS.map((item)=>({ '@type':'Question', name:item.q, acceptedAnswer:{ '@type':'Answer', text:item.a }})) };
 
 function HomeContent() {
   const searchParams = useSearchParams();
@@ -111,6 +113,7 @@ function HomeContent() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors flex flex-col justify-between">
       <div>
         <Navbar />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(HOME_FAQ_SCHEMA)}} />
 
         {/* Hero Section */}
         <section className="mx-auto max-w-5xl px-4 pt-8 sm:pt-14 pb-6 text-center">
@@ -208,7 +211,7 @@ function HomeContent() {
                 href="/tools"
                 className="inline-flex items-center gap-2 rounded-2xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-950 px-8 py-3.5 text-xs font-extrabold hover:bg-violet-600 dark:hover:bg-violet-500 dark:hover:text-white transition-all shadow-md hover:scale-[1.02]"
               >
-                <span>Explore All 80+ Tools</span>
+                <span>Explore All 88 Tools</span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -242,7 +245,7 @@ function HomeContent() {
               </div>
               <h3 className="text-base font-bold text-zinc-950 dark:text-white">Select Any Utility</h3>
               <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                Pick from our library of 80+ specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
+                Pick from our library of 88 specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
               </p>
             </div>
 
@@ -334,7 +337,7 @@ function HomeContent() {
 
             <div className="mt-8 pt-8 border-t border-zinc-200/60 dark:border-zinc-800/60 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div>
-                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">80+</p>
+                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">88</p>
                 <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Active Utilities</p>
               </div>
               <div>
@@ -419,7 +422,7 @@ function HomeContent() {
                   href="/tools"
                   className="rounded-2xl bg-violet-600 px-7 py-3 text-xs font-bold text-white hover:bg-violet-500 transition-all shadow-lg shadow-violet-600/30 hover:scale-105"
                 >
-                  Explore All 80+ Utilities
+                  Explore All 88 Utilities
                 </Link>
                 <a
                   href="#tools"

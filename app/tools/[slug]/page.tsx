@@ -1182,16 +1182,16 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
 
   const toolFaqs = [
     {
-      q: `Are my files safe while using ${tool.name}?`,
-      a: `For client-side tools, processing happens in your browser. Tools that use an external runtime or API will indicate that requirement.`,
+      q: `Are my files or inputs safe while using ${tool.name}?`,
+      a: tool.category === 'Compiler' ? `SQL and browser-preview operations can run locally, while compiled languages may use the configured execution runtime. Do not submit passwords, API keys, or other sensitive secrets as source code.` : `For browser-based ${tool.category.toLowerCase()} tools, processing is performed in your browser. Your selected files are not intentionally uploaded by the tool engine.`,
     },
     {
-      q: `Is there any fee or usage limit for ${tool.name}?`,
-      a: `${tool.name} is designed to be free to use. Availability, limits, or third-party service requirements may vary by tool.`,
+      q: `Is ${tool.name} free to use?`,
+      a: `${tool.name} is available without a paid account. Browser, device-memory, file-size, or third-party runtime limits can still apply depending on the tool.`,
     },
     {
-      q: `Can I run ${tool.name} on mobile or tablet devices?`,
-      a: `Yes. This utility is fully responsive and executes smoothly on Android, iOS, Windows, and macOS browsers without needing extra plugins.`,
+      q: `Can I use ${tool.name} on mobile or tablet devices?`,
+      a: `The interface is responsive and works in modern desktop and mobile browsers. Large files and compute-heavy operations may perform differently depending on the device.`,
     },
   ];
 
@@ -1270,12 +1270,12 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
                   </h2>
                 </div>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed pt-1">
-                  Unlike traditional platforms that send your files to remote cloud servers, {tool.name} operates purely inside your local browser memory sandbox.
+                  {tool.category === 'Compiler' ? `${tool.name} uses a browser sandbox for supported operations and a configured execution runtime for compiled languages. Avoid entering secrets or private credentials.` : `${tool.name} is designed for browser-based processing where supported, so your selected file can be handled locally without a normal file-upload workflow.`}
                 </p>
               </div>
               <div className="mt-5 pt-4 border-t border-zinc-100 dark:border-zinc-800/70 flex items-center gap-2 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400">
                 <CheckCircle2 className="h-4 w-4 shrink-0" />
-                <span>Zero Server Uploads • Zero Logs • 100% Free</span>
+                <span>{tool.category === 'Compiler' ? 'Execution model varies by language • No account required' : 'Browser-based processing where supported • No account required'}</span>
               </div>
             </div>
           </div>

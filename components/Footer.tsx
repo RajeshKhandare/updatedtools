@@ -29,7 +29,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-2 text-[11px] font-medium text-zinc-500 dark:text-zinc-400">
               <span className="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>All utilities operational · 100% Free</span>
+              <span>88 tools operational · Free to use</span>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/tools/youtube-4k-thumbnail-grabber" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href="/tools/youtube-thumbnail-downloader" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   YouTube Thumbnail Grabber
                 </Link>
               </li>

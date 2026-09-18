@@ -1,7 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ShieldCheck, Lock, EyeOff, FileLock } from 'lucide-react';
+
+export const metadata:Metadata={title:'Privacy Policy',description:'Learn how TheToolsGenie handles tool inputs, browser processing, analytics, advertising, and contact submissions.'};
 
 export default function PrivacyPolicyPage() {
   return (
@@ -20,7 +23,7 @@ export default function PrivacyPolicyPage() {
                 Privacy Policy
               </h1>
               <p className="mt-1 text-xs text-zinc-500">
-                Effective: September 2026 · Client-Side Zero Storage Standard
+                Effective: September 2026
               </p>
             </div>
 
@@ -30,10 +33,10 @@ export default function PrivacyPolicyPage() {
                 1. Complete In-Browser Execution Guarantee
               </h2>
               <p>
-                TheToolsGenie runs entirely on a client-side execution model. Whether you are using our code compilers, financial calculators, image compressors, or PDF tools, all computations take place directly in your device RAM through HTML5 Canvas, Web Workers, and WebAssembly.
+                Many PDF, image, text, converter, and calculator operations are designed to run in your browser. Compiler tools are different: some languages use a configured execution runtime through the site.
               </p>
               <p>
-                Your files, inputs, and documents are never transferred to remote servers or stored on remote databases.
+                Compiler tools may use the configured execution runtime; do not enter passwords, API keys, private credentials, or other secrets into compiler inputs.
               </p>
             </section>
 
@@ -43,7 +46,7 @@ export default function PrivacyPolicyPage() {
                 2. Data Retention & Tab Termination
               </h2>
               <p>
-                We do not maintain user accounts or personal profiles. All memory buffers created during your session are immediately purged via browser garbage collection as soon as the tab or window is closed.
+                We do not maintain user accounts or personal profiles. Browser-local data may remain according to normal browser storage and caching behavior; closing a tab does not guarantee immediate destruction of every browser-managed buffer.
               </p>
             </section>
 

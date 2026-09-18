@@ -175,7 +175,7 @@ export default function Navbar() {
               }}
               className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900"
             >
-              All 80 Tools
+              All 88 Tools
             </button>
             {CATEGORIES_CONFIG.map((cat) => (
               <button

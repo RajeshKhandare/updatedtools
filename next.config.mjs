@@ -13,6 +13,7 @@ const {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   poweredByHeader: false,
+  async redirects(){return[{source:'/tools/sip-calculator',destination:'/tools/sip-wealth-calculator',permanent:true}]},
   webpack: (config, { isServer }) => {
     config.experiments = {
       ...(config.experiments || {}),

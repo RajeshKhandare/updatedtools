@@ -1,7 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Scale, CheckSquare, AlertTriangle } from 'lucide-react';
+
+export const metadata:Metadata={title:'Terms of Service',description:'Terms governing use of TheToolsGenie online tools and calculators.'};
 
 export default function TermsPage() {
   return (
