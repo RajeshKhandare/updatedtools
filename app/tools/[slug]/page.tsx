@@ -1183,7 +1183,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
   const toolFaqs = [
     {
       q: `Are my files or inputs safe while using ${tool.name}?`,
-      a: tool.category === 'Compiler' ? `SQL and browser-preview operations can run locally, while compiled languages may use the configured execution runtime. Do not submit passwords, API keys, or other sensitive secrets as source code.` : `For browser-based ${tool.category.toLowerCase()} tools, processing is performed in your browser. Your selected files are not intentionally uploaded by the tool engine.`,
+      a: tool.category === 'Compiler' ? `SQL and browser-preview operations can run locally, while compiled languages may use the configured execution runtime. Do not submit passwords, API keys, or other sensitive secrets as source code.` : `For browser-based tools, processing is performed in your browser where supported. Your selected files are not intentionally uploaded by the tool engine.`,
     },
     {
       q: `Is ${tool.name} free to use?`,
@@ -1243,7 +1243,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
                     1
                   </span>
                   <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Input your code, files, or custom values into the workspace above.
+                    Enter your file, code, text, or values in the workspace above.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -1251,7 +1251,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
                     2
                   </span>
                   <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Configure execution parameters, compression, or queries directly with live feedback.
+                    Configure the options available for this tool, then review the generated or processed result.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -1259,7 +1259,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
                     3
                   </span>
                   <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Run, copy, or download your finalized output instantly with zero wait times.
+                    Run, copy, or download your output directly from the workspace.
                   </p>
                 </div>
               </div>
@@ -1272,7 +1272,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
                     <Lock className="h-4 w-4" />
                   </div>
                   <h2 className="text-sm sm:text-base font-bold text-zinc-950 dark:text-white">
-                    Private & Local Execution
+                    Processing & Privacy
                   </h2>
                 </div>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed pt-1">
