@@ -195,6 +195,23 @@ async function testPdf(page, slug, fixtures, state) {
   // the Run button sees the updated File state.
   await page.waitForTimeout(500);
 
+  const selectedCount =
+    await page.locator(
+      'input[type="file"]'
+    ).evaluate(
+      (input) =>
+        (input as HTMLInputElement)
+          .files?.length ?? 0
+    );
+
+  assert(
+    selectedCount ===
+      (slug === 'merge-pdf' ? 2 : 1),
+    slug +
+      ': browser did not retain the expected uploaded file count: ' +
+      selectedCount
+  );
+
   const inputs = page.locator(
     'input:not([type="file"])'
   );
@@ -264,6 +281,21 @@ async function testPdf(page, slug, fixtures, state) {
   }
 
   await run.click();
+
+  if (slug === 'merge-pdf') {
+    await page.waitForTimeout(3000);
+    const bodyText =
+      await page.locator('body').textContent();
+
+    assert(
+      !/PDF merge failed|Select at least two PDF files|PDF processing failed/i.test(
+        bodyText || ''
+      ),
+      slug +
+        ': merge tool displayed an error: ' +
+        bodyText
+    );
+  }
 
   const downloadButton =
     page.getByRole(
