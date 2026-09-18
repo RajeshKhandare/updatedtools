@@ -1,4 +1,3 @@
-import webpack from 'webpack';
 import { createRequire } from 'node:module';
 
 const require = createRequire(
@@ -18,30 +17,18 @@ const nextConfig = {
       const emptyModule =
         require.resolve('./empty-node-module.js');
 
-      for (
-        const request of [
-          'node:module',
-          'node:fs',
-          'node:path',
-          'node:url',
-          'node:crypto',
-          'node:fs/promises',
-        ]
-      ) {
-        config.plugins.push(
-          new webpack.NormalModuleReplacementPlugin(
-            new RegExp(
-              '^' +
-                request.replace(
-                  /[:/]/g,
-                  '\\$&'
-                ) +
-                '$'
-            ),
-            emptyModule
-          )
-        );
-      }
+      config.resolve =
+        config.resolve || {};
+
+      config.resolve.alias = {
+        ...(config.resolve.alias || {}),
+        'node:module': emptyModule,
+        'node:fs': emptyModule,
+        'node:path': emptyModule,
+        'node:url': emptyModule,
+        'node:crypto': emptyModule,
+        'node:fs/promises': emptyModule,
+      };
     }
 
     return config;
