@@ -2,24 +2,324 @@
 
 import React, { useMemo, useState } from 'react';
 
-const card='w-full max-w-4xl mx-auto rounded-3xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8 space-y-5 shadow-sm';
-const input='w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950 px-4 py-3 text-sm text-zinc-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-violet-500';
-const money=(n:number)=>`₹${Number.isFinite(n)?n.toLocaleString('en-IN',{maximumFractionDigits:2}):'0'}`;
-const n=(v:string)=>{const x=Number(v);return Number.isFinite(x)?x:0};
+const card =
+  'w-full max-w-4xl mx-auto rounded-3xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8 space-y-5 shadow-sm';
 
-export default function FinanceEngine({toolSlug,toolName}:{toolSlug:string;toolName:string}){
- const [a,setA]=useState('5000'),[b,setB]=useState('12'),[c,setC]=useState('10'),[d,setD]=useState('1');
- const out=useMemo(()=>{const p=n(a),r=n(b),t=n(c),x=n(d);try{
-  if(toolSlug==='sip-calculator'){const i=r/1200,m=Math.max(0,Math.floor(t*12));const fv=i===0?p*m:p*((Math.pow(1+i,m)-1)/i)*(1+i);return [['Invested',money(p*m)],['Estimated returns',money(fv-p*m)],['Future value',money(fv)]];}
-  if(toolSlug==='emi-calculator'){const months=Math.max(1,Math.floor(t*12));const rate=r/1200;const emi=rate===0?p/months:p*rate*Math.pow(1+rate,months)/(Math.pow(1+rate,months)-1);return [['Monthly EMI',money(emi)],['Total payment',money(emi*months)],['Total interest',money(emi*months-p)]];}
-  if(toolSlug==='lumpsum-calculator'){const years=Math.max(0,t);const fv=p*Math.pow(1+r/100,years);return [['Invested',money(p)],['Estimated returns',money(fv-p)],['Future value',money(fv)]];}
-  if(toolSlug==='gst-calculator'){const gst=Math.max(0,b)/100;const inclusive=x===1;const base=inclusive?p/(1+gst):p;const tax=base*gst;return [['Base amount',money(base)],['GST',money(tax)],['Total',money(base+tax)]];}
-  if(toolSlug==='salary-calculator'){const gross=p;const deductions=Math.max(0,r);return [['Gross monthly',money(gross)],['Deductions',money(deductions)],['Estimated in-hand',money(Math.max(0,gross-deductions))]];}
-  if(toolSlug==='fd-calculator'){const years=Math.max(0,t);const fv=p*Math.pow(1+r/400,4*years);return [['Principal',money(p)],['Interest',money(fv-p)],['Maturity',money(fv)]];}
-  if(toolSlug==='rd-calculator'){const months=Math.max(0,Math.floor(t*12));const monthly=p;const rate=r/400;let fv=0;for(let k=1;k<=months;k++)fv+=monthly*Math.pow(1+rate,months-k+1);return [['Deposits',money(monthly*months)],['Interest',money(fv-monthly*months)],['Maturity',money(fv)]];}
-  if(toolSlug==='retirement-calculator'){const current=p,annualReturn=r/100,years=Math.max(1,t);const future= current*Math.pow(1+annualReturn,years);const inflation=x/100;const futureMonthly=current*Math.pow(1+inflation,years);return [['Current monthly need',money(current)],['Inflation-adjusted monthly need',money(futureMonthly)],['Future value of current savings',money(future)]];}
-  return [];
- }catch{return []}},[toolSlug,a,b,c,d]);
- const labels=toolSlug==='gst-calculator'?['Amount','GST rate %','Mode (0=exclusive, 1=inclusive)']:toolSlug==='salary-calculator'?['Gross monthly salary','Deductions','Unused']:toolSlug==='fd-calculator'||toolSlug==='rd-calculator'?['Principal / monthly deposit','Annual interest %','Tenure (years)']:toolSlug==='retirement-calculator'?['Current monthly need','Annual return %','Years','Inflation %']:toolSlug==='emi-calculator'?['Loan amount','Annual interest %','Tenure (years)']:['Investment amount','Annual return %','Years'];
- return <div className={card}><h3 className="text-lg font-bold">{toolName}</h3><div className="grid sm:grid-cols-2 gap-3">{[a,b,c].map((v,i)=><label key={i} className="text-xs font-semibold text-zinc-500">{labels[i]}<input className={input+' mt-1'} type="number" value={v} onChange={e=>[setA,setB,setC][i](e.target.value)}/></label>)}{toolSlug==='retirement-calculator'&&<label className="text-xs font-semibold text-zinc-500">{labels[3]}<input className={input+' mt-1'} type="number" value={d} onChange={e=>setD(e.target.value)}/></label>}</div><div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-5 space-y-3">{out.map(([k,v])=><div key={k} className="flex justify-between gap-4 text-sm"><span className="text-zinc-500">{k}</span><strong>{v}</strong></div>)}</div><p className="text-[11px] text-zinc-400">Estimates only; actual bank, tax, investment, and retirement outcomes can differ.</p></div>;
+const input =
+  'w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950 px-4 py-3 text-sm text-zinc-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-violet-500';
+
+const money = (value: number) =>
+  `₹${
+    Number.isFinite(value)
+      ? value.toLocaleString('en-IN', {
+          maximumFractionDigits: 2,
+        })
+      : '0'
+  }`;
+
+const numberValue = (value: string) => {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : 0;
+};
+
+type ResultRow = [string, string];
+
+export default function FinanceEngine({
+  toolSlug,
+  toolName,
+}: {
+  toolSlug: string;
+  toolName: string;
+}) {
+  const [a, setA] = useState<string>('5000');
+  const [b, setB] = useState<string>('12');
+  const [c, setC] = useState<string>('10');
+  const [d, setD] = useState<string>('1');
+
+  const out = useMemo<ResultRow[]>(() => {
+    const p = numberValue(a);
+    const r = numberValue(b);
+    const t = numberValue(c);
+    const x = numberValue(d);
+
+    try {
+      if (toolSlug === 'sip-calculator') {
+        const monthlyRate = r / 1200;
+        const months = Math.max(0, Math.floor(t * 12));
+
+        const futureValue =
+          monthlyRate === 0
+            ? p * months
+            : p *
+              ((Math.pow(1 + monthlyRate, months) - 1) /
+                monthlyRate) *
+              (1 + monthlyRate);
+
+        const invested = p * months;
+
+        return [
+          ['Invested', money(invested)],
+          ['Estimated returns', money(futureValue - invested)],
+          ['Future value', money(futureValue)],
+        ];
+      }
+
+      if (toolSlug === 'emi-calculator') {
+        const months = Math.max(1, Math.floor(t * 12));
+        const monthlyRate = r / 1200;
+
+        const emi =
+          monthlyRate === 0
+            ? p / months
+            : (p *
+                monthlyRate *
+                Math.pow(1 + monthlyRate, months)) /
+              (Math.pow(1 + monthlyRate, months) - 1);
+
+        const totalPayment = emi * months;
+
+        return [
+          ['Monthly EMI', money(emi)],
+          ['Total payment', money(totalPayment)],
+          ['Total interest', money(totalPayment - p)],
+        ];
+      }
+
+      if (toolSlug === 'lumpsum-calculator') {
+        const years = Math.max(0, t);
+
+        const futureValue =
+          p * Math.pow(1 + r / 100, years);
+
+        return [
+          ['Invested', money(p)],
+          ['Estimated returns', money(futureValue - p)],
+          ['Future value', money(futureValue)],
+        ];
+      }
+
+      if (toolSlug === 'gst-calculator') {
+        const gstRate = Math.max(0, r) / 100;
+        const inclusive = x === 1;
+
+        const baseAmount = inclusive
+          ? p / (1 + gstRate)
+          : p;
+
+        const gstAmount = baseAmount * gstRate;
+        const totalAmount = baseAmount + gstAmount;
+
+        return [
+          ['Base amount', money(baseAmount)],
+          ['GST', money(gstAmount)],
+          ['Total', money(totalAmount)],
+        ];
+      }
+
+      if (toolSlug === 'salary-calculator') {
+        const grossMonthly = p;
+        const deductions = Math.max(0, r);
+        const inHand = Math.max(
+          0,
+          grossMonthly - deductions
+        );
+
+        return [
+          ['Gross monthly', money(grossMonthly)],
+          ['Deductions', money(deductions)],
+          ['Estimated in-hand', money(inHand)],
+        ];
+      }
+
+      if (toolSlug === 'fd-calculator') {
+        const years = Math.max(0, t);
+
+        const maturity =
+          p * Math.pow(1 + r / 400, 4 * years);
+
+        return [
+          ['Principal', money(p)],
+          ['Interest', money(maturity - p)],
+          ['Maturity', money(maturity)],
+        ];
+      }
+
+      if (toolSlug === 'rd-calculator') {
+        const months = Math.max(
+          0,
+          Math.floor(t * 12)
+        );
+
+        const monthlyDeposit = p;
+        const quarterlyRate = r / 400;
+
+        let maturity = 0;
+
+        for (let month = 1; month <= months; month++) {
+          maturity +=
+            monthlyDeposit *
+            Math.pow(
+              1 + quarterlyRate,
+              (months - month + 1) / 3
+            );
+        }
+
+        const deposits = monthlyDeposit * months;
+
+        return [
+          ['Deposits', money(deposits)],
+          ['Interest', money(maturity - deposits)],
+          ['Maturity', money(maturity)],
+        ];
+      }
+
+      if (toolSlug === 'retirement-calculator') {
+        const currentMonthlyNeed = p;
+        const annualReturn = r / 100;
+        const years = Math.max(1, t);
+        const inflation = x / 100;
+
+        const futureSavings =
+          currentMonthlyNeed *
+          Math.pow(1 + annualReturn, years);
+
+        const inflationAdjustedNeed =
+          currentMonthlyNeed *
+          Math.pow(1 + inflation, years);
+
+        return [
+          [
+            'Current monthly need',
+            money(currentMonthlyNeed),
+          ],
+          [
+            'Inflation-adjusted monthly need',
+            money(inflationAdjustedNeed),
+          ],
+          [
+            'Future value of current savings',
+            money(futureSavings),
+          ],
+        ];
+      }
+
+      return [];
+    } catch {
+      return [];
+    }
+  }, [toolSlug, a, b, c, d]);
+
+  const labels: string[] =
+    toolSlug === 'gst-calculator'
+      ? [
+          'Amount',
+          'GST rate %',
+          'Mode (0 = exclusive, 1 = inclusive)',
+        ]
+      : toolSlug === 'salary-calculator'
+        ? [
+            'Gross monthly salary',
+            'Deductions',
+            'Unused',
+          ]
+        : toolSlug === 'fd-calculator' ||
+            toolSlug === 'rd-calculator'
+          ? [
+              'Principal / monthly deposit',
+              'Annual interest %',
+              'Tenure (years)',
+            ]
+          : toolSlug === 'retirement-calculator'
+            ? [
+                'Current monthly need',
+                'Annual return %',
+                'Years',
+                'Inflation %',
+              ]
+            : toolSlug === 'emi-calculator'
+              ? [
+                  'Loan amount',
+                  'Annual interest %',
+                  'Tenure (years)',
+                ]
+              : [
+                  'Investment amount',
+                  'Annual return %',
+                  'Years',
+                ];
+
+  const values: string[] = [a, b, c];
+
+  const setters: Array<
+    React.Dispatch<React.SetStateAction<string>>
+  > = [setA, setB, setC];
+
+  return (
+    <div className={card}>
+      <h3 className="text-lg font-bold">
+        {toolName}
+      </h3>
+
+      <div className="grid sm:grid-cols-2 gap-3">
+        {values.map((value, index) => (
+          <label
+            key={index}
+            className="text-xs font-semibold text-zinc-500"
+          >
+            {labels[index]}
+
+            <input
+              className={input + ' mt-1'}
+              type="number"
+              value={value}
+              onChange={(event) =>
+                setters[index](event.target.value)
+              }
+            />
+          </label>
+        ))}
+
+        {toolSlug === 'retirement-calculator' && (
+          <label className="text-xs font-semibold text-zinc-500">
+            {labels[3]}
+
+            <input
+              className={input + ' mt-1'}
+              type="number"
+              value={d}
+              onChange={(event) =>
+                setD(event.target.value)
+              }
+            />
+          </label>
+        )}
+      </div>
+
+      <div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-5 space-y-3">
+        {out.map(([label, value]) => (
+          <div
+            key={label}
+            className="flex justify-between gap-4 text-sm"
+          >
+            <span className="text-zinc-500">
+              {label}
+            </span>
+
+            <strong>{value}</strong>
+          </div>
+        ))}
+
+        {out.length === 0 && (
+          <div className="text-sm text-zinc-500">
+            Enter values to calculate.
+          </div>
+        )}
+      </div>
+
+      <p className="text-[11px] text-zinc-400">
+        Estimates only; actual bank, tax, investment,
+        and retirement outcomes can differ.
+      </p>
+    </div>
+  );
 }
