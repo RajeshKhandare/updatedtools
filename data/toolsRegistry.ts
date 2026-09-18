@@ -55,7 +55,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Protect PDF with Password',
     slug: 'protect-pdf-password',
     category: 'PDF',
-    description: 'Add secure password protection and encryption to your private PDF documents.',
+    description: 'Add password protection to supported PDF documents using PDF encryption features.',
     targetKeyword: 'Protect PDF with Password',
   },
   {
@@ -90,7 +90,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'PDF to Word Converter',
     slug: 'pdf-to-word',
     category: 'PDF',
-    description: 'Convert PDF files into editable DOCX Word format without losing text structure.',
+    description: 'Convert PDF files into editable DOCX Word format where the source content is supported.',
     targetKeyword: 'PDF to Word Converter',
   },
   {
@@ -123,13 +123,13 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
   },
 
   // ==========================================
-  // 2. IMAGE TOOLS (12 Complete Tools)
+  // 2. IMAGE TOOLS (14 Complete Tools)
   // ==========================================
   {
     name: 'Compress Image Online',
     slug: 'compress-image',
     category: 'Image',
-    description: 'Compress PNG, JPEG, and WebP files down to target KB size with zero quality loss.',
+    description: 'Compress PNG, JPEG, and WebP files to reduce file size while balancing output quality.',
     targetKeyword: 'Compress Image Online',
   },
   {
@@ -171,7 +171,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'JPG to PNG Converter',
     slug: 'jpg-to-png-converter',
     category: 'Image',
-    description: 'Convert JPEG/JPG pictures to lossless PNG image format with zero compression artifacts.',
+    description: 'Convert JPEG/JPG pictures to PNG format for workflows that need a lossless output format.',
     targetKeyword: 'JPG to PNG Converter',
   },
   {
@@ -354,7 +354,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'UUID Generator',
     slug: 'uuid-guid-v4-generator',
     category: 'Developer',
-    description: 'Generate cryptographically secure v4 random UUIDs in bulk.',
+    description: 'Generate random UUID v4 identifiers in bulk for development and testing.',
     targetKeyword: 'UUID Generator',
   },
   {
@@ -521,7 +521,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
   },
 
   // ==========================================
-  // 7. FINANCIAL UTILITIES (8 Complete Tools)
+  // 7. FINANCIAL UTILITIES (7 Complete Tools)
   // ==========================================
   {
     name: 'SIP Calculator',
@@ -581,7 +581,7 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
   },
 
   // ==========================================
-  // 8. CALCULATORS (8 Complete Tools)
+  // 8. CALCULATORS (9 Complete Tools)
   // ==========================================
   {
     name: 'Compound Interest Calculator',
@@ -654,21 +654,21 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'YouTube Tag Generator',
     slug: 'youtube-tag-generator',
     category: 'YouTube',
-    description: 'Generate high-ranking viral SEO tags and keywords for your YouTube video uploads.',
+    description: 'Generate relevant YouTube tags and keyword ideas to help organize and optimize video metadata.',
     targetKeyword: 'YouTube Tag Generator',
   },
   {
     name: 'YouTube Title Generator',
     slug: 'youtube-title-generator',
     category: 'YouTube',
-    description: 'Create high-CTR click-worthy titles for YouTube video content and shorts.',
+    description: 'Generate YouTube title ideas tailored to video topics, formats, and audience intent.',
     targetKeyword: 'YouTube Title Generator',
   },
   {
     name: 'YouTube Money Calculator',
     slug: 'youtube-money-calculator',
     category: 'YouTube',
-    description: 'Estimate estimated ad revenue and RPM earnings based on monthly channel views.',
+    description: 'Estimate potential YouTube ad revenue from views and RPM assumptions; actual earnings vary by channel and audience.',
     targetKeyword: 'YouTube Money Calculator',
   },
 ];
