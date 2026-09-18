@@ -44,9 +44,39 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
     if (langKey === 'sql') {
       setIsRunning(true); setOutput('Running SQL locally...');
       try {
-        const initSqlJs = (await import('sql.js')).default;
-        const SQL = await initSqlJs({ locateFile: (file:string) => `/${file}` });
-        const db = new SQL.Database();
+        const initSqlJs =
+          (await import('sql.js')).default;
+
+        let wasmUrl =
+          '/sql-wasm.wasm';
+
+        try {
+          const probe =
+            await fetch(
+              wasmUrl,
+              {
+                method: 'HEAD',
+                cache: 'no-store',
+              }
+            );
+
+          if (!probe.ok) {
+            wasmUrl =
+              'https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/sql-wasm.wasm';
+          }
+        } catch {
+          wasmUrl =
+            'https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/sql-wasm.wasm';
+        }
+
+        const SQL =
+          await initSqlJs({
+            locateFile: () =>
+              wasmUrl,
+          });
+
+        const db =
+          new SQL.Database();
         const statements = code.split(/;(?=(?:[^']*'[^']*')*[^']*$)/).map(s=>s.trim()).filter(Boolean);
         const rows:string[]=[];
         for (const statement of statements) {
