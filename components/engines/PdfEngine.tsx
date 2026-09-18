@@ -155,9 +155,6 @@ async function pdfToDocx(file: File) {
   pdfjs.GlobalWorkerOptions.workerSrc =
     '/pdf.worker.min.mjs';
 
-  pdfjs.GlobalWorkerOptions.workerSrc =
-    'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
-
   const data = new Uint8Array(
     await file.arrayBuffer()
   );
