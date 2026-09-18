@@ -23,6 +23,7 @@ export const metadata:Metadata={
 
 export default function RootLayout({children}:{children:React.ReactNode}){
   const org={'@context':'https://schema.org','@type':'Organization',name:SITE_NAME,url:SITE_URL};
+  const adsenseClientId=process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
   const siteSchema={'@context':'https://schema.org','@type':'WebSite',name:SITE_NAME,url:SITE_URL,potentialAction:{'@type':'SearchAction',target:SITE_URL+'/?q={search_term_string}','query-input':'required name=search_term_string'}};
-  return <html lang="en" className={'scroll-smooth '+jakarta.variable}><body className="font-sans antialiased bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 selection:bg-violet-100 selection:text-violet-900"><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(org)}}/><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(siteSchema)}}/>{children}</body></html>;
+  return <html lang="en" className={'scroll-smooth '+jakarta.variable}><body className="font-sans antialiased bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 selection:bg-violet-100 selection:text-violet-900"><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(org)}}/>{adsenseClientId&&<script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`} crossOrigin="anonymous"/>}<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(siteSchema)}}/>{children}</body></html>;
 }
