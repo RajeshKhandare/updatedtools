@@ -934,33 +934,55 @@ export default function PdfEngine({
           );
         }
 
-        const merged =
-          await PDFDocument.create();
+        const form =
+          new FormData();
 
-        for (
-          const file of files
-        ) {
-          const source =
-            await PDFDocument.load(
-              await file.arrayBuffer()
-            );
+        files.forEach(
+          (file) =>
+            form.append(
+              'files',
+              file
+            )
+        );
 
-          const pages =
-            await merged.copyPages(
-              source,
-              source.getPageIndices()
-            );
+        const response =
+          await fetch(
+            '/api/merge-pdf',
+            {
+              method: 'POST',
+              body: form,
+            }
+          );
 
-          pages.forEach(
-            (page) =>
-              merged.addPage(page)
+        if (!response.ok) {
+          let message =
+            'PDF merge failed.';
+
+          try {
+            const data =
+              await response.json();
+
+            if (
+              data &&
+              typeof data.error ===
+                'string'
+            ) {
+              message =
+                data.error;
+            }
+          } catch {
+            // Keep the generic error.
+          }
+
+          throw new Error(
+            message
           );
         }
 
         setOutput(
-          await merged.save({
-            useObjectStreams: true,
-          })
+          new Uint8Array(
+            await response.arrayBuffer()
+          )
         );
 
         return;
