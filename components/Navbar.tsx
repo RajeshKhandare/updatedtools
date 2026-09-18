@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { Sparkles, Sun, Moon, ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
 import LanguageSelector from '@/components/LanguageSelector';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
+import { SITE_NAME } from '@/config/site';
 
 // Category mapping aligned with Homepage categories
 const CATEGORIES_CONFIG = [
@@ -66,7 +67,7 @@ export default function Navbar() {
           </div>
           <div>
             <span className="text-base font-black tracking-tight text-zinc-950 dark:text-white">
-              TheTools<span className="text-violet-600 dark:text-violet-400">Genie</span>
+              {SITE_NAME}
             </span>
             <span className="hidden sm:block text-[9px] font-bold uppercase tracking-widest text-zinc-400">
               Utility Suite
