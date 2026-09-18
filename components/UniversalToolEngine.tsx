@@ -4,10 +4,11 @@ import React, { useMemo, useState } from 'react';
 import { Check, Copy, Download, RefreshCw } from 'lucide-react';
 import { ToolMeta } from '@/data/toolsRegistry';
 
-const card='w-full max-w-4xl mx-auto rounded-3xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8 space-y-5 shadow-sm';
-const input='w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950 px-4 py-3 text-sm text-zinc-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-violet-500';
-const button='rounded-xl bg-violet-600 px-5 py-2.5 text-xs font-bold text-white hover:bg-violet-700 disabled:opacity-50';
-const secondary='rounded-xl border border-zinc-200 dark:border-zinc-800 px-4 py-2.5 text-xs font-semibold';
+const card='relative w-full max-w-5xl mx-auto overflow-hidden rounded-[28px] border border-zinc-200/80 dark:border-white/10 bg-white/95 dark:bg-zinc-900/90 p-5 sm:p-7 lg:p-8 space-y-6 shadow-[0_24px_80px_-36px_rgba(0,0,0,0.55)] backdrop-blur-xl';
+const input='w-full rounded-2xl border border-zinc-200/90 dark:border-white/10 bg-zinc-50/80 dark:bg-zinc-950/80 px-4 py-3.5 text-sm text-zinc-900 dark:text-white shadow-sm outline-none transition-all duration-200 placeholder:text-zinc-400 focus:border-violet-500/70 focus:ring-4 focus:ring-violet-500/10 focus:bg-white dark:focus:bg-zinc-950';
+const button='inline-flex items-center justify-center gap-2 rounded-2xl bg-violet-600 px-5 py-3 text-xs font-bold text-white shadow-lg shadow-violet-600/20 transition-all duration-200 hover:-translate-y-0.5 hover:bg-violet-500 hover:shadow-violet-600/30 active:translate-y-0 disabled:opacity-50';
+const secondary='inline-flex items-center justify-center gap-2 rounded-2xl border border-zinc-200/90 dark:border-white/10 bg-white/70 dark:bg-zinc-900/70 px-4 py-3 text-xs font-semibold text-zinc-700 dark:text-zinc-200 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-violet-400/50 hover:bg-violet-50 dark:hover:bg-violet-950/30 active:translate-y-0';
+const resultPanel='rounded-2xl border border-zinc-200/80 dark:border-white/10 bg-zinc-50/80 dark:bg-zinc-950/80 p-5 shadow-inner';
 
 function n(v:string,f=0){
   const x=Number(v);
@@ -180,7 +181,7 @@ function Converter({slug}:{slug:string}){
         </select>
       </div>
 
-      <div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-5">
+      <div className="resultPanel">
         <div className="text-xs text-zinc-500">Result</div>
         <div className="text-2xl font-bold mt-1">
           {fmt(result)} {to}
@@ -1010,7 +1011,7 @@ Per person: ${fmt(total/people)}`;
           )
       }
 
-      <div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-5">
+      <div className="resultPanel">
         <pre className="text-sm whitespace-pre-wrap">{out}</pre>
       </div>
     </div>
@@ -1082,7 +1083,7 @@ function YouTube({slug}:{slug:string}){
       </button>
 
       {result&&(
-        <pre className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-5 text-sm whitespace-pre-wrap">
+        <pre className="resultPanel text-sm whitespace-pre-wrap">
           {result}
         </pre>
       )}
@@ -1154,7 +1155,7 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
           </button>
 
           {revenue&&(
-            <div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-5 text-lg font-bold">
+            <div className="resultPanel text-lg font-bold">
               {revenue}
             </div>
           )}
