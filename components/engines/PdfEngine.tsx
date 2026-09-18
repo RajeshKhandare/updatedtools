@@ -59,7 +59,7 @@ async function renderPdf(
   );
 
   pdfjs.GlobalWorkerOptions.workerSrc =
-    'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
+    '/pdf.worker.min.mjs';
 
   const data = new Uint8Array(
     await file.arrayBuffer()
@@ -151,6 +151,9 @@ async function pdfToDocx(file: File) {
   const pdfjs: any = await import(
     'pdfjs-dist/legacy/build/pdf.mjs'
   );
+
+  pdfjs.GlobalWorkerOptions.workerSrc =
+    '/pdf.worker.min.mjs';
 
   pdfjs.GlobalWorkerOptions.workerSrc =
     'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
