@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { Zap, ShieldCheck, Heart, Sparkles, ArrowRight } from 'lucide-react';
 import { SITE_NAME, SITE_URL } from '@/config/site';
 
-export const metadata:Metadata={title:'About {SITE_NAME} | Free Browser-Based Online Tools',description:'Learn about TheToolsGenie, its browser-based architecture, and its free online tools for everyday digital tasks.',alternates:{canonical:'`${SITE_URL}/about`'}};
+export const metadata: Metadata = { title: SITE_NAME + ' | About | Free Browser-Based Online Tools', description: 'Learn about ' + SITE_NAME + ', its browser-based architecture, and its free online tools for everyday digital tasks.', alternates: { canonical: SITE_URL + '/about' } };
 
 export default function AboutPage() {
   return (
