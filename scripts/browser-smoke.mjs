@@ -200,8 +200,7 @@ async function testPdf(page, slug, fixtures, state) {
       'input[type="file"]'
     ).evaluate(
       (input) =>
-        (input as HTMLInputElement)
-          .files?.length ?? 0
+        input.files?.length ?? 0
     );
 
   assert(
