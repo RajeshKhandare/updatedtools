@@ -30,7 +30,7 @@ import {
 
 const FAQ_ITEMS = [
   {
-    q: 'Are my uploaded files, photos, or documents safe on {SITE_NAME}?',
+    q: 'Are my uploaded files, photos, or documents safe on ' + SITE_NAME + '?',
     a: 'Most PDF, image, text, converter, and calculator operations run directly in your browser. Compiler tools may use a configured execution runtime, so do not enter passwords, API keys, or other sensitive secrets.'
   },
   {
@@ -433,7 +433,7 @@ function HomeContent() {
                 Ready to Boost Your Digital Productivity?
               </h2>
               <p className="mt-3 text-xs sm:text-sm text-zinc-400 leading-relaxed">
-                Join creators, software engineers, and digital agencies using {SITE_NAME} every day for clean, zero-trace file workflows.
+                Use {SITE_NAME} for everyday digital tasks with a browser-first workflow where supported.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-3">
                 <Link
