@@ -132,7 +132,8 @@ export default function FinanceEngine({
         const gstRate =
           Math.max(0, r) / 100;
 
-        const inclusive = x === 1;
+        const inclusive =
+          Math.round(c) === 1;
 
         const baseAmount = inclusive
           ? p / (1 + gstRate)
