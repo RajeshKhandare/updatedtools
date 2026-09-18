@@ -24,6 +24,7 @@ import {
   ChevronDown,
   HelpCircle,
   Layers,
+  ArrowLeftRight,
 } from 'lucide-react';
 
 const FAQ_ITEMS = [
@@ -104,6 +105,8 @@ function HomeContent() {
       case 'Compiler':
       case 'Developer': return <Code className="h-5 w-5 text-emerald-500 dark:text-emerald-400" />;
       case 'Finance': return <Calculator className="h-5 w-5 text-indigo-500 dark:text-indigo-400" />;
+      case 'Converters': return <ArrowLeftRight className="h-5 w-5 text-cyan-500 dark:text-cyan-400" />;
+      case 'Calculators': return <Calculator className="h-5 w-5 text-amber-500 dark:text-amber-400" />;
       case 'YouTube': return <Video className="h-5 w-5 text-rose-500 dark:text-rose-400" />;
       default: return <Type className="h-5 w-5 text-violet-500" />;
     }
