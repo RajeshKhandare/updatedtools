@@ -1205,19 +1205,25 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
         <Navbar />
 
         {/* Clean Header Without Any Security Pill Badge */}
-        <div className="border-b border-zinc-200/80 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/50 py-8">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-zinc-950 dark:text-white">
+        <div className="relative overflow-hidden border-b border-zinc-200/70 dark:border-white/10 bg-white dark:bg-zinc-950">
+          <div className="absolute inset-0 tool-premium-grid opacity-70 dark:opacity-40" />
+          <div className="absolute -top-24 right-10 h-56 w-56 rounded-full bg-violet-500/10 blur-3xl" />
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 lg:py-14">
+            <div className="inline-flex items-center gap-2 rounded-full border border-violet-200/80 dark:border-violet-400/20 bg-violet-50/80 dark:bg-violet-950/30 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.16em] text-violet-700 dark:text-violet-300">
+              <span className="h-1.5 w-1.5 rounded-full bg-violet-500 shadow-[0_0_10px_rgba(124,58,237,.7)]" />
+              {tool.category} Tool
+            </div>
+            <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black tracking-[-0.03em] text-zinc-950 dark:text-white">
               {tool.name}
             </h1>
-            <p className="mt-1.5 text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 max-w-2xl">
+            <p className="mt-3 text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7">
               {tool.description}
             </p>
           </div>
         </div>
 
         {/* Workspace Runner */}
-        <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+        <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
           {renderEngine()}
 
           {/* Dedicated How-to-use & Architecture Cards */}
