@@ -2,16 +2,64 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const source = path.join(root, 'node_modules', 'sql.js', 'dist', 'sql-wasm.wasm');
-const publicDir = path.join(root, 'public');
-const target = path.join(publicDir, 'sql-wasm.wasm');
+const root = path.resolve(
+  path.dirname(fileURLToPath(import.meta.url)),
+  '..'
+);
 
-if (!fs.existsSync(source)) {
-  console.warn('[sql.js] WASM file not found; skipping copy.');
-  process.exit(0);
+function copyAsset(source, target) {
+  if (!fs.existsSync(source)) {
+    console.warn(
+      '[assets] Source not found; skipping: ' +
+        source
+    );
+    return;
+  }
+
+  fs.mkdirSync(
+    path.dirname(target),
+    { recursive: true }
+  );
+
+  fs.copyFileSync(
+    source,
+    target
+  );
+
+  console.log(
+    '[assets] Copied ' +
+      path.basename(source) +
+      ' to public/.'
+  );
 }
 
-fs.mkdirSync(publicDir, { recursive: true });
-fs.copyFileSync(source, target);
-console.log('[sql.js] Copied sql-wasm.wasm to public/.');
+copyAsset(
+  path.join(
+    root,
+    'node_modules',
+    'sql.js',
+    'dist',
+    'sql-wasm.wasm'
+  ),
+  path.join(
+    root,
+    'public',
+    'sql-wasm.wasm'
+  )
+);
+
+copyAsset(
+  path.join(
+    root,
+    'node_modules',
+    'pdfstudio',
+    'dist',
+    'wasm',
+    'qpdf.wasm'
+  ),
+  path.join(
+    root,
+    'public',
+    'qpdf.wasm'
+  )
+);
