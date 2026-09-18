@@ -51,8 +51,9 @@ const HOME_FAQ_SCHEMA={ '@context':'https://schema.org', '@type':'FAQPage', main
 function HomeContent() {
   const searchParams = useSearchParams();
   const categoryParam = searchParams.get('category');
+  const queryParam = searchParams.get('q') || '';
 
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(queryParam);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
@@ -76,6 +77,10 @@ function HomeContent() {
       }
     }
   }, [categoryParam]);
+
+  useEffect(() => {
+    if (queryParam !== searchQuery) setSearchQuery(queryParam);
+  }, [queryParam]);
 
   // Filter tools based on search query & selected category
   const filteredTools = useMemo(() => {
@@ -136,7 +141,16 @@ function HomeContent() {
           </p>
 
           {/* Search Box */}
-          <div className="mt-8 max-w-xl mx-auto flex items-center gap-2">
+          <form
+            className="mt-8 max-w-xl mx-auto flex items-center gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const params = new URLSearchParams(window.location.search);
+              if (searchQuery.trim()) params.set('q', searchQuery.trim());
+              else params.delete('q');
+              window.history.replaceState(null, '', `?${params.toString()}`);
+            }}
+          >
             <div className="relative flex-1 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-sm">
               <Search className="absolute left-4 top-3.5 h-4 w-4 text-zinc-400" />
               <input
@@ -147,10 +161,10 @@ function HomeContent() {
                 className="w-full bg-transparent py-3 pl-11 pr-4 text-xs focus:outline-none text-zinc-900 dark:text-white placeholder:text-zinc-400"
               />
             </div>
-            <button className="rounded-2xl bg-violet-600 px-6 py-3 text-xs font-bold text-white hover:bg-violet-700 transition-colors shadow-md shadow-violet-500/20">
+            <button type="submit" className="rounded-2xl bg-violet-600 px-6 py-3 text-xs font-bold text-white hover:bg-violet-700 transition-colors shadow-md shadow-violet-500/20">
               Search
             </button>
-          </div>
+          </form>
         </section>
 
         {/* Category Filter Pills & Tools Grid */}
