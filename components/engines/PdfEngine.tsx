@@ -987,8 +987,6 @@ export default function PdfEngine({
 
         return;
       }
-
-      }
     } catch (e) {
       setError(
         e instanceof Error
