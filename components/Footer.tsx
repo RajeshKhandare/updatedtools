@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Sparkles, Heart } from 'lucide-react';
+import { SITE_NAME } from '@/config/site';
 
 export default function Footer() {
   return (
@@ -19,7 +20,7 @@ export default function Footer() {
                 <Sparkles className="h-4 w-4" />
               </div>
               <span className="text-lg font-extrabold tracking-tight text-zinc-950 dark:text-white">
-                TheTools<span className="text-violet-600 dark:text-violet-400">Genie</span>
+                {SITE_NAME}
               </span>
             </Link>
 
@@ -124,7 +125,7 @@ export default function Footer() {
 
         {/* Bottom Sub-footer */}
         <div className="mt-12 border-t border-zinc-100 dark:border-zinc-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-zinc-400 dark:text-zinc-500 gap-3">
-          <p>© {new Date().getFullYear()} TheToolsGenie. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
           <p className="flex items-center gap-1">
             Crafted for speed and privacy
           </p>
