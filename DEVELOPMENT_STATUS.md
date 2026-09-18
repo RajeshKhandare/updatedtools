@@ -1,7 +1,7 @@
 # TheToolGenie — Development Status
 
 ## Current source of truth
-This checkpoint is the consolidated source of truth for the 88-tool registry. GitHub/Vercel deployment verification is intentionally left to the project owner.
+This checkpoint summarizes the current 88-tool registry and production configuration. The public site name/domain remain configurable through environment variables.
 
 ## Tool coverage
 - PDF: 14
@@ -10,8 +10,8 @@ This checkpoint is the consolidated source of truth for the 88-tool registry. Gi
 - Developer: 12
 - Text: 10
 - Converters: 10
-- Finance: 8
-- Calculators: 8
+- Finance: 7
+- Calculators: 9
 - YouTube: 4
 - **Total: 88 unique tools / 88 unique slugs**
 
@@ -20,17 +20,19 @@ This checkpoint is the consolidated source of truth for the 88-tool registry. Gi
 - Python, JavaScript, Java, C++, C#, and PHP use the `/api/execute-code` runtime adapter; the external execution service must be reachable/configured in production.
 - HTML uses a sandboxed iframe preview.
 - SQL uses SQLite/WASM in the browser.
-- Developer, Text, Converter, Calculator, and YouTube tools have tool-specific browser-side operations.
-- Finance tools use dedicated formulas and INR output.
+- Developer, Text, Converter, Calculator, Finance, and YouTube tools have tool-specific operations.
+- Finance tools use dedicated formulas and INR output where applicable.
 
-## Verification performed
-- Registry verification: 88 tools, 88 unique slugs.
-- Dynamic JavaScript execution scan: 0 `eval()` / `new Function()` matches.
-- JavaScript/config syntax checks performed where applicable.
-- Full dependency installation and `next build` were not run in this environment because dependencies were not installed.
+## Verification
+- Registry verification covers all 88 tools and unique slugs.
+- Dynamic JavaScript execution scan checks for `eval()` / `new Function()` patterns.
+- Tool metadata and category-count validation are part of the repository verification script.
+- Vercel reports a successful deployment for the latest SEO/metadata cleanup commit.
 
-## Production configuration to check after deployment
+## Production configuration
+- Set `NEXT_PUBLIC_SITE_NAME` and `NEXT_PUBLIC_SITE_URL` when the final brand/domain is decided.
+- Set `NEXT_PUBLIC_ADSENSE_CLIENT_ID` only after receiving the real Google AdSense publisher/client ID.
 - Confirm the execution API endpoint/service is reachable for compiler tools.
-- Confirm SQL WASM asset is copied to the deployed public path by `postinstall`.
-- Confirm browser-side PDF/Image/QR processing works in the target browser.
-- Test all 88 tool pages once on the deployed Vercel URL.
+- Confirm SQL WASM assets are available in the deployed public path.
+- Test representative PDF/Image/QR processing in the target browsers.
+- Run the 88-tool browser smoke suite against the production deployment.
