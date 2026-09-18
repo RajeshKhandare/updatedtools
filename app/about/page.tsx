@@ -106,7 +106,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">Fast & Accessible</h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  Every tool loads clean and fast on both mobile and desktop. No installation, no account creation, and zero waiting time.
+                  Tools are designed for a clean, responsive experience on modern mobile and desktop browsers, with no installation required.
                 </p>
               </div>
 
@@ -116,7 +116,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">Privacy First</h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  We don&apos;t ask for accounts or store your documents. Work happens directly inside your browser so your data remains yours.
+                  We don&apos;t require accounts for the tool suite. Browser-based processing is used where supported; tools that use an execution runtime are identified in their workflow.
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">Free for Everyone</h3>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  Essential digital utilities should be open to all. Students, creators, and freelancers can use every feature without hidden tiers.
+                  Essential digital utilities should be open to all. Students, creators, and freelancers can access the available tools without a required subscription tier.
                 </p>
               </div>
 
