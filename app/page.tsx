@@ -30,19 +30,19 @@ import {
 const FAQ_ITEMS = [
   {
     q: 'Are my uploaded files, photos, or documents safe on TheToolsGenie?',
-    a: 'Yes, 100%. TheToolsGenie operates purely on client-side memory using HTML5 Canvas, WebAssembly, and local JavaScript workers. Your files never get uploaded to any external server or stored in the cloud.',
+    a: 'Most PDF, image, text, converter, and calculator operations run directly in your browser. Compiler tools may use a configured execution runtime, so do not enter passwords, API keys, or other sensitive secrets.'
   },
   {
     q: 'Are there any hidden costs, credits, or file-size subscriptions?',
-    a: 'None at all. All 88 tools across PDF, Image, Code, and Finance categories are completely unrestricted, free forever, and require no account registration or payment details.',
+    a: 'There is no paid account requirement for the current tool suite. Browser memory, device performance, file-size, or third-party runtime limits can still apply depending on the tool.'
   },
   {
     q: 'Can I use these developer and utility tools on mobile devices?',
-    a: 'Absolutely. Every tool is optimized with responsive mobile viewports and lightweight execution, allowing you to compress, convert, or calculate directly on your smartphone browser.',
+    a: 'The interface is responsive and designed for modern desktop and mobile browsers. Performance can vary on phones and tablets, especially for large files or compute-heavy tools.'
   },
   {
     q: 'Why are operations faster here compared to other online utility suites?',
-    a: 'Traditional platforms require sending multi-megabyte files over the internet to a server queue and waiting for processing. We eliminate network overhead by executing the code directly on your device CPU and RAM.',
+    a: 'Browser-based tools can avoid upload queues by processing supported operations locally. Tools that rely on a configured execution runtime may work differently.'
   },
 ];
 
@@ -244,10 +244,10 @@ function HomeContent() {
               Frictionless Workflow
             </span>
             <h2 className="mt-2 text-2xl sm:text-3xl font-extrabold text-zinc-900 dark:text-white tracking-tight">
-              Three Steps. Zero Waiting Time.
+              Three Steps. Simple Browser Workflow.
             </h2>
             <p className="mt-2 text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
-              No account creation, no subscription cards, and no server roundtrips.
+              No account creation or subscription cards for the current suite; processing depends on the individual tool.
             </p>
           </div>
 
@@ -274,9 +274,9 @@ function HomeContent() {
                 </span>
                 <Cpu className="h-5 w-5 text-violet-600 dark:text-violet-400" />
               </div>
-              <h3 className="text-base font-bold text-zinc-950 dark:text-white">Direct Local Execution</h3>
+              <h3 className="text-base font-bold text-zinc-950 dark:text-white">Process & Get Results</h3>
               <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                Drop your assets into the canvas. Processing runs purely inside your browser memory with zero data transferred outside your machine.
+                Many tools process inputs directly in your browser. Tools that use an execution runtime are clearly subject to that runtime's processing model.
               </p>
             </div>
 
@@ -307,10 +307,10 @@ function HomeContent() {
                 <ShieldCheck className="h-3.5 w-3.5" /> Client-Side Architecture
               </span>
               <h2 className="mt-4 text-2xl sm:text-3xl font-extrabold text-zinc-900 dark:text-white tracking-tight">
-                Engineered for Complete Privacy & Zero Latency
+                Built for Fast, Privacy-Aware Browser Processing
               </h2>
               <p className="mt-2 text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
-                Unlike traditional tool websites that upload your confidential files to remote servers, TheToolsGenie executes every algorithm directly inside your browser.
+                Many tools are designed for local browser processing, reducing the need to upload supported files to a remote server. Compiler tools may use a configured execution runtime.
               </p>
             </div>
 
@@ -320,10 +320,10 @@ function HomeContent() {
                   <Lock className="h-5 w-5" />
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">
-                  100% In-Browser Privacy
+                  Browser-First Privacy
                 </h3>
                 <p className="mt-1.5 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  Your PDF documents, photos, and code snippets never leave your computer or touch our servers. Everything processes entirely inside your local device RAM.
+                  Supported PDF, image, text, converter, and calculator operations can process locally in your browser. Compiler tools can use an execution runtime, so sensitive secrets should never be entered.
                 </p>
               </div>
 
@@ -332,10 +332,10 @@ function HomeContent() {
                   <Zap className="h-5 w-5" />
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">
-                  Zero Upload Queues
+                  Local Processing Where Supported
                 </h3>
                 <p className="mt-1.5 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  No uploading delays or server queue bottlenecks. Conversions and compressions render at lightning-fast native speeds utilizing WebAssembly and HTML5 Canvas.
+                  Supported conversions and browser tools can run without an upload queue, using browser APIs and WebAssembly where applicable.
                 </p>
               </div>
 
@@ -344,10 +344,10 @@ function HomeContent() {
                   <Cpu className="h-5 w-5" />
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">
-                  Unlimited & Free Forever
+                  Free to Use
                 </h3>
                 <p className="mt-1.5 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  Because computational load is handled client-side on your browser, there are no artificial file size limits, daily usage caps, or subscription paywalls.
+                  The current suite does not require a paid account. Practical limits can depend on browser memory, device performance, file size, or an external execution runtime.
                 </p>
               </div>
             </div>
@@ -358,12 +358,12 @@ function HomeContent() {
                 <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Active Utilities</p>
               </div>
               <div>
-                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">0ms</p>
-                <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Server Latency</p>
+                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">Local</p>
+                <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Browser Processing</p>
               </div>
               <div>
-                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">100%</p>
-                <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Client-Side Privacy</p>
+                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">Local</p>
+                <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Where Supported</p>
               </div>
               <div>
                 <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">$0</p>
