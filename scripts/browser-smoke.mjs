@@ -191,6 +191,10 @@ async function testPdf(page, slug, fixtures, state) {
             }
   );
 
+  // Give React a render tick after file selection so
+  // the Run button sees the updated File state.
+  await page.waitForTimeout(500);
+
   const inputs = page.locator(
     'input:not([type="file"])'
   );
