@@ -866,39 +866,81 @@ Per person: ${fmt(total/people)}`;
 
       {slug==='age-calculator'
         ? (
-          <input
-            className={input}
-            type="date"
-            value={date}
-            onChange={e=>setDate(e.target.value)}
-          />
+          <div>
+            <label className="mb-2 block text-xs font-medium text-zinc-500">
+              Date of Birth
+            </label>
+            <input
+              className={input}
+              type="date"
+              value={date}
+              onChange={e=>setDate(e.target.value)}
+            />
+          </div>
         )
         : slug==='scientific-calculator'
           ? (
-            <input
-              className={input}
-              value={expr}
-              onChange={e=>setExpr(e.target.value)}
-              placeholder="Example: sqrt(25) + 2^3"
-            />
+            <div>
+              <label className="mb-2 block text-xs font-medium text-zinc-500">
+                Mathematical Expression
+              </label>
+              <input
+                className={input}
+                value={expr}
+                onChange={e=>setExpr(e.target.value)}
+                placeholder="Example: sqrt(25) + 2^3"
+              />
+            </div>
           )
           : (
-            <div className="grid sm:grid-cols-2 gap-3">
-              <input
-                className={input}
-                type="number"
-                value={a}
-                onChange={e=>setA(e.target.value)}
-                placeholder={slug==='sip-wealth-calculator'?'Monthly SIP':slug==='bmi-calculator'?'Weight (kg)':'Value'}
-              />
+            <div className="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label className="mb-2 block text-xs font-medium text-zinc-500">
+                  {slug==='sip-wealth-calculator'
+                    ? 'Monthly SIP Investment'
+                    : slug==='bmi-calculator'
+                      ? 'Weight (kg)'
+                      : slug==='compound-interest-calculator'
+                        ? 'Principal Amount'
+                        : slug==='simple-interest-calculator'
+                          ? 'Principal Amount'
+                          : slug==='percentage-calculator'
+                            ? 'Value'
+                            : slug==='discount-calculator'
+                              ? 'Original Price'
+                              : 'Bill Amount'}
+                </label>
+                <input
+                  className={input}
+                  type="number"
+                  value={a}
+                  onChange={e=>setA(e.target.value)}
+                  placeholder={slug==='sip-wealth-calculator'?'e.g. 1000':slug==='bmi-calculator'?'e.g. 70':'Enter amount'}
+                />
+              </div>
 
-              <input
-                className={input}
-                type="number"
-                value={b}
-                onChange={e=>setB(e.target.value)}
-                placeholder={slug==='sip-wealth-calculator'?'Annual return %':slug==='bmi-calculator'?'Height (cm)':'Rate / value'}
-              />
+              <div>
+                <label className="mb-2 block text-xs font-medium text-zinc-500">
+                  {slug==='sip-wealth-calculator'
+                    ? 'Expected Annual Return (%)'
+                    : slug==='bmi-calculator'
+                      ? 'Height (cm)'
+                      : slug==='percentage-calculator'
+                        ? 'Total / Reference Value'
+                        : slug==='tip-calculator'
+                          ? 'Tip Percentage (%)'
+                          : slug==='discount-calculator'
+                            ? 'Discount (%)'
+                            : 'Annual Interest Rate (%)'}
+                </label>
+                <input
+                  className={input}
+                  type="number"
+                  value={b}
+                  onChange={e=>setB(e.target.value)}
+                  placeholder={slug==='sip-wealth-calculator'?'e.g. 12':slug==='bmi-calculator'?'e.g. 170':'Enter percentage or rate'}
+                />
+              </div>
 
               {[
                 'sip-wealth-calculator',
@@ -908,22 +950,38 @@ Per person: ${fmt(total/people)}`;
                 'tip-calculator'
               ].includes(slug)&&(
                 <>
-                  <input
-                    className={input}
-                    type="number"
-                    value={c}
-                    onChange={e=>setC(e.target.value)}
-                    placeholder={slug==='sip-wealth-calculator'?'Years':slug==='tip-calculator'?'People':'Years / tax'}
-                  />
-
-                  {slug==='compound-interest-calculator'&&(
+                  <div>
+                    <label className="mb-2 block text-xs font-medium text-zinc-500">
+                      {slug==='sip-wealth-calculator'
+                        ? 'Investment Period (Years)'
+                        : slug==='tip-calculator'
+                          ? 'Number of People'
+                          : slug==='discount-calculator'
+                            ? 'Tax (%)'
+                            : 'Time Period (Years)'}
+                    </label>
                     <input
                       className={input}
                       type="number"
-                      value={d}
-                      onChange={e=>setD(e.target.value)}
-                      placeholder="Compounds per year"
+                      value={c}
+                      onChange={e=>setC(e.target.value)}
+                      placeholder={slug==='tip-calculator'?'e.g. 2':'Enter value'}
                     />
+                  </div>
+
+                  {slug==='compound-interest-calculator'&&(
+                    <div>
+                      <label className="mb-2 block text-xs font-medium text-zinc-500">
+                        Compounding Frequency (per year)
+                      </label>
+                      <input
+                        className={input}
+                        type="number"
+                        value={d}
+                        onChange={e=>setD(e.target.value)}
+                        placeholder="e.g. 12"
+                      />
+                    </div>
                   )}
                 </>
               )}
@@ -936,6 +994,7 @@ Per person: ${fmt(total/people)}`;
       </div>
     </div>
   );
+
 }
 
 function YouTube({slug}:{slug:string}){
