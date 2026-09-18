@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://updatedtools-8kbg.vercel.app';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://thetoolgenie.com';
+
+export function generateStaticParams() {
+  return TOOLS_REGISTRY.map((tool) => ({ slug: tool.slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -18,19 +22,19 @@ export async function generateMetadata({
   }
 
   const keyword = tool.targetKeyword || tool.name;
-  const title = `${tool.name} | TheToolGenie`;
-  const description = `${tool.description} Free online ${keyword.toLowerCase()} with no account required.`;
+  const title = `${tool.name} - Free Online ${tool.category} Tool | TheToolsGenie`;
+  const description = `${tool.description} Use this free online ${keyword.toLowerCase()} tool in your browser with no account required.`;
 
   return {
     title,
     description,
-    keywords: [keyword, `${keyword} online`, `free ${keyword.toLowerCase()}`],
+    keywords: [keyword, `${keyword} online`, `free ${keyword.toLowerCase()}`, `${tool.category} tools`, `${tool.name} free`],
     alternates: { canonical: `${SITE_URL}/tools/${tool.slug}` },
     openGraph: {
       title,
       description,
       url: `${SITE_URL}/tools/${tool.slug}`,
-      siteName: 'TheToolGenie',
+      siteName: 'TheToolsGenie',
       type: 'website',
     },
     twitter: {
