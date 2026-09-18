@@ -98,7 +98,7 @@ function DedicatedPdfEngine({ toolSlug, toolName }: { toolSlug: string; toolName
         values.push(n);
       } else return [];
     }
-    return [...new Set(values)];
+    return Array.from(new Set(values));
   };
 
   const runPdfOperation = async () => {
@@ -210,7 +210,7 @@ function DedicatedPdfEngine({ toolSlug, toolName }: { toolSlug: string; toolName
             }
             return /^\d+$/.test(part) ? [Number(part)] : [];
           });
-        const uniquePages = [...new Set(requested)];
+        const uniquePages = Array.from(new Set(requested));
         if (!uniquePages.length || uniquePages.some((page) => page < 1 || page > srcPdf.getPageCount())) {
           throw new Error(`Invalid page range. This PDF has ${srcPdf.getPageCount()} page(s).`);
         }
@@ -1015,7 +1015,7 @@ function UtilityEngine({ toolSlug, toolName, category }: { toolSlug: string; too
           const words = input.trim() ? input.trim().split(/\s+/).length : 0;
           setResult(`Words: ${words}\nCharacters: ${input.length}\nCharacters (no spaces): ${input.replace(/\s/g, '').length}\nLines: ${input ? input.split(/\r?\n/).length : 0}`);
         } else if (toolSlug === 'text-case-converter') setResult(input.replace(/(^|\s)\S/g, m => m.toUpperCase()).replace(/\s+/g, ' ').trim());
-        else if (toolSlug === 'remove-duplicate-lines') setResult([...new Set(input.split(/\r?\n/))].join('\n'));
+        else if (toolSlug === 'remove-duplicate-lines') setResult(Array.from(new Set(input.split(/\r?\n/))).join('\n'));
         else if (toolSlug === 'reverse-text-mirror-tool') setResult(input.split('').reverse().join(''));
         else if (toolSlug === 'strip-html-tags') { const el=document.createElement('div'); el.innerHTML=input; setResult(el.textContent || ''); }
         else if (toolSlug === 'find-replace-text') { if (!second) throw new Error('Enter text to find.'); setResult(input.split(second).join(replacement)); }
