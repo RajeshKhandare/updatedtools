@@ -934,56 +934,67 @@ export default function PdfEngine({
           );
         }
 
-        const form =
-          new FormData();
+        try {
+          const form =
+            new FormData();
 
-        files.forEach(
-          (file) =>
-            form.append(
-              'files',
-              file
-            )
-        );
-
-        const response =
-          await fetch(
-            '/api/merge-pdf',
-            {
-              method: 'POST',
-              body: form,
-            }
+          files.forEach(
+            (file) =>
+              form.append(
+                'files',
+                file
+              )
           );
 
-        if (!response.ok) {
-          let message =
-            'PDF merge failed.';
+          const response =
+            await fetch(
+              '/api/merge-pdf',
+              {
+                method: 'POST',
+                body: form,
+              }
+            );
 
-          try {
-            const data =
-              await response.json();
-
-            if (
-              data &&
-              typeof data.error ===
-                'string'
-            ) {
-              message =
-                data.error;
-            }
-          } catch {
-            // Keep the generic error.
+          if (!response.ok) {
+            throw new Error(
+              'Server merge unavailable.'
+            );
           }
 
-          throw new Error(
-            message
+          setOutput(
+            new Uint8Array(
+              await response.arrayBuffer()
+            )
+          );
+        } catch {
+          const merged =
+            await PDFDocument.create();
+
+          for (
+            const file of files
+          ) {
+            const source =
+              await PDFDocument.load(
+                await file.arrayBuffer()
+              );
+
+            const pages =
+              await merged.copyPages(
+                source,
+                source.getPageIndices()
+              );
+
+            pages.forEach((page) =>
+              merged.addPage(page)
+            );
+          }
+
+          setOutput(
+            await merged.save({
+              useObjectStreams: true,
+            })
           );
         }
-
-        setOutput(
-          new Uint8Array(
-            await response.arrayBuffer()
-          )
-        );
 
         return;
       }
