@@ -658,7 +658,9 @@ function Calculator({slug,toolName}:{slug:string;toolName:string}){
   let out='';
 
   try{
-    if(slug==='compound-interest-calculator'){
+    if(slug==='sip-wealth-calculator'){
+      const monthly=n(a); const annualRate=n(b); const years=Math.max(0,n(c)); const monthlyRate=annualRate/12/100; const months=years*12; const invested=monthly*months; const futureValue=monthlyRate===0?invested:monthly*((Math.pow(1+monthlyRate,months)-1)/monthlyRate)*(1+monthlyRate); out=`Monthly SIP: ${fmt(monthly)}\nTotal invested: ${fmt(invested)}\nEstimated returns: ${fmt(futureValue-invested)}\nEstimated maturity value: ${fmt(futureValue)}\n\nEstimate only; actual mutual fund returns are not guaranteed.`;
+    }else if(slug==='compound-interest-calculator'){
       const p=n(a);
       const r=n(b)/100;
       const t=Math.max(0,n(c));
@@ -887,7 +889,7 @@ Per person: ${fmt(total/people)}`;
                 type="number"
                 value={a}
                 onChange={e=>setA(e.target.value)}
-                placeholder={slug==='bmi-calculator'?'Weight (kg)':'Value'}
+                placeholder={slug==='sip-wealth-calculator'?'Monthly SIP':slug==='bmi-calculator'?'Weight (kg)':'Value'}
               />
 
               <input
@@ -895,10 +897,11 @@ Per person: ${fmt(total/people)}`;
                 type="number"
                 value={b}
                 onChange={e=>setB(e.target.value)}
-                placeholder={slug==='bmi-calculator'?'Height (cm)':'Rate / value'}
+                placeholder={slug==='sip-wealth-calculator'?'Annual return %':slug==='bmi-calculator'?'Height (cm)':'Rate / value'}
               />
 
               {[
+                'sip-wealth-calculator',
                 'compound-interest-calculator',
                 'simple-interest-calculator',
                 'discount-calculator',
@@ -910,7 +913,7 @@ Per person: ${fmt(total/people)}`;
                     type="number"
                     value={c}
                     onChange={e=>setC(e.target.value)}
-                    placeholder={slug==='tip-calculator'?'People':'Years / tax'}
+                    placeholder={slug==='sip-wealth-calculator'?'Years':slug==='tip-calculator'?'People':'Years / tax'}
                   />
 
                   {slug==='compound-interest-calculator'&&(
