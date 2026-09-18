@@ -121,7 +121,7 @@ function DedicatedPdfEngine({ toolSlug, toolName }: { toolSlug: string; toolName
       } else if (isPdfToJpgTool || isGrayscalePdfTool) {
         const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
         const pdfData = new Uint8Array(await files[0].file.arrayBuffer());
-        const loaded = await pdfjs.getDocument({ data: pdfData, disableWorker: true }).promise;
+        const loaded = await pdfjs.getDocument({ data: pdfData }).promise;
         const zip = isPdfToJpgTool ? new JSZip() : null;
         const outputPdf = isGrayscalePdfTool ? await PDFDocument.create() : null;
         for (let pageNo = 1; pageNo <= loaded.numPages; pageNo++) {
