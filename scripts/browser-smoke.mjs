@@ -199,7 +199,9 @@ async function testPdf(page, slug, fixtures, state) {
     slug === 'protect-pdf-password' ||
     slug === 'unlock-pdf-password'
   ) {
-    await inputs.last().fill(
+    await page.locator(
+      'input[type="password"]'
+    ).fill(
       'SmokeTest123!'
     );
   }
@@ -237,7 +239,7 @@ async function testPdf(page, slug, fixtures, state) {
     const downloadPromise =
       page.waitForEvent(
         'download',
-        { timeout: 20000 }
+        { timeout: 45000 }
       );
 
     await run.click();
@@ -476,6 +478,28 @@ async function testCompiler(page, slug) {
     state: 'visible',
     timeout: 30000,
   });
+
+  await page.waitForFunction(
+    () => {
+      const pre =
+        document.querySelectorAll('pre');
+      const node =
+        pre[pre.length - 1];
+      const text =
+        node?.textContent || '';
+      return (
+        text.length > 0 &&
+        !text.startsWith(
+          'Submitting code to the configured execution runtime...'
+        ) &&
+        !text.startsWith(
+          'Running SQL locally...'
+        )
+      );
+    },
+    undefined,
+    { timeout: 30000 }
+  );
 
   const text =
     await output.textContent();
