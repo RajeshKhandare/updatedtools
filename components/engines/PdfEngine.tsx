@@ -152,6 +152,9 @@ async function pdfToDocx(file: File) {
     'pdfjs-dist/legacy/build/pdf.mjs'
   );
 
+  pdfjs.GlobalWorkerOptions.workerSrc =
+    'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
+
   const data = new Uint8Array(
     await file.arrayBuffer()
   );
@@ -922,28 +925,19 @@ export default function PdfEngine({
       if (
         toolSlug === 'merge-pdf'
       ) {
-        const outPdf =
-          await PDFDocument.create();
+        const { createPdfToolkit } =
+          await import('pdfstudio');
 
-        for (const file of files) {
-          const source =
-            await PDFDocument.load(
-              await file.arrayBuffer()
-            );
+        const toolkit =
+          await createPdfToolkit({
+            wasmUrl: '/qpdf.wasm',
+          });
 
-          const pages =
-            await outPdf.copyPages(
-              source,
-              source.getPageIndices()
-            );
-
-          pages.forEach((page) =>
-            outPdf.addPage(page)
-          );
-        }
+        const merged =
+          await toolkit.merge(files);
 
         setOutput(
-          await outPdf.save()
+          new Uint8Array(merged)
         );
 
         return;
