@@ -64,6 +64,7 @@ async function renderPdf(
 
   const doc = await pdfjs.getDocument({
     data,
+    disableWorker: true,
   }).promise;
 
   const pages: {
