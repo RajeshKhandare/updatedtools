@@ -652,26 +652,26 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
 function evaluateScientificExpression(expression:string){
   const x=expression.trim();
 
-  if(!/^[0-9+\\-*/().\\s^a-z]+$/i.test(x)){
+  if(!/^[0-9+\-*/().\s^a-z]+$/i.test(x)){
     throw new Error('Unsupported characters.');
   }
 
   const norm=x
-    .replace(/\\s+/g,'')
-    .replace(/\\bpi\\b/gi,String(Math.PI))
-    .replace(/\\^/g,'**')
-    .replace(/\\bsqrt\\(([^()]*)\\)/gi,(_,v)=>String(Math.sqrt(Number(v))))
-    .replace(/\\bsin\\(([^()]*)\\)/gi,(_,v)=>String(Math.sin(Number(v))))
-    .replace(/\\bcos\\(([^()]*)\\)/gi,(_,v)=>String(Math.cos(Number(v))))
-    .replace(/\\btan\\(([^()]*)\\)/gi,(_,v)=>String(Math.tan(Number(v))))
-    .replace(/\\blog\\(([^()]*)\\)/gi,(_,v)=>String(Math.log10(Number(v))))
-    .replace(/\\bln\\(([^()]*)\\)/gi,(_,v)=>String(Math.log(Number(v))));
+    .replace(/\s+/g,'')
+    .replace(/\bpi\b/gi,String(Math.PI))
+    .replace(/\^/g,'**')
+    .replace(/\bsqrt\(([^()]*)\)/gi,(_,v)=>String(Math.sqrt(Number(v))))
+    .replace(/\bsin\(([^()]*)\)/gi,(_,v)=>String(Math.sin(Number(v))))
+    .replace(/\bcos\(([^()]*)\)/gi,(_,v)=>String(Math.cos(Number(v))))
+    .replace(/\btan\(([^()]*)\)/gi,(_,v)=>String(Math.tan(Number(v))))
+    .replace(/\blog\(([^()]*)\)/gi,(_,v)=>String(Math.log10(Number(v))))
+    .replace(/\bln\(([^()]*)\)/gi,(_,v)=>String(Math.log(Number(v))));
 
-  if(!/^[0-9+\\-*/().]+$/.test(norm)){
+  if(!/^[0-9+\-*/().]+$/.test(norm)){
     throw new Error('Use arithmetic with sqrt, sin, cos, tan, log, ln and pi.');
   }
 
-  const tokens=norm.match(/\\d+(?:\\.\\d+)?|\\*\\*|[+\\-*/()]/g);
+  const tokens=norm.match(/\d+(?:\.\d+)?|\*\*|[+\-*/()]/g);
 
   if(!tokens||tokens.join('')!==norm){
     throw new Error('Invalid expression.');
@@ -691,68 +691,41 @@ function evaluateScientificExpression(expression:string){
 
   const apply=()=>{
     const o=ops.pop();
-
     if(!o) throw new Error('Invalid expression.');
-
     const y=vals.pop();
     const z=vals.pop();
-
-    if(y===undefined||z===undefined){
-      throw new Error('Invalid expression.');
-    }
-
-    vals.push(
-      o==='+'?z+y:
-      o==='-'?z-y:
-      o==='*'?z*y:
-      o==='/'?z/y:
-      z**y
-    );
+    if(y===undefined||z===undefined) throw new Error('Invalid expression.');
+    vals.push(o==='+'?z+y:o==='-'?z-y:o==='*'?z*y:o==='/'?z/y:z**y);
   };
 
   let expect=true;
 
   for(const t of tokens){
-    if(/^\\d/.test(t)){
+    if(/^\d/.test(t)){
       vals.push(Number(t));
       expect=false;
     }else if(t==='('){
       ops.push(t);
       expect=true;
     }else if(t===')'){
-      while(ops.length&&ops.at(-1)!=='(')apply();
-
-      if(ops.pop()!=='('){
-        throw new Error('Mismatched parentheses.');
-      }
-
+      while(ops.length&&ops.at(-1)!=='(') apply();
+      if(ops.pop()!=='(') throw new Error('Mismatched parentheses.');
       expect=false;
     }else if((t==='+'||t==='-')&&expect){
       vals.push(0);
       ops.push(t);
     }else{
-      while(
-        ops.length&&
-        ops.at(-1)!=='('&&
-        prec(ops.at(-1)!)>=prec(t)
-      ){
-        apply();
-      }
-
+      while(ops.length&&ops.at(-1)!=='('&&prec(ops.at(-1)!)>=prec(t)) apply();
       ops.push(t);
       expect=true;
     }
   }
 
-  while(ops.length)apply();
+  while(ops.length) apply();
 
-  if(vals.length!==1||!Number.isFinite(vals[0])){
-    throw new Error('Invalid expression.');
-  }
-
+  if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error('Invalid expression.');
   return fmt(vals[0]);
 }
-
 function Calculator({slug,toolName}:{slug:string;toolName:string}){
   const [a,setA]=useState('1000');
   const [b,setB]=useState('5');
