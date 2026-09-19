@@ -1034,7 +1034,7 @@ function YouTube({slug}:{slug:string}){
         `What I Wish I Knew Before ${cleanTopic}`,
         `${cleanTopic}: Tips, Examples & Best Practices`
       ];
-      setResult(Array.from(new Set(titles)).join('\\n'));
+      setResult(Array.from(new Set(titles)).join('\n'));
       return;
     }
 
@@ -1067,7 +1067,7 @@ function YouTube({slug}:{slug:string}){
   };
 
   return (
-    <div className={card}>
+    <div className={plainCard}>
       <h3 className="text-lg font-bold">
         {slug==='youtube-title-generator'
           ? 'YouTube Title Generator'
@@ -1115,7 +1115,7 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
       const [revenue,setRevenue]=useState('');
 
       return (
-        <div className={card}>
+        <div className={plainCard}>
           <h3 className="text-lg font-bold">
             YouTube Money Calculator
           </h3>
