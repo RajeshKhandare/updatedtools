@@ -1168,6 +1168,16 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
   const tool = TOOLS_REGISTRY.find((t) => t.slug === params.slug);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+  useEffect(() => {
+    if (typeof window !== 'undefined' && typeof (window as Window & { gtag?: (...args: unknown[]) => void }).gtag === 'function') {
+      (window as Window & { gtag?: (...args: unknown[]) => void }).gtag!('event', 'tool_view', {
+        tool_slug: tool?.slug,
+        tool_name: tool?.name,
+        tool_category: tool?.category,
+      });
+    }
+  }, [tool?.slug, tool?.name, tool?.category]);
+
   if (!tool) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -1176,9 +1186,25 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
     );
   }
 
-  const companionTools = TOOLS_REGISTRY.filter(
-    (t) => t.category === tool.category && t.slug !== tool.slug
-  ).slice(0, 4);
+  const companionTools = TOOLS_REGISTRY
+    .filter((t) => t.category === tool.category && t.slug !== tool.slug)
+    .map((candidate) => {
+      const sourceTerms = new Set(
+        (tool.targetKeyword || tool.name)
+          .toLowerCase()
+          .split(/[^a-z0-9]+/)
+          .filter((term) => term.length > 2)
+      );
+      const candidateTerms = (candidate.targetKeyword || candidate.name)
+        .toLowerCase()
+        .split(/[^a-z0-9]+/)
+        .filter((term) => term.length > 2);
+      const overlap = candidateTerms.filter((term) => sourceTerms.has(term)).length;
+      return { candidate, overlap };
+    })
+    .sort((a, b) => b.overlap - a.overlap || a.candidate.name.localeCompare(b.candidate.name))
+    .slice(0, 4)
+    .map(({ candidate }) => candidate);
 
   const toolFaqs = [
     {
