@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   const keyword = tool.targetKeyword || tool.name;
   const title = `${tool.name} - Free Online ${tool.category} Tool`;
-  const description = `${tool.description} Use this free online ${keyword.toLowerCase()} tool in your browser with no account required.`;
+  const description = `${tool.description} Use this free online ${tool.name.toLowerCase()} tool in your browser with no account required.`;
 
   return {
     title,
