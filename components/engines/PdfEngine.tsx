@@ -707,11 +707,10 @@ export default function PdfEngine({
           );
         }
 
-        setOutput(
-          await merged.save({
-            useObjectStreams: true,
-          })
-        );
+        const mergedBytes =
+          await merged.save();
+
+        setOutput(mergedBytes);
 
         return;
       }
