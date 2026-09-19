@@ -1209,7 +1209,7 @@ function Thumbnail(){
 
   const get=()=>{
     const m=url.match(
-      /(?:v=|youtu\\.be\\/|youtube\\.com\\/shorts\\/|youtube\\.com\\/embed\\/)([A-Za-z0-9_-]{11})/
+      /(?:[?&]v=|youtu\.be\/|youtube\.com\/shorts\/|youtube\.com\/embed\/)([A-Za-z0-9_-]{11})/
     );
 
     setId(m?.[1]||'');
