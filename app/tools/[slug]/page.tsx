@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
+import ToolSeoContent from '@/components/ToolSeoContent';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import {
   Upload,
@@ -1312,47 +1313,7 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
             </div>
           </div>
 
-          {/* FAQ Section */}
-          <div className="mt-14 max-w-4xl mx-auto">
-            <div className="text-center mb-6">
-              <span className="inline-flex items-center gap-1 text-xs font-bold text-violet-600 dark:text-violet-400 uppercase tracking-widest">
-                <HelpCircle className="h-3.5 w-3.5" /> Support & FAQs
-              </span>
-              <h2 className="mt-1 text-lg sm:text-xl font-bold text-zinc-900 dark:text-white">
-                Frequently Asked Questions about {tool.name}
-              </h2>
-            </div>
-
-            <div className="space-y-3">
-              {toolFaqs.map((faq, idx) => {
-                const isOpen = openFaq === idx;
-                return (
-                  <div
-                    key={idx}
-                    className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden shadow-sm"
-                  >
-                    <button
-                      type="button"
-                      onClick={() => setOpenFaq(isOpen ? null : idx)}
-                      className="flex w-full items-center justify-between p-4 sm:p-5 text-left text-xs sm:text-sm font-bold text-zinc-900 dark:text-white hover:text-violet-600 transition-colors"
-                    >
-                      <span>{faq.q}</span>
-                      <ChevronDown
-                        className={`h-4 w-4 shrink-0 text-zinc-400 transition-transform ${
-                          isOpen ? 'rotate-180 text-violet-600' : ''
-                        }`}
-                      />
-                    </button>
-                    {isOpen && (
-                      <div className="px-5 pb-5 text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed border-t border-zinc-100 dark:border-zinc-800/60 pt-3">
-                        {faq.a}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+          <ToolSeoContent tool={tool} />
 
           {/* Related Companion Tools */}
           <div className="mt-14">
