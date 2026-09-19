@@ -203,7 +203,10 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
                 spellCheck={false}
                 rows={18}
                 className="relative z-10 h-full min-h-[420px] w-full resize-none overflow-auto bg-transparent p-3 font-mono text-xs leading-relaxed text-transparent caret-violet-300 outline-none selection:bg-violet-500/30"
-              />        </div>
+              />
+            </div>
+          </div>
+        </div>
 
         {langKey === 'html' && preview ? (
           <iframe title="HTML sandbox preview" sandbox="allow-scripts" srcDoc={code} className="w-full min-h-[420px] rounded-2xl border border-zinc-800 bg-white" />
