@@ -676,6 +676,45 @@ export default function PdfEngine({
         return;
       }
 
+      if (
+        toolSlug === 'merge-pdf'
+      ) {
+        if (files.length < 2) {
+          throw new Error(
+            'Select at least two PDF files to merge.'
+          );
+        }
+
+        const merged =
+          await PDFDocument.create();
+
+        for (
+          const file of files
+        ) {
+          const source =
+            await PDFDocument.load(
+              await file.arrayBuffer()
+            );
+
+          const pages =
+            await merged.copyPages(
+              source,
+              source.getPageIndices()
+            );
+
+          pages.forEach((page) =>
+            merged.addPage(page)
+          );
+        }
+
+        setOutput(
+          await merged.save({
+            useObjectStreams: true,
+          })
+        );
+
+        return;
+      }
       const pdf =
         await PDFDocument.load(
           await files[0].arrayBuffer()
@@ -921,45 +960,6 @@ export default function PdfEngine({
         return;
       }
 
-      if (
-        toolSlug === 'merge-pdf'
-      ) {
-        if (files.length < 2) {
-          throw new Error(
-            'Select at least two PDF files to merge.'
-          );
-        }
-
-        const merged =
-          await PDFDocument.create();
-
-        for (
-          const file of files
-        ) {
-          const source =
-            await PDFDocument.load(
-              await file.arrayBuffer()
-            );
-
-          const pages =
-            await merged.copyPages(
-              source,
-              source.getPageIndices()
-            );
-
-          pages.forEach((page) =>
-            merged.addPage(page)
-          );
-        }
-
-        setOutput(
-          await merged.save({
-            useObjectStreams: true,
-          })
-        );
-
-        return;
-      }
     } catch (e) {
       setError(
         e instanceof Error
