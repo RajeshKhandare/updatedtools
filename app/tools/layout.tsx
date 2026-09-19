@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, SITE_URL } from '@/config/site';
+import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 
 export const metadata: Metadata = {
   title: 'All Free Online Tools | PDF, Image, Developer, Converter & Calculator Tools',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     type: 'website',
   },
-  robots: { index: true, follow: true },
+  robots: { index: SITE_URL_CONFIGURED, follow: true },
 };
 
 export default function ToolsLayout({ children }: { children: React.ReactNode }) {
