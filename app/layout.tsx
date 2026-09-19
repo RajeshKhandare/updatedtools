@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
-import { SITE_NAME, SITE_URL } from '@/config/site';
+import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 
 const jakarta=Plus_Jakarta_Sans({subsets:['latin'],weight:['400','500','600','700','800'],variable:'--font-jakarta'});
 
@@ -18,7 +18,7 @@ export const metadata:Metadata={
   alternates:{canonical:SITE_URL},
   openGraph:{title:`${SITE_NAME} | Free Online Tools`,description:'Free online tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.',url:SITE_URL,siteName:SITE_NAME,locale:'en_US',type:'website'},
   twitter:{card:'summary_large_image',title:`${SITE_NAME} | Free Online Tools`,description:'Free browser-based tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.'},
-  robots:{index:true,follow:true,googleBot:{index:true,follow:true,'max-video-preview':-1,'max-image-preview':'large','max-snippet':-1}},
+  robots:{index:SITE_URL_CONFIGURED,follow:true,googleBot:{index:SITE_URL_CONFIGURED,follow:true,'max-video-preview':-1,'max-image-preview':'large','max-snippet':-1}},
   ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ? {verification:{google:process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION}} : {})
 };
 
