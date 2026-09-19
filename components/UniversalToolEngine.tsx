@@ -9,6 +9,7 @@ const input='w-full rounded-2xl border border-zinc-200/90 dark:border-white/10 b
 const button='inline-flex items-center justify-center gap-2 rounded-2xl bg-violet-600 px-5 py-3 text-xs font-bold text-white shadow-lg shadow-violet-600/20 transition-all duration-200 hover:-translate-y-0.5 hover:bg-violet-500 hover:shadow-violet-600/30 active:translate-y-0 disabled:opacity-50';
 const secondary='inline-flex items-center justify-center gap-2 rounded-2xl border border-zinc-200/90 dark:border-white/10 bg-white/70 dark:bg-zinc-900/70 px-4 py-3 text-xs font-semibold text-zinc-700 dark:text-zinc-200 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-violet-400/50 hover:bg-violet-50 dark:hover:bg-violet-950/30 active:translate-y-0';
 const resultPanel='rounded-2xl border border-zinc-200/80 dark:border-white/10 bg-zinc-50/80 dark:bg-zinc-950/80 p-5 shadow-inner';
+const plainCard=card.replace(' shadow-[0_24px_80px_-36px_rgba(0,0,0,0.55)] backdrop-blur-xl','');
 
 function n(v:string,f=0){
   const x=Number(v);
@@ -648,13 +649,126 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
   );
 }
 
+function evaluateScientificExpression(expression:string){
+  const x=expression.trim();
+
+  if(!/^[0-9+\\-*/().\\s^a-z]+$/i.test(x)){
+    throw new Error('Unsupported characters.');
+  }
+
+  const norm=x
+    .replace(/\\s+/g,'')
+    .replace(/\\bpi\\b/gi,String(Math.PI))
+    .replace(/\\^/g,'**')
+    .replace(/\\bsqrt\\(([^()]*)\\)/gi,(_,v)=>String(Math.sqrt(Number(v))))
+    .replace(/\\bsin\\(([^()]*)\\)/gi,(_,v)=>String(Math.sin(Number(v))))
+    .replace(/\\bcos\\(([^()]*)\\)/gi,(_,v)=>String(Math.cos(Number(v))))
+    .replace(/\\btan\\(([^()]*)\\)/gi,(_,v)=>String(Math.tan(Number(v))))
+    .replace(/\\blog\\(([^()]*)\\)/gi,(_,v)=>String(Math.log10(Number(v))))
+    .replace(/\\bln\\(([^()]*)\\)/gi,(_,v)=>String(Math.log(Number(v))));
+
+  if(!/^[0-9+\\-*/().]+$/.test(norm)){
+    throw new Error('Use arithmetic with sqrt, sin, cos, tan, log, ln and pi.');
+  }
+
+  const tokens=norm.match(/\\d+(?:\\.\\d+)?|\\*\\*|[+\\-*/()]/g);
+
+  if(!tokens||tokens.join('')!==norm){
+    throw new Error('Invalid expression.');
+  }
+
+  const vals:number[]=[];
+  const ops:string[]=[];
+
+  const prec=(o:string)=>
+    o==='+'||o==='-'
+      ? 1
+      : o==='*'||o==='/'
+        ? 2
+        : o==='**'
+          ? 3
+          : 0;
+
+  const apply=()=>{
+    const o=ops.pop();
+
+    if(!o) throw new Error('Invalid expression.');
+
+    const y=vals.pop();
+    const z=vals.pop();
+
+    if(y===undefined||z===undefined){
+      throw new Error('Invalid expression.');
+    }
+
+    vals.push(
+      o==='+'?z+y:
+      o==='-'?z-y:
+      o==='*'?z*y:
+      o==='/'?z/y:
+      z**y
+    );
+  };
+
+  let expect=true;
+
+  for(const t of tokens){
+    if(/^\\d/.test(t)){
+      vals.push(Number(t));
+      expect=false;
+    }else if(t==='('){
+      ops.push(t);
+      expect=true;
+    }else if(t===')'){
+      while(ops.length&&ops.at(-1)!=='(')apply();
+
+      if(ops.pop()!=='('){
+        throw new Error('Mismatched parentheses.');
+      }
+
+      expect=false;
+    }else if((t==='+'||t==='-')&&expect){
+      vals.push(0);
+      ops.push(t);
+    }else{
+      while(
+        ops.length&&
+        ops.at(-1)!=='('&&
+        prec(ops.at(-1)!)>=prec(t)
+      ){
+        apply();
+      }
+
+      ops.push(t);
+      expect=true;
+    }
+  }
+
+  while(ops.length)apply();
+
+  if(vals.length!==1||!Number.isFinite(vals[0])){
+    throw new Error('Invalid expression.');
+  }
+
+  return fmt(vals[0]);
+}
+
 function Calculator({slug,toolName}:{slug:string;toolName:string}){
   const [a,setA]=useState('1000');
   const [b,setB]=useState('5');
   const [c,setC]=useState('10');
   const [d,setD]=useState('12');
   const [expr,setExpr]=useState('');
+  const [scientificResult,setScientificResult]=useState('');
   const [date,setDate]=useState('2000-01-01');
+
+  const calculateScientific=()=>{
+    try{
+      setScientificResult(evaluateScientificExpression(expr));
+    }catch(e){
+      setScientificResult(`Error: ${e instanceof Error?e.message:'Invalid input'}`);
+    }
+  };
 
   let out='';
 
@@ -747,109 +861,7 @@ Approximate days: ${Math.floor((now.getTime()-dob.getTime())/86400000).toLocaleS
 Category: ${bmi<18.5?'Underweight':bmi<25?'Normal range':bmi<30?'Overweight':'Obesity'}`;
 
     }else if(slug==='scientific-calculator'){
-      const x=expr.trim();
-
-      if(!/^[0-9+\-*/().\s^a-z]+$/i.test(x)){
-        throw new Error('Unsupported characters.');
-      }
-
-      const norm=x
-        .replace(/\s+/g,'')
-        .replace(/\bpi\b/gi,String(Math.PI))
-        .replace(/\^/g,'**')
-        .replace(/\bsqrt\(([^()]*)\)/gi,(_,v)=>String(Math.sqrt(Number(v))))
-        .replace(/\bsin\(([^()]*)\)/gi,(_,v)=>String(Math.sin(Number(v))))
-        .replace(/\bcos\(([^()]*)\)/gi,(_,v)=>String(Math.cos(Number(v))))
-        .replace(/\btan\(([^()]*)\)/gi,(_,v)=>String(Math.tan(Number(v))))
-        .replace(/\blog\(([^()]*)\)/gi,(_,v)=>String(Math.log10(Number(v))))
-        .replace(/\bln\(([^()]*)\)/gi,(_,v)=>String(Math.log(Number(v))));
-
-      if(!/^[0-9+\-*/().]+$/.test(norm)){
-        throw new Error('Use arithmetic with sqrt, sin, cos, tan, log, ln and pi.');
-      }
-
-      const tokens=norm.match(/\d+(?:\.\d+)?|\*\*|[+\-*/()]/g);
-
-      if(!tokens||tokens.join('')!==norm){
-        throw new Error('Invalid expression.');
-      }
-
-      const vals:number[]=[];
-      const ops:string[]=[];
-
-      const prec=(o:string)=>
-        o==='+'||o==='-'
-          ? 1
-          : o==='*'||o==='/'
-            ? 2
-            : o==='**'
-              ? 3
-              : 0;
-
-      const apply=()=>{
-        const o=ops.pop();
-
-        if(!o){
-          throw new Error('Invalid expression.');
-        }
-
-        const y=vals.pop();
-        const z=vals.pop();
-
-        if(y===undefined||z===undefined){
-          throw new Error('Invalid expression.');
-        }
-
-        vals.push(
-          o==='+'?z+y:
-          o==='-'?z-y:
-          o==='*'?z*y:
-          o==='/'?z/y:
-          z**y
-        );
-      };
-
-      let expect=true;
-
-      for(const t of tokens){
-        if(/^\d/.test(t)){
-          vals.push(Number(t));
-          expect=false;
-        }else if(t==='('){
-          ops.push(t);
-          expect=true;
-        }else if(t===')'){
-          while(ops.length&&ops.at(-1)!=='(')apply();
-
-          if(ops.pop()!=='('){
-            throw new Error('Mismatched parentheses.');
-          }
-
-          expect=false;
-        }else if((t==='+'||t==='-')&&expect){
-          vals.push(0);
-          ops.push(t);
-        }else{
-          while(
-            ops.length&&
-            ops.at(-1)!=='('&&
-            prec(ops.at(-1)!)>=prec(t)
-          ){
-            apply();
-          }
-
-          ops.push(t);
-          expect=true;
-        }
-      }
-
-      while(ops.length)apply();
-
-      if(vals.length!==1||!Number.isFinite(vals[0])){
-        throw new Error('Invalid expression.');
-      }
-
-      out=fmt(vals[0]);
+      out=scientificResult;
 
     }else if(slug==='discount-calculator'){
       const price=n(a);
@@ -883,7 +895,7 @@ Per person: ${fmt(total/people)}`;
   }
 
   return (
-    <div className={card}>
+    <div className={plainCard}>
       <h3 className="text-lg font-bold">{toolName}</h3>
 
       {slug==='age-calculator'
@@ -912,6 +924,12 @@ Per person: ${fmt(total/people)}`;
                 onChange={e=>setExpr(e.target.value)}
                 placeholder="Example: sqrt(25) + 2^3"
               />
+              <button
+                className={button+' mt-3'}
+                onClick={calculateScientific}
+              >
+                Calculate
+              </button>
             </div>
           )
           : (
@@ -1012,7 +1030,12 @@ Per person: ${fmt(total/people)}`;
       }
 
       <div className="resultPanel">
-        <pre className="text-sm whitespace-pre-wrap">{out}</pre>
+        <div className="text-xs font-semibold text-zinc-500">Result</div>
+        <pre className="mt-2 text-sm whitespace-pre-wrap">
+          {slug==='scientific-calculator'
+            ? (scientificResult || '—')
+            : out}
+        </pre>
       </div>
     </div>
   );
@@ -1181,17 +1204,48 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
 function Thumbnail(){
   const [url,setUrl]=useState('');
   const [id,setId]=useState('');
+  const [downloading,setDownloading]=useState(false);
+  const [message,setMessage]=useState('');
 
   const get=()=>{
     const m=url.match(
-      /(?:v=|youtu\.be\/|youtube\.com\/shorts\/|youtube\.com\/embed\/)([A-Za-z0-9_-]{11})/
+      /(?:v=|youtu\\.be\\/|youtube\\.com\\/shorts\\/|youtube\\.com\\/embed\\/)([A-Za-z0-9_-]{11})/
     );
 
     setId(m?.[1]||'');
+    setMessage(m?.[1] ? '' : 'Enter a valid public YouTube video URL.');
+  };
+
+  const downloadThumbnail=async()=>{
+    if(!id) return;
+
+    setDownloading(true);
+    setMessage('');
+
+    try{
+      const response=await fetch(`/api/youtube-thumbnail?videoId=${id}`);
+      if(!response.ok) throw new Error('The thumbnail could not be downloaded.');
+
+      const blob=await response.blob();
+      const blobUrl=URL.createObjectURL(blob);
+      const anchor=document.createElement('a');
+
+      anchor.href=blobUrl;
+      anchor.download=`youtube-thumbnail-${id}.jpg`;
+      document.body.appendChild(anchor);
+      anchor.click();
+      anchor.remove();
+
+      setTimeout(()=>URL.revokeObjectURL(blobUrl),1000);
+    }catch(e){
+      setMessage(e instanceof Error?e.message:'Thumbnail download failed.');
+    }finally{
+      setDownloading(false);
+    }
   };
 
   return (
-    <div className={card}>
+    <div className={plainCard}>
       <input
         className={input}
         value={url}
@@ -1203,6 +1257,10 @@ function Thumbnail(){
         Get Thumbnail
       </button>
 
+      {message&&(
+        <p className="text-sm text-rose-500">{message}</p>
+      )}
+
       {id&&(
         <div className="space-y-3">
           <img
@@ -1211,14 +1269,14 @@ function Thumbnail(){
             alt="YouTube thumbnail"
           />
 
-          <a
-            className={secondary+' inline-block'}
-            href={`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`}
-            target="_blank"
-            rel="noreferrer"
+          <button
+            className={button}
+            disabled={downloading}
+            onClick={downloadThumbnail}
           >
-            Open / Save Thumbnail
-          </a>
+            <Download className="h-4 w-4" />
+            {downloading?'Downloading...':'Download Thumbnail'}
+          </button>
         </div>
       )}
     </div>
