@@ -29,15 +29,22 @@ export default function FileDropzone({
     onFiles(files);
   };
 
+  const openFilePicker = () => {
+    if (disabled || !inputRef.current) return;
+    // Clear before opening so selecting the same file again still fires change.
+    inputRef.current.value = '';
+    inputRef.current.click();
+  };
+
   return (
     <div
       role="button"
       tabIndex={disabled ? -1 : 0}
-      onClick={() => !disabled && inputRef.current?.click()}
+      onClick={openFilePicker}
       onKeyDown={(event) => {
         if (!disabled && (event.key === 'Enter' || event.key === ' ')) {
           event.preventDefault();
-          inputRef.current?.click();
+          openFilePicker();
         }
       }}
       onDragEnter={(event) => {
@@ -75,7 +82,6 @@ export default function FileDropzone({
         className="sr-only"
         onChange={(event) => {
           handleFiles(event.target.files || []);
-          event.target.value = '';
         }}
       />
 
