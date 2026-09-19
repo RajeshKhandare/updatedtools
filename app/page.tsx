@@ -355,7 +355,7 @@ function HomeContent() {
 
             <div className="mt-8 pt-8 border-t border-zinc-200/60 dark:border-zinc-800/60 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div>
-                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400">88</p>
+                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400" >87</p>
                 <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Active Utilities</p>
               </div>
               <div>
@@ -440,7 +440,7 @@ function HomeContent() {
                   href="/tools"
                   className="rounded-2xl bg-violet-600 px-7 py-3 text-xs font-bold text-white hover:bg-violet-500 transition-all shadow-lg shadow-violet-600/30 hover:scale-105"
                 >
-                  Explore All 88 Utilities
+                  Explore All 87 Utilities
                 </Link>
                 <a
                   href="#tools"
