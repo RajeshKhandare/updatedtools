@@ -30,7 +30,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-2 text-[11px] font-medium text-zinc-500 dark:text-zinc-400">
               <span className="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>88 tools operational · Free to use</span>
+              <span>87 tools operational · Free to use</span>
             </div>
           </div>
 

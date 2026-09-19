@@ -9,10 +9,12 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitError('');
 
     try {
       // Direct Web3Forms submission (Zero backend needed, safe & spam-protected)
@@ -28,11 +30,14 @@ export default function ContactPage() {
         }),
       });
 
-      // Always show success state for smooth UX
+      const payload = await res.json().catch(() => null);
+      if (!res.ok || payload?.success === false) {
+        throw new Error(payload?.message || 'Unable to send your message right now.');
+      }
       setIsSuccess(true);
       setFormData({ name: '', email: '', message: '' });
-    } catch {
-      setIsSuccess(true);
+    } catch (error) {
+      setSubmitError(error instanceof Error ? error.message : 'Unable to send your message right now.');
     } finally {
       setIsSubmitting(false);
     }
@@ -68,7 +73,7 @@ export default function ContactPage() {
                   <span>Strict Privacy & Zero Spam</span>
                 </div>
                 <p className="text-[11px] text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  This site is free. Your email address is exclusively utilized for dispatching technical query responses. Zero mailing lists, zero marketing telemetry.
+                  This site is free. Your email address is exclusively utilized for dispatching technical query responses. Your contact details are used to handle your support request and are not used for a marketing mailing list.
                 </p>
               </div>
             </div>
@@ -130,6 +135,12 @@ export default function ContactPage() {
                         className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 p-4 text-xs text-zinc-900 dark:text-white focus:border-violet-600 focus:outline-none resize-none"
                       />
                     </div>
+
+                    {submitError && (
+                      <p role="alert" className="text-xs text-red-600 dark:text-red-400">
+                        {submitError}
+                      </p>
+                    )}
 
                     <button
                       type="submit"

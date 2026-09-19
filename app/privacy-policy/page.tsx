@@ -31,13 +31,13 @@ export default function PrivacyPolicyPage() {
             <section className="space-y-3 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed">
               <h2 className="text-base font-bold text-zinc-900 dark:text-white flex items-center gap-2">
                 <Lock className="h-4 w-4 text-violet-600 dark:text-violet-400" />
-                1. Complete In-Browser Execution Guarantee
+                1. Processing Architecture
               </h2>
               <p>
-                Many PDF, image, text, converter, and calculator operations are designed to run in your browser. Compiler tools are different: some languages use a configured execution runtime through the site.
+                Many PDF, image, text, converter, and calculator operations are designed to run in your browser. Compiler tools are different: supported languages can send code to the configured execution runtime through the site.
               </p>
               <p>
-                Compiler tools may use the configured execution runtime; do not enter passwords, API keys, private credentials, or other secrets into compiler inputs.
+                Compiler code submitted to the configured execution runtime is processed by that service. Do not enter passwords, API keys, private credentials, or other secrets into compiler inputs.
               </p>
             </section>
 
@@ -57,7 +57,7 @@ export default function PrivacyPolicyPage() {
                 3. Third-Party Analytics & Cookies
               </h2>
               <p>
-                To keep this platform 100% free, we may integrate non-intrusive traffic telemetry and contextual advertising networks (e.g. Google AdSense). These services may use standard browser cookies for analytics and fraud detection, but they never have access to your in-browser tool inputs or document payloads.
+                To keep this platform 100% free, we may integrate non-intrusive traffic telemetry and contextual advertising networks (e.g. Google AdSense). These services may use standard browser cookies for analytics and fraud detection. They are not used by the site to intentionally transmit browser-processed files or tool inputs to analytics or advertising providers; compiler inputs are a separate execution workflow described above.
               </p>
             </section>
 

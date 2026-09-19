@@ -229,7 +229,7 @@ function HomeContent() {
                 href="/tools"
                 className="inline-flex items-center gap-2 rounded-2xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-950 px-8 py-3.5 text-xs font-extrabold hover:bg-violet-600 dark:hover:bg-violet-500 dark:hover:text-white transition-all shadow-md hover:scale-[1.02]"
               >
-                <span>Explore All 88 Tools</span>
+                <span>Explore All 87 Tools</span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -263,7 +263,7 @@ function HomeContent() {
               </div>
               <h3 className="text-base font-bold text-zinc-950 dark:text-white">Select Any Utility</h3>
               <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                Pick from our library of 88 specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
+                Pick from our library of 87 specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
               </p>
             </div>
 

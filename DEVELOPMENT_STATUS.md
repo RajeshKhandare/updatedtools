@@ -1,7 +1,7 @@
 # TheToolGenie — Development Status
 
 ## Current source of truth
-This checkpoint summarizes the current 88-tool registry and production configuration. The public site name/domain remain configurable through environment variables.
+This checkpoint summarizes the current 87-tool registry and production configuration. The public site name/domain remain configurable through environment variables.
 
 ## Tool coverage
 - PDF: 14
@@ -12,8 +12,8 @@ This checkpoint summarizes the current 88-tool registry and production configura
 - Converters: 10
 - Finance: 7
 - Calculators: 9
-- YouTube: 4
-- **Total: 88 unique tools / 88 unique slugs**
+- YouTube: 3
+- **Total: 87 unique tools / 87 unique slugs**
 
 ## Implemented paths
 - PDF and image operations use browser-side processing where supported.
@@ -24,7 +24,7 @@ This checkpoint summarizes the current 88-tool registry and production configura
 - Finance tools use dedicated formulas and INR output where applicable.
 
 ## Verification
-- Registry verification covers all 88 tools and unique slugs.
+- Registry verification covers all 87 tools and unique slugs.
 - Dynamic JavaScript execution scan checks for `eval()` / `new Function()` patterns.
 - Tool metadata and category-count validation are part of the repository verification script.
 - Vercel reports a successful deployment for the latest SEO/metadata cleanup commit.
@@ -35,4 +35,4 @@ This checkpoint summarizes the current 88-tool registry and production configura
 - Confirm the execution API endpoint/service is reachable for compiler tools.
 - Confirm SQL WASM assets are available in the deployed public path.
 - Test representative PDF/Image/QR processing in the target browsers.
-- Run the 88-tool browser smoke suite against the production deployment.
+- Run the 87-tool browser smoke suite against the production deployment.

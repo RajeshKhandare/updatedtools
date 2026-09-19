@@ -44,7 +44,7 @@ export default function AboutPage() {
         <section className="border-y border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/60 py-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
-              <p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">88</p>
+              <p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400" >87</p>
               <p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">Free Utilities</p>
               <p className="text-[11px] text-zinc-400">Expanding continuously</p>
             </div>

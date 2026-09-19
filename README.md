@@ -1,6 +1,6 @@
 # TheToolGenie
 
-A Next.js web application containing 88 browser-oriented utilities across PDF, Image, Compiler, Developer, Text, Converter, Calculator, Finance, and YouTube categories.
+A Next.js web application containing 87 browser-oriented utilities across PDF, Image, Compiler, Developer, Text, Converter, Calculator, Finance, and YouTube categories.
 
 > **Branding note:** The site name and domain are configurable and are not considered final until the project owner confirms them.
 
@@ -30,7 +30,7 @@ Run the registry and safety checks:
 node scripts/verify-tools.mjs
 ```
 
-The registry is expected to contain exactly 88 unique tool slugs with the configured category distribution.
+The registry is expected to contain exactly 87 unique tool slugs with the configured category distribution.
 
 ## Environment variables
 Copy `.env.example` and configure values as needed:
