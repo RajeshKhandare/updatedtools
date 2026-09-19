@@ -1253,62 +1253,21 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
         <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
           {renderEngine()}
 
-          {/* Dedicated How-to-use & Architecture Cards */}
-          <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="rounded-3xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-6 sm:p-7 shadow-sm">
-              <div className="flex items-center gap-2.5 mb-4">
-                <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-50 dark:bg-violet-950/60 text-violet-600 dark:text-violet-400">
-                  <BookOpen className="h-4 w-4" />
-                </div>
-                <h2 className="text-sm sm:text-base font-bold text-zinc-950 dark:text-white">
-                  Step-by-Step Guide for {tool.name}
-                </h2>
+          {/* Processing & Privacy */}
+          <div className="mt-14 rounded-3xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-6 sm:p-7 shadow-sm">
+            <div className="flex items-start gap-3">
+              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400">
+                <Lock className="h-4 w-4" />
               </div>
-              <div className="space-y-3 pt-1">
-                <div className="flex items-start gap-3">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-100 dark:bg-violet-950/70 text-[11px] font-bold text-violet-700 dark:text-violet-300 mt-0.5">
-                    1
-                  </span>
-                  <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Enter your file, code, text, or values in the workspace above.
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-100 dark:bg-violet-950/70 text-[11px] font-bold text-violet-700 dark:text-violet-300 mt-0.5">
-                    2
-                  </span>
-                  <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Configure the options available for this tool, then review the generated or processed result.
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-100 dark:bg-violet-950/70 text-[11px] font-bold text-violet-700 dark:text-violet-300 mt-0.5">
-                    3
-                  </span>
-                  <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Run, copy, or download your output directly from the workspace.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="rounded-3xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-6 sm:p-7 shadow-sm flex flex-col justify-between">
-              <div>
-                <div className="flex items-center gap-2.5 mb-4">
-                  <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400">
-                    <Lock className="h-4 w-4" />
-                  </div>
-                  <h2 className="text-sm sm:text-base font-bold text-zinc-950 dark:text-white">
-                    Processing & Privacy
-                  </h2>
-                </div>
-                <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed pt-1">
+              <div className="min-w-0">
+                <h2 className="text-sm sm:text-base font-bold text-zinc-950 dark:text-white">Processing & Privacy</h2>
+                <p className="mt-2 text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">
                   {tool.category === 'Compiler' ? `${tool.name} uses a browser sandbox for supported operations and a configured execution runtime for compiled languages. Avoid entering secrets or private credentials.` : `${tool.name} is designed for browser-based processing where supported, so your selected file can be handled locally without a normal file-upload workflow.`}
                 </p>
-              </div>
-              <div className="mt-5 pt-4 border-t border-zinc-100 dark:border-zinc-800/70 flex items-center gap-2 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400">
-                <CheckCircle2 className="h-4 w-4 shrink-0" />
-                <span>{tool.category === 'Compiler' ? 'Execution model varies by language • No account required' : 'Browser-based processing where supported • No account required'}</span>
+                <div className="mt-4 pt-4 border-t border-zinc-100 dark:border-zinc-800/70 flex items-center gap-2 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400">
+                  <CheckCircle2 className="h-4 w-4 shrink-0" />
+                  <span>{tool.category === 'Compiler' ? 'Execution model varies by language • No account required' : 'Browser-based processing where supported • No account required'}</span>
+                </div>
               </div>
             </div>
           </div>
