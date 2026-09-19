@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
+import FileDropzone from '../FileDropzone';
 import QRCode from 'qrcode';
 
 const card =
@@ -396,13 +397,11 @@ export default function ImageEngine({
         {toolName}
       </h3>
 
-      <input
-        type="file"
+      <FileDropzone
         accept={accept}
-        onChange={(e) =>
-          setFile(e.target.files?.[0] || null)
-        }
-        className="text-sm"
+        label="Choose or Drop Image Files"
+        subtitle="Direct device processing • Images stay on your device"
+        onFiles={(selected) => setFile(selected[0] || null)}
       />
 
       {message && (
