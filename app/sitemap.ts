@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
-import { SITE_URL } from '@/config/site';
+import { SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 
 export default function sitemap():MetadataRoute.Sitemap{
+  if(!SITE_URL_CONFIGURED)return[];
   const now=new Date();
   const staticRoutes:MetadataRoute.Sitemap=[
     {url:SITE_URL,lastModified:now,changeFrequency:'daily',priority:1},
