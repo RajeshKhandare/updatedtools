@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_NAME, SITE_URL } from '@/config/site';
+import { getToolSeoContent } from '@/data/toolSeo';
 
 export function generateStaticParams() {
   return TOOLS_REGISTRY.map((tool) => ({ slug: tool.slug }));
@@ -31,13 +32,7 @@ export default function ToolLayout({ children, params }: { children: React.React
   const tool = TOOLS_REGISTRY.find((x) => x.slug === params.slug);
   if (!tool) return children;
 
-  const faqs = [
-    { q: `Are my files or inputs safe while using ${tool.name}?`, a: tool.category === 'Compiler'
-      ? 'SQL and browser-preview operations can run locally, while compiled languages may use the configured execution runtime. Do not submit passwords, API keys, or other sensitive secrets as source code.'
-      : `For tools that process data in the browser, processing is performed in your browser. Some tools may use a configured runtime or external service. Your selected files are not intentionally uploaded by the tool engine.` },
-    { q: `Is ${tool.name} free to use?`, a: `${tool.name} is available without a paid account. Browser, device-memory, file-size, or third-party runtime limits can still apply depending on the tool.` },
-    { q: `Can I use ${tool.name} on mobile or tablet devices?`, a: 'The interface is responsive and works in modern desktop and mobile browsers. Large files and compute-heavy operations may perform differently depending on the device.' },
-  ];
+  const faqs = getToolSeoContent(tool).faq;
 
   const breadcrumb = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
