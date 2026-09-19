@@ -110,6 +110,44 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
     }
   };
 
+  const highlightedCode = React.useMemo(() => {
+    const keywordSets: Record<string, string[]> = {
+      python: ['def','return','for','in','range','if','else','elif','import','from','class','True','False','None','and','or','not','while','print'],
+      javascript: ['const','let','var','function','return','if','else','for','of','in','class','new','async','await','import','from','export','true','false','null','undefined'],
+      java: ['public','private','protected','class','static','void','int','double','float','long','boolean','new','return','if','else','for','while','String','true','false','null'],
+      cpp: ['include','int','double','float','long','char','void','return','if','else','for','while','class','struct','const','auto','true','false','nullptr'],
+      csharp: ['using','namespace','class','public','private','static','void','int','double','float','string','bool','return','if','else','for','while','true','false','null','new'],
+      php: ['echo','function','return','if','else','elseif','foreach','as','class','public','private','protected','new','true','false','null'],
+      html: [],
+      sql: ['SELECT','FROM','WHERE','INSERT','INTO','VALUES','UPDATE','SET','DELETE','CREATE','TABLE','AND','OR','AS','JOIN','ON','ORDER','BY','GROUP','LIMIT','NULL'],
+    };
+
+    const escapeHtml = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    const keywords = new Set(keywordSets[langKey] || []);
+    const tokenPattern = /("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\/\/.*|#.*|\/\*[\s\S]*?\*\/|\b\d+(?:\.\d+)?\b|\b[A-Za-z_$][A-Za-z0-9_$]*\b)/g;
+
+    return code.split('\n').map((line) => {
+      const parts: string[] = [];
+      let last = 0;
+      for (const match of line.matchAll(tokenPattern)) {
+        const start = match.index ?? 0;
+        if (start > last) parts.push(escapeHtml(line.slice(last, start)));
+        const token = match[0];
+        const escaped = escapeHtml(token);
+        if (/^("|')/.test(token)) parts.push('<span class="text-amber-300">' + escaped + '</span>');
+        else if (/^(\/\/|#|\/\*)/.test(token)) parts.push('<span class="text-zinc-500 italic">' + escaped + '</span>');
+        else if (/^\d/.test(token)) parts.push('<span class="text-cyan-300">' + escaped + '</span>');
+        else if (keywords.has(token) || (langKey === 'sql' && keywords.has(token.toUpperCase()))) parts.push('<span class="text-violet-300 font-semibold">' + escaped + '</span>');
+        else parts.push(escaped);
+        last = start + token.length;
+      }
+      if (last < line.length) parts.push(escapeHtml(line.slice(last)));
+      return '<span class="inline-block min-w-full">' + (parts.join('') || ' ') + '</span>';
+    }).join('');
+  }, [code, langKey]);
+
+  const lineCount = Math.max(code.split('\n').length, 1);
+
   return (
     <div className="w-full max-w-6xl mx-auto space-y-4">
       <div className="flex items-center justify-between bg-zinc-900 text-white px-5 py-3 rounded-2xl border border-zinc-800 shadow-md">
@@ -137,35 +175,35 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
           <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-widest pb-2 border-b border-zinc-800 mb-2">
             Source File (main.{langKey === 'python' ? 'py' : langKey === 'html' ? 'html' : 'js'})
           </div>
-          <textarea
-            value={code}
-            onChange={(e) => setCode(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key !== 'Tab') return;
-
-              e.preventDefault();
-
-              const textarea = e.currentTarget;
-              const start = textarea.selectionStart;
-              const end = textarea.selectionEnd;
-              const indent = '    ';
-              const nextValue =
-                code.slice(0, start) +
-                indent +
-                code.slice(end);
-
-              setCode(nextValue);
-
-              requestAnimationFrame(() => {
-                textarea.selectionStart = start + indent.length;
-                textarea.selectionEnd = start + indent.length;
-              });
-            }}
-            spellCheck={false}
-            rows={18}
-            className="w-full bg-transparent text-violet-200 outline-none resize-none font-mono text-xs leading-relaxed"
-          />
-        </div>
+          <div className="flex min-h-[420px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-950">
+            <div aria-hidden="true" className="w-10 shrink-0 select-none overflow-hidden border-r border-zinc-800 bg-zinc-900/60 py-3 text-right font-mono text-xs leading-relaxed text-zinc-600">
+              {Array.from({ length: lineCount }, (_, index) => <div key={index} className="pr-3">{index + 1}</div>)}
+            </div>
+            <div className="relative min-w-0 flex-1">
+              <pre aria-hidden="true" className="pointer-events-none absolute inset-0 m-0 overflow-hidden whitespace-pre p-3 font-mono text-xs leading-relaxed text-violet-200" dangerouslySetInnerHTML={{ __html: highlightedCode }} />
+              <textarea
+                value={code}
+                onChange={(e) => setCode(e.target.value)}
+                onScroll={(e) => {
+                  const target = e.currentTarget;
+                  const highlight = target.previousElementSibling as HTMLElement | null;
+                  if (highlight) { highlight.scrollTop = target.scrollTop; highlight.scrollLeft = target.scrollLeft; }
+                }}
+                onKeyDown={(e) => {
+                  if (e.key !== 'Tab') return;
+                  e.preventDefault();
+                  const textarea = e.currentTarget;
+                  const start = textarea.selectionStart;
+                  const end = textarea.selectionEnd;
+                  const indent = '    ';
+                  const nextValue = code.slice(0, start) + indent + code.slice(end);
+                  setCode(nextValue);
+                  requestAnimationFrame(() => { textarea.selectionStart = start + indent.length; textarea.selectionEnd = start + indent.length; });
+                }}
+                spellCheck={false}
+                rows={18}
+                className="relative z-10 h-full min-h-[420px] w-full resize-none overflow-auto bg-transparent p-3 font-mono text-xs leading-relaxed text-transparent caret-violet-300 outline-none selection:bg-violet-500/30"
+              />        </div>
 
         {langKey === 'html' && preview ? (
           <iframe title="HTML sandbox preview" sandbox="allow-scripts" srcDoc={code} className="w-full min-h-[420px] rounded-2xl border border-zinc-800 bg-white" />
