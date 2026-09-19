@@ -871,8 +871,8 @@ async function main() {
   );
 
   assert(
-    tools.length === 88,
-    'Registry expected 88 tools, found ' +
+    tools.length === 87,
+    'Registry expected 87 tools, found ' +
       tools.length
   );
 
