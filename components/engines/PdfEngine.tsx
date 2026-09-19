@@ -392,11 +392,9 @@ export default function PdfEngine({
     useState('');
 
   const add = (
-    e: React.ChangeEvent<HTMLInputElement>
+    selected: FileList | File[]
   ) => {
-    const incoming = [
-      ...(e.target.files || []),
-    ];
+    const incoming = Array.from(selected);
 
     const ok = incoming.filter(
       (file) =>
@@ -1027,12 +1025,7 @@ export default function PdfEngine({
               ? 'Choose or Drop DOCX Files'
               : 'Choose or Drop PDF Files'
         }
-        onFiles={(selected) => {
-          const syntheticEvent = {
-            target: { files: selected },
-          } as React.ChangeEvent<HTMLInputElement>;
-          add(syntheticEvent);
-        }}
+        onFiles={add}
       />
 
       {error && (
