@@ -11,13 +11,15 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!tool) return { title: 'Tool Not Found', robots: { index: false, follow: false } };
 
   const keyword = tool.targetKeyword || tool.name;
-  const title = `${tool.name} - Free Online ${tool.category} Tool`;
-  const description = `${tool.description} Use this free online ${tool.name.toLowerCase()} tool in your browser with no account required.`;
+  const title = keyword.toLowerCase().includes('online')
+    ? keyword
+    : `${keyword} Online`;
+  const description = `${tool.description} Use this free ${tool.name.toLowerCase()} tool in your browser with no account required.`;
 
   return {
     title,
     description,
-    keywords: [keyword, `${keyword} online`, `free ${keyword.toLowerCase()}`, `${tool.name.toLowerCase()} online`, `${tool.category.toLowerCase()} tools`, `${tool.category.toLowerCase()} online tools`, ...tool.slug.split('-').filter((part) => part.length > 2)],
+    keywords: [keyword, `free ${keyword.toLowerCase()}`, `${tool.name.toLowerCase()} online`, `${tool.category.toLowerCase()} tools`, ...tool.slug.split('-').filter((part) => part.length > 2)],
     alternates: { canonical: `${SITE_URL}/tools/${tool.slug}` },
     openGraph: { title, description, url: `${SITE_URL}/tools/${tool.slug}`, siteName: SITE_NAME, type: 'website' },
     twitter: { card: 'summary_large_image', title, description },
@@ -48,7 +50,9 @@ export default function ToolLayout({ children, params }: { children: React.React
   const app = {
     '@context': 'https://schema.org', '@type': 'WebApplication',
     name: tool.name, url: SITE_URL + '/tools/' + tool.slug,
+    mainEntityOfPage: SITE_URL + '/tools/' + tool.slug,
     applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web Browser',
+    isAccessibleForFree: true,
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     description: tool.description,
   };
