@@ -129,7 +129,7 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
       '<span class="' + className + '">' + escapeHtml(value) + '</span>';
 
     const keywords = new Set(keywordSets[langKey] || []);
-    const tokenPattern = /("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\/\/.*|#.*|\/\\*[\\s\\S]*?\\*\/|\\b\\d+(?:\\.\\d+)?\\b|\\b[A-Za-z_$][A-Za-z0-9_$]*\\b)/g;
+    const tokenPattern = /("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\/\/.*|#.*|\/\*[\s\S]*?\*\/|\b\d+(?:\.\d+)?\b|\b[A-Za-z_$][A-Za-z0-9_$]*\b)/g;
 
     const highlightCodeLine = (line: string) => {
       const parts: string[] = [];
@@ -142,7 +142,7 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
         const token = match[0];
         if (/^("|')/.test(token)) parts.push(wrap('text-amber-300', token));
         else if (token.startsWith('//') || token.startsWith('#') || token.startsWith('/*')) parts.push(wrap('text-zinc-500 italic', token));
-        else if (/^\\d/.test(token)) parts.push(wrap('text-cyan-300', token));
+        else if (/^\d/.test(token)) parts.push(wrap('text-cyan-300', token));
         else if (keywords.has(token) || (langKey === 'sql' && keywords.has(token.toUpperCase()))) {
           parts.push(wrap('text-violet-300 font-semibold', token));
         } else {
