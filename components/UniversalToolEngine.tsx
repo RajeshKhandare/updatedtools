@@ -1023,39 +1023,46 @@ function YouTube({slug}:{slug:string}){
     const topic=inputValue.trim()||'YouTube video';
 
     if(slug==='youtube-title-generator'){
+      const cleanTopic=topic.replace(/\s+/g,' ').trim();
       const titles:string[]=[
-        `${topic} — Complete Guide`,
-        `${topic}: What You Need to Know`,
-        `${topic} Explained Simply`,
-        `I Tried ${topic} — Here's What Happened`,
-        `Top Tips for ${topic}`
+        `${cleanTopic}: Complete Guide for Beginners`,
+        `How to ${cleanTopic} — Step-by-Step Guide`,
+        `${cleanTopic} Explained: Key Things to Know`,
+        `5 Practical ${cleanTopic} Tips You Can Use`,
+        `Common ${cleanTopic} Mistakes and How to Avoid Them`,
+        `${cleanTopic} Tutorial: From Basics to Results`,
+        `What I Wish I Knew Before ${cleanTopic}`,
+        `${cleanTopic}: Tips, Examples & Best Practices`
       ];
-
-      setResult(titles.join('\n'));
+      setResult(Array.from(new Set(titles)).join('\\n'));
       return;
     }
 
     if(slug==='youtube-tag-generator'){
-      const words:string[]=
-        topic.toLowerCase().match(/[a-z0-9]+/g)??[];
-
-      const defaultTags:string[]=[
-        'youtube',
-        'tutorial',
-        'guide',
-        'tips',
+      const words:string[]=topic.toLowerCase().match(/[a-z0-9]+/g)??[];
+      const phrase=topic.replace(/\s+/g,' ').trim().toLowerCase();
+      const tags:string[]=[
+        phrase,
+        `${phrase} tutorial`,
+        `${phrase} guide`,
+        `how to ${phrase}`,
+        `${phrase} tips`,
+        `${phrase} explained`,
+        `${phrase} for beginners`,
+        `${phrase} step by step`,
+        `${phrase} examples`,
+        `${phrase} best practices`,
+        ...words,
+        ...words.map((word)=>`${word} tutorial`),
+        ...words.map((word)=>`${word} guide`),
+        'youtube video',
+        'video tutorial',
         'how to',
-        'explained'
+        'beginner guide'
       ];
-
-      const tags:string[]=Array.from(
-        new Set<string>([...words,...defaultTags])
-      ).slice(0,30);
-
-      setResult(tags.join(', '));
+      setResult(Array.from(new Set(tags.filter((tag)=>tag.length>1))).slice(0,30).join(', '));
       return;
     }
-
     setResult('Enter a topic or keyword.');
   };
 
