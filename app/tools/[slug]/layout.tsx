@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
-import { SITE_NAME, SITE_URL } from '@/config/site';
+import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 import { getToolSeoContent } from '@/data/toolSeo';
 
 export function generateStaticParams() {
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     alternates: { canonical: `${SITE_URL}/tools/${tool.slug}` },
     openGraph: { title, description, url: `${SITE_URL}/tools/${tool.slug}`, siteName: SITE_NAME, type: 'website' },
     twitter: { card: 'summary_large_image', title, description },
-    robots: { index: true, follow: true },
+    robots: { index: SITE_URL_CONFIGURED, follow: true },
   };
 }
 
