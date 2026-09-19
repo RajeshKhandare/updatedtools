@@ -28,7 +28,7 @@ jobs:
       - name: Wait briefly for Vercel deployment
         run: sleep 10
 
-      - name: Browser smoke test all 88 tools
+      - name: Browser smoke test all 87 tools
         env:
           SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
         run: node scripts/browser-smoke.mjs
