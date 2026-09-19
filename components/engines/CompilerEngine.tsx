@@ -112,38 +112,106 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
 
   const highlightedCode = React.useMemo(() => {
     const keywordSets: Record<string, string[]> = {
-      python: ['def','return','for','in','range','if','else','elif','import','from','class','True','False','None','and','or','not','while','print'],
-      javascript: ['const','let','var','function','return','if','else','for','of','in','class','new','async','await','import','from','export','true','false','null','undefined'],
-      java: ['public','private','protected','class','static','void','int','double','float','long','boolean','new','return','if','else','for','while','String','true','false','null'],
-      cpp: ['include','int','double','float','long','char','void','return','if','else','for','while','class','struct','const','auto','true','false','nullptr'],
-      csharp: ['using','namespace','class','public','private','static','void','int','double','float','string','bool','return','if','else','for','while','true','false','null','new'],
-      php: ['echo','function','return','if','else','elseif','foreach','as','class','public','private','protected','new','true','false','null'],
-      html: [],
-      sql: ['SELECT','FROM','WHERE','INSERT','INTO','VALUES','UPDATE','SET','DELETE','CREATE','TABLE','AND','OR','AS','JOIN','ON','ORDER','BY','GROUP','LIMIT','NULL'],
+      python: ['def','return','for','in','range','if','else','elif','import','from','class','True','False','None','and','or','not','while','print','try','except','finally','with','as','lambda','yield','async','await'],
+      javascript: ['const','let','var','function','return','if','else','for','of','in','class','new','async','await','import','from','export','default','true','false','null','undefined','this','try','catch','finally','throw','typeof','instanceof'],
+      java: ['public','private','protected','class','static','void','int','double','float','long','boolean','new','return','if','else','for','while','String','true','false','null','this','extends','implements','interface','final','try','catch','finally','throw'],
+      cpp: ['include','int','double','float','long','char','void','return','if','else','for','while','class','struct','const','auto','true','false','nullptr','namespace','using','public','private','protected','template','typename','std','new','delete'],
+      csharp: ['using','namespace','class','public','private','protected','static','void','int','double','float','string','bool','return','if','else','for','while','true','false','null','new','var','async','await','Task','interface','extends','try','catch','finally'],
+      php: ['echo','function','return','if','else','elseif','foreach','as','class','public','private','protected','new','true','false','null','namespace','use','extends','implements','try','catch','finally','function'],
+      html: ['html','head','body','title','meta','link','style','script','div','span','main','section','header','footer','h1','h2','h3','p','a','img','button','input','form','class','id','href','src','alt'],
+      sql: ['SELECT','FROM','WHERE','INSERT','INTO','VALUES','UPDATE','SET','DELETE','CREATE','TABLE','AND','OR','AS','JOIN','ON','ORDER','BY','GROUP','LIMIT','NULL','PRIMARY','KEY','NOT','IS','INNER','LEFT','RIGHT','OUTER','DROP','ALTER','ADD','INDEX'],
     };
 
-    const escapeHtml = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-    const keywords = new Set(keywordSets[langKey] || []);
-    const tokenPattern = /("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\/\/.*|#.*|\/\*[\s\S]*?\*\/|\b\d+(?:\.\d+)?\b|\b[A-Za-z_$][A-Za-z0-9_$]*\b)/g;
+    const escapeHtml = (value: string) =>
+      value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-    return code.split('\n').map((line) => {
+    const wrap = (className: string, value: string) =>
+      '<span class="' + className + '">' + escapeHtml(value) + '</span>';
+
+    const keywords = new Set(keywordSets[langKey] || []);
+    const tokenPattern = /("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\/\/.*|#.*|\/\\*[\\s\\S]*?\\*\/|\\b\\d+(?:\\.\\d+)?\\b|\\b[A-Za-z_$][A-Za-z0-9_$]*\\b)/g;
+
+    const highlightCodeLine = (line: string) => {
       const parts: string[] = [];
       let last = 0;
+
       for (const match of line.matchAll(tokenPattern)) {
-        const start = match.index ?? 0;
-        if (start > last) parts.push(escapeHtml(line.slice(last, start)));
+        const startIndex = match.index ?? 0;
+        if (startIndex > last) parts.push(escapeHtml(line.slice(last, startIndex)));
+
         const token = match[0];
-        const escaped = escapeHtml(token);
-        if (/^("|')/.test(token)) parts.push('<span class="text-amber-300">' + escaped + '</span>');
-        else if (/^(\/\/|#|\/\*)/.test(token)) parts.push('<span class="text-zinc-500 italic">' + escaped + '</span>');
-        else if (/^\d/.test(token)) parts.push('<span class="text-cyan-300">' + escaped + '</span>');
-        else if (keywords.has(token) || (langKey === 'sql' && keywords.has(token.toUpperCase()))) parts.push('<span class="text-violet-300 font-semibold">' + escaped + '</span>');
-        else parts.push(escaped);
-        last = start + token.length;
+        if (/^("|')/.test(token)) parts.push(wrap('text-amber-300', token));
+        else if (/^(\\/\\/|#|\\/\\*)/.test(token)) parts.push(wrap('text-zinc-500 italic', token));
+        else if (/^\\d/.test(token)) parts.push(wrap('text-cyan-300', token));
+        else if (keywords.has(token) || (langKey === 'sql' && keywords.has(token.toUpperCase()))) {
+          parts.push(wrap('text-violet-300 font-semibold', token));
+        } else {
+          parts.push(escapeHtml(token));
+        }
+        last = startIndex + token.length;
       }
+
       if (last < line.length) parts.push(escapeHtml(line.slice(last)));
-      return '<span class="inline-block min-w-full">' + (parts.join('') || ' ') + '</span>';
-    }).join('');
+      return parts.join('') || ' ';
+    };
+
+    const highlightHtmlLine = (line: string) => {
+      const parts: string[] = [];
+      let last = 0;
+      const htmlPattern = /<!--.*?-->|<\\/?[A-Za-z][^>]*>/g;
+
+      for (const match of line.matchAll(htmlPattern)) {
+        const startIndex = match.index ?? 0;
+        if (startIndex > last) {
+          parts.push(highlightCodeLine(line.slice(last, startIndex)));
+        }
+
+        const token = match[0];
+        if (token.startsWith('<!--')) {
+          parts.push(wrap('text-zinc-500 italic', token));
+        } else {
+          const tagMatch = token.match(/^(<\\/?)([A-Za-z][\\w:-]*)(.*?)(\\/?>)$/);
+          if (!tagMatch) {
+            parts.push(escapeHtml(token));
+          } else {
+            const [, open, tagName, attrs, close] = tagMatch;
+            let attrHtml = '';
+            let attrLast = 0;
+            const attrPattern = /([A-Za-z_:][\\w:.-]*)(\\s*=\\s*)(".*?"|'.*?'|[^\\s>]+)/g;
+
+            for (const attrMatch of attrs.matchAll(attrPattern)) {
+              const attrStart = attrMatch.index ?? 0;
+              if (attrStart > attrLast) attrHtml += escapeHtml(attrs.slice(attrLast, attrStart));
+              attrHtml += wrap('text-cyan-300', attrMatch[1]);
+              attrHtml += escapeHtml(attrMatch[2]);
+              attrHtml += wrap('text-amber-300', attrMatch[3]);
+              attrLast = attrStart + attrMatch[0].length;
+            }
+
+            if (attrLast < attrs.length) attrHtml += escapeHtml(attrs.slice(attrLast));
+            parts.push(
+              escapeHtml(open) +
+              wrap('text-violet-300 font-semibold', tagName) +
+              attrHtml +
+              escapeHtml(close)
+            );
+          }
+        }
+
+        last = startIndex + token.length;
+      }
+
+      if (last < line.length) parts.push(highlightCodeLine(line.slice(last)));
+      return parts.join('') || ' ';
+    };
+
+    return code
+      .split('\\n')
+      .map((line) => {
+        const highlighted = langKey === 'html' ? highlightHtmlLine(line) : highlightCodeLine(line);
+        return '<span class="block min-w-full">' + highlighted + '</span>';
+      })
+      .join('');
   }, [code, langKey]);
 
   const lineCount = Math.max(code.split('\n').length, 1);
@@ -180,7 +248,7 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
               {Array.from({ length: lineCount }, (_, index) => <div key={index} className="pr-3">{index + 1}</div>)}
             </div>
             <div className="relative min-w-0 flex-1">
-              <pre aria-hidden="true" className="pointer-events-none absolute inset-0 m-0 overflow-hidden whitespace-pre p-3 font-mono text-xs leading-relaxed text-violet-200" dangerouslySetInnerHTML={{ __html: highlightedCode }} />
+              <pre aria-hidden="true" className="pointer-events-none absolute inset-0 m-0 overflow-hidden whitespace-pre p-3 font-mono text-xs leading-relaxed text-zinc-200" dangerouslySetInnerHTML={{ __html: highlightedCode }} />
               <textarea
                 value={code}
                 onChange={(e) => setCode(e.target.value)}
@@ -202,7 +270,7 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
                 }}
                 spellCheck={false}
                 rows={18}
-                className="relative z-10 h-full min-h-[420px] w-full resize-none overflow-auto bg-transparent p-3 font-mono text-xs leading-relaxed text-transparent caret-violet-300 outline-none selection:bg-violet-500/30"
+                className="relative z-10 h-full min-h-[420px] w-full resize-none overflow-auto bg-transparent p-3 font-mono text-xs leading-relaxed text-transparent caret-violet-300 outline-none selection:bg-violet-500/30 selection:text-transparent"
               />
             </div>
           </div>
