@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import FileDropzone from '../FileDropzone';
 import {
   PDFDocument,
   StandardFonts,
@@ -1007,8 +1008,7 @@ export default function PdfEngine({
         {toolName}
       </h3>
 
-      <input
-        type="file"
+      <FileDropzone
         multiple={
           toolSlug === 'merge-pdf' ||
           toolSlug === 'jpg-to-pdf'
@@ -1016,12 +1016,23 @@ export default function PdfEngine({
         accept={
           toolSlug === 'jpg-to-pdf'
             ? 'image/jpeg,image/png'
-            : toolSlug ===
-                'word-to-pdf'
+            : toolSlug === 'word-to-pdf'
               ? '.docx'
               : '.pdf'
         }
-        onChange={add}
+        label={
+          toolSlug === 'jpg-to-pdf'
+            ? 'Choose or Drop Image Files'
+            : toolSlug === 'word-to-pdf'
+              ? 'Choose or Drop DOCX Files'
+              : 'Choose or Drop PDF Files'
+        }
+        onFiles={(selected) => {
+          const syntheticEvent = {
+            target: { files: selected },
+          } as React.ChangeEvent<HTMLInputElement>;
+          add(syntheticEvent);
+        }}
       />
 
       {error && (
