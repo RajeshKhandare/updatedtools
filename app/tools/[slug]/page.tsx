@@ -1165,8 +1165,8 @@ function DedicatedFinanceEngine({ toolSlug, toolName }: { toolSlug: string; tool
 // ----------------------------------------------------
 // MAIN DYNAMIC TOOL PAGE
 // ----------------------------------------------------
-export default function ToolPage({
-  const [showPrivacy, setShowPrivacy] = useState(false); params }: { params: { slug: string } }) {
+export default function ToolPage({ params }: { params: { slug: string } }) {
+  const [showPrivacy, setShowPrivacy] = useState(false);
   const tool = TOOLS_REGISTRY.find((t) => t.slug === params.slug);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
