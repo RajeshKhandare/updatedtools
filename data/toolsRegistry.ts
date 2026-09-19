@@ -658,13 +658,6 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     targetKeyword: 'YouTube Tag Generator',
   },
   {
-    name: 'YouTube Title Generator',
-    slug: 'youtube-title-generator',
-    category: 'YouTube',
-    description: 'Generate YouTube title ideas tailored to video topics, formats, and audience intent.',
-    targetKeyword: 'YouTube Title Generator',
-  },
-  {
     name: 'YouTube Money Calculator',
     slug: 'youtube-money-calculator',
     category: 'YouTube',
