@@ -13,7 +13,8 @@ export type ToolSeoContent = {
   formula?: string;
 };
 
-const makeFaqs = (tool: ToolMeta, extras: ToolFaq[]): ToolFaq[] => [
+const makeFaqs = (tool: ToolMeta, extras: ToolFaq[]): ToolFaq[] => {
+  const faqs: ToolFaq[] = [
   {
     q: 'What is ' + tool.name + ' used for?',
     a: tool.description + ' It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide.',
@@ -27,7 +28,13 @@ const makeFaqs = (tool: ToolMeta, extras: ToolFaq[]): ToolFaq[] => [
     q: 'Is ' + tool.name + ' free to use?',
     a: 'Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow.',
   },
+  {
+    q: 'Can I use ' + tool.name + ' on a phone or tablet?',
+    a: 'The page is responsive and designed for modern browsers. Very large files, complex calculations, or compute-heavy operations can behave differently depending on the device.'
+  },
 ];
+  return faqs;
+};
 
 const financeDetails: Record<string, { formula: string; why: string; tips: string[] }> = {
   'sip-wealth-calculator': {
@@ -267,7 +274,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
   const focus = getToolFocus(tool);
   if (detail) {
     return {
-      intro: tool.description + ' ' + focus.focus + ' This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.',
+      intro: focus.focus + ' This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.',
       why: detail.why,
       formula: detail.formula,
       steps: ['Enter the values requested by the calculator.', 'Review assumptions and units before calculating.', 'Run the calculation and compare at least one alternative scenario.', 'Use the result as an estimate and verify important decisions against official records or terms.', ...focus.examples.map((example) => 'Example: ' + example)],
@@ -281,14 +288,13 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
 
   const profile = categoryProfiles[tool.category] || categoryProfiles.Developer;
   return {
-    intro: tool.description + ' ' + focus.focus + ' This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.',
+    intro: focus.focus + ' This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.',
     why: profile.why,
     steps: [
       'Open ' + tool.name + ' and identify the required input format or values.',
       'Enter or select the input and review every available option before running the operation.',
       'Run the tool and inspect the result rather than assuming the first output is correct.',
       'Download, copy, or reuse the result only after checking it against your original requirement.',
-      ...focus.examples.map((example) => 'Example: ' + example),
     ],
     useCases: [
       'Quick one-off ' + tool.name.toLowerCase() + ' tasks without installing a separate utility.',
