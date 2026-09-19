@@ -1253,23 +1253,16 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
         <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
           {renderEngine()}
 
-          {/* Processing & Privacy */}
-          <div className="mt-14 rounded-3xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-6 sm:p-7 shadow-sm">
-            <div className="flex items-start gap-3">
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400">
-                <Lock className="h-4 w-4" />
-              </div>
-              <div className="min-w-0">
-                <h2 className="text-sm sm:text-base font-bold text-zinc-950 dark:text-white">Processing & Privacy</h2>
-                <p className="mt-2 text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                  {tool.category === 'Compiler' ? `${tool.name} uses a browser sandbox for supported operations and a configured execution runtime for compiled languages. Avoid entering secrets or private credentials.` : `${tool.name} is designed for browser-based processing where supported, so your selected file can be handled locally without a normal file-upload workflow.`}
-                </p>
-                <div className="mt-4 pt-4 border-t border-zinc-100 dark:border-zinc-800/70 flex items-center gap-2 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400">
-                  <CheckCircle2 className="h-4 w-4 shrink-0" />
-                  <span>{tool.category === 'Compiler' ? 'Execution model varies by language • No account required' : 'Browser-based processing where supported • No account required'}</span>
-                </div>
-              </div>
-            </div>
+          {/* Compact Processing & Privacy */}
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 border-y border-zinc-200/70 dark:border-zinc-800/80 py-3 text-[11px] text-zinc-500 dark:text-zinc-400">
+            <span className="inline-flex items-center gap-1.5 font-semibold text-zinc-700 dark:text-zinc-300">
+              <Lock className="h-3.5 w-3.5 text-emerald-500" />
+              Processing & Privacy
+            </span>
+            <span className="hidden sm:inline text-zinc-300 dark:text-zinc-700">•</span>
+            <span>{tool.category === 'Compiler' ? 'Browser sandbox or configured execution runtime' : 'Browser-based processing where supported'}</span>
+            <span className="hidden sm:inline text-zinc-300 dark:text-zinc-700">•</span>
+            <span>No account required</span>
           </div>
 
           <ToolSeoContent tool={tool} />
