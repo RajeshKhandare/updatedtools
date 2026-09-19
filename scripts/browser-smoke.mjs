@@ -565,7 +565,7 @@ async function testUniversal(page, slug, category) {
 
     const result =
       page.locator(
-        'text=/Result|°/'
+        'div.text-2xl.font-bold'
       ).last();
 
     await result.waitFor({
