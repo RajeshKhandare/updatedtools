@@ -11,7 +11,22 @@ function VisualPanel({ tool, visual }: { tool: ToolMeta; visual: ReturnType<type
     return <div className={common}>
       <div className="flex items-center gap-2 mb-4"><Calculator className="h-5 w-5 text-violet-600" /><h3 className="font-bold">How the calculation behaves</h3></div>
       <div className="grid grid-cols-4 items-end gap-3 h-40">
-        {[28, 40, 55, 74].map((height, i) => <div key={i} className="flex flex-col items-center gap-2"><div className="w-full rounded-t-xl bg-violet-500/20 dark:bg-violet-400/20" style={{ height: height + '%' }} /><span className="text-[10px] text-zinc-500">Scenario {i + 1}</span></div>)}
+        {[
+          { height: 44, label: 'Input A' },
+          { height: 70, label: 'Input B' },
+          { height: 98, label: 'Input C' },
+          { height: 126, label: 'Input D' },
+        ].map((scenario) => (
+          <div key={scenario.label} className="flex h-full flex-col items-center justify-end gap-2">
+            <div className="flex h-32 w-full items-end">
+              <div
+                className="w-full rounded-t-xl bg-violet-500/70 dark:bg-violet-400/70"
+                style={{ height: scenario.height + 'px' }}
+              />
+            </div>
+            <span className="text-[10px] font-medium text-zinc-500">{scenario.label}</span>
+          </div>
+        ))}
       </div>
       <p className="mt-3 text-[11px] leading-5 text-zinc-500">Illustrative visual only. Actual results depend on the values and assumptions entered into {tool.name}.</p>
     </div>;
@@ -76,8 +91,8 @@ export default function ToolSeoContent({ tool }: { tool: ToolMeta }) {
 
       <div className="mt-6">
         <h3 className="text-xl font-bold">Frequently asked questions</h3>
-        <div className="mt-4 grid md:grid-cols-2 gap-4">
-          {seo.faq.map(item=><details key={item.q} className="group rounded-2xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5"><summary className="cursor-pointer list-none pr-6 text-sm font-bold text-zinc-900 dark:text-white">{item.q}</summary><p className="mt-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400">{item.a}</p></details>)}
+        <div className="mt-4 grid md:grid-cols-2 gap-4 items-stretch">
+          {seo.faq.map(item=><details key={item.q} className="group flex h-full flex-col rounded-2xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5"><summary className="cursor-pointer list-none pr-6 text-sm font-bold text-zinc-900 dark:text-white">{item.q}</summary><p className="mt-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400">{item.a}</p></details>)}
         </div>
       </div>
     </div>
