@@ -1102,22 +1102,32 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
             YouTube Money Calculator
           </h3>
 
-          <div className="grid sm:grid-cols-2 gap-3">
-            <input
-              id="views"
-              className={input}
-              type="number"
-              defaultValue="100000"
-              placeholder="Monthly views"
-            />
+          <div className="grid sm:grid-cols-2 gap-4">
+            <label className="block">
+              <span className="mb-2 block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                Monthly Views
+              </span>
+              <input
+                id="views"
+                className={input}
+                type="number"
+                defaultValue="100000"
+                aria-label="Monthly views"
+              />
+            </label>
 
-            <input
-              id="rpm"
-              className={input}
-              type="number"
-              defaultValue="2"
-              placeholder="RPM (USD)"
-            />
+            <label className="block">
+              <span className="mb-2 block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                RPM (USD)
+              </span>
+              <input
+                id="rpm"
+                className={input}
+                type="number"
+                defaultValue="2"
+                aria-label="RPM in USD"
+              />
+            </label>
           </div>
 
           <button
