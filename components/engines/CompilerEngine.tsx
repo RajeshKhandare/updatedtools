@@ -137,7 +137,34 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
           <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-widest pb-2 border-b border-zinc-800 mb-2">
             Source File (main.{langKey === 'python' ? 'py' : langKey === 'html' ? 'html' : 'js'})
           </div>
-          <textarea value={code} onChange={(e) => setCode(e.target.value)} spellCheck={false} rows={18} className="w-full bg-transparent text-violet-200 outline-none resize-none font-mono text-xs leading-relaxed" />
+          <textarea
+            value={code}
+            onChange={(e) => setCode(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key !== 'Tab') return;
+
+              e.preventDefault();
+
+              const textarea = e.currentTarget;
+              const start = textarea.selectionStart;
+              const end = textarea.selectionEnd;
+              const indent = '    ';
+              const nextValue =
+                code.slice(0, start) +
+                indent +
+                code.slice(end);
+
+              setCode(nextValue);
+
+              requestAnimationFrame(() => {
+                textarea.selectionStart = start + indent.length;
+                textarea.selectionEnd = start + indent.length;
+              });
+            }}
+            spellCheck={false}
+            rows={18}
+            className="w-full bg-transparent text-violet-200 outline-none resize-none font-mono text-xs leading-relaxed"
+          />
         </div>
 
         {langKey === 'html' && preview ? (
