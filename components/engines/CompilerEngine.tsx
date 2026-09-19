@@ -158,7 +158,7 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
     const highlightHtmlLine = (line: string) => {
       const parts: string[] = [];
       let last = 0;
-      const htmlPattern = /<!--.*?-->|<\\/?[A-Za-z][^>]*>/g;
+      const htmlPattern = /<!--.*?-->|<[/]?[A-Za-z][^>]*>/g;
 
       for (const match of line.matchAll(htmlPattern)) {
         const startIndex = match.index ?? 0;
@@ -170,14 +170,14 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
         if (token.startsWith('<!--')) {
           parts.push(wrap('text-zinc-500 italic', token));
         } else {
-          const tagMatch = token.match(/^(<\\/?)([A-Za-z][\\w:-]*)(.*?)(\\/?>)$/);
+          const tagMatch = token.match(/^(<[/]?)([A-Za-z][\w:-]*)(.*?)([/]?>)$/);
           if (!tagMatch) {
             parts.push(escapeHtml(token));
           } else {
             const [, open, tagName, attrs, close] = tagMatch;
             let attrHtml = '';
             let attrLast = 0;
-            const attrPattern = /([A-Za-z_:][\\w:.-]*)(\\s*=\\s*)(".*?"|'.*?'|[^\\s>]+)/g;
+            const attrPattern = /([A-Za-z_:][\w:.-]*)(\s*=\s*)(".*?"|'.*?'|[^\s>]+)/g;
 
             for (const attrMatch of attrs.matchAll(attrPattern)) {
               const attrStart = attrMatch.index ?? 0;
