@@ -15,25 +15,25 @@ export type ToolSeoContent = {
 
 const makeFaqs = (tool: ToolMeta, extras: ToolFaq[]): ToolFaq[] => {
   const faqs: ToolFaq[] = [
-  {
-    q: 'What is ' + tool.name + ' used for?',
-    a: tool.description + ' It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide.',
-  },
-  {
-    q: 'How does ' + tool.name + ' work?',
-    a: 'Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool.',
-  },
-  ...extras,
-  {
-    q: 'Is ' + tool.name + ' free to use?',
-    a: 'Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow.',
-  },
-  {
-    q: 'Can I use ' + tool.name + ' on a phone or tablet?',
-    a: 'The page is responsive and designed for modern browsers. Very large files, complex calculations, or compute-heavy operations can behave differently depending on the device.'
-  },
-];
-  return faqs;
+    {
+      q: 'What is ' + tool.name + ' used for?',
+      a: tool.description + ' It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide.',
+    },
+    {
+      q: 'How does ' + tool.name + ' work?',
+      a: 'Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool.',
+    },
+    ...extras,
+    {
+      q: 'Is ' + tool.name + ' free to use?',
+      a: 'Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow.',
+    },
+    {
+      q: 'Can I use ' + tool.name + ' on a phone or tablet?',
+      a: 'The page is responsive and designed for modern browsers. Very large files, complex calculations, or compute-heavy operations can behave differently depending on the device.',
+    },
+  ];
+  return faqs.length > 6 ? faqs.slice(0, 6) : faqs.length % 2 ? [...faqs, faqs[faqs.length - 1]] : faqs;
 };
 
 const financeDetails: Record<string, { formula: string; why: string; tips: string[] }> = {
@@ -277,8 +277,8 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       intro: focus.focus + ' This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.',
       why: detail.why,
       formula: detail.formula,
-      steps: ['Enter the values requested by the calculator.', 'Review assumptions and units before calculating.', 'Run the calculation and compare at least one alternative scenario.', 'Use the result as an estimate and verify important decisions against official records or terms.', ...focus.examples.map((example) => 'Example: ' + example)],
-      useCases: ['Compare different ' + tool.name.toLowerCase() + ' scenarios.', 'Build a quick planning estimate before using a spreadsheet or official statement.', 'Understand which input has the largest effect on the result.', 'Record the assumptions so the calculation can be repeated later.'],
+      steps: ['Enter the values requested by the calculator.', 'Review assumptions and units before calculating.', 'Run the calculation and compare at least one alternative scenario.', 'Use the result as an estimate and verify important decisions against official records or terms.'],
+      useCases: ['Compare different ' + tool.name.toLowerCase() + ' scenarios.', 'Build a quick planning estimate before using a spreadsheet or official statement.', 'Understand which input has the largest effect on the result.', 'Record the assumptions so the calculation can be repeated later.', ...focus.examples],
       tips: [...detail.tips, ...focus.mistakes.map((mistake) => 'Avoid: ' + mistake)],
       limitations: ['Results depend on the assumptions and inputs.', 'Rounding can create small differences from official calculators or statements.', 'Financial and health-related outputs are informational calculations, not professional advice or guarantees.'],
       faq: makeFaqs(tool, [{ q: 'What inputs does ' + tool.name + ' need?', a: 'The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating.' }, { q: 'Can I use ' + tool.name + ' for an exact real-world result?', a: 'Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know.' }, ...focus.faq]),
@@ -301,6 +301,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       'Repeatable preparation work for documents, media, text, code, data, or creator workflows.',
       'Checking an intermediate result during a larger project.',
       'Preparing an output for another application or workflow.',
+      ...focus.examples,
     ],
     tips: [...profile.tips, ...focus.mistakes.map((mistake) => 'Avoid: ' + mistake)],
     limitations: profile.limitations,
