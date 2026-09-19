@@ -1165,7 +1165,8 @@ function DedicatedFinanceEngine({ toolSlug, toolName }: { toolSlug: string; tool
 // ----------------------------------------------------
 // MAIN DYNAMIC TOOL PAGE
 // ----------------------------------------------------
-export default function ToolPage({ params }: { params: { slug: string } }) {
+export default function ToolPage({
+  const [showPrivacy, setShowPrivacy] = useState(false); params }: { params: { slug: string } }) {
   const tool = TOOLS_REGISTRY.find((t) => t.slug === params.slug);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
@@ -1254,16 +1255,25 @@ export default function ToolPage({ params }: { params: { slug: string } }) {
           {renderEngine()}
 
           {/* Compact Processing & Privacy */}
-          <div className="mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 border-y border-zinc-200/70 dark:border-zinc-800/80 py-3 text-[11px] text-zinc-500 dark:text-zinc-400">
-            <span className="inline-flex items-center gap-1.5 font-semibold text-zinc-700 dark:text-zinc-300">
-              <Lock className="h-3.5 w-3.5 text-emerald-500" />
-              Processing & Privacy
-            </span>
-            <span className="hidden sm:inline text-zinc-300 dark:text-zinc-700">•</span>
-            <span>{tool.category === 'Compiler' ? 'Browser sandbox or configured execution runtime' : 'Browser-based processing where supported'}</span>
-            <span className="hidden sm:inline text-zinc-300 dark:text-zinc-700">•</span>
-            <span>No account required</span>
+          <div className="mt-5 flex justify-center">
+            <button
+              type="button"
+              onClick={() => setShowPrivacy((open) => !open)}
+              aria-expanded={showPrivacy}
+              aria-label="Show processing and privacy information"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-zinc-200/80 dark:border-zinc-800 bg-white/70 dark:bg-zinc-900/70 text-emerald-600 dark:text-emerald-400 transition-colors hover:border-emerald-300 hover:bg-emerald-50 dark:hover:border-emerald-900 dark:hover:bg-emerald-950/40"
+            >
+              <Lock className="h-4 w-4" />
+            </button>
           </div>
+          {showPrivacy && (
+            <div className="mt-3 mx-auto max-w-xl rounded-2xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 py-3 text-center text-xs text-zinc-500 dark:text-zinc-400 shadow-sm">
+              <div className="font-semibold text-zinc-800 dark:text-zinc-200">Processing & Privacy</div>
+              <p className="mt-1.5 leading-relaxed">
+                {tool.category === 'Compiler' ? 'Browser sandbox or configured execution runtime. Avoid entering secrets or private credentials.' : 'Browser-based processing where supported. No account is required.'}
+              </p>
+            </div>
+          )}
 
           <ToolSeoContent tool={tool} />
 
