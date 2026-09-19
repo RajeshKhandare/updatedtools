@@ -1022,22 +1022,6 @@ function YouTube({slug}:{slug:string}){
   const run=()=>{
     const topic=inputValue.trim()||'YouTube video';
 
-    if(slug==='youtube-title-generator'){
-      const cleanTopic=topic.replace(/\s+/g,' ').trim();
-      const titles:string[]=[
-        `${cleanTopic}: Complete Guide for Beginners`,
-        `How to ${cleanTopic} — Step-by-Step Guide`,
-        `${cleanTopic} Explained: Key Things to Know`,
-        `5 Practical ${cleanTopic} Tips You Can Use`,
-        `Common ${cleanTopic} Mistakes and How to Avoid Them`,
-        `${cleanTopic} Tutorial: From Basics to Results`,
-        `What I Wish I Knew Before ${cleanTopic}`,
-        `${cleanTopic}: Tips, Examples & Best Practices`
-      ];
-      setResult(Array.from(new Set(titles)).join('\n'));
-      return;
-    }
-
     if(slug==='youtube-tag-generator'){
       const words:string[]=topic.toLowerCase().match(/[a-z0-9]+/g)??[];
       const phrase=topic.replace(/\s+/g,' ').trim().toLowerCase();
@@ -1069,9 +1053,7 @@ function YouTube({slug}:{slug:string}){
   return (
     <div className={plainCard}>
       <h3 className="text-lg font-bold">
-        {slug==='youtube-title-generator'
-          ? 'YouTube Title Generator'
-          : 'YouTube Tag Generator'}
+        'YouTube Tag Generator'
       </h3>
 
       <input
