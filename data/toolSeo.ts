@@ -33,7 +33,14 @@ const makeFaqs = (tool: ToolMeta, extras: ToolFaq[]): ToolFaq[] => {
       a: 'The page is responsive and designed for modern browsers. Very large files, complex calculations, or compute-heavy operations can behave differently depending on the device.',
     },
   ];
-  return faqs.length > 6 ? faqs.slice(0, 6) : faqs.length % 2 ? [...faqs, faqs[faqs.length - 1]] : faqs;
+  if (faqs.length > 6) return faqs.slice(0, 6);
+  if (faqs.length % 2 === 1) {
+    faqs.push({
+      q: 'What should I check before using the result from ' + tool.name + '?',
+      a: 'Review the result against the original input and intended use. For important documents, calculations, code, or decisions, verify the final output with the relevant authoritative source or target environment.',
+    });
+  }
+  return faqs;
 };
 
 const financeDetails: Record<string, { formula: string; why: string; tips: string[] }> = {
