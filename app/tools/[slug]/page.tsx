@@ -1165,8 +1165,9 @@ function DedicatedFinanceEngine({ toolSlug, toolName }: { toolSlug: string; tool
 // ----------------------------------------------------
 // MAIN DYNAMIC TOOL PAGE
 // ----------------------------------------------------
-export default function ToolPage({ params }: { params: { slug: string } }) {
-  const tool = TOOLS_REGISTRY.find((t) => t.slug === params.slug);
+export default function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = React.use(params);
+  const tool = TOOLS_REGISTRY.find((t) => t.slug === slug);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {
