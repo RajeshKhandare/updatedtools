@@ -26,7 +26,7 @@ import {
   Key,
   HelpCircle,
   ChevronDown,
-  Youtube,
+  Video,
   Tag,
   Code,
   Database,
@@ -806,7 +806,7 @@ function DedicatedYoutubeEngine({ toolSlug, toolName }: { toolSlug: string; tool
       <div className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 space-y-6">
         <div className="space-y-2">
           <label className="text-xs font-bold text-zinc-900 dark:text-white flex items-center gap-2">
-            <Youtube className="h-4 w-4 text-red-500" />
+            <Video className="h-4 w-4 text-red-500" />
             <span>Paste YouTube Video URL</span>
           </label>
           <div className="flex gap-2">
