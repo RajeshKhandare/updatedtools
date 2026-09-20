@@ -544,8 +544,9 @@ export default function ImageEngine({
       )}
 
       <button
-        className="rounded-xl bg-violet-600 px-5 py-2.5 text-xs font-bold text-white hover:bg-violet-700"
+        className="rounded-xl bg-violet-600 px-5 py-2.5 text-xs font-bold text-white hover:bg-violet-700 disabled:cursor-not-allowed disabled:opacity-50"
         onClick={make}
+        disabled={!src}
       >
         Process {toolName}
       </button>
@@ -564,7 +565,7 @@ export default function ImageEngine({
           />
 
           <button
-            className="mt-3 rounded-xl border px-4 py-2 text-xs"
+            className="mt-3 rounded-xl border border-zinc-300 bg-white px-4 py-2 text-xs font-medium text-zinc-900 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-white dark:hover:bg-zinc-700"
             onClick={() =>
               download(
                 output,
