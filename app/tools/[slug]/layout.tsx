@@ -7,8 +7,9 @@ export function generateStaticParams() {
   return TOOLS_REGISTRY.map((tool) => ({ slug: tool.slug }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const tool = TOOLS_REGISTRY.find((x) => x.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const tool = TOOLS_REGISTRY.find((x) => x.slug === slug);
   if (!tool) return { title: 'Tool Not Found', robots: { index: false, follow: false } };
 
   const keyword = tool.targetKeyword || tool.name;
@@ -28,8 +29,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function ToolLayout({ children, params }: { children: React.ReactNode; params: { slug: string } }) {
-  const tool = TOOLS_REGISTRY.find((x) => x.slug === params.slug);
+export default async function ToolLayout({ children, params }: { children: React.ReactNode; params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const tool = TOOLS_REGISTRY.find((x) => x.slug === slug);
   if (!tool) return children;
 
   const faqs = getToolSeoContent(tool).faq;
