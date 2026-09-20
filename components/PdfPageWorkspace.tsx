@@ -30,6 +30,7 @@ export default function PdfPageWorkspace({
   const [pages, setPages] = useState<PageItem[]>([]);
   const [loading, setLoading] = useState(false);
   const [notice, setNotice] = useState('');
+  const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -56,7 +57,10 @@ export default function PdfPageWorkspace({
         for (let fileIndex = 0; fileIndex < files.length; fileIndex += 1) {
           const data = new Uint8Array(await files[fileIndex].arrayBuffer());
           const doc = await pdfjs.getDocument({ data }).promise;
-          const limit = Math.min(doc.numPages, PREVIEW_LIMIT - next.length);
+          const limit = Math.min(
+            doc.numPages,
+            (mode === 'reorder' ? 200 : PREVIEW_LIMIT) - next.length
+          );
 
           for (let pageIndex = 1; pageIndex <= limit; pageIndex += 1) {
             if (cancelled) return;
@@ -95,13 +99,13 @@ export default function PdfPageWorkspace({
 
         setPages(next);
 
-        const totalPages = next.length;
-        const actualTotal = files.length > 1
-          ? next.length
-          : next.length;
-
-        if (actualTotal >= PREVIEW_LIMIT) {
-          setNotice(`Showing the first ${PREVIEW_LIMIT} pages for a fast preview. Processing still uses the complete PDF.`);
+        const previewLimit = mode === 'reorder' ? 200 : PREVIEW_LIMIT;
+        if (next.length >= previewLimit) {
+          setNotice(
+            mode === 'reorder'
+              ? `Showing the first 200 pages. For PDFs with more pages, use the order field below; processing still uses the complete PDF.`
+              : `Showing the first ${PREVIEW_LIMIT} pages for a fast preview. Processing still uses the complete PDF.`
+          );
         } else {
           setNotice('');
         }
@@ -142,6 +146,19 @@ export default function PdfPageWorkspace({
     onSelectedPagesChange(next.sort((a, b) => a - b));
   };
 
+  const reorderPages = (fromIndex: number, toIndex: number) => {
+    if (fromIndex === toIndex || fromIndex < 0 || toIndex < 0) return;
+    if (fromIndex >= pages.length || toIndex >= pages.length) return;
+
+    const next = [...pages];
+    const [moved] = next.splice(fromIndex, 1);
+    next.splice(toIndex, 0, moved);
+    setPages(next);
+    if (mode === 'reorder') {
+      onReorderChange(next.map((page) => page.pageIndex + 1));
+    }
+  };
+
   const movePage = (index: number, direction: number) => {
     const target = index + direction;
     if (target < 0 || target >= pages.length) return;
@@ -179,7 +196,7 @@ export default function PdfPageWorkspace({
             PDF workspace
           </h4>
           <p className="text-xs text-zinc-500 dark:text-zinc-400">
-            {actionText}
+            {mode === 'reorder' ? 'Drag any page directly to its new position, or use the arrows.' : actionText}
           </p>
         </div>
         {loading && (
@@ -200,6 +217,8 @@ export default function PdfPageWorkspace({
                 key={`${page.fileIndex}-${page.pageIndex}-${index}`}
                 className={[
                   'group relative rounded-xl border bg-white p-2 shadow-sm transition',
+                  mode === 'reorder' ? 'cursor-grab active:cursor-grabbing' : '',
+                  draggedIndex === index ? 'opacity-50' : '',
                   selected
                     ? 'border-violet-500 ring-2 ring-violet-500/20'
                     : 'border-zinc-200 dark:border-zinc-800 dark:bg-zinc-900',
