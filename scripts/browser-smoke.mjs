@@ -440,12 +440,6 @@ async function testImage(page, slug, fixtures) {
     { timeout: 5000 }
   );
 
-  await fileInput.evaluate((input) => {
-    input.dispatchEvent(
-      new Event('change', { bubbles: true })
-    );
-  });
-
   await page.waitForFunction(
     () => {
       const button = Array.from(
@@ -522,9 +516,10 @@ async function testCompiler(page, slug) {
     'textarea'
   ).first();
 
-  await editor.fill(code);
+  await editor.click();
+  await editor.press(process.platform === 'darwin' ? 'Meta+A' : 'Control+A');
+  await editor.pressSequentially(code, { delay: 1 });
   await editor.blur();
-  await page.waitForTimeout(250);
 
   await page.waitForFunction(
     (expected) => {
@@ -532,7 +527,7 @@ async function testCompiler(page, slug) {
       return textarea?.value === expected;
     },
     code,
-    { timeout: 5000 }
+    { timeout: 10000 }
   );
 
   await editor.press('End');
