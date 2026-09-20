@@ -532,7 +532,7 @@ async function testCompiler(page, slug) {
   await editor.fill(code);
 
   await editor.evaluate((node, expected) => {
-    const textarea = node as HTMLTextAreaElement;
+    const textarea = node;
     const setter = Object.getOwnPropertyDescriptor(
       HTMLTextAreaElement.prototype,
       'value'
