@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import FileDropzone from '../FileDropzone';
+import PdfPageWorkspace from '../PdfPageWorkspace';
 import {
   PDFDocument,
   StandardFonts,
@@ -391,6 +392,9 @@ export default function PdfEngine({
   const [input2, setInput2] =
     useState('');
 
+  const [selectedPages, setSelectedPages] =
+    useState<number[]>([]);
+
   const add = (
     selected: FileList | File[]
   ) => {
@@ -450,6 +454,9 @@ export default function PdfEngine({
       ...ok,
     ]);
 
+    setSelectedPages([]);
+    setPageSpec('1');
+    setOrder('');
     setError('');
     setOutput(null);
   };
@@ -1082,6 +1089,48 @@ export default function PdfEngine({
           )
         )}
       </div>
+
+      {[
+        'merge-pdf',
+        'split-pdf',
+        'delete-pdf-pages',
+        'reorder-pdf-pages',
+        'rotate-pdf',
+        'add-page-numbers-pdf',
+      ].includes(toolSlug) && files.length > 0 && (
+        <PdfPageWorkspace
+          files={files}
+          mode={
+            toolSlug === 'merge-pdf'
+              ? 'merge'
+              : toolSlug === 'split-pdf'
+                ? 'split'
+                : toolSlug === 'delete-pdf-pages'
+                  ? 'delete'
+                  : toolSlug === 'reorder-pdf-pages'
+                    ? 'reorder'
+                    : toolSlug === 'rotate-pdf'
+                      ? 'rotate'
+                      : 'page-numbers'
+          }
+          selectedPages={selectedPages}
+          onSelectedPagesChange={(pages) => {
+            setSelectedPages(pages);
+            if (
+              ['split-pdf', 'delete-pdf-pages', 'rotate-pdf'].includes(toolSlug)
+            ) {
+              setPageSpec(
+                pages.length
+                  ? pages.map((page) => page + 1).join(',')
+                  : ''
+              );
+            }
+          }}
+          onReorderChange={(pages) => {
+            setOrder(pages.join(','));
+          }}
+        />
+      )}
 
       {[
         'split-pdf',
