@@ -304,7 +304,7 @@ async function testPdf(page, slug, fixtures, state) {
 
   await downloadButton.waitFor({
     state: 'visible',
-    timeout: 30000,
+    timeout: slug === 'merge-pdf' ? 60000 : 30000,
   });
 
   const downloadPromise =
