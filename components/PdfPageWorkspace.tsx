@@ -215,6 +215,21 @@ export default function PdfPageWorkspace({
             return (
               <div
                 key={`${page.fileIndex}-${page.pageIndex}-${index}`}
+                draggable={mode === 'reorder'}
+                onDragStart={() => {
+                  if (mode === 'reorder') setDraggedIndex(index);
+                }}
+                onDragOver={(event) => {
+                  if (mode === 'reorder') event.preventDefault();
+                }}
+                onDrop={(event) => {
+                  event.preventDefault();
+                  if (mode === 'reorder' && draggedIndex !== null) {
+                    reorderPages(draggedIndex, index);
+                  }
+                  setDraggedIndex(null);
+                }}
+                onDragEnd={() => setDraggedIndex(null)}
                 className={[
                   'group relative rounded-xl border bg-white p-2 shadow-sm transition',
                   mode === 'reorder' ? 'cursor-grab active:cursor-grabbing' : '',
