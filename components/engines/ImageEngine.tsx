@@ -44,6 +44,11 @@ export default function ImageEngine({
   useEffect(() => {
     if (!file) return;
 
+    setSrc('');
+    setOutput('');
+    setPalette([]);
+    setMessage('');
+
     if (file.size > 50 * 1024 * 1024) {
       setMessage('Image must be 50 MB or smaller.');
       setSrc('');
