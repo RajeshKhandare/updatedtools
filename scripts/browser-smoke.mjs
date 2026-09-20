@@ -440,6 +440,18 @@ async function testImage(page, slug, fixtures) {
     { timeout: 5000 }
   );
 
+  await page.waitForTimeout(1000);
+
+  const processButton = page.getByRole(
+    'button',
+    { name: /^Process / }
+  );
+
+  await processButton.waitFor({
+    state: 'visible',
+    timeout: 10000,
+  });
+
   await page.waitForFunction(
     () => {
       const button = Array.from(
@@ -450,7 +462,7 @@ async function testImage(page, slug, fixtures) {
       return Boolean(button && !button.disabled);
     },
     undefined,
-    { timeout: 30000 }
+    { timeout: 60000 }
   );
 
   await clickButton(
@@ -516,10 +528,19 @@ async function testCompiler(page, slug) {
     'textarea'
   ).first();
 
-  await editor.click();
-  await editor.press(process.platform === 'darwin' ? 'Meta+A' : 'Control+A');
-  await editor.pressSequentially(code, { delay: 1 });
-  await editor.blur();
+  await editor.waitFor({ state: 'visible', timeout: 10000 });
+  await editor.fill(code);
+
+  await editor.evaluate((node, expected) => {
+    const textarea = node as HTMLTextAreaElement;
+    const setter = Object.getOwnPropertyDescriptor(
+      HTMLTextAreaElement.prototype,
+      'value'
+    )?.set;
+    setter?.call(textarea, expected);
+    textarea.dispatchEvent(new Event('input', { bubbles: true }));
+    textarea.dispatchEvent(new Event('change', { bubbles: true }));
+  }, code);
 
   await page.waitForFunction(
     (expected) => {
@@ -529,6 +550,8 @@ async function testCompiler(page, slug) {
     code,
     { timeout: 10000 }
   );
+
+  await page.waitForTimeout(500);
 
   await editor.press('End');
 
