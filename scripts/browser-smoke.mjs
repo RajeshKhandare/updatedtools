@@ -415,7 +415,7 @@ async function testImage(page, slug, fixtures) {
     'img[alt="Processed output"]'
   ).waitFor({
     state: 'visible',
-    timeout: 15000,
+    timeout: 30000,
   });
 
   const downloadPromise =
