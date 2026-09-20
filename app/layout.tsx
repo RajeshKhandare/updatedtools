@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
-import { Geist_Mono } from 'next/font/geist';
+import { Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 
