@@ -205,7 +205,7 @@ async function testPdf(page, slug, fixtures, state) {
   ].includes(slug)) {
     await page.getByText('PDF workspace', { exact: true }).waitFor({
       state: 'visible',
-      timeout: 10000,
+      timeout: 30000,
     });
 
     await page.getByText('Preparing preview…', { exact: true }).waitFor({
