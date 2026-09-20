@@ -5,6 +5,34 @@ export const runtime = 'nodejs';
 const MAX_CODE_BYTES = 100_000;
 const MAX_OUTPUT_BYTES = 1_000_000;
 const TIMEOUT_MS = 15_000;
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const RATE_LIMIT_MAX_REQUESTS = 20;
+
+const requestBuckets = new Map<string, { count: number; resetAt: number }>();
+
+function getClientKey(request: NextRequest) {
+  const forwarded = request.headers.get('x-forwarded-for');
+  const realIp = request.headers.get('x-real-ip');
+  return (forwarded?.split(',')[0]?.trim() || realIp || 'unknown').slice(0, 128);
+}
+
+function checkRateLimit(key: string) {
+  const now = Date.now();
+  const current = requestBuckets.get(key);
+
+  if (!current || current.resetAt <= now) {
+    requestBuckets.set(key, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return { allowed: true, retryAfter: 60 };
+  }
+
+  if (current.count >= RATE_LIMIT_MAX_REQUESTS) {
+    return { allowed: false, retryAfter: Math.max(1, Math.ceil((current.resetAt - now) / 1000)) };
+  }
+
+  current.count += 1;
+  return { allowed: true, retryAfter: Math.max(1, Math.ceil((current.resetAt - now) / 1000)) };
+}
+
 
 const LANGUAGE_IDS: Record<
   string,
@@ -33,6 +61,14 @@ function sleep(ms: number) {
 export async function POST(
   request: NextRequest
 ) {
+  const rateLimit = checkRateLimit(getClientKey(request));
+  if (!rateLimit.allowed) {
+    return NextResponse.json(
+      { error: 'Too many code execution requests. Please wait and try again.' },
+      { status: 429, headers: { 'Retry-After': String(rateLimit.retryAfter), 'Cache-Control': 'no-store' } }
+    );
+  }
+
   try {
     const body =
       await request.json();
