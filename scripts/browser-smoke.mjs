@@ -452,18 +452,64 @@ async function testImage(page, slug, fixtures) {
     timeout: 10000,
   });
 
-  await page.waitForFunction(
-    () => {
-      const button = Array.from(
-        document.querySelectorAll('button')
-      ).find((node) =>
-        /^Process /.test(node.textContent?.trim() || '')
+  // FileReader-backed image tools can occasionally need an extra
+  // React state turn after Playwright attaches the file. Retry the
+  // file assignment if the Process button does not become enabled.
+  let processReady = false;
+  let lastProcessWaitError = null;
+
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      await page.waitForFunction(
+        () => {
+          const button = Array.from(
+            document.querySelectorAll('button')
+          ).find((node) =>
+            /^Process /.test(node.textContent?.trim() || '')
+          );
+          return Boolean(button && !button.disabled);
+        },
+        undefined,
+        { timeout: 15000 }
       );
-      return Boolean(button && !button.disabled);
-    },
-    undefined,
-    { timeout: 60000 }
-  );
+
+      processReady = true;
+      break;
+    } catch (error) {
+      lastProcessWaitError = error;
+
+      if (attempt < 3) {
+        await fileInput.setInputFiles({
+          name,
+          mimeType: mime,
+          buffer: file,
+        });
+
+        await page.waitForFunction(
+          () => {
+            const input = document.querySelector(
+              'input[type="file"]'
+            );
+            return Boolean(
+              input &&
+              input.files &&
+              input.files.length > 0
+            );
+          },
+          undefined,
+          { timeout: 5000 }
+        );
+
+        await page.waitForTimeout(500);
+      }
+    }
+  }
+
+  if (!processReady) {
+    throw lastProcessWaitError || new Error(
+      slug + ': image Process button did not become enabled'
+    );
+  }
 
   await clickButton(
     page,
