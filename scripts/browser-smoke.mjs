@@ -191,9 +191,28 @@ async function testPdf(page, slug, fixtures, state) {
             }
   );
 
-  // Give React a render tick after file selection so
-  // the Run button sees the updated File state.
+  // Give React and the PDF page workspace time to settle
+  // before starting CPU-heavy PDF processing.
   await page.waitForTimeout(500);
+
+  if ([
+    'merge-pdf',
+    'split-pdf',
+    'delete-pdf-pages',
+    'reorder-pdf-pages',
+    'rotate-pdf',
+    'add-page-numbers-pdf',
+  ].includes(slug)) {
+    await page.getByText('PDF workspace', { exact: true }).waitFor({
+      state: 'visible',
+      timeout: 10000,
+    });
+
+    await page.getByText('Preparing preview…', { exact: true }).waitFor({
+      state: 'hidden',
+      timeout: 30000,
+    }).catch(() => {});
+  }
 
   const selectedCount =
     await page.locator(
