@@ -26,8 +26,22 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Wait briefly for Vercel deployment
-        run: sleep 10
+      - name: Wait for Vercel deployment to match this commit
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+          SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
+        run: |
+          for i in {1..30}; do
+            ACTUAL_COMMIT="$(curl -fsS --max-time 10 "$SMOKE_BASE_URL/api/build-version" | node -e "let s=''; process.stdin.on('data',d=>s+=d).on('end',()=>{try{console.log(JSON.parse(s).commit)}catch{console.log('')}})")"
+            echo "Deployment commit: $ACTUAL_COMMIT"
+            if [ "$ACTUAL_COMMIT" = "$EXPECTED_COMMIT" ]; then
+              echo "Vercel deployment is serving $EXPECTED_COMMIT"
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Timed out waiting for Vercel deployment $EXPECTED_COMMIT"
+          exit 1
 
       - name: Browser smoke test all 87 tools
         env:
