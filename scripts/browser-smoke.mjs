@@ -259,7 +259,8 @@ async function testPdf(page, slug, fixtures, state) {
   }
 
   if (slug === 'reorder-pdf-pages') {
-    await inputs.first().fill('3,1,2');
+    const draggablePages = page.locator('[draggable="true"]');
+    await draggablePages.first().dragTo(draggablePages.last());
   }
 
   if (slug === 'rotate-pdf') {
