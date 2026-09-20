@@ -404,6 +404,19 @@ async function testImage(page, slug, fixtures) {
     buffer: file,
   });
 
+  await page.waitForFunction(
+    () => {
+      const button = Array.from(
+        document.querySelectorAll('button')
+      ).find((node) =>
+        /^Process /.test(node.textContent?.trim() || '')
+      );
+      return Boolean(button && !button.disabled);
+    },
+    undefined,
+    { timeout: 10000 }
+  );
+
   await clickButton(
     page,
     new RegExp(
