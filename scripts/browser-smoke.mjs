@@ -396,12 +396,31 @@ async function testImage(page, slug, fixtures) {
     name = 'test.svg';
   }
 
-  await page.locator(
+  const fileInput = page.locator(
     'input[type="file"]'
-  ).setInputFiles({
+  ).first();
+
+  await fileInput.setInputFiles({
     name,
     mimeType: mime,
     buffer: file,
+  });
+
+  await page.waitForFunction(
+    () => {
+      const input = document.querySelector(
+        'input[type="file"]'
+      );
+      return Boolean(input && input.files && input.files.length > 0);
+    },
+    undefined,
+    { timeout: 5000 }
+  );
+
+  await fileInput.evaluate((input) => {
+    input.dispatchEvent(
+      new Event('change', { bubbles: true })
+    );
   });
 
   await page.waitForFunction(
@@ -476,9 +495,22 @@ async function testCompiler(page, slug) {
       'CREATE TABLE t(id INTEGER); INSERT INTO t VALUES (1); SELECT * FROM t;',
   }[slug];
 
-  await page.locator(
+  const editor = page.locator(
     'textarea'
-  ).fill(code);
+  ).first();
+
+  await editor.fill(code);
+
+  await page.waitForFunction(
+    (expected) => {
+      const textarea = document.querySelector('textarea');
+      return textarea?.value === expected;
+    },
+    code,
+    { timeout: 5000 }
+  );
+
+  await editor.press('End');
 
   await clickButton(
     page,
