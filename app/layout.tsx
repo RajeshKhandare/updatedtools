@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
-import { Geist_Mono, Plus_Jakarta_Sans } from 'next/font/google';
+import { Plus_Jakarta_Sans } from 'next/font/google';
+import { Geist_Mono } from 'next/font/geist';
 import './globals.css';
 import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 
-const jakarta=Plus_Jakarta_Sans({subsets:['latin'],weight:['400','500','600','700','800'],variable:'--font-jakarta'});\nconst geistMono=Geist_Mono({subsets:['latin'],weight:['400','500','600','700'],variable:'--font-geist-mono'});
+const jakarta=Plus_Jakarta_Sans({subsets:['latin'],weight:['400','500','600','700','800'],variable:'--font-jakarta'});
+const geistMono=Geist_Mono({subsets:['latin'],weight:['400','500','600','700'],variable:'--font-geist-mono'});
 
 export const metadata:Metadata={
   metadataBase:new URL(SITE_URL),
