@@ -260,7 +260,10 @@ async function testPdf(page, slug, fixtures, state) {
 
   if (slug === 'reorder-pdf-pages') {
     const draggablePages = page.locator('[draggable="true"]');
-    await draggablePages.first().dragTo(draggablePages.last());
+    await draggablePages.first().waitFor({ state: 'visible', timeout: 30000 });
+    const count = await draggablePages.count();
+    assert(count >= 2, slug + ': PDF page cards were not rendered for drag and drop');
+    await draggablePages.first().dragTo(draggablePages.last(), { timeout: 30000 });
   }
 
   if (slug === 'rotate-pdf') {
@@ -453,7 +456,7 @@ async function testImage(page, slug, fixtures) {
       return Boolean(button && !button.disabled);
     },
     undefined,
-    { timeout: 10000 }
+    { timeout: 30000 }
   );
 
   await clickButton(
@@ -520,6 +523,8 @@ async function testCompiler(page, slug) {
   ).first();
 
   await editor.fill(code);
+  await editor.blur();
+  await page.waitForTimeout(250);
 
   await page.waitForFunction(
     (expected) => {
