@@ -974,7 +974,7 @@ async function main() {
       acceptDownloads: true,
     });
 
-  const page =
+  let page =
     await context.newPage();
 
   page.setDefaultTimeout(
@@ -1014,6 +1014,10 @@ async function main() {
       tool.slug;
 
     try {
+      await page.close().catch(() => {});
+      page = await context.newPage();
+      page.setDefaultTimeout(15000);
+
       console.log(
         'TEST ' + label
       );
