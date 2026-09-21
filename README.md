@@ -1,12 +1,12 @@
-# TheToolGenie
+# Toolployee
 
 A Next.js web application containing 87 browser-oriented utilities across PDF, Image, Compiler, Developer, Text, Converter, Calculator, Finance, and YouTube categories.
 
-> **Branding note:** The site name and domain are configurable and are not considered final until the project owner confirms them.
+> **Branding note:** Toolployee is the selected working brand. The final production domain remains configurable and will be connected only after the domain is purchased.
 
 ## Stack
-- Next.js 14
-- React 18
+- Next.js
+- React
 - TypeScript
 - Tailwind CSS
 - pdf-lib / PDF.js / qpdf WASM where applicable
@@ -35,8 +35,8 @@ The registry is expected to contain exactly 87 unique tool slugs with the config
 ## Environment variables
 Copy `.env.example` and configure values as needed:
 
-- `NEXT_PUBLIC_SITE_NAME` — public site name.
-- `NEXT_PUBLIC_SITE_URL` — canonical production URL.
+- `NEXT_PUBLIC_SITE_NAME` — public site name; currently Toolployee.
+- `NEXT_PUBLIC_SITE_URL` — canonical production URL; leave unset until the final domain is connected.
 - `NEXT_PUBLIC_ADSENSE_CLIENT_ID` — optional Google AdSense client ID. Leave unset until a real publisher ID is available.
 
 Compiler tools also depend on the configured execution runtime/API.
@@ -46,3 +46,5 @@ Many utilities process inputs in the browser, while compiler tools use a runtime
 
 ## Deployment
 The project is configured for Vercel. GitHub/Vercel checks should be treated as the deployment source of truth after each production change.
+
+The final production domain will be configured through `NEXT_PUBLIC_SITE_URL` after domain purchase and DNS setup; no production-domain value is hardcoded in the repository before then.
