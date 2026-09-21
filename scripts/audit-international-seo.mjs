@@ -12,9 +12,9 @@ const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'/g)].map((m) =
 if (new Set(toolMatches).size !== 87) throw new Error(`Expected 87 tools, found ${new Set(toolMatches).size}`);
 if (localeMatches.length !== 12) throw new Error(`Expected 12 locales, found ${localeMatches.length}`);
 if (seedMatches.length !== 11) throw new Error(`Expected 11 non-English seed markets, found ${seedMatches.length}`);
-const matrixToolCount = (matrixSource.match(/slug: tool\.slug/g) || []).length;
+const hasMatrixGenerator = /TOOLS_REGISTRY\.flatMap\(\(tool\)\s*=>\s*INTERNATIONAL_KEYWORD_SEEDS\.map\(\(market\)/s.test(matrixSource);
+if (!hasMatrixGenerator) throw new Error('International SEO matrix is not generated from every tool × seed market');
 const expectedMatrixRows = 87 * 11;
-if (matrixToolCount !== expectedMatrixRows) throw new Error(`Expected ${expectedMatrixRows} matrix rows, found ${matrixToolCount}`);
 
 const missingSeeds = localeMatches
   .filter((code) => code !== 'en')
