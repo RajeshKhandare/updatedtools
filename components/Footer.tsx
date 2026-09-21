@@ -1,11 +1,20 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Sparkles, Heart } from 'lucide-react';
 import { SITE_NAME } from '@/config/site';
+import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
 
 export default function Footer() {
+  const [currentLocale, setCurrentLocale] = useState('en');
+  useEffect(() => {
+    const match = window.location.pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
+    setCurrentLocale(match?.[1] || 'en');
+  }, []);
+  const ui = getLocalizedUi(currentLocale);
+  const localized = (path: string) => currentLocale === 'en' ? path : `/${currentLocale}${path}`;
+
   return (
     <footer className="border-t border-zinc-200/80 dark:border-zinc-800/80 bg-white dark:bg-zinc-950 text-zinc-600 dark:text-zinc-400 transition-colors">
       <div className="mx-auto max-w-7xl px-4 pt-14 pb-10 sm:px-6">
@@ -25,12 +34,12 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs leading-relaxed text-zinc-500 dark:text-zinc-400 max-w-sm">
-              Free, fast, and accessible digital utilities built for creators, students, and developers. Edit, calculate, and convert directly in your browser.
+              {ui.footerDescription}
             </p>
 
             <div className="flex items-center gap-2 text-[11px] font-medium text-zinc-500 dark:text-zinc-400">
               <span className="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>87 tools operational · Free to use</span>
+              <span>{ui.operationalLabel}</span>
             </div>
           </div>
 
@@ -41,22 +50,22 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/?category=PDF#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/?category=PDF#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   PDF Tools
                 </Link>
               </li>
               <li>
-                <Link href="/?category=Image#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/?category=Image#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Image Tools
                 </Link>
               </li>
               <li>
-                <Link href="/?category=Compiler#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/?category=Compiler#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Compilers & Code
                 </Link>
               </li>
               <li>
-                <Link href="/?category=Finance#tools" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/?category=Finance#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Finance Calculators
                 </Link>
               </li>
@@ -70,22 +79,22 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/tools/youtube-thumbnail-downloader" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/tools/youtube-thumbnail-downloader")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   YouTube Thumbnail Grabber
                 </Link>
               </li>
               <li>
-                <Link href="/tools/sip-wealth-calculator" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/tools/sip-wealth-calculator")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   SIP Wealth Calculator
                 </Link>
               </li>
               <li>
-                <Link href="/tools/online-python-compiler" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/tools/online-python-compiler")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Online Python Runner
                 </Link>
               </li>
               <li>
-                <Link href="/tools/merge-pdf" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/tools/merge-pdf")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Merge PDF Documents
                 </Link>
               </li>
@@ -99,22 +108,22 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/about" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/about")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/contact")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Contact Support
                 </Link>
               </li>
               <li>
-                <Link href="/privacy-policy" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/privacy-policy")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
+                <Link href={localized("/terms")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
                   Terms of Service
                 </Link>
               </li>
@@ -127,7 +136,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-zinc-100 dark:border-zinc-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-zinc-400 dark:text-zinc-500 gap-3">
           <p>© {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
           <p className="flex items-center gap-1">
-            Crafted for speed and privacy
+            {ui.craftedLabel}
           </p>
         </div>
 
