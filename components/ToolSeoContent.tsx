@@ -3,7 +3,7 @@
 import React from 'react';
 import { BarChart3, CheckCircle2, FileText, Image as ImageIcon, Code2, Type, ArrowRight, Calculator, Video, RefreshCw, ShieldCheck } from 'lucide-react';
 import { ToolMeta } from '@/data/toolsRegistry';
-import { getToolSeoContent } from '@/data/toolSeo';
+import { getLocalizedToolSeoContent } from '@/data/toolSeo';
 import type { LocaleCode } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 
@@ -36,7 +36,7 @@ function VisualPanel({ tool, visual, labels }: { tool: ToolMeta; visual: ReturnT
 }
 
 export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta; locale?: LocaleCode }) {
-  const seo = getToolSeoContent(tool);
+  const seo = getLocalizedToolSeoContent(tool, locale);
   const labels = SEO_LABELS[locale];
   const name = getLocalizedToolName(tool, locale);
   const category = getLocalizedCategoryLabel(tool.category, locale);
