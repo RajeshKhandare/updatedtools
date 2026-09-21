@@ -1036,6 +1036,7 @@ export default function PdfEngine({
               ? ui.chooseDocx
               : ui.choosePdf
         }
+        subtitle={ui.fileSubtitle}
         onFiles={add}
       />
 
