@@ -1,6 +1,7 @@
 import { TOOLS_REGISTRY } from './toolsRegistry';
 import { INTERNATIONAL_KEYWORD_SEEDS } from './internationalKeywordSeeds';
 import { getInternationalKeywordValidation } from './internationalKeywordValidation';
+import { getSearchQueryCandidates } from './internationalLocalization';
 
 export type InternationalSeoResearchStatus =
   | 'needs-serp-validation'
@@ -23,6 +24,8 @@ export interface InternationalSeoOpportunity {
   keywordDifficulty: number | null;
   serpNotes: string | null;
   sourceUrls: string[];
+  queryCandidates: string[];
+  querySelectionStatus: 'needs-validation' | 'validated';
 }
 
 /**
@@ -57,6 +60,8 @@ export const INTERNATIONAL_SEO_OPPORTUNITY_MATRIX: readonly InternationalSeoOppo
         keywordDifficulty: null,
         serpNotes: validation?.notes ?? null,
         sourceUrls: validation?.sourceUrls ?? [],
+        queryCandidates: getSearchQueryCandidates(tool, market.locale === 'pt-BR' ? 'pt' : market.locale === 'zh-CN' ? 'zh' : market.locale as 'en' | 'pt' | 'es' | 'de' | 'fr' | 'it' | 'ja' | 'ko' | 'zh' | 'ru' | 'ar' | 'hi'),
+        querySelectionStatus: validation ? 'validated' as const : 'needs-validation' as const,
       };
     })
   );
