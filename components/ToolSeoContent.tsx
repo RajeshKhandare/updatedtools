@@ -3,7 +3,7 @@
 import React from 'react';
 import { BarChart3, CheckCircle2, FileText, Image as ImageIcon, Code2, Type, ArrowRight, Calculator, Video, RefreshCw, ShieldCheck } from 'lucide-react';
 import { ToolMeta } from '@/data/toolsRegistry';
-import { getLocalizedToolSeoContent } from '@/data/toolSeo';
+import { getToolSeoContent, getLocalizedToolSeoContent } from '@/data/toolSeo';
 import type { LocaleCode } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 
