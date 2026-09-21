@@ -306,6 +306,16 @@ const ADDITIONAL_LOCAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidat
  * or ranking potential.
  */
 const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+
+  // Fresh web-confirmed compiler terminology (Spanish/French)
+  ...([
+    ['es','online-python-compiler','Compilador de Python Online',['compilador Python en línea'],'https://pythoncompiler.io/es/'],
+    ['es','online-javascript-compiler','Compilador de JavaScript Online',['JavaScript online'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
+    ['es','online-sql-runner','Compilador de SQL Online',['SQL online'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
+    ['fr','online-python-compiler','Compilateur Python en ligne',['compilateur Python en ligne gratuit'],'https://pythoncompiler.io/fr/'],
+    ['fr','online-javascript-compiler','Compilateur JavaScript en ligne',['JavaScript en ligne'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Terminology confirmed from a current public localized compiler page; this validates wording only, not search volume or ranking.'})),
+
   // pt-BR — observed in Brazilian utility/PDF catalogs
   ...([
     ['pt-BR','protect-pdf-password','Proteger PDF',['proteger PDF com senha'],'https://www.webfacilita.com/'],
