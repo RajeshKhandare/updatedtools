@@ -7,6 +7,7 @@ import { Sparkles, Sun, Moon, ChevronDown, Menu, X, ArrowRight } from 'lucide-re
 import LanguageSelector from '@/components/LanguageSelector';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_NAME } from '@/config/site';
+import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
 
 // Category mapping aligned with Homepage categories
 const CATEGORIES_CONFIG = [
@@ -23,6 +24,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [currentLocale, setCurrentLocale] = useState('en');
+  const ui = getLocalizedUi(currentLocale);
 
   useEffect(() => {
     if (document.documentElement.classList.contains('dark')) {
@@ -101,7 +103,7 @@ export default function Navbar() {
                   onClick={() => handleCategoryNavigate(cat.query)}
                   className="flex items-center gap-1 rounded-xl px-3.5 py-1.5 text-xs font-semibold text-zinc-600 dark:text-zinc-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-zinc-100/60 dark:hover:bg-zinc-900 transition-all"
                 >
-                  <span>{cat.label}</span>
+                  <span>{({ PDF: 'PDF', Image: 'Image', Compiler: 'Compiler', Finance: 'Finance', YouTube: 'YouTube' } as Record<string,string>)[cat.label]}</span>
                   <ChevronDown
                     className={`h-3.5 w-3.5 transition-transform ${
                       activeDropdown === cat.label ? 'rotate-180 text-violet-600' : ''
@@ -114,7 +116,7 @@ export default function Navbar() {
                   <div className="absolute top-full left-0 w-80 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 p-2 shadow-2xl shadow-zinc-950/15 dark:shadow-zinc-950/60 z-50 animate-in fade-in duration-150">
                     <div className="p-2 border-b border-zinc-100 dark:border-zinc-800/80 mb-1 flex justify-between items-center">
                       <span className="text-[11px] font-bold uppercase tracking-wider text-zinc-400">
-                        Popular {cat.label} Utilities
+                        {ui.popularToolsLabel} · {cat.label}
                       </span>
                       
                       {/* View all button connected to Homepage Pills */}
@@ -183,7 +185,7 @@ export default function Navbar() {
               }}
               className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900"
             >
-              All 87 Tools
+              {ui.toolsLabel} (87)
             </button>
             {CATEGORIES_CONFIG.map((cat) => (
               <button
@@ -191,7 +193,7 @@ export default function Navbar() {
                 onClick={() => handleCategoryNavigate(cat.query)}
                 className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900"
               >
-                {cat.label} Tools
+                {cat.label} {ui.toolsLabel}
               </button>
             ))}
           </div>
