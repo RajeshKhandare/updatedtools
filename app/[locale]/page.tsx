@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
-import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
+import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -48,7 +48,7 @@ export default async function LocalizedHome({ params }: { params: Promise<{ loca
           {tools.map((tool) => (
             <Link key={tool.slug} href={localizedToolPath(locale.code, tool.slug)} className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 hover:border-violet-400 hover:shadow-md transition-all">
               <h2 className="text-sm font-bold">{getLocalizedToolName(tool, locale.code)}</h2>
-              <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">{tool.category} · {ui.browserLabel}</p>
+              <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">{getLocalizedCategoryLabel(tool.category, locale.code)} · {ui.browserLabel}</p>
             </Link>
           ))}
         </div>
