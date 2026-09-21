@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Sparkles, Heart } from 'lucide-react';
 import { SITE_NAME } from '@/config/site';
-import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
+import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 
 export default function Footer() {
   const [currentLocale, setCurrentLocale] = useState('en');
@@ -43,7 +43,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Categories */}
+          {/* Quick {ui.categoriesLabel} */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-900 dark:text-white">
               Categories
@@ -51,28 +51,28 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href={localized("/?category=PDF#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  PDF Tools
+                  {getLocalizedCategoryLabel('PDF', currentLocale as any)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/?category=Image#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Image Tools
+                  {getLocalizedCategoryLabel('Image', currentLocale as any)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/?category=Compiler#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Compilers & Code
+                  {getLocalizedCategoryLabel('Compiler', currentLocale as any)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/?category=Finance#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Finance Calculators
+                  {getLocalizedCategoryLabel('Finance', currentLocale as any)}
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Popular Tools */}
+          {/* {ui.popularToolsLabel} */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-900 dark:text-white">
               Popular Tools
@@ -80,22 +80,22 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href={localized("/tools/youtube-thumbnail-downloader")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  YouTube Thumbnail Grabber
+                  {getLocalizedToolName({name:'YouTube Thumbnail Downloader', slug:'youtube-thumbnail-downloader', category:'YouTube', description:''}, currentLocale as any)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/tools/sip-wealth-calculator")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  SIP Wealth Calculator
+                  {getLocalizedToolName({name:'SIP Calculator', slug:'sip-wealth-calculator', category:'Calculators', description:''}, currentLocale as any)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/tools/online-python-compiler")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Online Python Runner
+                  {getLocalizedToolName({name:'Online Python Compiler', slug:'online-python-compiler', category:'Compiler', description:''}, currentLocale as any)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/tools/merge-pdf")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Merge PDF Documents
+                  {getLocalizedToolName({name:'Merge PDF', slug:'merge-pdf', category:'PDF', description:''}, currentLocale as any)}
                 </Link>
               </li>
             </ul>
@@ -104,27 +104,27 @@ export default function Footer() {
           {/* Trust & Legal */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-900 dark:text-white">
-              Platform
+              {ui.platformLabel}
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href={localized("/about")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  About Us
+                  {ui.aboutLabel}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/contact")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Contact Support
+                  {ui.contactLabel}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/privacy-policy")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Privacy Policy
+                  {ui.privacyLabel}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/terms")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  Terms of Service
+                  {ui.termsLabel}
                 </Link>
               </li>
             </ul>
