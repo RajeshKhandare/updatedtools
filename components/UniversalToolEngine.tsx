@@ -766,13 +766,7 @@ function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;loc
         ? invested
         : monthly*((Math.pow(1+monthlyRate,months)-1)/monthlyRate)*(1+monthlyRate);
 
-      out=`Monthly SIP: ₹${fmt(monthly)}
-Total invested: ₹${fmt(invested)}
-Estimated returns: ₹${fmt(futureValue-invested)}
-Estimated maturity value: ₹${fmt(futureValue)}
-
-Assumption: monthly SIP instalments are made at the beginning of each month.
-Estimate only; actual mutual fund returns are not guaranteed.`;
+      out=`${ui.universal.monthlySip}: ₹${fmt(monthly)}\n${ui.universal.totalInvested}: ₹${fmt(invested)}\n${ui.universal.estimatedReturns}: ₹${fmt(futureValue-invested)}\n${ui.universal.maturityValue}: ₹${fmt(futureValue)}\n\n${ui.universal.assumption}\n${ui.universal.estimateOnly}`;
     }else if(slug==='compound-interest-calculator'){
       const p=n(a);
       const r=n(b)/100;
@@ -780,9 +774,7 @@ Estimate only; actual mutual fund returns are not guaranteed.`;
       const q=Math.max(1,Math.floor(n(d,12)));
       const fv=p*Math.pow(1+r/q,q*t);
 
-      out=`Principal: ${fmt(p)}
-Interest: ${fmt(fv-p)}
-Final amount: ${fmt(fv)}`;
+      out=`${ui.universal.principal}: ${fmt(p)}\n${ui.universal.interest}: ${fmt(fv-p)}\n${ui.universal.finalAmount}: ${fmt(fv)}`;
 
     }else if(slug==='simple-interest-calculator'){
       const p=n(a);
@@ -790,8 +782,7 @@ Final amount: ${fmt(fv)}`;
       const t=n(c);
       const i=p*r*t/100;
 
-      out=`Simple interest: ${fmt(i)}
-Total amount: ${fmt(p+i)}`;
+      out=`${ui.universal.simpleInterest}: ${fmt(i)}\n${ui.universal.totalAmount}: ${fmt(p+i)}`;
 
     }else if(slug==='percentage-calculator'){
       const x=n(a);
@@ -800,8 +791,7 @@ Total amount: ${fmt(p+i)}`;
       out=
         y===0
           ? 'Enter a non-zero second value.'
-          : `${fmt(x)} is ${fmt(x/y*100)}% of ${fmt(y)}
-Difference: ${fmt(y-x)}`;
+          : `${fmt(x)} ${ui.universal.percentOf} ${fmt(x/y*100)}% ${ui.universal.percentOf} ${fmt(y)}\n${ui.universal.difference}: ${fmt(y-x)}`;
 
     }else if(slug==='age-calculator'){
       const dob=new Date(date+'T00:00:00');
@@ -821,8 +811,7 @@ Difference: ${fmt(y-x)}`;
         months+=12;
       }
 
-      out=`Age: ${years} years, ${months} months
-Approximate days: ${Math.floor((now.getTime()-dob.getTime())/86400000).toLocaleString()}`;
+      out=`${ui.universal.age}: ${years} ${ui.universal.years}, ${months} ${ui.universal.months}\n${ui.universal.approxDays}: ${Math.floor((now.getTime()-dob.getTime())/86400000).toLocaleString()}`;
 
     }else if(slug==='bmi-calculator'){
       const kg=n(a);
@@ -834,8 +823,7 @@ Approximate days: ${Math.floor((now.getTime()-dob.getTime())/86400000).toLocaleS
 
       const bmi=kg/(cm/100)**2;
 
-      out=`BMI: ${bmi.toFixed(1)}
-Category: ${bmi<18.5?'Underweight':bmi<25?'Normal range':bmi<30?'Overweight':'Obesity'}`;
+      out=`${ui.universal.bmi}: ${bmi.toFixed(1)}\n${ui.universal.category}: ${bmi<18.5?ui.universal.underweight:bmi<25?ui.universal.normal:bmi<30?ui.universal.overweight:ui.universal.obesity}`;
 
     }else if(slug==='scientific-calculator'){
       out=scientificResult;
@@ -847,10 +835,7 @@ Category: ${bmi<18.5?'Underweight':bmi<25?'Normal range':bmi<30?'Overweight':'Ob
       const after=price*(1-disc/100);
       const total=after*(1+tax/100);
 
-      out=`Original: ${fmt(price)}
-After discount: ${fmt(after)}
-Discount saved: ${fmt(price-after)}
-After tax: ${fmt(total)}`;
+      out=`${ui.universal.original}: ${fmt(price)}\n${ui.universal.afterDiscount}: ${fmt(after)}\n${ui.universal.discountSaved}: ${fmt(price-after)}\n${ui.universal.afterTax}: ${fmt(total)}`;
 
     }else if(slug==='tip-calculator'){
       const bill=n(a);
@@ -859,9 +844,7 @@ After tax: ${fmt(total)}`;
       const tipAmt=bill*tip/100;
       const total=bill+tipAmt;
 
-      out=`Tip: ${fmt(tipAmt)}
-Total: ${fmt(total)}
-Per person: ${fmt(total/people)}`;
+      out=`${ui.universal.tip}: ${fmt(tipAmt)}\n${ui.universal.total}: ${fmt(total)}\n${ui.universal.perPerson}: ${fmt(total/people)}`;
 
     }else{
       out='';
@@ -914,18 +897,18 @@ Per person: ${fmt(total/people)}`;
               <div>
                 <label className="mb-2 block text-xs font-medium text-zinc-500">
                   {slug==='sip-wealth-calculator'
-                    ? '{ui.universal.monthlyInvestment}'
+                    ? ui.universal.monthlyInvestment
                     : slug==='bmi-calculator'
                       ? `${ui.enterValues} — kg`
                       : slug==='compound-interest-calculator'
-                        ? '{ui.universal.principalAmount}'
+                        ? ui.universal.principalAmount
                         : slug==='simple-interest-calculator'
-                          ? '{ui.universal.principalAmount}'
+                          ? ui.universal.principalAmount
                           : slug==='percentage-calculator'
-                            ? 'Value'
+                            ? ui.result
                             : slug==='discount-calculator'
                               ? ui.enterValues
-                              : '{ui.universal.billAmount}'}
+                             : ui.universal.billAmount}
                 </label>
                 <input
                   className={input}
@@ -939,15 +922,15 @@ Per person: ${fmt(total/people)}`;
               <div>
                 <label className="mb-2 block text-xs font-medium text-zinc-500">
                   {slug==='sip-wealth-calculator'
-                    ? '{ui.universal.expectedReturn}'
+                    ? ui.universal.expectedReturn
                     : slug==='bmi-calculator'
                       ? `${ui.enterValues} — cm`
                       : slug==='percentage-calculator'
-                        ? '{ui.universal.totalReference}'
+                        ? ui.universal.totalReference
                         : slug==='tip-calculator'
                           ? ui.enterValues
                           : slug==='discount-calculator'
-                            ? '{ui.universal.discount}'
+                            ? ui.universal.discount
                             : ui.enterValues}
                 </label>
                 <input
@@ -970,11 +953,11 @@ Per person: ${fmt(total/people)}`;
                   <div>
                     <label className="mb-2 block text-xs font-medium text-zinc-500">
                       {slug==='sip-wealth-calculator'
-                        ? '{ui.universal.investmentPeriod}'
+                        ? ui.universal.investmentPeriod
                         : slug==='tip-calculator'
-                          ? '{ui.universal.people}'
+                          ? ui.universal.people
                           : slug==='discount-calculator'
-                            ? '{ui.universal.tax}'
+                            ? ui.universal.tax
                             : '{ui.universal.timePeriod}'}
                     </label>
                     <input
@@ -1052,7 +1035,7 @@ function YouTube({slug,locale='en'}:{slug:string;locale?:LocaleCode}){
       setResult(Array.from(new Set(tags.filter((tag)=>tag.length>1))).slice(0,30).join(', '));
       return;
     }
-    setResult('{ui.universal.youtubeTopic}');
+    setResult(ui.universal.youtubeTopic);
   };
 
   return (
@@ -1104,7 +1087,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
       return (
         <div className={plainCard}>
           <h3 className="text-lg font-bold">
-            {tool.name}
+            {getLocalizedToolName(tool,locale)}
           </h3>
 
           <div className="grid sm:grid-cols-2 gap-4">
@@ -1117,7 +1100,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
                 className={input}
                 type="number"
                 defaultValue="100000"
-                aria-label="{ui.universal.monthlyViews}"
+                aria-label={ui.universal.monthlyViews}
               />
             </label>
 
@@ -1130,7 +1113,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
                 className={input}
                 type="number"
                 defaultValue="2"
-                aria-label="{ui.universal.rpmUsdLabel}"
+                aria-label={ui.universal.rpmUsdLabel}
               />
             </label>
           </div>
@@ -1216,7 +1199,7 @@ function Thumbnail({locale='en'}:{locale?:LocaleCode}){
 
       setTimeout(()=>URL.revokeObjectURL(blobUrl),1000);
     }catch(e){
-      setMessage(e instanceof Error?e.message:'{ui.universal.thumbnailFailed}');
+      setMessage(e instanceof Error?e.message:ui.universal.thumbnailFailed);
     }finally{
       setDownloading(false);
     }
