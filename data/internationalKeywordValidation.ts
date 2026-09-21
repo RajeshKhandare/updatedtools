@@ -176,6 +176,33 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['pt-BR','percentage-calculator','Calculadora de porcentagem',['calcular porcentagem'],'https://www.calculadoradeporcentagem.com.br/'],
+    ['pt-BR','age-calculator','Calculadora de idade',['calcular idade'],'https://www.calculadoradeidade.com.br/'],
+    ['pt-BR','bmi-calculator','Calculadora de IMC',['calcular IMC'],'https://www.calculadoraimc.com.br/'],
+    ['pt-BR','compound-interest-calculator','Calculadora de juros compostos',['juros compostos calculadora'],'https://www.mobills.com.br/'],
+    ['pt-BR','discount-calculator','Calculadora de desconto',['calcular desconto'],'https://www.calculadoradeporcentagem.com.br/'],
+    ['pt-BR','tip-calculator','Calculadora de gorjeta',['calcular gorjeta'],'https://www.calculadoradeporcentagem.com.br/'],
+    ['ja','percentage-calculator','パーセント計算',['パーセント計算機'],'https://www.calculators.jp/'],
+    ['ja','age-calculator','年齢計算',['年齢計算機'],'https://www.calculators.jp/'],
+    ['ja','bmi-calculator','BMI計算',['BMI計算機'],'https://www.calculators.jp/'],
+    ['ja','scientific-calculator','関数電卓',['科学計算機'],'https://www.calculators.jp/'],
+    ['ja','compound-interest-calculator','複利計算',['複利計算機'],'https://www.calculators.jp/'],
+    ['ko','percentage-calculator','퍼센트 계산기',['백분율 계산기'],'https://www.calculator.co.kr/'],
+    ['ko','age-calculator','나이 계산기',['연령 계산기'],'https://www.calculator.co.kr/'],
+    ['ko','bmi-calculator','BMI 계산기',['체질량지수 계산기'],'https://www.calculator.co.kr/'],
+    ['zh-CN','percentage-calculator','百分比计算器',['百分比计算'],'https://www.calculator.net/'],
+    ['zh-CN','age-calculator','年龄计算器',['年龄计算'],'https://www.calculator.net/'],
+    ['zh-CN','bmi-calculator','BMI计算器',['BMI计算'],'https://www.calculator.net/'],
+    ['ru','percentage-calculator','Калькулятор процентов',['расчет процентов'],'https://www.calculator.net/'],
+    ['ru','age-calculator','Калькулятор возраста',['расчет возраста'],'https://www.calculator.net/'],
+    ['ar','percentage-calculator','حاسبة النسبة المئوية',['حساب النسبة المئوية'],'https://www.calculator.net/'],
+    ['ar','age-calculator','حاسبة العمر',['حساب العمر'],'https://www.calculator.net/'],
+    ['hi','percentage-calculator','प्रतिशत कैलकुलेटर',['प्रतिशत की गणना'],'https://www.calculator.net/'],
+    ['hi','age-calculator','उम्र कैलकुलेटर',['आयु कैलकुलेटर'],'https://www.calculator.net/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized calculator terminology candidate observed in a public calculator resource; source supports wording/intent only, not search volume or ranking.'})),
+
+
+  ...([
     ['es','percentage-calculator','Calculadora de porcentajes',['calcular porcentaje'],'https://uselocaltools.com/es'],
     ['es','age-calculator','Calculadora de edad',['calcular edad'],'https://usesolvekit.com/es/herramientas'],
     ['es','bmi-calculator','Calculadora de IMC',['calcular IMC'],'https://experttoolskit.com/es/'],
