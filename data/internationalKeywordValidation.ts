@@ -176,6 +176,22 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['es','weight-mass-converter','Conversor de peso',['convertidor de peso'],'https://uselocaltools.com/es'],
+    ['es','data-size-converter','Conversor de unidades de datos',['convertidor de tamaño de datos'],'https://uselocaltools.com/es'],
+    ['es','speed-velocity-converter','Conversor de velocidad',['convertidor de velocidad'],'https://uselocaltools.com/es'],
+    ['de','weight-mass-converter','Gewichtsumrechner',['Gewicht umrechnen'],'https://uselocaltools.com/de'],
+    ['de','data-size-converter','Dateneinheiten umrechnen',['Datengrößen-Konverter'],'https://uselocaltools.com/de'],
+    ['de','speed-velocity-converter','Geschwindigkeitsumrechner',['Geschwindigkeit umrechnen'],'https://uselocaltools.com/de'],
+    ['fr','weight-mass-converter','Convertisseur de poids',['conversion de poids'],'https://experttoolskit.com/fr/'],
+    ['fr','data-size-converter','Convertisseur de données',['conversion de taille de données'],'https://experttoolskit.com/fr/'],
+    ['fr','speed-velocity-converter','Convertisseur de vitesse',['conversion de vitesse'],'https://experttoolskit.com/fr/'],
+    ['it','weight-mass-converter','Convertitore di peso',['conversione del peso'],'https://experttoolskit.com/it/'],
+    ['it','data-size-converter','Convertitore di dati',['conversione delle unità di dati'],'https://experttoolskit.com/it/'],
+    ['it','speed-velocity-converter','Convertitore di velocità',['conversione della velocità'],'https://experttoolskit.com/it/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized converter terminology candidate from public language-specific tool catalogs; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['zh-CN','split-pdf','拆分PDF',['PDF分割'],'https://uselocaltools.com/zh'],
     ['zh-CN','pdf-to-jpg','PDF转JPG',['PDF转图片'],'https://uselocaltools.com/zh'],
     ['zh-CN','jpg-to-pdf','JPG转PDF',['图片转PDF'],'https://uselocaltools.com/zh'],
