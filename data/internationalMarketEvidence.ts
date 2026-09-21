@@ -42,15 +42,15 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
   {
     locale: 'it',
     market: 'Italy',
-    sourceUrls: ['https://www.ilovepdf.com/it', 'https://www.ilovepdf.com/it/aiuto/documentazione', 'https://makeitpdf.com/it/', 'https://quaestio.app/it/', 'https://vai.la/it/tools'],
-    observedTerms: ['Unisci PDF', 'Dividere PDF', 'Comprimi PDF', 'PDF in Word', 'JPG a PDF', 'Unire PDF', 'Comprimere PDF', 'PDF in JPG', 'JPG in PDF', 'Proteggere PDF', 'Sbloccare PDF', 'Ruotare PDF', 'Numerare PDF'],
+    sourceUrls: ['https://www.ilovepdf.com/it', 'https://www.ilovepdf.com/it/aiuto/documentazione', 'https://makeitpdf.com/it/', 'https://quaestio.app/it/', 'https://vai.la/it/tools', 'https://uselocaltools.com/it'],
+    observedTerms: ['Unisci PDF', 'Dividi PDF', 'Dividere PDF', 'Comprimi PDF', 'Comprimere PDF', 'PDF in Word', 'PDF in JPG', 'JPG in PDF', 'Word in PDF', 'Proteggi PDF', 'Proteggere PDF', 'Sblocca PDF', 'Sbloccare PDF', 'Ruota PDF', 'Ruotare PDF', 'Numerare PDF', 'Formatta JSON', 'Formattatore JSON online', 'Encoder e decoder Base64', 'Codificatore e decodificatore URL', 'Codificatore e decodificatore HTML', 'Generatore di UUID', 'Generatore di password casuali', 'Decodificatore JWT', 'Generatore di codici QR', 'Contatore di parole', 'Confronta due testi online', 'Convertitore maiuscole e minuscole', 'Convertitore di timestamp Unix', 'Calcolatore di percentuali', 'Compressore di immagini', 'Ridimensionatore di immagini', 'Calcolatore di età', 'Calcolatore di IMC', 'Calcolatore di sconti', 'Calcolatore di interessi composti'],
     notes: 'Italian PDF terminology uses “unisci/unire”, “dividere”, “comprimi/comprimere” and common format names.',
   },
   {
     locale: 'ja',
     market: 'Japan',
-    sourceUrls: ['https://uselocaltools.com/ja', 'https://www.ilovepdf.com/ja'],
-    observedTerms: ['JSONの整形', '文字数カウント', 'テキスト比較', '単位変換', '画像圧縮', 'PDF結合', 'PDFを結合', 'PDFを分割', 'PDF圧縮', 'PDFからWord', 'PDFからJPG', 'JPGからPDF', 'PDF保護', 'PDFロック解除', 'PDF回転', 'ページ番号', 'JSONフォーマッター', 'Base64 エンコード・デコード', 'UUIDジェネレーター', 'ランダムパスワード生成ツール'],
+    sourceUrls: ['https://uselocaltools.com/ja', 'https://uselocaltools.com/ja/tools/json-formatter', 'https://uselocaltools.com/ja/tools/word-counter', 'https://uselocaltools.com/ja/tools/merge-pdf', 'https://www.ilovepdf.com/ja'],
+    observedTerms: ['JSONの整形', 'JSONフォーマッター', '文字数カウント', '単語数カウンター', 'テキスト比較', '大文字・小文字変換', '単位変換', '摂氏・華氏変換', '画像圧縮', '画像のサイズ変更', '画像をトリミング', 'PDF結合', 'PDFを結合', 'PDFを分割', 'PDF圧縮', 'PDFからWord', 'PDFからJPG', 'JPGからPDF', 'PDF保護', 'PDFロック解除', 'PDF回転', 'ページ番号', 'Base64 エンコード・デコード', 'UUIDジェネレーター', 'ランダムパスワード生成ツール', 'JWTデコーダー', 'QRコード作成', 'パーセント計算機', '年齢計算機', 'BMI計算機', '割引計算機', '複利計算機', 'Unixタイムスタンプ変換'],
     notes: 'Japanese tool catalogs commonly use compact task phrases and omit spaces in Japanese queries; spacing variants should be tested.',
   },
   {
