@@ -30,6 +30,7 @@ export interface InternationalSeoOpportunity {
   querySelectionStatus: 'needs-validation' | 'validated';
   marketEvidenceUrls: string[];
   marketResearchStatus: 'market-researched' | 'needs-market-research';
+  toolTerminologyStatus: 'observed' | 'candidate-only';
 }
 
 /**
@@ -44,6 +45,12 @@ export const INTERNATIONAL_SEO_OPPORTUNITY_MATRIX: readonly InternationalSeoOppo
     INTERNATIONAL_KEYWORD_SEEDS.map((market) => {
       const validation = getInternationalKeywordValidation(market.locale, tool.slug);
       const marketEvidence = INTERNATIONAL_MARKET_EVIDENCE.find((item) => item.locale === market.locale);
+      const localeCode = market.locale === 'pt-BR' ? 'pt' : market.locale === 'zh-CN' ? 'zh' : market.locale as 'en' | 'pt' | 'es' | 'de' | 'fr' | 'it' | 'ja' | 'ko' | 'zh' | 'ru' | 'ar' | 'hi';
+      const localizedCandidates = getSearchQueryCandidates(tool, localeCode).map((candidate) => candidate.toLowerCase());
+      const observedTerms = marketEvidence?.observedTerms.map((term) => term.toLowerCase()) ?? [];
+      const toolTerminologyObserved = localizedCandidates.some((candidate) =>
+        observedTerms.some((term) => candidate === term || candidate.startsWith(`${term} `) || term.startsWith(`${candidate} `))
+      );
 
       return {
         locale: market.locale,
@@ -65,11 +72,12 @@ export const INTERNATIONAL_SEO_OPPORTUNITY_MATRIX: readonly InternationalSeoOppo
         keywordDifficulty: null,
         serpNotes: validation?.notes ?? null,
         sourceUrls: validation?.sourceUrls ?? [],
-        queryCandidates: getSearchQueryCandidates(tool, market.locale === 'pt-BR' ? 'pt' : market.locale === 'zh-CN' ? 'zh' : market.locale as 'en' | 'pt' | 'es' | 'de' | 'fr' | 'it' | 'ja' | 'ko' | 'zh' | 'ru' | 'ar' | 'hi'),
-        longTailQueryCandidates: getLongTailQueryCandidates(tool, market.locale === 'pt-BR' ? 'pt' : market.locale === 'zh-CN' ? 'zh' : market.locale as 'en' | 'pt' | 'es' | 'de' | 'fr' | 'it' | 'ja' | 'ko' | 'zh' | 'ru' | 'ar' | 'hi'),
+        queryCandidates: getSearchQueryCandidates(tool, localeCode),
+        longTailQueryCandidates: getLongTailQueryCandidates(tool, localeCode),
         querySelectionStatus: validation ? 'validated' as const : 'needs-validation' as const,
         marketEvidenceUrls: marketEvidence?.sourceUrls ?? [],
         marketResearchStatus: marketEvidence ? 'market-researched' as const : 'needs-market-research' as const,
+        toolTerminologyStatus: toolTerminologyObserved ? 'observed' as const : 'candidate-only' as const,
       };
     })
   );
