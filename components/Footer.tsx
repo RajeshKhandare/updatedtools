@@ -25,7 +25,7 @@ export default function Footer() {
           
           {/* Brand Info (2 Columns Wide) */}
           <div className="md:col-span-2 space-y-4">
-            <Link href="/" className="flex items-center gap-2.5">
+            <Link href={localized("/")} className="flex items-center gap-2.5">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-600 text-white font-black shadow-md shadow-violet-500/20">
                 <Sparkles className="h-4 w-4" />
               </div>
@@ -135,7 +135,7 @@ export default function Footer() {
 
         {/* Bottom Sub-footer */}
         <div className="mt-12 border-t border-zinc-100 dark:border-zinc-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-zinc-400 dark:text-zinc-500 gap-3">
-          <p>© {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {SITE_NAME}.</p>
           <p className="flex items-center gap-1">
             {ui.craftedLabel}
           </p>
