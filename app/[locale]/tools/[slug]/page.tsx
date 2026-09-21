@@ -37,10 +37,10 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
         <section className="mt-10 rounded-3xl border border-amber-200/80 dark:border-amber-900/40 bg-amber-50/60 dark:bg-amber-950/10 p-6">
           <h2 className="text-lg font-bold">{ui.guideLabel}</h2>
           <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
-            This localized route is part of Toolployee's international SEO coverage. The route is intentionally kept out of search indexing until the full tool guide, FAQs, examples, and keyword targeting are localized and reviewed for this language.
+            {ui.guideDescription}
           </p>
           <Link href={`/tools/${tool.slug}`} className="mt-4 inline-flex text-sm font-bold text-violet-600 hover:underline">
-            Open English version
+            {ui.openEnglish}
           </Link>
         </section>
       </div>
