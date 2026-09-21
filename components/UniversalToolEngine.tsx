@@ -653,11 +653,11 @@ ${ui.universal.lines}: ${value?value.split(/\r?\n/).length:0}`;
   );
 }
 
-function evaluateScientificExpression(expression:string){
+function evaluateScientificExpression(expression:string, text:Record<string,string>){
   const x=expression.trim();
 
   if(!/^[0-9+\-*/().\s^a-z]+$/i.test(x)){
-    throw new Error(ui.universal.unsupportedCharacters);
+    throw new Error(text.unsupportedCharacters);
   }
 
   const norm=x
@@ -672,13 +672,13 @@ function evaluateScientificExpression(expression:string){
     .replace(/\bln\(([^()]*)\)/gi,(_,v)=>String(Math.log(Number(v))));
 
   if(!/^[0-9+\-*/().]+$/.test(norm)){
-    throw new Error(ui.universal.expressionHelp);
+    throw new Error(text.expressionHelp);
   }
 
   const tokens=norm.match(/\d+(?:\.\d+)?|\*\*|[+\-*/()]/g);
 
   if(!tokens||tokens.join('')!==norm){
-    throw new Error(ui.universal.invalidExpression);
+    throw new Error(text.invalidExpression);
   }
 
   const vals:number[]=[];
@@ -695,10 +695,10 @@ function evaluateScientificExpression(expression:string){
 
   const apply=()=>{
     const o=ops.pop();
-    if(!o) throw new Error(ui.universal.invalidExpression);
+    if(!o) throw new Error(text.invalidExpression);
     const y=vals.pop();
     const z=vals.pop();
-    if(y===undefined||z===undefined) throw new Error(ui.universal.invalidExpression);
+    if(y===undefined||z===undefined) throw new Error(text.invalidExpression);
     vals.push(o==='+'?z+y:o==='-'?z-y:o==='*'?z*y:o==='/'?z/y:z**y);
   };
 
@@ -713,7 +713,7 @@ function evaluateScientificExpression(expression:string){
       expect=true;
     }else if(t===')'){
       while(ops.length&&ops.at(-1)!=='(') apply();
-      if(ops.pop()!=='(') throw new Error(ui.universal.mismatchedParentheses);
+      if(ops.pop()!=='(') throw new Error(text.mismatchedParentheses);
       expect=false;
     }else if((t==='+'||t==='-')&&expect){
       vals.push(0);
@@ -727,7 +727,7 @@ function evaluateScientificExpression(expression:string){
 
   while(ops.length) apply();
 
-  if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error(ui.universal.invalidExpression);
+  if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error(text.invalidExpression);
   return fmt(vals[0]);
 }
 function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;locale?:LocaleCode}){
@@ -742,7 +742,7 @@ function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;loc
 
   const calculateScientific=()=>{
     try{
-      setScientificResult(evaluateScientificExpression(expr));
+      setScientificResult(evaluateScientificExpression(expr,ui.universal));
     }catch(e){
       setScientificResult(`${ui.universal.invalidInput}: ${e instanceof Error?e.message:ui.universal.invalidInput}`);
     }
