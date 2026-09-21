@@ -176,6 +176,17 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['pt-BR','markdown-to-html-converter','Conversor Markdown para HTML',['Markdown para HTML'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','html-entity-encoder','Codificador de entidades HTML',['decodificador de entidades HTML'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','base64-encoder-decoder','Codificador e decodificador Base64',['Base64 online'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','url-component-encoder-decoder','Codificador e decodificador de URL',['codificador de URL'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','uuid-guid-v4-generator','Gerador de UUID',['UUID online'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','strong-password-generator','Gerador de senhas',['gerador de senha segura'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','instant-qr-code-generator','Gerador de QR Code',['criar QR Code'],'https://www.funnytools.win/pt-br/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized Portuguese terminology candidate from a public Portuguese tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['ja','word-character-counter','単語数カウンター',['文字数カウント'],'https://uselocaltools.com/ja'],
     ['ja','text-case-converter','大文字・小文字変換',['大文字小文字変換'],'https://uselocaltools.com/ja'],
     ['ja','remove-duplicate-lines','重複行を削除',['重複行削除'],'https://uselocaltools.com/ja'],
