@@ -117,10 +117,30 @@ export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): 
   const bases = Array.from(new Set([localName, englishName]));
   const patterns = LONG_TAIL_QUERY_PATTERNS[locale];
   const modifierTail = SEARCH_QUERY_MODIFIERS[locale].filter((m) => m !== 'online' && m !== 'free online');
+  const category = tool.category;
+
+  const categoryPatterns: Partial<Record<string, string[]>> = {
+    PDF: ['with multiple files', 'for documents', 'for printing'],
+    Image: ['for photos', 'for social media', 'without losing quality'],
+    Compiler: ['in browser', 'for beginners', 'with example code'],
+    Developer: ['for developers', 'with example', 'for API development'],
+    Text: ['for essays', 'for documents', 'for students'],
+    Converters: ['with formula', 'with examples', 'between units'],
+    Finance: ['with formula', 'with examples', 'monthly calculation'],
+    Calculators: ['with formula', 'with examples', 'step by step'],
+    YouTube: ['for creators', 'for videos', 'with YouTube URL'],
+  };
+
+  const relevantPatterns = Array.from(new Set([
+    ...patterns,
+    ...(categoryPatterns[category] || []),
+  ]));
+  const formatPatterns = category === 'PDF' || category === 'Image' ? ['PDF', 'JPG', 'PNG'] : [];
+
   return Array.from(new Set([
-    ...bases.flatMap((base) => patterns.map((pattern) => `${base} ${pattern}`)),
+    ...bases.flatMap((base) => relevantPatterns.map((pattern) => `${base} ${pattern}`)),
     ...bases.flatMap((base) => modifierTail.map((modifier) => `${base} ${modifier} online`)),
-    ...bases.flatMap((base) => ['PDF', 'JPG', 'PNG'].map((format) => `${base} ${format}`)),
+    ...bases.flatMap((base) => formatPatterns.map((format) => `${base} ${format}`)),
   ]));
 }
 export function getLocalizedUi(locale: LocaleCode): LocalizedUi {
