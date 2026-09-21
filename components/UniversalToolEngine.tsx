@@ -22,7 +22,7 @@ function n(v:string,f=0){
 function fmt(v:number){
   return Number.isFinite(v)
     ? new Intl.NumberFormat('en-US',{maximumFractionDigits:8}).format(v)
-    : ui.universal.invalidResult;
+    : ({en:'Invalid result',pt:'Resultado inválido',es:'Resultado no válido',de:'Ungültiges Ergebnis',fr:'Résultat invalide',it:'Risultato non valido',ja:'無効な結果',ko:'잘못된 결과',zh:'结果无效',ru:'Недопустимый результат',ar:'نتيجة غير صالحة',hi:'अमान्य परिणाम'} as Record<string,string>)[typeof document !== 'undefined' ? document.documentElement.lang : 'en'] || 'Invalid result';
 }
 
 function b64e(s:string){
