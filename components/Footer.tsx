@@ -5,12 +5,13 @@ import Link from 'next/link';
 import { Sparkles, Heart } from 'lucide-react';
 import { SITE_NAME } from '@/config/site';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
+import { type LocaleCode } from '@/data/internationalSeo';
 
 export default function Footer() {
-  const [currentLocale, setCurrentLocale] = useState('en');
+  const [currentLocale, setCurrentLocale] = useState<LocaleCode>('en');
   useEffect(() => {
     const match = window.location.pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
-    setCurrentLocale(match?.[1] || 'en');
+    setCurrentLocale((match?.[1] as LocaleCode | undefined) || 'en');
   }, []);
   const ui = getLocalizedUi(currentLocale);
   const localized = (path: string) => currentLocale === 'en' ? path : `/${currentLocale}${path}`;
@@ -51,22 +52,22 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href={localized("/?category=PDF#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedCategoryLabel('PDF', currentLocale as any)}
+                  {getLocalizedCategoryLabel('PDF', currentLocale)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/?category=Image#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedCategoryLabel('Image', currentLocale as any)}
+                  {getLocalizedCategoryLabel('Image', currentLocale)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/?category=Compiler#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedCategoryLabel('Compiler', currentLocale as any)}
+                  {getLocalizedCategoryLabel('Compiler', currentLocale)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/?category=Finance#tools")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedCategoryLabel('Finance', currentLocale as any)}
+                  {getLocalizedCategoryLabel('Finance', currentLocale)}
                 </Link>
               </li>
             </ul>
@@ -80,22 +81,22 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href={localized("/tools/youtube-thumbnail-downloader")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedToolName({name:'YouTube Thumbnail Downloader', slug:'youtube-thumbnail-downloader', category:'YouTube', description:''}, currentLocale as any)}
+                  {getLocalizedToolName({name:'YouTube Thumbnail Downloader', slug:'youtube-thumbnail-downloader', category:'YouTube', description:''}, currentLocale)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/tools/sip-wealth-calculator")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedToolName({name:'SIP Calculator', slug:'sip-wealth-calculator', category:'Calculators', description:''}, currentLocale as any)}
+                  {getLocalizedToolName({name:'SIP Calculator', slug:'sip-wealth-calculator', category:'Calculators', description:''}, currentLocale)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/tools/online-python-compiler")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedToolName({name:'Online Python Compiler', slug:'online-python-compiler', category:'Compiler', description:''}, currentLocale as any)}
+                  {getLocalizedToolName({name:'Online Python Compiler', slug:'online-python-compiler', category:'Compiler', description:''}, currentLocale)}
                 </Link>
               </li>
               <li>
                 <Link href={localized("/tools/merge-pdf")} className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors">
-                  {getLocalizedToolName({name:'Merge PDF', slug:'merge-pdf', category:'PDF', description:''}, currentLocale as any)}
+                  {getLocalizedToolName({name:'Merge PDF', slug:'merge-pdf', category:'PDF', description:''}, currentLocale)}
                 </Link>
               </li>
             </ul>
