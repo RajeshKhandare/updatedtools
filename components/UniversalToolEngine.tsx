@@ -3,6 +3,8 @@
 import React, { useMemo, useState } from 'react';
 import { Check, Copy, Download, RefreshCw } from 'lucide-react';
 import { ToolMeta } from '@/data/toolsRegistry';
+import type { LocaleCode } from '@/data/internationalSeo';
+import { getEngineUi } from '@/data/engineLocalization';
 
 const card='relative w-full max-w-5xl mx-auto overflow-hidden rounded-[28px] border border-zinc-200/80 dark:border-white/10 bg-white/95 dark:bg-zinc-900/90 p-5 sm:p-7 lg:p-8 space-y-6 shadow-[0_24px_80px_-36px_rgba(0,0,0,0.55)] backdrop-blur-xl';
 const input='w-full rounded-2xl border border-zinc-200/90 dark:border-white/10 bg-zinc-50/80 dark:bg-zinc-950/80 px-4 py-3.5 text-sm text-zinc-900 dark:text-white shadow-sm outline-none transition-all duration-200 placeholder:text-zinc-400 focus:border-violet-500/70 focus:ring-4 focus:ring-violet-500/10 focus:bg-white dark:focus:bg-zinc-950';
@@ -142,7 +144,8 @@ const units:Record<string,{label:string;factor:number}[]>={
   ].map(([label,factor])=>({label:String(label),factor:Number(factor)})),
 };
 
-function Converter({slug}:{slug:string}){
+function Converter({slug, locale='en'}:{slug:string; locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   const list=units[slug]||[];
 
   const [v,setV]=useState('1');
@@ -183,7 +186,7 @@ function Converter({slug}:{slug:string}){
       </div>
 
       <div className="resultPanel">
-        <div className="text-xs text-zinc-500">Result</div>
+        <div className="text-xs text-zinc-500">{ui.result}</div>
         <div className="text-2xl font-bold mt-1">
           {fmt(result)} {to}
         </div>
@@ -249,7 +252,8 @@ function Temperature(){
   );
 }
 
-function DeveloperText({tool}:{tool:ToolMeta}){
+function DeveloperText({tool, locale='en'}:{tool:ToolMeta; locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   const slug=tool.slug;
 
   const [value,setValue]=useState('');
@@ -611,7 +615,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
                 ? <Check className="inline h-3.5 w-3.5"/>
                 : <Copy className="inline h-3.5 w-3.5"/>}
               {' '}
-              {copied?'Copied':'Copy'}
+              {copied ? ui.copied : ui.copy}
             </button>
 
             <button
@@ -1081,11 +1085,12 @@ function YouTube({slug}:{slug:string}){
   );
 }
 
-export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
+export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   if(tool.category==='Converters'){
     return tool.slug==='temperature-converter'
       ? <Temperature/>
-      : <Converter slug={tool.slug}/>;
+      : <Converter slug={tool.slug} locale={locale}/>;
   }
 
   if(tool.category==='Calculators'){
@@ -1170,7 +1175,7 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
     return <YouTube slug={tool.slug}/>;
   }
 
-  return <DeveloperText tool={tool}/>;
+  return <DeveloperText tool={tool} locale={locale}/>;
 }
 
 function Thumbnail(){
