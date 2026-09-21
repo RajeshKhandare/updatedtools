@@ -5,6 +5,8 @@ import { getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
 import { SITE_URL } from '@/config/site';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 export default async function LocalizedToolPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: localeCode, slug } = await params;
@@ -18,6 +20,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
 
   return (
     <main lang={locale.code} dir={locale.code === 'ar' ? 'rtl' : 'ltr'} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+      <Navbar />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
         <nav className="text-xs text-zinc-500 mb-8">
           <Link href={`/${locale.code}`} className="hover:underline">Toolployee</Link> / {name}
@@ -41,6 +44,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
           </Link>
         </section>
       </div>
+      <Footer />
     </main>
   );
 }
