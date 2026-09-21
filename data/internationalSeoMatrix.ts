@@ -1,5 +1,6 @@
 import { TOOLS_REGISTRY } from './toolsRegistry';
 import { INTERNATIONAL_KEYWORD_SEEDS } from './internationalKeywordSeeds';
+import { getInternationalKeywordValidation } from './internationalKeywordValidation';
 
 export type InternationalSeoResearchStatus =
   | 'needs-serp-validation'
@@ -21,33 +22,43 @@ export interface InternationalSeoOpportunity {
   searchVolume: number | null;
   keywordDifficulty: number | null;
   serpNotes: string | null;
+  sourceUrls: string[];
 }
 
 /**
- * Research queue for every tool × planned locale.
+ * Research matrix for every tool × planned locale.
  *
- * This intentionally contains no invented search volume, difficulty, rankings,
- * or "winning" keywords. The seed phrases are starting points only. A row
- * becomes indexable only after local SERP/keyword research and real localized
- * content are completed.
+ * Validated rows are backed by current localized SERP pages. Rows without
+ * evidence stay in the research queue; no search-volume, difficulty, ranking,
+ * or traffic figures are invented.
  */
 export const INTERNATIONAL_SEO_OPPORTUNITY_MATRIX: readonly InternationalSeoOpportunity[] =
   TOOLS_REGISTRY.flatMap((tool) =>
-    INTERNATIONAL_KEYWORD_SEEDS.map((market) => ({
-      locale: market.locale,
-      market: market.market,
-      language: market.language,
-      slug: tool.slug,
-      toolName: tool.name,
-      category: tool.category,
-      sourceKeyword: tool.targetKeyword ?? tool.name,
-      researchSeeds: [...market.primaryPatterns, ...market.secondaryPatterns],
-      status: 'needs-serp-validation' as const,
-      validatedKeyword: null,
-      searchVolume: null,
-      keywordDifficulty: null,
-      serpNotes: null,
-    }))
+    INTERNATIONAL_KEYWORD_SEEDS.map((market) => {
+      const validation = getInternationalKeywordValidation(market.locale, tool.slug);
+
+      return {
+        locale: market.locale,
+        market: market.market,
+        language: market.language,
+        slug: tool.slug,
+        toolName: tool.name,
+        category: tool.category,
+        sourceKeyword:
+          validation?.primaryKeyword ?? tool.targetKeyword ?? tool.name,
+        researchSeeds: [
+          ...market.primaryPatterns,
+          ...market.secondaryPatterns,
+          ...(validation?.alternateKeywords ?? []),
+        ],
+        status: validation ? 'validated' as const : 'needs-serp-validation' as const,
+        validatedKeyword: validation?.primaryKeyword ?? null,
+        searchVolume: null,
+        keywordDifficulty: null,
+        serpNotes: validation?.notes ?? null,
+        sourceUrls: validation?.sourceUrls ?? [],
+      };
+    })
   );
 
 export const INTERNATIONAL_SEO_MATRIX_SIZE =
