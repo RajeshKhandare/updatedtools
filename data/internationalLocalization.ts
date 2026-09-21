@@ -75,6 +75,38 @@ export function getLocalizedToolName(tool: ToolMeta, locale: LocaleCode): string
   return NAME_PHRASES[tool.name]?.[locale] || tool.name;
 }
 
+export const SEARCH_QUERY_MODIFIERS: Record<LocaleCode, string[]> = {
+  en: ['online', 'free', 'free online'],
+  pt: ['online', 'grátis', 'gratuito', 'grátis online'],
+  es: ['online', 'gratis', 'gratuito', 'gratis online'],
+  de: ['online', 'kostenlos', 'kostenlos online'],
+  fr: ['en ligne', 'gratuit', 'gratuite', 'gratuit en ligne'],
+  it: ['online', 'gratis', 'gratuito', 'gratis online'],
+  ja: ['オンライン', '無料', '無料オンライン'],
+  ko: ['온라인', '무료', '무료 온라인'],
+  zh: ['在线', '免费', '免费在线'],
+  ru: ['онлайн', 'бесплатно', 'бесплатный', 'бесплатно онлайн'],
+  ar: ['أونلاين', 'عبر الإنترنت', 'مجاني', 'مجانا أونلاين'],
+  hi: ['ऑनलाइन', 'मुफ्त', 'फ्री', 'मुफ्त ऑनलाइन'],
+};
+
 export function getLocalizedUi(locale: LocaleCode): LocalizedUi {
   return LOCALIZED_UI[locale];
+}
+
+/**
+ * Builds search-query candidates rather than assuming a literal translation
+ * is the term users actually search. Candidates deliberately include local
+ * language, English technical wording, and local "online/free" modifiers.
+ * These must be validated against SERPs/keyword data before becoming primary.
+ */
+export function getSearchQueryCandidates(tool: ToolMeta, locale: LocaleCode): string[] {
+  const localName = getLocalizedToolName(tool, locale);
+  const baseTerms = Array.from(new Set([localName, tool.targetKeyword || tool.name]));
+  const modifiers = SEARCH_QUERY_MODIFIERS[locale];
+  return Array.from(new Set([
+    ...baseTerms,
+    ...baseTerms.flatMap((term) => modifiers.map((modifier) => `${term} ${modifier}`)),
+    ...modifiers.map((modifier) => `${modifier} ${localName}`),
+  ]));
 }
