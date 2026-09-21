@@ -174,6 +174,22 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 ];
 
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+
+  ...([
+    ['es','online-html-editor','Editor HTML online',['editor HTML en línea'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
+    ['es','online-java-compiler','Compilador de Java Online',['compilador Java en línea'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
+    ['es','online-cpp-compiler','Compilador de C++ Online',['compilador C++ en línea'],'https://www.programiz.com/'],
+    ['es','online-csharp-compiler','Compilador de C# Online',['compilador C# en línea'],'https://www.programiz.com/'],
+    ['es','online-php-runner','Compilador de PHP Online',['PHP online'],'https://www.programiz.com/'],
+    ['es','online-sql-runner','Compilador de SQL Online',['SQL online'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
+    ['de','online-python-compiler','Python Online Compiler',['Python online ausführen'],'https://www.programiz.com/'],
+    ['de','online-javascript-compiler','JavaScript Online Compiler',['JavaScript online ausführen'],'https://www.programiz.com/'],
+    ['de','online-java-compiler','Java Online Compiler',['Java online ausführen'],'https://www.programiz.com/'],
+    ['fr','online-java-compiler','Compilateur Java en ligne',['Java en ligne'],'https://www.programiz.com/'],
+    ['it','online-python-compiler','Compilatore Python online',['Python online'],'https://www.programiz.com/'],
+    ['ja','online-python-compiler','Pythonオンラインコンパイラ',['Pythonをオンラインで実行'],'https://www.programiz.com/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Observed tool terminology in a public localized or multilingual compiler catalog; source supports terminology only, not search volume or ranking.'})),
+
 ...([
     ['ja','word-character-counter','文字数カウント',['文字数カウントツール'],'https://www.tr-editor.site/ja/tools'],
     ['ja','text-case-converter','ケース変換',['大文字・小文字変換'],'https://www.tr-editor.site/ja/tools'],
