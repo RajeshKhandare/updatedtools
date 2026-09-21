@@ -174,6 +174,21 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 ];
 
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+...([
+    ['ja','word-character-counter','文字数カウント',['文字数カウントツール'],'https://www.tr-editor.site/ja/tools'],
+    ['ja','text-case-converter','ケース変換',['大文字・小文字変換'],'https://www.tr-editor.site/ja/tools'],
+    ['ja','text-diff-checker','テキスト比較',['テキスト差分比較'],'https://www.tr-editor.site/ja/tools'],
+    ['ja','remove-duplicate-lines','重複行の削除',['重複行削除'],'https://www.tr-editor.site/ja/tools'],
+    ['ja','lorem-ipsum-generator','ダミーテキスト生成',['Lorem Ipsum ジェネレーター'],'https://littletoolbox.online/ja/'],
+    ['ja','markdown-to-html-converter','Markdown → HTML',['Markdown HTML 変換'],'https://littletoolbox.online/ja/'],
+    ['ja','html-entity-encoder','HTML 文字参照変換',['HTMLエンティティ変換'],'https://littletoolbox.online/ja/'],
+    ['ja','url-component-encoder-decoder','URL エンコード / デコード',['URLエンコード'],'https://littletoolbox.online/ja/'],
+    ['ja','uuid-guid-v4-generator','UUID 生成',['UUIDジェネレーター'],'https://littletoolbox.online/ja/'],
+    ['ja','strong-password-generator','パスワード生成',['パスワードジェネレーター'],'https://littletoolbox.online/ja/'],
+    ['ja','hex-to-rgb-hsl-converter','カラーコード変換',['HEX RGB HSL 変換'],'https://littletoolbox.online/ja/'],
+    ['ja','instant-qr-code-generator','QR コード生成',['QRコードジェネレーター'],'https://www.tr-editor.site/ja/tools'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current localized public tool catalog; validates wording/intent only, not search volume or ranking.'})),
+
   {
     locale: 'it',
     slug: 'json-formatter-validator',
@@ -306,20 +321,6 @@ const ADDITIONAL_LOCAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidat
  * or ranking potential.
  */
 
-  ...([
-    ['ja','word-character-counter','文字数カウント',['文字数カウントツール'],'https://www.tr-editor.site/ja/tools'],
-    ['ja','text-case-converter','ケース変換',['大文字・小文字変換'],'https://www.tr-editor.site/ja/tools'],
-    ['ja','text-diff-checker','テキスト比較',['テキスト差分比較'],'https://www.tr-editor.site/ja/tools'],
-    ['ja','remove-duplicate-lines','重複行の削除',['重複行削除'],'https://www.tr-editor.site/ja/tools'],
-    ['ja','lorem-ipsum-generator','ダミーテキスト生成',['Lorem Ipsum ジェネレーター'],'https://littletoolbox.online/ja/'],
-    ['ja','markdown-to-html-converter','Markdown → HTML',['Markdown HTML 変換'],'https://littletoolbox.online/ja/'],
-    ['ja','html-entity-encoder','HTML 文字参照変換',['HTMLエンティティ変換'],'https://littletoolbox.online/ja/'],
-    ['ja','url-component-encoder-decoder','URL エンコード / デコード',['URLエンコード'],'https://littletoolbox.online/ja/'],
-    ['ja','uuid-guid-v4-generator','UUID 生成',['UUIDジェネレーター'],'https://littletoolbox.online/ja/'],
-    ['ja','strong-password-generator','パスワード生成',['パスワードジェネレーター'],'https://littletoolbox.online/ja/'],
-    ['ja','hex-to-rgb-hsl-converter','カラーコード変換',['HEX RGB HSL 変換'],'https://littletoolbox.online/ja/'],
-    ['ja','instant-qr-code-generator','QR コード生成',['QRコードジェネレーター'],'https://www.tr-editor.site/ja/tools'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current localized public tool catalog; validates wording/intent only, not search volume or ranking.'})),
 const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   // Additional localized text/developer terminology observed in current public catalogs
