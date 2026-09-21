@@ -176,6 +176,27 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['pt-BR','compress-image','Compressor de imagens online',['comprimir imagem'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','crop-image-online','Recortar imagem online',['cortar imagem'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','webp-to-jpg-converter','Conversor WebP para JPG',['WebP para JPG'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','jpg-to-png-converter','Conversor JPG para PNG',['JPG para PNG'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','png-to-jpg-converter','Conversor PNG para JPG',['PNG para JPG'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','flip-rotate-image','Girar e virar imagem',['rotacionar imagem'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','black-and-white-image-filter','Conversor de imagem para preto e branco',['imagem preto e branco'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','invert-image-colors','Inverter cores da imagem',['inverter cores'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','image-color-palette-extractor','Extrator de paleta de cores',['paleta de cores da imagem'],'https://uselocaltools.com/pt-br'],
+    ['it','compress-image','Compressore immagini online',['comprimere immagini'],'https://uselocaltools.com/it'],
+    ['it','crop-image-online','Ritaglia immagine online',['ritagliare immagini'],'https://uselocaltools.com/it'],
+    ['it','webp-to-jpg-converter','Convertitore WebP in JPG',['WebP in JPG'],'https://uselocaltools.com/it'],
+    ['it','jpg-to-png-converter','Convertitore JPG in PNG',['JPG in PNG'],'https://uselocaltools.com/it'],
+    ['it','png-to-jpg-converter','Convertitore PNG in JPG',['PNG in JPG'],'https://uselocaltools.com/it'],
+    ['it','flip-rotate-image','Ruota e capovolgi immagine',['ruotare immagine'],'https://uselocaltools.com/it'],
+    ['it','black-and-white-image-filter','Convertitore immagine in bianco e nero',['immagine bianco e nero'],'https://uselocaltools.com/it'],
+    ['it','invert-image-colors','Inverti colori immagine',['invertire colori'],'https://uselocaltools.com/it'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Image-tool terminology observed in a current localized public catalog; wording/intent evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['es','compress-image','Comprimir imágenes online',['compresor de imágenes'],'https://uselocaltools.com/es'],
     ['es','crop-image-online','Recortar imagen online',['recortar imágenes'],'https://uselocaltools.com/es'],
     ['es','flip-rotate-image','Girar y voltear imagen',['rotar imagen'],'https://www.funnytools.win/es/herramientas/'],
