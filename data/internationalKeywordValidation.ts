@@ -176,6 +176,24 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['de','remove-html-tags','HTML-Tags entfernen',['HTML Tags entfernen'],'https://www.pageonaut.com/de/'],
+    ['de','find-replace-text','Suchen und Ersetzen',['Text suchen und ersetzen'],'https://www.pageonaut.com/de/'],
+    ['de','reverse-text-mirror-tool','Text umkehren',['Text rückwärts'],'https://www.pageonaut.com/de/'],
+    ['de','alphabetical-line-sorter','Alphabetisch sortieren',['Zeilen alphabetisch sortieren'],'https://www.pageonaut.com/de/'],
+    ['de','clean-url-slug-generator','URL-Slug-Generator',['Slug Generator'],'https://www.pageonaut.com/de/'],
+    ['de','unix-timestamp-converter','Unix-Timestamp-Konverter',['Unix Zeitstempel umrechnen'],'https://www.pageonaut.com/de/'],
+    ['de','base64-encoder-decoder','Base64 Encoder Decoder',['Base64 kodieren dekodieren'],'https://www.pageonaut.com/de/'],
+    ['de','uuid-guid-v4-generator','UUID-Generator',['UUID generieren'],'https://www.pageonaut.com/de/'],
+    ['de','strong-password-generator','Passwort-Generator',['sichere Passwörter generieren'],'https://www.pageonaut.com/de/'],
+    ['de','instant-qr-code-generator','QR-Code-Generator',['QR Code erstellen'],'https://www.pageonaut.com/de/'],
+    ['de','image-resizer','Bildgröße ändern',['Bilder skalieren'],'https://www.pageonaut.com/de/'],
+    ['de','compress-image','Bild komprimieren',['Bildkompressor'],'https://www.pageonaut.com/de/'],
+    ['de','webp-to-png-converter','WebP in PNG umwandeln',['WebP PNG Konverter'],'https://www.pageonaut.com/de/'],
+    ['de','png-to-jpg-converter','PNG in JPG umwandeln',['PNG JPG Konverter'],'https://www.pageonaut.com/de/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current German localized public tool catalog; wording/intent evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['fr','remove-html-tags','Supprimer les balises HTML',['retirer les balises HTML'],'https://experttoolskit.com/fr/'],
     ['fr','find-replace-text','Rechercher et remplacer',['rechercher remplacer texte'],'https://toolsmio.com/fr/'],
     ['fr','reverse-text-mirror-tool','Inverser le texte',['texte à l’envers'],'https://toolsmio.com/fr/'],
