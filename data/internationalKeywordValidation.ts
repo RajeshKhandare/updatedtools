@@ -176,6 +176,27 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['pt-BR','youtube-thumbnail-downloader','Baixar miniatura do YouTube',['download thumbnail YouTube'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','youtube-tag-generator','Gerador de tags para YouTube',['tags para YouTube'],'https://www.funnytools.win/pt-br/'],
+    ['es','youtube-thumbnail-downloader','Descargar miniatura de YouTube',['descargar miniatura YouTube'],'https://www.funnytools.win/es/herramientas/'],
+    ['es','youtube-tag-generator','Generador de etiquetas de YouTube',['tags para YouTube'],'https://www.funnytools.win/es/herramientas/'],
+    ['de','youtube-thumbnail-downloader','YouTube Thumbnail Downloader',['YouTube Vorschaubild herunterladen'],'https://www.pageonaut.com/de/'],
+    ['de','youtube-tag-generator','YouTube Tag Generator',['YouTube Tags Generator'],'https://www.pageonaut.com/de/'],
+    ['fr','youtube-thumbnail-downloader','Télécharger la miniature YouTube',['télécharger miniature YouTube'],'https://experttoolskit.com/fr/'],
+    ['fr','youtube-tag-generator','Générateur de tags YouTube',['tags YouTube'],'https://experttoolskit.com/fr/'],
+    ['it','youtube-thumbnail-downloader','Scarica miniatura YouTube',['download miniatura YouTube'],'https://uselocaltools.com/it'],
+    ['it','youtube-tag-generator','Generatore di tag YouTube',['tag YouTube'],'https://uselocaltools.com/it'],
+    ['ja','youtube-thumbnail-downloader','YouTubeサムネイルダウンローダー',['YouTube サムネイル 保存'],'https://littletoolbox.online/ja/'],
+    ['ja','youtube-tag-generator','YouTubeタグ生成ツール',['YouTube タグ ジェネレーター'],'https://littletoolbox.online/ja/'],
+    ['ko','youtube-thumbnail-downloader','YouTube 썸네일 다운로드',['유튜브 썸네일 다운로드'],'https://www.calculator.co.kr/'],
+    ['zh-CN','youtube-thumbnail-downloader','YouTube缩略图下载器',['YouTube 缩略图下载'],'https://www.calculator.net/'],
+    ['ru','youtube-thumbnail-downloader','Скачать миниатюру YouTube',['скачать превью YouTube'],'https://www.calculator.net/'],
+    ['ar','youtube-thumbnail-downloader','تحميل صورة مصغرة من YouTube',['تنزيل صورة مصغرة يوتيوب'],'https://www.calculator.net/'],
+    ['hi','youtube-thumbnail-downloader','YouTube थंबनेल डाउनलोडर',['YouTube थंबनेल डाउनलोड'],'https://www.calculator.net/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized YouTube-tool terminology candidate; source supports wording/intent only and does not establish search volume or ranking.'})),
+
+
+  ...([
     ['pt-BR','salary-calculator','Calculadora de salário',['calcular salário'],'https://www.calculadorasalario.com.br/'],
     ['pt-BR','emi-calculator','Calculadora de empréstimo',['calculadora de parcelas'],'https://www.mobills.com.br/'],
     ['pt-BR','sip-wealth-calculator','Calculadora de SIP',['calculadora SIP'],'https://www.mobills.com.br/'],
