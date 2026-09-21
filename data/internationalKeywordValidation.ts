@@ -176,6 +176,17 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['es','word-character-counter','Contador de palabras',['contador de caracteres'],'https://uselocaltools.com/es'],
+    ['es','text-case-converter','Convertidor de mayúsculas y minúsculas',['cambiar mayúsculas y minúsculas'],'https://uselocaltools.com/es'],
+    ['es','remove-duplicate-lines','Eliminar líneas duplicadas',['quitar líneas duplicadas'],'https://uselocaltools.com/es'],
+    ['es','find-replace-text','Buscar y reemplazar texto',['buscar y reemplazar'],'https://uselocaltools.com/es'],
+    ['es','remove-html-tags','Eliminar etiquetas HTML',['quitar etiquetas HTML'],'https://uselocaltools.com/es'],
+    ['es','reverse-text-mirror-tool','Invertir texto',['texto al revés'],'https://uselocaltools.com/es'],
+    ['es','text-diff-checker','Comparar textos',['comparador de texto'],'https://uselocaltools.com/es'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized Spanish terminology from a public Spanish tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['pt-BR','markdown-to-html-converter','Conversor Markdown para HTML',['Markdown para HTML'],'https://www.funnytools.win/pt-br/'],
     ['pt-BR','html-entity-encoder','Codificador de entidades HTML',['decodificador de entidades HTML'],'https://www.funnytools.win/pt-br/'],
     ['pt-BR','base64-encoder-decoder','Codificador e decodificador Base64',['Base64 online'],'https://www.funnytools.win/pt-br/'],
