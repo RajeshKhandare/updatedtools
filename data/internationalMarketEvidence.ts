@@ -14,7 +14,7 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
   {
     locale: 'pt-BR',
     market: 'Brazil',
-    sourceUrls: ['https://www.webfacilita.com/', 'https://andev.app/pt/', 'https://makeitpdf.com/pt/', 'https://uselocaltools.com/pt-BR', 'https://convertforever.com/hi/'],
+    sourceUrls: ['https://www.webfacilita.com/', 'https://andev.app/pt/', 'https://makeitpdf.com/pt/', 'https://uselocaltools.com/pt-BR'],
     observedTerms: ['Juntar PDF', 'Comprimir Imagem', 'Contador de Palavras', 'Gerador de QR Code', 'Formatador de JSON', 'Dividir PDF', 'Comprimir PDF', 'PDF para Word', 'PDF para JPG', 'JPG para PDF', 'Proteger PDF', 'Desbloquear PDF', 'Girar PDF', 'Adicionar números de página', 'Calculadora de porcentagem', 'Calculadora de idade', 'Calculadora de IMC', 'Calculadora de desconto', 'Calculadora de gorjeta', 'Calculadora de juros compostos', 'Calculadora de salário',
     notes: 'Brazilian Portuguese catalogs use natural task wording such as “juntar”, and also explicitly frame tools as online/free.',
   },
