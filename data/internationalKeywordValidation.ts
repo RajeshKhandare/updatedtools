@@ -176,6 +176,17 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['ru','word-character-counter','Счетчик слов',['счетчик символов'],'https://uselocaltools.com/ru'],
+    ['ru','text-case-converter','Изменение регистра текста',['конвертер регистра'],'https://uselocaltools.com/ru'],
+    ['ru','find-replace-text','Найти и заменить',['поиск и замена текста'],'https://uselocaltools.com/ru'],
+    ['ru','remove-html-tags','Удалить HTML-теги',['удаление HTML тегов'],'https://uselocaltools.com/ru'],
+    ['ru','text-diff-checker','Сравнение текстов',['сравнить два текста'],'https://uselocaltools.com/ru'],
+    ['ru','reverse-text-mirror-tool','Перевернуть текст',['обратный текст'],'https://uselocaltools.com/ru'],
+    ['ru','remove-duplicate-lines','Удалить дубликаты строк',['удалить повторяющиеся строки'],'https://uselocaltools.com/ru'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized Russian terminology candidate from a public multilingual tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['it','word-character-counter','Contatore di parole',['conteggio parole e caratteri'],'https://experttoolskit.com/it/'],
     ['it','text-case-converter','Convertitore di maiuscole e minuscole',['convertitore di testo'],'https://experttoolskit.com/it/'],
     ['it','find-replace-text','Trova e sostituisci',['cerca e sostituisci testo'],'https://experttoolskit.com/it/'],
