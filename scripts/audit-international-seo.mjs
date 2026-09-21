@@ -18,6 +18,8 @@ if (localeMatches.length !== 12) throw new Error(`Expected 12 locales, found ${l
 if (seedMatches.length !== 11) throw new Error(`Expected 11 non-English seed markets, found ${seedMatches.length}`);
 const hasMatrixGenerator = /TOOLS_REGISTRY\.flatMap\(\(tool\)\s*=>\s*INTERNATIONAL_KEYWORD_SEEDS\.map\(\(market\)/s.test(matrixSource);
 if (!hasMatrixGenerator) throw new Error('International SEO matrix is not generated from every tool × seed market');
+if (!/getLongTailQueryCandidates/.test(matrixSource) || !/longTailQueryCandidates:/.test(matrixSource)) throw new Error('International SEO matrix must expose long-tail query candidates for every tool × market row');
+if (!/LONG_TAIL_QUERY_PATTERNS/.test(localizationSource) || !/getLongTailQueryCandidates/.test(localizationSource)) throw new Error('Long-tail query candidate generation is missing');
 const expectedMatrixRows = 87 * 11;
 const expectedLocalizationRows = 87 * 12;
 const marketEvidenceLocales = [...marketEvidenceSource.matchAll(/locale: '([^']+)'/g)].map((m) => m[1]);
@@ -42,5 +44,5 @@ const missingSeeds = localeMatches
   .filter((code) => !seedMatches.includes(code === 'pt' ? 'pt-BR' : code === 'zh' ? 'zh-CN' : code));
 if (missingSeeds.length) throw new Error(`Missing keyword seeds: ${missingSeeds.join(', ')}`);
 
-console.log(`International SEO foundation OK: 87 tools, ${localeMatches.length} locales, ${seedMatches.length} non-English seed markets, ${expectedMatrixRows} research rows, ${expectedLocalizationRows} locale × tool coverage rows, ${validatedToolCount} exact-keyword validation rows, ${marketEvidenceLocales.length} market evidence sets.`);
+console.log(`International SEO foundation OK: 87 tools, ${localeMatches.length} locales, ${seedMatches.length} non-English seed markets, ${expectedMatrixRows} research rows, ${expectedLocalizationRows} locale × tool coverage rows, long-tail candidates enabled for every matrix row, ${validatedToolCount} exact-keyword validation rows, ${marketEvidenceLocales.length} market evidence sets.`);
 console.log('Market evidence supports observed local terminology only. Search-volume/difficulty/traffic claims remain unset until reliable keyword data is supplied.');
