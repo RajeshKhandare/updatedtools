@@ -90,6 +90,39 @@ export const SEARCH_QUERY_MODIFIERS: Record<LocaleCode, string[]> = {
   hi: ['ऑनलाइन', 'मुफ्त', 'फ्री', 'मुफ्त ऑनलाइन'],
 };
 
+/**
+ * Long-tail intent patterns. These are research candidates, not claims about
+ * search volume. They combine localized tool phrases with common task,
+ * problem, device, and file-format intents so lower-competition queries
+ * are considered alongside head terms.
+ */
+export const LONG_TAIL_QUERY_PATTERNS: Record<LocaleCode, string[]> = {
+  en: ['how to use', 'how to', 'without installing', 'on mobile', 'for beginners', 'step by step', 'with no signup'],
+  pt: ['como usar', 'como fazer', 'sem instalar', 'no celular', 'passo a passo', 'sem cadastro'],
+  es: ['cómo usar', 'cómo hacer', 'sin instalar', 'en el móvil', 'paso a paso', 'sin registro'],
+  de: ['wie man', 'ohne Installation', 'auf dem Handy', 'Schritt für Schritt', 'ohne Anmeldung'],
+  fr: ['comment utiliser', 'comment faire', 'sans installer', 'sur mobile', 'étape par étape', 'sans inscription'],
+  it: ['come usare', 'come fare', 'senza installare', 'su mobile', 'passo passo', 'senza registrazione'],
+  ja: ['使い方', 'やり方', 'インストール不要', 'スマホで', '初心者向け', '登録不要'],
+  ko: ['사용 방법', '하는 방법', '설치 없이', '모바일에서', '초보자용', '회원가입 없이'],
+  zh: ['怎么用', '使用方法', '无需安装', '手机上', '新手', '无需注册'],
+  ru: ['как использовать', 'как сделать', 'без установки', 'на телефоне', 'пошагово', 'без регистрации'],
+  ar: ['كيفية الاستخدام', 'كيفية', 'بدون تثبيت', 'على الهاتف', 'خطوة بخطوة', 'بدون تسجيل'],
+  hi: ['कैसे इस्तेमाल करें', 'कैसे करें', 'इंस्टॉल किए बिना', 'मोबाइल पर', 'स्टेप बाय स्टेप', 'बिना साइन अप'],
+};
+
+export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): string[] {
+  const localName = getLocalizedToolName(tool, locale);
+  const englishName = tool.targetKeyword || tool.name;
+  const bases = Array.from(new Set([localName, englishName]));
+  const patterns = LONG_TAIL_QUERY_PATTERNS[locale];
+  const modifierTail = SEARCH_QUERY_MODIFIERS[locale].filter((m) => m !== 'online' && m !== 'free online');
+  return Array.from(new Set([
+    ...bases.flatMap((base) => patterns.map((pattern) => `${base} ${pattern}`)),
+    ...bases.flatMap((base) => modifierTail.map((modifier) => `${base} ${modifier} online`)),
+    ...bases.flatMap((base) => ['PDF', 'JPG', 'PNG'].map((format) => `${base} ${format}`)),
+  ]));
+}
 export function getLocalizedUi(locale: LocaleCode): LocalizedUi {
   return LOCALIZED_UI[locale];
 }
