@@ -5,6 +5,7 @@ import { Check, Copy, Download, RefreshCw } from 'lucide-react';
 import { ToolMeta } from '@/data/toolsRegistry';
 import type { LocaleCode } from '@/data/internationalSeo';
 import { getEngineUi } from '@/data/engineLocalization';
+import { getLocalizedToolName } from '@/data/internationalLocalization';
 
 const card='relative w-full max-w-5xl mx-auto overflow-hidden rounded-[28px] border border-zinc-200/80 dark:border-white/10 bg-white/95 dark:bg-zinc-900/90 p-5 sm:p-7 lg:p-8 space-y-6 shadow-[0_24px_80px_-36px_rgba(0,0,0,0.55)] backdrop-blur-xl';
 const input='w-full rounded-2xl border border-zinc-200/90 dark:border-white/10 bg-zinc-50/80 dark:bg-zinc-950/80 px-4 py-3.5 text-sm text-zinc-900 dark:text-white shadow-sm outline-none transition-all duration-200 placeholder:text-zinc-400 focus:border-violet-500/70 focus:ring-4 focus:ring-violet-500/10 focus:bg-white dark:focus:bg-zinc-950';
@@ -527,7 +528,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
 
   return (
     <div className={card}>
-      <h3 className="text-lg font-bold">{tool.name}</h3>
+      <h3 className="text-lg font-bold">{getLocalizedToolName(tool,locale)}</h3>
 
       {isMode&&(
         <div className="flex gap-2">
@@ -565,7 +566,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
         className={input+' min-h-44 font-mono'}
         value={value}
         onChange={e=>setValue(e.target.value)}
-        placeholder={`Enter input for ${tool.name}...`}
+        placeholder={ui.enterValues}
       />
 
       {isTwo&&(
@@ -573,7 +574,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
           className={input+' min-h-32 font-mono'}
           value={second}
           onChange={e=>setSecond(e.target.value)}
-          placeholder="Enter the second text block..."
+          placeholder={ui.enterValues}
         />
       )}
 
@@ -583,29 +584,27 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
             className={input}
             value={second}
             onChange={e=>setSecond(e.target.value)}
-            placeholder="Find"
+            placeholder={locale==="en"?"Find":locale==="es"?"Buscar":locale==="pt"?"Localizar":locale==="de"?"Suchen":locale==="fr"?"Rechercher":locale==="it"?"Trova":locale==="ja"?"検索":locale==="ko"?"찾기":locale==="zh"?"查找":locale==="ru"?"Найти":locale==="ar"?"بحث":"खोजें"}
           />
 
           <input
             className={input}
             value={replacement}
             onChange={e=>setReplacement(e.target.value)}
-            placeholder="Replacement"
+            placeholder={locale==="en"?"Replacement":locale==="es"?"Reemplazo":locale==="pt"?"Substituição":locale==="de"?"Ersetzung":locale==="fr"?"Remplacement":locale==="it"?"Sostituzione":locale==="ja"?"置換":locale==="ko"?"바꾸기":locale==="zh"?"替换":locale==="ru"?"Замена":locale==="ar"?"الاستبدال":"बदलें"}
           />
         </>
       )}
 
       {['strong-password-generator','lorem-ipsum-generator'].includes(slug)&&(
         <p className="text-xs text-zinc-500">
-          {slug==='strong-password-generator'
-            ? 'Enter desired password length in the box above.'
-            : 'Enter number of paragraphs in the box above.'}
+          {ui.enterValues}
         </p>
       )}
 
       <div className="flex flex-wrap gap-2">
         <button className={button} onClick={process}>
-          Process
+          {ui.process}
         </button>
 
         {result&&(
@@ -624,7 +623,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
             >
               <Download className="inline h-3.5 w-3.5"/>
               {' '}
-              Download
+              {ui.download}
             </button>
           </>
         )}
@@ -640,7 +639,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
         >
           <RefreshCw className="inline h-3.5 w-3.5"/>
           {' '}
-          Reset
+          {ui.reset}
         </button>
       </div>
 
@@ -730,7 +729,8 @@ function evaluateScientificExpression(expression:string){
   if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error('Invalid expression.');
   return fmt(vals[0]);
 }
-function Calculator({slug,toolName}:{slug:string;toolName:string}){
+function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;locale?:LocaleCode}){
+  const ui = getEngineUi(locale);
   const [a,setA]=useState('1000');
   const [b,setB]=useState('5');
   const [c,setC]=useState('10');
@@ -1019,7 +1019,8 @@ Per person: ${fmt(total/people)}`;
 
 }
 
-function YouTube({slug}:{slug:string}){
+function YouTube({slug,locale='en'}:{slug:string;locale?:LocaleCode}){
+  const ui = getEngineUi(locale);
   const [inputValue,setInputValue]=useState<string>('');
   const [result,setResult]=useState<string>('');
 
@@ -1064,11 +1065,11 @@ function YouTube({slug}:{slug:string}){
         className={input}
         value={inputValue}
         onChange={e=>setInputValue(e.target.value)}
-        placeholder="Enter your video topic or keyword"
+        placeholder={ui.enterValues}
       />
 
       <button className={button} onClick={run}>
-        Generate
+        {ui.generate}
       </button>
 
       {result&&(
@@ -1094,7 +1095,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
   }
 
   if(tool.category==='Calculators'){
-    return <Calculator slug={tool.slug} toolName={tool.name}/>;
+    return <Calculator slug={tool.slug} toolName={getLocalizedToolName(tool,locale)} locale={locale}/>;
   }
 
   if(tool.category==='YouTube'){
@@ -1169,16 +1170,17 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
     }
 
     if(tool.slug==='youtube-thumbnail-downloader'){
-      return <Thumbnail/>;
+      return <Thumbnail locale={locale}/>;
     }
 
-    return <YouTube slug={tool.slug}/>;
+    return <YouTube slug={tool.slug} locale={locale}/>;
   }
 
   return <DeveloperText tool={tool} locale={locale}/>;
 }
 
-function Thumbnail(){
+function Thumbnail({locale='en'}:{locale?:LocaleCode}){
+  const ui = getEngineUi(locale);
   const [url,setUrl]=useState('');
   const [id,setId]=useState('');
   const [downloading,setDownloading]=useState(false);
@@ -1227,11 +1229,11 @@ function Thumbnail(){
         className={input}
         value={url}
         onChange={e=>setUrl(e.target.value)}
-        placeholder="Paste a YouTube video URL"
+        placeholder={ui.enterValues}
       />
 
       <button className={button} onClick={get}>
-        Get Thumbnail
+        {ui.generate}
       </button>
 
       {message&&(
@@ -1252,7 +1254,7 @@ function Thumbnail(){
             onClick={downloadThumbnail}
           >
             <Download className="h-4 w-4" />
-            {downloading?'Downloading...':'Download Thumbnail'}
+            {downloading?ui.processing:ui.download}
           </button>
         </div>
       )}
