@@ -415,19 +415,19 @@ ${JSON.stringify(
                     ? 'Linux'
                     : 'Unknown';
 
-        out=`Browser: ${browser}
-OS: ${os}
-User-Agent: ${ua}`;
+        out=`${ui.universal.browser}: ${browser}
+${ui.universal.os}: ${os}
+${ui.universal.userAgent}: ${ua}`;
 
       }else if(slug==='word-character-counter'){
         const words=value.trim()?value.trim().split(/\s+/).length:0;
         const chars=value.length;
         const charsNoSpaces=value.replace(/\s/g,'').length;
 
-        out=`Words: ${words}
-Characters: ${chars}
-Characters (no spaces): ${charsNoSpaces}
-Lines: ${value?value.split(/\r?\n/).length:0}`;
+        out=`${ui.universal.words}: ${words}
+${ui.universal.characters}: ${chars}
+${ui.universal.charactersNoSpaces}: ${charsNoSpaces}
+${ui.universal.lines}: ${value?value.split(/\r?\n/).length:0}`;
 
       }else if(slug==='text-case-converter'){
         out=
@@ -790,7 +790,7 @@ function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;loc
 
       out=
         y===0
-          ? 'Enter a non-zero second value.'
+          ? ui.universal.nonZero
           : `${fmt(x)} ${ui.universal.percentOf} ${fmt(x/y*100)}% ${ui.universal.percentOf} ${fmt(y)}\n${ui.universal.difference}: ${fmt(y-x)}`;
 
     }else if(slug==='age-calculator'){
