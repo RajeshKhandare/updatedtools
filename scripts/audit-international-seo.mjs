@@ -39,6 +39,8 @@ if (validationLocales.length !== validationSourceCount) throw new Error('Localiz
 if (validationLocales.some((locale) => !seedMatches.includes(locale))) throw new Error('Localized keyword validation contains an unknown locale');
 const validatedRowCount = validationLocales.length;
 if (validatedRowCount < 1) throw new Error('Expected at least one evidence-backed localized keyword validation');
+const hasTerminologyAudit = /toolTerminologyStatus/.test(matrixSource) && /observed/.test(matrixSource) && /candidate-only/.test(matrixSource);
+if (!hasTerminologyAudit) throw new Error('International SEO matrix must expose terminology evidence status');
 
 const missingSeeds = localeMatches
   .filter((code) => code !== 'en')
@@ -46,4 +48,5 @@ const missingSeeds = localeMatches
 if (missingSeeds.length) throw new Error(`Missing keyword seeds: ${missingSeeds.join(', ')}`);
 
 console.log(`International SEO foundation OK: 87 tools, ${localeMatches.length} locales, ${seedMatches.length} non-English seed markets, ${expectedMatrixRows} research rows, ${expectedLocalizationRows} locale × tool coverage rows, long-tail candidates enabled for every matrix row, ${validatedRowCount} evidence-backed validation rows, ${marketEvidenceLocales.length} market evidence sets.`);
+console.log('Terminology evidence is tracked per matrix row as observed vs candidate-only; this is not a ranking or traffic score.');
 console.log('Market evidence supports observed local terminology only. Search-volume/difficulty/traffic claims remain unset until reliable keyword data is supplied.');
