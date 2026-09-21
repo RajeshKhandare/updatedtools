@@ -176,6 +176,17 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['it','word-character-counter','Contatore di parole',['conteggio parole e caratteri'],'https://experttoolskit.com/it/'],
+    ['it','text-case-converter','Convertitore di maiuscole e minuscole',['convertitore di testo'],'https://experttoolskit.com/it/'],
+    ['it','find-replace-text','Trova e sostituisci',['cerca e sostituisci testo'],'https://experttoolskit.com/it/'],
+    ['it','remove-html-tags','Rimuovi tag HTML',['eliminare tag HTML'],'https://experttoolskit.com/it/'],
+    ['it','text-diff-checker','Confronta testi',['confronto testi'],'https://experttoolskit.com/it/'],
+    ['it','reverse-text-mirror-tool','Inverti testo',['testo al contrario'],'https://experttoolskit.com/it/'],
+    ['it','remove-duplicate-lines','Rimuovi righe duplicate',['elimina righe duplicate'],'https://experttoolskit.com/it/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized Italian terminology candidate from a public tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['de','word-character-counter','Wörter zählen',['Wörterzähler'],'https://experttoolskit.com/de/'],
     ['de','text-case-converter','Groß- und Kleinschreibung ändern',['Text Großschreibung'],'https://experttoolskit.com/de/'],
     ['de','find-replace-text','Suchen und Ersetzen',['Text suchen und ersetzen'],'https://experttoolskit.com/de/'],
