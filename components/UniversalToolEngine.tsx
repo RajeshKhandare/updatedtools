@@ -196,7 +196,8 @@ function Converter({slug, locale='en'}:{slug:string; locale?: LocaleCode}){
   );
 }
 
-function Temperature(){
+function Temperature({locale='en'}:{locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   const [v,setV]=useState('0');
   const [from,setFrom]=useState('C');
   const [to,setTo]=useState('F');
