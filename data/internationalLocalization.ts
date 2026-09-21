@@ -132,15 +132,14 @@ export const LONG_TAIL_QUERY_PATTERNS: Record<LocaleCode, string[]> = {
   hi: ['कैसे इस्तेमाल करें', 'कैसे करें', 'इंस्टॉल किए बिना', 'मोबाइल पर', 'स्टेप बाय स्टेप', 'बिना साइन अप'],
 };
 
-export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): string[] {
-  const localName = getLocalizedToolName(tool, locale);
-  const englishName = tool.targetKeyword || tool.name;
-  const bases = Array.from(new Set([localName, englishName]));
-  const patterns = LONG_TAIL_QUERY_PATTERNS[locale];
-  const modifierTail = SEARCH_QUERY_MODIFIERS[locale].filter((m) => m !== 'online' && m !== 'free online');
-  const category = tool.category;
 
-  const categoryPatterns: Partial<Record<string, string[]>> = {
+/**
+ * Category-specific long-tail suffixes are localized as query candidates.
+ * They are intentionally not treated as validated keywords until market/SERP
+ * evidence confirms the phrasing.
+ */
+const CATEGORY_LONG_TAIL_PATTERNS: Record<LocaleCode, Partial<Record<string, string[]>>> = {
+  en: {
     PDF: ['with multiple files', 'for documents', 'for printing'],
     Image: ['for photos', 'for social media', 'without losing quality'],
     Compiler: ['in browser', 'for beginners', 'with example code'],
@@ -150,11 +149,141 @@ export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): 
     Finance: ['with formula', 'with examples', 'monthly calculation'],
     Calculators: ['with formula', 'with examples', 'step by step'],
     YouTube: ['for creators', 'for videos', 'with YouTube URL'],
-  };
+  },
+  pt: {
+    PDF: ['com vários arquivos', 'para documentos', 'para impressão'],
+    Image: ['para fotos', 'para redes sociais', 'sem perder qualidade'],
+    Compiler: ['no navegador', 'para iniciantes', 'com exemplo de código'],
+    Developer: ['para desenvolvedores', 'com exemplo', 'para desenvolvimento de API'],
+    Text: ['para redações', 'para documentos', 'para estudantes'],
+    Converters: ['com fórmula', 'com exemplos', 'entre unidades'],
+    Finance: ['com fórmula', 'com exemplos', 'cálculo mensal'],
+    Calculators: ['com fórmula', 'com exemplos', 'passo a passo'],
+    YouTube: ['para criadores', 'para vídeos', 'com URL do YouTube'],
+  },
+  es: {
+    PDF: ['con varios archivos', 'para documentos', 'para imprimir'],
+    Image: ['para fotos', 'para redes sociales', 'sin perder calidad'],
+    Compiler: ['en el navegador', 'para principiantes', 'con ejemplo de código'],
+    Developer: ['para desarrolladores', 'con ejemplo', 'para desarrollo de API'],
+    Text: ['para ensayos', 'para documentos', 'para estudiantes'],
+    Converters: ['con fórmula', 'con ejemplos', 'entre unidades'],
+    Finance: ['con fórmula', 'con ejemplos', 'cálculo mensual'],
+    Calculators: ['con fórmula', 'con ejemplos', 'paso a paso'],
+    YouTube: ['para creadores', 'para vídeos', 'con URL de YouTube'],
+  },
+  de: {
+    PDF: ['mit mehreren Dateien', 'für Dokumente', 'zum Drucken'],
+    Image: ['für Fotos', 'für soziale Medien', 'ohne Qualitätsverlust'],
+    Compiler: ['im Browser', 'für Anfänger', 'mit Codebeispiel'],
+    Developer: ['für Entwickler', 'mit Beispiel', 'für API-Entwicklung'],
+    Text: ['für Aufsätze', 'für Dokumente', 'für Schüler'],
+    Converters: ['mit Formel', 'mit Beispielen', 'zwischen Einheiten'],
+    Finance: ['mit Formel', 'mit Beispielen', 'monatliche Berechnung'],
+    Calculators: ['mit Formel', 'mit Beispielen', 'Schritt für Schritt'],
+    YouTube: ['für Creator', 'für Videos', 'mit YouTube-URL'],
+  },
+  fr: {
+    PDF: ['avec plusieurs fichiers', 'pour les documents', 'pour imprimer'],
+    Image: ['pour les photos', 'pour les réseaux sociaux', 'sans perdre en qualité'],
+    Compiler: ['dans le navigateur', 'pour débutants', 'avec exemple de code'],
+    Developer: ['pour développeurs', 'avec exemple', 'pour développement API'],
+    Text: ['pour les dissertations', 'pour les documents', 'pour les étudiants'],
+    Converters: ['avec formule', 'avec exemples', 'entre unités'],
+    Finance: ['avec formule', 'avec exemples', 'calcul mensuel'],
+    Calculators: ['avec formule', 'avec exemples', 'étape par étape'],
+    YouTube: ['pour créateurs', 'pour vidéos', 'avec URL YouTube'],
+  },
+  it: {
+    PDF: ['con più file', 'per documenti', 'per la stampa'],
+    Image: ['per foto', 'per i social', 'senza perdere qualità'],
+    Compiler: ['nel browser', 'per principianti', 'con esempio di codice'],
+    Developer: ['per sviluppatori', 'con esempio', 'per sviluppo API'],
+    Text: ['per temi', 'per documenti', 'per studenti'],
+    Converters: ['con formula', 'con esempi', 'tra unità'],
+    Finance: ['con formula', 'con esempi', 'calcolo mensile'],
+    Calculators: ['con formula', 'con esempi', 'passo passo'],
+    YouTube: ['per creator', 'per video', 'con URL YouTube'],
+  },
+  ja: {
+    PDF: ['複数ファイルで', '文書用', '印刷用'],
+    Image: ['写真用', 'SNS用', '画質を落とさず'],
+    Compiler: ['ブラウザで', '初心者向け', 'コード例付き'],
+    Developer: ['開発者向け', '例付き', 'API開発向け'],
+    Text: ['作文用', '文書用', '学生向け'],
+    Converters: ['計算式付き', '例付き', '単位間で'],
+    Finance: ['計算式付き', '例付き', '月額計算'],
+    Calculators: ['計算式付き', '例付き', 'ステップごと'],
+    YouTube: ['クリエイター向け', '動画用', 'YouTube URLで'],
+  },
+  ko: {
+    PDF: ['여러 파일로', '문서용', '인쇄용'],
+    Image: ['사진용', '소셜 미디어용', '화질 저하 없이'],
+    Compiler: ['브라우저에서', '초보자용', '예제 코드 포함'],
+    Developer: ['개발자용', '예제 포함', 'API 개발용'],
+    Text: ['에세이용', '문서용', '학생용'],
+    Converters: ['공식 포함', '예제 포함', '단위 간 변환'],
+    Finance: ['공식 포함', '예제 포함', '월별 계산'],
+    Calculators: ['공식 포함', '예제 포함', '단계별'],
+    YouTube: ['크리에이터용', '동영상용', 'YouTube URL로'],
+  },
+  zh: {
+    PDF: ['多个文件', '文档用', '打印用'],
+    Image: ['照片用', '社交媒体用', '不降低画质'],
+    Compiler: ['浏览器在线', '新手用', '带代码示例'],
+    Developer: ['开发者用', '带示例', 'API开发用'],
+    Text: ['作文用', '文档用', '学生用'],
+    Converters: ['带公式', '带示例', '单位之间'],
+    Finance: ['带公式', '带示例', '月度计算'],
+    Calculators: ['带公式', '带示例', '分步骤'],
+    YouTube: ['创作者用', '视频用', '使用YouTube链接'],
+  },
+  ru: {
+    PDF: ['для нескольких файлов', 'для документов', 'для печати'],
+    Image: ['для фотографий', 'для соцсетей', 'без потери качества'],
+    Compiler: ['в браузере', 'для начинающих', 'с примером кода'],
+    Developer: ['для разработчиков', 'с примером', 'для разработки API'],
+    Text: ['для сочинений', 'для документов', 'для студентов'],
+    Converters: ['с формулой', 'с примерами', 'между единицами'],
+    Finance: ['с формулой', 'с примерами', 'расчет за месяц'],
+    Calculators: ['с формулой', 'с примерами', 'пошагово'],
+    YouTube: ['для авторов', 'для видео', 'с URL YouTube'],
+  },
+  ar: {
+    PDF: ['مع عدة ملفات', 'للمستندات', 'للطباعة'],
+    Image: ['للصور', 'لوسائل التواصل الاجتماعي', 'بدون فقدان الجودة'],
+    Compiler: ['في المتصفح', 'للمبتدئين', 'مع مثال برمجي'],
+    Developer: ['للمطورين', 'مع مثال', 'لتطوير API'],
+    Text: ['للمقالات', 'للمستندات', 'للطلاب'],
+    Converters: ['مع الصيغة', 'مع أمثلة', 'بين الوحدات'],
+    Finance: ['مع الصيغة', 'مع أمثلة', 'حساب شهري'],
+    Calculators: ['مع الصيغة', 'مع أمثلة', 'خطوة بخطوة'],
+    YouTube: ['لمنشئي المحتوى', 'للفيديوهات', 'باستخدام رابط YouTube'],
+  },
+  hi: {
+    PDF: ['कई फाइलों के साथ', 'डॉक्यूमेंट के लिए', 'प्रिंट करने के लिए'],
+    Image: ['फोटो के लिए', 'सोशल मीडिया के लिए', 'क्वालिटी कम किए बिना'],
+    Compiler: ['ब्राउज़र में', 'शुरुआती लोगों के लिए', 'कोड उदाहरण के साथ'],
+    Developer: ['डेवलपर्स के लिए', 'उदाहरण के साथ', 'API डेवलपमेंट के लिए'],
+    Text: ['निबंध के लिए', 'डॉक्यूमेंट के लिए', 'स्टूडेंट्स के लिए'],
+    Converters: ['फॉर्मूला के साथ', 'उदाहरण के साथ', 'यूनिट के बीच'],
+    Finance: ['फॉर्मूला के साथ', 'उदाहरण के साथ', 'मासिक गणना'],
+    Calculators: ['फॉर्मूला के साथ', 'उदाहरण के साथ', 'स्टेप बाय स्टेप'],
+    YouTube: ['क्रिएटर्स के लिए', 'वीडियो के लिए', 'YouTube URL के साथ'],
+  },
+};
+
+export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): string[] {
+  const localName = getLocalizedToolName(tool, locale);
+  const englishName = tool.targetKeyword || tool.name;
+  const bases = Array.from(new Set([localName, englishName]));
+  const patterns = LONG_TAIL_QUERY_PATTERNS[locale];
+  const modifierTail = SEARCH_QUERY_MODIFIERS[locale].filter((m) => m !== 'online' && m !== 'free online');
+  const category = tool.category;
 
   const relevantPatterns = Array.from(new Set([
     ...patterns,
-    ...(categoryPatterns[category] || []),
+    ...(CATEGORY_LONG_TAIL_PATTERNS[locale][category] || []),
   ]));
   const formatPatterns = category === 'PDF' || category === 'Image' ? ['PDF', 'JPG', 'PNG'] : [];
 
