@@ -33,7 +33,8 @@ SELECT * FROM users;`,
 };
 
 
-export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: string; toolName: string }) {
+export default function CompilerEngine({ toolSlug, toolName, locale = 'en' }: { toolSlug: string; toolName: string; locale?: LocaleCode }) {
+  const ui = getEngineUi(locale);
   const langKey = toolSlug.includes('python') ? 'python' : toolSlug.includes('javascript') ? 'javascript' : toolSlug.includes('java') && !toolSlug.includes('javascript') ? 'java' : toolSlug.includes('cpp') ? 'cpp' : toolSlug.includes('csharp') ? 'csharp' : toolSlug.includes('php') ? 'php' : toolSlug.includes('sql') ? 'sql' : 'html';
   const [code, setCode] = useState(DEFAULT_CODES[langKey]);
   const [output, setOutput] = useState('Runtime ready. Click "Run Code" to execute.');
