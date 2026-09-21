@@ -879,7 +879,7 @@ Per person: ${fmt(total/people)}`;
         ? (
           <div>
             <label className="mb-2 block text-xs font-medium text-zinc-500">
-              Date of Birth
+              {ui.dateOfBirth}
             </label>
             <input
               className={input}
@@ -893,7 +893,7 @@ Per person: ${fmt(total/people)}`;
           ? (
             <div>
               <label className="mb-2 block text-xs font-medium text-zinc-500">
-                Mathematical Expression
+                {ui.expression}
               </label>
               <input
                 className={input}
@@ -916,7 +916,7 @@ Per person: ${fmt(total/people)}`;
                   {slug==='sip-wealth-calculator'
                     ? 'Monthly SIP Investment'
                     : slug==='bmi-calculator'
-                      ? 'Weight (kg)'
+                      ? `${ui.enterValues} — kg`
                       : slug==='compound-interest-calculator'
                         ? 'Principal Amount'
                         : slug==='simple-interest-calculator'
@@ -924,7 +924,7 @@ Per person: ${fmt(total/people)}`;
                           : slug==='percentage-calculator'
                             ? 'Value'
                             : slug==='discount-calculator'
-                              ? 'Original Price'
+                              ? ui.enterValues
                               : 'Bill Amount'}
                 </label>
                 <input
@@ -932,7 +932,7 @@ Per person: ${fmt(total/people)}`;
                   type="number"
                   value={a}
                   onChange={e=>setA(e.target.value)}
-                  placeholder={slug==='sip-wealth-calculator'?'e.g. 1000':slug==='bmi-calculator'?'e.g. 70':'Enter amount'}
+                  placeholder={ui.enterValues}
                 />
               </div>
 
@@ -941,21 +941,21 @@ Per person: ${fmt(total/people)}`;
                   {slug==='sip-wealth-calculator'
                     ? 'Expected Annual Return (%)'
                     : slug==='bmi-calculator'
-                      ? 'Height (cm)'
+                      ? `${ui.enterValues} — cm`
                       : slug==='percentage-calculator'
                         ? 'Total / Reference Value'
                         : slug==='tip-calculator'
-                          ? 'Tip Percentage (%)'
+                          ? ui.enterValues
                           : slug==='discount-calculator'
                             ? 'Discount (%)'
-                            : 'Annual Interest Rate (%)'}
+                            : ui.enterValues}
                 </label>
                 <input
                   className={input}
                   type="number"
                   value={b}
                   onChange={e=>setB(e.target.value)}
-                  placeholder={slug==='sip-wealth-calculator'?'e.g. 12':slug==='bmi-calculator'?'e.g. 170':'Enter percentage or rate'}
+                  placeholder={ui.enterValues}
                 />
               </div>
 
@@ -982,7 +982,7 @@ Per person: ${fmt(total/people)}`;
                       type="number"
                       value={c}
                       onChange={e=>setC(e.target.value)}
-                      placeholder={slug==='tip-calculator'?'e.g. 2':'Enter value'}
+                      placeholder={ui.enterValues}
                     />
                   </div>
 
@@ -1007,7 +1007,7 @@ Per person: ${fmt(total/people)}`;
       }
 
       <div className="resultPanel">
-        <div className="text-xs font-semibold text-zinc-500">Result</div>
+        <div className="text-xs font-semibold text-zinc-500">{ui.result}</div>
         <pre className="mt-2 text-sm whitespace-pre-wrap">
           {slug==='scientific-calculator'
             ? (scientificResult || '—')
@@ -1079,8 +1079,7 @@ function YouTube({slug,locale='en'}:{slug:string;locale?:LocaleCode}){
       )}
 
       <p className="text-xs text-zinc-500">
-        Generated suggestions are templates; they do not guarantee rankings,
-        clicks, or virality.
+        {ui.generatedNote}
       </p>
     </div>
   );
@@ -1111,7 +1110,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
           <div className="grid sm:grid-cols-2 gap-4">
             <label className="block">
               <span className="mb-2 block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                Monthly Views
+                {ui.monthlyViews}
               </span>
               <input
                 id="views"
@@ -1124,7 +1123,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
 
             <label className="block">
               <span className="mb-2 block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                RPM (USD)
+                {ui.rpmUsd}
               </span>
               <input
                 id="rpm"
@@ -1192,7 +1191,7 @@ function Thumbnail({locale='en'}:{locale?:LocaleCode}){
     );
 
     setId(m?.[1]||'');
-    setMessage(m?.[1] ? '' : 'Enter a valid public YouTube video URL.');
+    setMessage(m?.[1] ? '' : ui.validUrl);
   };
 
   const downloadThumbnail=async()=>{
@@ -1203,7 +1202,7 @@ function Thumbnail({locale='en'}:{locale?:LocaleCode}){
 
     try{
       const response=await fetch(`/api/youtube-thumbnail?videoId=${id}`);
-      if(!response.ok) throw new Error('The thumbnail could not be downloaded.');
+      if(!response.ok) throw new Error(ui.thumbnailError);
 
       const blob=await response.blob();
       const blobUrl=URL.createObjectURL(blob);
