@@ -176,6 +176,21 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['pt-BR','user-agent-string-parser','Analisador de User Agent',['parser de user agent'],'https://www.useragentstring.com/'],
+    ['es','user-agent-string-parser','Analizador de User Agent',['parser de user agent'],'https://www.useragentstring.com/'],
+    ['de','user-agent-string-parser','User-Agent-Parser',['User Agent analysieren'],'https://www.useragentstring.com/'],
+    ['fr','user-agent-string-parser','Analyseur User Agent',['analyseur d’agent utilisateur'],'https://www.useragentstring.com/'],
+    ['it','user-agent-string-parser','Analizzatore User Agent',['parser user agent'],'https://www.useragentstring.com/'],
+    ['ja','user-agent-string-parser','User Agent パーサー',['ユーザーエージェント解析'],'https://www.useragentstring.com/'],
+    ['ko','user-agent-string-parser','User Agent 분석기',['사용자 에이전트 분석'],'https://www.useragentstring.com/'],
+    ['zh-CN','user-agent-string-parser','User Agent 解析器',['用户代理解析'],'https://www.useragentstring.com/'],
+    ['ru','user-agent-string-parser','Анализатор User Agent',['анализ User Agent'],'https://www.useragentstring.com/'],
+    ['ar','user-agent-string-parser','محلل User Agent',['تحليل وكيل المستخدم'],'https://www.useragentstring.com/'],
+    ['hi','user-agent-string-parser','User Agent Parser',['यूज़र एजेंट विश्लेषक'],'https://www.useragentstring.com/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized terminology candidate; source is a public User Agent reference rather than localized search-volume evidence. Not a ranking or traffic claim.'})),
+
+
+  ...([
     ['fr','pdf-grayscale-converter','PDF en niveaux de gris',['convertir PDF en niveaux de gris'],'https://uselocaltools.com/fr/tools/grayscale-pdf'],
     ['pt-BR','pdf-grayscale-converter','PDF em escala de cinza',['converter PDF para escala de cinza'],'https://omypdf.com/pt/pdf-em-escala-de-cinza'],
     ['es','pdf-grayscale-converter','PDF en escala de grises',['convertir PDF a escala de grises'],'https://omypdf.com/es/pdf-en-escala-de-grises'],
