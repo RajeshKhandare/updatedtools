@@ -176,6 +176,18 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['de','word-character-counter','Wörter zählen',['Wörterzähler'],'https://experttoolskit.com/de/'],
+    ['de','text-case-converter','Groß- und Kleinschreibung ändern',['Text Großschreibung'],'https://experttoolskit.com/de/'],
+    ['de','find-replace-text','Suchen und Ersetzen',['Text suchen und ersetzen'],'https://experttoolskit.com/de/'],
+    ['de','remove-html-tags','HTML-Tags entfernen',['HTML Tags löschen'],'https://experttoolskit.com/de/'],
+    ['fr','word-character-counter','Compteur de mots',['compteur de caractères'],'https://experttoolskit.com/fr/'],
+    ['fr','text-case-converter','Convertisseur de casse',['changer la casse du texte'],'https://experttoolskit.com/fr/'],
+    ['fr','find-replace-text','Rechercher et remplacer',['recherche et remplacement de texte'],'https://experttoolskit.com/fr/'],
+    ['fr','remove-html-tags','Supprimer les balises HTML',['retirer les balises HTML'],'https://experttoolskit.com/fr/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized terminology candidate from a public language-specific tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['es','word-character-counter','Contador de palabras',['contador de caracteres'],'https://uselocaltools.com/es'],
     ['es','text-case-converter','Convertidor de mayúsculas y minúsculas',['cambiar mayúsculas y minúsculas'],'https://uselocaltools.com/es'],
     ['es','remove-duplicate-lines','Eliminar líneas duplicadas',['quitar líneas duplicadas'],'https://uselocaltools.com/es'],
