@@ -10,6 +10,8 @@ import {
 import { TOOLS_REGISTRY, CATEGORIES, ToolMeta } from '@/data/toolsRegistry';
 import { getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 type HomeCopy = {
   badge:string; title:string; accent:string; description:string; searchPlaceholder:string; search:string;
