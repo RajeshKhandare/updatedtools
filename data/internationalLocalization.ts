@@ -80,7 +80,6 @@ const NAME_PHRASES: Record<string, Partial<Record<LocaleCode, string>>> = {
   'UUID Generator': { pt: 'Gerador de UUID', es: 'Generador de UUID', de: 'UUID-Generator', fr: 'Générateur d’UUID', it: 'Generatore UUID', ja: 'UUIDジェネレーター', ko: 'UUID 생성기', zh: 'UUID生成器', ru: 'Генератор UUID', ar: 'مولد UUID', hi: 'UUID जनरेटर' },
   'Password Generator': { pt: 'Gerador de senhas', es: 'Generador de contraseñas', de: 'Passwort-Generator', fr: 'Générateur de mots de passe', it: 'Generatore di password', ja: 'ランダムパスワード生成ツール', ko: '비밀번호 생성기', zh: '随机密码生成器', ru: 'Генератор паролей', ar: 'مولد كلمات المرور', hi: 'पासवर्ड जनरेटर' },
   'QR Code Generator': { pt: 'Gerador de QR Code', es: 'Generador de códigos QR', de: 'QR-Code-Generator', fr: 'Générateur de QR code', it: 'Generatore di codici QR', ja: 'QRコードジェネレーター', ko: 'QR 코드 생성기', zh: '二维码生成器', ru: 'Генератор QR-кодов', ar: 'مولد رمز QR', hi: 'QR कोड जनरेटर' },
-  'Compress Image Online': { pt: 'Comprimir imagem online', es: 'Comprimir imagen online', de: 'Bild online komprimieren', fr: 'Compresser une image en ligne', it: 'Compressore di immagini online', ja: '画像をオンラインで圧縮', ko: '온라인 이미지 압축', zh: '在线压缩图片', ru: 'Сжать изображение онлайн', ar: 'ضغط الصور عبر الإنترنت', hi: 'इमेज ऑनलाइन कंप्रेस करें' },
 };
 
 export function getLocalizedToolName(tool: ToolMeta, locale: LocaleCode): string {
