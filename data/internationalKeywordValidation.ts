@@ -230,10 +230,77 @@ const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] 
   },
 ];
 
+const ADDITIONAL_LOCAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+  {
+    locale: 'ko',
+    slug: 'json-formatter-validator',
+    primaryKeyword: 'JSON 포매터',
+    alternateKeywords: ['JSON 포맷터', 'JSON 구문 검사'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/ko/tools/json-formatter'],
+    notes: 'Current Korean localized page uses “JSON 포매터” and describes formatting, minifying and syntax checking in-browser.',
+  },
+  {
+    locale: 'zh-CN',
+    slug: 'json-formatter-validator',
+    primaryKeyword: 'JSON格式化',
+    alternateKeywords: ['JSON 格式化', 'JSON校验'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/zh-CN/tools/json-formatter'],
+    notes: 'Current Simplified Chinese localized page uses “JSON格式化” and describes formatting, minifying and syntax validation.',
+  },
+  {
+    locale: 'ar',
+    slug: 'json-formatter-validator',
+    primaryKeyword: 'منسّق JSON',
+    alternateKeywords: ['تنسيق JSON', 'التحقق من JSON'],
+    intent: 'tool',
+    sourceUrls: ['https://experttoolskit.com/ar/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-json/'],
+    notes: 'Current Arabic page uses “منسّق JSON” and explicitly describes JSON formatting and validation.',
+  },
+  {
+    locale: 'ar',
+    slug: 'compress-image',
+    primaryKeyword: 'ضغط الصور',
+    alternateKeywords: ['ضغط الصور أونلاين', 'تصغير حجم الصور'],
+    intent: 'tool',
+    sourceUrls: ['https://experttoolskit.com/ar/%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%B5%D9%88%D8%B1/'],
+    notes: 'Current Arabic page uses “ضغط الصور” for image compression and describes JPG, PNG and WebP compression.',
+  },
+  {
+    locale: 'ar',
+    slug: 'compress-pdf',
+    primaryKeyword: 'ضغط ملفات PDF',
+    alternateKeywords: ['ضغط PDF', 'تصغير حجم ملف PDF'],
+    intent: 'tool',
+    sourceUrls: ['https://experttoolskit.com/ar/%D8%B6%D8%BA%D8%B7-%D9%85%D9%84%D9%81-pdf/'],
+    notes: 'Current Arabic page uses “ضغط ملفات PDF” and “تصغير حجم الملف” task wording.',
+  },
+  {
+    locale: 'ar',
+    slug: 'merge-pdf',
+    primaryKeyword: 'دمج ملفات PDF',
+    alternateKeywords: ['دمج PDF', 'دمج ملفات بي دي إف'],
+    intent: 'tool',
+    sourceUrls: ['https://experttoolskit.com/ar/%D8%AF%D9%85%D8%AC-%D9%85%D9%84%D9%81%D8%A7%D8%AA-pdf/'],
+    notes: 'Current Arabic page uses “دمج ملفات PDF” and describes combining multiple files and reordering pages by drag and drop.',
+  },
+  {
+    locale: 'it',
+    slug: 'word-character-counter',
+    primaryKeyword: 'Contatore di parole',
+    alternateKeywords: ['contatore di caratteri', 'conta parole online'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/it/tools/word-counter'],
+    notes: 'Current Italian localized page uses “Contatore di parole” and measures words, characters, sentences, paragraphs and lines.',
+  },
+];
+
 export const INTERNATIONAL_KEYWORD_VALIDATIONS: readonly InternationalKeywordValidation[] = [
   ...BASE_INTERNATIONAL_KEYWORD_VALIDATIONS,
   ...CORE_PDF_VALIDATIONS,
   ...ADDITIONAL_CATALOG_VALIDATIONS,
+  ...ADDITIONAL_LOCAL_CATALOG_VALIDATIONS,
 ];
 
 export function getInternationalKeywordValidation(locale: string, slug: string) {
