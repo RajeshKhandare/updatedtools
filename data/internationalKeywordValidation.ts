@@ -307,6 +307,23 @@ const ADDITIONAL_LOCAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidat
  */
 const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
+  // Additional localized text/developer terminology observed in current public catalogs
+  ...([
+    ['es','markdown-to-html-converter','Convertidor de Markdown a HTML',['Markdown a HTML'],'https://uselocaltools.com/es'],
+    ['es','html-entity-encoder','Codificador de entidades HTML',['entidades HTML'],'https://uselocaltools.com/es'],
+    ['es','url-component-encoder-decoder','Codificador y decodificador de URL',['codificador URL'],'https://uselocaltools.com/es'],
+    ['de','markdown-to-html-converter','Markdown zu HTML Konverter',['Markdown in HTML umwandeln'],'https://www.pageonaut.com/de/'],
+    ['de','html-entity-encoder','HTML Entity Encoder',['HTML-Entitäten kodieren'],'https://www.pageonaut.com/de/tools'],
+    ['de','url-component-encoder-decoder','URL kodieren und dekodieren',['URL Encoder Decoder'],'https://www.pageonaut.com/de/tools'],
+    ['fr','uuid-guid-v4-generator','Générateur UUID',['générateur UUID en ligne'],'https://experttoolskit.com/fr/'],
+    ['fr','strong-password-generator','Générateur de mots de passe',['générateur de mot de passe'],'https://experttoolskit.com/fr/'],
+    ['fr','url-component-encoder-decoder','Encodeur/décodeur URL',['encodeur URL'],'https://experttoolskit.com/fr/'],
+    ['it','uuid-guid-v4-generator','Generatore UUID',['generatore UUID online'],'https://uselocaltools.com/it'],
+    ['it','strong-password-generator','Generatore di password',['generatore password sicure'],'https://uselocaltools.com/it'],
+    ['it','url-component-encoder-decoder','Codificatore e decodificatore URL',['codificatore URL'],'https://uselocaltools.com/it'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current localized public tool catalog; validates wording/intent only, not search volume or ranking.'})),
+
+
   // Additional localized developer/image terminology observed in current public catalogs
   ...([
     ['es','svg-to-png-converter','Convertidor SVG a PNG',['SVG a PNG'],'https://uselocaltools.com/es'],
