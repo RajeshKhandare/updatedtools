@@ -176,6 +176,22 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['pt-BR','split-pdf','Dividir PDF',['separar PDF'],'https://makeitpdf.com/pt/'],
+    ['pt-BR','pdf-to-jpg','PDF para JPG',['converter PDF para JPG'],'https://makeitpdf.com/pt/'],
+    ['pt-BR','jpg-to-pdf','JPG para PDF',['converter JPG para PDF'],'https://makeitpdf.com/pt/'],
+    ['es','split-pdf','Dividir PDF',['separar PDF'],'https://makeitpdf.com/es/'],
+    ['es','pdf-to-jpg','PDF a JPG',['convertir PDF a JPG'],'https://makeitpdf.com/es/'],
+    ['es','jpg-to-pdf','JPG a PDF',['convertir JPG a PDF'],'https://makeitpdf.com/es/'],
+    ['de','split-pdf','PDF teilen',['PDF aufteilen'],'https://makeitpdf.com/de/'],
+    ['de','pdf-to-jpg','PDF in JPG',['PDF in Bild umwandeln'],'https://makeitpdf.com/de/'],
+    ['de','jpg-to-pdf','JPG in PDF',['JPG in PDF umwandeln'],'https://makeitpdf.com/de/'],
+    ['fr','split-pdf','Diviser PDF',['séparer un PDF'],'https://makeitpdf.com/fr/'],
+    ['fr','pdf-to-jpg','PDF en JPG',['convertir PDF en JPG'],'https://makeitpdf.com/fr/'],
+    ['fr','jpg-to-pdf','JPG en PDF',['convertir JPG en PDF'],'https://makeitpdf.com/fr/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Observed localized PDF terminology on a language-specific public PDF tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['ar','word-character-counter','عداد الكلمات',['عداد الأحرف'],'https://uselocaltools.com/ar'],
     ['ar','find-replace-text','البحث والاستبدال',['البحث والاستبدال في النص'],'https://uselocaltools.com/ar'],
     ['ar','remove-html-tags','إزالة علامات HTML',['حذف علامات HTML'],'https://uselocaltools.com/ar'],
