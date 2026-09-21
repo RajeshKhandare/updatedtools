@@ -176,6 +176,22 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['zh-CN','split-pdf','拆分PDF',['PDF分割'],'https://uselocaltools.com/zh'],
+    ['zh-CN','pdf-to-jpg','PDF转JPG',['PDF转图片'],'https://uselocaltools.com/zh'],
+    ['zh-CN','jpg-to-pdf','JPG转PDF',['图片转PDF'],'https://uselocaltools.com/zh'],
+    ['ru','split-pdf','Разделить PDF',['разделение PDF'],'https://uselocaltools.com/ru'],
+    ['ru','pdf-to-jpg','PDF в JPG',['PDF в изображение'],'https://uselocaltools.com/ru'],
+    ['ru','jpg-to-pdf','JPG в PDF',['изображение в PDF'],'https://uselocaltools.com/ru'],
+    ['ar','split-pdf','تقسيم PDF',['تجزئة ملف PDF'],'https://uselocaltools.com/ar'],
+    ['ar','pdf-to-jpg','تحويل PDF إلى JPG',['تحويل PDF إلى صورة'],'https://uselocaltools.com/ar'],
+    ['ar','jpg-to-pdf','تحويل JPG إلى PDF',['تحويل الصورة إلى PDF'],'https://uselocaltools.com/ar'],
+    ['hi','split-pdf','PDF विभाजित करें',['PDF को अलग करें'],'https://uselocaltools.com/hi'],
+    ['hi','pdf-to-jpg','PDF से JPG कनवर्टर',['PDF को इमेज में बदलें'],'https://uselocaltools.com/hi'],
+    ['hi','jpg-to-pdf','JPG से PDF कनवर्टर',['इमेज को PDF में बदलें'],'https://uselocaltools.com/hi'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized PDF terminology candidate from a public multilingual tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['it','split-pdf','Dividi PDF',['separare PDF'],'https://makeitpdf.com/it/'],
     ['it','pdf-to-jpg','PDF in JPG',['convertire PDF in JPG'],'https://makeitpdf.com/it/'],
     ['it','jpg-to-pdf','JPG in PDF',['convertire JPG in PDF'],'https://makeitpdf.com/it/'],
