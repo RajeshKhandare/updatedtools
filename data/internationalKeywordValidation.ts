@@ -176,6 +176,32 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['es','compress-image','Comprimir imágenes online',['compresor de imágenes'],'https://uselocaltools.com/es'],
+    ['es','crop-image-online','Recortar imagen online',['recortar imágenes'],'https://uselocaltools.com/es'],
+    ['es','flip-rotate-image','Girar y voltear imagen',['rotar imagen'],'https://www.funnytools.win/es/herramientas/'],
+    ['es','black-and-white-image-filter','Convertir imagen a blanco y negro',['imagen blanco y negro'],'https://www.funnytools.win/es/herramientas/'],
+    ['es','invert-image-colors','Invertir colores de imagen',['invertir colores'],'https://www.funnytools.win/es/herramientas/'],
+    ['es','image-color-palette-extractor','Extractor de paleta de colores',['paleta de colores de imagen'],'https://uselocaltools.com/es'],
+    ['es','webp-to-jpg-converter','Convertidor WebP a JPG',['WebP a JPG'],'https://funnytools.win/es/herramientas/'],
+    ['es','svg-to-png-converter','Convertidor SVG a PNG',['SVG a PNG'],'https://uselocaltools.com/es'],
+    ['es','jpg-to-png-converter','Convertidor JPG a PNG',['JPG a PNG'],'https://funnytools.win/es/herramientas/'],
+    ['fr','crop-image-online','Recadrer une image en ligne',['recadrage image'],'https://experttoolskit.com/fr/'],
+    ['fr','flip-rotate-image','Faire pivoter et retourner une image',['rotation image'],'https://experttoolskit.com/fr/'],
+    ['fr','black-and-white-image-filter','Convertisseur noir et blanc',['image en noir et blanc'],'https://experttoolskit.com/fr/'],
+    ['fr','invert-image-colors','Inverser les couleurs d’une image',['inversion des couleurs'],'https://experttoolskit.com/fr/'],
+    ['fr','image-color-palette-extractor','Extracteur de palette de couleurs',['palette de couleurs image'],'https://experttoolskit.com/fr/'],
+    ['fr','webp-to-jpg-converter','Convertisseur WebP en JPG',['WebP vers JPG'],'https://experttoolskit.com/fr/'],
+    ['fr','jpg-to-png-converter','Convertisseur JPG en PNG',['JPG vers PNG'],'https://experttoolskit.com/fr/'],
+    ['de','crop-image-online','Bild online zuschneiden',['Bild zuschneiden'],'https://www.pageonaut.com/de/'],
+    ['de','flip-rotate-image','Bild drehen und spiegeln',['Bild drehen'],'https://www.pageonaut.com/de/'],
+    ['de','black-and-white-image-filter','Bild in Schwarzweiß umwandeln',['Schwarzweiß Bild'],'https://www.pageonaut.com/de/'],
+    ['de','invert-image-colors','Bildfarben invertieren',['Farben invertieren'],'https://www.pageonaut.com/de/'],
+    ['de','webp-to-jpg-converter','WebP in JPG umwandeln',['WebP JPG Konverter'],'https://www.pageonaut.com/de/'],
+    ['de','jpg-to-png-converter','JPG in PNG umwandeln',['JPG PNG Konverter'],'https://www.pageonaut.com/de/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Image-tool terminology observed in current localized public catalogs; wording/intent evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['de','remove-html-tags','HTML-Tags entfernen',['HTML Tags entfernen'],'https://www.pageonaut.com/de/'],
     ['de','find-replace-text','Suchen und Ersetzen',['Text suchen und ersetzen'],'https://www.pageonaut.com/de/'],
     ['de','reverse-text-mirror-tool','Text umkehren',['Text rückwärts'],'https://www.pageonaut.com/de/'],
