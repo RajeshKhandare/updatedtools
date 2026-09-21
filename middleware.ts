@@ -1,3 +1,4 @@
+// Deployment retry probe: keep locale routing unchanged.
 import { NextRequest, NextResponse } from 'next/server';
 
 const LOCALE_COOKIE = 'toolployee-locale';
