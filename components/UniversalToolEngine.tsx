@@ -22,7 +22,7 @@ function n(v:string,f=0){
 function fmt(v:number){
   return Number.isFinite(v)
     ? new Intl.NumberFormat('en-US',{maximumFractionDigits:8}).format(v)
-    : 'Invalid result';
+    : ui.universal.invalidResult;
 }
 
 function b64e(s:string){
@@ -230,9 +230,9 @@ function Temperature(){
           value={from}
           onChange={e=>setFrom(e.target.value)}
         >
-          <option value="C">Celsius</option>
-          <option value="F">Fahrenheit</option>
-          <option value="K">Kelvin</option>
+          <option value="C">{ui.universal.celsius}</option>
+          <option value="F">{ui.universal.fahrenheit}</option>
+          <option value="K">{ui.universal.kelvin}</option>
         </select>
 
         <select
@@ -240,9 +240,9 @@ function Temperature(){
           value={to}
           onChange={e=>setTo(e.target.value)}
         >
-          <option value="C">Celsius</option>
-          <option value="F">Fahrenheit</option>
-          <option value="K">Kelvin</option>
+          <option value="C">{ui.universal.celsius}</option>
+          <option value="F">{ui.universal.fahrenheit}</option>
+          <option value="K">{ui.universal.kelvin}</option>
         </select>
       </div>
 
@@ -303,7 +303,7 @@ function DeveloperText({tool, locale='en'}:{tool:ToolMeta; locale?: LocaleCode})
           const ms=Date.parse(x);
 
           if(!Number.isFinite(ms)){
-            throw new Error('Enter a Unix timestamp or valid date.');
+            throw new Error(ui.universal.timestampError);
           }
 
           out=String(Math.floor(ms/1000));
@@ -314,7 +314,7 @@ function DeveloperText({tool, locale='en'}:{tool:ToolMeta; locale?: LocaleCode})
         if(h.length===3)h=h.split('').map(c=>c+c).join('');
 
         if(!/^[0-9a-f]{6}$/i.test(h)){
-          throw new Error('Use a 6-digit hex color.');
+          throw new Error(ui.universal.hexError);
         }
 
         const r=parseInt(h.slice(0,2),16);
@@ -355,7 +355,7 @@ HSL: hsl(${H.toFixed(1)}, ${(S*100).toFixed(1)}%, ${(l*100).toFixed(1)}%)`;
         const p=value.trim().split('.');
 
         if(p.length<2){
-          throw new Error('Enter a JWT with at least header and payload segments.');
+          throw new Error(ui.universal.jwtError);
         }
 
         out=`Header:
@@ -492,19 +492,19 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
 
       }else if(slug==='find-replace-text'){
         if(!second){
-          throw new Error('Enter text to find.');
+          throw new Error(ui.universal.findError);
         }
 
         out=value.split(second).join(replacement);
 
       }else{
-        throw new Error('Tool is not configured.');
+        throw new Error(ui.universal.notConfigured);
       }
 
       setResult(out);
 
     }catch(e){
-      setResult(`Error: ${e instanceof Error?e.message:'Invalid input'}`);
+      setResult(`${ui.universal.invalidInput}: ${e instanceof Error?e.message:ui.universal.invalidInput}`);
     }
   };
 
@@ -514,7 +514,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
       setCopied(true);
       setTimeout(()=>setCopied(false),1500);
     }catch{
-      setResult('Clipboard access was blocked by the browser.');
+      setResult(ui.universal.clipboardError);
     }
   };
 
@@ -536,14 +536,14 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
             className={mode==='encode'?button:secondary}
             onClick={()=>setMode('encode')}
           >
-            {slug==='reverse-text-mirror-tool'?'Reverse characters':'Encode'}
+            {slug==='reverse-text-mirror-tool'?ui.universal.reverseCharacters:ui.universal.encode}
           </button>
 
           <button
             className={mode==='decode'?button:secondary}
             onClick={()=>setMode('decode')}
           >
-            {slug==='reverse-text-mirror-tool'?'Reverse words':'Decode'}
+            {slug==='reverse-text-mirror-tool'?ui.universal.reverseWords:ui.universal.decode}
           </button>
         </div>
       )}
@@ -656,7 +656,7 @@ function evaluateScientificExpression(expression:string){
   const x=expression.trim();
 
   if(!/^[0-9+\-*/().\s^a-z]+$/i.test(x)){
-    throw new Error('Unsupported characters.');
+    throw new Error(ui.universal.unsupportedCharacters);
   }
 
   const norm=x
@@ -671,13 +671,13 @@ function evaluateScientificExpression(expression:string){
     .replace(/\bln\(([^()]*)\)/gi,(_,v)=>String(Math.log(Number(v))));
 
   if(!/^[0-9+\-*/().]+$/.test(norm)){
-    throw new Error('Use arithmetic with sqrt, sin, cos, tan, log, ln and pi.');
+    throw new Error(ui.universal.expressionHelp);
   }
 
   const tokens=norm.match(/\d+(?:\.\d+)?|\*\*|[+\-*/()]/g);
 
   if(!tokens||tokens.join('')!==norm){
-    throw new Error('Invalid expression.');
+    throw new Error(ui.universal.invalidExpression);
   }
 
   const vals:number[]=[];
@@ -694,10 +694,10 @@ function evaluateScientificExpression(expression:string){
 
   const apply=()=>{
     const o=ops.pop();
-    if(!o) throw new Error('Invalid expression.');
+    if(!o) throw new Error(ui.universal.invalidExpression);
     const y=vals.pop();
     const z=vals.pop();
-    if(y===undefined||z===undefined) throw new Error('Invalid expression.');
+    if(y===undefined||z===undefined) throw new Error(ui.universal.invalidExpression);
     vals.push(o==='+'?z+y:o==='-'?z-y:o==='*'?z*y:o==='/'?z/y:z**y);
   };
 
@@ -712,7 +712,7 @@ function evaluateScientificExpression(expression:string){
       expect=true;
     }else if(t===')'){
       while(ops.length&&ops.at(-1)!=='(') apply();
-      if(ops.pop()!=='(') throw new Error('Mismatched parentheses.');
+      if(ops.pop()!=='(') throw new Error(ui.universal.mismatchedParentheses);
       expect=false;
     }else if((t==='+'||t==='-')&&expect){
       vals.push(0);
@@ -726,7 +726,7 @@ function evaluateScientificExpression(expression:string){
 
   while(ops.length) apply();
 
-  if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error('Invalid expression.');
+  if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error(ui.universal.invalidExpression);
   return fmt(vals[0]);
 }
 function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;locale?:LocaleCode}){
@@ -743,7 +743,7 @@ function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;loc
     try{
       setScientificResult(evaluateScientificExpression(expr));
     }catch(e){
-      setScientificResult(`Error: ${e instanceof Error?e.message:'Invalid input'}`);
+      setScientificResult(`${ui.universal.invalidInput}: ${e instanceof Error?e.message:ui.universal.invalidInput}`);
     }
   };
 
@@ -756,7 +756,7 @@ function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;loc
       const years=n(c);
 
       if(monthly<0||annualRate<=-100||years<=0){
-        throw new Error('Enter a positive monthly SIP, a return rate above -100%, and a tenure greater than 0 years.');
+        throw new Error(ui.universal.positiveSip);
       }
 
       const monthlyRate=annualRate/12/100;
@@ -808,7 +808,7 @@ Difference: ${fmt(y-x)}`;
       const now=new Date();
 
       if(!Number.isFinite(dob.getTime())||dob>now){
-        throw new Error('Choose a valid past date.');
+        throw new Error(ui.universal.pastDate);
       }
 
       let years=now.getFullYear()-dob.getFullYear();
@@ -829,7 +829,7 @@ Approximate days: ${Math.floor((now.getTime()-dob.getTime())/86400000).toLocaleS
       const cm=n(b);
 
       if(kg<=0||cm<=0){
-        throw new Error('Enter positive weight and height.');
+        throw new Error(ui.universal.positiveWeight);
       }
 
       const bmi=kg/(cm/100)**2;
@@ -868,7 +868,7 @@ Per person: ${fmt(total/people)}`;
     }
 
   }catch(e){
-    out=`Error: ${e instanceof Error?e.message:'Invalid input'}`;
+    out=`${ui.universal.invalidInput}: ${e instanceof Error?e.message:ui.universal.invalidInput}`;
   }
 
   return (
@@ -899,7 +899,7 @@ Per person: ${fmt(total/people)}`;
                 className={input}
                 value={expr}
                 onChange={e=>setExpr(e.target.value)}
-                placeholder="Example: sqrt(25) + 2^3"
+                placeholder={ui.universal.dateExample}
               />
               <button
                 className={button+' mt-3'}
@@ -914,18 +914,18 @@ Per person: ${fmt(total/people)}`;
               <div>
                 <label className="mb-2 block text-xs font-medium text-zinc-500">
                   {slug==='sip-wealth-calculator'
-                    ? 'Monthly SIP Investment'
+                    ? '{ui.universal.monthlyInvestment}'
                     : slug==='bmi-calculator'
                       ? `${ui.enterValues} — kg`
                       : slug==='compound-interest-calculator'
-                        ? 'Principal Amount'
+                        ? '{ui.universal.principalAmount}'
                         : slug==='simple-interest-calculator'
-                          ? 'Principal Amount'
+                          ? '{ui.universal.principalAmount}'
                           : slug==='percentage-calculator'
                             ? 'Value'
                             : slug==='discount-calculator'
                               ? ui.enterValues
-                              : 'Bill Amount'}
+                              : '{ui.universal.billAmount}'}
                 </label>
                 <input
                   className={input}
@@ -939,15 +939,15 @@ Per person: ${fmt(total/people)}`;
               <div>
                 <label className="mb-2 block text-xs font-medium text-zinc-500">
                   {slug==='sip-wealth-calculator'
-                    ? 'Expected Annual Return (%)'
+                    ? '{ui.universal.expectedReturn}'
                     : slug==='bmi-calculator'
                       ? `${ui.enterValues} — cm`
                       : slug==='percentage-calculator'
-                        ? 'Total / Reference Value'
+                        ? '{ui.universal.totalReference}'
                         : slug==='tip-calculator'
                           ? ui.enterValues
                           : slug==='discount-calculator'
-                            ? 'Discount (%)'
+                            ? '{ui.universal.discount}'
                             : ui.enterValues}
                 </label>
                 <input
@@ -970,12 +970,12 @@ Per person: ${fmt(total/people)}`;
                   <div>
                     <label className="mb-2 block text-xs font-medium text-zinc-500">
                       {slug==='sip-wealth-calculator'
-                        ? 'Investment Period (Years)'
+                        ? '{ui.universal.investmentPeriod}'
                         : slug==='tip-calculator'
-                          ? 'Number of People'
+                          ? '{ui.universal.people}'
                           : slug==='discount-calculator'
-                            ? 'Tax (%)'
-                            : 'Time Period (Years)'}
+                            ? '{ui.universal.tax}'
+                            : '{ui.universal.timePeriod}'}
                     </label>
                     <input
                       className={input}
@@ -1052,13 +1052,13 @@ function YouTube({slug,locale='en'}:{slug:string;locale?:LocaleCode}){
       setResult(Array.from(new Set(tags.filter((tag)=>tag.length>1))).slice(0,30).join(', '));
       return;
     }
-    setResult('Enter a topic or keyword.');
+    setResult('{ui.universal.youtubeTopic}');
   };
 
   return (
     <div className={plainCard}>
       <h3 className="text-lg font-bold">
-        'YouTube Tag Generator'
+        '{ui.universal.youtubeTag}'
       </h3>
 
       <input
@@ -1117,7 +1117,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
                 className={input}
                 type="number"
                 defaultValue="100000"
-                aria-label="Monthly views"
+                aria-label="{ui.universal.monthlyViews}"
               />
             </label>
 
@@ -1130,7 +1130,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
                 className={input}
                 type="number"
                 defaultValue="2"
-                aria-label="RPM in USD"
+                aria-label="{ui.universal.rpmUsdLabel}"
               />
             </label>
           </div>
@@ -1147,7 +1147,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
               );
 
               setRevenue(
-                `Estimated revenue: ${(v*r/1000).toFixed(2)}`
+                `${ui.universal.estimatedRevenue}: ${(v*r/1000).toFixed(2)}`
               );
             }}
           >
@@ -1216,7 +1216,7 @@ function Thumbnail({locale='en'}:{locale?:LocaleCode}){
 
       setTimeout(()=>URL.revokeObjectURL(blobUrl),1000);
     }catch(e){
-      setMessage(e instanceof Error?e.message:'Thumbnail download failed.');
+      setMessage(e instanceof Error?e.message:'{ui.universal.thumbnailFailed}');
     }finally{
       setDownloading(false);
     }
