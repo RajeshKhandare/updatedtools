@@ -3,6 +3,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import FileDropzone from '../FileDropzone';
 import QRCode from 'qrcode';
+import type { LocaleCode } from '@/data/internationalSeo';
+import { getEngineUi } from '@/data/engineLocalization';
 
 const card =
   'w-full max-w-5xl mx-auto rounded-3xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8 space-y-5';
@@ -20,10 +22,13 @@ function download(url: string, name: string) {
 export default function ImageEngine({
   toolSlug,
   toolName,
+  locale = 'en',
 }: {
   toolSlug: string;
   toolName: string;
+  locale?: LocaleCode;
 }) {
+  const ui = getEngineUi(locale);
   const [file, setFile] = useState<File | null>(null);
   const [src, setSrc] = useState('');
   const [quality, setQuality] = useState(85);
@@ -358,7 +363,7 @@ export default function ImageEngine({
           className={input}
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Text or URL"
+          placeholder={locale === "en" ? "Text or URL" : locale === "pt" ? "Texto ou URL" : locale === "es" ? "Texto o URL" : locale === "de" ? "Text oder URL" : locale === "fr" ? "Texte ou URL" : locale === "it" ? "Testo o URL" : locale === "ja" ? "テキストまたはURL" : locale === "ko" ? "텍스트 또는 URL" : locale === "zh" ? "文本或 URL" : locale === "ru" ? "Текст или URL" : locale === "ar" ? "نص أو رابط" : "टेक्स्ट या URL"}
         />
 
         {message && (
@@ -404,8 +409,8 @@ export default function ImageEngine({
 
       <FileDropzone
         accept={accept}
-        label="Choose or Drop Image Files"
-        subtitle="Direct device processing • Images stay on your device"
+        label={ui.chooseImage}
+        subtitle={ui.fileSubtitle}
         onFiles={(selected) => setFile(selected[0] || null)}
       />
 
