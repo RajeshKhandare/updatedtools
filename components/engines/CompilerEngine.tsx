@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { Play, RotateCcw, Copy, Check, Terminal, Code2, Loader2 } from 'lucide-react';
+import type { LocaleCode } from '@/data/internationalSeo';
+import { getEngineUi } from '@/data/engineLocalization';
 
 const DEFAULT_CODES: Record<string, string> = {
   python: `def fibonacci(n):
@@ -226,14 +228,14 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
         <div className="flex items-center gap-2">
           <button onClick={copyCode} className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-xs font-semibold transition">
             {copied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
-            <span>{copied ? 'Copied' : 'Copy'}</span>
+            <span>{copied ? ui.copied : ui.copy}</span>
           </button>
-          <button onClick={() => { setCode(DEFAULT_CODES[langKey]); setPreview(false); setOutput('Runtime ready. Click "Run Code" to execute.'); }} className="p-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 transition" title="Reset code">
+          <button onClick={() => { setCode(DEFAULT_CODES[langKey]); setPreview(false); setOutput('Runtime ready. Click "Run Code" to execute.'); }} className="p-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 transition" title={ui.reset}>
             <RotateCcw className="h-3.5 w-3.5" />
           </button>
           <button onClick={runCode} disabled={isRunning} className="flex items-center gap-1.5 px-5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition disabled:opacity-50">
             {isRunning ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Play className="h-3.5 w-3.5 fill-white" />}
-            <span>{langKey === 'html' ? 'Preview' : 'Run Code'}</span>
+            <span>{langKey === 'html' ? ui.preview : ui.runCode}</span>
           </button>
         </div>
       </div>
@@ -282,7 +284,7 @@ export default function CompilerEngine({ toolSlug, toolName }: { toolSlug: strin
           <div className="rounded-2xl border border-zinc-800 bg-black p-4 font-mono text-xs shadow-inner flex flex-col min-h-[420px]">
             <div className="flex items-center gap-2 pb-2 border-b border-zinc-800 mb-2">
               <Terminal className="h-3.5 w-3.5 text-zinc-500" />
-              <span className="text-[11px] font-bold text-zinc-500 uppercase tracking-widest">Console Output</span>
+              <span className="text-[11px] font-bold text-zinc-500 uppercase tracking-widest">{locale === 'en' ? 'Console Output' : locale === 'pt' ? 'Saída do console' : locale === 'es' ? 'Salida de consola' : locale === 'de' ? 'Konsolenausgabe' : locale === 'fr' ? 'Sortie de la console' : locale === 'it' ? 'Output della console' : locale === 'ja' ? 'コンソール出力' : locale === 'ko' ? '콘솔 출력' : locale === 'zh' ? '控制台输出' : locale === 'ru' ? 'Вывод консоли' : locale === 'ar' ? 'مخرجات وحدة التحكم' : 'कंसोल आउटपुट'}</span>
             </div>
             <pre className="flex-1 text-emerald-400 whitespace-pre-wrap overflow-auto leading-relaxed">{output}</pre>
           </div>
