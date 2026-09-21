@@ -176,6 +176,24 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['fr','remove-html-tags','Supprimer les balises HTML',['retirer les balises HTML'],'https://experttoolskit.com/fr/'],
+    ['fr','find-replace-text','Rechercher et remplacer',['rechercher remplacer texte'],'https://toolsmio.com/fr/'],
+    ['fr','reverse-text-mirror-tool','Inverser le texte',['texte à l’envers'],'https://toolsmio.com/fr/'],
+    ['fr','alphabetical-line-sorter','Trier par ordre alphabétique',['trier des lignes'],'https://toolsmio.com/fr/'],
+    ['fr','clean-url-slug-generator','Générateur de slug URL',['générateur de slug'],'https://toolsmio.com/fr/'],
+    ['fr','unix-timestamp-converter','Convertisseur de timestamp Unix',['timestamp Unix'],'https://experttoolskit.com/fr/'],
+    ['fr','base64-encoder-decoder','Encodeur et décodeur Base64',['convertisseur Base64'],'https://experttoolskit.com/fr/'],
+    ['fr','uuid-guid-v4-generator','Générateur UUID',['générateur UUID en ligne'],'https://experttoolskit.com/fr/'],
+    ['fr','strong-password-generator','Générateur de mots de passe',['générateur de mot de passe sécurisé'],'https://experttoolskit.com/fr/'],
+    ['fr','instant-qr-code-generator','Générateur de QR code',['créateur de QR code'],'https://experttoolskit.com/fr/'],
+    ['fr','image-resizer','Redimensionneur d’image',['redimensionner une image'],'https://experttoolskit.com/fr/'],
+    ['fr','compress-image','Compresser une image',['compression d’image'],'https://experttoolskit.com/fr/'],
+    ['fr','webp-to-png-converter','Convertisseur WebP en PNG',['WebP vers PNG'],'https://experttoolskit.com/fr/'],
+    ['fr','png-to-jpg-converter','Convertisseur PNG en JPG',['PNG vers JPG'],'https://experttoolskit.com/fr/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in current French localized public tool catalogs; wording/intent evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['ja','remove-html-tags','HTMLタグ削除',['HTMLタグを削除'],'https://uselocaltools.com/ja'],
     ['ja','find-replace-text','検索と置換',['文字列の検索と置換'],'https://uselocaltools.com/ja'],
     ['ja','reverse-text-mirror-tool','テキスト反転',['文字列を反転'],'https://uselocaltools.com/ja'],
