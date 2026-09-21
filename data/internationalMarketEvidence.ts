@@ -22,7 +22,7 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
     locale: 'es',
     market: 'Spanish-speaking markets',
     sourceUrls: ['https://andev.app/es/', 'https://toolanchor.com/es', 'https://uselocaltools.com/es', 'https://makeitpdf.com/es/'],
-    observedTerms: ['Unir PDF', 'Comprimir imagen', 'Contador de palabras', 'Generador de códigos QR', 'Formateador de JSON', 'Dividir PDF', 'Comprimir PDF', 'PDF a Word', 'PDF a JPG', 'JPG a PDF', 'Proteger PDF', 'Desbloquear PDF', 'Rotar PDF', 'Añadir números de página'],
+    observedTerms: ['Unir PDF', 'Comprimir imagen', 'Contador de palabras', 'Generador de códigos QR', 'Formateador de JSON', 'Dividir PDF', 'Comprimir PDF', 'PDF a Word', 'PDF a JPG', 'JPG a PDF', 'Proteger PDF', 'Desbloquear PDF', 'Rotar PDF', 'Añadir números de página', 'Formateador JSON online', 'Codificador y decodificador Base64', 'Generador de UUID', 'Generador de contraseñas', 'Decodificador JWT', 'Comparador de textos', 'Convertidor de mayúsculas y minúsculas', 'Convertidor timestamp Unix', 'Calculadora de porcentajes', 'Conversor de unidades', 'Comprimir imagen', 'Unir PDF', 'Invertir texto', 'Eliminar líneas duplicadas', 'Ordenar líneas de texto'],
     notes: 'Spanish catalogs use task-oriented local wording; country-specific Spanish should still be validated before regional expansion.',
   },
   {
@@ -36,7 +36,7 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
     locale: 'fr',
     market: 'France / Francophone markets',
     sourceUrls: ['https://experttoolskit.com/fr/', 'https://www.llamapdf.com/fr', 'https://outily.fr/', 'https://makeitpdf.com/fr/'],
-    observedTerms: ['Compteur de mots', 'Compresser une image', 'Fusionner des PDF', 'Formater du JSON', 'Calcul de l’IMC', 'Fusionner PDF', 'Diviser PDF', 'Compresser PDF', 'PDF en Word', 'PDF en JPG', 'JPG en PDF', 'Protéger PDF', 'Déverrouiller PDF', 'Rotation PDF', 'Numéros de pages'],
+    observedTerms: ['Compteur de mots', 'Compresser une image', 'Fusionner des PDF', 'Formater du JSON', 'Calcul de l’IMC', 'Fusionner PDF', 'Diviser PDF', 'Compresser PDF', 'PDF en Word', 'PDF en JPG', 'JPG en PDF', 'Protéger PDF', 'Déverrouiller PDF', 'Rotation PDF', 'Numéros de pages', 'Formatage JSON', 'Encodage Base64', 'Convertisseur de casse', 'Comptage de mots', 'Compresser Image', 'Redimensionner une image', 'Rogner une image', 'Comparaison de textes', 'Calculatrice âge', 'Calculatrice de pourcentage', 'Générateur de mots de passe', 'Générateur d’UUID', 'Décodeur JWT'],
     notes: 'French catalogs consistently use task-oriented noun/verb phrases; France-specific wording should be retained for the first rollout.',
   },
   {
@@ -71,7 +71,7 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
     locale: 'ru',
     market: 'Russian-speaking markets',
     sourceUrls: ['https://textwonder.com/ru/', 'https://usetoolz.ru/', 'https://www.ilovepdf.com/ru'],
-    observedTerms: ['Счётчик слов', 'Объединить PDF', 'Сжать изображение', 'Форматирование JSON', 'Калькулятор ИМТ', 'Калькулятор возраста', 'Разделить PDF', 'Сжать PDF', 'PDF в JPG', 'PDF в Word', 'Word в PDF', 'JPG в PDF', 'Удалить страницы', 'Повернуть PDF', 'Добавить номера страниц', 'Изменить размер изображения'],
+    observedTerms: ['Счётчик слов', 'Объединить PDF', 'Сжать изображение', 'Форматирование JSON', 'Калькулятор ИМТ', 'Калькулятор возраста', 'Разделить PDF', 'Сжать PDF', 'PDF в JPG', 'PDF в Word', 'Word в PDF', 'JPG в PDF', 'Удалить страницы', 'Повернуть PDF', 'Добавить номера страниц', 'Изменить размер изображения', 'Нижний регистр', 'Счётчик символов', 'Сравнить два текста', 'Форматирование JSON', 'Генератор паролей', 'Конвертировать изображение', 'Калькулятор процентов'],
     notes: 'Russian catalogs use native Cyrillic task phrases while technical formats such as JSON and PDF remain unchanged.',
   },
   {
@@ -85,7 +85,7 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
     locale: 'hi',
     market: 'India',
     sourceUrls: ['https://fastols.com/hi/', 'https://www.ilovepdf.com/hi'],
-    observedTerms: ['PDF फ़ाइलें मर्ज करें', 'PDF कंप्रेस करें', 'इमेज कंप्रेस करें', 'इमेज का आकार बदलें', 'JSON फ़ॉर्मेटर', 'वर्ड काउंटर', 'BMI कैलकुलेटर', 'PDF मर्ज करें', 'PDF विभाजित करें', 'PDF से JPG', 'PDF से Word', 'Word से PDF', 'JPG से PDF', 'PDF को सुरक्षित करें', 'PDF अनलॉक करें', 'PDF घुमाएँ', 'QR कोड जनरेटर'],
+    observedTerms: ['PDF फ़ाइलें मर्ज करें', 'PDF कंप्रेस करें', 'इमेज कंप्रेस करें', 'इमेज का आकार बदलें', 'JSON फ़ॉर्मेटर', 'वर्ड काउंटर', 'BMI कैलकुलेटर', 'PDF मर्ज करें', 'PDF विभाजित करें', 'PDF से JPG', 'PDF से Word', 'Word से PDF', 'JPG से PDF', 'PDF को सुरक्षित करें', 'PDF अनलॉक करें', 'PDF घुमाएँ', 'QR कोड जनरेटर', 'JSON फ़ॉर्मेटर', 'Base64 एनकोडर', 'UUID जनरेटर', 'पासवर्ड जनरेटर', 'JWT डिकोडर', 'डिफ चेकर', 'केस कन्वर्टर', 'लोन कैलकुलेटर', 'प्रतिशत कैलकुलेटर', 'आयु कैलकुलेटर', 'वर्ड काउंटर', 'इमेज क्रॉप करें', 'इमेज फ़ॉर्मेट बदलें', 'इमेज ब्लर करें', 'इमेज फ्लिप करें'],
     notes: 'Hindi tool catalogs frequently mix Hindi grammar with English technical terms; Hinglish and English-token variants should be retained in query candidates.',
   },
 ];
