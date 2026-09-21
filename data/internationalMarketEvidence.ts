@@ -57,14 +57,14 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
     locale: 'ko',
     market: 'South Korea',
     sourceUrls: ['https://www.oneclicktool.kr/', 'https://veryeasypdf.com/ko', 'https://dikr.co.kr/tools/'],
-    observedTerms: ['이미지 용량 줄이기', 'PDF 합치기', '글자 수 세기', '이미지 크기 조절', 'JSON 포맷터', 'QR 코드 생성기', 'PDF 분할', 'PDF 압축', 'PDF 이미지 변환', 'PDF Word 변환', 'Base64 인코더/디코더', 'URL 인코더/디코더', 'UUID 생성기', '비밀번호 생성기', 'JWT 디코더', '단어 수 세기', '텍스트 비교', '대소문자 변환', '이미지 압축', '백분율 계산기', '나이 계산기', 'BMI 계산기'],
+    observedTerms: ['이미지 용량 줄이기', 'PDF 합치기', 'PDF 병합', '글자 수 세기', '단어 수 세기', '이미지 크기 조절', 'JSON 포맷터', 'JSON 검증', 'QR 코드 생성기', 'PDF 분할', 'PDF 압축', 'PDF 이미지 변환', 'PDF Word 변환', '이미지 PDF 변환', 'Base64 인코더/디코더', 'URL 인코더/디코더', 'UUID 생성기', '비밀번호 생성기', 'JWT 디코더', '텍스트 비교', '대소문자 변환', '이미지 압축', '백분율 계산기', '나이 계산기', 'BMI 계산기'],
     notes: 'Korean catalogs show native task phrases alongside English technical labels such as JSON; both forms should be considered.',
   },
   {
     locale: 'zh-CN',
     market: 'Simplified Chinese',
-    sourceUrls: ['https://www.ilovepdf.com/zh-cn', 'https://www.ilovepdf.com/zh-cn/help/documentation', 'https://www.zhandu.cn/', 'https://nbtools.cn/', 'https://xiaobinguo.cn/'],
-    observedTerms: ['合并PDF', '拆分PDF', '压缩PDF', 'PDF转JPG', '图片转换至PDF文件', '添加页码', 'PDF转Word', 'Word转PDF', 'JPG转PDF', 'PDF页面排序', '删除PDF页面', 'PDF旋转', '压缩图片', '裁剪图片', '调整图片大小', 'JSON格式化', 'Base64编解码', 'UUID生成器', '随机密码生成器', 'JWT解码器', '字数统计', '百分比计算器', '年龄计算器', 'BMI计算器', '折扣计算器', '复利计算器', '单位转换器', '在线Python编译器', '在线JavaScript编辑器', '在线Java编译器', '在线C++编译器', '在线C#编译器', '在线PHP运行器', '在线SQL编辑器', 'YouTube缩略图下载器', 'YouTube标签生成器', 'YouTube收益计算器', '文本/代码对比', '大小写转换', '时间戳转换', '图片压缩', '二维码生成'],
+    sourceUrls: ['https://www.ilovepdf.com/zh-cn', 'https://www.ilovepdf.com/zh-cn/help/documentation', 'https://www.zhandu.cn/', 'https://www.zhandu.cn/tool/pdf-tools', 'https://nbtools.cn/', 'https://xiaobinguo.cn/'],
+    observedTerms: ['合并PDF', 'PDF合并', 'PDF拆分', '拆分PDF', '压缩PDF', 'PDF转JPG', 'PDF转图片', '图片转换至PDF文件', '图片转PDF', '添加页码', 'PDF转Word', 'Word转PDF', 'JPG转PDF', 'PDF页面排序', '删除PDF页面', 'PDF旋转', '压缩图片', '图片压缩', '裁剪图片', '调整图片大小', 'JSON格式化', 'JSON在线解析', 'Base64编码解码', 'Base64编解码', 'URL编码解码', 'Unix时间戳转换', 'UUID生成器', '随机密码生成器', 'JWT解析解码', 'JWT解码器', '字数统计', '文本对比', '文本替换', '大小写转换', '百分比计算器', '年龄计算器', 'BMI计算器', '折扣计算器', '复利计算器', '单位转换器', '在线Python编译器', '在线JavaScript编辑器', '在线Java编译器', '在线C++编译器', '在线C#编译器', '在线PHP运行器', '在线SQL编辑器', 'YouTube缩略图下载器', 'YouTube标签生成器', 'YouTube收益计算器', '二维码生成'],
     notes: 'Simplified Chinese PDF terminology is compact and task-oriented; PDF/format tokens remain in Latin script.',
   },
   {
