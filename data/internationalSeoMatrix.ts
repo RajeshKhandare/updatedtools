@@ -1,7 +1,7 @@
 import { TOOLS_REGISTRY } from './toolsRegistry';
 import { INTERNATIONAL_KEYWORD_SEEDS } from './internationalKeywordSeeds';
 import { getInternationalKeywordValidation } from './internationalKeywordValidation';
-import { getSearchQueryCandidates } from './internationalLocalization';
+import { getLongTailQueryCandidates, getSearchQueryCandidates } from './internationalLocalization';
 import { INTERNATIONAL_MARKET_EVIDENCE } from './internationalMarketEvidence';
 
 export type InternationalSeoResearchStatus =
@@ -26,6 +26,7 @@ export interface InternationalSeoOpportunity {
   serpNotes: string | null;
   sourceUrls: string[];
   queryCandidates: string[];
+  longTailQueryCandidates: string[];
   querySelectionStatus: 'needs-validation' | 'validated';
   marketEvidenceUrls: string[];
   marketResearchStatus: 'market-researched' | 'needs-market-research';
@@ -65,6 +66,7 @@ export const INTERNATIONAL_SEO_OPPORTUNITY_MATRIX: readonly InternationalSeoOppo
         serpNotes: validation?.notes ?? null,
         sourceUrls: validation?.sourceUrls ?? [],
         queryCandidates: getSearchQueryCandidates(tool, market.locale === 'pt-BR' ? 'pt' : market.locale === 'zh-CN' ? 'zh' : market.locale as 'en' | 'pt' | 'es' | 'de' | 'fr' | 'it' | 'ja' | 'ko' | 'zh' | 'ru' | 'ar' | 'hi'),
+        longTailQueryCandidates: getLongTailQueryCandidates(tool, market.locale === 'pt-BR' ? 'pt' : market.locale === 'zh-CN' ? 'zh' : market.locale as 'en' | 'pt' | 'es' | 'de' | 'fr' | 'it' | 'ja' | 'ko' | 'zh' | 'ru' | 'ar' | 'hi'),
         querySelectionStatus: validation ? 'validated' as const : 'needs-validation' as const,
         marketEvidenceUrls: marketEvidence?.sourceUrls ?? [],
         marketResearchStatus: marketEvidence ? 'market-researched' as const : 'needs-market-research' as const,
