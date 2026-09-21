@@ -20,11 +20,17 @@ function isLocalizedPath(pathname: string) {
   return /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/.test(pathname);
 }
 
+function isSearchCrawler(request: NextRequest) {
+  const userAgent = request.headers.get('user-agent')?.toLowerCase() || '';
+  return /googlebot|bingbot|yandexbot|baiduspider|duckduckbot|slurp|facebookexternalhit|twitterbot|linkedinbot|pinterestbot/.test(userAgent);
+}
+
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (isLocalizedPath(pathname)) return NextResponse.next();
   if (pathname !== '/' && !pathname.startsWith('/tools')) return NextResponse.next();
+  if (isSearchCrawler(request)) return NextResponse.next();
 
   const savedLocale = request.cookies.get(LOCALE_COOKIE)?.value;
   if (savedLocale === 'en') return NextResponse.next();
