@@ -1,5 +1,6 @@
 import { TOOLS_REGISTRY, type ToolMeta } from './toolsRegistry';
 import { LOCALES, type LocaleCode } from './internationalSeo';
+import { getInternationalKeywordValidation } from './internationalKeywordValidation';
 
 export interface LocalizationCoverageRow {
   locale: LocaleCode;
@@ -84,7 +85,15 @@ const NAME_PHRASES: Record<string, Partial<Record<LocaleCode, string>>> = {
 
 export function getLocalizedToolName(tool: ToolMeta, locale: LocaleCode): string {
   if (locale === 'en') return tool.name;
-  return NAME_PHRASES[tool.name]?.[locale] || tool.name;
+  const explicitName = NAME_PHRASES[tool.name]?.[locale];
+  if (explicitName) return explicitName;
+
+  // When an evidence-backed market keyword exists, use its native task
+  // wording as the localized display name. This expands localization
+  // coverage without treating unvalidated literal translations as SEO terms.
+  const localeCode = locale === 'pt' ? 'pt-BR' : locale === 'zh' ? 'zh-CN' : locale;
+  const evidence = getInternationalKeywordValidation(localeCode, tool.slug);
+  return evidence?.primaryKeyword || tool.name;
 }
 
 export const SEARCH_QUERY_MODIFIERS: Record<LocaleCode, string[]> = {
