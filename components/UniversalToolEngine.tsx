@@ -1104,7 +1104,7 @@ export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; 
       return (
         <div className={plainCard}>
           <h3 className="text-lg font-bold">
-            YouTube Money Calculator
+            {tool.name}
           </h3>
 
           <div className="grid sm:grid-cols-2 gap-4">
