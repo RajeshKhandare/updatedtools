@@ -30,11 +30,91 @@ export function getLocalizationCoverage(locale: LocaleCode, slug: string) {
 
 export type LocalizedUi = {
   toolLabel: string;
+  toolsLabel: string;
   freeLabel: string;
   browserLabel: string;
   guideLabel: string;
-  description: string;
+  guideDescription: string;
+  openEnglish: string;
   relatedLabel: string;
+  categoriesLabel: string;
+  popularToolsLabel: string;
+  platformLabel: string;
+  viewAllLabel: string;
+  aboutLabel: string;
+  contactLabel: string;
+  privacyLabel: string;
+  termsLabel: string;
+  operationalLabel: string;
+  footerDescription: string;
+  craftedLabel: string;
+  description: string;
+};
+
+export const LOCALIZED_UI: Record<LocaleCode, LocalizedUi> = {
+  en: { toolLabel: 'Tool', toolsLabel: 'Tools', freeLabel: 'Free online tool', browserLabel: 'Works in your browser', guideLabel: 'Tool guide', guideDescription: 'This localized route is part of Toolployee international coverage. Full tool guides, FAQs, examples, and keyword targeting are localized separately.', openEnglish: 'Open English version', relatedLabel: 'Related tools', categoriesLabel: 'Categories', popularToolsLabel: 'Popular tools', platformLabel: 'Platform', viewAllLabel: 'View all', aboutLabel: 'About Us', contactLabel: 'Contact Support', privacyLabel: 'Privacy Policy', termsLabel: 'Terms of Service', operationalLabel: '87 tools operational · Free to use', footerDescription: 'Free, fast, and accessible digital utilities built for creators, students, and developers. Edit, calculate, and convert directly in your browser.', craftedLabel: 'Crafted for speed and privacy', description: 'Use this browser-based utility without installing a separate desktop application.' },
+  pt: { toolLabel: 'Ferramenta', toolsLabel: 'Ferramentas', freeLabel: 'Ferramenta online gratuita', browserLabel: 'Funciona no navegador', guideLabel: 'Guia da ferramenta', guideDescription: 'Esta rota localizada faz parte da cobertura internacional do Toolployee. Guias, perguntas frequentes, exemplos e palavras-chave são localizados e revisados separadamente.', openEnglish: 'Abrir versão em inglês', relatedLabel: 'Ferramentas relacionadas', categoriesLabel: 'Categorias', popularToolsLabel: 'Ferramentas populares', platformLabel: 'Plataforma', viewAllLabel: 'Ver tudo', aboutLabel: 'Sobre nós', contactLabel: 'Suporte', privacyLabel: 'Política de privacidade', termsLabel: 'Termos de serviço', operationalLabel: '87 ferramentas disponíveis · Grátis', footerDescription: 'Ferramentas digitais gratuitas, rápidas e acessíveis para criadores, estudantes e desenvolvedores. Edite, calcule e converta diretamente no navegador.', craftedLabel: 'Feito para velocidade e privacidade', description: 'Use esta ferramenta no navegador sem instalar um aplicativo separado.' },
+  es: { toolLabel: 'Herramienta', toolsLabel: 'Herramientas', freeLabel: 'Herramienta online gratuita', browserLabel: 'Funciona en tu navegador', guideLabel: 'Guía de la herramienta', guideDescription: 'Esta ruta localizada forma parte de la cobertura internacional de Toolployee. Las guías, preguntas frecuentes, ejemplos y palabras clave se localizan y revisan por separado.', openEnglish: 'Abrir versión en inglés', relatedLabel: 'Herramientas relacionadas', categoriesLabel: 'Categorías', popularToolsLabel: 'Herramientas populares', platformLabel: 'Plataforma', viewAllLabel: 'Ver todo', aboutLabel: 'Sobre nosotros', contactLabel: 'Soporte', privacyLabel: 'Política de privacidad', termsLabel: 'Términos del servicio', operationalLabel: '87 herramientas operativas · Gratis', footerDescription: 'Herramientas digitales gratuitas, rápidas y accesibles para creadores, estudiantes y desarrolladores. Edita, calcula y convierte directamente en tu navegador.', craftedLabel: 'Diseñado para velocidad y privacidad', description: 'Usa esta herramienta en el navegador sin instalar una aplicación independiente.' },
+  de: { toolLabel: 'Tool', toolsLabel: 'Tools', freeLabel: 'Kostenloses Online-Tool', browserLabel: 'Funktioniert im Browser', guideLabel: 'Tool-Anleitung', guideDescription: 'Diese lokalisierte Route ist Teil der internationalen Abdeckung von Toolployee. Anleitungen, FAQs, Beispiele und Keywords werden separat lokalisiert und geprüft.', openEnglish: 'Englische Version öffnen', relatedLabel: 'Ähnliche Tools', categoriesLabel: 'Kategorien', popularToolsLabel: 'Beliebte Tools', platformLabel: 'Plattform', viewAllLabel: 'Alle anzeigen', aboutLabel: 'Über uns', contactLabel: 'Support', privacyLabel: 'Datenschutz', termsLabel: 'Nutzungsbedingungen', operationalLabel: '87 Tools verfügbar · Kostenlos', footerDescription: 'Kostenlose, schnelle und zugängliche digitale Tools für Creator, Studierende und Entwickler. Direkt im Browser bearbeiten, berechnen und konvertieren.', craftedLabel: 'Für Geschwindigkeit und Datenschutz entwickelt', description: 'Nutze dieses browserbasierte Tool ohne eine separate Desktop-Anwendung zu installieren.' },
+  fr: { toolLabel: 'Outil', toolsLabel: 'Outils', freeLabel: 'Outil en ligne gratuit', browserLabel: 'Fonctionne dans le navigateur', guideLabel: 'Guide de l’outil', guideDescription: 'Cette route localisée fait partie de la couverture internationale de Toolployee. Les guides, FAQ, exemples et mots-clés sont localisés et révisés séparément.', openEnglish: 'Ouvrir la version anglaise', relatedLabel: 'Outils associés', categoriesLabel: 'Catégories', popularToolsLabel: 'Outils populaires', platformLabel: 'Plateforme', viewAllLabel: 'Tout voir', aboutLabel: 'À propos', contactLabel: 'Assistance', privacyLabel: 'Politique de confidentialité', termsLabel: 'Conditions d’utilisation', operationalLabel: '87 outils opérationnels · Gratuits', footerDescription: 'Des outils numériques gratuits, rapides et accessibles pour les créateurs, étudiants et développeurs. Modifiez, calculez et convertissez directement dans votre navigateur.', craftedLabel: 'Conçu pour la rapidité et la confidentialité', description: 'Utilisez cet outil dans votre navigateur sans installer une application de bureau séparée.' },
+  it: { toolLabel: 'Strumento', toolsLabel: 'Strumenti', freeLabel: 'Strumento online gratuito', browserLabel: 'Funziona nel browser', guideLabel: 'Guida dello strumento', guideDescription: 'Questa rotta localizzata fa parte della copertura internazionale di Toolployee. Guide, FAQ, esempi e parole chiave vengono localizzati e revisionati separatamente.', openEnglish: 'Apri la versione inglese', relatedLabel: 'Strumenti correlati', categoriesLabel: 'Categorie', popularToolsLabel: 'Strumenti popolari', platformLabel: 'Piattaforma', viewAllLabel: 'Vedi tutto', aboutLabel: 'Chi siamo', contactLabel: 'Assistenza', privacyLabel: 'Privacy', termsLabel: 'Termini di servizio', operationalLabel: '87 strumenti operativi · Gratis', footerDescription: 'Strumenti digitali gratuiti, veloci e accessibili per creator, studenti e sviluppatori. Modifica, calcola e converti direttamente nel browser.', craftedLabel: 'Progettato per velocità e privacy', description: 'Usa questo strumento nel browser senza installare un’applicazione desktop separata.' },
+  ja: { toolLabel: 'ツール', toolsLabel: 'ツール', freeLabel: '無料オンラインツール', browserLabel: 'ブラウザで利用できます', guideLabel: 'ツールガイド', guideDescription: 'このローカライズされたルートはToolployeeの国際対応の一部です。ガイド、FAQ、例、キーワードは個別にローカライズして確認します。', openEnglish: '英語版を開く', relatedLabel: '関連ツール', categoriesLabel: 'カテゴリー', popularToolsLabel: '人気のツール', platformLabel: 'プラットフォーム', viewAllLabel: 'すべて表示', aboutLabel: '概要', contactLabel: 'サポート', privacyLabel: 'プライバシーポリシー', termsLabel: '利用規約', operationalLabel: '87個のツール · 無料', footerDescription: 'クリエイター、学生、開発者向けの無料で高速なデジタルツール。ブラウザで直接編集、計算、変換できます。', craftedLabel: '高速・プライバシー重視', description: '別のデスクトップアプリをインストールせず、ブラウザでこのツールを利用できます。' },
+  ko: { toolLabel: '도구', toolsLabel: '도구', freeLabel: '무료 온라인 도구', browserLabel: '브라우저에서 실행', guideLabel: '도구 가이드', guideDescription: '이 현지화 경로는 Toolployee의 국제 지원 범위에 포함됩니다. 가이드, FAQ, 예시와 키워드는 별도로 현지화하고 검토합니다.', openEnglish: '영어 버전 열기', relatedLabel: '관련 도구', categoriesLabel: '카테고리', popularToolsLabel: '인기 도구', platformLabel: '플랫폼', viewAllLabel: '모두 보기', aboutLabel: '소개', contactLabel: '지원', privacyLabel: '개인정보처리방침', termsLabel: '서비스 약관', operationalLabel: '87개 도구 운영 · 무료', footerDescription: '크리에이터, 학생, 개발자를 위한 빠르고 접근성 높은 무료 디지털 도구입니다. 브라우저에서 바로 편집, 계산, 변환할 수 있습니다.', craftedLabel: '속도와 개인정보 보호를 위해 제작', description: '별도의 데스크톱 애플리케이션을 설치하지 않고 브라우저에서 사용할 수 있습니다.' },
+  zh: { toolLabel: '工具', toolsLabel: '工具', freeLabel: '免费在线工具', browserLabel: '可在浏览器中使用', guideLabel: '工具指南', guideDescription: '此本地化路线属于 Toolployee 国际化覆盖范围。工具指南、常见问题、示例和关键词会单独进行本地化和审核。', openEnglish: '打开英文版本', relatedLabel: '相关工具', categoriesLabel: '分类', popularToolsLabel: '热门工具', platformLabel: '平台', viewAllLabel: '查看全部', aboutLabel: '关于我们', contactLabel: '联系支持', privacyLabel: '隐私政策', termsLabel: '服务条款', operationalLabel: '87 个工具 · 免费使用', footerDescription: '为创作者、学生和开发者提供免费、快速且易用的数字工具，可直接在浏览器中编辑、计算和转换。', craftedLabel: '为速度和隐私而打造', description: '无需安装独立桌面应用，即可在浏览器中使用此工具。' },
+  ru: { toolLabel: 'Инструмент', toolsLabel: 'Инструменты', freeLabel: 'Бесплатный онлайн-инструмент', browserLabel: 'Работает в браузере', guideLabel: 'Руководство по инструменту', guideDescription: 'Этот локализованный маршрут входит в международное покрытие Toolployee. Руководства, FAQ, примеры и ключевые слова локализуются и проверяются отдельно.', openEnglish: 'Открыть английскую версию', relatedLabel: 'Похожие инструменты', categoriesLabel: 'Категории', popularToolsLabel: 'Популярные инструменты', platformLabel: 'Платформа', viewAllLabel: 'Показать все', aboutLabel: 'О нас', contactLabel: 'Поддержка', privacyLabel: 'Политика конфиденциальности', termsLabel: 'Условия использования', operationalLabel: '87 инструментов · Бесплатно', footerDescription: 'Бесплатные, быстрые и доступные цифровые инструменты для создателей, студентов и разработчиков. Редактируйте, считайте и конвертируйте прямо в браузере.', craftedLabel: 'Создано для скорости и конфиденциальности', description: 'Используйте этот инструмент в браузере без установки отдельного приложения.' },
+  ar: { toolLabel: 'أداة', toolsLabel: 'أدوات', freeLabel: 'أداة مجانية عبر الإنترنت', browserLabel: 'تعمل في المتصفح', guideLabel: 'دليل الأداة', guideDescription: 'هذا المسار المترجم جزء من التغطية الدولية لـ Toolployee. تتم ترجمة الأدلة والأسئلة الشائعة والأمثلة والكلمات المفتاحية ومراجعتها بشكل منفصل.', openEnglish: 'فتح النسخة الإنجليزية', relatedLabel: 'أدوات ذات صلة', categoriesLabel: 'الفئات', popularToolsLabel: 'أدوات شائعة', platformLabel: 'المنصة', viewAllLabel: 'عرض الكل', aboutLabel: 'من نحن', contactLabel: 'الدعم', privacyLabel: 'سياسة الخصوصية', termsLabel: 'شروط الخدمة', operationalLabel: '87 أداة · مجانية', footerDescription: 'أدوات رقمية مجانية وسريعة وسهلة الاستخدام للمبدعين والطلاب والمطورين. حرر واحسب وحوّل مباشرة في المتصفح.', craftedLabel: 'مصممة للسرعة والخصوصية', description: 'استخدم هذه الأداة في المتصفح دون تثبيت تطبيق منفصل على سطح المكتب.' },
+  hi: { toolLabel: 'टूल', toolsLabel: 'टूल्स', freeLabel: 'मुफ्त ऑनलाइन टूल', browserLabel: 'ब्राउज़र में काम करता है', guideLabel: 'टूल गाइड', guideDescription: 'यह लोकलाइज़्ड रूट Toolployee की अंतरराष्ट्रीय कवरेज का हिस्सा है। गाइड, FAQ, उदाहरण और कीवर्ड अलग से लोकलाइज़ और रिव्यू किए जाते हैं।', openEnglish: 'अंग्रेज़ी संस्करण खोलें', relatedLabel: 'संबंधित टूल्स', categoriesLabel: 'श्रेणियाँ', popularToolsLabel: 'लोकप्रिय टूल्स', platformLabel: 'प्लेटफ़ॉर्म', viewAllLabel: 'सभी देखें', aboutLabel: 'हमारे बारे में', contactLabel: 'सपोर्ट', privacyLabel: 'प्राइवेसी पॉलिसी', termsLabel: 'सेवा की शर्तें', operationalLabel: '87 टूल्स उपलब्ध · मुफ्त', footerDescription: 'क्रिएटर्स, छात्रों और डेवलपर्स के लिए मुफ्त, तेज़ और आसान डिजिटल टूल्स। ब्राउज़र में सीधे एडिट, कैलकुलेट और कन्वर्ट करें।', craftedLabel: 'स्पीड और प्राइवेसी के लिए बनाया गया', description: 'अलग डेस्कटॉप ऐप इंस्टॉल किए बिना इस टूल का उपयोग ब्राउज़र में करें।' },
+};port { TOOLS_REGISTRY, type ToolMeta } from './toolsRegistry';
+import { LOCALES, type LocaleCode } from './internationalSeo';
+import { getInternationalKeywordValidation } from './internationalKeywordValidation';
+
+export interface LocalizationCoverageRow {
+  locale: LocaleCode;
+  slug: string;
+  toolName: string;
+  status: 'source' | 'planned-localization';
+}
+
+export const INTERNATIONAL_LOCALIZATION_COVERAGE: readonly LocalizationCoverageRow[] =
+  LOCALES.flatMap((locale) =>
+    TOOLS_REGISTRY.map((tool) => ({
+      locale: locale.code,
+      slug: tool.slug,
+      toolName: tool.name,
+      status: locale.code === 'en' ? 'source' as const : 'planned-localization' as const,
+    }))
+  );
+
+export const INTERNATIONAL_LOCALIZATION_COVERAGE_SIZE =
+  INTERNATIONAL_LOCALIZATION_COVERAGE.length;
+
+export function getLocalizationCoverage(locale: LocaleCode, slug: string) {
+  return INTERNATIONAL_LOCALIZATION_COVERAGE.find(
+    (row) => row.locale === locale && row.slug === slug
+  );
+}
+
+export type LocalizedUi = {
+  toolLabel: string;
+  toolsLabel: string;
+  freeLabel: string;
+  browserLabel: string;
+  guideLabel: string;
+  guideDescription: string;
+  openEnglish: string;
+  relatedLabel: string;
+  categoriesLabel: string;
+  popularToolsLabel: string;
+  platformLabel: string;
+  viewAllLabel: string;
+  aboutLabel: string;
+  contactLabel: string;
+  privacyLabel: string;
+  termsLabel: string;
+  operationalLabel: string;
+  footerDescription: string;
+  craftedLabel: string;
+  description: string;
 };
 
 export const LOCALIZED_UI: Record<LocaleCode, LocalizedUi> = {
