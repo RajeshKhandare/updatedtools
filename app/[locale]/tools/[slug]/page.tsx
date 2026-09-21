@@ -4,6 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
+import { getLocalizedToolSeoContent } from '@/data/toolSeo';
 import { SITE_URL } from '@/config/site';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
 import ToolSeoContent from '@/components/ToolSeoContent';
@@ -88,7 +89,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
                   {getLocalizedToolName(comp, locale.code)}
                 </p>
                 <p className="text-[11px] text-zinc-400 line-clamp-2 mt-1.5 font-normal leading-relaxed">
-                  {comp.description}
+                  {getLocalizedToolSeoContent(comp, locale.code).intro}
                 </p>
               </Link>
             ))}
