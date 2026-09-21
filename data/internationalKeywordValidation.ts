@@ -176,6 +176,33 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['es','percentage-calculator','Calculadora de porcentajes',['calcular porcentaje'],'https://uselocaltools.com/es'],
+    ['es','age-calculator','Calculadora de edad',['calcular edad'],'https://usesolvekit.com/es/herramientas'],
+    ['es','bmi-calculator','Calculadora de IMC',['calcular IMC'],'https://experttoolskit.com/es/'],
+    ['es','scientific-calculator','Calculadora científica',['calculadora científica online'],'https://experttoolskit.com/es/'],
+    ['es','discount-calculator','Calculadora de descuentos',['calcular descuentos'],'https://experttoolskit.com/es/'],
+    ['es','compound-interest-calculator','Calculadora de interés compuesto',['interés compuesto calculadora'],'https://usesolvekit.com/es/herramientas'],
+    ['es','tip-calculator','Calculadora de propinas',['calcular propina'],'https://www.calculatorsoup.com/es/'],
+    ['fr','percentage-calculator','Calculateur de pourcentage',['calcul de pourcentage'],'https://experttoolskit.com/fr/'],
+    ['fr','age-calculator','Calculateur d’âge',['calcul âge'],'https://toolsmio.com/fr/'],
+    ['fr','bmi-calculator','Calculateur d’IMC',['calcul IMC'],'https://experttoolskit.com/fr/'],
+    ['fr','scientific-calculator','Calculatrice scientifique',['calculatrice scientifique en ligne'],'https://www.calculatorsoup.com/'],
+    ['fr','discount-calculator','Calculateur de remise',['calcul remise'],'https://toolsmio.com/fr/'],
+    ['fr','compound-interest-calculator','Calculateur d’intérêts composés',['intérêts composés calculateur'],'https://toolsmio.com/fr/'],
+    ['it','percentage-calculator','Calcolatore percentuale',['calcolo percentuale'],'https://uselocaltools.com/it'],
+    ['it','age-calculator','Calcolatore età',['calcolo età'],'https://uselocaltools.com/it'],
+    ['it','bmi-calculator','Calcolatore BMI',['calcolo BMI'],'https://uselocaltools.com/it'],
+    ['it','compound-interest-calculator','Calcolatore interesse composto',['interesse composto calcolo'],'https://uselocaltools.com/it'],
+    ['de','percentage-calculator','Prozentrechner',['Prozent berechnen'],'https://www.pageonaut.com/de/'],
+    ['de','age-calculator','Altersrechner',['Alter berechnen'],'https://www.pageonaut.com/de/'],
+    ['de','bmi-calculator','BMI Rechner',['BMI berechnen'],'https://www.pageonaut.com/de/'],
+    ['de','scientific-calculator','Wissenschaftlicher Rechner',['wissenschaftlicher Taschenrechner'],'https://www.pageonaut.com/de/'],
+    ['de','discount-calculator','Rabattrechner',['Rabatt berechnen'],'https://www.pageonaut.com/de/'],
+    ['de','tip-calculator','Trinkgeld Rechner',['Trinkgeld berechnen'],'https://www.pageonaut.com/de/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Observed localized calculator terminology in a public tool catalog; validates wording/intent only, not search volume or ranking.'})),
+
+
+  ...([
     ['es','online-html-editor','Editor HTML online',['editor HTML en línea'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
     ['es','online-java-compiler','Compilador de Java Online',['compilador Java en línea'],'https://programmingvideotutorials.com/es/tools/online-code-playground/'],
     ['es','online-cpp-compiler','Compilador de C++ Online',['compilador C++ en línea'],'https://www.programiz.com/'],
