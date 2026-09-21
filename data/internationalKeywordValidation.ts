@@ -176,6 +176,25 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['it','remove-html-tags','Rimuovi i tag HTML',['rimuovere tag HTML'],'https://uselocaltools.com/it'],
+    ['it','word-character-counter','Contatore di parole',['contatore di caratteri','conta parole online'],'https://uselocaltools.com/it'],
+    ['it','text-diff-checker','Confronta due testi online',['confronto testi'],'https://uselocaltools.com/it'],
+    ['it','remove-duplicate-lines','Rimuovi righe duplicate',['deduplica righe'],'https://uselocaltools.com/it'],
+    ['it','text-case-converter','Convertitore maiuscole e minuscole',['convertitore maiuscole minuscole'],'https://uselocaltools.com/it'],
+    ['it','reverse-text-mirror-tool','Invertitore di testo',['testo al contrario'],'https://uselocaltools.com/it'],
+    ['it','lorem-ipsum-generator','Generatore Lorem Ipsum',['Lorem Ipsum'],'https://uselocaltools.com/it'],
+    ['it','clean-url-slug-generator','Generatore di slug',['slug URL'],'https://uselocaltools.com/it'],
+    ['it','find-replace-text','Trova e Sostituisci Testo',['trova e sostituisci'],'https://uselocaltools.com/it'],
+    ['it','markdown-to-html-converter','Convertitore da Markdown a HTML',['Markdown in HTML'],'https://uselocaltools.com/it'],
+    ['it','html-entity-encoder','Codificatore e decodificatore HTML',['entità HTML'],'https://uselocaltools.com/it'],
+    ['it','url-component-encoder-decoder','Codificatore e decodificatore URL',['codificatore URL'],'https://uselocaltools.com/it'],
+    ['it','uuid-guid-v4-generator','Generatore di UUID',['UUID generator'],'https://uselocaltools.com/it'],
+    ['it','strong-password-generator','Generatore di password casuali',['generatore password'],'https://uselocaltools.com/it'],
+    ['it','instant-qr-code-generator','Generatore di codici QR',['generatore QR'],'https://uselocaltools.com/it'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed directly in a current Italian localized public tool catalog; wording/intent evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['pt-BR','youtube-thumbnail-downloader','Baixar miniatura do YouTube',['download thumbnail YouTube'],'https://www.funnytools.win/pt-br/'],
     ['pt-BR','youtube-tag-generator','Gerador de tags para YouTube',['tags para YouTube'],'https://www.funnytools.win/pt-br/'],
     ['es','youtube-thumbnail-downloader','Descargar miniatura de YouTube',['descargar miniatura YouTube'],'https://www.funnytools.win/es/herramientas/'],
