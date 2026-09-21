@@ -307,6 +307,14 @@ const ADDITIONAL_LOCAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidat
  */
 const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
+  // Additional finance/calculator terminology observed in current German catalogs
+  ...([
+    ['de','tip-calculator','Trinkgeld Rechner',['Trinkgeldrechner'],'https://microapp.io/de/'],
+    ['de','discount-calculator','Prozentrechner',['Rabatte berechnen'],'https://microapp.io/de/'],
+    ['de','compound-interest-calculator','Zinseszinsrechner',['Zinseszins berechnen'],'https://microapp.io/de/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current German public tool catalog; validates wording/intent only, not search volume or ranking.'})),
+
+
   // Additional fresh terminology from localized public catalogs (September 2026)
   ...([
     ['es','find-replace-text','Buscar y reemplazar',['buscar y reemplazar texto'],'https://apps.apple.com/es/app/doguzip/id6800202279'],
