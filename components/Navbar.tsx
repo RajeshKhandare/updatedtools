@@ -8,6 +8,7 @@ import LanguageSelector from '@/components/LanguageSelector';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_NAME } from '@/config/site';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
+import { type LocaleCode } from '@/data/internationalSeo';
 
 // Category mapping aligned with Homepage categories
 const CATEGORIES_CONFIG = [
@@ -23,7 +24,7 @@ export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [currentLocale, setCurrentLocale] = useState('en');
+  const [currentLocale, setCurrentLocale] = useState<LocaleCode>('en');
   const ui = getLocalizedUi(currentLocale);
 
   useEffect(() => {
@@ -32,7 +33,7 @@ export default function Navbar() {
     }
 
     const localeMatch = window.location.pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
-    setCurrentLocale(localeMatch?.[1] || 'en');
+    setCurrentLocale((localeMatch?.[1] as LocaleCode | undefined) || 'en');
   }, []);
 
   const toggleTheme = () => {
@@ -79,7 +80,7 @@ export default function Navbar() {
               {SITE_NAME}
             </span>
             <span className="hidden sm:block text-[9px] font-bold uppercase tracking-widest text-zinc-400">
-              Utility Suite
+              {ui.toolsLabel}
             </span>
           </div>
         </Link>
@@ -103,7 +104,7 @@ export default function Navbar() {
                   onClick={() => handleCategoryNavigate(cat.query)}
                   className="flex items-center gap-1 rounded-xl px-3.5 py-1.5 text-xs font-semibold text-zinc-600 dark:text-zinc-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-zinc-100/60 dark:hover:bg-zinc-900 transition-all"
                 >
-                  <span>{getLocalizedCategoryLabel(cat.label, currentLocale as any).replace(/ Tools$| & Code$| Calculators$/,'')}</span>
+                  <span>{getLocalizedCategoryLabel(cat.label, currentLocale)}</span>
                   <ChevronDown
                     className={`h-3.5 w-3.5 transition-transform ${
                       activeDropdown === cat.label ? 'rotate-180 text-violet-600' : ''
@@ -116,7 +117,7 @@ export default function Navbar() {
                   <div className="absolute top-full left-0 w-80 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 p-2 shadow-2xl shadow-zinc-950/15 dark:shadow-zinc-950/60 z-50 animate-in fade-in duration-150">
                     <div className="p-2 border-b border-zinc-100 dark:border-zinc-800/80 mb-1 flex justify-between items-center">
                       <span className="text-[11px] font-bold uppercase tracking-wider text-zinc-400">
-                        {ui.popularToolsLabel} · {cat.label}
+                        {ui.popularToolsLabel} · {getLocalizedCategoryLabel(cat.label, currentLocale)}
                       </span>
                       
                       {/* View all button connected to Homepage Pills */}
@@ -125,7 +126,7 @@ export default function Navbar() {
                         onClick={() => handleCategoryNavigate(cat.query)}
                         className="text-[11px] font-bold text-violet-600 dark:text-violet-400 hover:underline flex items-center gap-1 cursor-pointer"
                       >
-                        View all <ArrowRight className="h-2.5 w-2.5" />
+                        {ui.viewAllLabel} <ArrowRight className="h-2.5 w-2.5" />
                       </button>
                     </div>
 
@@ -138,10 +139,10 @@ export default function Navbar() {
                           className="block p-2.5 rounded-xl hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors group"
                         >
                           <p className="text-xs font-bold text-zinc-900 dark:text-white group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
-                            {t.name}
+                            {getLocalizedToolName(t, currentLocale)}
                           </p>
                           <p className="text-[11px] text-zinc-400 line-clamp-1 mt-0.5 font-normal">
-                            {t.description}
+                            {ui.description}
                           </p>
                         </Link>
                       ))}
@@ -159,7 +160,7 @@ export default function Navbar() {
 
           <button
             onClick={toggleTheme}
-            aria-label="Toggle Theme"
+            aria-label={ui.toolsLabel}
             className="flex h-9 w-9 items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-300 hover:border-violet-400 dark:hover:border-violet-500 transition-all"
           >
             {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
@@ -193,7 +194,7 @@ export default function Navbar() {
                 onClick={() => handleCategoryNavigate(cat.query)}
                 className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900"
               >
-                {getLocalizedCategoryLabel(cat.label, currentLocale as any)}
+                {getLocalizedCategoryLabel(cat.label, currentLocale)}
               </button>
             ))}
           </div>
