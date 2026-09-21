@@ -20,6 +20,7 @@ const hasMatrixGenerator = /TOOLS_REGISTRY\.flatMap\(\(tool\)\s*=>\s*INTERNATION
 if (!hasMatrixGenerator) throw new Error('International SEO matrix is not generated from every tool × seed market');
 if (!/getLongTailQueryCandidates/.test(matrixSource) || !/longTailQueryCandidates:/.test(matrixSource)) throw new Error('International SEO matrix must expose long-tail query candidates for every tool × market row');
 if (!/LONG_TAIL_QUERY_PATTERNS/.test(localizationSource) || !/getLongTailQueryCandidates/.test(localizationSource)) throw new Error('Long-tail query candidate generation is missing');
+if (!/toolTerminologyStatus:/.test(matrixSource) || !/'observed' \| 'candidate-only'/.test(matrixSource)) throw new Error('International SEO matrix must distinguish observed tool terminology from candidate-only research');
 const expectedMatrixRows = 87 * 11;
 const expectedLocalizationRows = 87 * 12;
 const marketEvidenceLocales = [...marketEvidenceSource.matchAll(/locale: '([^']+)'/g)].map((m) => m[1]);
