@@ -14,8 +14,8 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
   {
     locale: 'pt-BR',
     market: 'Brazil',
-    sourceUrls: ['https://www.webfacilita.com/', 'https://andev.app/pt/', 'https://makeitpdf.com/pt/', 'https://uselocaltools.com/pt-BR'],
-    observedTerms: ['Juntar PDF', 'Comprimir Imagem', 'Contador de Palavras', 'Gerador de QR Code', 'Formatador de JSON', 'Dividir PDF', 'Comprimir PDF', 'PDF para Word', 'PDF para JPG', 'JPG para PDF', 'Proteger PDF', 'Desbloquear PDF', 'Girar PDF', 'Adicionar números de página', 'Calculadora de porcentagem'],
+    sourceUrls: ['https://www.webfacilita.com/', 'https://andev.app/pt/', 'https://makeitpdf.com/pt/', 'https://uselocaltools.com/pt-BR', 'https://convertforever.com/hi/'],
+    observedTerms: ['Juntar PDF', 'Comprimir Imagem', 'Contador de Palavras', 'Gerador de QR Code', 'Formatador de JSON', 'Dividir PDF', 'Comprimir PDF', 'PDF para Word', 'PDF para JPG', 'JPG para PDF', 'Proteger PDF', 'Desbloquear PDF', 'Girar PDF', 'Adicionar números de página', 'Calculadora de porcentagem', 'Calculadora de idade', 'Calculadora de IMC', 'Calculadora de desconto', 'Calculadora de gorjeta', 'Calculadora de juros compostos', 'Calculadora de salário',
     notes: 'Brazilian Portuguese catalogs use natural task wording such as “juntar”, and also explicitly frame tools as online/free.',
   },
   {
@@ -64,14 +64,14 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
     locale: 'zh-CN',
     market: 'Simplified Chinese',
     sourceUrls: ['https://www.ilovepdf.com/zh-cn', 'https://www.ilovepdf.com/zh-cn/help/documentation', 'https://www.zhandu.cn/', 'https://nbtools.cn/', 'https://xiaobinguo.cn/'],
-    observedTerms: ['合并PDF', '拆分PDF', '压缩PDF', 'PDF转JPG', '图片转换至PDF文件', '添加页码', 'PDF转Word', 'Word转PDF', 'JPG转PDF', 'PDF页面排序', '删除PDF页面', 'PDF旋转', '压缩图片', '裁剪图片', '调整图片大小', 'JSON格式化', 'Base64编解码', 'UUID生成器', '随机密码生成器', 'JWT解码器', '字数统计', '文本/代码对比', '大小写转换', '时间戳转换', '图片压缩', '二维码生成', '百分比计算'],
+    observedTerms: ['合并PDF', '拆分PDF', '压缩PDF', 'PDF转JPG', '图片转换至PDF文件', '添加页码', 'PDF转Word', 'Word转PDF', 'JPG转PDF', 'PDF页面排序', '删除PDF页面', 'PDF旋转', '压缩图片', '裁剪图片', '调整图片大小', 'JSON格式化', 'Base64编解码', 'UUID生成器', '随机密码生成器', 'JWT解码器', '字数统计', '百分比计算器', '年龄计算器', 'BMI计算器', '折扣计算器', '复利计算器', '单位转换器', '文本/代码对比', '大小写转换', '时间戳转换', '图片压缩', '二维码生成', '百分比计算'],
     notes: 'Simplified Chinese PDF terminology is compact and task-oriented; PDF/format tokens remain in Latin script.',
   },
   {
     locale: 'ru',
     market: 'Russian-speaking markets',
     sourceUrls: ['https://textwonder.com/ru/', 'https://usetoolz.ru/', 'https://www.ilovepdf.com/ru', 'https://utilora.ru/'],
-    observedTerms: ['Счётчик слов', 'Объединить PDF', 'Сжать изображение', 'Форматирование JSON', 'Калькулятор ИМТ', 'Калькулятор возраста', 'Разделить PDF', 'JSON Formatter', 'Base64 Кодер / Декодер', 'Генератор UUID', 'Генератор паролей', 'Счётчик символов', 'Конвертер регистра', 'Удаление дубликатов', 'Сжатие фотографий', 'Изменение разрешения'], 'Сжать PDF', 'PDF в JPG', 'PDF в Word', 'Word в PDF', 'JPG в PDF', 'Удалить страницы', 'Повернуть PDF', 'Добавить номера страниц', 'Изменить размер изображения', 'Нижний регистр', 'Счётчик символов', 'Сравнить два текста', 'Форматирование JSON', 'Генератор паролей', 'Конвертировать изображение', 'Калькулятор процентов'],
+    observedTerms: ['Счётчик слов', 'Калькулятор процентов', 'Калькулятор возраста', 'Калькулятор ИМТ', 'Калькулятор скидки', 'Калькулятор сложного процента', 'Объединить PDF', 'Сжать изображение', 'Форматирование JSON', 'Калькулятор ИМТ', 'Калькулятор возраста', 'Разделить PDF', 'JSON Formatter', 'Base64 Кодер / Декодер', 'Генератор UUID', 'Генератор паролей', 'Счётчик символов', 'Конвертер регистра', 'Удаление дубликатов', 'Сжатие фотографий', 'Изменение разрешения'], 'Сжать PDF', 'PDF в JPG', 'PDF в Word', 'Word в PDF', 'JPG в PDF', 'Удалить страницы', 'Повернуть PDF', 'Добавить номера страниц', 'Изменить размер изображения', 'Нижний регистр', 'Счётчик символов', 'Сравнить два текста', 'Форматирование JSON', 'Генератор паролей', 'Конвертировать изображение', 'Калькулятор процентов'],
     notes: 'Russian catalogs use native Cyrillic task phrases while technical formats such as JSON and PDF remain unchanged.',
   },
   {
@@ -85,7 +85,7 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
     locale: 'hi',
     market: 'India',
     sourceUrls: ['https://fastols.com/hi/', 'https://www.ilovepdf.com/hi', 'https://convertforever.com/hi/', 'https://hoomaninfotech.com/hi/tools', 'https://utilokit.com/hi'],
-    observedTerms: ['PDF फ़ाइलें मर्ज करें', 'PDF कंप्रेस करें', 'इमेज कंप्रेस करें', 'इमेज का आकार बदलें', 'JSON फ़ॉर्मेटर', 'वर्ड काउंटर', 'BMI कैलकुलेटर', 'PDF मर्ज करें', 'PDF विभाजित करें', 'PDF से JPG', 'PDF से Word', 'Word से PDF', 'JPG से PDF', 'PDF को सुरक्षित करें', 'PDF अनलॉक करें', 'PDF घुमाएँ', 'QR कोड जनरेटर', 'JSON फ़ॉर्मेटर', 'Base64 एनकोडर', 'UUID जनरेटर', 'पासवर्ड जनरेटर', 'JWT डिकोडर', 'डिफ चेकर', 'केस कन्वर्टर', 'लोन कैलकुलेटर', 'प्रतिशत कैलकुलेटर', 'आयु कैलकुलेटर', 'वर्ड काउंटर', 'इमेज क्रॉप करें', 'इमेज फ़ॉर्मेट बदलें', 'इमेज ब्लर करें', 'इमेज फ्लिप करें'],
+    observedTerms: ['PDF फ़ाइलें मर्ज करें', 'PDF कंप्रेस करें', 'इमेज कंप्रेस करें', 'इमेज का आकार बदलें', 'JSON फ़ॉर्मेटर', 'वर्ड काउंटर', 'प्रतिशत कैलकुलेटर', 'उम्र कैलकुलेटर', 'BMI कैलकुलेटर', 'डिस्काउंट कैलकुलेटर', 'GST कैलकुलेटर', 'सैलरी कैलकुलेटर', 'BMI कैलकुलेटर', 'PDF मर्ज करें', 'PDF विभाजित करें', 'PDF से JPG', 'PDF से Word', 'Word से PDF', 'JPG से PDF', 'PDF को सुरक्षित करें', 'PDF अनलॉक करें', 'PDF घुमाएँ', 'QR कोड जनरेटर', 'JSON फ़ॉर्मेटर', 'Base64 एनकोडर', 'UUID जनरेटर', 'पासवर्ड जनरेटर', 'JWT डिकोडर', 'डिफ चेकर', 'केस कन्वर्टर', 'लोन कैलकुलेटर', 'प्रतिशत कैलकुलेटर', 'आयु कैलकुलेटर', 'वर्ड काउंटर', 'इमेज क्रॉप करें', 'इमेज फ़ॉर्मेट बदलें', 'इमेज ब्लर करें', 'इमेज फ्लिप करें'],
     notes: 'Hindi tool catalogs frequently mix Hindi grammar with English technical terms; Hinglish and English-token variants should be retained in query candidates.',
   },
 ];
