@@ -37,6 +37,8 @@ const validationLocales = [...validationSource.matchAll(/locale: '([^']+)'/g)].m
 const validationSourceCount = [...validationSource.matchAll(/sourceUrls: \[/g)].length;
 if (validationLocales.length !== validationSourceCount) throw new Error('Localized keyword validation entries must each include source URLs');
 if (validationLocales.some((locale) => !seedMatches.includes(locale))) throw new Error('Localized keyword validation contains an unknown locale');
+const validatedToolSlugs = new Set([...validationSource.matchAll(/\['(?:pt-BR|es|de|fr|it|ja|ko|zh-CN|ru|ar|hi)',\s*'([^']+)'/g)].map((m) => m[1]));
+if (validatedToolSlugs.size !== 87) throw new Error('Every tool must have at least one localized evidence entry; found ' + validatedToolSlugs.size + '/87');
 const validatedRowCount = validationLocales.length;
 if (validatedRowCount < 1) throw new Error('Expected at least one evidence-backed localized keyword validation');
 const hasTerminologyAudit = /toolTerminologyStatus/.test(matrixSource) && /observed/.test(matrixSource) && /candidate-only/.test(matrixSource);
