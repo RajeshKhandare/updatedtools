@@ -52,8 +52,9 @@ function icon(cat:string) {
 export const dynamicParams = false;
 export function generateStaticParams(){ return LOCALES.filter(x=>x.code!=='en').map(x=>({locale:x.code})); }
 
-export default function LocalizedHome({ params }: { params: { locale: string } }) {
-  const locale = getLocale(params.locale);
+export default async function LocalizedHome({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: localeCode } = await params;
+  const locale = getLocale(localeCode);
   if (!locale || locale.code==='en') return null;
   const ui = getLocalizedUi(locale.code);
   const copy = COPY[locale.code];
