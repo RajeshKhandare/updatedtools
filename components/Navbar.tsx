@@ -22,11 +22,15 @@ export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [currentLocale, setCurrentLocale] = useState('en');
 
   useEffect(() => {
     if (document.documentElement.classList.contains('dark')) {
       setIsDark(true);
     }
+
+    const localeMatch = window.location.pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
+    setCurrentLocale(localeMatch?.[1] || 'en');
   }, []);
 
   const toggleTheme = () => {
@@ -41,15 +45,18 @@ export default function Navbar() {
     }
   };
 
-  // Direct homepage category filter & smooth scroll
+  // Keep category navigation inside the active locale.
   const handleCategoryNavigate = (categoryName: string) => {
     setActiveDropdown(null);
     setMobileMenuOpen(false);
-    
-    // Homepage ke tools section par bhejega
+
+    if (currentLocale !== 'en') {
+      router.push(`/${currentLocale}/tools`);
+      return;
+    }
+
     router.push(`/?category=${encodeURIComponent(categoryName)}#tools`);
-    
-    // Agar user pehle se homepage par hai, toh smooth scroll trigger karega
+
     const el = document.getElementById('tools');
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
@@ -61,7 +68,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         
         {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2.5 shrink-0">
+        <Link href={currentLocale === 'en' ? '/' : `/${currentLocale}`} className="flex items-center gap-2.5 shrink-0">
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-600 text-white shadow-md shadow-violet-500/20">
             <Sparkles className="h-5 w-5" />
           </div>
@@ -124,7 +131,7 @@ export default function Navbar() {
                       {catTools.map((t) => (
                         <Link
                           key={t.slug}
-                          href={`/tools/${t.slug}`}
+                          href={currentLocale === 'en' ? `/tools/${t.slug}` : `/${currentLocale}/tools/${t.slug}`}
                           onClick={() => setActiveDropdown(null)}
                           className="block p-2.5 rounded-xl hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors group"
                         >
@@ -172,7 +179,7 @@ export default function Navbar() {
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
-                router.push('/tools');
+                router.push(currentLocale === 'en' ? '/tools' : `/${currentLocale}/tools`);
               }}
               className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900"
             >
