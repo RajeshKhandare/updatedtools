@@ -307,6 +307,20 @@ const ADDITIONAL_LOCAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidat
  */
 const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
+  // Additional fresh terminology from localized public catalogs (September 2026)
+  ...([
+    ['es','find-replace-text','Buscar y reemplazar',['buscar y reemplazar texto'],'https://apps.apple.com/es/app/doguzip/id6800202279'],
+    ['es','reverse-text-mirror-tool','Invertir texto',['texto inverso'],'https://apps.apple.com/es/app/doguzip/id6800202279'],
+    ['es','lorem-ipsum-generator','Generador de texto ficticio',['Lorem Ipsum'],'https://apps.apple.com/es/app/doguzip/id6800202279'],
+    ['es','scientific-calculator','Calculadora científica',['calculadora científica online'],'https://apps.apple.com/es/app/doguzip/id6800202279'],
+    ['es','discount-calculator','Calculadora de descuentos',['cálculo de descuentos'],'https://apps.apple.com/es/app/doguzip/id6800202279'],
+    ['ja','instant-qr-code-generator','QRコード作成',['QRコード生成'],'https://jptools.jp/'],
+    ['ja','hex-to-rgb-hsl-converter','カラーコード変換',['HEX・RGB・HSL 変換'],'https://jptools.jp/'],
+    ['fr','hex-to-rgb-hsl-converter','Convertisseur HEX vers RGB',['convertisseur HEX RGB HSL'],'https://utilorax.com/fr'],
+    ['de','instant-qr-code-generator','QR-Code-Generator',['QR-Code erstellen'],'https://instantconverter.org/de/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current localized public tool catalog; validates wording/intent only, not search volume or ranking.'})),
+
+
   // Fresh web-confirmed compiler terminology (Spanish/French)
   ...([
     ['es','online-python-compiler','Compilador de Python Online',['compilador Python en línea'],'https://pythoncompiler.io/es/'],
