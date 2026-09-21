@@ -345,7 +345,7 @@ function HomeContent() {
                   <Cpu className="h-5 w-5" />
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">
-                  Free to Use
+                  All utilities operational · 100% Free
                 </h3>
                 <p className="mt-1.5 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
                   The current suite does not require a paid account. Practical limits can depend on browser memory, device performance, file size, or an external execution runtime.
