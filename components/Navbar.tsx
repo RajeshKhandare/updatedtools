@@ -7,7 +7,7 @@ import { Sparkles, Sun, Moon, ChevronDown, Menu, X, ArrowRight } from 'lucide-re
 import LanguageSelector from '@/components/LanguageSelector';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_NAME } from '@/config/site';
-import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
+import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 
 // Category mapping aligned with Homepage categories
 const CATEGORIES_CONFIG = [
@@ -103,7 +103,7 @@ export default function Navbar() {
                   onClick={() => handleCategoryNavigate(cat.query)}
                   className="flex items-center gap-1 rounded-xl px-3.5 py-1.5 text-xs font-semibold text-zinc-600 dark:text-zinc-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-zinc-100/60 dark:hover:bg-zinc-900 transition-all"
                 >
-                  <span>{({ PDF: 'PDF', Image: 'Image', Compiler: 'Compiler', Finance: 'Finance', YouTube: 'YouTube' } as Record<string,string>)[cat.label]}</span>
+                  <span>{getLocalizedCategoryLabel(cat.label, currentLocale as any).replace(/ Tools$| & Code$| Calculators$/,'')}</span>
                   <ChevronDown
                     className={`h-3.5 w-3.5 transition-transform ${
                       activeDropdown === cat.label ? 'rotate-180 text-violet-600' : ''
@@ -193,7 +193,7 @@ export default function Navbar() {
                 onClick={() => handleCategoryNavigate(cat.query)}
                 className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900"
               >
-                {cat.label} {ui.toolsLabel}
+                {getLocalizedCategoryLabel(cat.label, currentLocale as any)}
               </button>
             ))}
           </div>
