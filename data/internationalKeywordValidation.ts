@@ -176,6 +176,18 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['ar','word-character-counter','عداد الكلمات',['عداد الأحرف'],'https://uselocaltools.com/ar'],
+    ['ar','find-replace-text','البحث والاستبدال',['البحث والاستبدال في النص'],'https://uselocaltools.com/ar'],
+    ['ar','remove-html-tags','إزالة علامات HTML',['حذف علامات HTML'],'https://uselocaltools.com/ar'],
+    ['ar','text-diff-checker','مقارنة النصوص',['مقارنة نصين'],'https://uselocaltools.com/ar'],
+    ['hi','word-character-counter','शब्द गिनती',['अक्षर गिनती'],'https://uselocaltools.com/hi'],
+    ['hi','find-replace-text','टेक्स्ट खोजें और बदलें',['खोजें और बदलें'],'https://uselocaltools.com/hi'],
+    ['hi','remove-html-tags','HTML टैग हटाएं',['HTML टैग निकालें'],'https://uselocaltools.com/hi'],
+    ['hi','text-diff-checker','टेक्स्ट तुलना',['दो टेक्स्ट की तुलना'],'https://uselocaltools.com/hi'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized terminology candidate from a public multilingual tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['ru','word-character-counter','Счетчик слов',['счетчик символов'],'https://uselocaltools.com/ru'],
     ['ru','text-case-converter','Изменение регистра текста',['конвертер регистра'],'https://uselocaltools.com/ru'],
     ['ru','find-replace-text','Найти и заменить',['поиск и замена текста'],'https://uselocaltools.com/ru'],
