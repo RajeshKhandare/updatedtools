@@ -89,7 +89,7 @@ export default function LocalizedHomeClient({ localeCode }: { localeCode: string
 
     <section className="mx-auto max-w-7xl px-4 sm:px-6 pt-6">
       <div className="overflow-x-auto pb-4 no-scrollbar"><div className="flex w-max min-w-full items-center justify-center gap-2">
-        <button onClick={()=>setCategory('All')} className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold ${category==='All'?'bg-violet-600 text-white':'bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800'}`}>{copy.popular}</button>
+        <button onClick={()=>setCategory('All')} className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${category==='All'?'bg-violet-600 text-white shadow-md shadow-violet-500/20':'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800 hover:border-violet-300 dark:hover:border-zinc-700'}`}>{copy.popular}</button>
         {CATEGORIES.filter(c=>c!=='All').map(c=><button key={c} onClick={()=>setCategory(c)} className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${category===c?'bg-violet-600 text-white shadow-md shadow-violet-500/20':'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800 hover:border-violet-300 dark:hover:border-zinc-700'}`}>{getLocalizedCategoryLabel(c,locale.code)}</button>)}
       </div></div>
       <div className="mt-4 mb-2 flex items-center justify-between"><p className="text-xs font-bold uppercase tracking-wider text-zinc-400">{copy.showing} {tools.length} {category==='All'?copy.popular:getLocalizedCategoryLabel(category,locale.code)} {copy.utilities}</p></div>
