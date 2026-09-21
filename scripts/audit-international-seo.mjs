@@ -7,6 +7,7 @@ const matrixSource = fs.readFileSync('data/internationalSeoMatrix.ts', 'utf8');
 const validationSource = fs.readFileSync('data/internationalKeywordValidation.ts', 'utf8');
 const localizationSource = fs.readFileSync('data/internationalLocalization.ts', 'utf8');
 const localizedLayoutSource = fs.readFileSync('app/[locale]/tools/[slug]/layout.tsx', 'utf8');
+const marketEvidenceSource = fs.readFileSync('data/internationalMarketEvidence.ts', 'utf8');
 
 const localeMatches = [...localeSource.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
 const seedMatches = [...seedSource.matchAll(/locale:'([^']+)'/g)].map((m) => m[1]);
@@ -19,6 +20,13 @@ const hasMatrixGenerator = /TOOLS_REGISTRY\.flatMap\(\(tool\)\s*=>\s*INTERNATION
 if (!hasMatrixGenerator) throw new Error('International SEO matrix is not generated from every tool × seed market');
 const expectedMatrixRows = 87 * 11;
 const expectedLocalizationRows = 87 * 12;
+const marketEvidenceLocales = [...marketEvidenceSource.matchAll(/locale: '([^']+)'/g)].map((m) => m[1]);
+const expectedEvidenceLocales = seedMatches;
+if (marketEvidenceLocales.length !== expectedEvidenceLocales.length || expectedEvidenceLocales.some((locale) => !marketEvidenceLocales.includes(locale))) {
+  throw new Error('Every non-English seed market must have localized market evidence');
+}
+const marketEvidenceSourceCount = [...marketEvidenceSource.matchAll(/sourceUrls: \[/g)].length;
+if (marketEvidenceSourceCount !== marketEvidenceLocales.length) throw new Error('Every market evidence entry must include source URLs');
 const hasCoverageGenerator = /LOCALES\.flatMap\(\(locale\)\s*=>\s*\n?\s*TOOLS_REGISTRY\.map\(\(tool\)/s.test(localizationSource);
 if (!hasCoverageGenerator) throw new Error('International localization coverage is not generated from every locale × tool');
 if (!/LOCALES\.flatMap/.test(localizedLayoutSource) || !/TOOLS_REGISTRY\.map/.test(localizedLayoutSource)) throw new Error('Localized route is not statically generated for every locale × tool');
@@ -34,5 +42,5 @@ const missingSeeds = localeMatches
   .filter((code) => !seedMatches.includes(code === 'pt' ? 'pt-BR' : code === 'zh' ? 'zh-CN' : code));
 if (missingSeeds.length) throw new Error(`Missing keyword seeds: ${missingSeeds.join(', ')}`);
 
-console.log(`International SEO foundation OK: 87 tools, ${localeMatches.length} locales, ${seedMatches.length} non-English seed markets, ${expectedMatrixRows} research rows, ${expectedLocalizationRows} locale × tool coverage rows, ${validatedToolCount} evidence-backed validation rows.`);
-console.log('No search-volume/difficulty claims are encoded; current country/language data must be validated before indexing localized pages.');
+console.log(`International SEO foundation OK: 87 tools, ${localeMatches.length} locales, ${seedMatches.length} non-English seed markets, ${expectedMatrixRows} research rows, ${expectedLocalizationRows} locale × tool coverage rows, ${validatedToolCount} exact-keyword validation rows, ${marketEvidenceLocales.length} market evidence sets.`);
+console.log('Market evidence supports observed local terminology only. Search-volume/difficulty/traffic claims remain unset until reliable keyword data is supplied.');
