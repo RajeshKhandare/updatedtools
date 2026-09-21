@@ -31,7 +31,7 @@ export default async function LocalizedToolsIndex({ params }: { params: Promise<
       <Navbar />
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
         <Link href={'/' + locale.code} className="text-xs font-bold text-violet-600 hover:underline">Toolployee</Link>
-        <h1 className="mt-4 text-3xl sm:text-4xl font-black">{ui.toolLabel}s</h1>
+        <h1 className="mt-4 text-3xl sm:text-4xl font-black">{ui.toolsLabel}</h1>
         <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">{ui.description}</p>
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {TOOLS_REGISTRY.map((tool) => (
