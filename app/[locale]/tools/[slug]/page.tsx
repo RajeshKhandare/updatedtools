@@ -20,7 +20,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
     <main lang={locale.code} dir={locale.code === 'ar' ? 'rtl' : 'ltr'} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
         <nav className="text-xs text-zinc-500 mb-8">
-          <Link href="/" className="hover:underline">Toolployee</Link> / {name}
+          <Link href={`/${locale.code}`} className="hover:underline">Toolployee</Link> / {name}
         </nav>
         <header className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8">
           <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-violet-600 dark:text-violet-400">{ui.freeLabel}</p>
