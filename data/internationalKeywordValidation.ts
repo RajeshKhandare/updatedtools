@@ -173,9 +173,67 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
   ]),
 ];
 
+const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+  {
+    locale: 'it',
+    slug: 'json-formatter-validator',
+    primaryKeyword: 'Formattatore JSON online',
+    alternateKeywords: ['Formatta JSON', 'validatore JSON'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/it/tools/json-formatter'],
+    notes: 'Current Italian localized catalog uses “Formattatore JSON online” and explicitly describes formatting and syntax verification.',
+  },
+  {
+    locale: 'it',
+    slug: 'word-character-counter',
+    primaryKeyword: 'Contatore di parole',
+    alternateKeywords: ['contatore di caratteri', 'conta parole online'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/it'],
+    notes: 'Current Italian localized catalog uses “Contatore di parole” for the word-count tool.',
+  },
+  {
+    locale: 'it',
+    slug: 'compress-image',
+    primaryKeyword: 'Compressore di immagini',
+    alternateKeywords: ['comprimere immagini', 'compressione immagini'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/it', 'https://uselocaltools.com/it/tools/bulk-image-compressor'],
+    notes: 'Current Italian catalog uses “Compressore di immagini” and “comprimi immagini” task wording.',
+  },
+  {
+    locale: 'ja',
+    slug: 'json-formatter-validator',
+    primaryKeyword: 'JSONフォーマッター',
+    alternateKeywords: ['JSONの整形', 'JSON 構文チェック'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/ja/tools/json-formatter'],
+    notes: 'Current Japanese localized page uses “JSONフォーマッター” and describes JSON formatting and syntax validation.',
+  },
+  {
+    locale: 'ja',
+    slug: 'word-character-counter',
+    primaryKeyword: '単語数カウンター',
+    alternateKeywords: ['文字数カウンター', '単語数・文字数カウンター'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/ja/tools/word-counter'],
+    notes: 'Current Japanese localized page uses “単語数カウンター” and also exposes combined word/character-count wording.',
+  },
+  {
+    locale: 'ja',
+    slug: 'merge-pdf',
+    primaryKeyword: 'PDFを結合',
+    alternateKeywords: ['PDF 結合', 'PDFをまとめる'],
+    intent: 'tool',
+    sourceUrls: ['https://uselocaltools.com/ja/tools/merge-pdf'],
+    notes: 'Current Japanese localized page uses “PDFを結合” as the task heading and explains combining multiple PDFs in browser.',
+  },
+];
+
 export const INTERNATIONAL_KEYWORD_VALIDATIONS: readonly InternationalKeywordValidation[] = [
   ...BASE_INTERNATIONAL_KEYWORD_VALIDATIONS,
   ...CORE_PDF_VALIDATIONS,
+  ...ADDITIONAL_CATALOG_VALIDATIONS,
 ];
 
 export function getInternationalKeywordValidation(locale: string, slug: string) {
