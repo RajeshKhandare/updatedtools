@@ -46,7 +46,7 @@ export default function Footer() {
           {/* Quick {ui.categoriesLabel} */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-900 dark:text-white">
-              Categories
+              {ui.categoriesLabel}
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
@@ -75,7 +75,7 @@ export default function Footer() {
           {/* {ui.popularToolsLabel} */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-900 dark:text-white">
-              Popular Tools
+              {ui.popularToolsLabel}
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
