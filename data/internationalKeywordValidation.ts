@@ -176,6 +176,18 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['ja','word-character-counter','単語数カウンター',['文字数カウント'],'https://uselocaltools.com/ja'],
+    ['ja','text-case-converter','大文字・小文字変換',['大文字小文字変換'],'https://uselocaltools.com/ja'],
+    ['ja','remove-duplicate-lines','重複行を削除',['重複行削除'],'https://uselocaltools.com/ja'],
+    ['ja','lorem-ipsum-generator','Lorem Ipsum 生成',['ダミーテキスト生成'],'https://uselocaltools.com/ja'],
+    ['ja','find-replace-text','テキストの検索と置換',['検索と置換'],'https://uselocaltools.com/ja'],
+    ['ja','remove-html-tags','HTMLタグを削除する',['HTMLタグ削除'],'https://uselocaltools.com/ja'],
+    ['ja','reverse-text-mirror-tool','テキストリバース',['逆さ文字'],'https://uselocaltools.com/ja'],
+    ['ja','text-diff-checker','2つのテキストをオンライン比較',['テキスト比較'],'https://uselocaltools.com/ja'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Observed localized terminology on a Japanese public tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['pt-BR','word-character-counter','Contador de palavras',['contador de caracteres'],'https://www.funnytools.win/pt-br/'],
     ['pt-BR','text-case-converter','Conversor de maiúsculas e minúsculas',['converter caixa de texto'],'https://www.funnytools.win/pt-br/'],
     ['pt-BR','remove-duplicate-lines','Remover linhas duplicadas',['linhas duplicadas'],'https://www.funnytools.win/pt-br/'],
