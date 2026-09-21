@@ -307,6 +307,24 @@ const ADDITIONAL_LOCAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidat
  */
 const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
+  // Additional localized developer/image terminology observed in current public catalogs
+  ...([
+    ['es','svg-to-png-converter','Convertidor SVG a PNG',['SVG a PNG'],'https://uselocaltools.com/es'],
+    ['es','png-to-jpg-converter','Convertidor PNG a JPG',['PNG a JPG'],'https://funnytools.win/es/herramientas/'],
+    ['es','jpg-to-png-converter','Convertidor JPG a PNG',['JPG a PNG'],'https://funnytools.win/es/herramientas/'],
+    ['es','image-resizer','Redimensionar imagen',['redimensionador de imágenes'],'https://uselocaltools.com/es'],
+    ['de','svg-to-png-converter','SVG in PNG umwandeln',['SVG zu PNG'],'https://www.pageonaut.com/de/'],
+    ['de','png-to-jpg-converter','PNG in JPG umwandeln',['PNG zu JPG'],'https://www.pageonaut.com/de/'],
+    ['de','jpg-to-png-converter','JPG in PNG umwandeln',['JPG zu PNG'],'https://www.pageonaut.com/de/'],
+    ['fr','svg-to-png-converter','Convertisseur SVG en PNG',['SVG vers PNG'],'https://experttoolskit.com/fr/'],
+    ['fr','png-to-jpg-converter','Convertisseur PNG en JPG',['PNG vers JPG'],'https://experttoolskit.com/fr/'],
+    ['fr','jpg-to-png-converter','Convertisseur JPG en PNG',['JPG vers PNG'],'https://experttoolskit.com/fr/'],
+    ['it','svg-to-png-converter','Convertitore SVG in PNG',['SVG a PNG'],'https://uselocaltools.com/it'],
+    ['it','png-to-jpg-converter','Convertitore PNG in JPG',['PNG a JPG'],'https://uselocaltools.com/it'],
+    ['it','jpg-to-png-converter','Convertitore JPG in PNG',['JPG a PNG'],'https://uselocaltools.com/it'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current localized public tool catalog; validates wording/intent only, not search volume or ranking.'})),
+
+
   // Additional finance/calculator terminology observed in current German catalogs
   ...([
     ['de','tip-calculator','Trinkgeld Rechner',['Trinkgeldrechner'],'https://microapp.io/de/'],
