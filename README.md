@@ -48,3 +48,6 @@ Many utilities process inputs in the browser, while compiler tools use a runtime
 The project is configured for Vercel. GitHub/Vercel checks should be treated as the deployment source of truth after each production change.
 
 The final production domain will be configured through `NEXT_PUBLIC_SITE_URL` after domain purchase and DNS setup; no production-domain value is hardcoded in the repository before then.
+
+### Deployment verification
+The `rebrand-toolployee` branch is used for preview verification. Changes should be visually and functionally checked on the Vercel preview before any merge into `main`.
