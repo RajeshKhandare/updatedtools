@@ -55,7 +55,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
           <ToolEngineRunner tool={tool} locale={locale.code} />
         </div>
 
-        <ToolSeoContent tool={tool} />
+        <ToolSeoContent tool={tool} locale={locale.code} />
 
         <section className="mt-10 rounded-3xl border border-amber-200/80 dark:border-amber-900/40 bg-amber-50/60 dark:bg-amber-950/10 p-6">
           <h2 className="text-lg font-bold">{ui.guideLabel}</h2>
