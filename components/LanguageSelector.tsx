@@ -108,72 +108,33 @@ export default function LanguageSelector() {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // 1. Check existing cookie
-    const match = document.cookie.match(/googtrans=\/en\/([a-zA-Z-]+)/);
-    if (match && match[1]) {
-      const code = match[1] === 'zh-CN' ? 'zh' : match[1];
-      setSelectedLang(code);
-    }
-
-    // 2. Continuous DOM observer to stop Google from injecting inline "top: 40px"
-    const observer = new MutationObserver(() => {
-      if (document.body.style.top !== '0px' && document.body.style.top !== '') {
-        document.body.style.setProperty('top', '0px', 'important');
-      }
-      if (document.documentElement.style.top !== '0px' && document.documentElement.style.top !== '') {
-        document.documentElement.style.setProperty('top', '0px', 'important');
-      }
-    });
-
-    observer.observe(document.body, { attributes: true, attributeFilter: ['style'] });
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['style'] });
-
-    // 3. Inject Google script silently
-    if (!document.getElementById('google-translate-hidden-script')) {
-      const script = document.createElement('script');
-      script.id = 'google-translate-hidden-script';
-      script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInitHidden';
-      script.async = true;
-      document.body.appendChild(script);
-
-      (window as any).googleTranslateElementInitHidden = () => {
-        new (window as any).google.translate.TranslateElement(
-          { pageLanguage: 'en', autoDisplay: false },
-          'google_hidden_engine'
-        );
-      };
-    }
+    const path = window.location.pathname;
+    const match = path.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
+    setSelectedLang(match?.[1] || 'en');
 
     const handleClickOutside = (e: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
-        setIsOpen(false);
-      }
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) setIsOpen(false);
     };
     document.addEventListener('mousedown', handleClickOutside);
-
-    return () => {
-      observer.disconnect();
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const switchLanguage = (langCode: string) => {
     setSelectedLang(langCode);
     setIsOpen(false);
+    document.cookie = `toolployee-locale=${langCode}; path=/; max-age=31536000; SameSite=Lax`;
 
-    const targetCode = langCode === 'zh' ? 'zh-CN' : langCode;
-    document.cookie = `googtrans=/en/${targetCode}; path=/; domain=${window.location.hostname}`;
-    document.cookie = `googtrans=/en/${targetCode}; path=/;`;
-    window.location.reload();
+    const path = window.location.pathname;
+    const localePattern = /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?=\/|$)/;
+    const englishPath = path.replace(localePattern, '') || '/';
+    const targetPath = langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
+    window.location.assign(targetPath);
   };
 
   const current = LANGUAGES.find((l) => l.code === selectedLang) || LANGUAGES[0];
 
   return (
     <div className="relative notranslate" ref={dropdownRef}>
-      <div id="google_hidden_engine" className="hidden" />
-
-      {/* Styled Button with Crisp Vector Flag */}
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
@@ -184,7 +145,6 @@ export default function LanguageSelector() {
         <ChevronDown className={`h-3 w-3 text-zinc-400 transition-transform ${isOpen ? 'rotate-180 text-violet-600' : ''}`} />
       </button>
 
-      {/* Dropdown Menu */}
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 p-1.5 shadow-xl shadow-zinc-950/10 dark:shadow-zinc-950/50 z-50 animate-in fade-in zoom-in-95 duration-100 max-h-72 overflow-y-auto">
           {LANGUAGES.map((lang) => (
@@ -197,9 +157,7 @@ export default function LanguageSelector() {
                 {FLAG_ICONS[lang.code]}
                 <span className="leading-none">{lang.name}</span>
               </div>
-              {selectedLang === lang.code && (
-                <Check className="h-3.5 w-3.5 text-violet-600 dark:text-violet-400" />
-              )}
+              {selectedLang === lang.code && <Check className="h-3.5 w-3.5 text-violet-600 dark:text-violet-400" />}
             </button>
           ))}
         </div>
