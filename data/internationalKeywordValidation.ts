@@ -176,6 +176,31 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['pt-BR','word-character-counter','Contador de palavras',['contador de caracteres'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','text-case-converter','Conversor de maiúsculas e minúsculas',['converter caixa de texto'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','remove-duplicate-lines','Remover linhas duplicadas',['linhas duplicadas'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','lorem-ipsum-generator','Gerador de Lorem Ipsum',['texto Lorem Ipsum'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','find-replace-text','Localizar e substituir texto',['encontrar e substituir'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','remove-html-tags','Remover tags HTML',['remover tags HTML'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','markdown-to-html-converter','Conversor de Markdown para HTML',['Markdown para HTML'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','text-diff-checker','Comparador de textos',['comparar textos'],'https://www.funnytools.win/pt-br/'],
+    ['pt-BR','reverse-text-mirror-tool','Inverter texto',['texto invertido'],'https://www.funnytools.win/pt-br/'],
+    ['ko','word-character-counter','글자 수 세기',['단어 수 세기'],'https://www.calculator.co.kr/'],
+    ['ko','text-case-converter','대소문자 변환',['문자열 대소문자 변환'],'https://www.calculator.co.kr/'],
+    ['ko','remove-duplicate-lines','중복 줄 제거',['중복 행 제거'],'https://www.calculator.co.kr/'],
+    ['ko','lorem-ipsum-generator','Lorem Ipsum 생성기',['더미 텍스트 생성'],'https://www.calculator.co.kr/'],
+    ['ko','find-replace-text','찾기 및 바꾸기',['텍스트 찾기 바꾸기'],'https://www.calculator.co.kr/'],
+    ['ko','remove-html-tags','HTML 태그 제거',['HTML 태그 삭제'],'https://www.calculator.co.kr/'],
+    ['zh-CN','word-character-counter','字数统计',['字数统计器'],'https://www.calculator.net/'],
+    ['zh-CN','text-case-converter','大小写转换',['文本大小写转换'],'https://www.calculator.net/'],
+    ['zh-CN','remove-duplicate-lines','删除重复行',['重复行删除'],'https://www.calculator.net/'],
+    ['zh-CN','lorem-ipsum-generator','Lorem Ipsum生成器',['虚拟文本生成器'],'https://www.calculator.net/'],
+    ['zh-CN','find-replace-text','查找和替换文本',['查找替换'],'https://www.calculator.net/'],
+    ['zh-CN','remove-html-tags','删除HTML标签',['HTML标签清理'],'https://www.calculator.net/'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized text-tool terminology candidate from public tool resources; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['ko','compress-image','이미지 압축',['사진 압축'],'https://www.calculator.co.kr/'],
     ['ko','image-resizer','이미지 크기 조절',['사진 크기 변경'],'https://www.calculator.co.kr/'],
     ['ko','crop-image-online','온라인 이미지 자르기',['이미지 자르기'],'https://www.calculator.co.kr/'],
