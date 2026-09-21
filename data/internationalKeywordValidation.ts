@@ -329,7 +329,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['pt-BR','tip-calculator','Calculadora de gorjeta',['cálculo de gorjeta'],'https://www.webfacilita.com/'],
     ['pt-BR','compound-interest-calculator','Calculadora de juros compostos',['juros compostos'],'https://www.webfacilita.com/'],
     ['pt-BR','salary-calculator','Calculadora de salário',['cálculo de salário'],'https://www.webfacilita.com/'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Brazilian Portuguese tool catalog; terminology validation only.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Brazilian Portuguese tool catalog; terminology validation only.'})),
 
   // es — observed in Spanish-language utility catalogs
   ...([
@@ -352,7 +352,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['es','alphabetical-line-sorter','Ordenar líneas de texto',['ordenar texto alfabéticamente'],'https://funnytools.win/es/herramientas/'],
     ['es','percentage-calculator','Calculadora de porcentajes',['cálculo de porcentajes'],'https://uselocaltools.com/es'],
     ['es','unit-length-converter','Conversor de unidades',['convertidor de unidades'],'https://uselocaltools.com/es'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Spanish-language tool catalog; country-specific variants still require separate validation.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Spanish-language tool catalog; country-specific variants still require separate validation.'})),
 
   // de — observed in German tool catalogs
   ...([
@@ -378,7 +378,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['de','temperature-converter','Temperatur-Umrechner',['Temperatur umrechnen'],'https://www.pageonaut.com/de/tools'],
     ['de','bmi-calculator','BMI-Rechner',['BMI berechnen'],'https://www.pageonaut.com/de/tools'],
     ['de','percentage-calculator','Prozentrechner',['Prozent berechnen'],'https://www.pageonaut.com/de/tools'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current German-language tool catalog; wording is recorded as terminology evidence, not volume data.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current German-language tool catalog; wording is recorded as terminology evidence, not volume data.'})),
 
   // fr — observed in French catalogs
   ...([
@@ -412,7 +412,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['fr','retirement-calculator','Calculateur de retraite',['calcul retraite'],'https://experttoolskit.com/fr/'],
     ['fr','tip-calculator','Calculateur de pourboire',['calcul pourboire'],'https://experttoolskit.com/fr/'],
     ['fr','unit-length-converter','Convertisseur d’unités',['conversion d’unités'],'https://experttoolskit.com/fr/'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current French tool catalog; terminology evidence only.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current French tool catalog; terminology evidence only.'})),
 
   // it — observed in Italian catalogs
   ...([
@@ -438,7 +438,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['it','bmi-calculator','Calcolatore di IMC',['calcolatore BMI'],'https://uselocaltools.com/it'],
     ['it','discount-calculator','Calcolatore di sconti',['calcolo sconto'],'https://uselocaltools.com/it'],
     ['it','compound-interest-calculator','Calcolatore di interessi composti',['interessi composti'],'https://uselocaltools.com/it'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Italian tool catalog; terminology validation only.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Italian tool catalog; terminology validation only.'})),
 
   // ja — observed in Japanese catalogs
   ...([
@@ -460,7 +460,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['ja','discount-calculator','割引計算機',['割引計算'],'https://uselocaltools.com/ja'],
     ['ja','compound-interest-calculator','複利計算機',['複利計算'],'https://uselocaltools.com/ja'],
     ['ja','temperature-converter','摂氏・華氏変換',['温度変換'],'https://uselocaltools.com/ja'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Japanese tool catalog; Japanese spacing variants remain research candidates.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in the current Japanese tool catalog; Japanese spacing variants remain research candidates.'})),
 
   // ko — observed in Korean catalogs
   ...([
@@ -479,7 +479,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['ko','age-calculator','나이 계산기',['연령 계산기'],'https://www.oneclicktool.kr/'],
     ['ko','bmi-calculator','BMI 계산기',['BMI 계산'],'https://www.oneclicktool.kr/'],
     ['ko','word-character-counter','글자 수 세기',['단어 수 세기'],'https://www.oneclicktool.kr/'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Korean tool catalogs; native task wording is retained alongside English technical tokens.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Korean tool catalogs; native task wording is retained alongside English technical tokens.'})),
 
   // zh-CN — observed in Simplified Chinese catalogs
   ...([
@@ -516,7 +516,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['zh-CN','youtube-thumbnail-downloader','YouTube缩略图下载器',['YouTube缩略图'],'https://xiaobinguo.cn/'],
     ['zh-CN','youtube-tag-generator','YouTube标签生成器',['YouTube标签'],'https://xiaobinguo.cn/'],
     ['zh-CN','youtube-money-calculator','YouTube收益计算器',['YouTube收入计算器'],'https://xiaobinguo.cn/'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Simplified Chinese tool catalogs; terminology is compact and task-oriented.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Simplified Chinese tool catalogs; terminology is compact and task-oriented.'})),
 
   // ru — observed in Russian catalogs
   ...([
@@ -549,7 +549,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['ru','youtube-thumbnail-downloader','Скачать миниатюру YouTube',['Скачать превью YouTube'],'https://usetoolz.ru/'],
     ['ru','youtube-tag-generator','Генератор тегов YouTube',['Теги YouTube'],'https://usetoolz.ru/'],
     ['ru','youtube-money-calculator','Калькулятор доходов YouTube',['Доход YouTube'],'https://usetoolz.ru/'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Russian-language utility catalogs; terminology evidence only.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Russian-language utility catalogs; terminology evidence only.'})),
 
   // ar — observed in Arabic catalogs
   ...([
@@ -576,7 +576,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['ar','retirement-calculator','حاسبة التقاعد',['حساب التقاعد'],'https://experttoolskit.com/ar/'],
     ['ar','unit-length-converter','محوّل الوحدات',['تحويل الوحدات'],'https://experttoolskit.com/ar/'],
     ['ar','youtube-thumbnail-downloader','تحميل صورة مصغرة من YouTube',['تحميل صورة يوتيوب المصغرة'],'https://experttoolskit.com/ar/tools/'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Arabic tool catalogs; technical tokens remain in common Latin-script form where the catalog does.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Arabic tool catalogs; technical tokens remain in common Latin-script form where the catalog does.'})),
 
   // hi — observed in Hindi/Indian catalogs
   ...([
@@ -614,7 +614,7 @@ const EVIDENCE_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = 
     ['hi','youtube-tag-generator','YouTube टैग जनरेटर',['YouTube टैग बनाने का टूल'],'https://fastols.com/hi/'],
     ['hi','youtube-money-calculator','YouTube मनी कैलकुलेटर',['YouTube कमाई कैलकुलेटर'],'https://fastols.com/hi/'],
     ['hi','instant-qr-code-generator','QR कोड जनरेटर',['QR code बनाने का टूल'],'https://fastols.com/hi/'],
-  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:alternate,intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Hindi/Indian tool catalogs; Hinglish and English technical tokens are intentionally retained.'})),
+  ] as const).map(([locale,slug,primary,alternate,sourceUrls]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrls],notes:'Observed in current Hindi/Indian tool catalogs; Hinglish and English technical tokens are intentionally retained.'})),
 ];
 
 
