@@ -176,6 +176,19 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['it','split-pdf','Dividi PDF',['separare PDF'],'https://makeitpdf.com/it/'],
+    ['it','pdf-to-jpg','PDF in JPG',['convertire PDF in JPG'],'https://makeitpdf.com/it/'],
+    ['it','jpg-to-pdf','JPG in PDF',['convertire JPG in PDF'],'https://makeitpdf.com/it/'],
+    ['ja','split-pdf','PDFを分割',['PDF分割'],'https://uselocaltools.com/ja'],
+    ['ja','pdf-to-jpg','PDFをJPGに変換',['PDFを画像に変換'],'https://uselocaltools.com/ja'],
+    ['ja','jpg-to-pdf','JPGをPDFに変換',['画像をPDFに変換'],'https://uselocaltools.com/ja'],
+    ['ko','split-pdf','PDF 분할',['PDF 나누기'],'https://uselocaltools.com/ko'],
+    ['ko','pdf-to-jpg','PDF를 JPG로 변환',['PDF 이미지 변환'],'https://uselocaltools.com/ko'],
+    ['ko','jpg-to-pdf','JPG를 PDF로 변환',['이미지를 PDF로 변환'],'https://uselocaltools.com/ko'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Localized PDF terminology candidate from a public language-specific tool catalog; wording evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['pt-BR','split-pdf','Dividir PDF',['separar PDF'],'https://makeitpdf.com/pt/'],
     ['pt-BR','pdf-to-jpg','PDF para JPG',['converter PDF para JPG'],'https://makeitpdf.com/pt/'],
     ['pt-BR','jpg-to-pdf','JPG para PDF',['converter JPG para PDF'],'https://makeitpdf.com/pt/'],
