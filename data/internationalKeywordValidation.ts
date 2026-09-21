@@ -176,6 +176,25 @@ const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 const ADDITIONAL_CATALOG_VALIDATIONS: readonly InternationalKeywordValidation[] = [
 
   ...([
+    ['ja','remove-html-tags','HTMLタグ削除',['HTMLタグを削除'],'https://uselocaltools.com/ja'],
+    ['ja','find-replace-text','検索と置換',['文字列の検索と置換'],'https://uselocaltools.com/ja'],
+    ['ja','reverse-text-mirror-tool','テキスト反転',['文字列を反転'],'https://uselocaltools.com/ja'],
+    ['ja','alphabetical-line-sorter','行の並べ替え',['アルファベット順に並べ替え'],'https://uselocaltools.com/ja'],
+    ['ja','clean-url-slug-generator','URLスラッグ生成',['スラッグ生成'],'https://uselocaltools.com/ja'],
+    ['ja','unix-timestamp-converter','Unixタイムスタンプ変換',['Unix時間変換'],'https://uselocaltools.com/ja'],
+    ['ja','base64-encoder-decoder','Base64エンコード・デコード',['Base64変換'],'https://uselocaltools.com/ja'],
+    ['ja','url-component-encoder-decoder','URLエンコード・デコード',['URLエンコード'],'https://uselocaltools.com/ja'],
+    ['ja','uuid-guid-v4-generator','UUID生成',['UUIDジェネレーター'],'https://uselocaltools.com/ja'],
+    ['ja','strong-password-generator','パスワード生成',['安全なパスワード生成'],'https://uselocaltools.com/ja'],
+    ['ja','instant-qr-code-generator','QRコード作成',['QRコード生成'],'https://uselocaltools.com/ja'],
+    ['ja','image-resizer','画像サイズ変更',['画像リサイズ'],'https://uselocaltools.com/ja'],
+    ['ja','compress-image','画像圧縮',['画像を圧縮'],'https://uselocaltools.com/ja'],
+    ['ja','webp-to-png-converter','WebPをPNGに変換',['WebP PNG変換'],'https://uselocaltools.com/ja'],
+    ['ja','png-to-jpg-converter','PNGをJPGに変換',['PNG JPG変換'],'https://uselocaltools.com/ja'],
+  ] as const).map(([locale,slug,primary,alternate,sourceUrl]) => ({locale,slug,primaryKeyword:primary,alternateKeywords:[...alternate],intent:'tool' as const,sourceUrls:[sourceUrl],notes:'Terminology observed in a current Japanese localized public tool catalog; wording/intent evidence only, not search volume or ranking.'})),
+
+
+  ...([
     ['it','remove-html-tags','Rimuovi i tag HTML',['rimuovere tag HTML'],'https://uselocaltools.com/it'],
     ['it','word-character-counter','Contatore di parole',['contatore di caratteri','conta parole online'],'https://uselocaltools.com/it'],
     ['it','text-diff-checker','Confronta due testi online',['confronto testi'],'https://uselocaltools.com/it'],
