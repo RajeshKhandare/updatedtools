@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SITE_NAME } from '@/config/site';
 import { Send, CheckCircle2, MessageSquare, Sparkles, ShieldAlert } from 'lucide-react';
 
 export default function ContactPage() {
@@ -26,7 +27,7 @@ export default function ContactPage() {
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          from_name: 'TheToolsGenie Inquiries',
+          from_name: `${SITE_NAME} Inquiries`,
         }),
       });
 
