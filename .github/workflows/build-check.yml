@@ -20,6 +20,9 @@ jobs:
         run: npm install --no-audit --no-fund
 
 
+      - name: Verify international SEO foundation
+        run: npm run verify:international-seo
+
       - name: Build
         run: npm run build
 
