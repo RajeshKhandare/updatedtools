@@ -54,12 +54,13 @@ export default function LocalizedHomeClient({ localeCode }: { localeCode: string
   if (!locale || locale.code==='en') return null;
   const ui = getLocalizedUi(locale.code);
   const copy = COPY[locale.code];
+  const localLabel: Record<string,string> = { pt:'Local', es:'Local', de:'Lokal', fr:'Local', it:'Locale', ja:'ローカル', ko:'로컬', zh:'本地', ru:'Локально', ar:'محلي', hi:'लोकल' };
   const [query,setQuery]=useState('');
   const [category,setCategory]=useState('All');
   const [faq,setFaq]=useState<number|null>(null);
   const tools=useMemo(()=>TOOLS_REGISTRY.filter(t=>
     (category==='All'||t.category===category) &&
-    (!query.trim()||t.name.toLowerCase().includes(query.toLowerCase()))
+    (!query.trim()||t.name.toLowerCase().includes(query.toLowerCase())||getLocalizedToolName(t,locale.code).toLowerCase().includes(query.toLowerCase()))
   ),[query,category]);
 
   return <main lang={locale.code} dir={locale.code==='ar'?'rtl':'ltr'} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
@@ -103,7 +104,7 @@ export default function LocalizedHomeClient({ localeCode }: { localeCode: string
       <div className="rounded-3xl border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-8 sm:p-12 shadow-sm">
         <div className="max-w-2xl mx-auto text-center"><span className="inline-flex items-center gap-1.5 rounded-full border border-violet-200 dark:border-violet-900/60 bg-violet-50 dark:bg-violet-950/40 px-3 py-1 text-[11px] font-bold text-violet-700 dark:text-violet-300 uppercase tracking-wider"><ShieldCheck className="h-3.5 w-3.5"/>{copy.privacyBadge}</span><h2 className="mt-4 text-2xl sm:text-3xl font-extrabold">{copy.privacyTitle}</h2><p className="mt-2 text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">{copy.privacyDescription}</p></div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">{[{icon:<Lock className="h-5 w-5"/>,t:copy.privacyOne,d:copy.privacyOneDesc},{icon:<Zap className="h-5 w-5"/>,t:copy.privacyTwo,d:copy.privacyTwoDesc},{icon:<Cpu className="h-5 w-5"/>,t:copy.privacyThree,d:copy.privacyThreeDesc}].map((x,i)=><div key={i} className="rounded-2xl border border-zinc-100 dark:border-zinc-800 bg-zinc-50/60 dark:bg-zinc-950/40 p-6"><div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-100 dark:bg-violet-950/60 text-violet-600 mb-4">{x.icon}</div><h3 className="text-sm font-bold">{x.t}</h3><p className="mt-1.5 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{x.d}</p></div>)}</div>
-        <div className="mt-8 pt-8 border-t border-zinc-200/60 dark:border-zinc-800/60 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center"><div><p className="text-xl font-black text-violet-600">87</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{ui.toolsLabel}</p></div><div><p className="text-xl font-black text-violet-600">Local</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{copy.privacyTwo}</p></div><div><p className="text-xl font-black text-violet-600">Local</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{ui.browserLabel}</p></div><div><p className="text-xl font-black text-violet-600">$0</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{copy.privacyThree}</p></div></div>
+        <div className="mt-8 pt-8 border-t border-zinc-200/60 dark:border-zinc-800/60 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center"><div><p className="text-xl font-black text-violet-600">87</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{ui.toolsLabel}</p></div><div><p className="text-xl font-black text-violet-600">{localLabel[locale.code]}</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{copy.privacyTwo}</p></div><div><p className="text-xl font-black text-violet-600">Local</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{ui.browserLabel}</p></div><div><p className="text-xl font-black text-violet-600">$0</p><p className="text-[11px] font-semibold text-zinc-500 uppercase mt-0.5">{copy.privacyThree}</p></div></div>
       </div>
     </section>
 
