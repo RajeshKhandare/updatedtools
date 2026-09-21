@@ -13,7 +13,7 @@ export interface InternationalKeywordValidation {
  * This is intentionally a small, evidence-backed layer; unvalidated markets
  * remain research seeds until their wording is checked.
  */
-export const INTERNATIONAL_KEYWORD_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+const BASE_INTERNATIONAL_KEYWORD_VALIDATIONS: readonly InternationalKeywordValidation[] = [
   {
     locale: 'pt-BR',
     slug: 'merge-pdf',
@@ -144,6 +144,38 @@ export const INTERNATIONAL_KEYWORD_VALIDATIONS: readonly InternationalKeywordVal
     ],
     notes: 'Arabic pages consistently use “دمج PDF” / “دمج ملفات PDF”. Keep RTL copy natural rather than translating English word-for-word.',
   },
+];
+
+
+/**
+ * Core PDF intent validation expanded from current localized tool catalogs.
+ * These rows validate terminology/intent, not search-volume rankings.
+ */
+const CORE_PDF_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+  ...([
+    ['pt-BR','juntar PDF','dividir PDF','comprimir PDF','PDF para JPG','JPG para PDF','https://makeitpdf.com/pt/'],
+    ['es','unir PDF','dividir PDF','comprimir PDF','PDF a JPG','JPG a PDF','https://makeitpdf.com/es/'],
+    ['de','PDF zusammenfügen','PDF teilen','PDF komprimieren','PDF in JPG','JPG in PDF','https://makeitpdf.com/de/'],
+    ['fr','fusionner PDF','diviser PDF','compresser PDF','PDF en JPG','JPG en PDF','https://makeitpdf.com/fr/'],
+    ['it','unire PDF','dividere PDF','comprimere PDF','PDF in JPG','JPG in PDF','https://www.ilovepdf.com/it'],
+    ['ja','PDF 結合','PDF 分割','PDF 圧縮','PDFからJPG','JPGからPDF','https://www.ilovepdf.com/ja'],
+    ['ko','PDF 합치기','PDF 분할','PDF 압축','PDF → JPG','JPG → PDF','https://www.veryeasypdf.com/ko'],
+    ['zh-CN','合并PDF','拆分PDF','压缩PDF','PDF转JPG','JPG转PDF','https://www.financeplay.cn/'],
+    ['ru','Объединить PDF','Разделить PDF','Сжать PDF','PDF в JPG','JPG в PDF','https://www.ilovepdf.com/ru'],
+    ['ar','دمج PDF','تقسيم PDF','ضغط PDF','PDF إلى JPG','JPG إلى PDF','https://ta7wil.com/'],
+    ['hi','PDF मर्ज करें','PDF विभाजित करें','PDF कंप्रेस करें','PDF से JPG','JPG से PDF','https://www.ilovepdf.com/hi'],
+  ] as const).flatMap(([locale, merge, split, compress, pdfJpg, jpgPdf, sourceUrl]) => [
+    { locale, slug:'merge-pdf', primaryKeyword:merge, alternateKeywords:[`${merge} online`, `${merge} ${locale==='pt-BR'?'grátis':locale==='de'?'kostenlos':locale==='fr'?'gratuit':locale==='es'?'gratis':locale==='it'?'gratis':locale==='ja'?'オンライン':locale==='ko'?'온라인':locale==='zh-CN'?'在线':locale==='ru'?'онлайн':locale==='ar'?'أونلاين':locale==='hi'?'ऑनलाइन':'online'}`], intent:'tool' as const, sourceUrls:[sourceUrl], notes:'Localized catalog terminology observed for the core PDF task; modifier variants are query candidates and still require volume validation.' },
+    { locale, slug:'split-pdf', primaryKeyword:split, alternateKeywords:[`${split} online`], intent:'tool' as const, sourceUrls:[sourceUrl], notes:'Localized catalog terminology observed for the core PDF task; modifier variants are query candidates and still require volume validation.' },
+    { locale, slug:'compress-pdf', primaryKeyword:compress, alternateKeywords:[`${compress} online`], intent:'tool' as const, sourceUrls:[sourceUrl], notes:'Localized catalog terminology observed for the core PDF task; modifier variants are query candidates and still require volume validation.' },
+    { locale, slug:'pdf-to-jpg', primaryKeyword:pdfJpg, alternateKeywords:[`${pdfJpg} online`], intent:'tool' as const, sourceUrls:[sourceUrl], notes:'Localized catalog terminology observed for the core PDF task; modifier variants are query candidates and still require volume validation.' },
+    { locale, slug:'jpg-to-pdf', primaryKeyword:jpgPdf, alternateKeywords:[`${jpgPdf} online`], intent:'tool' as const, sourceUrls:[sourceUrl], notes:'Localized catalog terminology observed for the core PDF task; modifier variants are query candidates and still require volume validation.' },
+  ]),
+];
+
+export const INTERNATIONAL_KEYWORD_VALIDATIONS: readonly InternationalKeywordValidation[] = [
+  ...BASE_INTERNATIONAL_KEYWORD_VALIDATIONS,
+  ...CORE_PDF_VALIDATIONS,
 ];
 
 export function getInternationalKeywordValidation(locale: string, slug: string) {
