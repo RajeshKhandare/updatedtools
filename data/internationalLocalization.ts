@@ -64,74 +64,7 @@ export const LOCALIZED_UI: Record<LocaleCode, LocalizedUi> = {
   ru: { toolLabel: 'Инструмент', toolsLabel: 'Инструменты', freeLabel: 'Бесплатный онлайн-инструмент', browserLabel: 'Работает в браузере', guideLabel: 'Руководство по инструменту', guideDescription: 'Этот локализованный маршрут входит в международное покрытие Toolployee. Руководства, FAQ, примеры и ключевые слова локализуются и проверяются отдельно.', openEnglish: 'Открыть английскую версию', relatedLabel: 'Похожие инструменты', categoriesLabel: 'Категории', popularToolsLabel: 'Популярные инструменты', platformLabel: 'Платформа', viewAllLabel: 'Показать все', aboutLabel: 'О нас', contactLabel: 'Поддержка', privacyLabel: 'Политика конфиденциальности', termsLabel: 'Условия использования', operationalLabel: '87 инструментов · Бесплатно', footerDescription: 'Бесплатные, быстрые и доступные цифровые инструменты для создателей, студентов и разработчиков. Редактируйте, считайте и конвертируйте прямо в браузере.', craftedLabel: 'Создано для скорости и конфиденциальности', description: 'Используйте этот инструмент в браузере без установки отдельного приложения.' },
   ar: { toolLabel: 'أداة', toolsLabel: 'أدوات', freeLabel: 'أداة مجانية عبر الإنترنت', browserLabel: 'تعمل في المتصفح', guideLabel: 'دليل الأداة', guideDescription: 'هذا المسار المترجم جزء من التغطية الدولية لـ Toolployee. تتم ترجمة الأدلة والأسئلة الشائعة والأمثلة والكلمات المفتاحية ومراجعتها بشكل منفصل.', openEnglish: 'فتح النسخة الإنجليزية', relatedLabel: 'أدوات ذات صلة', categoriesLabel: 'الفئات', popularToolsLabel: 'أدوات شائعة', platformLabel: 'المنصة', viewAllLabel: 'عرض الكل', aboutLabel: 'من نحن', contactLabel: 'الدعم', privacyLabel: 'سياسة الخصوصية', termsLabel: 'شروط الخدمة', operationalLabel: '87 أداة · مجانية', footerDescription: 'أدوات رقمية مجانية وسريعة وسهلة الاستخدام للمبدعين والطلاب والمطورين. حرر واحسب وحوّل مباشرة في المتصفح.', craftedLabel: 'مصممة للسرعة والخصوصية', description: 'استخدم هذه الأداة في المتصفح دون تثبيت تطبيق منفصل على سطح المكتب.' },
   hi: { toolLabel: 'टूल', toolsLabel: 'टूल्स', freeLabel: 'मुफ्त ऑनलाइन टूल', browserLabel: 'ब्राउज़र में काम करता है', guideLabel: 'टूल गाइड', guideDescription: 'यह लोकलाइज़्ड रूट Toolployee की अंतरराष्ट्रीय कवरेज का हिस्सा है। गाइड, FAQ, उदाहरण और कीवर्ड अलग से लोकलाइज़ और रिव्यू किए जाते हैं।', openEnglish: 'अंग्रेज़ी संस्करण खोलें', relatedLabel: 'संबंधित टूल्स', categoriesLabel: 'श्रेणियाँ', popularToolsLabel: 'लोकप्रिय टूल्स', platformLabel: 'प्लेटफ़ॉर्म', viewAllLabel: 'सभी देखें', aboutLabel: 'हमारे बारे में', contactLabel: 'सपोर्ट', privacyLabel: 'प्राइवेसी पॉलिसी', termsLabel: 'सेवा की शर्तें', operationalLabel: '87 टूल्स उपलब्ध · मुफ्त', footerDescription: 'क्रिएटर्स, छात्रों और डेवलपर्स के लिए मुफ्त, तेज़ और आसान डिजिटल टूल्स। ब्राउज़र में सीधे एडिट, कैलकुलेट और कन्वर्ट करें।', craftedLabel: 'स्पीड और प्राइवेसी के लिए बनाया गया', description: 'अलग डेस्कटॉप ऐप इंस्टॉल किए बिना इस टूल का उपयोग ब्राउज़र में करें।' },
-};port { TOOLS_REGISTRY, type ToolMeta } from './toolsRegistry';
-import { LOCALES, type LocaleCode } from './internationalSeo';
-import { getInternationalKeywordValidation } from './internationalKeywordValidation';
-
-export interface LocalizationCoverageRow {
-  locale: LocaleCode;
-  slug: string;
-  toolName: string;
-  status: 'source' | 'planned-localization';
-}
-
-export const INTERNATIONAL_LOCALIZATION_COVERAGE: readonly LocalizationCoverageRow[] =
-  LOCALES.flatMap((locale) =>
-    TOOLS_REGISTRY.map((tool) => ({
-      locale: locale.code,
-      slug: tool.slug,
-      toolName: tool.name,
-      status: locale.code === 'en' ? 'source' as const : 'planned-localization' as const,
-    }))
-  );
-
-export const INTERNATIONAL_LOCALIZATION_COVERAGE_SIZE =
-  INTERNATIONAL_LOCALIZATION_COVERAGE.length;
-
-export function getLocalizationCoverage(locale: LocaleCode, slug: string) {
-  return INTERNATIONAL_LOCALIZATION_COVERAGE.find(
-    (row) => row.locale === locale && row.slug === slug
-  );
-}
-
-export type LocalizedUi = {
-  toolLabel: string;
-  toolsLabel: string;
-  freeLabel: string;
-  browserLabel: string;
-  guideLabel: string;
-  guideDescription: string;
-  openEnglish: string;
-  relatedLabel: string;
-  categoriesLabel: string;
-  popularToolsLabel: string;
-  platformLabel: string;
-  viewAllLabel: string;
-  aboutLabel: string;
-  contactLabel: string;
-  privacyLabel: string;
-  termsLabel: string;
-  operationalLabel: string;
-  footerDescription: string;
-  craftedLabel: string;
-  description: string;
 };
-
-export const LOCALIZED_UI: Record<LocaleCode, LocalizedUi> = {
-  en: { toolLabel: 'Tool', freeLabel: 'Free online tool', browserLabel: 'Works in your browser', guideLabel: 'Tool guide', description: 'Use this browser-based utility without installing a separate desktop application.', relatedLabel: 'Related tools' },
-  pt: { toolLabel: 'Ferramenta', freeLabel: 'Ferramenta online gratuita', browserLabel: 'Funciona no navegador', guideLabel: 'Guia da ferramenta', description: 'Use esta ferramenta no navegador sem instalar um aplicativo separado.', relatedLabel: 'Ferramentas relacionadas' },
-  es: { toolLabel: 'Herramienta', freeLabel: 'Herramienta online gratuita', browserLabel: 'Funciona en tu navegador', guideLabel: 'Guía de la herramienta', description: 'Usa esta herramienta en el navegador sin instalar una aplicación independiente.', relatedLabel: 'Herramientas relacionadas' },
-  de: { toolLabel: 'Tool', freeLabel: 'Kostenloses Online-Tool', browserLabel: 'Funktioniert im Browser', guideLabel: 'Tool-Anleitung', description: 'Nutze dieses browserbasierte Tool ohne eine separate Desktop-Anwendung zu installieren.', relatedLabel: 'Ähnliche Tools' },
-  fr: { toolLabel: 'Outil', freeLabel: 'Outil en ligne gratuit', browserLabel: 'Fonctionne dans le navigateur', guideLabel: 'Guide de l’outil', description: 'Utilisez cet outil dans votre navigateur sans installer une application de bureau séparée.', relatedLabel: 'Outils associés' },
-  it: { toolLabel: 'Strumento', freeLabel: 'Strumento online gratuito', browserLabel: 'Funziona nel browser', guideLabel: 'Guida dello strumento', description: 'Usa questo strumento nel browser senza installare un’applicazione desktop separata.', relatedLabel: 'Strumenti correlati' },
-  ja: { toolLabel: 'ツール', freeLabel: '無料オンラインツール', browserLabel: 'ブラウザで利用できます', guideLabel: 'ツールガイド', description: '別のデスクトップアプリをインストールせず、ブラウザでこのツールを利用できます。', relatedLabel: '関連ツール' },
-  ko: { toolLabel: '도구', freeLabel: '무료 온라인 도구', browserLabel: '브라우저에서 실행', guideLabel: '도구 가이드', description: '별도의 데스크톱 애플리케이션을 설치하지 않고 브라우저에서 사용할 수 있습니다.', relatedLabel: '관련 도구' },
-  zh: { toolLabel: '工具', freeLabel: '免费在线工具', browserLabel: '可在浏览器中使用', guideLabel: '工具指南', description: '无需安装独立桌面应用，即可在浏览器中使用此工具。', relatedLabel: '相关工具' },
-  ru: { toolLabel: 'Инструмент', freeLabel: 'Бесплатный онлайн-инструмент', browserLabel: 'Работает в браузере', guideLabel: 'Руководство по инструменту', description: 'Используйте этот инструмент в браузере без установки отдельного приложения.', relatedLabel: 'Похожие инструменты' },
-  ar: { toolLabel: 'أداة', freeLabel: 'أداة مجانية عبر الإنترنت', browserLabel: 'تعمل في المتصفح', guideLabel: 'دليل الأداة', description: 'استخدم هذه الأداة في المتصفح دون تثبيت تطبيق منفصل على سطح المكتب.', relatedLabel: 'أدوات ذات صلة' },
-  hi: { toolLabel: 'टूल', freeLabel: 'मुफ्त ऑनलाइन टूल', browserLabel: 'ब्राउज़र में काम करता है', guideLabel: 'टूल गाइड', description: 'अलग डेस्कटॉप ऐप इंस्टॉल किए बिना इस टूल का उपयोग ब्राउज़र में करें।', relatedLabel: 'संबंधित टूल' },
-};
-
 const NAME_PHRASES: Record<string, Partial<Record<LocaleCode, string>>> = {
   'Merge PDF': { pt: 'Juntar PDF', es: 'Unir PDF', de: 'PDF zusammenfügen', fr: 'Fusionner PDF', it: 'Unire PDF', ja: 'PDF 結合', ko: 'PDF 합치기', zh: '合并PDF', ru: 'Объединить PDF', ar: 'دمج PDF', hi: 'PDF मर्ज करें' },
   'Split PDF': { pt: 'Dividir PDF', es: 'Dividir PDF', de: 'PDF teilen', fr: 'Diviser PDF', it: 'Dividere PDF', ja: 'PDF 分割', ko: 'PDF 분할', zh: '拆分PDF', ru: 'Разделить PDF', ar: 'تقسيم PDF', hi: 'PDF विभाजित करें' },
