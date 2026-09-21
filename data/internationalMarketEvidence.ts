@@ -14,8 +14,8 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
   {
     locale: 'pt-BR',
     market: 'Brazil',
-    sourceUrls: ['https://www.webfacilita.com/', 'https://andev.app/pt/', 'https://makeitpdf.com/pt/', 'https://uselocaltools.com/pt-BR'],
-    observedTerms: ['Juntar PDF', 'Comprimir Imagem', 'Contador de Palavras', 'Gerador de QR Code', 'Formatador de JSON', 'Dividir PDF', 'Comprimir PDF', 'PDF para Word', 'PDF para JPG', 'JPG para PDF', 'Proteger PDF', 'Desbloquear PDF', 'Girar PDF', 'Adicionar números de página', 'Calculadora de porcentagem', 'Calculadora de idade', 'Calculadora de IMC', 'Calculadora de desconto', 'Calculadora de gorjeta', 'Calculadora de juros compostos', 'Calculadora de salário'],
+    sourceUrls: ['https://www.webfacilita.com/', 'https://andev.app/pt/', 'https://makeitpdf.com/pt/', 'https://uselocaltools.com/pt-BR', 'https://codecrush.com.br/ferramentas/formatador-json', 'https://iotools.cloud/pt/'],
+    observedTerms: ['Juntar PDF', 'Comprimir Imagem', 'Contador de Palavras', 'Gerador de QR Code', 'Formatador de JSON', 'Dividir PDF', 'Comprimir PDF', 'PDF para Word', 'PDF para JPG', 'JPG para PDF', 'Proteger PDF', 'Desbloquear PDF', 'Girar PDF', 'Adicionar números de página', 'Calculadora de porcentagem', 'Calculadora de idade', 'Calculadora de IMC', 'Calculadora de desconto', 'Calculadora de gorjeta', 'Calculadora de juros compostos', 'Calculadora de salário', 'Formatador e Validador JSON Online', 'Codificador e decodificador Base64', 'Codificador de URL e decodificador', 'Codificador e decodificador de entidades HTML', 'Minificador CSS', 'Conversor de Maiúsculas/Minúsculas', 'Redimensionador de imagens', 'Otimizador de Imagem', 'Gerador de Paleta de Cores'],
     notes: 'Brazilian Portuguese catalogs use natural task wording such as “juntar”, and also explicitly frame tools as online/free.',
   },
   {
@@ -28,8 +28,8 @@ export const INTERNATIONAL_MARKET_EVIDENCE: readonly InternationalMarketEvidence
   {
     locale: 'de',
     market: 'Germany / DACH',
-    sourceUrls: ['https://www.pageonaut.com/de/', 'https://www.pageonaut.com/de/tools', 'https://makeitpdf.com/de/', 'https://onejobkit.com/de'],
-    observedTerms: ['PDF zusammenfügen', 'Bild komprimieren', 'Wörterzähler', 'QR-Code-Generator', 'JSON formatieren', 'Prozentrechner', 'PDF teilen', 'PDF komprimieren', 'PDF in Word', 'PDF in JPG', 'JPG in PDF', 'PDF schützen', 'PDF entsperren', 'PDF drehen', 'Seitenzahlen hinzufügen', 'Bildgröße ändern', 'Bild zuschneiden', 'JSON-Formatierer', 'Base64 kodieren / dekodieren', 'URL kodieren / dekodieren', 'JWT-Decoder', 'UUID-Generator', 'Passwort-Generator', 'Groß-/Kleinschreibung umwandeln', 'Wörter und Zeichen zählen', 'Doppelte Zeilen entfernen', 'Zeilen sortieren', 'Slug erzeugen', 'Einheiten-Umrechner', 'Temperatur-Umrechner', 'BMI-Rechner'],
+    sourceUrls: ['https://www.pageonaut.com/de/', 'https://www.pageonaut.com/de/tools', 'https://makeitpdf.com/de/', 'https://onejobkit.com/de', 'https://de.vivoldi.com/tools/', 'https://turboutilkit.com/de/jsonformatter/'],
+    observedTerms: ['PDF zusammenfügen', 'Bild komprimieren', 'Wörterzähler', 'QR-Code-Generator', 'JSON formatieren', 'Prozentrechner', 'PDF teilen', 'PDF komprimieren', 'PDF in Word', 'PDF in JPG', 'JPG in PDF', 'PDF schützen', 'PDF entsperren', 'PDF drehen', 'Seitenzahlen hinzufügen', 'Bildgröße ändern', 'Bild zuschneiden', 'JSON-Formatierer', 'Base64 kodieren / dekodieren', 'URL kodieren / dekodieren', 'JWT-Decoder', 'UUID-Generator', 'Passwort-Generator', 'Groß-/Kleinschreibung umwandeln', 'Wörter und Zeichen zählen', 'Doppelte Zeilen entfernen', 'Zeilen sortieren', 'Slug erzeugen', 'Einheiten-Umrechner', 'Temperatur-Umrechner', 'BMI-Rechner', 'YouTube-Thumbnail', 'JSON-Formatter', 'URL De-/Encoder', 'Base64 De/Encoder', 'User Agent Check', 'Zeichenzähler', 'WebP-Konverter', 'Bildgröße ändern'],
     notes: 'German catalogs favor compact native compounds and action phrases rather than literal English translations.',
   },
   {
