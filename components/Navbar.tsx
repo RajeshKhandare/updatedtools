@@ -73,10 +73,10 @@ export default function Navbar() {
         
         {/* Brand Logo */}
         <Link href={currentLocale === 'en' ? '/' : `/${currentLocale}`} className="flex items-center gap-2.5 shrink-0">
-          <BrandMark className="h-9 w-9" iconClassName="h-6 w-6" />
-          <div>
-            <span className="text-base font-black tracking-tight text-zinc-950 dark:text-white">
-              {SITE_NAME}
+          <BrandMark className="h-10 w-10" />
+          <div className="leading-none">
+            <span className="text-[18px] font-black tracking-[-0.045em] text-zinc-950 dark:text-white">
+              Tool<span className="bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-500 bg-clip-text text-transparent">ployee</span>
             </span>
             <span className="hidden sm:block text-[9px] font-bold uppercase tracking-widest text-zinc-400">
               {ui.toolsLabel}
