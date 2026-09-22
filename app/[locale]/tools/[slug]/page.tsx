@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
-import { getLocalizedToolSeoContent } from '@/data/toolSeo';
+import { getLocalizedToolSeoContent, getToolSeoContent } from '@/data/toolSeo';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
 import ToolSeoContent from '@/components/ToolSeoContent';
 import Navbar from '@/components/Navbar';
