@@ -21,9 +21,110 @@ ar:{about:['حول Toolployee','نجعل المهام الرقمية اليوم�
 hi:{about:['Toolployee के बारे में','रोज़मर्रा के डिजिटल कामों को','आसान बनाना।','PDF, इमेज, डेवलपमेंट, टेक्स्ट, कन्वर्ज़न, कैलकुलेशन, फाइनेंस, कंपाइलर और YouTube के लिए मुफ्त टूल हब।','सभी मुफ्त टूल्स देखें','हमारी यात्रा','रोज़मर्रा की असली परेशानियों को हल करने के लिए','Toolployee उपयोगी डिजिटल टूल्स को एक साफ इंटरफेस में लाता है। आसान कामों के लिए भारी सॉफ्टवेयर या अनिवार्य अकाउंट की जरूरत नहीं है।','मुख्य मूल्य','Toolployee को क्या दिशा देता है','तेज़ और आसान|प्राइवेसी पहले|सभी के लिए मुफ्त|कम्युनिटी फीडबैक'],contact:['संपर्क और सपोर्ट','हम आपकी','कैसे मदद कर सकते हैं?','टूल रिक्वेस्ट, sandbox समस्या या नए compiler का सुझाव है? इसे तकनीकी टीम को भेजें।','सख्त प्राइवेसी और जीरो स्पैम','आपका ईमेल सपोर्ट जवाबों के लिए है, मार्केटिंग के लिए नहीं।','मैसेज भेज दिया गया!','धन्यवाद। हमारी टीम 24–48 घंटे में इसे देखेगी।','दूसरा मैसेज भेजें','नाम','ईमेल','आपका मैसेज','आपका नाम','फीडबैक, बग रिपोर्ट या टूल रिक्वेस्ट लिखें...','मैसेज भेजें','भेज रहे हैं...','अभी मैसेज भेजा नहीं जा सका।'],privacy:['विश्वास और सुरक्षा','प्राइवेसी पॉलिसी','प्रभावी: सितंबर 2026','1. प्रोसेसिंग आर्किटेक्चर','कई PDF, इमेज, टेक्स्ट और कैलकुलेटर काम ब्राउज़र में चलते हैं। Compiler tools configured runtime को code भेज सकते हैं।','2. डेटा रिटेंशन और टैब बंद करना','हम user accounts या personal profiles नहीं रखते। Local data सामान्य browser behavior के अनुसार रह सकता है।','3. थर्ड-पार्टी Analytics और Cookies','प्लेटफॉर्म को मुफ्त रखने के लिए Google AdSense जैसी सेवाओं और analytics का उपयोग हो सकता है।'],terms:['कानूनी शर्तें','सेवा की शर्तें','अंतिम अपडेट: सितंबर 2026','1. स्वीकृति और उपलब्धता','Toolployee का उपयोग करके आप इन शर्तों से सहमत हैं। टूल्स “जैसे हैं” आधार पर दिए जाते हैं।','2. Commercial Rights और Ownership','हमारे टूल्स से बनाए या compiled assets का ownership आपका रहता है और लागू कानून के अनुसार उपयोग किया जा सकता है।','3. Financial और Informational Disclaimer','Calculators केवल mathematical estimates देते हैं और formal investment advice नहीं हैं।']}
 };
 
-export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;page:'about'|'contact'|'privacy'|'terms'}){
- const c=COPY[locale]||COPY.en,dir=locale==='ar'?'rtl':'ltr';
- if(page==='about'){const a=c.about;return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between"><div><Navbar/><section className="mx-auto max-w-5xl px-4 pt-8 pb-10 text-center"><span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span><h1 className="mt-2 text-3xl sm:text-5xl font-black">{a[1]} <span className="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">{a[2]}</span></h1><p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">{a[3]}</p><a href={'/'+locale+'#tools'} className="mt-6 inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-5 py-2.5 text-xs font-bold text-white">{a[4]}</a></section><main className="mx-auto max-w-4xl px-4 py-12 space-y-12"><section><span className="text-xs font-bold uppercase tracking-wider text-violet-600">{a[5]}</span><h2 className="text-2xl font-extrabold mt-1">{a[6]}</h2><p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{a[7]}</p></section><section><span className="text-xs font-bold uppercase tracking-wider text-violet-600">{a[8]}</span><h2 className="text-2xl font-extrabold mt-1">{a[9]}</h2><div className="grid sm:grid-cols-2 gap-4 mt-5">{a[10].split('|').map((v,i)=><div key={v} className="rounded-2xl border bg-white dark:bg-zinc-900 p-5"><h3 className="text-sm font-bold">{v}</h3><p className="mt-2 text-xs text-zinc-500">{a[7]}</p></div>)}</div></section></main></div><Footer/></div>}
- if(page==='contact'){const a=c.contact;return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between"><div><Navbar/><main className="mx-auto max-w-5xl px-4 py-16"><div className="grid lg:grid-cols-12 gap-12"><div className="lg:col-span-5 space-y-6"><span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span><h1 className="text-4xl sm:text-5xl font-black">{a[1]} <span className="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">{a[2]}</span></h1><p className="text-sm text-zinc-600 dark:text-zinc-400">{a[3]}</p><div className="rounded-2xl border p-5"><div className="text-xs font-bold text-violet-600">{a[4]}</div><p className="mt-2 text-xs text-zinc-500">{a[5]}</p></div></div><div className="lg:col-span-7 rounded-3xl border bg-white dark:bg-zinc-900 p-8"><h2 className="text-lg font-bold">{a[6]}</h2><p className="mt-2 text-sm text-zinc-500">{a[7]}</p><a href={'/'+locale+'/contact'} className="mt-6 inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-6 py-3 text-xs font-bold text-white">{a[8]}</a></div></div></main></div><Footer/></div>}
- const a=page==='privacy'?c.privacy:c.terms;return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between"><div><Navbar/><main className="mx-auto max-w-4xl px-4 py-16"><div className="rounded-3xl border bg-white dark:bg-zinc-900 p-8 sm:p-12 space-y-8"><div className="border-b pb-6"><span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span><h1 className="mt-2 text-3xl sm:text-4xl font-black">{a[1]}</h1><p className="mt-1 text-xs text-zinc-500">{a[2]}</p></div><section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[3]}</h2><p>{a[4]}</p></section><section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[5]}</h2><p>{a[4]}</p></section><section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[6]}</h2><p>{a[6]}</p></section></div></main></div><Footer/></div>;
+export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;page:'about'|'contact'|'privacy'|'terms'}) {
+  const c=COPY[locale] || COPY.en;
+  const dir=locale==='ar'?'rtl':'ltr';
+
+  if(page==='about'){
+    const a=c.about;
+    return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between">
+      <div><Navbar/>
+        <section className="mx-auto max-w-5xl px-4 pt-8 pb-10 text-center">
+          <span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span>
+          <h1 className="mt-2 text-3xl sm:text-5xl font-black">{a[1]} <span className="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">{a[2]}</span></h1>
+          <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">{a[3]}</p>
+          <a href={'/'+locale+'#tools'} className="mt-6 inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-5 py-2.5 text-xs font-bold text-white">{a[4]}</a>
+        </section>
+        <main className="mx-auto max-w-4xl px-4 py-12 space-y-12">
+          <section><span className="text-xs font-bold uppercase tracking-wider text-violet-600">{a[5]}</span><h2 className="text-2xl font-extrabold mt-1">{a[6]}</h2><p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{a[7]}</p></section>
+          <section><span className="text-xs font-bold uppercase tracking-wider text-violet-600">{a[8]}</span><h2 className="text-2xl font-extrabold mt-1">{a[9]}</h2>
+            <div className="grid sm:grid-cols-2 gap-4 mt-5">{a[10].split('|').map((v,i)=><div key={v} className="rounded-2xl border bg-white dark:bg-zinc-900 p-5"><h3 className="text-sm font-bold">{v}</h3><p className="mt-2 text-xs text-zinc-500">{a[7]}</p></div>)}</div>
+          </section>
+        </main>
+      </div><Footer/>
+    </div>;
+  }
+
+  if(page==='contact'){
+    const a=c.contact;
+    const [formData,setFormData]=useState({name:'',email:'',message:''});
+    const [isSubmitting,setIsSubmitting]=useState(false);
+    const [isSuccess,setIsSuccess]=useState(false);
+    const [submitError,setSubmitError]=useState('');
+
+    const handleSubmit=async(e:React.FormEvent)=>{
+      e.preventDefault();
+      setIsSubmitting(true);
+      setSubmitError('');
+      try{
+        const res=await fetch('https://api.web3forms.com/submit',{
+          method:'POST',
+          headers:{'Content-Type':'application/json',Accept:'application/json'},
+          body:JSON.stringify({
+            access_key:'e87ad13c-a295-47b3-833e-ac4c1e3fd275',
+            name:formData.name,
+            email:formData.email,
+            message:formData.message,
+            from_name:'Toolployee Inquiries',
+          }),
+        });
+        const payload=await res.json().catch(()=>null);
+        if(!res.ok || payload?.success===false) throw new Error(payload?.message || a[17]);
+        setIsSuccess(true);
+        setFormData({name:'',email:'',message:''});
+      }catch(error){
+        setSubmitError(error instanceof Error ? error.message : a[17]);
+      }finally{
+        setIsSubmitting(false);
+      }
+    };
+
+    return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between">
+      <div><Navbar/>
+        <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div className="lg:col-span-5 space-y-6">
+              <span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span>
+              <h1 className="text-4xl sm:text-5xl font-black tracking-tight leading-tight">{a[1]} <span className="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">{a[2]}</span></h1>
+              <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">{a[3]}</p>
+              <div className="rounded-2xl border border-violet-100 dark:border-zinc-800 bg-violet-50/50 dark:bg-zinc-900/60 p-5">
+                <div className="text-violet-700 dark:text-violet-400 font-bold text-xs">{a[4]}</div>
+                <p className="mt-2 text-[11px] text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[5]}</p>
+              </div>
+            </div>
+            <div className="lg:col-span-7">
+              <div className="rounded-3xl border border-zinc-200/90 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-10 shadow-lg shadow-violet-500/5">
+                {isSuccess ? <div className="py-12 text-center space-y-4">
+                  <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 border border-emerald-200 dark:border-emerald-800"><CheckCircle2 className="h-7 w-7"/></div>
+                  <h3 className="text-lg font-bold">{a[6]}</h3>
+                  <p className="text-xs text-zinc-500 max-w-sm mx-auto">{a[7]}</p>
+                  <button onClick={()=>setIsSuccess(false)} className="rounded-xl bg-violet-600 px-5 py-2 text-xs font-bold text-white">{a[8]}</button>
+                </div> : <form onSubmit={handleSubmit} className="space-y-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="space-y-1.5"><label className="text-xs font-bold">{a[9]}</label><input type="text" required placeholder={a[13]} value={formData.name} onChange={e=>setFormData({...formData,name:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 px-4 py-3 text-xs focus:border-violet-600 focus:outline-none"/></div>
+                    <div className="space-y-1.5"><label className="text-xs font-bold">{a[10]}</label><input type="email" required placeholder="example@domain.com" value={formData.email} onChange={e=>setFormData({...formData,email:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 px-4 py-3 text-xs focus:border-violet-600 focus:outline-none"/></div>
+                  </div>
+                  <div className="space-y-1.5"><label className="text-xs font-bold">{a[11]}</label><textarea required rows={5} placeholder={a[12]} value={formData.message} onChange={e=>setFormData({...formData,message:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 p-4 text-xs focus:border-violet-600 focus:outline-none resize-none"/></div>
+                  {submitError && <p role="alert" className="text-xs text-red-600 dark:text-red-400">{submitError}</p>}
+                  <button type="submit" disabled={isSubmitting} className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-violet-600 px-8 py-3 text-xs font-bold text-white shadow-md shadow-violet-500/20 hover:bg-violet-700 transition-all disabled:opacity-60"><Send className="h-3.5 w-3.5"/><span>{isSubmitting?a[15]:a[14]}</span></button>
+                </form>}
+              </div>
+            </div>
+          </div>
+        </main>
+      </div><Footer/>
+    </div>;
+  }
+
+  const a=page==='privacy'?c.privacy:c.terms;
+  return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between">
+    <div><Navbar/><main className="mx-auto max-w-4xl px-4 py-16">
+      <div className="rounded-3xl border bg-white dark:bg-zinc-900 p-8 sm:p-12 space-y-8">
+        <div className="border-b pb-6"><span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span><h1 className="mt-2 text-3xl sm:text-4xl font-black">{a[1]}</h1><p className="mt-1 text-xs text-zinc-500">{a[2]}</p></div>
+        <section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[3]}</h2><p>{a[4]}</p></section>
+        <section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[5]}</h2><p>{a[6]}</p></section>
+        <section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[7]}</h2><p>{a[8]}</p></section>
+      </div>
+    </main></div><Footer/>
+  </div>;
 }
