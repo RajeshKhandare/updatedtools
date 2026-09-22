@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Sparkles, Heart } from 'lucide-react';
+import BrandMark from '@/components/BrandMark';
 import { SITE_NAME } from '@/config/site';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 import { type LocaleCode } from '@/data/internationalSeo';
