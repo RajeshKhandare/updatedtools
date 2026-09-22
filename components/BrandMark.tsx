@@ -8,29 +8,38 @@ type BrandMarkProps = {
 };
 
 /**
- * Toolployee signature mark.
- * A custom TP ligature: the P is carved into the T as negative space,
- * making one clean silhouette rather than two overlapping letters.
+ * Toolployee signature ribbon mark.
+ * Inspired by the selected Toolployee brand board: two flowing ribbon pieces
+ * form a distinctive abstract "tool / workflow" symbol without using a letter.
  */
 export default function BrandMark({ className = '', iconClassName = '' }: BrandMarkProps) {
   return (
-    <div
-      aria-hidden="true"
-      className={`relative flex shrink-0 items-center justify-center overflow-hidden rounded-[14px] bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-600 text-white shadow-lg shadow-violet-500/25 ring-1 ring-white/20 dark:ring-white/10 ${className}`}
-    >
-      <svg viewBox="0 0 40 40" fill="none" className={`relative z-10 ${iconClassName}`}>
+    <div aria-hidden="true" className={`relative flex shrink-0 items-center justify-center ${className}`}>
+      <svg viewBox="0 0 40 40" fill="none" className={`h-full w-full ${iconClassName}`}>
+        <defs>
+          <linearGradient id="toolployeeMarkGradient" x1="5" y1="31" x2="35" y2="4" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#4F46E5" />
+            <stop offset=".52" stopColor="#7C3AED" />
+            <stop offset="1" stopColor="#C026D3" />
+          </linearGradient>
+        </defs>
+        {/* Upper flowing ribbon */}
         <path
-          fill="currentColor"
-          fillRule="evenodd"
-          d="M6.5 8.5C6.5 7.67 7.17 7 8 7h24c.83 0 1.5.67 1.5 1.5v4c0 .83-.67 1.5-1.5 1.5h-8v17.5c0 .83-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5V14h-8c-.83 0-1.5-.67-1.5-1.5v-4ZM22.5 14h6.2c1.88 0 3.3 1.42 3.3 3.3v1.9c0 3.2-2.6 5.8-5.8 5.8h-3.7v-3.8h3.05c.77 0 1.4-.63 1.4-1.4v-.5c0-.72-.58-1.3-1.3-1.3H22.5V14Z"
-          clipRule="evenodd"
+          d="M4.2 22.1c0-3.4 1.7-5.7 4.8-7.2L31.1 5.2c2.4-1 4.7.4 4.7 3v5.1c0 3.3-1.5 5.5-4.5 6.8L8.8 28.5c-2.4 1-4.6-.5-4.6-3.1v-3.3Z"
+          fill="url(#toolployeeMarkGradient)"
         />
+        {/* Lower folded ribbon */}
         <path
-          d="M28.8 16.2c.9.45 1.2 1.2 1.2 2.15"
+          d="M13.2 28.4c0-2.7 1.1-4.4 3.5-5.4l8.7-3.7c2.7-1.1 4.8.5 4.8 3.3v8.2c0 2.8-1.1 4.6-3.6 5.7l-8.6 3.7c-2.7 1.1-4.8-.5-4.8-3.3v-8.5Z"
+          fill="url(#toolployeeMarkGradient)"
+        />
+        {/* Fine separation/flow accent */}
+        <path
+          d="M4.9 27.2 15.8 22.8"
           stroke="white"
-          strokeWidth="1"
+          strokeWidth="1.05"
           strokeLinecap="round"
-          strokeOpacity=".28"
+          strokeOpacity=".72"
         />
       </svg>
     </div>
