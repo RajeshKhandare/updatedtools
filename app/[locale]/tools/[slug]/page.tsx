@@ -2,13 +2,21 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
-import { getLocale, localizedToolPath } from '@/data/internationalSeo';
+import { LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 import { getLocalizedToolSeoContent } from '@/data/toolSeo';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
 import ToolSeoContent from '@/components/ToolSeoContent';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return LOCALES.filter((locale) => locale.code !== 'en').flatMap((locale) =>
+    TOOLS_REGISTRY.map((tool) => ({ locale: locale.code, slug: tool.slug }))
+  );
+}
 
 export default async function LocalizedToolPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: localeCode, slug } = await params;
