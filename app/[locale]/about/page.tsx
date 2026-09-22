@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+// Localized platform page build verification.
 import { notFound } from 'next/navigation';
 import { LOCALES, getLocale } from '@/data/internationalSeo';
 import LocalizedPlatformPage from '@/components/LocalizedPlatformPage';
