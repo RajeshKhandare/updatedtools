@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { LOCALES, getLocale } from '@/data/internationalSeo';
-import Page from '@/app/privacy-policy/page';
+import LocalizedPlatformPage from '@/components/LocalizedPlatformPage';
 
 export const dynamicParams = false;
 
@@ -37,5 +37,5 @@ export default async function LocalizedPage({
   const locale = getLocale(code);
   if (!locale || locale.code === 'en') notFound();
 
-  return <Page />;
+  return <LocalizedPlatformPage locale={locale.code} page="privacy" />;
 }
