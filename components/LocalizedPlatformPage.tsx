@@ -4,6 +4,7 @@ import React,{useState} from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import type {LocaleCode} from '@/data/internationalSeo';
+import { Send, CheckCircle2 } from 'lucide-react';
 
 type Copy={about:string[];contact:string[];privacy:string[];terms:string[]};
 const COPY:Record<LocaleCode,Copy>={
