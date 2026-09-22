@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!locale || locale.code === 'en') return {};
   const ui = getLocalizedUi(locale.code);
   return {
-    title: 'Toolployee — ' + ui.toolLabel + 's',
+    title: 'Toolployee — ' + ui.toolsLabel,
     description: ui.description,
     robots: { index: true, follow: true },
     alternates: {
