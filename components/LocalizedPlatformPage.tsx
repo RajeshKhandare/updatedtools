@@ -4,7 +4,7 @@ import React,{useState} from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import type {LocaleCode} from '@/data/internationalSeo';
-import { Send, CheckCircle2 } from 'lucide-react';
+import { Send, CheckCircle2, Zap, ShieldCheck, Heart, Sparkles, ArrowRight, Lock, EyeOff, Scale, CheckSquare, AlertTriangle } from 'lucide-react';
 
 type Copy={about:string[];contact:string[];privacy:string[];terms:string[]};
 const COPY:Record<LocaleCode,Copy>={
@@ -25,7 +25,6 @@ hi:{about:['Toolployee के बारे में','रोज़मर्र�
 export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;page:'about'|'contact'|'privacy'|'terms'}) {
   const c=COPY[locale] || COPY.en;
   const dir=locale==='ar'?'rtl':'ltr';
-
   const [formData,setFormData]=useState({name:'',email:'',message:''});
   const [isSubmitting,setIsSubmitting]=useState(false);
   const [isSuccess,setIsSuccess]=useState(false);
@@ -33,18 +32,50 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
 
   if(page==='about'){
     const a=c.about;
-    return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between">
+    const metrics={
+      en:['Free Utilities','Expanding continuously','No Paywalls','No hidden subscriptions','Sign-Ups Needed','Instant access to all tools','By Design','Files process right in your browser'],
+      pt:['Utilitários gratuitos','Expansão contínua','Sem paywalls','Sem assinaturas ocultas','Cadastros necessários','Acesso instantâneo a todas as ferramentas','Por design','Os arquivos são processados no navegador'],
+      es:['Herramientas gratuitas','Expansión continua','Sin paywalls','Sin suscripciones ocultas','Registros necesarios','Acceso instantáneo a todas las herramientas','Por diseño','Los archivos se procesan en tu navegador'],
+      de:['Kostenlose Tools','Wird kontinuierlich erweitert','Keine Bezahlschranken','Keine versteckten Abos','Anmeldungen nötig','Sofortiger Zugriff auf alle Tools','Von Grund auf privat','Dateien werden im Browser verarbeitet'],
+      fr:['Outils gratuits','En expansion continue','Sans paywall','Sans abonnements cachés','Inscription nécessaire','Accès instantané aux outils','Pensé ainsi','Les fichiers sont traités dans votre navigateur'],
+      it:['Strumenti gratuiti','In continua espansione','Nessun paywall','Nessun abbonamento nascosto','Registrazioni necessarie','Accesso immediato a tutti gli strumenti','Progettato così','I file vengono elaborati nel browser'],
+      ja:['無料ツール','継続的に拡大','ペイウォールなし','隠れた購読なし','登録不要','すべてのツールに即時アクセス','設計思想として','ファイルはブラウザ内で処理されます'],
+      ko:['무료 도구','지속적으로 확장','페이월 없음','숨겨진 구독 없음','가입 불필요','모든 도구에 즉시 접근','설계상','파일은 브라우저에서 처리됩니다'],
+      zh:['免费工具','持续扩展','无付费墙','无隐藏订阅','无需注册','即时使用所有工具','设计如此','文件直接在浏览器中处理'],
+      ru:['Бесплатных инструментов','Постоянное расширение','Без платных стен','Без скрытых подписок','Регистрация не нужна','Мгновенный доступ ко всем инструментам','По задумке','Файлы обрабатываются в браузере'],
+      ar:['أدوات مجانية','توسّع مستمر','بدون جدران دفع','بدون اشتراكات مخفية','لا حاجة للتسجيل','وصول فوري إلى جميع الأدوات','مصمم بهذه الطريقة','تُعالج الملفات داخل المتصفح'],
+      hi:['मुफ्त टूल्स','लगातार विस्तार','कोई पेवॉल नहीं','कोई छिपी सदस्यता नहीं','साइन-अप की जरूरत नहीं','सभी टूल्स तक तुरंत पहुंच','डिज़ाइन के अनुसार','फाइलें ब्राउज़र में प्रोसेस होती हैं']
+    }[locale] || ['Free Utilities','Expanding continuously','No Paywalls','No hidden subscriptions','Sign-Ups Needed','Instant access to all tools','By Design','Files process right in your browser'];
+    return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors flex flex-col justify-between">
       <div><Navbar/>
-        <section className="mx-auto max-w-5xl px-4 pt-8 pb-10 text-center">
-          <span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span>
-          <h1 className="mt-2 text-3xl sm:text-5xl font-black">{a[1]} <span className="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">{a[2]}</span></h1>
-          <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">{a[3]}</p>
-          <a href={'/'+locale+'#tools'} className="mt-6 inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-5 py-2.5 text-xs font-bold text-white">{a[4]}</a>
+        <section className="mx-auto max-w-5xl px-4 pt-8 sm:pt-10 pb-8 text-center sm:px-6">
+          <span className="text-[11px] font-bold uppercase tracking-widest text-violet-600 dark:text-violet-400">{a[0]}</span>
+          <h1 className="mt-2 text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-zinc-950 dark:text-white leading-[1.14]">{a[1]} <span className="bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 dark:from-violet-400 dark:via-purple-400 dark:to-indigo-400 bg-clip-text text-transparent">{a[2]}</span></h1>
+          <p className="mt-3 text-xs sm:text-sm md:text-base text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto leading-relaxed">{a[3]}</p>
+          <div className="mt-6"><a href={'/'+locale+'#tools'} className="inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-5 py-2.5 text-xs font-bold text-white shadow-md shadow-violet-500/20 hover:bg-violet-700 transition-all hover:scale-[1.02]"><span>{a[4]}</span><ArrowRight className="h-3.5 w-3.5"/></a></div>
         </section>
-        <main className="mx-auto max-w-4xl px-4 py-12 space-y-12">
-          <section><span className="text-xs font-bold uppercase tracking-wider text-violet-600">{a[5]}</span><h2 className="text-2xl font-extrabold mt-1">{a[6]}</h2><p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{a[7]}</p></section>
-          <section><span className="text-xs font-bold uppercase tracking-wider text-violet-600">{a[8]}</span><h2 className="text-2xl font-extrabold mt-1">{a[9]}</h2>
-            <div className="grid sm:grid-cols-2 gap-4 mt-5">{a[10].split('|').map((v,i)=><div key={v} className="rounded-2xl border bg-white dark:bg-zinc-900 p-5"><h3 className="text-sm font-bold">{v}</h3><p className="mt-2 text-xs text-zinc-500">{a[7]}</p></div>)}</div>
+        <section className="border-y border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/60 py-8">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">87</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[0]}</p><p className="text-[11px] text-zinc-400">{metrics[1]}</p></div>
+            <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">100%</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[2]}</p><p className="text-[11px] text-zinc-400">{metrics[3]}</p></div>
+            <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">0</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[4]}</p><p className="text-[11px] text-zinc-400">{metrics[5]}</p></div>
+            <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">Private</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[6]}</p><p className="text-[11px] text-zinc-400">{metrics[7]}</p></div>
+          </div>
+        </section>
+        <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 space-y-12">
+          <article className="space-y-3 text-center sm:text-left">
+            <span className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400">{a[5]}</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-zinc-950 dark:text-white">{a[6]}</h2>
+            <div className="space-y-4 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed pt-1"><p>{a[7]}</p><p>{a[7]}</p><p>{a[7]}</p></div>
+          </article>
+          <section className="space-y-5">
+            <div className="text-center sm:text-left"><span className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400">{a[8]}</span><h2 className="text-2xl font-extrabold text-zinc-950 dark:text-white mt-1">{a[9]}</h2></div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-100 dark:bg-violet-950/60 text-violet-600 dark:text-violet-400 mb-2"><Zap className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[0]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 mb-2"><ShieldCheck className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[1]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 mb-2"><Sparkles className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[2]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-pink-100 dark:bg-pink-950/60 text-pink-600 dark:text-pink-400 mb-2"><Heart className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[3]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
+            </div>
           </section>
         </main>
       </div><Footer/>
@@ -53,79 +84,26 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
 
   if(page==='contact'){
     const a=c.contact;
-    const handleSubmit=async(e:React.FormEvent)=>{
-      e.preventDefault();
-      setIsSubmitting(true);
-      setSubmitError('');
-      try{
-        const res=await fetch('https://api.web3forms.com/submit',{
-          method:'POST',
-          headers:{'Content-Type':'application/json',Accept:'application/json'},
-          body:JSON.stringify({
-            access_key:'e87ad13c-a295-47b3-833e-ac4c1e3fd275',
-            name:formData.name,
-            email:formData.email,
-            message:formData.message,
-            from_name:'Toolployee Inquiries',
-          }),
-        });
-        const payload=await res.json().catch(()=>null);
-        if(!res.ok || payload?.success===false) throw new Error(payload?.message || a[17]);
-        setIsSuccess(true);
-        setFormData({name:'',email:'',message:''});
-      }catch(error){
-        setSubmitError(error instanceof Error ? error.message : a[17]);
-      }finally{
-        setIsSubmitting(false);
-      }
-    };
-
-    return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between">
+    const handleSubmit=async(e:React.FormEvent)=>{e.preventDefault();setIsSubmitting(true);setSubmitError('');try{const res=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({access_key:'e87ad13c-a295-47b3-833e-ac4c1e3fd275',name:formData.name,email:formData.email,message:formData.message,from_name:'Toolployee Inquiries'})});const payload=await res.json().catch(()=>null);if(!res.ok||payload?.success===false)throw new Error(payload?.message||a[17]);setIsSuccess(true);setFormData({name:'',email:'',message:''});}catch(error){setSubmitError(error instanceof Error?error.message:a[17]);}finally{setIsSubmitting(false);}};
+    return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors flex flex-col justify-between">
       <div><Navbar/>
-        <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-            <div className="lg:col-span-5 space-y-6">
-              <span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span>
-              <h1 className="text-4xl sm:text-5xl font-black tracking-tight leading-tight">{a[1]} <span className="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">{a[2]}</span></h1>
-              <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">{a[3]}</p>
-              <div className="rounded-2xl border border-violet-100 dark:border-zinc-800 bg-violet-50/50 dark:bg-zinc-900/60 p-5">
-                <div className="text-violet-700 dark:text-violet-400 font-bold text-xs">{a[4]}</div>
-                <p className="mt-2 text-[11px] text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[5]}</p>
-              </div>
-            </div>
-            <div className="lg:col-span-7">
-              <div className="rounded-3xl border border-zinc-200/90 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-10 shadow-lg shadow-violet-500/5">
-                {isSuccess ? <div className="py-12 text-center space-y-4">
-                  <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 border border-emerald-200 dark:border-emerald-800"><CheckCircle2 className="h-7 w-7"/></div>
-                  <h3 className="text-lg font-bold">{a[6]}</h3>
-                  <p className="text-xs text-zinc-500 max-w-sm mx-auto">{a[7]}</p>
-                  <button onClick={()=>setIsSuccess(false)} className="rounded-xl bg-violet-600 px-5 py-2 text-xs font-bold text-white">{a[8]}</button>
-                </div> : <form onSubmit={handleSubmit} className="space-y-4">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="space-y-1.5"><label className="text-xs font-bold">{a[9]}</label><input type="text" required placeholder={a[13]} value={formData.name} onChange={e=>setFormData({...formData,name:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 px-4 py-3 text-xs focus:border-violet-600 focus:outline-none"/></div>
-                    <div className="space-y-1.5"><label className="text-xs font-bold">{a[10]}</label><input type="email" required placeholder="example@domain.com" value={formData.email} onChange={e=>setFormData({...formData,email:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 px-4 py-3 text-xs focus:border-violet-600 focus:outline-none"/></div>
-                  </div>
-                  <div className="space-y-1.5"><label className="text-xs font-bold">{a[11]}</label><textarea required rows={5} placeholder={a[12]} value={formData.message} onChange={e=>setFormData({...formData,message:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 p-4 text-xs focus:border-violet-600 focus:outline-none resize-none"/></div>
-                  {submitError && <p role="alert" className="text-xs text-red-600 dark:text-red-400">{submitError}</p>}
-                  <button type="submit" disabled={isSubmitting} className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-violet-600 px-8 py-3 text-xs font-bold text-white shadow-md shadow-violet-500/20 hover:bg-violet-700 transition-all disabled:opacity-60"><Send className="h-3.5 w-3.5"/><span>{isSubmitting?a[15]:a[14]}</span></button>
-                </form>}
-              </div>
-            </div>
-          </div>
-        </main>
+        <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6"><div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          <div className="lg:col-span-5 space-y-6"><span className="text-xs font-bold uppercase tracking-widest text-violet-600 dark:text-violet-400">{a[0]}</span><h1 className="text-4xl sm:text-5xl font-black tracking-tight text-zinc-950 dark:text-white leading-tight">{a[1]} <span className="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">{a[2]}</span></h1><p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">{a[3]}</p><div className="rounded-2xl border border-violet-100 dark:border-zinc-800 bg-violet-50/50 dark:bg-zinc-900/60 p-5 space-y-3"><div className="flex items-center gap-2 text-violet-700 dark:text-violet-400 font-bold text-xs"><Sparkles className="h-4 w-4"/><span>{a[4]}</span></div><p className="text-[11px] text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[5]}</p></div></div>
+          <div className="lg:col-span-7"><div className="rounded-3xl border border-zinc-200/90 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-10 shadow-lg shadow-violet-500/5">
+            {isSuccess?<div className="py-12 text-center space-y-4"><div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 border border-emerald-200 dark:border-emerald-800"><CheckCircle2 className="h-7 w-7"/></div><h3 className="text-lg font-bold text-zinc-900 dark:text-white">{a[6]}</h3><p className="text-xs text-zinc-500 max-w-sm mx-auto">{a[7]}</p><button onClick={()=>setIsSuccess(false)} className="rounded-xl bg-violet-600 px-5 py-2 text-xs font-bold text-white shadow hover:bg-violet-700">{a[8]}</button></div>:
+            <form onSubmit={handleSubmit} className="space-y-4"><div className="grid grid-cols-1 sm:grid-cols-2 gap-4"><div className="space-y-1.5"><label className="text-xs font-bold text-zinc-700 dark:text-zinc-300">{a[9]}</label><input type="text" required placeholder={a[13]} value={formData.name} onChange={e=>setFormData({...formData,name:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 px-4 py-3 text-xs text-zinc-900 dark:text-white focus:border-violet-600 focus:outline-none"/></div><div className="space-y-1.5"><label className="text-xs font-bold text-zinc-700 dark:text-zinc-300">{a[10]}</label><input type="email" required placeholder="example@domain.com" value={formData.email} onChange={e=>setFormData({...formData,email:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 px-4 py-3 text-xs text-zinc-900 dark:text-white focus:border-violet-600 focus:outline-none"/></div></div><div className="space-y-1.5"><label className="text-xs font-bold text-zinc-700 dark:text-zinc-300">{a[11]}</label><textarea required rows={5} placeholder={a[12]} value={formData.message} onChange={e=>setFormData({...formData,message:e.target.value})} className="w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/60 p-4 text-xs text-zinc-900 dark:text-white focus:border-violet-600 focus:outline-none resize-none"/></div>{submitError&&<p role="alert" className="text-xs text-red-600 dark:text-red-400">{submitError}</p>}<button type="submit" disabled={isSubmitting} className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-violet-600 px-8 py-3 text-xs font-bold text-white shadow-md shadow-violet-500/20 hover:bg-violet-700 transition-all disabled:opacity-60"><Send className="h-3.5 w-3.5"/><span>{isSubmitting?a[15]:a[14]}</span></button></form>}
+          </div></div>
+        </div></main>
       </div><Footer/>
     </div>;
   }
 
   const a=page==='privacy'?c.privacy:c.terms;
-  return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between">
-    <div><Navbar/><main className="mx-auto max-w-4xl px-4 py-16">
-      <div className="rounded-3xl border bg-white dark:bg-zinc-900 p-8 sm:p-12 space-y-8">
-        <div className="border-b pb-6"><span className="text-xs font-bold uppercase tracking-widest text-violet-600">{a[0]}</span><h1 className="mt-2 text-3xl sm:text-4xl font-black">{a[1]}</h1><p className="mt-1 text-xs text-zinc-500">{a[2]}</p></div>
-        <section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[3]}</h2><p>{a[4]}</p></section>
-        <section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[5]}</h2><p>{a[6]}</p></section>
-        <section className="space-y-3 text-sm text-zinc-600 dark:text-zinc-300"><h2 className="font-bold">{a[7]}</h2><p>{a[8]}</p></section>
-      </div>
-    </main></div><Footer/>
+  const legalIcon=page==='privacy'?[Lock,EyeOff,ShieldCheck]:[Scale,CheckSquare,AlertTriangle];
+  return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors flex flex-col justify-between">
+    <div><Navbar/><main className="mx-auto max-w-4xl px-4 py-16 sm:px-6"><div className="rounded-3xl border border-zinc-200/90 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-8 sm:p-12 shadow-sm space-y-8">
+      <div className="border-b border-zinc-100 dark:border-zinc-800 pb-6"><span className="text-xs font-bold uppercase tracking-widest text-violet-600 dark:text-violet-400">{a[0]}</span><h1 className="mt-2 text-3xl sm:text-4xl font-black text-zinc-950 dark:text-white">{a[1]}</h1><p className="mt-1 text-xs text-zinc-500">{a[2]}</p></div>
+      {[0,1,2].map((i)=>{const Icon=legalIcon[i];return <section key={i} className="space-y-3 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed"><h2 className="text-base font-bold text-zinc-900 dark:text-white flex items-center gap-2"><Icon className="h-4 w-4 text-violet-600 dark:text-violet-400"/>{a[3+i*2]}</h2><p>{a[4+i*2]}</p></section>;})}
+    </div></main></div><Footer/>
   </div>;
 }
