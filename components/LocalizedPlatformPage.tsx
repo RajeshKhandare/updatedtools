@@ -25,6 +25,11 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
   const c=COPY[locale] || COPY.en;
   const dir=locale==='ar'?'rtl':'ltr';
 
+  const [formData,setFormData]=useState({name:'',email:'',message:''});
+  const [isSubmitting,setIsSubmitting]=useState(false);
+  const [isSuccess,setIsSuccess]=useState(false);
+  const [submitError,setSubmitError]=useState('');
+
   if(page==='about'){
     const a=c.about;
     return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col justify-between">
@@ -47,11 +52,6 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
 
   if(page==='contact'){
     const a=c.contact;
-    const [formData,setFormData]=useState({name:'',email:'',message:''});
-    const [isSubmitting,setIsSubmitting]=useState(false);
-    const [isSuccess,setIsSuccess]=useState(false);
-    const [submitError,setSubmitError]=useState('');
-
     const handleSubmit=async(e:React.FormEvent)=>{
       e.preventDefault();
       setIsSubmitting(true);
