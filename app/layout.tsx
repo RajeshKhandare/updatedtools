@@ -13,6 +13,8 @@ export const metadata:Metadata={
   description:'Free online PDF, image, developer, text, converter, calculator, finance, compiler, and YouTube tools. Fast browser-based utilities with no account required.',
   keywords:['free online tools','online tools','PDF tools','image tools','online calculator','online compiler','developer tools','text tools','unit converters','YouTube tools'],
   applicationName:SITE_NAME,
+  icons:{icon:'/icon.svg',shortcut:'/icon.svg',apple:'/icon.svg'},
+  themeColor:'#7C3AED',
   authors:[{name:SITE_NAME}],
   creator:SITE_NAME,
   publisher:SITE_NAME,
