@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-static';
+
 export function GET() {
   const publisherId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
 
