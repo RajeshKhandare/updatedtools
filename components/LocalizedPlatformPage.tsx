@@ -22,6 +22,84 @@ ar:{about:['حول Toolployee','نجعل المهام الرقمية اليوم�
 hi:{about:['Toolployee के बारे में','रोज़मर्रा के डिजिटल कामों को','आसान बनाना।','PDF, इमेज, डेवलपमेंट, टेक्स्ट, कन्वर्ज़न, कैलकुलेशन, फाइनेंस, कंपाइलर और YouTube के लिए मुफ्त टूल हब।','सभी मुफ्त टूल्स देखें','हमारी यात्रा','रोज़मर्रा की असली परेशानियों को हल करने के लिए','Toolployee उपयोगी डिजिटल टूल्स को एक साफ इंटरफेस में लाता है। आसान कामों के लिए भारी सॉफ्टवेयर या अनिवार्य अकाउंट की जरूरत नहीं है।','मुख्य मूल्य','Toolployee को क्या दिशा देता है','तेज़ और आसान|प्राइवेसी पहले|सभी के लिए मुफ्त|कम्युनिटी फीडबैक'],contact:['संपर्क और सपोर्ट','हम आपकी','कैसे मदद कर सकते हैं?','टूल रिक्वेस्ट, sandbox समस्या या नए compiler का सुझाव है? इसे तकनीकी टीम को भेजें।','सख्त प्राइवेसी और जीरो स्पैम','आपका ईमेल सपोर्ट जवाबों के लिए है, मार्केटिंग के लिए नहीं।','मैसेज भेज दिया गया!','धन्यवाद। हमारी टीम 24–48 घंटे में इसे देखेगी।','दूसरा मैसेज भेजें','नाम','ईमेल','आपका मैसेज','आपका नाम','फीडबैक, बग रिपोर्ट या टूल रिक्वेस्ट लिखें...','मैसेज भेजें','भेज रहे हैं...','अभी मैसेज भेजा नहीं जा सका।'],privacy:['विश्वास और सुरक्षा','प्राइवेसी पॉलिसी','प्रभावी: सितंबर 2026','1. प्रोसेसिंग आर्किटेक्चर','कई PDF, इमेज, टेक्स्ट और कैलकुलेटर काम ब्राउज़र में चलते हैं। Compiler tools configured runtime को code भेज सकते हैं।','2. डेटा रिटेंशन और टैब बंद करना','हम user accounts या personal profiles नहीं रखते। Local data सामान्य browser behavior के अनुसार रह सकता है।','3. थर्ड-पार्टी Analytics और Cookies','प्लेटफॉर्म को मुफ्त रखने के लिए Google AdSense जैसी सेवाओं और analytics का उपयोग हो सकता है।'],terms:['कानूनी शर्तें','सेवा की शर्तें','अंतिम अपडेट: सितंबर 2026','1. स्वीकृति और उपलब्धता','Toolployee का उपयोग करके आप इन शर्तों से सहमत हैं। टूल्स “जैसे हैं” आधार पर दिए जाते हैं।','2. Commercial Rights और Ownership','हमारे टूल्स से बनाए या compiled assets का ownership आपका रहता है और लागू कानून के अनुसार उपयोग किया जा सकता है।','3. Financial और Informational Disclaimer','Calculators केवल mathematical estimates देते हैं और formal investment advice नहीं हैं।']}
 };
 
+const ABOUT_STORY: Record<LocaleCode, [string,string,string]> = {
+  en:[
+    'Toolployee started from a simple frustration: whenever you need to quickly resize an image, test a query, calculate interest, or grab a thumbnail, modern search results lead to bloated websites covered in paywalls, forced email registrations, or daily limits.',
+    'We believed simple tasks should remain simple. You should not need to download heavy desktop software or hand over personal data just to format text or convert an image.',
+    'Our vision is straightforward: bring together high-utility everyday digital tools into a clean, modern interface where anyone can get their job done instantly and get back to what matters.'
+  ],
+  pt:[
+    'O Toolployee nasceu de uma frustração simples: quando você precisa redimensionar uma imagem, testar uma consulta, calcular juros ou obter uma miniatura rapidamente, muitos resultados levam a sites pesados com paywalls, cadastros obrigatórios ou limites diários.',
+    'Acreditamos que tarefas simples devem continuar simples. Você não deveria precisar instalar software pesado ou fornecer dados pessoais apenas para formatar texto ou converter uma imagem.',
+    'Nossa visão é direta: reunir ferramentas digitais úteis do dia a dia em uma interface limpa e moderna, para que qualquer pessoa conclua sua tarefa rapidamente e volte ao que importa.'
+  ],
+  es:[
+    'Toolployee nació de una frustración sencilla: cuando necesitas cambiar el tamaño de una imagen, probar una consulta, calcular intereses u obtener una miniatura, muchos resultados llevan a sitios pesados con pagos, registros obligatorios o límites diarios.',
+    'Creemos que las tareas sencillas deben seguir siendo sencillas. No deberías instalar software pesado ni entregar datos personales solo para dar formato a un texto o convertir una imagen.',
+    'Nuestra visión es clara: reunir herramientas digitales útiles en una interfaz limpia y moderna para que cualquiera pueda terminar su tarea rápidamente y volver a lo importante.'
+  ],
+  de:[
+    'Toolployee entstand aus einer einfachen Frustration: Für Aufgaben wie Bilder skalieren, Abfragen testen, Zinsen berechnen oder Thumbnails abrufen führen Suchergebnisse oft zu überladenen Seiten mit Bezahlschranken, Pflichtregistrierungen oder Tageslimits.',
+    'Wir glauben, dass einfache Aufgaben einfach bleiben sollten. Niemand sollte schwere Desktop-Software installieren oder persönliche Daten abgeben müssen, nur um Text zu formatieren oder ein Bild zu konvertieren.',
+    'Unsere Vision ist klar: nützliche digitale Alltagswerkzeuge in einer modernen, übersichtlichen Oberfläche zu bündeln, damit Aufgaben schnell erledigt werden können.'
+  ],
+  fr:[
+    'Toolployee est né d’une frustration simple : pour redimensionner une image, tester une requête, calculer des intérêts ou récupérer une miniature, les résultats de recherche mènent souvent vers des sites lourds avec paywalls, inscriptions obligatoires ou limites quotidiennes.',
+    'Nous pensons que les tâches simples doivent rester simples. Il ne devrait pas être nécessaire d’installer un logiciel lourd ou de fournir des données personnelles pour formater un texte ou convertir une image.',
+    'Notre vision est simple : réunir les outils numériques utiles du quotidien dans une interface moderne et claire, afin que chacun puisse terminer rapidement sa tâche et passer à l’essentiel.'
+  ],
+  it:[
+    'Toolployee nasce da una frustrazione semplice: per ridimensionare un’immagine, testare una query, calcolare interessi o recuperare una miniatura, i risultati di ricerca portano spesso a siti pesanti con paywall, registrazioni obbligatorie o limiti giornalieri.',
+    'Crediamo che le attività semplici debbano restare semplici. Non dovrebbe essere necessario installare software pesante o fornire dati personali solo per formattare testo o convertire un’immagine.',
+    'La nostra visione è chiara: riunire strumenti digitali utili in un’interfaccia moderna e pulita, così chiunque può completare rapidamente il proprio lavoro e tornare a ciò che conta.'
+  ],
+  ja:[
+    'Toolployeeは、画像のサイズ変更、クエリのテスト、利息計算、サムネイル取得などの簡単な作業でも、検索結果が広告や有料壁、必須登録、日次制限のある重いサイトに偏ることへの不便から始まりました。',
+    '私たちは、簡単な作業は簡単なままであるべきだと考えています。テキスト整形や画像変換のためだけに重いソフトを入れたり、個人情報を渡したりする必要はありません。',
+    '日常で役立つデジタルツールを、誰でもすぐ使えるクリーンで現代的な画面にまとめることが私たちの目標です。'
+  ],
+  ko:[
+    'Toolployee는 이미지 크기 조정, 쿼리 테스트, 이자 계산, 썸네일 가져오기 같은 간단한 작업에서도 검색 결과가 무거운 사이트, 결제 장벽, 필수 가입, 일일 제한으로 이어지는 불편에서 시작했습니다.',
+    '간단한 작업은 간단하게 남아야 한다고 생각합니다. 텍스트를 정리하거나 이미지를 변환하기 위해 무거운 데스크톱 소프트웨어를 설치하거나 개인정보를 제공할 필요가 없어야 합니다.',
+    '일상에 유용한 디지털 도구를 깔끔하고 현대적인 인터페이스에 모아 누구나 필요한 일을 빠르게 끝낼 수 있도록 하는 것이 우리의 목표입니다.'
+  ],
+  zh:[
+    'Toolployee源于一个简单的不便：当你需要快速调整图片、测试查询、计算利息或获取缩略图时，搜索结果常常把你带到包含付费墙、强制注册或每日限制的复杂网站。',
+    '我们认为简单的任务就应该保持简单。仅仅为了格式化文本或转换图片，不应该必须安装大型桌面软件或提交个人信息。',
+    '我们的愿景很直接：把日常真正有用的数字工具集中到简洁现代的界面中，让任何人都能快速完成任务并回到真正重要的事情上。'
+  ],
+  ru:[
+    'Toolployee появился из простой проблемы: когда нужно быстро изменить размер изображения, проверить запрос, рассчитать проценты или получить миниатюру, результаты поиска часто ведут на перегруженные сайты с платными ограничениями, обязательной регистрацией или дневными лимитами.',
+    'Мы считаем, что простые задачи должны оставаться простыми. Не нужно устанавливать тяжёлое ПО или передавать личные данные только ради форматирования текста или конвертации изображения.',
+    'Наша цель проста: собрать полезные цифровые инструменты в чистом современном интерфейсе, чтобы любой пользователь мог быстро выполнить задачу и вернуться к важному.'
+  ],
+  ar:[
+    'بدأ Toolployee من مشكلة بسيطة: عندما تحتاج سريعًا إلى تغيير حجم صورة أو اختبار استعلام أو حساب الفائدة أو الحصول على صورة مصغرة، تقود نتائج البحث كثيرًا إلى مواقع مزدحمة تتضمن جدران دفع أو تسجيلًا إلزاميًا أو حدودًا يومية.',
+    'نؤمن بأن المهام البسيطة يجب أن تبقى بسيطة. لا ينبغي تثبيت برامج سطح مكتب ثقيلة أو تقديم بيانات شخصية لمجرد تنسيق نص أو تحويل صورة.',
+    'رؤيتنا واضحة: جمع الأدوات الرقمية المفيدة للاستخدام اليومي في واجهة حديثة ونظيفة تساعد أي شخص على إنجاز المهمة بسرعة والعودة إلى ما يهم.'
+  ],
+  hi:[
+    'Toolployee की शुरुआत एक सरल परेशानी से हुई: जब आपको जल्दी से इमेज का आकार बदलना हो, कोई क्वेरी टेस्ट करनी हो, ब्याज निकालना हो या थंबनेल पाना हो, तो खोज परिणाम अक्सर paywall, अनिवार्य registration या daily limits वाली भारी वेबसाइटों तक ले जाते हैं।',
+    'हम मानते हैं कि आसान काम आसान ही रहने चाहिए। सिर्फ टेक्स्ट फॉर्मैट या इमेज कन्वर्ट करने के लिए भारी desktop software डाउनलोड करना या personal data देना जरूरी नहीं होना चाहिए।',
+    'हमारा लक्ष्य सीधा है: रोज़मर्रा में काम आने वाले डिजिटल टूल्स को एक साफ और आधुनिक इंटरफेस में लाना, ताकि हर व्यक्ति अपना काम जल्दी पूरा कर सके और जरूरी चीजों पर वापस जा सके।'
+  ]
+};
+
+const ABOUT_VALUE_DESCS: Record<LocaleCode, [string,string,string,string]> = {
+  en:['Tools are designed for a clean, responsive experience on modern mobile and desktop browsers, with no installation required.','We do not require accounts for the tool suite. Browser-based processing is used where supported; tools that use an execution runtime are identified in their workflow.','Essential digital utilities should be open to all. Students, creators, and freelancers can access available tools without a required subscription tier.','We actively review tool suggestions and bug reports sent via our contact desk to continuously polish and expand the suite.'],
+  pt:['As ferramentas são projetadas para uma experiência limpa e responsiva em navegadores modernos, sem instalação.','Não exigimos contas para o conjunto de ferramentas. O processamento no navegador é usado quando compatível; runtimes externos são indicados no fluxo.','Ferramentas digitais essenciais devem estar disponíveis para todos, sem assinatura obrigatória.','Analisamos sugestões e relatos de bugs enviados pelo contato para melhorar e ampliar o conjunto.'],
+  es:['Las herramientas están diseñadas para una experiencia limpia y adaptable en navegadores modernos, sin instalación.','No exigimos cuentas. El procesamiento en el navegador se usa cuando es compatible y los runtimes externos se indican en el flujo.','Las herramientas digitales esenciales deben estar disponibles para todos, sin una suscripción obligatoria.','Revisamos sugerencias y errores enviados mediante contacto para mejorar y ampliar el conjunto.'],
+  de:['Die Tools sind für eine klare, responsive Nutzung in modernen mobilen und Desktop-Browsern ohne Installation ausgelegt.','Für das Toolset ist kein Konto erforderlich. Browser-Verarbeitung wird genutzt, wo sie unterstützt wird; externe Laufzeiten werden im Ablauf gekennzeichnet.','Wichtige digitale Werkzeuge sollten allen offenstehen, ohne verpflichtendes Abonnement.','Wir prüfen Tool-Vorschläge und Fehlerberichte über den Kontakt, um das Angebot laufend zu verbessern.'],
+  fr:['Les outils sont conçus pour une expérience claire et responsive dans les navigateurs modernes, sans installation.','Aucun compte n’est requis. Le traitement dans le navigateur est utilisé lorsqu’il est pris en charge et les runtimes externes sont indiqués.','Les outils numériques essentiels doivent être accessibles à tous, sans abonnement obligatoire.','Nous examinons les suggestions et rapports de bugs reçus afin d’améliorer et d’élargir la suite.'],
+  it:['Gli strumenti sono progettati per un’esperienza pulita e responsive nei browser moderni, senza installazione.','Non è richiesto un account. L’elaborazione nel browser viene usata quando supportata e i runtime esterni sono indicati nel flusso.','Gli strumenti digitali essenziali dovrebbero essere disponibili a tutti senza abbonamento obbligatorio.','Esaminiamo suggerimenti e segnalazioni di bug per migliorare e ampliare continuamente la suite.'],
+  ja:['ツールはインストール不要で、最新のモバイル・デスクトップブラウザで快適に使えるよう設計されています。','ツールの利用にアカウントは必要ありません。対応する処理はブラウザで行い、外部ランタイムを使う場合はフローで示します。','基本的なデジタルツールは、必須サブスクリプションなしで誰でも使えるべきだと考えています。','お問い合わせで届いた要望やバグ報告を確認し、ツール群を継続的に改善しています。'],
+  ko:['도구는 설치 없이 최신 모바일 및 데스크톱 브라우저에서 깔끔하고 반응형으로 사용할 수 있도록 설계되었습니다.','도구 사용에 계정이 필요하지 않습니다. 지원되는 작업은 브라우저에서 처리하며 외부 런타임은 작업 흐름에 표시합니다.','필수 디지털 도구는 의무 구독 없이 누구나 사용할 수 있어야 합니다.','문의로 들어온 도구 제안과 버그 신고를 검토해 서비스를 계속 개선합니다.'],
+  zh:['工具无需安装，并针对现代移动和桌面浏览器提供简洁、响应式的体验。','工具集合无需账户。支持的操作会在浏览器中处理，使用外部运行时的工具会在流程中说明。','基础数字工具应该对所有人开放，不应要求强制订阅。','我们会查看通过联系页面提交的工具建议和错误报告，持续改进和扩展工具集合。'],
+  ru:['Инструменты рассчитаны на чистый адаптивный интерфейс в современных мобильных и настольных браузерах без установки.','Для набора инструментов не нужен аккаунт. Поддерживаемая обработка выполняется в браузере, а внешние среды отмечаются в рабочем процессе.','Необходимые цифровые инструменты должны быть доступны всем без обязательной подписки.','Мы рассматриваем предложения и сообщения об ошибках, чтобы постоянно улучшать и расширять набор.'],
+  ar:['صُممت الأدوات لتقديم تجربة واضحة ومتجاوبة في المتصفحات الحديثة على الهاتف وسطح المكتب دون تثبيت.','لا نطلب حسابًا لاستخدام مجموعة الأدوات. تتم المعالجة داخل المتصفح عند دعمها، وتظهر بيئات التنفيذ الخارجية ضمن سير العمل.','ينبغي أن تكون الأدوات الرقمية الأساسية متاحة للجميع دون اشتراك إلزامي.','نراجع اقتراحات الأدوات وتقارير الأخطاء المرسلة عبر صفحة التواصل لتحسين المجموعة وتوسيعها.'],
+  hi:['टूल्स को बिना इंस्टॉलेशन के आधुनिक मोबाइल और डेस्कटॉप ब्राउज़र में साफ और responsive अनुभव के लिए बनाया गया है।','टूल्स के लिए अकाउंट जरूरी नहीं है। जहाँ समर्थित है वहाँ प्रोसेसिंग ब्राउज़र में होती है और external runtime वाले टूल्स अपने workflow में इसे बताते हैं।','जरूरी डिजिटल टूल्स सभी के लिए उपलब्ध होने चाहिए, बिना अनिवार्य subscription के।','हम contact desk से मिली tool requests और bug reports की समीक्षा करके suite को लगातार बेहतर बनाते हैं।']
+};
+
 export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;page:'about'|'contact'|'privacy'|'terms'}) {
   const c=COPY[locale] || COPY.en;
   const dir=locale==='ar'?'rtl':'ltr';
@@ -66,15 +144,15 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
           <article className="space-y-3 text-center sm:text-left">
             <span className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400">{a[5]}</span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-zinc-950 dark:text-white">{a[6]}</h2>
-            <div className="space-y-4 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed pt-1"><p>{a[7]}</p><p>{a[7]}</p><p>{a[7]}</p></div>
+            <div className="space-y-4 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed pt-1">{ABOUT_STORY[locale].map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
           </article>
           <section className="space-y-5">
             <div className="text-center sm:text-left"><span className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400">{a[8]}</span><h2 className="text-2xl font-extrabold text-zinc-950 dark:text-white mt-1">{a[9]}</h2></div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-100 dark:bg-violet-950/60 text-violet-600 dark:text-violet-400 mb-2"><Zap className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[0]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
-              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 mb-2"><ShieldCheck className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[1]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
-              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 mb-2"><Sparkles className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[2]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
-              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-pink-100 dark:bg-pink-950/60 text-pink-600 dark:text-pink-400 mb-2"><Heart className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[3]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{a[7]}</p></div>
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-100 dark:bg-violet-950/60 text-violet-600 dark:text-violet-400 mb-2"><Zap className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[0]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{ABOUT_VALUE_DESCS[locale][0]}</p></div>
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 mb-2"><ShieldCheck className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[1]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{ABOUT_VALUE_DESCS[locale][1]}</p></div>
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 mb-2"><Sparkles className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[2]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{ABOUT_VALUE_DESCS[locale][2]}</p></div>
+              <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 shadow-sm space-y-2"><div className="flex h-9 w-9 items-center justify-center rounded-xl bg-pink-100 dark:bg-pink-950/60 text-pink-600 dark:text-pink-400 mb-2"><Heart className="h-4 w-4"/></div><h3 className="text-sm font-bold text-zinc-900 dark:text-white">{a[10].split('|')[3]}</h3><p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">{ABOUT_VALUE_DESCS[locale][3]}</p></div>
             </div>
           </section>
         </main>
