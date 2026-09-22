@@ -9,6 +9,12 @@ import ToolSeoContent from '@/components/ToolSeoContent';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { ArrowRight } from 'lucide-react';
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return TOOLS_REGISTRY.map((tool) => ({ slug: tool.slug }));
+}
+
 export default function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = React.use(params);
   const tool = TOOLS_REGISTRY.find((t) => t.slug === slug);
