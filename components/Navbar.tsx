@@ -3,7 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Sparkles, Sun, Moon, ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
+import { Sun, Moon, ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
+import BrandMark from '@/components/BrandMark';
 import LanguageSelector from '@/components/LanguageSelector';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_NAME } from '@/config/site';
