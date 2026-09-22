@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { Sun, Moon, ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
 import BrandMark from '@/components/BrandMark';
 import LanguageSelector from '@/components/LanguageSelector';
@@ -23,13 +23,12 @@ export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [currentLocale, setCurrentLocale] = useState<LocaleCode>('en');
+  const pathname = usePathname();
+  const currentLocale = ((pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/)?.[1] as LocaleCode | undefined) || 'en');
   const ui = getLocalizedUi(currentLocale);
 
   useEffect(() => {
     setIsDark(document.documentElement.classList.contains('dark'));
-    const localeMatch = window.location.pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
-    setCurrentLocale((localeMatch?.[1] as LocaleCode | undefined) || 'en');
   }, []);
 
   const toggleTheme = () => {
