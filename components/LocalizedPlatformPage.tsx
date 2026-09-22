@@ -126,19 +126,19 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
   if(page==='about'){
     const a=c.about;
     const metrics={
-      en:['Free Utilities','Expanding continuously','No Paywalls','No hidden subscriptions','Sign-Ups Needed','Instant access to all tools','By Design','Files process right in your browser'],
-      pt:['Utilitários gratuitos','Expansão contínua','Sem paywalls','Sem assinaturas ocultas','Cadastros necessários','Acesso instantâneo a todas as ferramentas','Por design','Os arquivos são processados no navegador'],
-      es:['Herramientas gratuitas','Expansión continua','Sin paywalls','Sin suscripciones ocultas','Registros necesarios','Acceso instantáneo a todas las herramientas','Por diseño','Los archivos se procesan en tu navegador'],
-      de:['Kostenlose Tools','Wird kontinuierlich erweitert','Keine Bezahlschranken','Keine versteckten Abos','Anmeldungen nötig','Sofortiger Zugriff auf alle Tools','Von Grund auf privat','Dateien werden im Browser verarbeitet'],
-      fr:['Outils gratuits','En expansion continue','Sans paywall','Sans abonnements cachés','Inscription nécessaire','Accès instantané aux outils','Pensé ainsi','Les fichiers sont traités dans votre navigateur'],
-      it:['Strumenti gratuiti','In continua espansione','Nessun paywall','Nessun abbonamento nascosto','Registrazioni necessarie','Accesso immediato a tutti gli strumenti','Progettato così','I file vengono elaborati nel browser'],
+      en:['Free Utilities','Expanding continuously','No Paywalls','No hidden subscriptions','No Sign-Up Required','Instant access to all tools','By Design','Files process right in your browser'],
+      pt:['Utilitários gratuitos','Expansão contínua','Sem paywalls','Sem assinaturas ocultas','Sem cadastro obrigatório','Acesso instantâneo a todas as ferramentas','Por design','Os arquivos são processados no navegador'],
+      es:['Herramientas gratuitas','Expansión continua','Sin paywalls','Sin suscripciones ocultas','Sin registro obligatorio','Acceso instantáneo a todas las herramientas','Por diseño','Los archivos se procesan en tu navegador'],
+      de:['Kostenlose Tools','Wird kontinuierlich erweitert','Keine Bezahlschranken','Keine versteckten Abos','Keine Anmeldung erforderlich','Sofortiger Zugriff auf alle Tools','Von Grund auf privat','Dateien werden im Browser verarbeitet'],
+      fr:['Outils gratuits','En expansion continue','Sans paywall','Sans abonnements cachés','Aucune inscription requise','Accès instantané aux outils','Pensé ainsi','Les fichiers sont traités dans votre navigateur'],
+      it:['Strumenti gratuiti','In continua espansione','Nessun paywall','Nessun abbonamento nascosto','Nessuna registrazione richiesta','Accesso immediato a tutti gli strumenti','Progettato così','I file vengono elaborati nel browser'],
       ja:['無料ツール','継続的に拡大','ペイウォールなし','隠れた購読なし','登録不要','すべてのツールに即時アクセス','設計思想として','ファイルはブラウザ内で処理されます'],
       ko:['무료 도구','지속적으로 확장','페이월 없음','숨겨진 구독 없음','가입 불필요','모든 도구에 즉시 접근','설계상','파일은 브라우저에서 처리됩니다'],
       zh:['免费工具','持续扩展','无付费墙','无隐藏订阅','无需注册','即时使用所有工具','设计如此','文件直接在浏览器中处理'],
       ru:['Бесплатных инструментов','Постоянное расширение','Без платных стен','Без скрытых подписок','Регистрация не нужна','Мгновенный доступ ко всем инструментам','По задумке','Файлы обрабатываются в браузере'],
       ar:['أدوات مجانية','توسّع مستمر','بدون جدران دفع','بدون اشتراكات مخفية','لا حاجة للتسجيل','وصول فوري إلى جميع الأدوات','مصمم بهذه الطريقة','تُعالج الملفات داخل المتصفح'],
       hi:['मुफ्त टूल्स','लगातार विस्तार','कोई पेवॉल नहीं','कोई छिपी सदस्यता नहीं','साइन-अप की जरूरत नहीं','सभी टूल्स तक तुरंत पहुंच','डिज़ाइन के अनुसार','फाइलें ब्राउज़र में प्रोसेस होती हैं']
-    }[locale] || ['Free Utilities','Expanding continuously','No Paywalls','No hidden subscriptions','Sign-Ups Needed','Instant access to all tools','By Design','Files process right in your browser'];
+    }[locale] || ['Free Utilities','Expanding continuously','No Paywalls','No hidden subscriptions','No Sign-Up Required','Instant access to all tools','By Design','Files process right in your browser'];
     return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors flex flex-col justify-between">
       <div><Navbar/>
         <section className="mx-auto max-w-5xl px-4 pt-8 sm:pt-10 pb-8 text-center sm:px-6">
