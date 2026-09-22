@@ -410,9 +410,9 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     ...base,
     // Localized page keeps the tool-specific English source fields rather than
     // replacing them with unrelated category-level/random copy.
-    intro: localized.why + ' ' + tool.description,
-    why: localized.why + ' ' + base.why,
-    steps: [...localizedSteps, ...base.steps].slice(0, 4),
+    intro: localized.why + ' ' + name + '.',
+    why: localized.why,
+    steps: localizedSteps.slice(0, 4),
     useCases: [...localized.useCases, ...toolSpecificExamples].slice(0, 7),
     tips: [...localized.tips, ...toolSpecificTips].slice(0, 7),
     limitations: [...localized.limitations, ...toolSpecificLimitations].slice(0, 6),
