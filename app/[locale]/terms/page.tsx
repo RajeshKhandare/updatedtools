@@ -24,6 +24,7 @@ export async function generateMetadata({
     description: 'Read the Toolployee terms of service for using the website and its online utilities.',
     alternates: {
       canonical: '/' + locale.code + '/terms',
+      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, '/' + item.code + '/terms'])),
     },
   };
 }
