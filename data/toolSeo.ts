@@ -374,49 +374,19 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   const base = getToolSeoContent(tool);
   if (locale === 'en') return base;
 
-  const category =
-    tool.category === 'PDF' || tool.category === 'Image' || tool.category === 'Compiler' ||
-    tool.category === 'Developer' || tool.category === 'Text' || tool.category === 'Converters' ||
-    tool.category === 'Finance' || tool.category === 'Calculators' || tool.category === 'YouTube'
-      ? tool.category
-      : 'Developer';
-
-  const localized = LOCALIZED_SEO[locale]?.[category] || LOCALIZED_GENERIC[locale];
-  if (!localized) return base;
-
-  const name = getLocalizedToolName(tool, locale);
-
-  // Keep the English source as the content authority: localized pages must describe
-  // the SAME tool-specific facts, examples, limitations and FAQs as the English page.
-  // Localized category copy is used only for language-specific framing and workflow wording.
-  const localizedSteps = localized.steps.map((step) =>
-    step.replace(/esta ferramenta|esta calculadora|este conversor|este ambiente|this tool/gi, name)
-  );
-
-  const toolSpecificExamples = base.useCases.slice(-4);
-  const toolSpecificTips = base.tips.slice(-4);
-  const toolSpecificLimitations = base.limitations.slice(-3);
-  const toolSpecificFaq = base.faq.slice(-4);
-
-  const faq = [
-    ...(LOCALIZED_FAQ_COMMON[locale] || []).slice(0, 2).map((item) => ({
-      q: item.q.replace(/esta ferramenta/gi, name),
-      a: item.a,
-    })),
-    ...toolSpecificFaq,
-  ].slice(0, 6);
-
+  // The English tool guide is the canonical source of truth. Until a complete
+  // per-tool/per-locale translation dataset exists, never replace tool-specific
+  // facts with generic category copy. Localized UI labels and tool names are
+  // translated separately by the page components.
   return {
     ...base,
-    // Localized page keeps the tool-specific English source fields rather than
-    // replacing them with unrelated category-level/random copy.
-    intro: localized.why + ' ' + name + '.',
-    why: localized.why,
-    steps: localizedSteps.slice(0, 4),
-    useCases: [...localized.useCases, ...toolSpecificExamples].slice(0, 7),
-    tips: [...localized.tips, ...toolSpecificTips].slice(0, 7),
-    limitations: [...localized.limitations, ...toolSpecificLimitations].slice(0, 6),
-    faq,
+    intro: base.intro,
+    why: base.why,
+    steps: [...base.steps],
+    useCases: [...base.useCases],
+    tips: [...base.tips],
+    limitations: [...base.limitations],
+    faq: base.faq.map((item) => ({ ...item })),
     visual: base.visual,
     formula: base.formula,
   };
