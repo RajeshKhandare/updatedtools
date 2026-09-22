@@ -1,13 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <defs>
-    <linearGradient id="g" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED"/>
-      <stop offset=".52" stop-color="#9333EA"/>
-      <stop offset="1" stop-color="#4F46E5"/>
+    <linearGradient id="g" x1="8" y1="5" x2="56" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D28D9"/>
+      <stop offset=".55" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#3730A3"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="17" fill="url(#g)"/>
-  <path d="M15 16h34v8H36v25h-8V24H15v-8Z" fill="white"/>
-  <path d="M47.4 11.5v6M44.4 14.5h6" stroke="white" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="47.4" cy="11.5" r="2" fill="white"/>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="url(#g)"/>
+  <rect x="1" y="1" width="62" height="62" rx="18" stroke="white" stroke-opacity=".12" stroke-width="2"/>
+  <!-- Custom Toolployee monogram: no sparkle, no decorative star. -->
+  <path d="M13 17.5C13 16.67 13.67 16 14.5 16h35c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5H36v23.5c0 .83-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5V24H14.5c-.83 0-1.5-.67-1.5-1.5v-5Z" fill="white"/>
+  <path d="M41 16.25h8.5c.83 0 1.5.67 1.5 1.5v1.8H41v-3.3Z" fill="white" opacity=".7"/>
+  <path d="M41 21h9" stroke="white" stroke-width="2.3" stroke-linecap="round" opacity=".55"/>
+  <path d="M41.2 24h5.7" stroke="white" stroke-width="1.9" stroke-linecap="round" opacity=".9"/>
 </svg>
