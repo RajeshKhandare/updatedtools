@@ -25,8 +25,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // Planned locales are intentionally excluded until localized routes contain
-  // genuinely localized content and are marked indexable.
+  const localizedStaticRoutes: MetadataRoute.Sitemap = INDEXABLE_LOCALES
+    .filter((locale) => locale.code !== 'en')
+    .flatMap((locale) => [
+      { url: SITE_URL + '/' + locale.code, lastModified: now, changeFrequency: 'daily' as const, priority: 0.9 },
+      { url: SITE_URL + '/' + locale.code + '/tools', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
+      { url: SITE_URL + '/' + locale.code + '/about', lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+      { url: SITE_URL + '/' + locale.code + '/contact', lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
+      { url: SITE_URL + '/' + locale.code + '/privacy-policy', lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
+      { url: SITE_URL + '/' + locale.code + '/terms', lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
+    ]);
+
   const localizedRoutes: MetadataRoute.Sitemap = INDEXABLE_LOCALES
     .filter((locale) => locale.code !== 'en')
     .flatMap((locale) =>
@@ -38,5 +47,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }))
     );
 
-  return [...staticRoutes, ...toolRoutes, ...localizedRoutes];
+  return [...staticRoutes, ...toolRoutes, ...localizedStaticRoutes, ...localizedRoutes];
 }
