@@ -1,0 +1,2 @@
+# Toolployee ads.txt
+# Add the verified Google AdSense publisher line here after AdSense approval.
