@@ -51,7 +51,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 lg:py-14">
             <div className="inline-flex items-center gap-2 rounded-full border border-violet-200/80 dark:border-violet-400/20 bg-violet-50/80 dark:bg-violet-950/30 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.16em] text-violet-700 dark:text-violet-300">
               <span className="h-1.5 w-1.5 rounded-full bg-violet-500 shadow-[0_0_10px_rgba(124,58,237,.7)]" />
-              {categoryLabel} Tool
+              {categoryLabel}
             </div>
             <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black tracking-[-0.03em] text-zinc-950 dark:text-white">
               {name}
@@ -90,7 +90,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
                     {getLocalizedToolName(comp, locale.code)}
                   </p>
                   <p className="text-[11px] text-zinc-400 line-clamp-2 mt-1.5 font-normal leading-relaxed">
-                    {getLocalizedToolSeoContent(comp, locale.code).intro}
+                    {getToolSeoContent(comp).intro}
                   </p>
                 </Link>
               ))}
