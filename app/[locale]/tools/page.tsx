@@ -93,7 +93,7 @@ function LocalizedToolsClient({ locale, ui }: { locale: LocaleCode; ui: ReturnTy
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder={ui.searchPlaceholder || ui.toolsLabel}
+                placeholder={ui.toolsLabel + "..." }
                 className="w-full bg-transparent py-2.5 pl-11 pr-4 text-xs focus:outline-none text-zinc-900 dark:text-white placeholder:text-zinc-400"
               />
             </div>
