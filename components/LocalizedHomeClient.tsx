@@ -56,7 +56,8 @@ const FAQ_COPY: Record<string, Array<[string,string]>> = {
 function icon(cat:string) {
   switch(cat) {
     case 'PDF': return <FileText className="h-5 w-5 text-violet-600 dark:text-violet-400"/>;
-    case 'Image': return <ImageIcon className="h-5 w-5 text-pink-500 dark:text-pink-400"/>;
+    case 'Image':
+    case 'Image Crop': return <ImageIcon className="h-5 w-5 text-pink-500 dark:text-pink-400"/>;
     case 'Compiler':
     case 'Developer': return <Code className="h-5 w-5 text-emerald-500 dark:text-emerald-400"/>;
     case 'Finance':
