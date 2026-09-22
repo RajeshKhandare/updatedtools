@@ -32,9 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     openGraph: { title, description, url, siteName: SITE_NAME, type: 'website', locale: locale.hreflang },
     twitter: { card: 'summary_large_image', title, description },
-    // Keep planned locales out of the index until their main body content is
-    // genuinely localized and reviewed. English remains indexed on /tools/*.
-    robots: { index: false, follow: true },
+    robots: { index: true, follow: true },
   };
 }
 
