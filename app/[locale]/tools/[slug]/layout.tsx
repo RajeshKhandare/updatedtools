@@ -26,7 +26,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
+    },
     openGraph: { title, description, url, siteName: SITE_NAME, type: 'website', locale: locale.hreflang },
     twitter: { card: 'summary_large_image', title, description },
     // Keep planned locales out of the index until their main body content is
