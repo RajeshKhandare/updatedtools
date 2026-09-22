@@ -59,7 +59,7 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
             <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">87</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[0]}</p><p className="text-[11px] text-zinc-400">{metrics[1]}</p></div>
             <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">100%</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[2]}</p><p className="text-[11px] text-zinc-400">{metrics[3]}</p></div>
             <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">0</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[4]}</p><p className="text-[11px] text-zinc-400">{metrics[5]}</p></div>
-            <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">Private</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[6]}</p><p className="text-[11px] text-zinc-400">{metrics[7]}</p></div>
+            <div><p className="text-3xl sm:text-4xl font-black text-violet-600 dark:text-violet-400">{({en:"Private",pt:"Privado",es:"Privado",de:"Privat",fr:"Privé",it:"Privato",ja:"非公開",ko:"비공개",zh:"私密",ru:"Приватно",ar:"خاص",hi:"प्राइवेट"} as Record<string,string>)[locale]}</p><p className="mt-1 text-xs font-bold text-zinc-800 dark:text-zinc-200">{metrics[6]}</p><p className="text-[11px] text-zinc-400">{metrics[7]}</p></div>
           </div>
         </section>
         <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 space-y-12">
