@@ -61,7 +61,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href={currentLocale === 'en' ? '/' : `/${currentLocale}`} className="flex items-center shrink-0" aria-label="Home">
           <BrandMark className="h-10 w-10" />
-          <span className="ml-2.5 text-lg font-extrabold tracking-tight text-zinc-950 dark:text-white">Toolployee</span>
+          <span className="ml-1.5 text-lg font-extrabold tracking-tight text-zinc-950 dark:text-white">Toolployee</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
