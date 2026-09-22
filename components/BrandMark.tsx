@@ -8,9 +8,9 @@ type BrandMarkProps = {
 };
 
 /**
- * Toolployee brand mark:
- * an interlocking T/P monogram inspired by a precision tool head and a
- * connected workflow. No sparkle/star decoration; the silhouette is the identity.
+ * Toolployee signature mark.
+ * A custom TP ligature: the P is carved into the T as negative space,
+ * making one clean silhouette rather than two overlapping letters.
  */
 export default function BrandMark({ className = '', iconClassName = '' }: BrandMarkProps) {
   return (
@@ -19,23 +19,18 @@ export default function BrandMark({ className = '', iconClassName = '' }: BrandM
       className={`relative flex shrink-0 items-center justify-center overflow-hidden rounded-[14px] bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-600 text-white shadow-lg shadow-violet-500/25 ring-1 ring-white/20 dark:ring-white/10 ${className}`}
     >
       <svg viewBox="0 0 40 40" fill="none" className={`relative z-10 ${iconClassName}`}>
-        {/* Interlocking TP monogram — one continuous, tool-like silhouette. */}
         <path
-          d="M7 8.5C7 7.67 7.67 7 8.5 7H30c1.66 0 3 1.34 3 3v4.25c0 .83-.67 1.5-1.5 1.5H24v15.75c0 .83-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5V15.75H8.5c-.83 0-1.5-.67-1.5-1.5v-5.75Z"
           fill="currentColor"
-        />
-        {/* Precision cut-out turns the right side into a subtle P/tool-head cue. */}
-        <path
-          d="M24 15.75h6.1c1.05 0 1.9.85 1.9 1.9v1.65c0 2.49-2.01 4.5-4.5 4.5H24v-3.8h2.45c.48 0 .87-.39.87-.87v-.18c0-.48-.39-.87-.87-.87H24v-2.33Z"
-          fill="white"
-          fillOpacity=".22"
+          fillRule="evenodd"
+          d="M6.5 8.5C6.5 7.67 7.17 7 8 7h24c.83 0 1.5.67 1.5 1.5v4c0 .83-.67 1.5-1.5 1.5h-8v17.5c0 .83-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5V14h-8c-.83 0-1.5-.67-1.5-1.5v-4ZM22.5 14h6.2c1.88 0 3.3 1.42 3.3 3.3v1.9c0 3.2-2.6 5.8-5.8 5.8h-3.7v-3.8h3.05c.77 0 1.4-.63 1.4-1.4v-.5c0-.72-.58-1.3-1.3-1.3H22.5V14Z"
+          clipRule="evenodd"
         />
         <path
-          d="M24 15.75h6.1"
+          d="M28.8 16.2c.9.45 1.2 1.2 1.2 2.15"
           stroke="white"
-          strokeWidth="1.35"
+          strokeWidth="1"
           strokeLinecap="round"
-          strokeOpacity=".62"
+          strokeOpacity=".28"
         />
       </svg>
     </div>
