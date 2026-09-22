@@ -373,25 +373,50 @@ const LOCALIZED_FAQ_COMMON: Record<Exclude<LocaleCode,'en'>, ToolFaq[]> = {
 export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): ToolSeoContent {
   const base = getToolSeoContent(tool);
   if (locale === 'en') return base;
-  const category = tool.category === 'PDF' || tool.category === 'Image' || tool.category === 'Compiler' || tool.category === 'Developer' || tool.category === 'Text' || tool.category === 'Converters' || tool.category === 'Finance' || tool.category === 'Calculators' || tool.category === 'YouTube' ? tool.category : 'Developer';
+
+  const category =
+    tool.category === 'PDF' || tool.category === 'Image' || tool.category === 'Compiler' ||
+    tool.category === 'Developer' || tool.category === 'Text' || tool.category === 'Converters' ||
+    tool.category === 'Finance' || tool.category === 'Calculators' || tool.category === 'YouTube'
+      ? tool.category
+      : 'Developer';
+
   const localized = LOCALIZED_SEO[locale]?.[category] || LOCALIZED_GENERIC[locale];
   if (!localized) return base;
+
   const name = getLocalizedToolName(tool, locale);
-  const categoryName = getLocalizedCategoryLabel(tool.category, locale);
-  const q = localized.faq;
+
+  // Keep the English source as the content authority: localized pages must describe
+  // the SAME tool-specific facts, examples, limitations and FAQs as the English page.
+  // Localized category copy is used only for language-specific framing and workflow wording.
+  const localizedSteps = localized.steps.map((step) =>
+    step.replace(/esta ferramenta|esta calculadora|este conversor|este ambiente|this tool/gi, name)
+  );
+
+  const toolSpecificExamples = base.useCases.slice(-4);
+  const toolSpecificTips = base.tips.slice(-4);
+  const toolSpecificLimitations = base.limitations.slice(-3);
+  const toolSpecificFaq = base.faq.slice(-4);
+
+  const faq = [
+    ...(LOCALIZED_FAQ_COMMON[locale] || []).slice(0, 2).map((item) => ({
+      q: item.q.replace(/esta ferramenta/gi, name),
+      a: item.a,
+    })),
+    ...toolSpecificFaq,
+  ].slice(0, 6);
+
   return {
     ...base,
-    intro: localized.why,
-    why: localized.why,
-    steps: localized.steps.map((x) => x.replace(/esta ferramenta|esta calculadora|este conversor|este ambiente/gi, name)),
-    useCases: localized.useCases,
-    tips: localized.tips,
-    limitations: localized.limitations,
-    faq: [
-      { q: q[0].replace('esta ferramenta', name).replace('Esta ferramenta', name), a: q[1] },
-      { q: q[2].replace('esta ferramenta', name).replace('Esta ferramenta', name), a: q[3] },
-      ...(LOCALIZED_FAQ_COMMON[locale] || []),
-    ].slice(0, 6),
+    // Localized page keeps the tool-specific English source fields rather than
+    // replacing them with unrelated category-level/random copy.
+    intro: localized.why + ' ' + tool.description,
+    why: localized.why + ' ' + base.why,
+    steps: [...localizedSteps, ...base.steps].slice(0, 4),
+    useCases: [...localized.useCases, ...toolSpecificExamples].slice(0, 7),
+    tips: [...localized.tips, ...toolSpecificTips].slice(0, 7),
+    limitations: [...localized.limitations, ...toolSpecificLimitations].slice(0, 6),
+    faq,
     visual: base.visual,
     formula: base.formula,
   };
