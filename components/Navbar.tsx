@@ -73,9 +73,7 @@ export default function Navbar() {
         
         {/* Brand Logo */}
         <Link href={currentLocale === 'en' ? '/' : `/${currentLocale}`} className="flex items-center gap-2.5 shrink-0">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-600 text-white shadow-md shadow-violet-500/20">
-            <Sparkles className="h-5 w-5" />
-          </div>
+          <BrandMark className="h-9 w-9" iconClassName="h-6 w-6" />
           <div>
             <span className="text-base font-black tracking-tight text-zinc-950 dark:text-white">
               {SITE_NAME}
