@@ -26,9 +26,7 @@ export default function Footer() {
           {/* Brand Info (2 Columns Wide) */}
           <div className="md:col-span-2 space-y-4">
             <Link href={localized("/")} className="flex items-center gap-2.5">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-600 text-white font-black shadow-md shadow-violet-500/20">
-                <Sparkles className="h-4 w-4" />
-              </div>
+              <BrandMark className="h-9 w-9" iconClassName="h-6 w-6" />
               <span className="text-lg font-extrabold tracking-tight text-zinc-950 dark:text-white">
                 {SITE_NAME}
               </span>
