@@ -1,6 +1,6 @@
 interface Env {
   ASSETS: {
-    fetch(request: Request | URL | string, init?: RequestInit): Promise<Response>;
+    fetch(request: Request): Promise<Response>;
   };
   CODE_EXECUTION_API_URL?: string;
   BUILD_SHA?: string;
