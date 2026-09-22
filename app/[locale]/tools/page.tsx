@@ -7,9 +7,6 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 
-export const dynamic = 'force-static';
-export const dynamicParams = true;
-
 export function generateStaticParams() {
   return LOCALES.filter((locale) => locale.code !== 'en').map((locale) => ({ locale: locale.code }));
 }
