@@ -44,4 +44,6 @@ export default async function LocalizedToolsIndex({ params }: { params: Promise<
       <Footer />
     </main>
   );
-}
+}export const dynamicParams = false;
+
+
