@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="md:col-span-2 space-y-4">
             <Link href={localized("/")} className="flex items-center" aria-label="Home">
               <BrandMark className="h-10 w-10" />
-              <span className="ml-2.5 text-lg font-extrabold tracking-tight text-zinc-950 dark:text-white">Toolployee</span>
+              <span className="ml-1.5 text-lg font-extrabold tracking-tight text-zinc-950 dark:text-white">Toolployee</span>
             </Link>
             <p className="text-xs leading-relaxed text-zinc-500 dark:text-zinc-400 max-w-sm">{ui.footerDescription}</p>
             <div className="flex items-center gap-2 text-[11px] font-medium text-zinc-500 dark:text-zinc-400">
@@ -68,8 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-zinc-100 dark:border-zinc-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-zinc-400 dark:text-zinc-500 gap-3">
-          <p>© {new Date().getFullYear()}</p>
-          <p className="flex items-center gap-1">{ui.craftedLabel}</p>
+          <p>© {new Date().getFullYear()} Toolployee. All rights reserved.</p>
         </div>
       </div>
     </footer>
