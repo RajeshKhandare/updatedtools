@@ -11,7 +11,7 @@ const targetKeywords=[...registry.matchAll(/targetKeyword:\s*'([^']+)'/g)].map(m
 if(names.length!==87||descriptions.length!==87||targetKeywords.length!==87) throw new Error(`Expected 87 names, descriptions, and target keywords; found ${names.length}, ${descriptions.length}, ${targetKeywords.length}`);
 if(descriptions.some(d=>d.trim().length<30)) throw new Error('Every tool description must contain at least 30 characters');
 if(targetKeywords.some(k=>!k.trim())) throw new Error('Every tool must have a non-empty targetKeyword');
-if(slugs.some(s=>!^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(s))) throw new Error('Every tool slug must be lowercase kebab-case');
+if(slugs.some(s=>!(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).test(s))) throw new Error('Every tool slug must be lowercase kebab-case');
 
 const expectedCounts={PDF:14,Image:14,Compiler:8,Developer:12,Text:10,Converters:10,Calculators:9,Finance:7,YouTube:3};
 for(const [category,expected] of Object.entries(expectedCounts)) if((counts[category]||0)!==expected) throw new Error(`Expected ${expected} ${category} tools; found ${counts[category]||0}`);

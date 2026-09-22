@@ -3,6 +3,9 @@
 import React, { useMemo, useState } from 'react';
 import { Check, Copy, Download, RefreshCw } from 'lucide-react';
 import { ToolMeta } from '@/data/toolsRegistry';
+import type { LocaleCode } from '@/data/internationalSeo';
+import { getEngineUi } from '@/data/engineLocalization';
+import { getLocalizedToolName } from '@/data/internationalLocalization';
 
 const card='relative w-full max-w-5xl mx-auto overflow-hidden rounded-[28px] border border-zinc-200/80 dark:border-white/10 bg-white/95 dark:bg-zinc-900/90 p-5 sm:p-7 lg:p-8 space-y-6 shadow-[0_24px_80px_-36px_rgba(0,0,0,0.55)] backdrop-blur-xl';
 const input='w-full rounded-2xl border border-zinc-200/90 dark:border-white/10 bg-zinc-50/80 dark:bg-zinc-950/80 px-4 py-3.5 text-sm text-zinc-900 dark:text-white shadow-sm outline-none transition-all duration-200 placeholder:text-zinc-400 focus:border-violet-500/70 focus:ring-4 focus:ring-violet-500/10 focus:bg-white dark:focus:bg-zinc-950';
@@ -19,7 +22,7 @@ function n(v:string,f=0){
 function fmt(v:number){
   return Number.isFinite(v)
     ? new Intl.NumberFormat('en-US',{maximumFractionDigits:8}).format(v)
-    : 'Invalid result';
+    : ({en:'Invalid result',pt:'Resultado inválido',es:'Resultado no válido',de:'Ungültiges Ergebnis',fr:'Résultat invalide',it:'Risultato non valido',ja:'無効な結果',ko:'잘못된 결과',zh:'结果无效',ru:'Недопустимый результат',ar:'نتيجة غير صالحة',hi:'अमान्य परिणाम'} as Record<string,string>)[typeof document !== 'undefined' ? document.documentElement.lang : 'en'] || 'Invalid result';
 }
 
 function b64e(s:string){
@@ -142,7 +145,8 @@ const units:Record<string,{label:string;factor:number}[]>={
   ].map(([label,factor])=>({label:String(label),factor:Number(factor)})),
 };
 
-function Converter({slug}:{slug:string}){
+function Converter({slug, locale='en'}:{slug:string; locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   const list=units[slug]||[];
 
   const [v,setV]=useState('1');
@@ -183,7 +187,7 @@ function Converter({slug}:{slug:string}){
       </div>
 
       <div className="resultPanel">
-        <div className="text-xs text-zinc-500">Result</div>
+        <div className="text-xs text-zinc-500">{ui.result}</div>
         <div className="text-2xl font-bold mt-1">
           {fmt(result)} {to}
         </div>
@@ -192,7 +196,8 @@ function Converter({slug}:{slug:string}){
   );
 }
 
-function Temperature(){
+function Temperature({locale='en'}:{locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   const [v,setV]=useState('0');
   const [from,setFrom]=useState('C');
   const [to,setTo]=useState('F');
@@ -226,9 +231,9 @@ function Temperature(){
           value={from}
           onChange={e=>setFrom(e.target.value)}
         >
-          <option value="C">Celsius</option>
-          <option value="F">Fahrenheit</option>
-          <option value="K">Kelvin</option>
+          <option value="C">{ui.universal.celsius}</option>
+          <option value="F">{ui.universal.fahrenheit}</option>
+          <option value="K">{ui.universal.kelvin}</option>
         </select>
 
         <select
@@ -236,9 +241,9 @@ function Temperature(){
           value={to}
           onChange={e=>setTo(e.target.value)}
         >
-          <option value="C">Celsius</option>
-          <option value="F">Fahrenheit</option>
-          <option value="K">Kelvin</option>
+          <option value="C">{ui.universal.celsius}</option>
+          <option value="F">{ui.universal.fahrenheit}</option>
+          <option value="K">{ui.universal.kelvin}</option>
         </select>
       </div>
 
@@ -249,7 +254,8 @@ function Temperature(){
   );
 }
 
-function DeveloperText({tool}:{tool:ToolMeta}){
+function DeveloperText({tool, locale='en'}:{tool:ToolMeta; locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   const slug=tool.slug;
 
   const [value,setValue]=useState('');
@@ -298,7 +304,7 @@ function DeveloperText({tool}:{tool:ToolMeta}){
           const ms=Date.parse(x);
 
           if(!Number.isFinite(ms)){
-            throw new Error('Enter a Unix timestamp or valid date.');
+            throw new Error(ui.universal.timestampError);
           }
 
           out=String(Math.floor(ms/1000));
@@ -309,7 +315,7 @@ function DeveloperText({tool}:{tool:ToolMeta}){
         if(h.length===3)h=h.split('').map(c=>c+c).join('');
 
         if(!/^[0-9a-f]{6}$/i.test(h)){
-          throw new Error('Use a 6-digit hex color.');
+          throw new Error(ui.universal.hexError);
         }
 
         const r=parseInt(h.slice(0,2),16);
@@ -350,7 +356,7 @@ HSL: hsl(${H.toFixed(1)}, ${(S*100).toFixed(1)}%, ${(l*100).toFixed(1)}%)`;
         const p=value.trim().split('.');
 
         if(p.length<2){
-          throw new Error('Enter a JWT with at least header and payload segments.');
+          throw new Error(ui.universal.jwtError);
         }
 
         out=`Header:
@@ -410,19 +416,19 @@ ${JSON.stringify(
                     ? 'Linux'
                     : 'Unknown';
 
-        out=`Browser: ${browser}
-OS: ${os}
-User-Agent: ${ua}`;
+        out=`${ui.universal.browser}: ${browser}
+${ui.universal.os}: ${os}
+${ui.universal.userAgent}: ${ua}`;
 
       }else if(slug==='word-character-counter'){
         const words=value.trim()?value.trim().split(/\s+/).length:0;
         const chars=value.length;
         const charsNoSpaces=value.replace(/\s/g,'').length;
 
-        out=`Words: ${words}
-Characters: ${chars}
-Characters (no spaces): ${charsNoSpaces}
-Lines: ${value?value.split(/\r?\n/).length:0}`;
+        out=`${ui.universal.words}: ${words}
+${ui.universal.characters}: ${chars}
+${ui.universal.charactersNoSpaces}: ${charsNoSpaces}
+${ui.universal.lines}: ${value?value.split(/\r?\n/).length:0}`;
 
       }else if(slug==='text-case-converter'){
         out=
@@ -487,19 +493,19 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
 
       }else if(slug==='find-replace-text'){
         if(!second){
-          throw new Error('Enter text to find.');
+          throw new Error(ui.universal.findError);
         }
 
         out=value.split(second).join(replacement);
 
       }else{
-        throw new Error('Tool is not configured.');
+        throw new Error(ui.universal.notConfigured);
       }
 
       setResult(out);
 
     }catch(e){
-      setResult(`Error: ${e instanceof Error?e.message:'Invalid input'}`);
+      setResult(`${ui.universal.invalidInput}: ${e instanceof Error?e.message:ui.universal.invalidInput}`);
     }
   };
 
@@ -509,7 +515,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
       setCopied(true);
       setTimeout(()=>setCopied(false),1500);
     }catch{
-      setResult('Clipboard access was blocked by the browser.');
+      setResult(ui.universal.clipboardError);
     }
   };
 
@@ -523,7 +529,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
 
   return (
     <div className={card}>
-      <h3 className="text-lg font-bold">{tool.name}</h3>
+      <h3 className="text-lg font-bold">{getLocalizedToolName(tool,locale)}</h3>
 
       {isMode&&(
         <div className="flex gap-2">
@@ -531,14 +537,14 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
             className={mode==='encode'?button:secondary}
             onClick={()=>setMode('encode')}
           >
-            {slug==='reverse-text-mirror-tool'?'Reverse characters':'Encode'}
+            {slug==='reverse-text-mirror-tool'?ui.universal.reverseCharacters:ui.universal.encode}
           </button>
 
           <button
             className={mode==='decode'?button:secondary}
             onClick={()=>setMode('decode')}
           >
-            {slug==='reverse-text-mirror-tool'?'Reverse words':'Decode'}
+            {slug==='reverse-text-mirror-tool'?ui.universal.reverseWords:ui.universal.decode}
           </button>
         </div>
       )}
@@ -561,7 +567,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
         className={input+' min-h-44 font-mono'}
         value={value}
         onChange={e=>setValue(e.target.value)}
-        placeholder={`Enter input for ${tool.name}...`}
+        placeholder={ui.enterValues}
       />
 
       {isTwo&&(
@@ -569,7 +575,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
           className={input+' min-h-32 font-mono'}
           value={second}
           onChange={e=>setSecond(e.target.value)}
-          placeholder="Enter the second text block..."
+          placeholder={ui.enterValues}
         />
       )}
 
@@ -579,29 +585,27 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
             className={input}
             value={second}
             onChange={e=>setSecond(e.target.value)}
-            placeholder="Find"
+            placeholder={locale==="en"?"Find":locale==="es"?"Buscar":locale==="pt"?"Localizar":locale==="de"?"Suchen":locale==="fr"?"Rechercher":locale==="it"?"Trova":locale==="ja"?"検索":locale==="ko"?"찾기":locale==="zh"?"查找":locale==="ru"?"Найти":locale==="ar"?"بحث":"खोजें"}
           />
 
           <input
             className={input}
             value={replacement}
             onChange={e=>setReplacement(e.target.value)}
-            placeholder="Replacement"
+            placeholder={locale==="en"?"Replacement":locale==="es"?"Reemplazo":locale==="pt"?"Substituição":locale==="de"?"Ersetzung":locale==="fr"?"Remplacement":locale==="it"?"Sostituzione":locale==="ja"?"置換":locale==="ko"?"바꾸기":locale==="zh"?"替换":locale==="ru"?"Замена":locale==="ar"?"الاستبدال":"बदलें"}
           />
         </>
       )}
 
       {['strong-password-generator','lorem-ipsum-generator'].includes(slug)&&(
         <p className="text-xs text-zinc-500">
-          {slug==='strong-password-generator'
-            ? 'Enter desired password length in the box above.'
-            : 'Enter number of paragraphs in the box above.'}
+          {ui.enterValues}
         </p>
       )}
 
       <div className="flex flex-wrap gap-2">
         <button className={button} onClick={process}>
-          Process
+          {ui.process}
         </button>
 
         {result&&(
@@ -611,7 +615,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
                 ? <Check className="inline h-3.5 w-3.5"/>
                 : <Copy className="inline h-3.5 w-3.5"/>}
               {' '}
-              {copied?'Copied':'Copy'}
+              {copied ? ui.copied : ui.copy}
             </button>
 
             <button
@@ -620,7 +624,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
             >
               <Download className="inline h-3.5 w-3.5"/>
               {' '}
-              Download
+              {ui.download}
             </button>
           </>
         )}
@@ -636,7 +640,7 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
         >
           <RefreshCw className="inline h-3.5 w-3.5"/>
           {' '}
-          Reset
+          {ui.reset}
         </button>
       </div>
 
@@ -649,11 +653,11 @@ Lines: ${value?value.split(/\r?\n/).length:0}`;
   );
 }
 
-function evaluateScientificExpression(expression:string){
+function evaluateScientificExpression(expression:string, text:Record<string,string>){
   const x=expression.trim();
 
   if(!/^[0-9+\-*/().\s^a-z]+$/i.test(x)){
-    throw new Error('Unsupported characters.');
+    throw new Error(text.unsupportedCharacters);
   }
 
   const norm=x
@@ -668,13 +672,13 @@ function evaluateScientificExpression(expression:string){
     .replace(/\bln\(([^()]*)\)/gi,(_,v)=>String(Math.log(Number(v))));
 
   if(!/^[0-9+\-*/().]+$/.test(norm)){
-    throw new Error('Use arithmetic with sqrt, sin, cos, tan, log, ln and pi.');
+    throw new Error(text.expressionHelp);
   }
 
   const tokens=norm.match(/\d+(?:\.\d+)?|\*\*|[+\-*/()]/g);
 
   if(!tokens||tokens.join('')!==norm){
-    throw new Error('Invalid expression.');
+    throw new Error(text.invalidExpression);
   }
 
   const vals:number[]=[];
@@ -691,10 +695,10 @@ function evaluateScientificExpression(expression:string){
 
   const apply=()=>{
     const o=ops.pop();
-    if(!o) throw new Error('Invalid expression.');
+    if(!o) throw new Error(text.invalidExpression);
     const y=vals.pop();
     const z=vals.pop();
-    if(y===undefined||z===undefined) throw new Error('Invalid expression.');
+    if(y===undefined||z===undefined) throw new Error(text.invalidExpression);
     vals.push(o==='+'?z+y:o==='-'?z-y:o==='*'?z*y:o==='/'?z/y:z**y);
   };
 
@@ -709,7 +713,7 @@ function evaluateScientificExpression(expression:string){
       expect=true;
     }else if(t===')'){
       while(ops.length&&ops.at(-1)!=='(') apply();
-      if(ops.pop()!=='(') throw new Error('Mismatched parentheses.');
+      if(ops.pop()!=='(') throw new Error(text.mismatchedParentheses);
       expect=false;
     }else if((t==='+'||t==='-')&&expect){
       vals.push(0);
@@ -723,10 +727,11 @@ function evaluateScientificExpression(expression:string){
 
   while(ops.length) apply();
 
-  if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error('Invalid expression.');
+  if(vals.length!==1||!Number.isFinite(vals[0])) throw new Error(text.invalidExpression);
   return fmt(vals[0]);
 }
-function Calculator({slug,toolName}:{slug:string;toolName:string}){
+function Calculator({slug,toolName,locale='en'}:{slug:string;toolName:string;locale?:LocaleCode}){
+  const ui = getEngineUi(locale);
   const [a,setA]=useState('1000');
   const [b,setB]=useState('5');
   const [c,setC]=useState('10');
@@ -737,9 +742,9 @@ function Calculator({slug,toolName}:{slug:string;toolName:string}){
 
   const calculateScientific=()=>{
     try{
-      setScientificResult(evaluateScientificExpression(expr));
+      setScientificResult(evaluateScientificExpression(expr,ui.universal));
     }catch(e){
-      setScientificResult(`Error: ${e instanceof Error?e.message:'Invalid input'}`);
+      setScientificResult(`${ui.universal.invalidInput}: ${e instanceof Error?e.message:ui.universal.invalidInput}`);
     }
   };
 
@@ -752,7 +757,7 @@ function Calculator({slug,toolName}:{slug:string;toolName:string}){
       const years=n(c);
 
       if(monthly<0||annualRate<=-100||years<=0){
-        throw new Error('Enter a positive monthly SIP, a return rate above -100%, and a tenure greater than 0 years.');
+        throw new Error(ui.universal.positiveSip);
       }
 
       const monthlyRate=annualRate/12/100;
@@ -762,13 +767,7 @@ function Calculator({slug,toolName}:{slug:string;toolName:string}){
         ? invested
         : monthly*((Math.pow(1+monthlyRate,months)-1)/monthlyRate)*(1+monthlyRate);
 
-      out=`Monthly SIP: ₹${fmt(monthly)}
-Total invested: ₹${fmt(invested)}
-Estimated returns: ₹${fmt(futureValue-invested)}
-Estimated maturity value: ₹${fmt(futureValue)}
-
-Assumption: monthly SIP instalments are made at the beginning of each month.
-Estimate only; actual mutual fund returns are not guaranteed.`;
+      out=`${ui.universal.monthlySip}: ₹${fmt(monthly)}\n${ui.universal.totalInvested}: ₹${fmt(invested)}\n${ui.universal.estimatedReturns}: ₹${fmt(futureValue-invested)}\n${ui.universal.maturityValue}: ₹${fmt(futureValue)}\n\n${ui.universal.assumption}\n${ui.universal.estimateOnly}`;
     }else if(slug==='compound-interest-calculator'){
       const p=n(a);
       const r=n(b)/100;
@@ -776,9 +775,7 @@ Estimate only; actual mutual fund returns are not guaranteed.`;
       const q=Math.max(1,Math.floor(n(d,12)));
       const fv=p*Math.pow(1+r/q,q*t);
 
-      out=`Principal: ${fmt(p)}
-Interest: ${fmt(fv-p)}
-Final amount: ${fmt(fv)}`;
+      out=`${ui.universal.principal}: ${fmt(p)}\n${ui.universal.interest}: ${fmt(fv-p)}\n${ui.universal.finalAmount}: ${fmt(fv)}`;
 
     }else if(slug==='simple-interest-calculator'){
       const p=n(a);
@@ -786,8 +783,7 @@ Final amount: ${fmt(fv)}`;
       const t=n(c);
       const i=p*r*t/100;
 
-      out=`Simple interest: ${fmt(i)}
-Total amount: ${fmt(p+i)}`;
+      out=`${ui.universal.simpleInterest}: ${fmt(i)}\n${ui.universal.totalAmount}: ${fmt(p+i)}`;
 
     }else if(slug==='percentage-calculator'){
       const x=n(a);
@@ -795,16 +791,15 @@ Total amount: ${fmt(p+i)}`;
 
       out=
         y===0
-          ? 'Enter a non-zero second value.'
-          : `${fmt(x)} is ${fmt(x/y*100)}% of ${fmt(y)}
-Difference: ${fmt(y-x)}`;
+          ? ui.universal.nonZero
+          : `${fmt(x)} ${ui.universal.percentOf} ${fmt(x/y*100)}% ${ui.universal.percentOf} ${fmt(y)}\n${ui.universal.difference}: ${fmt(y-x)}`;
 
     }else if(slug==='age-calculator'){
       const dob=new Date(date+'T00:00:00');
       const now=new Date();
 
       if(!Number.isFinite(dob.getTime())||dob>now){
-        throw new Error('Choose a valid past date.');
+        throw new Error(ui.universal.pastDate);
       }
 
       let years=now.getFullYear()-dob.getFullYear();
@@ -817,21 +812,19 @@ Difference: ${fmt(y-x)}`;
         months+=12;
       }
 
-      out=`Age: ${years} years, ${months} months
-Approximate days: ${Math.floor((now.getTime()-dob.getTime())/86400000).toLocaleString()}`;
+      out=`${ui.universal.age}: ${years} ${ui.universal.years}, ${months} ${ui.universal.months}\n${ui.universal.approxDays}: ${Math.floor((now.getTime()-dob.getTime())/86400000).toLocaleString()}`;
 
     }else if(slug==='bmi-calculator'){
       const kg=n(a);
       const cm=n(b);
 
       if(kg<=0||cm<=0){
-        throw new Error('Enter positive weight and height.');
+        throw new Error(ui.universal.positiveWeight);
       }
 
       const bmi=kg/(cm/100)**2;
 
-      out=`BMI: ${bmi.toFixed(1)}
-Category: ${bmi<18.5?'Underweight':bmi<25?'Normal range':bmi<30?'Overweight':'Obesity'}`;
+      out=`${ui.universal.bmi}: ${bmi.toFixed(1)}\n${ui.universal.category}: ${bmi<18.5?ui.universal.underweight:bmi<25?ui.universal.normal:bmi<30?ui.universal.overweight:ui.universal.obesity}`;
 
     }else if(slug==='scientific-calculator'){
       out=scientificResult;
@@ -843,10 +836,7 @@ Category: ${bmi<18.5?'Underweight':bmi<25?'Normal range':bmi<30?'Overweight':'Ob
       const after=price*(1-disc/100);
       const total=after*(1+tax/100);
 
-      out=`Original: ${fmt(price)}
-After discount: ${fmt(after)}
-Discount saved: ${fmt(price-after)}
-After tax: ${fmt(total)}`;
+      out=`${ui.universal.original}: ${fmt(price)}\n${ui.universal.afterDiscount}: ${fmt(after)}\n${ui.universal.discountSaved}: ${fmt(price-after)}\n${ui.universal.afterTax}: ${fmt(total)}`;
 
     }else if(slug==='tip-calculator'){
       const bill=n(a);
@@ -855,16 +845,14 @@ After tax: ${fmt(total)}`;
       const tipAmt=bill*tip/100;
       const total=bill+tipAmt;
 
-      out=`Tip: ${fmt(tipAmt)}
-Total: ${fmt(total)}
-Per person: ${fmt(total/people)}`;
+      out=`${ui.universal.tip}: ${fmt(tipAmt)}\n${ui.universal.total}: ${fmt(total)}\n${ui.universal.perPerson}: ${fmt(total/people)}`;
 
     }else{
       out='';
     }
 
   }catch(e){
-    out=`Error: ${e instanceof Error?e.message:'Invalid input'}`;
+    out=`${ui.universal.invalidInput}: ${e instanceof Error?e.message:ui.universal.invalidInput}`;
   }
 
   return (
@@ -875,7 +863,7 @@ Per person: ${fmt(total/people)}`;
         ? (
           <div>
             <label className="mb-2 block text-xs font-medium text-zinc-500">
-              Date of Birth
+              {ui.dateOfBirth}
             </label>
             <input
               className={input}
@@ -889,13 +877,13 @@ Per person: ${fmt(total/people)}`;
           ? (
             <div>
               <label className="mb-2 block text-xs font-medium text-zinc-500">
-                Mathematical Expression
+                {ui.expression}
               </label>
               <input
                 className={input}
                 value={expr}
                 onChange={e=>setExpr(e.target.value)}
-                placeholder="Example: sqrt(25) + 2^3"
+                placeholder={ui.universal.dateExample}
               />
               <button
                 className={button+' mt-3'}
@@ -910,48 +898,48 @@ Per person: ${fmt(total/people)}`;
               <div>
                 <label className="mb-2 block text-xs font-medium text-zinc-500">
                   {slug==='sip-wealth-calculator'
-                    ? 'Monthly SIP Investment'
+                    ? ui.universal.monthlyInvestment
                     : slug==='bmi-calculator'
-                      ? 'Weight (kg)'
+                      ? `${ui.enterValues} — kg`
                       : slug==='compound-interest-calculator'
-                        ? 'Principal Amount'
+                        ? ui.universal.principalAmount
                         : slug==='simple-interest-calculator'
-                          ? 'Principal Amount'
+                          ? ui.universal.principalAmount
                           : slug==='percentage-calculator'
-                            ? 'Value'
+                            ? ui.result
                             : slug==='discount-calculator'
-                              ? 'Original Price'
-                              : 'Bill Amount'}
+                              ? ui.enterValues
+                             : ui.universal.billAmount}
                 </label>
                 <input
                   className={input}
                   type="number"
                   value={a}
                   onChange={e=>setA(e.target.value)}
-                  placeholder={slug==='sip-wealth-calculator'?'e.g. 1000':slug==='bmi-calculator'?'e.g. 70':'Enter amount'}
+                  placeholder={ui.enterValues}
                 />
               </div>
 
               <div>
                 <label className="mb-2 block text-xs font-medium text-zinc-500">
                   {slug==='sip-wealth-calculator'
-                    ? 'Expected Annual Return (%)'
+                    ? ui.universal.expectedReturn
                     : slug==='bmi-calculator'
-                      ? 'Height (cm)'
+                      ? `${ui.enterValues} — cm`
                       : slug==='percentage-calculator'
-                        ? 'Total / Reference Value'
+                        ? ui.universal.totalReference
                         : slug==='tip-calculator'
-                          ? 'Tip Percentage (%)'
+                          ? ui.enterValues
                           : slug==='discount-calculator'
-                            ? 'Discount (%)'
-                            : 'Annual Interest Rate (%)'}
+                            ? ui.universal.discount
+                            : ui.enterValues}
                 </label>
                 <input
                   className={input}
                   type="number"
                   value={b}
                   onChange={e=>setB(e.target.value)}
-                  placeholder={slug==='sip-wealth-calculator'?'e.g. 12':slug==='bmi-calculator'?'e.g. 170':'Enter percentage or rate'}
+                  placeholder={ui.enterValues}
                 />
               </div>
 
@@ -966,19 +954,19 @@ Per person: ${fmt(total/people)}`;
                   <div>
                     <label className="mb-2 block text-xs font-medium text-zinc-500">
                       {slug==='sip-wealth-calculator'
-                        ? 'Investment Period (Years)'
+                        ? ui.universal.investmentPeriod
                         : slug==='tip-calculator'
-                          ? 'Number of People'
+                          ? ui.universal.people
                           : slug==='discount-calculator'
-                            ? 'Tax (%)'
-                            : 'Time Period (Years)'}
+                            ? ui.universal.tax
+                            : '{ui.universal.timePeriod}'}
                     </label>
                     <input
                       className={input}
                       type="number"
                       value={c}
                       onChange={e=>setC(e.target.value)}
-                      placeholder={slug==='tip-calculator'?'e.g. 2':'Enter value'}
+                      placeholder={ui.enterValues}
                     />
                   </div>
 
@@ -1003,7 +991,7 @@ Per person: ${fmt(total/people)}`;
       }
 
       <div className="resultPanel">
-        <div className="text-xs font-semibold text-zinc-500">Result</div>
+        <div className="text-xs font-semibold text-zinc-500">{ui.result}</div>
         <pre className="mt-2 text-sm whitespace-pre-wrap">
           {slug==='scientific-calculator'
             ? (scientificResult || '—')
@@ -1015,7 +1003,8 @@ Per person: ${fmt(total/people)}`;
 
 }
 
-function YouTube({slug}:{slug:string}){
+function YouTube({slug,locale='en'}:{slug:string;locale?:LocaleCode}){
+  const ui = getEngineUi(locale);
   const [inputValue,setInputValue]=useState<string>('');
   const [result,setResult]=useState<string>('');
 
@@ -1047,24 +1036,24 @@ function YouTube({slug}:{slug:string}){
       setResult(Array.from(new Set(tags.filter((tag)=>tag.length>1))).slice(0,30).join(', '));
       return;
     }
-    setResult('Enter a topic or keyword.');
+    setResult(ui.universal.youtubeTopic);
   };
 
   return (
     <div className={plainCard}>
       <h3 className="text-lg font-bold">
-        'YouTube Tag Generator'
+        '{ui.universal.youtubeTag}'
       </h3>
 
       <input
         className={input}
         value={inputValue}
         onChange={e=>setInputValue(e.target.value)}
-        placeholder="Enter your video topic or keyword"
+        placeholder={ui.enterValues}
       />
 
       <button className={button} onClick={run}>
-        Generate
+        {ui.generate}
       </button>
 
       {result&&(
@@ -1074,22 +1063,22 @@ function YouTube({slug}:{slug:string}){
       )}
 
       <p className="text-xs text-zinc-500">
-        Generated suggestions are templates; they do not guarantee rankings,
-        clicks, or virality.
+        {ui.generatedNote}
       </p>
     </div>
   );
 }
 
-export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
+export default function UniversalToolEngine({tool, locale='en'}:{tool:ToolMeta; locale?: LocaleCode}){
+  const ui = getEngineUi(locale);
   if(tool.category==='Converters'){
     return tool.slug==='temperature-converter'
       ? <Temperature/>
-      : <Converter slug={tool.slug}/>;
+      : <Converter slug={tool.slug} locale={locale}/>;
   }
 
   if(tool.category==='Calculators'){
-    return <Calculator slug={tool.slug} toolName={tool.name}/>;
+    return <Calculator slug={tool.slug} toolName={getLocalizedToolName(tool,locale)} locale={locale}/>;
   }
 
   if(tool.category==='YouTube'){
@@ -1099,33 +1088,33 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
       return (
         <div className={plainCard}>
           <h3 className="text-lg font-bold">
-            YouTube Money Calculator
+            {getLocalizedToolName(tool,locale)}
           </h3>
 
           <div className="grid sm:grid-cols-2 gap-4">
             <label className="block">
               <span className="mb-2 block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                Monthly Views
+                {ui.monthlyViews}
               </span>
               <input
                 id="views"
                 className={input}
                 type="number"
                 defaultValue="100000"
-                aria-label="Monthly views"
+                aria-label={ui.universal.monthlyViews}
               />
             </label>
 
             <label className="block">
               <span className="mb-2 block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                RPM (USD)
+                {ui.rpmUsd}
               </span>
               <input
                 id="rpm"
                 className={input}
                 type="number"
                 defaultValue="2"
-                aria-label="RPM in USD"
+                aria-label={ui.universal.rpmUsdLabel}
               />
             </label>
           </div>
@@ -1142,7 +1131,7 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
               );
 
               setRevenue(
-                `Estimated revenue: ${(v*r/1000).toFixed(2)}`
+                `${ui.universal.estimatedRevenue}: ${(v*r/1000).toFixed(2)}`
               );
             }}
           >
@@ -1164,16 +1153,17 @@ export default function UniversalToolEngine({tool}:{tool:ToolMeta}){
     }
 
     if(tool.slug==='youtube-thumbnail-downloader'){
-      return <Thumbnail/>;
+      return <Thumbnail locale={locale}/>;
     }
 
-    return <YouTube slug={tool.slug}/>;
+    return <YouTube slug={tool.slug} locale={locale}/>;
   }
 
-  return <DeveloperText tool={tool}/>;
+  return <DeveloperText tool={tool} locale={locale}/>;
 }
 
-function Thumbnail(){
+function Thumbnail({locale='en'}:{locale?:LocaleCode}){
+  const ui = getEngineUi(locale);
   const [url,setUrl]=useState('');
   const [id,setId]=useState('');
   const [downloading,setDownloading]=useState(false);
@@ -1185,7 +1175,7 @@ function Thumbnail(){
     );
 
     setId(m?.[1]||'');
-    setMessage(m?.[1] ? '' : 'Enter a valid public YouTube video URL.');
+    setMessage(m?.[1] ? '' : ui.validUrl);
   };
 
   const downloadThumbnail=async()=>{
@@ -1196,7 +1186,7 @@ function Thumbnail(){
 
     try{
       const response=await fetch(`/api/youtube-thumbnail?videoId=${id}`);
-      if(!response.ok) throw new Error('The thumbnail could not be downloaded.');
+      if(!response.ok) throw new Error(ui.thumbnailError);
 
       const blob=await response.blob();
       const blobUrl=URL.createObjectURL(blob);
@@ -1210,7 +1200,7 @@ function Thumbnail(){
 
       setTimeout(()=>URL.revokeObjectURL(blobUrl),1000);
     }catch(e){
-      setMessage(e instanceof Error?e.message:'Thumbnail download failed.');
+      setMessage(e instanceof Error?e.message:ui.universal.thumbnailFailed);
     }finally{
       setDownloading(false);
     }
@@ -1222,11 +1212,11 @@ function Thumbnail(){
         className={input}
         value={url}
         onChange={e=>setUrl(e.target.value)}
-        placeholder="Paste a YouTube video URL"
+        placeholder={ui.enterValues}
       />
 
       <button className={button} onClick={get}>
-        Get Thumbnail
+        {ui.generate}
       </button>
 
       {message&&(
@@ -1247,7 +1237,7 @@ function Thumbnail(){
             onClick={downloadThumbnail}
           >
             <Download className="h-4 w-4" />
-            {downloading?'Downloading...':'Download Thumbnail'}
+            {downloading?ui.processing:ui.download}
           </button>
         </div>
       )}

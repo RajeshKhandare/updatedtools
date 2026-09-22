@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import FileDropzone from '../FileDropzone';
 import PdfPageWorkspace from '../PdfPageWorkspace';
+import type { LocaleCode } from '@/data/internationalSeo';
+import { getEngineUi } from '@/data/engineLocalization';
 import {
   PDFDocument,
   StandardFonts,
@@ -364,10 +366,13 @@ async function docxToPdf(file: File) {
 export default function PdfEngine({
   toolSlug,
   toolName,
+  locale = 'en',
 }: {
   toolSlug: string;
   toolName: string;
+  locale?: LocaleCode;
 }) {
+  const ui = getEngineUi(locale);
   const [files, setFiles] =
     useState<File[]>([]);
 
@@ -1026,11 +1031,12 @@ export default function PdfEngine({
         }
         label={
           toolSlug === 'jpg-to-pdf'
-            ? 'Choose or Drop Image Files'
+            ? ui.chooseImage
             : toolSlug === 'word-to-pdf'
-              ? 'Choose or Drop DOCX Files'
-              : 'Choose or Drop PDF Files'
+              ? ui.chooseDocx
+              : ui.choosePdf
         }
+        subtitle={ui.fileSubtitle}
         onFiles={add}
       />
 
@@ -1208,10 +1214,10 @@ export default function PdfEngine({
           <>
             <Loader2 className="inline h-4 w-4 animate-spin" />
             {' '}
-            Processing...
+            {ui.processing}
           </>
         ) : (
-          `Run ${toolName}`
+          `${ui.process} ${toolName}`
         )}
       </button>
 

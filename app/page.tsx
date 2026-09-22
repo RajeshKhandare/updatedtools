@@ -125,11 +125,7 @@ function HomeContent() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(HOME_FAQ_SCHEMA)}} />
 
         {/* Hero Section */}
-        <section className="mx-auto max-w-5xl px-4 pt-8 sm:pt-14 pb-6 text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-violet-200 dark:border-violet-900/60 bg-violet-50 dark:bg-violet-950/40 px-3.5 py-1 text-[11px] font-bold text-violet-700 dark:text-violet-300 mb-6 shadow-sm">
-            <Sparkles className="h-3.5 w-3.5" /> High-Performance Browser Utilities
-          </div>
-          
+        <section className="mx-auto max-w-5xl px-4 pt-5 sm:pt-8 pb-6 text-center">
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-[-0.03em] text-zinc-950 dark:text-white max-w-4xl mx-auto leading-[1.14]">
             All the Free Online Tools{' '}
             <span className="bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 dark:from-violet-400 dark:via-purple-400 dark:to-indigo-400 bg-clip-text text-transparent">
@@ -345,7 +341,7 @@ function HomeContent() {
                   <Cpu className="h-5 w-5" />
                 </div>
                 <h3 className="text-sm font-bold text-zinc-900 dark:text-white">
-                  Free to Use
+                  All utilities operational · 100% Free
                 </h3>
                 <p className="mt-1.5 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
                   The current suite does not require a paid account. Practical limits can depend on browser memory, device performance, file size, or an external execution runtime.

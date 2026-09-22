@@ -1,6 +1,8 @@
 'use client';
 
 import React, { useMemo, useState } from 'react';
+import type { LocaleCode } from '@/data/internationalSeo';
+import { getEngineUi } from '@/data/engineLocalization';
 
 const card =
   'w-full max-w-4xl mx-auto rounded-3xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8 space-y-5 shadow-sm';
@@ -27,10 +29,13 @@ type ResultRow = [string, string];
 export default function FinanceEngine({
   toolSlug,
   toolName,
+  locale = 'en',
 }: {
   toolSlug: string;
   toolName: string;
+  locale?: LocaleCode;
 }) {
+  const ui = getEngineUi(locale);
   const [a, setA] = useState<string>('5000');
   const [b, setB] = useState<string>('12');
   const [c, setC] = useState<string>('10');
@@ -396,7 +401,7 @@ export default function FinanceEngine({
 
         {out.length === 0 && (
           <div className="text-sm text-zinc-500">
-            Enter values to calculate.
+            {ui.enterValues}
           </div>
         )}
       </div>

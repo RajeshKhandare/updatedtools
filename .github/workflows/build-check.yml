@@ -20,6 +20,12 @@ jobs:
         run: npm install --no-audit --no-fund
 
 
+      - name: Verify tool registry and assets
+        run: npm run verify:tools
+
+      - name: Verify international SEO foundation
+        run: npm run verify:international-seo
+
       - name: Build
         run: npm run build
 

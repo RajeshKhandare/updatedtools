@@ -17,6 +17,7 @@ export const metadata:Metadata={
   creator:SITE_NAME,
   publisher:SITE_NAME,
   category:'technology',
+  icons:{icon:'/branding/favicon.png',shortcut:'/branding/favicon.png',apple:'/branding/favicon.png'},
   alternates:{canonical:SITE_URL},
   openGraph:{title:`${SITE_NAME} | Free Online Tools`,description:'Free online tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.',url:SITE_URL,siteName:SITE_NAME,locale:'en_US',type:'website'},
   twitter:{card:'summary_large_image',title:`${SITE_NAME} | Free Online Tools`,description:'Free browser-based tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.'},

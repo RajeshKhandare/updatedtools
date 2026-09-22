@@ -37,7 +37,7 @@ async function makePdf(pageCount = 3) {
   for (let i = 1; i <= pageCount; i++) {
     const page = pdf.addPage([612, 792]);
     page.drawText(
-      'TheToolGenie smoke test page ' + i,
+      'Toolployee smoke test page ' + i,
       {
         x: 50,
         y: 720,
@@ -114,7 +114,7 @@ async function imageFixture(page, format) {
       ctx.fillStyle = '#ffffff';
       ctx.font = '28px sans-serif';
       ctx.fillText(
-        'ToolGenie',
+        'Toolployee',
         70,
         110
       );
@@ -369,7 +369,7 @@ async function testImage(page, slug, fixtures) {
       page.locator('input').first();
 
     await input.fill(
-      'https://thetoolgenie.com/smoke-test'
+      'https://toolployee.com/smoke-test'
     );
 
     await clickButton(
@@ -413,7 +413,7 @@ async function testImage(page, slug, fixtures) {
     'svg-to-png-converter'
   ) {
     file = Buffer.from(
-      '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200"><rect width="320" height="200" fill="#7c3aed"/><text x="70" y="110" fill="white" font-size="28">ToolGenie</text></svg>'
+      '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200"><rect width="320" height="200" fill="#7c3aed"/><text x="70" y="110" fill="white" font-size="28">Toolployee</text></svg>'
     );
     mime = 'image/svg+xml';
     name = 'test.svg';
@@ -893,9 +893,9 @@ async function testUniversal(page, slug, category) {
     'json-formatter-validator':
       '{"name":"Rajesh","value":1}',
     'base64-encoder-decoder':
-      'TheToolGenie',
+      'Toolployee',
     'clean-url-slug-generator':
-      'Hello TheToolGenie World',
+      'Hello Toolployee World',
     'html-entity-encoder':
       '<div>hello</div>',
     'css-minifier-cleaner':
@@ -934,7 +934,7 @@ async function testUniversal(page, slug, category) {
       '<p>Hello</p><b>World</b>',
     'find-replace-text':
       'hello world',
-  }[slug] ?? 'TheToolGenie smoke test';
+  }[slug] ?? 'Toolployee smoke test';
 
   await textareas
     .first()
@@ -964,7 +964,7 @@ async function testUniversal(page, slug, category) {
 
     await inputs
       .nth(1)
-      .fill('ToolGenie');
+      .fill('Toolployee');
   }
 
   await clickButton(

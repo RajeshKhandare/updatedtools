@@ -1,5 +1,5 @@
 {
-  "name": "thetoolsgenie",
+  "name": "toolployee",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "postinstall": "node scripts/copy-sql-wasm.mjs",
-    "verify:tools": "node scripts/verify-tools.mjs"
+    "verify:tools": "node scripts/verify-tools.mjs",
+    "verify:international-seo": "node scripts/audit-international-seo.mjs"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
