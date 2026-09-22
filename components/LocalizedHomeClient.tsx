@@ -67,8 +67,7 @@ export default function LocalizedHomeClient({ localeCode }: { localeCode: string
 
   return <main lang={locale.code} dir={locale.code==='ar'?'rtl':'ltr'} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
     <Navbar />
-    <section className="mx-auto max-w-5xl px-4 pt-8 sm:pt-14 pb-6 text-center">
-      <div className="inline-flex items-center gap-2 rounded-full border border-violet-200 dark:border-violet-900/60 bg-violet-50 dark:bg-violet-950/40 px-3.5 py-1 text-[11px] font-bold text-violet-700 dark:text-violet-300 mb-6"><Sparkles className="h-3.5 w-3.5"/>{copy.badge}</div>
+    <section className="mx-auto max-w-5xl px-4 pt-5 sm:pt-8 pb-6 text-center">
       <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-[-0.03em] text-zinc-950 dark:text-white max-w-4xl mx-auto leading-[1.14]">
         {copy.accent && copy.title.endsWith(copy.accent) ? (
           <>
