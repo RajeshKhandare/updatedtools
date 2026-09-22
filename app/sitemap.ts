@@ -3,6 +3,8 @@ import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 import { INDEXABLE_LOCALES, localizedToolPath } from '@/data/internationalSeo';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   if (!SITE_URL_CONFIGURED) return [];
 
