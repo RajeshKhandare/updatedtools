@@ -100,6 +100,21 @@ const ABOUT_VALUE_DESCS: Record<LocaleCode, [string,string,string,string]> = {
   hi:['टूल्स को बिना इंस्टॉलेशन के आधुनिक मोबाइल और डेस्कटॉप ब्राउज़र में साफ और responsive अनुभव के लिए बनाया गया है।','टूल्स के लिए अकाउंट जरूरी नहीं है। जहाँ समर्थित है वहाँ प्रोसेसिंग ब्राउज़र में होती है और external runtime वाले टूल्स अपने workflow में इसे बताते हैं।','जरूरी डिजिटल टूल्स सभी के लिए उपलब्ध होने चाहिए, बिना अनिवार्य subscription के।','हम contact desk से मिली tool requests और bug reports की समीक्षा करके suite को लगातार बेहतर बनाते हैं।']
 };
 
+const PRIVACY_EXTRA: Record<LocaleCode,string> = {
+  en:'Compiler code submitted to the configured execution runtime is processed by that service. Do not enter passwords, API keys, private credentials, or other secrets into compiler inputs.',
+  pt:'O código enviado ao runtime de execução configurado é processado por esse serviço. Não insira senhas, chaves de API, credenciais privadas ou outros segredos nos compiladores.',
+  es:'El código enviado al runtime de ejecución configurado es procesado por ese servicio. No introduzcas contraseñas, claves API, credenciales privadas u otros secretos.',
+  de:'An den konfigurierten Ausführungsdienst gesendeter Compiler-Code wird dort verarbeitet. Gib keine Passwörter, API-Schlüssel oder privaten Zugangsdaten ein.',
+  fr:'Le code envoyé au runtime d’exécution configuré est traité par ce service. N’entrez jamais de mots de passe, clés API ou identifiants privés.',
+  it:'Il codice inviato al runtime configurato viene elaborato da tale servizio. Non inserire password, chiavi API, credenziali private o altri segreti.',
+  ja:'設定された実行ランタイムに送信されたコードは、そのサービスで処理されます。パスワード、APIキー、秘密の認証情報などは入力しないでください。',
+  ko:'설정된 실행 런타임으로 전송된 코드는 해당 서비스에서 처리됩니다. 비밀번호, API 키, 개인 자격 증명 등 민감한 정보를 입력하지 마세요.',
+  zh:'提交到配置的执行运行时的代码会由该服务处理。请勿在编译器输入中填写密码、API 密钥、私密凭据或其他机密信息。',
+  ru:'Код, отправленный в настроенную среду выполнения, обрабатывается этим сервисом. Не вводите пароли, API-ключи, личные учётные данные или другие секреты.',
+  ar:'تتم معالجة التعليمات البرمجية المرسلة إلى بيئة التنفيذ المهيأة بواسطة تلك الخدمة. لا تدخل كلمات مرور أو مفاتيح API أو بيانات اعتماد خاصة أو أسرارًا أخرى.',
+  hi:'Configured execution runtime को भेजा गया compiler code उसी service द्वारा process होता है। Compiler inputs में password, API key, private credentials या अन्य secrets दर्ज न करें।'
+};
+
 export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;page:'about'|'contact'|'privacy'|'terms'}) {
   const c=COPY[locale] || COPY.en;
   const dir=locale==='ar'?'rtl':'ltr';
@@ -181,7 +196,7 @@ export default function LocalizedPlatformPage({locale,page}:{locale:LocaleCode;p
   return <div dir={dir} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors flex flex-col justify-between">
     <div><Navbar/><main className="mx-auto max-w-4xl px-4 py-16 sm:px-6"><div className="rounded-3xl border border-zinc-200/90 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-8 sm:p-12 shadow-sm space-y-8">
       <div className="border-b border-zinc-100 dark:border-zinc-800 pb-6"><span className="text-xs font-bold uppercase tracking-widest text-violet-600 dark:text-violet-400">{a[0]}</span><h1 className="mt-2 text-3xl sm:text-4xl font-black text-zinc-950 dark:text-white">{a[1]}</h1><p className="mt-1 text-xs text-zinc-500">{a[2]}</p></div>
-      {[0,1,2].map((i)=>{const Icon=legalIcon[i];return <section key={i} className="space-y-3 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed"><h2 className="text-base font-bold text-zinc-900 dark:text-white flex items-center gap-2"><Icon className="h-4 w-4 text-violet-600 dark:text-violet-400"/>{a[3+i*2]}</h2><p>{a[4+i*2]}</p></section>;})}
+      {[0,1,2].map((i)=>{const Icon=legalIcon[i];return <section key={i} className="space-y-3 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed"><h2 className="text-base font-bold text-zinc-900 dark:text-white flex items-center gap-2"><Icon className="h-4 w-4 text-violet-600 dark:text-violet-400"/>{a[3+i*2]}</h2><p>{a[4+i*2]}</p>{page==='privacy'&&i===0&&<p>{PRIVACY_EXTRA[locale]}</p>}</section>;})}
     </div></main></div><Footer/>
   </div>;
 }
