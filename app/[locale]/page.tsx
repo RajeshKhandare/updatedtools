@@ -9,4 +9,6 @@ export default async function LocalizedHome({ params }: { params: Promise<{ loca
   const locale = getLocale(localeCode);
   if (!locale || locale.code === 'en') notFound();
   return <LocalizedHomeClient localeCode={locale.code} />;
-}
+}export const dynamicParams = false;
+
+
