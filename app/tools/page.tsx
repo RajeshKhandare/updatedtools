@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -10,6 +10,8 @@ import { Search, FileText, Image as ImageIcon, Code, Calculator, Video, Type, Ar
 export default function AllToolsPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const categoryScrollerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => { categoryScrollerRef.current?.scrollTo({ left: 0, behavior: 'auto' }); }, []);
 
   const filteredTools = useMemo(() => {
     return TOOLS_REGISTRY.filter((tool) => {
@@ -75,14 +77,14 @@ export default function AllToolsPage() {
 
         {/* Category Filter Pills */}
         <section className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-4 no-scrollbar">
+          <div ref={categoryScrollerRef} className="w-full overflow-x-auto pb-4 no-scrollbar scroll-smooth"><div className="flex w-max min-w-full items-center justify-start gap-2 px-1">
             {CATEGORIES.map((category) => {
               const isActive = selectedCategory === category;
               return (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
+                  className={`shrink-0 whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
                     isActive
                       ? 'bg-violet-600 text-white shadow-md shadow-violet-500/20'
                       : 'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800 hover:border-violet-300 dark:hover:border-zinc-700'
@@ -92,7 +94,7 @@ export default function AllToolsPage() {
                 </button>
               );
             })}
-          </div>
+          </div></div>
 
           {/* Full Grid */}
           <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pb-20">
