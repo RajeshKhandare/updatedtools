@@ -10,6 +10,8 @@ const LOCALES = [
   'ja', 'ko', 'zh', 'ru', 'ar', 'hi',
 ];
 
+// English is the default site locale and intentionally uses /tools/*. Other locales use /<locale>/tools/*.
+
 const TOOL_SLUGS = [
   'merge-pdf','split-pdf','pdf-to-jpg','jpg-to-pdf','protect-pdf-password',
   'unlock-pdf-password','rotate-pdf','compress-pdf','add-page-numbers-pdf',
@@ -99,7 +101,8 @@ async function main() {
 
       const locale = LOCALES[Math.floor(index / TOOL_SLUGS.length)];
       const slug = TOOL_SLUGS[index % TOOL_SLUGS.length];
-      const url = `${BASE_URL}/${locale}/tools/${slug}`;
+      const path = locale === 'en' ? `/tools/${slug}` : `/${locale}/tools/${slug}`;
+      const url = `${BASE_URL}${path}`;
 
       try {
         await check(url, locale);
