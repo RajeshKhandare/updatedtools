@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, useEffect, Suspense } from 'react';
+import React, { useState, useMemo, useEffect, useRef, Suspense } from 'react';
 import Link from 'next/link';
 import { SITE_NAME } from '@/config/site';
 import { useSearchParams } from 'next/navigation';
@@ -58,6 +58,8 @@ function HomeContent() {
   const [searchQuery, setSearchQuery] = useState(queryParam);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const categoryScrollerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => { categoryScrollerRef.current?.scrollTo({ left: 0, behavior: 'auto' }); }, []);
 
   // Sync category state and scroll cleanly below the sticky navbar
   useEffect(() => {
@@ -168,14 +170,14 @@ function HomeContent() {
 
         {/* Category Filter Pills & Tools Grid */}
         <section id="tools" className="mx-auto max-w-7xl px-4 sm:px-6 pt-6 scroll-mt-24">
-          <div className="flex flex-wrap items-center justify-center gap-2 pb-4">
+          <div ref={categoryScrollerRef} className="w-full overflow-x-auto pb-4 no-scrollbar scroll-smooth"><div className="flex w-max min-w-full flex-nowrap items-center justify-start gap-2 px-1">
             {CATEGORIES.map((category) => {
               const isActive = selectedCategory === category;
               return (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
+                  className={`shrink-0 whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
                     isActive
                       ? 'bg-violet-600 text-white shadow-md shadow-violet-500/20'
                       : 'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800 hover:border-violet-300 dark:hover:border-zinc-700'
@@ -185,7 +187,7 @@ function HomeContent() {
                 </button>
               );
             })}
-          </div>
+          </div></div>
 
           <div className="mt-4 mb-2 flex items-center justify-between">
             <p className="text-xs font-bold uppercase tracking-wider text-zinc-400">
