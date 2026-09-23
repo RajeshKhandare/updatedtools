@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/copy-sql-wasm.mjs && next build",
+    "build": "node scripts/copy-sql-wasm.mjs && next build && node scripts/write-build-version.mjs",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "node scripts/copy-sql-wasm.mjs",
