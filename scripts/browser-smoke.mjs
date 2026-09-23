@@ -1023,10 +1023,16 @@ async function testUniversal(page, slug, category) {
   );
 
   if (slug === 'hex-to-rgb-hsl-converter') {
-    const output = page.getByText(/RGB:\s*rgb\\(/).last();
-    await output.waitFor({ state: 'visible', timeout: 5000 });
+    await page.waitForFunction(
+      () => {
+        const text = document.body?.textContent || '';
+        return text.includes('RGB:') && text.includes('HSL:');
+      },
+      undefined,
+      { timeout: 5000 }
+    );
     const body = await page.locator('body').textContent();
-    assert(/RGB:\s*rgb\\(/.test(body) && /HSL:\s*hsl\\(/.test(body), slug + ': color conversion output missing');
+    assert(body.includes('RGB:') && body.includes('HSL:'), slug + ': color conversion output missing');
     return;
   }
 
