@@ -1062,20 +1062,24 @@ async function testUniversal(page, slug, category) {
     return;
   }
 
-  if (slug === 'html-entity-encoder') {
-    await page.waitForFunction(
-      () => (document.body?.textContent || '').includes('&lt;div&gt;hello&lt;/div&gt;'),
-      undefined,
-      { timeout: 5000 }
-    );
-    return;
-  }
+  const expectedInlineOutputs = {
+    'html-entity-encoder': '&lt;div&gt;hello&lt;/div&gt;',
+    'css-minifier-cleaner': 'body{color:red;padding:10px;}',
+    'clean-url-slug-generator': 'hello-toolployee-world',
+    'alphabetical-line-sorter': 'apple\nMango\nzebra',
+  };
 
-  if (slug === 'css-minifier-cleaner') {
+  if (expectedInlineOutputs[slug]) {
+    const expected = expectedInlineOutputs[slug];
     await page.waitForFunction(
-      () => (document.body?.textContent || '').includes('body{color:red;padding:10px;}'),
-      undefined,
-      { timeout: 5000 }
+      (value) => (document.body?.textContent || '').includes(value),
+      expected,
+      { timeout: 10000 }
+    );
+    const body = await page.locator('body').textContent();
+    assert(
+      body.includes(expected),
+      slug + ': expected output was not rendered: ' + body
     );
     return;
   }
