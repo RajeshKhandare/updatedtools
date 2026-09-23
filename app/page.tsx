@@ -168,7 +168,7 @@ function HomeContent() {
 
         {/* Category Filter Pills & Tools Grid */}
         <section id="tools" className="mx-auto max-w-7xl px-4 sm:px-6 pt-6 scroll-mt-24">
-          <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-4 no-scrollbar">
+          <div className="flex flex-wrap items-center justify-center gap-2 pb-4">
             {CATEGORIES.map((category) => {
               const isActive = selectedCategory === category;
               return (
