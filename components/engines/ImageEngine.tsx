@@ -64,7 +64,10 @@ export default function ImageEngine({
   const canvas = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
-    if (!file) return;
+    if (!file) {
+      setSrc('');
+      return;
+    }
 
     setSrc('');
     setOutput('');
@@ -73,24 +76,15 @@ export default function ImageEngine({
 
     if (file.size > 50 * 1024 * 1024) {
       setMessage('Image must be 50 MB or smaller.');
-      setSrc('');
       return;
     }
 
-    const reader = new FileReader();
+    const objectUrl = URL.createObjectURL(file);
+    setSrc(objectUrl);
 
-    reader.onload = () => {
-      setSrc(String(reader.result));
-      setMessage('');
-      setOutput('');
-      setPalette([]);
+    return () => {
+      URL.revokeObjectURL(objectUrl);
     };
-
-    reader.onerror = () => {
-      setMessage('Could not read the selected image.');
-    };
-
-    reader.readAsDataURL(file);
   }, [file]);
 
   const make = async () => {
