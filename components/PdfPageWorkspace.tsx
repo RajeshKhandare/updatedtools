@@ -50,11 +50,15 @@ export default function PdfPageWorkspace({
         const pdfjs: any = await import(
           'pdfjs-dist/legacy/build/pdf.mjs'
         );
+        // The preview runs many page renders, so use the bundled PDF.js
+        // worker instead of disabling workers. postinstall copies this file
+        // to /pdf.worker.min.mjs for static/Cloudflare deployments.
+        pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
         const next: PageItem[] = [];
 
         for (let fileIndex = 0; fileIndex < files.length; fileIndex += 1) {
           const data = new Uint8Array(await files[fileIndex].arrayBuffer());
-          const doc = await pdfjs.getDocument({ data, disableWorker: true }).promise;
+          const doc = await pdfjs.getDocument({ data }).promise;
           const limit = Math.min(
             doc.numPages,
             (mode === 'reorder' ? 200 : PREVIEW_LIMIT) - next.length
