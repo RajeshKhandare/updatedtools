@@ -917,7 +917,7 @@ async function testUniversal(page, slug, category) {
     const engine = page.locator('[data-testid="timetable-engine"]');
     await engine.waitFor({ state: 'visible', timeout: 10000 });
 
-    const editableCell = engine.locator('input[aria-label]').last();
+    const editableCell = engine.locator('input[aria-label]:visible').last();
     await editableCell.waitFor({ state: 'visible', timeout: 5000 });
     await editableCell.fill('Smoke Test Entry');
 
