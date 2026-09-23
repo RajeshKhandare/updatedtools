@@ -273,6 +273,25 @@ export default {
     }
 
     if (url.pathname === '/api/build-version') {
+      try {
+        const response = await env.ASSETS.fetch(
+          new Request(new URL('/build-version.json', request.url), {
+            method: 'GET',
+            headers: { 'Cache-Control': 'no-cache' },
+          }),
+        );
+        if (response.ok) {
+          const data = await response.json() as { commit?: unknown };
+          return json(
+            { commit: typeof data.commit === 'string' ? data.commit : 'cloudflare-test' },
+            200,
+            { 'Cache-Control': 'no-store' },
+          );
+        }
+      } catch {
+        // Fall back to the runtime binding when the marker is unavailable.
+      }
+
       return json({
         commit: env.BUILD_SHA || 'cloudflare-test',
       });
