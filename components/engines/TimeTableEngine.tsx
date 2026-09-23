@@ -179,6 +179,7 @@ export default function TimeTableEngine({tool,locale='en'}:{tool:ToolMeta;locale
     <div className="text-[11px] text-zinc-400">
       {isAcademic ? ui.tip : extra.personalize}
     </div>
+  </div>
   <div id="timetable-print-sheet" className="hidden print:block" aria-label={getLocalizedToolName(tool,locale)}>
     <header className="mb-5 border-b-2 border-zinc-900 pb-3">
       <div className="text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-500">{ui.title}</div>
