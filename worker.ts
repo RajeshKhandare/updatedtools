@@ -278,6 +278,32 @@ export default {
       });
     }
 
+    const localeMatch = url.pathname.match(/^\/(en|pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
+    if (localeMatch) {
+      const response = await env.ASSETS.fetch(request);
+      const contentType = response.headers.get('content-type') || '';
+      if (contentType.includes('text/html')) {
+        const html = await response.text();
+        const locale = localeMatch[1];
+        const dir = locale === 'ar' ? 'rtl' : 'ltr';
+        const localizedHtml = html.replace(
+          /<html\b([^>]*)>/i,
+          (_match, attrs) => {
+            const withoutLang = String(attrs)
+              .replace(/\s+lang=(?:"[^"]*"|'[^']*')/i, '')
+              .replace(/\s+dir=(?:"[^"]*"|'[^']*')/i, '');
+            return '<html lang="' + locale + '" dir="' + dir + '"' + withoutLang + '>';
+          },
+        );
+        return new Response(localizedHtml, {
+          status: response.status,
+          statusText: response.statusText,
+          headers: response.headers,
+        });
+      }
+      return response;
+    }
+
     return env.ASSETS.fetch(request);
   },
 };
