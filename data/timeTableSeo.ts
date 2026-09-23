@@ -48,7 +48,7 @@ const TT_DETAILS:Record<string,{why:string;steps:string[];useCases:string[];tips
 export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoContent{
  const d=TT_DETAILS[tool.slug]||TT_DETAILS['timetable-maker'];
  const name=locale==='en'?tool.name:(getTimeTableLocalizedName(tool.slug,locale)||tool.name);
- const c=L[locale];
+ const c=locale==='en'?null:L[locale];
  if(locale==='en') return {
    heroIntro:tool.description,
    intro:tool.description+' '+d.why+' Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.',
@@ -66,8 +66,8 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    visual:'workflow'
  };
  return {
-   heroIntro:c.intro,
-   intro:c.intro+' '+d.why+' '+name+' can be personalized with editable cells, a note, and a personal quote.',
+   heroIntro:c!.intro,
+   intro:c!.intro+' '+d.why+' '+name+' can be personalized with editable cells, a note, and a personal quote.',
    why:d.why,
    steps:d.steps,
    useCases:d.useCases,
