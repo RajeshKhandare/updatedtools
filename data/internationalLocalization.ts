@@ -6,7 +6,7 @@ export interface LocalizationCoverageRow {
   locale: LocaleCode;
   slug: string;
   toolName: string;
-  status: 'source' | 'planned-localization';
+  status: 'source';
 }
 
 export const INTERNATIONAL_LOCALIZATION_COVERAGE: readonly LocalizationCoverageRow[] =
@@ -15,7 +15,7 @@ export const INTERNATIONAL_LOCALIZATION_COVERAGE: readonly LocalizationCoverageR
       locale: locale.code,
       slug: tool.slug,
       toolName: tool.name,
-      status: locale.code === 'en' ? 'source' as const : 'planned-localization' as const,
+      status: 'source' as const,
     }))
   );
 
