@@ -90,7 +90,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
                     {getLocalizedToolName(comp, locale.code)}
                   </p>
                   <p className="text-[11px] text-zinc-400 line-clamp-2 mt-1.5 font-normal leading-relaxed">
-                    {getToolSeoContent(comp).intro}
+                    {getLocalizedToolSeoContent(comp, locale.code).intro}
                   </p>
                 </Link>
               ))}
