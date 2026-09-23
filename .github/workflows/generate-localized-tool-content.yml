@@ -1,0 +1,44 @@
+name: Generate localized tool content
+
+on:
+  push:
+    branches:
+      - cloudflare-test
+    paths-ignore:
+      - data/generatedLocalizedToolSeo.ts
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate static translations
+        run: npx --yes tsx scripts/generate-localized-tool-seo.ts
+
+      - name: Commit generated translations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/generatedLocalizedToolSeo.ts
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "generate complete localized tool content"
+          git push
