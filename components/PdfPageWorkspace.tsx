@@ -50,9 +50,10 @@ export default function PdfPageWorkspace({
         const pdfjs: any = await import(
           'pdfjs-dist/legacy/build/pdf.mjs'
         );
-        // Keep the preview self-contained. PDF.js can render from the main
-        // thread when no worker is available, which avoids worker-path/CSP
-        // failures on static Cloudflare routes.
+        // Prefer the bundled worker, but also allow main-thread rendering as
+        // a compatibility fallback. The build step guarantees this worker is
+        // copied into the exported static assets.
+        pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
         const next: PageItem[] = [];
 
         for (let fileIndex = 0; fileIndex < files.length; fileIndex += 1) {
