@@ -271,10 +271,10 @@ async function testPdf(page, slug, fixtures, state) {
     await inputs.nth(1).fill('90');
   }
 
-  const run = page.getByRole(
-    'button',
-    { name: /^Run / }
-  ).first();
+  const run = page
+    .getByRole('button')
+    .filter({ name: /^(Run Code|Process(?:\\s|$))/ })
+    .first();
 
   if (
     slug === 'pdf-to-jpg'
