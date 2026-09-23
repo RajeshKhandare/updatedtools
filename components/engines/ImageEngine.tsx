@@ -12,6 +12,22 @@ const card =
 const input =
   'w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950 px-4 py-3 text-sm text-zinc-900 dark:text-white';
 
+
+const IMAGE_LABELS: Record<LocaleCode, { width:string; height:string; free:string; horizontal:string; vertical:string; noFlip:string; flipHorizontal:string; flipVertical:string; rotation:string; quality:string; generateQr:string; qrAlt:string; processedAlt:string }> = {
+  en:{width:'Width',height:'Height',free:'Free',horizontal:'{labels.horizontal}',vertical:'{labels.vertical}',noFlip:'No flip',flipHorizontal:'Flip horizontal',flipVertical:'Flip vertical',rotation:'Rotation angle',quality:'Quality',generateQr:'Generate QR',qrAlt:'Generated QR code',processedAlt:'Processed output'},
+  pt:{width:'Largura',height:'Altura',free:'Livre',horizontal:'Posição horizontal',vertical:'Posição vertical',noFlip:'Sem inversão',flipHorizontal:'Inverter horizontalmente',flipVertical:'Inverter verticalmente',rotation:'Ângulo de rotação',quality:'Qualidade',generateQr:'Gerar QR',qrAlt:'Código QR gerado',processedAlt:'Resultado processado'},
+  es:{width:'Ancho',height:'Alto',free:'Libre',horizontal:'Posición horizontal',vertical:'Posición vertical',noFlip:'Sin voltear',flipHorizontal:'Voltear horizontalmente',flipVertical:'Voltear verticalmente',rotation:'Ángulo de rotación',quality:'Calidad',generateQr:'Generar QR',qrAlt:'Código QR generado',processedAlt:'Resultado procesado'},
+  de:{width:'Breite',height:'Höhe',free:'Frei',horizontal:'Horizontale Position',vertical:'Vertikale Position',noFlip:'Nicht spiegeln',flipHorizontal:'Horizontal spiegeln',flipVertical:'Vertikal spiegeln',rotation:'Drehwinkel',quality:'Qualität',generateQr:'QR erstellen',qrAlt:'Generierter QR-Code',processedAlt:'Verarbeitetes Ergebnis'},
+  fr:{width:'Largeur',height:'Hauteur',free:'Libre',horizontal:'Position horizontale',vertical:'Position verticale',noFlip:'Sans retournement',flipHorizontal:'Retourner horizontalement',flipVertical:'Retourner verticalement',rotation:'Angle de rotation',quality:'Qualité',generateQr:'Générer un QR',qrAlt:'Code QR généré',processedAlt:'Résultat traité'},
+  it:{width:'Larghezza',height:'Altezza',free:'Libero',horizontal:'Posizione orizzontale',vertical:'Posizione verticale',noFlip:'Nessun ribaltamento',flipHorizontal:'Ribalta orizzontalmente',flipVertical:'Ribalta verticalmente',rotation:'Angolo di rotazione',quality:'Qualità',generateQr:'Genera QR',qrAlt:'Codice QR generato',processedAlt:'Risultato elaborato'},
+  ja:{width:'幅',height:'高さ',free:'自由',horizontal:'水平位置',vertical:'垂直位置',noFlip:'反転なし',flipHorizontal:'水平方向に反転',flipVertical:'垂直方向に反転',rotation:'回転角度',quality:'品質',generateQr:'QRを生成',qrAlt:'生成されたQRコード',processedAlt:'処理済み画像'},
+  ko:{width:'너비',height:'높이',free:'자유',horizontal:'가로 위치',vertical:'세로 위치',noFlip:'뒤집지 않음',flipHorizontal:'가로로 뒤집기',flipVertical:'세로로 뒤집기',rotation:'회전 각도',quality:'품질',generateQr:'QR 생성',qrAlt:'생성된 QR 코드',processedAlt:'처리된 결과'},
+  zh:{width:'宽度',height:'高度',free:'自由',horizontal:'水平位置',vertical:'垂直位置',noFlip:'不翻转',flipHorizontal:'水平翻转',flipVertical:'垂直翻转',rotation:'旋转角度',quality:'质量',generateQr:'生成二维码',qrAlt:'生成的二维码',processedAlt:'处理后的结果'},
+  ru:{width:'Ширина',height:'Высота',free:'Свободно',horizontal:'Горизонтальное положение',vertical:'Вертикальное положение',noFlip:'Без отражения',flipHorizontal:'Отразить по горизонтали',flipVertical:'Отразить по вертикали',rotation:'Угол поворота',quality:'Качество',generateQr:'Создать QR',qrAlt:'Созданный QR-код',processedAlt:'Обработанный результат'},
+  ar:{width:'العرض',height:'الارتفاع',free:'حر',horizontal:'الموضع الأفقي',vertical:'الموضع الرأسي',noFlip:'بدون قلب',flipHorizontal:'قلب أفقي',flipVertical:'قلب رأسي',rotation:'زاوية الدوران',quality:'الجودة',generateQr:'إنشاء QR',qrAlt:'رمز QR المُنشأ',processedAlt:'النتيجة المعالجة'},
+  hi:{width:'चौड़ाई',height:'ऊँचाई',free:'फ्री',horizontal:'क्षैतिज स्थिति',vertical:'ऊर्ध्वाधर स्थिति',noFlip:'फ्लिप नहीं',flipHorizontal:'क्षैतिज फ्लिप',flipVertical:'ऊर्ध्वाधर फ्लिप',rotation:'रोटेशन कोण',quality:'क्वालिटी',generateQr:'QR जनरेट करें',qrAlt:'जनरेट किया गया QR कोड',processedAlt:'प्रोसेस किया गया परिणाम'},
+};
+
 function download(url: string, name: string) {
   const a = document.createElement('a');
   a.href = url;
@@ -29,6 +45,7 @@ export default function ImageEngine({
   locale?: LocaleCode;
 }) {
   const ui = getEngineUi(locale);
+  const labels = IMAGE_LABELS[locale];
   const [file, setFile] = useState<File | null>(null);
   const [src, setSrc] = useState('');
   const [quality, setQuality] = useState(85);
@@ -384,7 +401,7 @@ export default function ImageEngine({
             <img
               className="max-w-xs rounded-2xl border"
               src={output}
-              alt="Generated QR code"
+              alt={labels.qrAlt}
             />
 
             <button
@@ -435,7 +452,7 @@ export default function ImageEngine({
                 onChange={(e) =>
                   setWidth(Number(e.target.value))
                 }
-                placeholder="Width"
+                placeholder={labels.width}
               />
 
               <input
@@ -446,7 +463,7 @@ export default function ImageEngine({
                 onChange={(e) =>
                   setHeight(Number(e.target.value))
                 }
-                placeholder="Height"
+                placeholder={labels.height}
               />
             </>
           )}
@@ -460,7 +477,7 @@ export default function ImageEngine({
                   setRatio(e.target.value)
                 }
               >
-                <option value="free">Free</option>
+                <option value="free">{labels.free}</option>
                 <option value="1:1">1:1</option>
                 <option value="4:3">4:3</option>
                 <option value="16:9">16:9</option>
@@ -506,15 +523,15 @@ export default function ImageEngine({
                 }
               >
                 <option value="none">
-                  No flip
+                  {labels.noFlip}
                 </option>
 
                 <option value="horizontal">
-                  Flip horizontal
+                  {labels.flipHorizontal}
                 </option>
 
                 <option value="vertical">
-                  Flip vertical
+                  {labels.flipVertical}
                 </option>
               </select>
 
@@ -526,7 +543,7 @@ export default function ImageEngine({
                 onChange={(e) =>
                   setAngle(Number(e.target.value))
                 }
-                placeholder="Rotation angle"
+                placeholder={labels.rotation}
               />
             </>
           )}
@@ -537,7 +554,7 @@ export default function ImageEngine({
             'png-to-jpg-converter',
           ].includes(toolSlug) && (
             <label className="text-xs text-zinc-500">
-              Quality: {quality}%
+              {labels.quality}: {quality}%
               <input
                 className="w-full"
                 type="range"
@@ -571,7 +588,7 @@ export default function ImageEngine({
           <img
             className="max-h-96 max-w-full rounded-2xl border"
             src={output}
-            alt="Processed output"
+            alt={labels.processedAlt}
           />
 
           <button
