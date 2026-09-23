@@ -56,11 +56,35 @@ export default async function LocalizedToolLayout({ children, params }: { childr
       { '@type': 'ListItem', position: 2, name: name, item: url },
     ],
   };
+  const seo = getLocalizedToolSeoContent(tool, locale.code);
+  const app = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name,
+    url,
+    mainEntityOfPage: url,
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Web Browser',
+    isAccessibleForFree: true,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    description: seo.intro,
+  };
+  const faq = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: seo.faq.map((x) => ({
+      '@type': 'Question',
+      name: x.q,
+      acceptedAnswer: { '@type': 'Answer', text: x.a },
+    })),
+  };
 
   return <>
     <link rel="alternate" hrefLang="en" href={englishUrl} />
     <link rel="alternate" hrefLang={locale.hreflang} href={url} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(app) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
     {children}
   </>;
 }
