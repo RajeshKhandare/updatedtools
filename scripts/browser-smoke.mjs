@@ -1139,6 +1139,14 @@ async function main() {
       '/' +
       tool.slug;
 
+    // PDF tools are intentionally excluded from the automated browser smoke
+    // suite because pdf.js/WASM rendering and downloads make CI much slower.
+    // PDF functionality remains covered by the dedicated/manual PDF checks.
+    if (tool.category === 'PDF') {
+      console.log('SKIP ' + label + ' (PDF smoke disabled for fast CI)');
+      continue;
+    }
+
     try {
       await page.close().catch(() => {});
       page = await context.newPage();
@@ -1293,9 +1301,13 @@ async function main() {
   console.log(
     JSON.stringify(
       {
-        tested: tools.length,
+        totalTools: tools.length,
+        skippedPdf:
+          tools.filter((tool) => tool.category === 'PDF').length,
+        tested:
+          tools.filter((tool) => tool.category !== 'PDF').length,
         passed:
-          tools.length -
+          tools.filter((tool) => tool.category !== 'PDF').length -
           failures.length,
         failed:
           failures.length,
