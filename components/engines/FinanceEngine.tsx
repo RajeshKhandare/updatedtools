@@ -53,7 +53,7 @@ export default function FinanceEngine({
 }) {
   const ui = getEngineUi(locale);
   const f = FINANCE_LABELS[locale] || FINANCE_LABELS.en;
-  const [a, setA = useState<string>('5000');
+  const [a, setA] = useState<string>('5000');
   const [b, setB] = useState<string>('12');
   const [c, setC] = useState<string>('10');
   const [d, setD] = useState<string>('1');
@@ -340,7 +340,7 @@ export default function FinanceEngine({
               ]
             : toolSlug === 'emi-calculator'
               ? [
-                  'Loan amount',
+                  f.amount,
                   f.annualInterest,
                   f.tenure,
                 ]
