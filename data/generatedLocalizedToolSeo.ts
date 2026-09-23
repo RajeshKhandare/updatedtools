@@ -834,7 +834,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Compacte arquivos PNG, JPEG e WebP para reduzir o tamanho do arquivo e, ao mesmo tempo, equilibrar a qualidade da saída. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este fluxo de trabalho de imagem concentra-se em uma transformação para que uma tarefa rápida possa ser concluída sem um editor gráfico completo. É útil para trabalhos de web, documentos, redes sociais, desenvolvimento e imagens cotidianas.",
       "steps": [
-        "Abra Compress Image online online online e identifique o formato ou valores de entrada necessários.",
+        "Abra Comprimir imagem online e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -863,23 +863,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Compress Image online online online?",
+          "q": "Para que é usado Comprimir imagem online?",
           "a": "Compacte arquivos PNG, JPEG e WebP para reduzir o tamanho do arquivo e, ao mesmo tempo, equilibrar a qualidade da saída. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Compress Image online online online?",
+          "q": "Como funciona Comprimir imagem online?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Compress Image online online online?",
+          "q": "Para que posso usar Comprimir imagem online?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Compress Image online online online requer uma conta ou instalação?",
+          "q": "Comprimir imagem online requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Compress Image online online online?",
+          "q": "O que devo verificar antes de usar a saída de Comprimir imagem online?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -893,7 +893,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Corte imagens com proporções predefinidas (16:9, 1:1, 4:3) ou seleção de caixa de formato livre. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este fluxo de trabalho de imagem concentra-se em uma transformação para que uma tarefa rápida possa ser concluída sem um editor gráfico completo. É útil para trabalhos de web, documentos, redes sociais, desenvolvimento e imagens cotidianas.",
       "steps": [
-        "Abra Crop Image online online online e identifique o formato ou valores de entrada necessários.",
+        "Abra Cortar imagem online e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -922,23 +922,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Crop Image online online online?",
+          "q": "Para que é usado Cortar imagem online?",
           "a": "Corte imagens com proporções predefinidas (16:9, 1:1, 4:3) ou seleção de caixa de formato livre. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Crop Image online online online?",
+          "q": "Como funciona Cortar imagem online?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Crop Image online online online?",
+          "q": "Para que posso usar Cortar imagem online?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Crop Image online online online requer uma conta ou instalação?",
+          "q": "Cortar imagem online requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Crop Image online online online?",
+          "q": "O que devo verificar antes de usar a saída de Cortar imagem online?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -952,7 +952,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Redimensione as dimensões da imagem por largura, altura personalizada ou porcentagens em pixels e cm. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este fluxo de trabalho de imagem concentra-se em uma transformação para que uma tarefa rápida possa ser concluída sem um editor gráfico completo. É útil para trabalhos de web, documentos, redes sociais, desenvolvimento e imagens cotidianas.",
       "steps": [
-        "Abra Resize Image online online online e identifique o formato ou valores de entrada necessários.",
+        "Abra Redimensionar imagem online e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -981,23 +981,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Resize Image online online online?",
+          "q": "Para que é usado Redimensionar imagem online?",
           "a": "Redimensione as dimensões da imagem por largura, altura personalizada ou porcentagens em pixels e cm. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Resize Image online online online?",
+          "q": "Como funciona Redimensionar imagem online?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Resize Image online online online?",
+          "q": "Para que posso usar Redimensionar imagem online?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Resize Image online online online requer uma conta ou instalação?",
+          "q": "Redimensionar imagem online requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Resize Image online online online?",
+          "q": "O que devo verificar antes de usar a saída de Redimensionar imagem online?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -2722,7 +2722,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Gere senhas aleatórias personalizáveis e de alta entropia. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este utilitário de desenvolvedor tem como objetivo um fluxo de trabalho repetível que normalmente aparece durante o trabalho de API, depuração, desenvolvimento de front-end ou back-end, teste e preparação de dados.",
       "steps": [
-        "Abra Gerador de Password e identifique o formato ou valores de entrada necessários.",
+        "Abra Gerador de senhas e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -2751,23 +2751,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Gerador de Password?",
+          "q": "Para que é usado Gerador de senhas?",
           "a": "Gere senhas aleatórias personalizáveis e de alta entropia. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Gerador de Password?",
+          "q": "Como funciona Gerador de senhas?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Gerador de Password?",
+          "q": "Para que posso usar Gerador de senhas?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Gerador de Password requer uma conta ou instalação?",
+          "q": "Gerador de senhas requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Gerador de Password?",
+          "q": "O que devo verificar antes de usar a saída de Gerador de senhas?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -2899,7 +2899,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Transforme instantaneamente o texto em MAIÚSCULAS, minúsculas, Title Case e camelCase. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este utilitário de texto destina-se a tarefas repetitivas de limpeza, comparação, transformação ou geração em que a edição manual é mais lenta ou mais propensa a erros.",
       "steps": [
-        "Abra Text Case e identifique o formato ou valores de entrada necessários.",
+        "Abra Conversor de maiúsculas e minúsculas e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -2928,23 +2928,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Text Case?",
+          "q": "Para que é usado Conversor de maiúsculas e minúsculas?",
           "a": "Transforme instantaneamente o texto em MAIÚSCULAS, minúsculas, Title Case e camelCase. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Text Case?",
+          "q": "Como funciona Conversor de maiúsculas e minúsculas?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Text Case?",
+          "q": "Para que posso usar Conversor de maiúsculas e minúsculas?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Text Case requer uma conta ou instalação?",
+          "q": "Conversor de maiúsculas e minúsculas requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Text Case?",
+          "q": "O que devo verificar antes de usar a saída de Conversor de maiúsculas e minúsculas?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -4649,19 +4649,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Calculadora de Porcentagem?",
+          "q": "Para que é usado Calculadora de porcentagem?",
           "a": "Calcule o aumento percentual, a diminuição percentual e as diferenças de fração instantaneamente. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Calculadora de Porcentagem?",
+          "q": "Como funciona Calculadora de porcentagem?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "De quais entradas Calculadora de Porcentagem precisa?",
+          "q": "De quais entradas Calculadora de porcentagem precisa?",
           "a": "A área de trabalho solicita os valores relevantes para este cálculo. Insira-os usando as unidades exibidas e revise as suposições antes de calcular."
         },
         {
-          "q": "Posso usar Calculadora de Porcentagem para obter um resultado exato do mundo real?",
+          "q": "Posso usar Calculadora de porcentagem para obter um resultado exato do mundo real?",
           "a": "Use-o para planejamento e análise de cenários. Declarações oficiais, cotações de credores, registros de folha de pagamento, termos de produtos ou outras fontes confiáveis ​​podem incluir regras e encargos que uma calculadora geral não pode conhecer."
         },
         {
@@ -4669,7 +4669,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "O aumento percentual é comumente calculado como (novo valor - valor antigo) ÷ valor antigo × 100."
         },
         {
-          "q": "O uso de Calculadora de Porcentagem é gratuito?",
+          "q": "O uso de Calculadora de porcentagem é gratuito?",
           "a": "Sim. A ferramenta está disponível sem conta paga. Os limites práticos podem vir da memória do navegador, do desempenho do dispositivo, do tamanho da entrada ou de qualquer serviço de execução de terceiros usado por um fluxo de trabalho específico."
         }
       ],
@@ -4709,19 +4709,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Calculadora de Idade?",
+          "q": "Para que é usado Calculadora de idade?",
           "a": "Calcule a idade cronológica exata em anos, meses, semanas e dias. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Calculadora de Idade?",
+          "q": "Como funciona Calculadora de idade?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "De quais entradas Calculadora de Idade precisa?",
+          "q": "De quais entradas Calculadora de idade precisa?",
           "a": "A área de trabalho solicita os valores relevantes para este cálculo. Insira-os usando as unidades exibidas e revise as suposições antes de calcular."
         },
         {
-          "q": "Posso usar Calculadora de Idade para obter um resultado exato do mundo real?",
+          "q": "Posso usar Calculadora de idade para obter um resultado exato do mundo real?",
           "a": "Use-o para planejamento e análise de cenários. Declarações oficiais, cotações de credores, registros de folha de pagamento, termos de produtos ou outras fontes confiáveis ​​podem incluir regras e encargos que uma calculadora geral não pode conhecer."
         },
         {
@@ -4729,7 +4729,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Pode calcular uma idade civil, mas a elegibilidade legal depende da lei aplicável, instituição, jurisdição e data de referência."
         },
         {
-          "q": "O uso de Calculadora de Idade é gratuito?",
+          "q": "O uso de Calculadora de idade é gratuito?",
           "a": "Sim. A ferramenta está disponível sem conta paga. Os limites práticos podem vir da memória do navegador, do desempenho do dispositivo, do tamanho da entrada ou de qualquer serviço de execução de terceiros usado por um fluxo de trabalho específico."
         }
       ],
@@ -4769,19 +4769,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Calculadora de BMI?",
+          "q": "Para que é usado Calculadora de IMC?",
           "a": "Calcule o índice de massa corporal (IMC) a partir da altura e do peso e mostre as categorias de IMC comumente usadas. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Calculadora de BMI?",
+          "q": "Como funciona Calculadora de IMC?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "De quais entradas Calculadora de BMI precisa?",
+          "q": "De quais entradas Calculadora de IMC precisa?",
           "a": "A área de trabalho solicita os valores relevantes para este cálculo. Insira-os usando as unidades exibidas e revise as suposições antes de calcular."
         },
         {
-          "q": "Posso usar Calculadora de BMI para obter um resultado exato do mundo real?",
+          "q": "Posso usar Calculadora de IMC para obter um resultado exato do mundo real?",
           "a": "Use-o para planejamento e análise de cenários. Declarações oficiais, cotações de credores, registros de folha de pagamento, termos de produtos ou outras fontes confiáveis ​​podem incluir regras e encargos que uma calculadora geral não pode conhecer."
         },
         {
@@ -4789,7 +4789,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Não. O IMC é uma medida de triagem baseada na altura e no peso. A avaliação individual da saúde pode exigir contexto adicional e avaliação profissional."
         },
         {
-          "q": "O uso de Calculadora de BMI é gratuito?",
+          "q": "O uso de Calculadora de IMC é gratuito?",
           "a": "Sim. A ferramenta está disponível sem conta paga. Os limites práticos podem vir da memória do navegador, do desempenho do dispositivo, do tamanho da entrada ou de qualquer serviço de execução de terceiros usado por um fluxo de trabalho específico."
         }
       ],
@@ -4829,19 +4829,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Calculadora de Científica?",
+          "q": "Para que é usado Calculadora científica?",
           "a": "Execute trigonometria avançada, logaritmos, exponenciais e expressões de álgebra. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Calculadora de Científica?",
+          "q": "Como funciona Calculadora científica?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "De quais entradas Calculadora de Científica precisa?",
+          "q": "De quais entradas Calculadora científica precisa?",
           "a": "A área de trabalho solicita os valores relevantes para este cálculo. Insira-os usando as unidades exibidas e revise as suposições antes de calcular."
         },
         {
-          "q": "Posso usar Calculadora de Científica para obter um resultado exato do mundo real?",
+          "q": "Posso usar Calculadora científica para obter um resultado exato do mundo real?",
           "a": "Use-o para planejamento e análise de cenários. Declarações oficiais, cotações de credores, registros de folha de pagamento, termos de produtos ou outras fontes confiáveis ​​podem incluir regras e encargos que uma calculadora geral não pode conhecer."
         },
         {
@@ -4849,7 +4849,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Verifique se a calculadora está usando graus ou radianos e use parênteses para tornar explícita a expressão pretendida."
         },
         {
-          "q": "O uso de Calculadora de Científica é gratuito?",
+          "q": "O uso de Calculadora científica é gratuito?",
           "a": "Sim. A ferramenta está disponível sem conta paga. Os limites práticos podem vir da memória do navegador, do desempenho do dispositivo, do tamanho da entrada ou de qualquer serviço de execução de terceiros usado por um fluxo de trabalho específico."
         }
       ],
@@ -4889,19 +4889,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Calculadora de Desconto?",
+          "q": "Para que é usado Calculadora de desconto?",
           "a": "Calcule o valor do desconto e o preço final a partir de um preço original e uma taxa de desconto. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Calculadora de Desconto?",
+          "q": "Como funciona Calculadora de desconto?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "De quais entradas Calculadora de Desconto precisa?",
+          "q": "De quais entradas Calculadora de desconto precisa?",
           "a": "A área de trabalho solicita os valores relevantes para este cálculo. Insira-os usando as unidades exibidas e revise as suposições antes de calcular."
         },
         {
-          "q": "Posso usar Calculadora de Desconto para obter um resultado exato do mundo real?",
+          "q": "Posso usar Calculadora de desconto para obter um resultado exato do mundo real?",
           "a": "Use-o para planejamento e análise de cenários. Declarações oficiais, cotações de credores, registros de folha de pagamento, termos de produtos ou outras fontes confiáveis ​​podem incluir regras e encargos que uma calculadora geral não pode conhecer."
         },
         {
@@ -4909,7 +4909,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Geralmente não. Descontos percentuais sequenciais são aplicados à alteração do preço, de modo que a redução combinada geralmente é menor do que simplesmente adicionar as porcentagens."
         },
         {
-          "q": "O uso de Calculadora de Desconto é gratuito?",
+          "q": "O uso de Calculadora de desconto é gratuito?",
           "a": "Sim. A ferramenta está disponível sem conta paga. Os limites práticos podem vir da memória do navegador, do desempenho do dispositivo, do tamanho da entrada ou de qualquer serviço de execução de terceiros usado por um fluxo de trabalho específico."
         }
       ],
@@ -4949,19 +4949,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Calculadora de Gorjeta?",
+          "q": "Para que é usado Calculadora de gorjeta?",
           "a": "Divida as contas do jantar no restaurante e calcule as porcentagens de gorjetas de serviço uniformemente. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Calculadora de Gorjeta?",
+          "q": "Como funciona Calculadora de gorjeta?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "De quais entradas Calculadora de Gorjeta precisa?",
+          "q": "De quais entradas Calculadora de gorjeta precisa?",
           "a": "A área de trabalho solicita os valores relevantes para este cálculo. Insira-os usando as unidades exibidas e revise as suposições antes de calcular."
         },
         {
-          "q": "Posso usar Calculadora de Gorjeta para obter um resultado exato do mundo real?",
+          "q": "Posso usar Calculadora de gorjeta para obter um resultado exato do mundo real?",
           "a": "Use-o para planejamento e análise de cenários. Declarações oficiais, cotações de credores, registros de folha de pagamento, termos de produtos ou outras fontes confiáveis ​​podem incluir regras e encargos que uma calculadora geral não pode conhecer."
         },
         {
@@ -4969,7 +4969,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "As práticas variam. Escolha a convenção desejada pelo local ou pelo seu grupo e verifique se já está incluída alguma taxa de serviço."
         },
         {
-          "q": "O uso de Calculadora de Gorjeta é gratuito?",
+          "q": "O uso de Calculadora de gorjeta é gratuito?",
           "a": "Sim. A ferramenta está disponível sem conta paga. Os limites práticos podem vir da memória do navegador, do desempenho do dispositivo, do tamanho da entrada ou de qualquer serviço de execução de terceiros usado por um fluxo de trabalho específico."
         }
       ],
@@ -5985,7 +5985,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Comprima archivos PNG, JPEG y WebP para reducir el tamaño del archivo y equilibrar la calidad de salida. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
-        "Abra Compress Image online online online e identifique el formato o los valores de entrada requeridos.",
+        "Abra Comprimir imagen online e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -6014,23 +6014,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Compress Image online online online?",
+          "q": "¿Para qué se utiliza Comprimir imagen online?",
           "a": "Comprima archivos PNG, JPEG y WebP para reducir el tamaño del archivo y equilibrar la calidad de salida. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Compress Image online online online?",
+          "q": "¿Cómo funciona Comprimir imagen online?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Compress Image online online online?",
+          "q": "¿Para qué puedo utilizar Comprimir imagen online?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Compress Image online online online requiere una cuenta o instalación?",
+          "q": "¿Comprimir imagen online requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Compress Image online online online?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Comprimir imagen online?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -6044,7 +6044,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Recorte imágenes con relaciones de aspecto preestablecidas (16:9, 1:1, 4:3) o selección de cuadro de forma libre. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
-        "Abra Crop Image online online online e identifique el formato o los valores de entrada requeridos.",
+        "Abra Recortar imagen online e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -6073,23 +6073,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Crop Image online online online?",
+          "q": "¿Para qué se utiliza Recortar imagen online?",
           "a": "Recorte imágenes con relaciones de aspecto preestablecidas (16:9, 1:1, 4:3) o selección de cuadro de forma libre. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Crop Image online online online?",
+          "q": "¿Cómo funciona Recortar imagen online?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Crop Image online online online?",
+          "q": "¿Para qué puedo utilizar Recortar imagen online?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Crop Image online online online requiere una cuenta o instalación?",
+          "q": "¿Recortar imagen online requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Crop Image online online online?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Recortar imagen online?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -6103,7 +6103,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Cambie el tamaño de las dimensiones de la imagen según el ancho, alto o porcentajes personalizados en píxeles y cm. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
-        "Abra Resize Image online online online e identifique el formato o los valores de entrada requeridos.",
+        "Abra Cambiar tamaño de imagen online e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -6132,23 +6132,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Resize Image online online online?",
+          "q": "¿Para qué se utiliza Cambiar tamaño de imagen online?",
           "a": "Cambie el tamaño de las dimensiones de la imagen según el ancho, alto o porcentajes personalizados en píxeles y cm. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Resize Image online online online?",
+          "q": "¿Cómo funciona Cambiar tamaño de imagen online?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Resize Image online online online?",
+          "q": "¿Para qué puedo utilizar Cambiar tamaño de imagen online?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Resize Image online online online requiere una cuenta o instalación?",
+          "q": "¿Cambiar tamaño de imagen online requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Resize Image online online online?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Cambiar tamaño de imagen online?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -6634,7 +6634,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Genere códigos QR escaneables de alta resolución a partir de texto, enlaces o tarjetas de contacto. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
-        "Abra Generador de QR Code e identifique el formato o los valores de entrada requeridos.",
+        "Abra Generador de códigos QR e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -6663,23 +6663,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Generador de QR Code?",
+          "q": "¿Para qué se utiliza Generador de códigos QR?",
           "a": "Genere códigos QR escaneables de alta resolución a partir de texto, enlaces o tarjetas de contacto. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Generador de QR Code?",
+          "q": "¿Cómo funciona Generador de códigos QR?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Generador de QR Code?",
+          "q": "¿Para qué puedo utilizar Generador de códigos QR?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Generador de QR Code requiere una cuenta o instalación?",
+          "q": "¿Generador de códigos QR requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Generador de QR Code?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Generador de códigos QR?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -7873,7 +7873,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Genere contraseñas aleatorias personalizables y de alta entropía. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Esta utilidad para desarrolladores tiene como objetivo un flujo de trabajo repetible que aparece comúnmente durante el trabajo de API, la depuración, el desarrollo frontend o backend, las pruebas y la preparación de datos.",
       "steps": [
-        "Abra Generador de Password e identifique el formato o los valores de entrada requeridos.",
+        "Abra Generador de contraseñas e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -7902,23 +7902,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Generador de Password?",
+          "q": "¿Para qué se utiliza Generador de contraseñas?",
           "a": "Genere contraseñas aleatorias personalizables y de alta entropía. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Generador de Password?",
+          "q": "¿Cómo funciona Generador de contraseñas?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Generador de Password?",
+          "q": "¿Para qué puedo utilizar Generador de contraseñas?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Generador de Password requiere una cuenta o instalación?",
+          "q": "¿Generador de contraseñas requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Generador de Password?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Generador de contraseñas?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -8050,7 +8050,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Transforme instantáneamente el texto en MAYÚSCULAS, minúsculas, mayúsculas y minúsculas. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Esta utilidad de texto está diseñada para tareas repetitivas de limpieza, comparación, transformación o generación donde la edición manual es más lenta o más propensa a errores.",
       "steps": [
-        "Abra Text Case e identifique el formato o los valores de entrada requeridos.",
+        "Abra Convertidor de mayúsculas y minúsculas e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -8079,23 +8079,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Text Case?",
+          "q": "¿Para qué se utiliza Convertidor de mayúsculas y minúsculas?",
           "a": "Transforme instantáneamente el texto en MAYÚSCULAS, minúsculas, mayúsculas y minúsculas. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Text Case?",
+          "q": "¿Cómo funciona Convertidor de mayúsculas y minúsculas?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Text Case?",
+          "q": "¿Para qué puedo utilizar Convertidor de mayúsculas y minúsculas?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Text Case requiere una cuenta o instalación?",
+          "q": "¿Convertidor de mayúsculas y minúsculas requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Text Case?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Convertidor de mayúsculas y minúsculas?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -9800,19 +9800,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Calculadora de Porcentaje?",
+          "q": "¿Para qué se utiliza Calculadora de porcentajes?",
           "a": "Calcule el aumento porcentual, la disminución porcentual y las diferencias de fracciones al instante. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Calculadora de Porcentaje?",
+          "q": "¿Cómo funciona Calculadora de porcentajes?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Qué entradas necesita Calculadora de Porcentaje?",
+          "q": "¿Qué entradas necesita Calculadora de porcentajes?",
           "a": "El espacio de trabajo solicita los valores relevantes para este cálculo. Introdúzcalos utilizando las unidades mostradas y revise los supuestos antes de realizar el cálculo."
         },
         {
-          "q": "¿Puedo usar Calculadora de Porcentaje para obtener un resultado exacto en el mundo real?",
+          "q": "¿Puedo usar Calculadora de porcentajes para obtener un resultado exacto en el mundo real?",
           "a": "Úselo para planificación y análisis de escenarios. Las declaraciones oficiales, las cotizaciones de los prestamistas, los registros de nómina, los términos de los productos u otras fuentes autorizadas pueden incluir reglas y cargos que una calculadora general no puede conocer."
         },
         {
@@ -9820,7 +9820,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "El aumento porcentual se calcula comúnmente como (valor nuevo − valor anterior) ÷ valor anterior × 100."
         },
         {
-          "q": "¿Calculadora de Porcentaje es de uso gratuito?",
+          "q": "¿Calculadora de porcentajes es de uso gratuito?",
           "a": "Sí. La herramienta está disponible sin una cuenta paga. Los límites prácticos pueden provenir de la memoria del navegador, el rendimiento del dispositivo, el tamaño de entrada o cualquier servicio de ejecución de terceros utilizado por un flujo de trabajo particular."
         }
       ],
@@ -9860,19 +9860,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Calculadora de Edad?",
+          "q": "¿Para qué se utiliza Calculadora de edad?",
           "a": "Calcula la edad cronológica exacta en años, meses, semanas y días. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Calculadora de Edad?",
+          "q": "¿Cómo funciona Calculadora de edad?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Qué entradas necesita Calculadora de Edad?",
+          "q": "¿Qué entradas necesita Calculadora de edad?",
           "a": "El espacio de trabajo solicita los valores relevantes para este cálculo. Introdúzcalos utilizando las unidades mostradas y revise los supuestos antes de realizar el cálculo."
         },
         {
-          "q": "¿Puedo usar Calculadora de Edad para obtener un resultado exacto en el mundo real?",
+          "q": "¿Puedo usar Calculadora de edad para obtener un resultado exacto en el mundo real?",
           "a": "Úselo para planificación y análisis de escenarios. Las declaraciones oficiales, las cotizaciones de los prestamistas, los registros de nómina, los términos de los productos u otras fuentes autorizadas pueden incluir reglas y cargos que una calculadora general no puede conocer."
         },
         {
@@ -9880,7 +9880,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Puede calcular una edad calendario, pero la elegibilidad legal depende de la ley, institución, jurisdicción y fecha de referencia aplicables."
         },
         {
-          "q": "¿Calculadora de Edad es de uso gratuito?",
+          "q": "¿Calculadora de edad es de uso gratuito?",
           "a": "Sí. La herramienta está disponible sin una cuenta paga. Los límites prácticos pueden provenir de la memoria del navegador, el rendimiento del dispositivo, el tamaño de entrada o cualquier servicio de ejecución de terceros utilizado por un flujo de trabajo particular."
         }
       ],
@@ -9920,19 +9920,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Calculadora de BMI?",
+          "q": "¿Para qué se utiliza Calculadora de IMC?",
           "a": "Calcule el índice de masa corporal (IMC) a partir de la altura y el peso y muestre las categorías de IMC utilizadas habitualmente. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Calculadora de BMI?",
+          "q": "¿Cómo funciona Calculadora de IMC?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Qué entradas necesita Calculadora de BMI?",
+          "q": "¿Qué entradas necesita Calculadora de IMC?",
           "a": "El espacio de trabajo solicita los valores relevantes para este cálculo. Introdúzcalos utilizando las unidades mostradas y revise los supuestos antes de realizar el cálculo."
         },
         {
-          "q": "¿Puedo usar Calculadora de BMI para obtener un resultado exacto en el mundo real?",
+          "q": "¿Puedo usar Calculadora de IMC para obtener un resultado exacto en el mundo real?",
           "a": "Úselo para planificación y análisis de escenarios. Las declaraciones oficiales, las cotizaciones de los prestamistas, los registros de nómina, los términos de los productos u otras fuentes autorizadas pueden incluir reglas y cargos que una calculadora general no puede conocer."
         },
         {
@@ -9940,7 +9940,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "No. El IMC es una medida de detección basada en la altura y el peso. La evaluación de la salud individual puede requerir contexto adicional y evaluación profesional."
         },
         {
-          "q": "¿Calculadora de BMI es de uso gratuito?",
+          "q": "¿Calculadora de IMC es de uso gratuito?",
           "a": "Sí. La herramienta está disponible sin una cuenta paga. Los límites prácticos pueden provenir de la memoria del navegador, el rendimiento del dispositivo, el tamaño de entrada o cualquier servicio de ejecución de terceros utilizado por un flujo de trabajo particular."
         }
       ],
@@ -9980,19 +9980,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Calculadora de Científica?",
+          "q": "¿Para qué se utiliza Calculadora científica?",
           "a": "Realizar trigonometría avanzada, logaritmos, exponenciales y expresiones de álgebra. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Calculadora de Científica?",
+          "q": "¿Cómo funciona Calculadora científica?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Qué entradas necesita Calculadora de Científica?",
+          "q": "¿Qué entradas necesita Calculadora científica?",
           "a": "El espacio de trabajo solicita los valores relevantes para este cálculo. Introdúzcalos utilizando las unidades mostradas y revise los supuestos antes de realizar el cálculo."
         },
         {
-          "q": "¿Puedo usar Calculadora de Científica para obtener un resultado exacto en el mundo real?",
+          "q": "¿Puedo usar Calculadora científica para obtener un resultado exacto en el mundo real?",
           "a": "Úselo para planificación y análisis de escenarios. Las declaraciones oficiales, las cotizaciones de los prestamistas, los registros de nómina, los términos de los productos u otras fuentes autorizadas pueden incluir reglas y cargos que una calculadora general no puede conocer."
         },
         {
@@ -10000,7 +10000,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Verifique si la calculadora usa grados o radianes y use paréntesis para hacer explícita la expresión deseada."
         },
         {
-          "q": "¿Calculadora de Científica es de uso gratuito?",
+          "q": "¿Calculadora científica es de uso gratuito?",
           "a": "Sí. La herramienta está disponible sin una cuenta paga. Los límites prácticos pueden provenir de la memoria del navegador, el rendimiento del dispositivo, el tamaño de entrada o cualquier servicio de ejecución de terceros utilizado por un flujo de trabajo particular."
         }
       ],
@@ -10040,19 +10040,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Calculadora de Descuento?",
+          "q": "¿Para qué se utiliza Calculadora de descuentos?",
           "a": "Calcule el monto del descuento y el precio final a partir del precio original y la tasa de descuento. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Calculadora de Descuento?",
+          "q": "¿Cómo funciona Calculadora de descuentos?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Qué entradas necesita Calculadora de Descuento?",
+          "q": "¿Qué entradas necesita Calculadora de descuentos?",
           "a": "El espacio de trabajo solicita los valores relevantes para este cálculo. Introdúzcalos utilizando las unidades mostradas y revise los supuestos antes de realizar el cálculo."
         },
         {
-          "q": "¿Puedo usar Calculadora de Descuento para obtener un resultado exacto en el mundo real?",
+          "q": "¿Puedo usar Calculadora de descuentos para obtener un resultado exacto en el mundo real?",
           "a": "Úselo para planificación y análisis de escenarios. Las declaraciones oficiales, las cotizaciones de los prestamistas, los registros de nómina, los términos de los productos u otras fuentes autorizadas pueden incluir reglas y cargos que una calculadora general no puede conocer."
         },
         {
@@ -10060,7 +10060,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Generalmente no. Se aplican descuentos porcentuales secuenciales al precio cambiante, por lo que la reducción combinada suele ser menor que simplemente sumar los porcentajes."
         },
         {
-          "q": "¿Calculadora de Descuento es de uso gratuito?",
+          "q": "¿Calculadora de descuentos es de uso gratuito?",
           "a": "Sí. La herramienta está disponible sin una cuenta paga. Los límites prácticos pueden provenir de la memoria del navegador, el rendimiento del dispositivo, el tamaño de entrada o cualquier servicio de ejecución de terceros utilizado por un flujo de trabajo particular."
         }
       ],
@@ -10100,19 +10100,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Calculadora de Propina?",
+          "q": "¿Para qué se utiliza Calculadora de propinas?",
           "a": "Divida las facturas de las cenas en restaurantes y calcule los porcentajes de propinas de servicio de manera uniforme. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Calculadora de Propina?",
+          "q": "¿Cómo funciona Calculadora de propinas?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Qué entradas necesita Calculadora de Propina?",
+          "q": "¿Qué entradas necesita Calculadora de propinas?",
           "a": "El espacio de trabajo solicita los valores relevantes para este cálculo. Introdúzcalos utilizando las unidades mostradas y revise los supuestos antes de realizar el cálculo."
         },
         {
-          "q": "¿Puedo usar Calculadora de Propina para obtener un resultado exacto en el mundo real?",
+          "q": "¿Puedo usar Calculadora de propinas para obtener un resultado exacto en el mundo real?",
           "a": "Úselo para planificación y análisis de escenarios. Las declaraciones oficiales, las cotizaciones de los prestamistas, los registros de nómina, los términos de los productos u otras fuentes autorizadas pueden incluir reglas y cargos que una calculadora general no puede conocer."
         },
         {
@@ -10120,7 +10120,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Las prácticas varían. Elige la convención requerida por el lugar o tu grupo y comprueba si ya se ha incluido algún cargo por servicio."
         },
         {
-          "q": "¿Calculadora de Propina es de uso gratuito?",
+          "q": "¿Calculadora de propinas es de uso gratuito?",
           "a": "Sí. La herramienta está disponible sin una cuenta paga. Los límites prácticos pueden provenir de la memoria del navegador, el rendimiento del dispositivo, el tamaño de entrada o cualquier servicio de ejecución de terceros utilizado por un flujo de trabajo particular."
         }
       ],
@@ -11136,7 +11136,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Komprimieren Sie PNG-, JPEG- und WebP-Dateien, um die Dateigröße zu reduzieren und gleichzeitig die Ausgabequalität auszugleichen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
-        "Öffnen Sie Compress Image online online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Bild online komprimieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -11165,23 +11165,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Compress Image online online online verwendet?",
+          "q": "Wofür wird Bild online komprimieren verwendet?",
           "a": "Komprimieren Sie PNG-, JPEG- und WebP-Dateien, um die Dateigröße zu reduzieren und gleichzeitig die Ausgabequalität auszugleichen. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Compress Image online online online?",
+          "q": "Wie funktioniert Bild online komprimieren?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Compress Image online online online verwenden?",
+          "q": "Wofür kann ich Bild online komprimieren verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Compress Image online online online ein Konto oder eine Installation?",
+          "q": "Benötigt Bild online komprimieren ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Compress Image online online online verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Bild online komprimieren verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -11195,7 +11195,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder freier Boxauswahl. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
-        "Öffnen Sie Crop Image online online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Bild online zuschneiden und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -11224,23 +11224,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Crop Image online online online verwendet?",
+          "q": "Wofür wird Bild online zuschneiden verwendet?",
           "a": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder freier Boxauswahl. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Crop Image online online online?",
+          "q": "Wie funktioniert Bild online zuschneiden?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Crop Image online online online verwenden?",
+          "q": "Wofür kann ich Bild online zuschneiden verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Crop Image online online online ein Konto oder eine Installation?",
+          "q": "Benötigt Bild online zuschneiden ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Crop Image online online online verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Bild online zuschneiden verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -11254,7 +11254,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Passen Sie die Bildabmessungen nach benutzerdefinierter Breite, Höhe oder Prozentsätzen in Pixel und cm an. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
-        "Öffnen Sie Resize Image online online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Bild online skalieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -11283,23 +11283,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Resize Image online online online verwendet?",
+          "q": "Wofür wird Bild online skalieren verwendet?",
           "a": "Passen Sie die Bildabmessungen nach benutzerdefinierter Breite, Höhe oder Prozentsätzen in Pixel und cm an. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Resize Image online online online?",
+          "q": "Wie funktioniert Bild online skalieren?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Resize Image online online online verwenden?",
+          "q": "Wofür kann ich Bild online skalieren verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Resize Image online online online ein Konto oder eine Installation?",
+          "q": "Benötigt Bild online skalieren ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Resize Image online online online verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Bild online skalieren verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -11785,7 +11785,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Generieren Sie scanbare hochauflösende QR-Codes aus Text, Links oder Kontaktkarten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
-        "Öffnen Sie QR Code-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie QR-Code-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -11814,23 +11814,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird QR Code-Generator verwendet?",
+          "q": "Wofür wird QR-Code-Generator verwendet?",
           "a": "Generieren Sie scanbare hochauflösende QR-Codes aus Text, Links oder Kontaktkarten. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert QR Code-Generator?",
+          "q": "Wie funktioniert QR-Code-Generator?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich QR Code-Generator verwenden?",
+          "q": "Wofür kann ich QR-Code-Generator verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt QR Code-Generator ein Konto oder eine Installation?",
+          "q": "Benötigt QR-Code-Generator ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von QR Code-Generator verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von QR-Code-Generator verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -13024,7 +13024,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Generieren Sie anpassbare, zufällige Passwörter mit hoher Entropie. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
-        "Öffnen Sie Password-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Passwort-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -13053,23 +13053,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Password-Generator verwendet?",
+          "q": "Wofür wird Passwort-Generator verwendet?",
           "a": "Generieren Sie anpassbare, zufällige Passwörter mit hoher Entropie. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Password-Generator?",
+          "q": "Wie funktioniert Passwort-Generator?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Password-Generator verwenden?",
+          "q": "Wofür kann ich Passwort-Generator verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Password-Generator ein Konto oder eine Installation?",
+          "q": "Benötigt Passwort-Generator ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Password-Generator verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Passwort-Generator verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -13201,7 +13201,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Wandeln Sie Text sofort in GROSSBUCHSTABEN, Kleinbuchstaben, Titelbuchstaben und Kamelbuchstaben um. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
-        "Öffnen Sie Text Case und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Text-Groß-/Kleinschreibungs-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -13230,23 +13230,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Text Case verwendet?",
+          "q": "Wofür wird Text-Groß-/Kleinschreibungs-Konverter verwendet?",
           "a": "Wandeln Sie Text sofort in GROSSBUCHSTABEN, Kleinbuchstaben, Titelbuchstaben und Kamelbuchstaben um. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Text Case?",
+          "q": "Wie funktioniert Text-Groß-/Kleinschreibungs-Konverter?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Text Case verwenden?",
+          "q": "Wofür kann ich Text-Groß-/Kleinschreibungs-Konverter verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Text Case ein Konto oder eine Installation?",
+          "q": "Benötigt Text-Groß-/Kleinschreibungs-Konverter ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Text Case verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Text-Groß-/Kleinschreibungs-Konverter verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -14951,19 +14951,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Prozent-Rechner verwendet?",
+          "q": "Wofür wird Prozentrechner verwendet?",
           "a": "Berechnen Sie sofort den prozentualen Anstieg, den prozentualen Rückgang und die Bruchdifferenzen. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Prozent-Rechner?",
+          "q": "Wie funktioniert Prozentrechner?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Welche Eingaben benötigt Prozent-Rechner?",
+          "q": "Welche Eingaben benötigt Prozentrechner?",
           "a": "Der Arbeitsbereich fordert die für diese Berechnung relevanten Werte an. Geben Sie sie mit den angezeigten Einheiten ein und überprüfen Sie die Annahmen vor der Berechnung."
         },
         {
-          "q": "Kann ich Prozent-Rechner für ein exaktes Ergebnis in der Praxis verwenden?",
+          "q": "Kann ich Prozentrechner für ein exaktes Ergebnis in der Praxis verwenden?",
           "a": "Nutzen Sie es zur Planung und Szenarioanalyse. Offizielle Erklärungen, Angebote von Kreditgebern, Gehaltsabrechnungen, Produktbedingungen oder andere maßgebliche Quellen können Regeln und Gebühren enthalten, die ein allgemeiner Rechner nicht kennen kann."
         },
         {
@@ -14971,7 +14971,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Der prozentuale Anstieg wird üblicherweise als (neuer Wert − alter Wert) ÷ alter Wert × 100 berechnet."
         },
         {
-          "q": "Ist die Nutzung von Prozent-Rechner kostenlos?",
+          "q": "Ist die Nutzung von Prozentrechner kostenlos?",
           "a": "Ja. Das Tool ist ohne kostenpflichtiges Konto verfügbar. Praktische Grenzen können durch den Browserspeicher, die Geräteleistung, die Eingabegröße oder einen von einem bestimmten Workflow verwendeten Ausführungsdienst eines Drittanbieters entstehen."
         }
       ],
@@ -15011,19 +15011,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Alter-Rechner verwendet?",
+          "q": "Wofür wird Altersrechner verwendet?",
           "a": "Berechnen Sie das genaue chronologische Alter in Jahren, Monaten, Wochen und Tagen. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Alter-Rechner?",
+          "q": "Wie funktioniert Altersrechner?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Welche Eingaben benötigt Alter-Rechner?",
+          "q": "Welche Eingaben benötigt Altersrechner?",
           "a": "Der Arbeitsbereich fordert die für diese Berechnung relevanten Werte an. Geben Sie sie mit den angezeigten Einheiten ein und überprüfen Sie die Annahmen vor der Berechnung."
         },
         {
-          "q": "Kann ich Alter-Rechner für ein exaktes Ergebnis in der Praxis verwenden?",
+          "q": "Kann ich Altersrechner für ein exaktes Ergebnis in der Praxis verwenden?",
           "a": "Nutzen Sie es zur Planung und Szenarioanalyse. Offizielle Erklärungen, Angebote von Kreditgebern, Gehaltsabrechnungen, Produktbedingungen oder andere maßgebliche Quellen können Regeln und Gebühren enthalten, die ein allgemeiner Rechner nicht kennen kann."
         },
         {
@@ -15031,7 +15031,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Es kann ein Kalenderalter berechnet werden, die rechtliche Berechtigung hängt jedoch vom geltenden Recht, der Institution, der Gerichtsbarkeit und dem Stichtag ab."
         },
         {
-          "q": "Ist die Nutzung von Alter-Rechner kostenlos?",
+          "q": "Ist die Nutzung von Altersrechner kostenlos?",
           "a": "Ja. Das Tool ist ohne kostenpflichtiges Konto verfügbar. Praktische Grenzen können durch den Browserspeicher, die Geräteleistung, die Eingabegröße oder einen von einem bestimmten Workflow verwendeten Ausführungsdienst eines Drittanbieters entstehen."
         }
       ],
@@ -15131,19 +15131,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Wissenschaftlicher-Rechner verwendet?",
+          "q": "Wofür wird Wissenschaftlicher Rechner verwendet?",
           "a": "Führen Sie fortgeschrittene Trigonometrie, Logarithmen, Exponentialrechnungen und algebraische Ausdrücke durch. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Wissenschaftlicher-Rechner?",
+          "q": "Wie funktioniert Wissenschaftlicher Rechner?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Welche Eingaben benötigt Wissenschaftlicher-Rechner?",
+          "q": "Welche Eingaben benötigt Wissenschaftlicher Rechner?",
           "a": "Der Arbeitsbereich fordert die für diese Berechnung relevanten Werte an. Geben Sie sie mit den angezeigten Einheiten ein und überprüfen Sie die Annahmen vor der Berechnung."
         },
         {
-          "q": "Kann ich Wissenschaftlicher-Rechner für ein exaktes Ergebnis in der Praxis verwenden?",
+          "q": "Kann ich Wissenschaftlicher Rechner für ein exaktes Ergebnis in der Praxis verwenden?",
           "a": "Nutzen Sie es zur Planung und Szenarioanalyse. Offizielle Erklärungen, Angebote von Kreditgebern, Gehaltsabrechnungen, Produktbedingungen oder andere maßgebliche Quellen können Regeln und Gebühren enthalten, die ein allgemeiner Rechner nicht kennen kann."
         },
         {
@@ -15151,7 +15151,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Überprüfen Sie, ob der Rechner Grad oder Bogenmaß verwendet, und verwenden Sie Klammern, um den beabsichtigten Ausdruck deutlich zu machen."
         },
         {
-          "q": "Ist die Nutzung von Wissenschaftlicher-Rechner kostenlos?",
+          "q": "Ist die Nutzung von Wissenschaftlicher Rechner kostenlos?",
           "a": "Ja. Das Tool ist ohne kostenpflichtiges Konto verfügbar. Praktische Grenzen können durch den Browserspeicher, die Geräteleistung, die Eingabegröße oder einen von einem bestimmten Workflow verwendeten Ausführungsdienst eines Drittanbieters entstehen."
         }
       ],
@@ -15191,19 +15191,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Rabatt-Rechner verwendet?",
+          "q": "Wofür wird Rabattrechner verwendet?",
           "a": "Berechnen Sie den Rabattbetrag und den Endpreis anhand eines Originalpreises und eines Rabattsatzes. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Rabatt-Rechner?",
+          "q": "Wie funktioniert Rabattrechner?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Welche Eingaben benötigt Rabatt-Rechner?",
+          "q": "Welche Eingaben benötigt Rabattrechner?",
           "a": "Der Arbeitsbereich fordert die für diese Berechnung relevanten Werte an. Geben Sie sie mit den angezeigten Einheiten ein und überprüfen Sie die Annahmen vor der Berechnung."
         },
         {
-          "q": "Kann ich Rabatt-Rechner für ein exaktes Ergebnis in der Praxis verwenden?",
+          "q": "Kann ich Rabattrechner für ein exaktes Ergebnis in der Praxis verwenden?",
           "a": "Nutzen Sie es zur Planung und Szenarioanalyse. Offizielle Erklärungen, Angebote von Kreditgebern, Gehaltsabrechnungen, Produktbedingungen oder andere maßgebliche Quellen können Regeln und Gebühren enthalten, die ein allgemeiner Rechner nicht kennen kann."
         },
         {
@@ -15211,7 +15211,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Im Allgemeinen nicht. Auf den sich ändernden Preis werden aufeinanderfolgende prozentuale Rabatte angewendet, sodass die kombinierte Reduzierung in der Regel geringer ist als die einfache Addition der Prozentsätze."
         },
         {
-          "q": "Ist die Nutzung von Rabatt-Rechner kostenlos?",
+          "q": "Ist die Nutzung von Rabattrechner kostenlos?",
           "a": "Ja. Das Tool ist ohne kostenpflichtiges Konto verfügbar. Praktische Grenzen können durch den Browserspeicher, die Geräteleistung, die Eingabegröße oder einen von einem bestimmten Workflow verwendeten Ausführungsdienst eines Drittanbieters entstehen."
         }
       ],
@@ -15251,19 +15251,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Trinkgeld-Rechner verwendet?",
+          "q": "Wofür wird Trinkgeldrechner verwendet?",
           "a": "Teilen Sie die Rechnungen für das Abendessen im Restaurant auf und berechnen Sie die Service-Trinkgeldprozentsätze gleichmäßig. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Trinkgeld-Rechner?",
+          "q": "Wie funktioniert Trinkgeldrechner?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Welche Eingaben benötigt Trinkgeld-Rechner?",
+          "q": "Welche Eingaben benötigt Trinkgeldrechner?",
           "a": "Der Arbeitsbereich fordert die für diese Berechnung relevanten Werte an. Geben Sie sie mit den angezeigten Einheiten ein und überprüfen Sie die Annahmen vor der Berechnung."
         },
         {
-          "q": "Kann ich Trinkgeld-Rechner für ein exaktes Ergebnis in der Praxis verwenden?",
+          "q": "Kann ich Trinkgeldrechner für ein exaktes Ergebnis in der Praxis verwenden?",
           "a": "Nutzen Sie es zur Planung und Szenarioanalyse. Offizielle Erklärungen, Angebote von Kreditgebern, Gehaltsabrechnungen, Produktbedingungen oder andere maßgebliche Quellen können Regeln und Gebühren enthalten, die ein allgemeiner Rechner nicht kennen kann."
         },
         {
@@ -15271,7 +15271,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Die Praktiken variieren. Wählen Sie die für den Veranstaltungsort oder Ihre Gruppe erforderliche Tagung aus und prüfen Sie, ob bereits eine Servicegebühr enthalten ist."
         },
         {
-          "q": "Ist die Nutzung von Trinkgeld-Rechner kostenlos?",
+          "q": "Ist die Nutzung von Trinkgeldrechner kostenlos?",
           "a": "Ja. Das Tool ist ohne kostenpflichtiges Konto verfügbar. Praktische Grenzen können durch den Browserspeicher, die Geräteleistung, die Eingabegröße oder einen von einem bestimmten Workflow verwendeten Ausführungsdienst eines Drittanbieters entstehen."
         }
       ],
@@ -16287,7 +16287,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Compressez les fichiers PNG, JPEG et WebP pour réduire la taille du fichier tout en équilibrant la qualité de sortie. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
-        "Ouvrez Compress Image online en ligne en ligne et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Compresser une image en ligne et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -16316,23 +16316,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Compress Image online en ligne en ligne ?",
+          "q": "À quoi sert Compresser une image en ligne ?",
           "a": "Compressez les fichiers PNG, JPEG et WebP pour réduire la taille du fichier tout en équilibrant la qualité de sortie. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Compress Image online en ligne en ligne ?",
+          "q": "Comment fonctionne Compresser une image en ligne ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Compress Image online en ligne en ligne ?",
+          "q": "À quoi puis-je utiliser Compresser une image en ligne ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Compress Image online en ligne en ligne nécessite-t-il un compte ou une installation ?",
+          "q": "Compresser une image en ligne nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Compress Image online en ligne en ligne ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Compresser une image en ligne ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -16346,7 +16346,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Recadrez les images avec des formats d'image prédéfinis (16:9, 1:1, 4:3) ou une sélection de boîte de forme libre. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
-        "Ouvrez Crop Image online en ligne en ligne et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Recadrer une image en ligne et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -16375,23 +16375,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Crop Image online en ligne en ligne ?",
+          "q": "À quoi sert Recadrer une image en ligne ?",
           "a": "Recadrez les images avec des formats d'image prédéfinis (16:9, 1:1, 4:3) ou une sélection de boîte de forme libre. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Crop Image online en ligne en ligne ?",
+          "q": "Comment fonctionne Recadrer une image en ligne ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Crop Image online en ligne en ligne ?",
+          "q": "À quoi puis-je utiliser Recadrer une image en ligne ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Crop Image online en ligne en ligne nécessite-t-il un compte ou une installation ?",
+          "q": "Recadrer une image en ligne nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Crop Image online en ligne en ligne ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Recadrer une image en ligne ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -16405,7 +16405,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Redimensionnez les dimensions de l'image selon une largeur, une hauteur ou des pourcentages personnalisés en pixels et en cm. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
-        "Ouvrez Resize Image online en ligne en ligne et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Redimensionner une image en ligne et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -16434,23 +16434,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Resize Image online en ligne en ligne ?",
+          "q": "À quoi sert Redimensionner une image en ligne ?",
           "a": "Redimensionnez les dimensions de l'image selon une largeur, une hauteur ou des pourcentages personnalisés en pixels et en cm. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Resize Image online en ligne en ligne ?",
+          "q": "Comment fonctionne Redimensionner une image en ligne ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Resize Image online en ligne en ligne ?",
+          "q": "À quoi puis-je utiliser Redimensionner une image en ligne ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Resize Image online en ligne en ligne nécessite-t-il un compte ou une installation ?",
+          "q": "Redimensionner une image en ligne nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Resize Image online en ligne en ligne ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Redimensionner une image en ligne ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -16936,7 +16936,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Générez des codes QR haute résolution scannables à partir de texte, de liens ou de fiches de contact. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
-        "Ouvrez Générateur de QR Code et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Générateur de QR code et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -16965,23 +16965,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Générateur de QR Code ?",
+          "q": "À quoi sert Générateur de QR code ?",
           "a": "Générez des codes QR haute résolution scannables à partir de texte, de liens ou de fiches de contact. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Générateur de QR Code ?",
+          "q": "Comment fonctionne Générateur de QR code ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Générateur de QR Code ?",
+          "q": "À quoi puis-je utiliser Générateur de QR code ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Générateur de QR Code nécessite-t-il un compte ou une installation ?",
+          "q": "Générateur de QR code nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Générateur de QR Code ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Générateur de QR code ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -18116,7 +18116,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Générez en masse des identifiants UUID v4 aléatoires pour le développement et les tests. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Cet utilitaire de développement cible un flux de travail reproductible qui apparaît généralement lors du travail de l'API, du débogage, du développement front-end ou back-end, des tests et de la préparation des données.",
       "steps": [
-        "Ouvrez Générateur de UUID et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Générateur d’UUID et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -18145,23 +18145,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Générateur de UUID ?",
+          "q": "À quoi sert Générateur d’UUID ?",
           "a": "Générez en masse des identifiants UUID v4 aléatoires pour le développement et les tests. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Générateur de UUID ?",
+          "q": "Comment fonctionne Générateur d’UUID ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Générateur de UUID ?",
+          "q": "À quoi puis-je utiliser Générateur d’UUID ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Générateur de UUID nécessite-t-il un compte ou une installation ?",
+          "q": "Générateur d’UUID nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Générateur de UUID ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Générateur d’UUID ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -18175,7 +18175,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Générez des mots de passe aléatoires personnalisables à haute entropie. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Cet utilitaire de développement cible un flux de travail reproductible qui apparaît généralement lors du travail de l'API, du débogage, du développement front-end ou back-end, des tests et de la préparation des données.",
       "steps": [
-        "Ouvrez Générateur de Password et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Générateur de mots de passe et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -18204,23 +18204,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Générateur de Password ?",
+          "q": "À quoi sert Générateur de mots de passe ?",
           "a": "Générez des mots de passe aléatoires personnalisables à haute entropie. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Générateur de Password ?",
+          "q": "Comment fonctionne Générateur de mots de passe ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Générateur de Password ?",
+          "q": "À quoi puis-je utiliser Générateur de mots de passe ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Générateur de Password nécessite-t-il un compte ou une installation ?",
+          "q": "Générateur de mots de passe nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Générateur de Password ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Générateur de mots de passe ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -18352,7 +18352,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Transformez instantanément le texte en MAJUSCULES, minuscules, casse de titre et camelCase. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Cet utilitaire de texte est destiné aux tâches répétitives de nettoyage, de comparaison, de transformation ou de génération où l'édition manuelle est plus lente ou plus sujette aux erreurs.",
       "steps": [
-        "Ouvrez Text Case et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Convertisseur de casse et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -18381,23 +18381,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Text Case ?",
+          "q": "À quoi sert Convertisseur de casse ?",
           "a": "Transformez instantanément le texte en MAJUSCULES, minuscules, casse de titre et camelCase. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Text Case ?",
+          "q": "Comment fonctionne Convertisseur de casse ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Text Case ?",
+          "q": "À quoi puis-je utiliser Convertisseur de casse ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Text Case nécessite-t-il un compte ou une installation ?",
+          "q": "Convertisseur de casse nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Text Case ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Convertisseur de casse ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -20102,19 +20102,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Calculateur de Pourcentage ?",
+          "q": "À quoi sert Calculateur de pourcentage ?",
           "a": "Calculez instantanément le pourcentage d'augmentation, de diminution en pourcentage et les différences de fractions. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Calculateur de Pourcentage ?",
+          "q": "Comment fonctionne Calculateur de pourcentage ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "De quelles entrées Calculateur de Pourcentage a-t-il besoin ?",
+          "q": "De quelles entrées Calculateur de pourcentage a-t-il besoin ?",
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de Pourcentage pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur de pourcentage pour obtenir un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -20122,7 +20122,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "L'augmentation en pourcentage est généralement calculée comme suit : (nouvelle valeur − ancienne valeur) ÷ ancienne valeur × 100."
         },
         {
-          "q": "L'utilisation de Calculateur de Pourcentage est-elle gratuite ?",
+          "q": "L'utilisation de Calculateur de pourcentage est-elle gratuite ?",
           "a": "Oui. L'outil est disponible sans compte payant. Les limites pratiques peuvent provenir de la mémoire du navigateur, des performances de l'appareil, de la taille d'entrée ou de tout service d'exécution tiers utilisé par un flux de travail particulier."
         }
       ],
@@ -20162,19 +20162,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Calculateur de Âge ?",
+          "q": "À quoi sert Calculateur d’âge ?",
           "a": "Calculez l'âge chronologique exact en années, mois, semaines et jours. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Calculateur de Âge ?",
+          "q": "Comment fonctionne Calculateur d’âge ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "De quelles entrées Calculateur de Âge a-t-il besoin ?",
+          "q": "De quelles entrées Calculateur d’âge a-t-il besoin ?",
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de Âge pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur d’âge pour obtenir un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -20182,7 +20182,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Il peut calculer un âge civil, mais l’éligibilité légale dépend de la loi applicable, de l’institution, de la juridiction et de la date de référence."
         },
         {
-          "q": "L'utilisation de Calculateur de Âge est-elle gratuite ?",
+          "q": "L'utilisation de Calculateur d’âge est-elle gratuite ?",
           "a": "Oui. L'outil est disponible sans compte payant. Les limites pratiques peuvent provenir de la mémoire du navigateur, des performances de l'appareil, de la taille d'entrée ou de tout service d'exécution tiers utilisé par un flux de travail particulier."
         }
       ],
@@ -20222,19 +20222,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Calculateur de BMI ?",
+          "q": "À quoi sert Calculateur d’IMC ?",
           "a": "Calculez l'indice de masse corporelle (IMC) à partir de la taille et du poids et affichez les catégories d'IMC couramment utilisées. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Calculateur de BMI ?",
+          "q": "Comment fonctionne Calculateur d’IMC ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "De quelles entrées Calculateur de BMI a-t-il besoin ?",
+          "q": "De quelles entrées Calculateur d’IMC a-t-il besoin ?",
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de BMI pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur d’IMC pour obtenir un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -20242,7 +20242,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Non. L’IMC est une mesure de dépistage basée sur la taille et le poids. L’évaluation de la santé individuelle peut nécessiter un contexte supplémentaire et une évaluation professionnelle."
         },
         {
-          "q": "L'utilisation de Calculateur de BMI est-elle gratuite ?",
+          "q": "L'utilisation de Calculateur d’IMC est-elle gratuite ?",
           "a": "Oui. L'outil est disponible sans compte payant. Les limites pratiques peuvent provenir de la mémoire du navigateur, des performances de l'appareil, de la taille d'entrée ou de tout service d'exécution tiers utilisé par un flux de travail particulier."
         }
       ],
@@ -20282,19 +20282,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Calculateur de Scientifique ?",
+          "q": "À quoi sert Calculatrice scientifique ?",
           "a": "Effectuez des expressions avancées de trigonométrie, de logarithmes, d'exponentielles et d'algèbre. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Calculateur de Scientifique ?",
+          "q": "Comment fonctionne Calculatrice scientifique ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "De quelles entrées Calculateur de Scientifique a-t-il besoin ?",
+          "q": "De quelles entrées Calculatrice scientifique a-t-il besoin ?",
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de Scientifique pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculatrice scientifique pour obtenir un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -20302,7 +20302,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Vérifiez si la calculatrice utilise des degrés ou des radians et utilisez des parenthèses pour rendre explicite l'expression souhaitée."
         },
         {
-          "q": "L'utilisation de Calculateur de Scientifique est-elle gratuite ?",
+          "q": "L'utilisation de Calculatrice scientifique est-elle gratuite ?",
           "a": "Oui. L'outil est disponible sans compte payant. Les limites pratiques peuvent provenir de la mémoire du navigateur, des performances de l'appareil, de la taille d'entrée ou de tout service d'exécution tiers utilisé par un flux de travail particulier."
         }
       ],
@@ -20342,19 +20342,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Calculateur de Remise ?",
+          "q": "À quoi sert Calculateur de remise ?",
           "a": "Calculez le montant de la remise et le prix final à partir d'un prix d'origine et d'un taux de remise. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Calculateur de Remise ?",
+          "q": "Comment fonctionne Calculateur de remise ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "De quelles entrées Calculateur de Remise a-t-il besoin ?",
+          "q": "De quelles entrées Calculateur de remise a-t-il besoin ?",
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de Remise pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur de remise pour obtenir un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -20362,7 +20362,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Pas généralement. Des remises en pourcentage séquentielles sont appliquées au changement de prix, de sorte que la réduction combinée est généralement inférieure à la simple addition des pourcentages."
         },
         {
-          "q": "L'utilisation de Calculateur de Remise est-elle gratuite ?",
+          "q": "L'utilisation de Calculateur de remise est-elle gratuite ?",
           "a": "Oui. L'outil est disponible sans compte payant. Les limites pratiques peuvent provenir de la mémoire du navigateur, des performances de l'appareil, de la taille d'entrée ou de tout service d'exécution tiers utilisé par un flux de travail particulier."
         }
       ],
@@ -20402,19 +20402,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Calculateur de Pourboire ?",
+          "q": "À quoi sert Calculateur de pourboire ?",
           "a": "Répartissez les factures des dîners au restaurant et calculez les pourcentages de pourboires de service de manière égale. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Calculateur de Pourboire ?",
+          "q": "Comment fonctionne Calculateur de pourboire ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "De quelles entrées Calculateur de Pourboire a-t-il besoin ?",
+          "q": "De quelles entrées Calculateur de pourboire a-t-il besoin ?",
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de Pourboire pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur de pourboire pour obtenir un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -20422,7 +20422,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Les pratiques varient. Choisissez la convention souhaitée par le lieu ou votre groupe et vérifiez si des frais de service ont déjà été inclus."
         },
         {
-          "q": "L'utilisation de Calculateur de Pourboire est-elle gratuite ?",
+          "q": "L'utilisation de Calculateur de pourboire est-elle gratuite ?",
           "a": "Oui. L'outil est disponible sans compte payant. Les limites pratiques peuvent provenir de la mémoire du navigateur, des performances de l'appareil, de la taille d'entrée ou de tout service d'exécution tiers utilisé par un flux de travail particulier."
         }
       ],
@@ -20730,7 +20730,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Estrai le pagine dal tuo documento PDF ed esportale come immagini JPG di alta qualità. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro PDF è progettato attorno a un'attività mirata sul documento: preparare l'origine, applicare l'operazione, rivedere l'output e conservare il risultato solo se soddisfa i tuoi requisiti.",
       "steps": [
-        "Apri Convertitore da PDF a JPG e identifica il formato o i valori di input richiesti.",
+        "Apri Convertitore PDF in JPG e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -20759,23 +20759,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Convertitore da PDF a JPG?",
+          "q": "A cosa serve Convertitore PDF in JPG?",
           "a": "Estrai le pagine dal tuo documento PDF ed esportale come immagini JPG di alta qualità. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Convertitore da PDF a JPG?",
+          "q": "Come funziona Convertitore PDF in JPG?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Convertitore da PDF a JPG?",
+          "q": "Per cosa posso utilizzare Convertitore PDF in JPG?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Convertitore da PDF a JPG richiede un account o un'installazione?",
+          "q": "Convertitore PDF in JPG richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore da PDF a JPG?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore PDF in JPG?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -20789,7 +20789,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Converti immagini JPG, JPEG e PNG in un file PDF standardizzato e pulito. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro PDF è progettato attorno a un'attività mirata sul documento: preparare l'origine, applicare l'operazione, rivedere l'output e conservare il risultato solo se soddisfa i tuoi requisiti.",
       "steps": [
-        "Apri Convertitore da JPG a PDF e identifica il formato o i valori di input richiesti.",
+        "Apri Convertitore JPG in PDF e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -20818,23 +20818,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Convertitore da JPG a PDF?",
+          "q": "A cosa serve Convertitore JPG in PDF?",
           "a": "Converti immagini JPG, JPEG e PNG in un file PDF standardizzato e pulito. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Convertitore da JPG a PDF?",
+          "q": "Come funziona Convertitore JPG in PDF?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Convertitore da JPG a PDF?",
+          "q": "Per cosa posso utilizzare Convertitore JPG in PDF?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Convertitore da JPG a PDF richiede un account o un'installazione?",
+          "q": "Convertitore JPG in PDF richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore da JPG a PDF?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore JPG in PDF?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -21143,7 +21143,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Converti file PDF in formato DOCX Word modificabile in cui è supportato il contenuto di origine. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro PDF è progettato attorno a un'attività mirata sul documento: preparare l'origine, applicare l'operazione, rivedere l'output e conservare il risultato solo se soddisfa i tuoi requisiti.",
       "steps": [
-        "Apri Convertitore da PDF a Word e identifica il formato o i valori di input richiesti.",
+        "Apri Convertitore PDF in Word e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21172,23 +21172,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Convertitore da PDF a Word?",
+          "q": "A cosa serve Convertitore PDF in Word?",
           "a": "Converti file PDF in formato DOCX Word modificabile in cui è supportato il contenuto di origine. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Convertitore da PDF a Word?",
+          "q": "Come funziona Convertitore PDF in Word?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Convertitore da PDF a Word?",
+          "q": "Per cosa posso utilizzare Convertitore PDF in Word?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Convertitore da PDF a Word richiede un account o un'installazione?",
+          "q": "Convertitore PDF in Word richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore da PDF a Word?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore PDF in Word?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -21202,7 +21202,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Converti documenti Microsoft Word (DOCX, DOC) in file PDF standard. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro PDF è progettato attorno a un'attività mirata sul documento: preparare l'origine, applicare l'operazione, rivedere l'output e conservare il risultato solo se soddisfa i tuoi requisiti.",
       "steps": [
-        "Apri Convertitore da Word a PDF e identifica il formato o i valori di input richiesti.",
+        "Apri Convertitore Word in PDF e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21231,23 +21231,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Convertitore da Word a PDF?",
+          "q": "A cosa serve Convertitore Word in PDF?",
           "a": "Converti documenti Microsoft Word (DOCX, DOC) in file PDF standard. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Convertitore da Word a PDF?",
+          "q": "Come funziona Convertitore Word in PDF?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Convertitore da Word a PDF?",
+          "q": "Per cosa posso utilizzare Convertitore Word in PDF?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Convertitore da Word a PDF richiede un account o un'installazione?",
+          "q": "Convertitore Word in PDF richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore da Word a PDF?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore Word in PDF?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -21438,7 +21438,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Comprimi file PNG, JPEG e WebP per ridurre le dimensioni del file bilanciando la qualità dell'output. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
-        "Apri Compress Image online online online e identifica il formato o i valori di input richiesti.",
+        "Apri Comprimere immagini online e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21467,23 +21467,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Compress Image online online online?",
+          "q": "A cosa serve Comprimere immagini online?",
           "a": "Comprimi file PNG, JPEG e WebP per ridurre le dimensioni del file bilanciando la qualità dell'output. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Compress Image online online online?",
+          "q": "Come funziona Comprimere immagini online?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Compress Image online online online?",
+          "q": "Per cosa posso utilizzare Comprimere immagini online?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Compress Image online online online richiede un account o un'installazione?",
+          "q": "Comprimere immagini online richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Compress Image online online online?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Comprimere immagini online?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -21497,7 +21497,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Ritaglia le immagini con proporzioni preimpostate (16:9, 1:1, 4:3) o selezionando una casella a mano libera. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
-        "Apri Crop Image online online online e identifica il formato o i valori di input richiesti.",
+        "Apri Ritagliare immagini online e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21526,23 +21526,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Crop Image online online online?",
+          "q": "A cosa serve Ritagliare immagini online?",
           "a": "Ritaglia le immagini con proporzioni preimpostate (16:9, 1:1, 4:3) o selezionando una casella a mano libera. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Crop Image online online online?",
+          "q": "Come funziona Ritagliare immagini online?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Crop Image online online online?",
+          "q": "Per cosa posso utilizzare Ritagliare immagini online?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Crop Image online online online richiede un account o un'installazione?",
+          "q": "Ritagliare immagini online richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Crop Image online online online?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Ritagliare immagini online?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -21556,7 +21556,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Ridimensiona le dimensioni dell'immagine in base a larghezza, altezza o percentuali personalizzate in pixel e cm. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
-        "Apri Resize Image online online online e identifica il formato o i valori di input richiesti.",
+        "Apri Ridimensionare immagini online e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21585,23 +21585,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Resize Image online online online?",
+          "q": "A cosa serve Ridimensionare immagini online?",
           "a": "Ridimensiona le dimensioni dell'immagine in base a larghezza, altezza o percentuali personalizzate in pixel e cm. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Resize Image online online online?",
+          "q": "Come funziona Ridimensionare immagini online?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Resize Image online online online?",
+          "q": "Per cosa posso utilizzare Ridimensionare immagini online?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Resize Image online online online richiede un account o un'installazione?",
+          "q": "Ridimensionare immagini online richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Resize Image online online online?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Ridimensionare immagini online?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -22087,7 +22087,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Genera codici QR scansionabili ad alta risoluzione da testo, collegamenti o schede di contatto. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
-        "Apri Generatore QR Code e identifica il formato o i valori di input richiesti.",
+        "Apri Generatore di codici QR e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -22116,23 +22116,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Generatore QR Code?",
+          "q": "A cosa serve Generatore di codici QR?",
           "a": "Genera codici QR scansionabili ad alta risoluzione da testo, collegamenti o schede di contatto. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Generatore QR Code?",
+          "q": "Come funziona Generatore di codici QR?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Generatore QR Code?",
+          "q": "Per cosa posso utilizzare Generatore di codici QR?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Generatore QR Code richiede un account o un'installazione?",
+          "q": "Generatore di codici QR richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Generatore QR Code?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Generatore di codici QR?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -23326,7 +23326,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Genera password casuali personalizzabili e ad alta entropia. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questa utilità per sviluppatori è destinata a un flusso di lavoro ripetibile che comunemente appare durante il lavoro API, il debug, lo sviluppo frontend o backend, i test e la preparazione dei dati.",
       "steps": [
-        "Apri Generatore Password e identifica il formato o i valori di input richiesti.",
+        "Apri Generatore di password e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -23355,23 +23355,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Generatore Password?",
+          "q": "A cosa serve Generatore di password?",
           "a": "Genera password casuali personalizzabili e ad alta entropia. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Generatore Password?",
+          "q": "Come funziona Generatore di password?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Generatore Password?",
+          "q": "Per cosa posso utilizzare Generatore di password?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Generatore Password richiede un account o un'installazione?",
+          "q": "Generatore di password richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Generatore Password?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Generatore di password?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -23503,7 +23503,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscolo e camelCase. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questa utilità di testo è destinata ad attività ripetitive di pulizia, confronto, trasformazione o generazione in cui la modifica manuale è più lenta o più soggetta a errori.",
       "steps": [
-        "Apri Text Case e identifica il formato o i valori di input richiesti.",
+        "Apri Convertitore maiuscole/minuscole e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -23532,23 +23532,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Text Case?",
+          "q": "A cosa serve Convertitore maiuscole/minuscole?",
           "a": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscolo e camelCase. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Text Case?",
+          "q": "Come funziona Convertitore maiuscole/minuscole?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Text Case?",
+          "q": "Per cosa posso utilizzare Convertitore maiuscole/minuscole?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Text Case richiede un account o un'installazione?",
+          "q": "Convertitore maiuscole/minuscole richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Text Case?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Convertitore maiuscole/minuscole?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -25253,19 +25253,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Calcolatore Percentuale?",
+          "q": "A cosa serve Calcolatore percentuale?",
           "a": "Calcola istantaneamente l'aumento percentuale, la diminuzione percentuale e le differenze frazionarie. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Calcolatore Percentuale?",
+          "q": "Come funziona Calcolatore percentuale?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Di quali input ha bisogno Calcolatore Percentuale?",
+          "q": "Di quali input ha bisogno Calcolatore percentuale?",
           "a": "L'area di lavoro richiede i valori rilevanti per questo calcolo. Inseriscili utilizzando le unità visualizzate e rivedi le ipotesi prima del calcolo."
         },
         {
-          "q": "Posso utilizzare Calcolatore Percentuale per ottenere un risultato esatto nel mondo reale?",
+          "q": "Posso utilizzare Calcolatore percentuale per ottenere un risultato esatto nel mondo reale?",
           "a": "Usalo per la pianificazione e l'analisi degli scenari. Dichiarazioni ufficiali, preventivi di prestatori, registri delle buste paga, termini di prodotto o altre fonti autorevoli possono includere regole e addebiti che un calcolatore generale non può conoscere."
         },
         {
@@ -25273,7 +25273,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "L'aumento percentuale viene comunemente calcolato come (nuovo valore − vecchio valore) ÷ vecchio valore × 100."
         },
         {
-          "q": "Calcolatore Percentuale è gratuito?",
+          "q": "Calcolatore percentuale è gratuito?",
           "a": "Sì. Lo strumento è disponibile senza un account a pagamento. I limiti pratici possono derivare dalla memoria del browser, dalle prestazioni del dispositivo, dalla dimensione dell'input o da qualsiasi servizio di esecuzione di terze parti utilizzato da un particolare flusso di lavoro."
         }
       ],
@@ -25313,19 +25313,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Calcolatore Età?",
+          "q": "A cosa serve Calcolatore dell’età?",
           "a": "Calcola l'età cronologica esatta in anni, mesi, settimane e giorni. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Calcolatore Età?",
+          "q": "Come funziona Calcolatore dell’età?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Di quali input ha bisogno Calcolatore Età?",
+          "q": "Di quali input ha bisogno Calcolatore dell’età?",
           "a": "L'area di lavoro richiede i valori rilevanti per questo calcolo. Inseriscili utilizzando le unità visualizzate e rivedi le ipotesi prima del calcolo."
         },
         {
-          "q": "Posso utilizzare Calcolatore Età per ottenere un risultato esatto nel mondo reale?",
+          "q": "Posso utilizzare Calcolatore dell’età per ottenere un risultato esatto nel mondo reale?",
           "a": "Usalo per la pianificazione e l'analisi degli scenari. Dichiarazioni ufficiali, preventivi di prestatori, registri delle buste paga, termini di prodotto o altre fonti autorevoli possono includere regole e addebiti che un calcolatore generale non può conoscere."
         },
         {
@@ -25333,7 +25333,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Può calcolare un'età di calendario, ma l'idoneità legale dipende dalla legge, dall'istituzione, dalla giurisdizione e dalla data di riferimento applicabili."
         },
         {
-          "q": "Calcolatore Età è gratuito?",
+          "q": "Calcolatore dell’età è gratuito?",
           "a": "Sì. Lo strumento è disponibile senza un account a pagamento. I limiti pratici possono derivare dalla memoria del browser, dalle prestazioni del dispositivo, dalla dimensione dell'input o da qualsiasi servizio di esecuzione di terze parti utilizzato da un particolare flusso di lavoro."
         }
       ],
@@ -25433,19 +25433,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Calcolatore Scientifica?",
+          "q": "A cosa serve Calcolatrice scientifica?",
           "a": "Esegui trigonometria avanzata, logaritmi, esponenziali ed espressioni algebriche. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Calcolatore Scientifica?",
+          "q": "Come funziona Calcolatrice scientifica?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Di quali input ha bisogno Calcolatore Scientifica?",
+          "q": "Di quali input ha bisogno Calcolatrice scientifica?",
           "a": "L'area di lavoro richiede i valori rilevanti per questo calcolo. Inseriscili utilizzando le unità visualizzate e rivedi le ipotesi prima del calcolo."
         },
         {
-          "q": "Posso utilizzare Calcolatore Scientifica per ottenere un risultato esatto nel mondo reale?",
+          "q": "Posso utilizzare Calcolatrice scientifica per ottenere un risultato esatto nel mondo reale?",
           "a": "Usalo per la pianificazione e l'analisi degli scenari. Dichiarazioni ufficiali, preventivi di prestatori, registri delle buste paga, termini di prodotto o altre fonti autorevoli possono includere regole e addebiti che un calcolatore generale non può conoscere."
         },
         {
@@ -25453,7 +25453,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Controlla se la calcolatrice utilizza gradi o radianti e usa le parentesi per rendere esplicita l'espressione desiderata."
         },
         {
-          "q": "Calcolatore Scientifica è gratuito?",
+          "q": "Calcolatrice scientifica è gratuito?",
           "a": "Sì. Lo strumento è disponibile senza un account a pagamento. I limiti pratici possono derivare dalla memoria del browser, dalle prestazioni del dispositivo, dalla dimensione dell'input o da qualsiasi servizio di esecuzione di terze parti utilizzato da un particolare flusso di lavoro."
         }
       ],
@@ -25493,19 +25493,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Calcolatore Sconto?",
+          "q": "A cosa serve Calcolatore di sconti?",
           "a": "Calcola l'importo dello sconto e il prezzo finale a partire dal prezzo originale e dal tasso di sconto. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Calcolatore Sconto?",
+          "q": "Come funziona Calcolatore di sconti?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Di quali input ha bisogno Calcolatore Sconto?",
+          "q": "Di quali input ha bisogno Calcolatore di sconti?",
           "a": "L'area di lavoro richiede i valori rilevanti per questo calcolo. Inseriscili utilizzando le unità visualizzate e rivedi le ipotesi prima del calcolo."
         },
         {
-          "q": "Posso utilizzare Calcolatore Sconto per ottenere un risultato esatto nel mondo reale?",
+          "q": "Posso utilizzare Calcolatore di sconti per ottenere un risultato esatto nel mondo reale?",
           "a": "Usalo per la pianificazione e l'analisi degli scenari. Dichiarazioni ufficiali, preventivi di prestatori, registri delle buste paga, termini di prodotto o altre fonti autorevoli possono includere regole e addebiti che un calcolatore generale non può conoscere."
         },
         {
@@ -25513,7 +25513,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Non generalmente. Al prezzo che cambia vengono applicati sconti percentuali sequenziali, quindi la riduzione combinata è solitamente inferiore alla semplice somma delle percentuali."
         },
         {
-          "q": "Calcolatore Sconto è gratuito?",
+          "q": "Calcolatore di sconti è gratuito?",
           "a": "Sì. Lo strumento è disponibile senza un account a pagamento. I limiti pratici possono derivare dalla memoria del browser, dalle prestazioni del dispositivo, dalla dimensione dell'input o da qualsiasi servizio di esecuzione di terze parti utilizzato da un particolare flusso di lavoro."
         }
       ],
@@ -25553,19 +25553,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Calcolatore Mancia?",
+          "q": "A cosa serve Calcolatore della mancia?",
           "a": "Dividi il conto della cena al ristorante e calcola uniformemente le percentuali di mancia per il servizio. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Calcolatore Mancia?",
+          "q": "Come funziona Calcolatore della mancia?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Di quali input ha bisogno Calcolatore Mancia?",
+          "q": "Di quali input ha bisogno Calcolatore della mancia?",
           "a": "L'area di lavoro richiede i valori rilevanti per questo calcolo. Inseriscili utilizzando le unità visualizzate e rivedi le ipotesi prima del calcolo."
         },
         {
-          "q": "Posso utilizzare Calcolatore Mancia per ottenere un risultato esatto nel mondo reale?",
+          "q": "Posso utilizzare Calcolatore della mancia per ottenere un risultato esatto nel mondo reale?",
           "a": "Usalo per la pianificazione e l'analisi degli scenari. Dichiarazioni ufficiali, preventivi di prestatori, registri delle buste paga, termini di prodotto o altre fonti autorevoli possono includere regole e addebiti che un calcolatore generale non può conoscere."
         },
         {
@@ -25573,7 +25573,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Le pratiche variano. Scegli la convenzione richiesta dalla struttura o dal tuo gruppo e verifica se è già previsto un costo di servizio."
         },
         {
-          "q": "Calcolatore Mancia è gratuito?",
+          "q": "Calcolatore della mancia è gratuito?",
           "a": "Sì. Lo strumento è disponibile senza un account a pagamento. I limiti pratici possono derivare dalla memoria del browser, dalle prestazioni del dispositivo, dalla dimensione dell'input o da qualsiasi servizio di esecuzione di terze parti utilizzato da un particolare flusso di lavoro."
         }
       ],
@@ -26589,7 +26589,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "PNG、JPEG、および WebP ファイルを圧縮して、出力品質のバランスをとりながらファイル サイズを削減します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この画像ワークフローは 1 つの変換に焦点を当てているため、完全なグラフィック エディタがなくても簡単なタスクを完了できます。 Web、ドキュメント、ソーシャル、開発、日常の画像作業に役立ちます。",
       "steps": [
-        "Compress Image online オンライン オンライン を開き、必要な入力形式または値を特定します。",
+        "画像をオンラインで圧縮 を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -26618,23 +26618,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online オンライン オンライン は何に使用されますか?",
+          "q": "画像をオンラインで圧縮 は何に使用されますか?",
           "a": "PNG、JPEG、および WebP ファイルを圧縮して、出力品質のバランスをとりながらファイル サイズを削減します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Compress Image online オンライン オンライン はどのように機能しますか?",
+          "q": "画像をオンラインで圧縮 はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Compress Image online オンライン オンライン は何に使用できますか?",
+          "q": "画像をオンラインで圧縮 は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Compress Image online オンライン オンライン にはアカウントやインストールが必要ですか?",
+          "q": "画像をオンラインで圧縮 にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Compress Image online オンライン オンライン からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "画像をオンラインで圧縮 からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -26648,7 +26648,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "プリセットのアスペクト比 (16:9、1:1、4:3) または自由形式のボックス選択で画像をトリミングします。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この画像ワークフローは 1 つの変換に焦点を当てているため、完全なグラフィック エディタがなくても簡単なタスクを完了できます。 Web、ドキュメント、ソーシャル、開発、日常の画像作業に役立ちます。",
       "steps": [
-        "Crop Image online オンライン オンライン を開き、必要な入力形式または値を特定します。",
+        "画像をオンラインでトリミング を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -26677,23 +26677,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online オンライン オンライン は何に使用されますか?",
+          "q": "画像をオンラインでトリミング は何に使用されますか?",
           "a": "プリセットのアスペクト比 (16:9、1:1、4:3) または自由形式のボックス選択で画像をトリミングします。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Crop Image online オンライン オンライン はどのように機能しますか?",
+          "q": "画像をオンラインでトリミング はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Crop Image online オンライン オンライン は何に使用できますか?",
+          "q": "画像をオンラインでトリミング は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Crop Image online オンライン オンライン にはアカウントやインストールが必要ですか?",
+          "q": "画像をオンラインでトリミング にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Crop Image online オンライン オンライン からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "画像をオンラインでトリミング からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -26707,7 +26707,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "カスタムの幅、高さ、またはピクセルとセンチメートル単位のパーセンテージで画像のサイズを変更します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この画像ワークフローは 1 つの変換に焦点を当てているため、完全なグラフィック エディタがなくても簡単なタスクを完了できます。 Web、ドキュメント、ソーシャル、開発、日常の画像作業に役立ちます。",
       "steps": [
-        "Resize Image online オンライン オンライン を開き、必要な入力形式または値を特定します。",
+        "画像をオンラインでリサイズ を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -26736,23 +26736,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online オンライン オンライン は何に使用されますか?",
+          "q": "画像をオンラインでリサイズ は何に使用されますか?",
           "a": "カスタムの幅、高さ、またはピクセルとセンチメートル単位のパーセンテージで画像のサイズを変更します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Resize Image online オンライン オンライン はどのように機能しますか?",
+          "q": "画像をオンラインでリサイズ はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Resize Image online オンライン オンライン は何に使用できますか?",
+          "q": "画像をオンラインでリサイズ は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Resize Image online オンライン オンライン にはアカウントやインストールが必要ですか?",
+          "q": "画像をオンラインでリサイズ にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Resize Image online オンライン オンライン からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "画像をオンラインでリサイズ からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -27238,7 +27238,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "テキスト、リンク、または連絡先カードからスキャン可能な高解像度の QR コードを生成します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この画像ワークフローは 1 つの変換に焦点を当てているため、完全なグラフィック エディタがなくても簡単なタスクを完了できます。 Web、ドキュメント、ソーシャル、開発、日常の画像作業に役立ちます。",
       "steps": [
-        "QR Code生成 を開き、必要な入力形式または値を特定します。",
+        "QRコードジェネレーター を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -27267,23 +27267,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "QR Code生成 は何に使用されますか?",
+          "q": "QRコードジェネレーター は何に使用されますか?",
           "a": "テキスト、リンク、または連絡先カードからスキャン可能な高解像度の QR コードを生成します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "QR Code生成 はどのように機能しますか?",
+          "q": "QRコードジェネレーター はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "QR Code生成 は何に使用できますか?",
+          "q": "QRコードジェネレーター は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "QR Code生成 にはアカウントやインストールが必要ですか?",
+          "q": "QRコードジェネレーター にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "QR Code生成 からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "QRコードジェネレーター からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -28418,7 +28418,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "開発とテストのためにランダムな UUID v4 識別子を一括生成します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この開発者ユーティリティは、API 作業、デバッグ、フロントエンドまたはバックエンドの開発、テスト、データ準備中によく現れる反復可能なワークフローを対象としています。",
       "steps": [
-        "UUID生成 を開き、必要な入力形式または値を特定します。",
+        "UUIDジェネレーター を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -28447,23 +28447,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "UUID生成 は何に使用されますか?",
+          "q": "UUIDジェネレーター は何に使用されますか?",
           "a": "開発とテストのためにランダムな UUID v4 識別子を一括生成します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "UUID生成 はどのように機能しますか?",
+          "q": "UUIDジェネレーター はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "UUID生成 は何に使用できますか?",
+          "q": "UUIDジェネレーター は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "UUID生成 にはアカウントやインストールが必要ですか?",
+          "q": "UUIDジェネレーター にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "UUID生成 からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "UUIDジェネレーター からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -28477,7 +28477,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "カスタマイズ可能な高エントロピーのランダムなパスワードを生成します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この開発者ユーティリティは、API 作業、デバッグ、フロントエンドまたはバックエンドの開発、テスト、データ準備中によく現れる反復可能なワークフローを対象としています。",
       "steps": [
-        "Password生成 を開き、必要な入力形式または値を特定します。",
+        "ランダムパスワード生成ツール を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -28506,23 +28506,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Password生成 は何に使用されますか?",
+          "q": "ランダムパスワード生成ツール は何に使用されますか?",
           "a": "カスタマイズ可能な高エントロピーのランダムなパスワードを生成します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Password生成 はどのように機能しますか?",
+          "q": "ランダムパスワード生成ツール はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Password生成 は何に使用できますか?",
+          "q": "ランダムパスワード生成ツール は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Password生成 にはアカウントやインストールが必要ですか?",
+          "q": "ランダムパスワード生成ツール にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Password生成 からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "ランダムパスワード生成ツール からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -28654,7 +28654,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "テキストを大文字、小文字、タイトルケース、キャメルケースに瞬時に変換します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "このテキスト ユーティリティは、手動編集では時間がかかる、またはエラーが発生しやすい、クリーンアップ、比較、変換、または生成タスクを繰り返すことを目的としています。",
       "steps": [
-        "Text Case を開き、必要な入力形式または値を特定します。",
+        "文字の大文字・小文字変換 を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -28683,23 +28683,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Text Case は何に使用されますか?",
+          "q": "文字の大文字・小文字変換 は何に使用されますか?",
           "a": "テキストを大文字、小文字、タイトルケース、キャメルケースに瞬時に変換します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Text Case はどのように機能しますか?",
+          "q": "文字の大文字・小文字変換 はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Text Case は何に使用できますか?",
+          "q": "文字の大文字・小文字変換 は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Text Case にはアカウントやインストールが必要ですか?",
+          "q": "文字の大文字・小文字変換 にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Text Case からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "文字の大文字・小文字変換 からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -30584,19 +30584,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "関数計算機 は何に使用されますか?",
+          "q": "関数電卓 は何に使用されますか?",
           "a": "高度な三角法、対数、指数関数、代数式を実行します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "関数計算機 はどのように機能しますか?",
+          "q": "関数電卓 はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "関数計算機 にはどのような入力が必要ですか?",
+          "q": "関数電卓 にはどのような入力が必要ですか?",
           "a": "ワークスペースは、この計算に関連する値を要求します。表示されている単位を使用して入力し、計算する前に仮定を確認してください。"
         },
         {
-          "q": "関数計算機 を使用して実際の結果を正確に取得できますか?",
+          "q": "関数電卓 を使用して実際の結果を正確に取得できますか?",
           "a": "計画やシナリオ分析に使用します。公式声明、貸し手の見積書、給与記録、商品条件、またはその他の信頼できる情報源には、一般の計算機では知ることができないルールや料金が含まれている場合があります。"
         },
         {
@@ -30604,7 +30604,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "計算機で度またはラジアンが使用されているかどうかを確認し、括弧を使用して意図した式を明示的に示します。"
         },
         {
-          "q": "関数計算機 は無料で使用できますか?",
+          "q": "関数電卓 は無料で使用できますか?",
           "a": "はい。このツールは有料アカウントなしでも利用できます。実際の制限は、ブラウザーのメモリ、デバイスのパフォーマンス、入力サイズ、または特定のワークフローで使用されるサードパーティの実行サービスによって発生する可能性があります。"
         }
       ],
@@ -31740,7 +31740,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "PNG, JPEG 및 WebP 파일을 압축하여 출력 품질의 균형을 유지하면서 파일 크기를 줄입니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
-        "Compress Image online 온라인 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "온라인 이미지 압축를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -31769,23 +31769,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online 온라인 온라인는 어떤 용도로 사용되나요?",
+          "q": "온라인 이미지 압축는 어떤 용도로 사용되나요?",
           "a": "PNG, JPEG 및 WebP 파일을 압축하여 출력 품질의 균형을 유지하면서 파일 크기를 줄입니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Compress Image online 온라인 온라인는 어떻게 작동하나요?",
+          "q": "온라인 이미지 압축는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Compress Image online 온라인 온라인는 무엇에 사용할 수 있나요?",
+          "q": "온라인 이미지 압축는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Compress Image online 온라인 온라인에는 계정이나 설치가 필요합니까?",
+          "q": "온라인 이미지 압축에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Compress Image online 온라인 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "온라인 이미지 압축의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -31799,7 +31799,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "사전 설정된 화면비(16:9, 1:1, 4:3) 또는 자유 형식 상자 선택으로 이미지를 자릅니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
-        "Crop Image online 온라인 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "온라인 이미지 자르기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -31828,23 +31828,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online 온라인 온라인는 어떤 용도로 사용되나요?",
+          "q": "온라인 이미지 자르기는 어떤 용도로 사용되나요?",
           "a": "사전 설정된 화면비(16:9, 1:1, 4:3) 또는 자유 형식 상자 선택으로 이미지를 자릅니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Crop Image online 온라인 온라인는 어떻게 작동하나요?",
+          "q": "온라인 이미지 자르기는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Crop Image online 온라인 온라인는 무엇에 사용할 수 있나요?",
+          "q": "온라인 이미지 자르기는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Crop Image online 온라인 온라인에는 계정이나 설치가 필요합니까?",
+          "q": "온라인 이미지 자르기에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Crop Image online 온라인 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "온라인 이미지 자르기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -31858,7 +31858,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "사용자 정의 너비, 높이 또는 백분율(픽셀 및 cm)로 이미지 크기를 조정합니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
-        "Resize Image online 온라인 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "온라인 이미지 크기 조정를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -31887,23 +31887,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online 온라인 온라인는 어떤 용도로 사용되나요?",
+          "q": "온라인 이미지 크기 조정는 어떤 용도로 사용되나요?",
           "a": "사용자 정의 너비, 높이 또는 백분율(픽셀 및 cm)로 이미지 크기를 조정합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Resize Image online 온라인 온라인는 어떻게 작동하나요?",
+          "q": "온라인 이미지 크기 조정는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Resize Image online 온라인 온라인는 무엇에 사용할 수 있나요?",
+          "q": "온라인 이미지 크기 조정는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Resize Image online 온라인 온라인에는 계정이나 설치가 필요합니까?",
+          "q": "온라인 이미지 크기 조정에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Resize Image online 온라인 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "온라인 이미지 크기 조정의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -32389,7 +32389,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "텍스트, 링크, 연락처 카드에서 스캔 가능한 고해상도 QR 코드를 생성하세요. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
-        "QR Code 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "QR 코드 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -32418,23 +32418,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "QR Code 생성기는 어떤 용도로 사용되나요?",
+          "q": "QR 코드 생성기는 어떤 용도로 사용되나요?",
           "a": "텍스트, 링크, 연락처 카드에서 스캔 가능한 고해상도 QR 코드를 생성하세요. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "QR Code 생성기는 어떻게 작동하나요?",
+          "q": "QR 코드 생성기는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "QR Code 생성기는 무엇에 사용할 수 있나요?",
+          "q": "QR 코드 생성기는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "QR Code 생성기에는 계정이나 설치가 필요합니까?",
+          "q": "QR 코드 생성기에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "QR Code 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "QR 코드 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -33628,7 +33628,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "사용자 정의 가능한 고엔트로피 무작위 비밀번호를 생성하세요. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
-        "Password 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "비밀번호 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -33657,23 +33657,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Password 생성기는 어떤 용도로 사용되나요?",
+          "q": "비밀번호 생성기는 어떤 용도로 사용되나요?",
           "a": "사용자 정의 가능한 고엔트로피 무작위 비밀번호를 생성하세요. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Password 생성기는 어떻게 작동하나요?",
+          "q": "비밀번호 생성기는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Password 생성기는 무엇에 사용할 수 있나요?",
+          "q": "비밀번호 생성기는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Password 생성기에는 계정이나 설치가 필요합니까?",
+          "q": "비밀번호 생성기에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Password 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "비밀번호 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -33805,7 +33805,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "텍스트를 대문자, 소문자, 제목 케이스 및 낙타 케이스로 즉시 변환합니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
-        "Text Case를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "텍스트 대소문자 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -33834,23 +33834,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Text Case는 어떤 용도로 사용되나요?",
+          "q": "텍스트 대소문자 변환기는 어떤 용도로 사용되나요?",
           "a": "텍스트를 대문자, 소문자, 제목 케이스 및 낙타 케이스로 즉시 변환합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Text Case는 어떻게 작동하나요?",
+          "q": "텍스트 대소문자 변환기는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Text Case는 무엇에 사용할 수 있나요?",
+          "q": "텍스트 대소문자 변환기는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Text Case에는 계정이나 설치가 필요합니까?",
+          "q": "텍스트 대소문자 변환기에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Text Case의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "텍스트 대소문자 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -36891,7 +36891,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "压缩 PNG、JPEG 和 WebP 文件以减小文件大小，同时平衡输出质量。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
-        "打开 Compress Image online 在线 在线 并确定所需的输入格式或值。",
+        "打开 在线压缩图片 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -36920,23 +36920,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online 在线 在线 有何用途？",
+          "q": "在线压缩图片 有何用途？",
           "a": "压缩 PNG、JPEG 和 WebP 文件以减小文件大小，同时平衡输出质量。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Compress Image online 在线 在线 如何工作？",
+          "q": "在线压缩图片 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Compress Image online 在线 在线 可以用来做什么？",
+          "q": "在线压缩图片 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Compress Image online 在线 在线 是否需要帐户或安装？",
+          "q": "在线压缩图片 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Compress Image online 在线 在线 的输出之前我应该检查什么？",
+          "q": "在使用 在线压缩图片 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -36950,7 +36950,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "使用预设长宽比（16:9、1:1、4:3）或自由框选择裁剪图像。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
-        "打开 Crop Image online 在线 在线 并确定所需的输入格式或值。",
+        "打开 在线裁剪图片 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -36979,23 +36979,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online 在线 在线 有何用途？",
+          "q": "在线裁剪图片 有何用途？",
           "a": "使用预设长宽比（16:9、1:1、4:3）或自由框选择裁剪图像。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Crop Image online 在线 在线 如何工作？",
+          "q": "在线裁剪图片 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Crop Image online 在线 在线 可以用来做什么？",
+          "q": "在线裁剪图片 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Crop Image online 在线 在线 是否需要帐户或安装？",
+          "q": "在线裁剪图片 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Crop Image online 在线 在线 的输出之前我应该检查什么？",
+          "q": "在使用 在线裁剪图片 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -37009,7 +37009,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "按自定义宽度、高度或百分比（以像素和厘米为单位）调整图像尺寸。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
-        "打开 Resize Image online 在线 在线 并确定所需的输入格式或值。",
+        "打开 在线调整图片大小 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -37038,23 +37038,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online 在线 在线 有何用途？",
+          "q": "在线调整图片大小 有何用途？",
           "a": "按自定义宽度、高度或百分比（以像素和厘米为单位）调整图像尺寸。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Resize Image online 在线 在线 如何工作？",
+          "q": "在线调整图片大小 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Resize Image online 在线 在线 可以用来做什么？",
+          "q": "在线调整图片大小 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Resize Image online 在线 在线 是否需要帐户或安装？",
+          "q": "在线调整图片大小 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Resize Image online 在线 在线 的输出之前我应该检查什么？",
+          "q": "在使用 在线调整图片大小 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -37540,7 +37540,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "从文本、链接或名片生成可扫描的高分辨率 QR 码。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
-        "打开 QR Code生成器 并确定所需的输入格式或值。",
+        "打开 二维码生成器 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -37569,23 +37569,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "QR Code生成器 有何用途？",
+          "q": "二维码生成器 有何用途？",
           "a": "从文本、链接或名片生成可扫描的高分辨率 QR 码。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "QR Code生成器 如何工作？",
+          "q": "二维码生成器 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "QR Code生成器 可以用来做什么？",
+          "q": "二维码生成器 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "QR Code生成器 是否需要帐户或安装？",
+          "q": "二维码生成器 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 QR Code生成器 的输出之前我应该检查什么？",
+          "q": "在使用 二维码生成器 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -38779,7 +38779,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "生成可定制的高熵随机密码。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该开发人员实用程序的目标是可重复的工作流程，该工作流程通常出现在 API 工作、调试、前端或后端开发、测试和数据准备期间。",
       "steps": [
-        "打开 Password生成器 并确定所需的输入格式或值。",
+        "打开 随机密码生成器 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -38808,23 +38808,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Password生成器 有何用途？",
+          "q": "随机密码生成器 有何用途？",
           "a": "生成可定制的高熵随机密码。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Password生成器 如何工作？",
+          "q": "随机密码生成器 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Password生成器 可以用来做什么？",
+          "q": "随机密码生成器 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Password生成器 是否需要帐户或安装？",
+          "q": "随机密码生成器 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Password生成器 的输出之前我应该检查什么？",
+          "q": "在使用 随机密码生成器 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -38956,7 +38956,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "立即将文本转换为大写、小写、标题大小写和驼峰式大小写。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "此文本实用程序适用于手动编辑速度较慢或更容易出错的重复清理、比较、转换或生成任务。",
       "steps": [
-        "打开 Text Case 并确定所需的输入格式或值。",
+        "打开 文本大小写转换器 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -38985,23 +38985,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Text Case 有何用途？",
+          "q": "文本大小写转换器 有何用途？",
           "a": "立即将文本转换为大写、小写、标题大小写和驼峰式大小写。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Text Case 如何工作？",
+          "q": "文本大小写转换器 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Text Case 可以用来做什么？",
+          "q": "文本大小写转换器 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Text Case 是否需要帐户或安装？",
+          "q": "文本大小写转换器 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Text Case 的输出之前我应该检查什么？",
+          "q": "在使用 文本大小写转换器 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -42042,7 +42042,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Сжимайте файлы PNG, JPEG и WebP, чтобы уменьшить размер файла и одновременно сбалансировать качество вывода. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс с изображением фокусируется на одном преобразовании, поэтому быструю задачу можно выполнить без полноценного графического редактора. Он полезен для веб-сайтов, документов, социальных сетей, разработки и повседневной работы с изображениями.",
       "steps": [
-        "Откройте Compress Image online онлайн онлайн и определите необходимый формат ввода или значения.",
+        "Откройте Сжать изображение онлайн и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -42071,23 +42071,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Compress Image online онлайн онлайн?",
+          "q": "Для чего используется Сжать изображение онлайн?",
           "a": "Сжимайте файлы PNG, JPEG и WebP, чтобы уменьшить размер файла и одновременно сбалансировать качество вывода. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Compress Image online онлайн онлайн?",
+          "q": "Как работает Сжать изображение онлайн?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Compress Image online онлайн онлайн?",
+          "q": "Для чего я могу использовать Сжать изображение онлайн?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Compress Image online онлайн онлайн учетная запись или установка?",
+          "q": "Требуется ли для Сжать изображение онлайн учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Compress Image online онлайн онлайн?",
+          "q": "Что мне следует проверить перед использованием результатов Сжать изображение онлайн?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -42101,7 +42101,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Обрезайте изображения с предустановленными соотношениями сторон (16:9, 1:1, 4:3) или выбором рамки произвольной формы. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс с изображением фокусируется на одном преобразовании, поэтому быструю задачу можно выполнить без полноценного графического редактора. Он полезен для веб-сайтов, документов, социальных сетей, разработки и повседневной работы с изображениями.",
       "steps": [
-        "Откройте Crop Image online онлайн онлайн и определите необходимый формат ввода или значения.",
+        "Откройте Обрезать изображение онлайн и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -42130,23 +42130,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Crop Image online онлайн онлайн?",
+          "q": "Для чего используется Обрезать изображение онлайн?",
           "a": "Обрезайте изображения с предустановленными соотношениями сторон (16:9, 1:1, 4:3) или выбором рамки произвольной формы. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Crop Image online онлайн онлайн?",
+          "q": "Как работает Обрезать изображение онлайн?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Crop Image online онлайн онлайн?",
+          "q": "Для чего я могу использовать Обрезать изображение онлайн?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Crop Image online онлайн онлайн учетная запись или установка?",
+          "q": "Требуется ли для Обрезать изображение онлайн учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Crop Image online онлайн онлайн?",
+          "q": "Что мне следует проверить перед использованием результатов Обрезать изображение онлайн?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -42160,7 +42160,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Измените размеры изображения по индивидуальной ширине, высоте или в процентах в пикселях и см. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс с изображением фокусируется на одном преобразовании, поэтому быструю задачу можно выполнить без полноценного графического редактора. Он полезен для веб-сайтов, документов, социальных сетей, разработки и повседневной работы с изображениями.",
       "steps": [
-        "Откройте Resize Image online онлайн онлайн и определите необходимый формат ввода или значения.",
+        "Откройте Изменить размер изображения онлайн и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -42189,23 +42189,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Resize Image online онлайн онлайн?",
+          "q": "Для чего используется Изменить размер изображения онлайн?",
           "a": "Измените размеры изображения по индивидуальной ширине, высоте или в процентах в пикселях и см. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Resize Image online онлайн онлайн?",
+          "q": "Как работает Изменить размер изображения онлайн?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Resize Image online онлайн онлайн?",
+          "q": "Для чего я могу использовать Изменить размер изображения онлайн?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Resize Image online онлайн онлайн учетная запись или установка?",
+          "q": "Требуется ли для Изменить размер изображения онлайн учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Resize Image online онлайн онлайн?",
+          "q": "Что мне следует проверить перед использованием результатов Изменить размер изображения онлайн?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -42691,7 +42691,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Создавайте сканируемые QR-коды высокого разрешения из текста, ссылок или карточек контактов. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс с изображением фокусируется на одном преобразовании, поэтому быструю задачу можно выполнить без полноценного графического редактора. Он полезен для веб-сайтов, документов, социальных сетей, разработки и повседневной работы с изображениями.",
       "steps": [
-        "Откройте Генератор QR Code и определите необходимый формат ввода или значения.",
+        "Откройте Генератор QR-кодов и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -42720,23 +42720,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Генератор QR Code?",
+          "q": "Для чего используется Генератор QR-кодов?",
           "a": "Создавайте сканируемые QR-коды высокого разрешения из текста, ссылок или карточек контактов. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Генератор QR Code?",
+          "q": "Как работает Генератор QR-кодов?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Генератор QR Code?",
+          "q": "Для чего я могу использовать Генератор QR-кодов?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Генератор QR Code учетная запись или установка?",
+          "q": "Требуется ли для Генератор QR-кодов учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Генератор QR Code?",
+          "q": "Что мне следует проверить перед использованием результатов Генератор QR-кодов?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -43930,7 +43930,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Создавайте настраиваемые случайные пароли с высокой энтропией. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
       "steps": [
-        "Откройте Генератор Password и определите необходимый формат ввода или значения.",
+        "Откройте Генератор паролей и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -43959,23 +43959,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Генератор Password?",
+          "q": "Для чего используется Генератор паролей?",
           "a": "Создавайте настраиваемые случайные пароли с высокой энтропией. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Генератор Password?",
+          "q": "Как работает Генератор паролей?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Генератор Password?",
+          "q": "Для чего я могу использовать Генератор паролей?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Генератор Password учетная запись или установка?",
+          "q": "Требуется ли для Генератор паролей учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Генератор Password?",
+          "q": "Что мне следует проверить перед использованием результатов Генератор паролей?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -44107,7 +44107,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Мгновенно преобразуйте текст в ПРОПИСНЫЕ, строчные буквы, регистр заголовков и верблюжий регистр. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Эта текстовая утилита предназначена для повторяющихся задач очистки, сравнения, преобразования или создания, когда ручное редактирование выполняется медленнее или более подвержено ошибкам.",
       "steps": [
-        "Откройте Text Case и определите необходимый формат ввода или значения.",
+        "Откройте Конвертер регистра текста и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -44136,23 +44136,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Text Case?",
+          "q": "Для чего используется Конвертер регистра текста?",
           "a": "Мгновенно преобразуйте текст в ПРОПИСНЫЕ, строчные буквы, регистр заголовков и верблюжий регистр. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Text Case?",
+          "q": "Как работает Конвертер регистра текста?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Text Case?",
+          "q": "Для чего я могу использовать Конвертер регистра текста?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Text Case учетная запись или установка?",
+          "q": "Требуется ли для Конвертер регистра текста учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Text Case?",
+          "q": "Что мне следует проверить перед использованием результатов Конвертер регистра текста?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -45857,19 +45857,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Калькулятор Процент?",
+          "q": "Для чего используется Калькулятор процентов?",
           "a": "Мгновенно рассчитайте процентное увеличение, процентное уменьшение и разницу в дробях. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Калькулятор Процент?",
+          "q": "Как работает Калькулятор процентов?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Какие входные данные нужны Калькулятор Процент?",
+          "q": "Какие входные данные нужны Калькулятор процентов?",
           "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы измерения, и проверьте предположения перед расчетом."
         },
         {
-          "q": "Могу ли я использовать Калькулятор Процент для получения точного реального результата?",
+          "q": "Могу ли я использовать Калькулятор процентов для получения точного реального результата?",
           "a": "Используйте его для планирования и анализа сценариев. Официальные заявления, котировки кредиторов, отчеты о заработной плате, условия продуктов или другие авторитетные источники могут включать правила и сборы, которые не может знать обычный калькулятор."
         },
         {
@@ -45877,7 +45877,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Процентное увеличение обычно рассчитывается как (новое значение − старое значение) ÷ старое значение × 100."
         },
         {
-          "q": "Можно ли использовать Калькулятор Процент бесплатно?",
+          "q": "Можно ли использовать Калькулятор процентов бесплатно?",
           "a": "Да. Инструмент доступен без платного аккаунта. Практические ограничения могут исходить из памяти браузера, производительности устройства, размера входных данных или любой сторонней службы выполнения, используемой конкретным рабочим процессом."
         }
       ],
@@ -45917,19 +45917,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Калькулятор Возраст?",
+          "q": "Для чего используется Калькулятор возраста?",
           "a": "Рассчитайте точный хронологический возраст в годах, месяцах, неделях и днях. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Калькулятор Возраст?",
+          "q": "Как работает Калькулятор возраста?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Какие входные данные нужны Калькулятор Возраст?",
+          "q": "Какие входные данные нужны Калькулятор возраста?",
           "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы измерения, и проверьте предположения перед расчетом."
         },
         {
-          "q": "Могу ли я использовать Калькулятор Возраст для получения точного реального результата?",
+          "q": "Могу ли я использовать Калькулятор возраста для получения точного реального результата?",
           "a": "Используйте его для планирования и анализа сценариев. Официальные заявления, котировки кредиторов, отчеты о заработной плате, условия продуктов или другие авторитетные источники могут включать правила и сборы, которые не может знать обычный калькулятор."
         },
         {
@@ -45937,7 +45937,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Он может рассчитать календарный возраст, но юридическое право на участие зависит от применимого законодательства, учреждения, юрисдикции и исходной даты."
         },
         {
-          "q": "Можно ли использовать Калькулятор Возраст бесплатно?",
+          "q": "Можно ли использовать Калькулятор возраста бесплатно?",
           "a": "Да. Инструмент доступен без платного аккаунта. Практические ограничения могут исходить из памяти браузера, производительности устройства, размера входных данных или любой сторонней службы выполнения, используемой конкретным рабочим процессом."
         }
       ],
@@ -45977,19 +45977,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Калькулятор BMI?",
+          "q": "Для чего используется Калькулятор ИМТ?",
           "a": "Рассчитайте индекс массы тела (ИМТ) по росту и весу и покажите часто используемые категории ИМТ. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Калькулятор BMI?",
+          "q": "Как работает Калькулятор ИМТ?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Какие входные данные нужны Калькулятор BMI?",
+          "q": "Какие входные данные нужны Калькулятор ИМТ?",
           "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы измерения, и проверьте предположения перед расчетом."
         },
         {
-          "q": "Могу ли я использовать Калькулятор BMI для получения точного реального результата?",
+          "q": "Могу ли я использовать Калькулятор ИМТ для получения точного реального результата?",
           "a": "Используйте его для планирования и анализа сценариев. Официальные заявления, котировки кредиторов, отчеты о заработной плате, условия продуктов или другие авторитетные источники могут включать правила и сборы, которые не может знать обычный калькулятор."
         },
         {
@@ -45997,7 +45997,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Нет. ИМТ — это скрининговый показатель, основанный на росте и весе. Индивидуальная оценка здоровья может потребовать дополнительного контекста и профессиональной оценки."
         },
         {
-          "q": "Можно ли использовать Калькулятор BMI бесплатно?",
+          "q": "Можно ли использовать Калькулятор ИМТ бесплатно?",
           "a": "Да. Инструмент доступен без платного аккаунта. Практические ограничения могут исходить из памяти браузера, производительности устройства, размера входных данных или любой сторонней службы выполнения, используемой конкретным рабочим процессом."
         }
       ],
@@ -46037,19 +46037,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Калькулятор Инженерный?",
+          "q": "Для чего используется Инженерный калькулятор?",
           "a": "Выполняйте сложные тригонометрические, логарифмические, экспоненциальные и алгебраические выражения. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Калькулятор Инженерный?",
+          "q": "Как работает Инженерный калькулятор?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Какие входные данные нужны Калькулятор Инженерный?",
+          "q": "Какие входные данные нужны Инженерный калькулятор?",
           "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы измерения, и проверьте предположения перед расчетом."
         },
         {
-          "q": "Могу ли я использовать Калькулятор Инженерный для получения точного реального результата?",
+          "q": "Могу ли я использовать Инженерный калькулятор для получения точного реального результата?",
           "a": "Используйте его для планирования и анализа сценариев. Официальные заявления, котировки кредиторов, отчеты о заработной плате, условия продуктов или другие авторитетные источники могут включать правила и сборы, которые не может знать обычный калькулятор."
         },
         {
@@ -46057,7 +46057,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Проверьте, использует ли калькулятор градусы или радианы, и используйте круглые скобки, чтобы сделать предполагаемое выражение явным."
         },
         {
-          "q": "Можно ли использовать Калькулятор Инженерный бесплатно?",
+          "q": "Можно ли использовать Инженерный калькулятор бесплатно?",
           "a": "Да. Инструмент доступен без платного аккаунта. Практические ограничения могут исходить из памяти браузера, производительности устройства, размера входных данных или любой сторонней службы выполнения, используемой конкретным рабочим процессом."
         }
       ],
@@ -46097,19 +46097,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Калькулятор Скидка?",
+          "q": "Для чего используется Калькулятор скидки?",
           "a": "Рассчитайте сумму скидки и окончательную цену на основе исходной цены и ставки скидки. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Калькулятор Скидка?",
+          "q": "Как работает Калькулятор скидки?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Какие входные данные нужны Калькулятор Скидка?",
+          "q": "Какие входные данные нужны Калькулятор скидки?",
           "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы измерения, и проверьте предположения перед расчетом."
         },
         {
-          "q": "Могу ли я использовать Калькулятор Скидка для получения точного реального результата?",
+          "q": "Могу ли я использовать Калькулятор скидки для получения точного реального результата?",
           "a": "Используйте его для планирования и анализа сценариев. Официальные заявления, котировки кредиторов, отчеты о заработной плате, условия продуктов или другие авторитетные источники могут включать правила и сборы, которые не может знать обычный калькулятор."
         },
         {
@@ -46117,7 +46117,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Не вообще. К изменяющейся цене применяются последовательные процентные скидки, поэтому совокупное снижение обычно меньше, чем простое сложение процентов."
         },
         {
-          "q": "Можно ли использовать Калькулятор Скидка бесплатно?",
+          "q": "Можно ли использовать Калькулятор скидки бесплатно?",
           "a": "Да. Инструмент доступен без платного аккаунта. Практические ограничения могут исходить из памяти браузера, производительности устройства, размера входных данных или любой сторонней службы выполнения, используемой конкретным рабочим процессом."
         }
       ],
@@ -46157,19 +46157,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Калькулятор Чаевые?",
+          "q": "Для чего используется Калькулятор чаевых?",
           "a": "Разделите счета за ужин в ресторане и равномерно рассчитайте процент чаевых за обслуживание. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Калькулятор Чаевые?",
+          "q": "Как работает Калькулятор чаевых?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Какие входные данные нужны Калькулятор Чаевые?",
+          "q": "Какие входные данные нужны Калькулятор чаевых?",
           "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы измерения, и проверьте предположения перед расчетом."
         },
         {
-          "q": "Могу ли я использовать Калькулятор Чаевые для получения точного реального результата?",
+          "q": "Могу ли я использовать Калькулятор чаевых для получения точного реального результата?",
           "a": "Используйте его для планирования и анализа сценариев. Официальные заявления, котировки кредиторов, отчеты о заработной плате, условия продуктов или другие авторитетные источники могут включать правила и сборы, которые не может знать обычный калькулятор."
         },
         {
@@ -46177,7 +46177,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Практики различаются. Выберите конференцию, необходимую для места проведения или вашей группы, и проверьте, включена ли уже плата за обслуживание."
         },
         {
-          "q": "Можно ли использовать Калькулятор Чаевые бесплатно?",
+          "q": "Можно ли использовать Калькулятор чаевых бесплатно?",
           "a": "Да. Инструмент доступен без платного аккаунта. Практические ограничения могут исходить из памяти браузера, производительности устройства, размера входных данных или любой сторонней службы выполнения, используемой конкретным рабочим процессом."
         }
       ],
@@ -47193,7 +47193,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قم بضغط ملفات PNG وJPEG وWebP لتقليل حجم الملف مع موازنة جودة الإخراج. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
-        "افتح Compress Image online عبر الإنترنت عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح ضغط الصور عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -47222,23 +47222,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام Compress Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "ما هو الغرض من استخدام ضغط الصور عبر الإنترنت؟",
           "a": "قم بضغط ملفات PNG وJPEG وWebP لتقليل حجم الملف مع موازنة جودة الإخراج. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل Compress Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "كيف يعمل ضغط الصور عبر الإنترنت؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه Compress Image online عبر الإنترنت عبر الإنترنت من أجله؟",
+          "q": "ما الذي يمكنني استخدامه ضغط الصور عبر الإنترنت من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب Compress Image online عبر الإنترنت عبر الإنترنت حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب ضغط الصور عبر الإنترنت حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Compress Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من ضغط الصور عبر الإنترنت؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -47252,7 +47252,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قص الصور بنسب عرض إلى ارتفاع محددة مسبقًا (16:9، 1:1، 4:3) أو تحديد مربع حر الشكل. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
-        "افتح Crop Image online عبر الإنترنت عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح قص الصورة عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -47281,23 +47281,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام Crop Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "ما هو الغرض من استخدام قص الصورة عبر الإنترنت؟",
           "a": "قص الصور بنسب عرض إلى ارتفاع محددة مسبقًا (16:9، 1:1، 4:3) أو تحديد مربع حر الشكل. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل Crop Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "كيف يعمل قص الصورة عبر الإنترنت؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه Crop Image online عبر الإنترنت عبر الإنترنت من أجله؟",
+          "q": "ما الذي يمكنني استخدامه قص الصورة عبر الإنترنت من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب Crop Image online عبر الإنترنت عبر الإنترنت حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب قص الصورة عبر الإنترنت حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Crop Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من قص الصورة عبر الإنترنت؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -47311,7 +47311,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قم بتغيير حجم أبعاد الصورة حسب العرض أو الارتفاع أو النسب المئوية بالبكسل والسم. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
-        "افتح Resize Image online عبر الإنترنت عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح تغيير حجم الصورة عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -47340,23 +47340,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام Resize Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "ما هو الغرض من استخدام تغيير حجم الصورة عبر الإنترنت؟",
           "a": "قم بتغيير حجم أبعاد الصورة حسب العرض أو الارتفاع أو النسب المئوية بالبكسل والسم. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل Resize Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "كيف يعمل تغيير حجم الصورة عبر الإنترنت؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه Resize Image online عبر الإنترنت عبر الإنترنت من أجله؟",
+          "q": "ما الذي يمكنني استخدامه تغيير حجم الصورة عبر الإنترنت من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب Resize Image online عبر الإنترنت عبر الإنترنت حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب تغيير حجم الصورة عبر الإنترنت حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Resize Image online عبر الإنترنت عبر الإنترنت؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من تغيير حجم الصورة عبر الإنترنت؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -47842,7 +47842,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قم بإنشاء رموز QR عالية الدقة قابلة للمسح الضوئي من النصوص أو الروابط أو بطاقات الاتصال. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
-        "افتح مولد QR Code وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح مولد رمز QR وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -47871,23 +47871,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام مولد QR Code؟",
+          "q": "ما هو الغرض من استخدام مولد رمز QR؟",
           "a": "قم بإنشاء رموز QR عالية الدقة قابلة للمسح الضوئي من النصوص أو الروابط أو بطاقات الاتصال. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل مولد QR Code؟",
+          "q": "كيف يعمل مولد رمز QR؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه مولد QR Code من أجله؟",
+          "q": "ما الذي يمكنني استخدامه مولد رمز QR من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب مولد QR Code حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب مولد رمز QR حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من مولد QR Code؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من مولد رمز QR؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -49081,7 +49081,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قم بإنشاء كلمات مرور عشوائية قابلة للتخصيص وعالية الإنتروبيا. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تستهدف أداة المطور هذه سير عمل قابل للتكرار يظهر بشكل شائع أثناء عمل واجهة برمجة التطبيقات (API)، وتصحيح الأخطاء، وتطوير الواجهة الأمامية أو الخلفية، والاختبار، وإعداد البيانات.",
       "steps": [
-        "افتح مولد Password وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح مولد كلمات المرور وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -49110,23 +49110,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام مولد Password؟",
+          "q": "ما هو الغرض من استخدام مولد كلمات المرور؟",
           "a": "قم بإنشاء كلمات مرور عشوائية قابلة للتخصيص وعالية الإنتروبيا. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل مولد Password؟",
+          "q": "كيف يعمل مولد كلمات المرور؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه مولد Password من أجله؟",
+          "q": "ما الذي يمكنني استخدامه مولد كلمات المرور من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب مولد Password حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب مولد كلمات المرور حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من مولد Password؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من مولد كلمات المرور؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -49258,7 +49258,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قم بتحويل النص على الفور إلى أحرف كبيرة وأحرف صغيرة وحالة العنوان وحالة الجمل. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
-        "افتح Text Case وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح محول حالة النص وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -49287,23 +49287,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام Text Case؟",
+          "q": "ما هو الغرض من استخدام محول حالة النص؟",
           "a": "قم بتحويل النص على الفور إلى أحرف كبيرة وأحرف صغيرة وحالة العنوان وحالة الجمل. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل Text Case؟",
+          "q": "كيف يعمل محول حالة النص؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه Text Case من أجله؟",
+          "q": "ما الذي يمكنني استخدامه محول حالة النص من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب Text Case حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب محول حالة النص حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Text Case؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من محول حالة النص؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -51128,19 +51128,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام حاسبة BMI؟",
+          "q": "ما هو الغرض من استخدام حاسبة مؤشر كتلة الجسم؟",
           "a": "حساب مؤشر كتلة الجسم (BMI) من الطول والوزن وإظهار فئات مؤشر كتلة الجسم شائعة الاستخدام. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل حاسبة BMI؟",
+          "q": "كيف يعمل حاسبة مؤشر كتلة الجسم؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما المدخلات التي يحتاجها حاسبة BMI؟",
+          "q": "ما المدخلات التي يحتاجها حاسبة مؤشر كتلة الجسم؟",
           "a": "تطلب مساحة العمل القيم ذات الصلة بهذا الحساب. أدخلها باستخدام الوحدات المعروضة وراجع الافتراضات قبل الحساب."
         },
         {
-          "q": "هل يمكنني استخدام حاسبة BMI للحصول على نتيجة دقيقة في العالم الحقيقي؟",
+          "q": "هل يمكنني استخدام حاسبة مؤشر كتلة الجسم للحصول على نتيجة دقيقة في العالم الحقيقي؟",
           "a": "استخدامه للتخطيط وتحليل السيناريو. قد تتضمن البيانات الرسمية أو عروض أسعار المقرضين أو سجلات الرواتب أو شروط المنتج أو المصادر الرسمية الأخرى قواعد ورسومًا لا تستطيع الآلة الحاسبة العامة معرفتها."
         },
         {
@@ -51148,7 +51148,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "لا، مؤشر كتلة الجسم هو مقياس فحص يعتمد على الطول والوزن. يمكن أن يتطلب التقييم الصحي الفردي سياقًا إضافيًا وتقييمًا مهنيًا."
         },
         {
-          "q": "هل حاسبة BMI مجاني للاستخدام؟",
+          "q": "هل حاسبة مؤشر كتلة الجسم مجاني للاستخدام؟",
           "a": "نعم. الأداة متاحة بدون حساب مدفوع. يمكن أن تأتي الحدود العملية من ذاكرة المتصفح، أو أداء الجهاز، أو حجم الإدخال، أو أي خدمة تنفيذ تابعة لجهة خارجية يستخدمها سير عمل معين."
         }
       ],
@@ -52344,7 +52344,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "आउटपुट गुणवत्ता को संतुलित करते हुए फ़ाइल का आकार कम करने के लिए पीएनजी, जेपीईजी और वेबपी फ़ाइलों को संपीड़ित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Compress Image online ऑनलाइन ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इमेज ऑनलाइन कंप्रेस करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -52373,23 +52373,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online ऑनलाइन ऑनलाइन का उपयोग किसके लिए किया जाता है?",
+          "q": "इमेज ऑनलाइन कंप्रेस करें का उपयोग किसके लिए किया जाता है?",
           "a": "आउटपुट गुणवत्ता को संतुलित करते हुए फ़ाइल का आकार कम करने के लिए पीएनजी, जेपीईजी और वेबपी फ़ाइलों को संपीड़ित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Compress Image online ऑनलाइन ऑनलाइन कैसे काम करता है?",
+          "q": "इमेज ऑनलाइन कंप्रेस करें कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Compress Image online ऑनलाइन ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं इमेज ऑनलाइन कंप्रेस करें का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Compress Image online ऑनलाइन ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या इमेज ऑनलाइन कंप्रेस करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Compress Image online ऑनलाइन ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "इमेज ऑनलाइन कंप्रेस करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -52403,7 +52403,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "पूर्व निर्धारित पहलू अनुपात (16:9, 1:1, 4:3) या फ़्रीफ़ॉर्म बॉक्स चयन के साथ छवियों को काटें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Crop Image online ऑनलाइन ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इमेज ऑनलाइन क्रॉप करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -52432,23 +52432,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online ऑनलाइन ऑनलाइन का उपयोग किसके लिए किया जाता है?",
+          "q": "इमेज ऑनलाइन क्रॉप करें का उपयोग किसके लिए किया जाता है?",
           "a": "पूर्व निर्धारित पहलू अनुपात (16:9, 1:1, 4:3) या फ़्रीफ़ॉर्म बॉक्स चयन के साथ छवियों को काटें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Crop Image online ऑनलाइन ऑनलाइन कैसे काम करता है?",
+          "q": "इमेज ऑनलाइन क्रॉप करें कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Crop Image online ऑनलाइन ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं इमेज ऑनलाइन क्रॉप करें का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Crop Image online ऑनलाइन ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या इमेज ऑनलाइन क्रॉप करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Crop Image online ऑनलाइन ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "इमेज ऑनलाइन क्रॉप करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -52462,7 +52462,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "कस्टम चौड़ाई, ऊंचाई या पिक्सेल और सेमी में प्रतिशत के आधार पर छवि आयामों का आकार बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Resize Image online ऑनलाइन ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इमेज ऑनलाइन रिसाइज़ करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -52491,23 +52491,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online ऑनलाइन ऑनलाइन का उपयोग किसके लिए किया जाता है?",
+          "q": "इमेज ऑनलाइन रिसाइज़ करें का उपयोग किसके लिए किया जाता है?",
           "a": "कस्टम चौड़ाई, ऊंचाई या पिक्सेल और सेमी में प्रतिशत के आधार पर छवि आयामों का आकार बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Resize Image online ऑनलाइन ऑनलाइन कैसे काम करता है?",
+          "q": "इमेज ऑनलाइन रिसाइज़ करें कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Resize Image online ऑनलाइन ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं इमेज ऑनलाइन रिसाइज़ करें का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Resize Image online ऑनलाइन ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या इमेज ऑनलाइन रिसाइज़ करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Resize Image online ऑनलाइन ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "इमेज ऑनलाइन रिसाइज़ करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -52993,7 +52993,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "टेक्स्ट, लिंक या संपर्क कार्ड से स्कैन करने योग्य उच्च-रिज़ॉल्यूशन क्यूआर कोड उत्पन्न करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "QR Code जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "QR कोड जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -53022,23 +53022,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "QR Code जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "q": "QR कोड जनरेटर का उपयोग किसके लिए किया जाता है?",
           "a": "टेक्स्ट, लिंक या संपर्क कार्ड से स्कैन करने योग्य उच्च-रिज़ॉल्यूशन क्यूआर कोड उत्पन्न करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "QR Code जनरेटर कैसे काम करता है?",
+          "q": "QR कोड जनरेटर कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं QR Code जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं QR कोड जनरेटर का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या QR Code जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या QR कोड जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "QR Code जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "QR कोड जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -54232,7 +54232,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "अनुकूलन योग्य, उच्च-एन्ट्रॉपी यादृच्छिक पासवर्ड उत्पन्न करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Password जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "पासवर्ड जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -54261,23 +54261,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Password जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "q": "पासवर्ड जनरेटर का उपयोग किसके लिए किया जाता है?",
           "a": "अनुकूलन योग्य, उच्च-एन्ट्रॉपी यादृच्छिक पासवर्ड उत्पन्न करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Password जनरेटर कैसे काम करता है?",
+          "q": "पासवर्ड जनरेटर कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Password जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं पासवर्ड जनरेटर का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Password जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या पासवर्ड जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Password जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "पासवर्ड जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -54409,7 +54409,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "टेक्स्ट को तुरंत अपरकेस, लोअरकेस, टाइटल केस और कैमलकेस में बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Text Case खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "टेक्स्ट केस कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -54438,23 +54438,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Text Case का उपयोग किसके लिए किया जाता है?",
+          "q": "टेक्स्ट केस कन्वर्टर का उपयोग किसके लिए किया जाता है?",
           "a": "टेक्स्ट को तुरंत अपरकेस, लोअरकेस, टाइटल केस और कैमलकेस में बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Text Case कैसे काम करता है?",
+          "q": "टेक्स्ट केस कन्वर्टर कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Text Case का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं टेक्स्ट केस कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Text Case को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या टेक्स्ट केस कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Text Case से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "टेक्स्ट केस कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
