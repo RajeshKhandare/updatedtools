@@ -914,19 +914,19 @@ async function testUniversal(page, slug, category) {
   }
 
   if (category === 'Time Table') {
-    const table = page.locator('[data-testid="timetable-engine"] table');
-    await table.waitFor({ state: 'visible', timeout: 10000 });
+    const engine = page.locator('[data-testid="timetable-engine"]');
+    await engine.waitFor({ state: 'visible', timeout: 10000 });
 
-    const editableCell = table.locator('tbody input').first();
+    const editableCell = engine.locator('input[aria-label]').last();
     await editableCell.waitFor({ state: 'visible', timeout: 5000 });
     await editableCell.fill('Smoke Test Entry');
 
-    const editableTime = table.locator('thead input[type="time"]').first();
+    const editableTime = engine.locator('input[type="time"]').first();
     await editableTime.waitFor({ state: 'visible', timeout: 5000 });
     const originalTime = await editableTime.inputValue();
     await editableTime.fill(originalTime === '08:00' ? '08:15' : '08:00');
 
-    const note = page.locator('textarea').first();
+    const note = engine.locator('textarea').first();
     if (await note.count()) {
       await note.fill('Smoke test personal note');
     }
