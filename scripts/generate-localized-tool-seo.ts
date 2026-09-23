@@ -99,17 +99,29 @@ async function translateTool(tool: typeof TOOLS_REGISTRY[number], locale: string
   const base = getToolSeoContent(tool);
   const localizedToolName = getLocalizedToolName(tool, locale as any);
 
-  const [intro, why, steps, useCases, tips, limitations, faqQ, faqA, formula] = await Promise.all([
-    translateText(base.intro, locale, tool.name, localizedToolName),
-    translateText(base.why, locale, tool.name, localizedToolName),
-    translateMany(base.steps, locale, tool.name, localizedToolName),
-    translateMany(base.useCases, locale, tool.name, localizedToolName),
-    translateMany(base.tips, locale, tool.name, localizedToolName),
-    translateMany(base.limitations, locale, tool.name, localizedToolName),
-    translateMany(base.faq.map((item) => item.q), locale, tool.name, localizedToolName),
-    translateMany(base.faq.map((item) => item.a), locale, tool.name, localizedToolName),
-    base.formula ? translateText(base.formula, locale, tool.name, localizedToolName) : Promise.resolve(undefined),
-  ]);
+  const values = [
+    base.intro,
+    base.why,
+    ...base.steps,
+    ...base.useCases,
+    ...base.tips,
+    ...base.limitations,
+    ...base.faq.map((item) => item.q),
+    ...base.faq.map((item) => item.a),
+    ...(base.formula ? [base.formula] : []),
+  ];
+
+  const translated = await translateMany(values, locale, tool.name, localizedToolName);
+  let cursor = 0;
+  const intro = translated[cursor++];
+  const why = translated[cursor++];
+  const steps = translated.slice(cursor, cursor + base.steps.length); cursor += base.steps.length;
+  const useCases = translated.slice(cursor, cursor + base.useCases.length); cursor += base.useCases.length;
+  const tips = translated.slice(cursor, cursor + base.tips.length); cursor += base.tips.length;
+  const limitations = translated.slice(cursor, cursor + base.limitations.length); cursor += base.limitations.length;
+  const faqQ = translated.slice(cursor, cursor + base.faq.length); cursor += base.faq.length;
+  const faqA = translated.slice(cursor, cursor + base.faq.length); cursor += base.faq.length;
+  const formula = base.formula ? translated[cursor] : undefined;
 
   return [tool.slug, {
     intro,
