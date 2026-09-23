@@ -459,10 +459,23 @@ async function testImage(page, slug, fixtures) {
     timeout: 10000,
   });
 
-  const previewSrc = await page.locator('[data-testid="image-input-preview"]').getAttribute('src');
+  const preview = page.locator('[data-testid="image-input-preview"]');
+  const previewSrc = await preview.getAttribute('src');
   assert(
-    Boolean(previewSrc && previewSrc.startsWith('data:image/')),
+    Boolean(previewSrc && /^(blob:|data:image\/)/.test(previewSrc)),
     slug + ': uploaded image preview did not render'
+  );
+
+  // The image engine uses a browser object URL for reliable local previews.
+  // Verify the actual image element decoded and painted rather than requiring
+  // a data URL representation.
+  await page.waitForFunction(
+    () => {
+      const image = document.querySelector('[data-testid="image-input-preview"]');
+      return image instanceof HTMLImageElement && image.complete && image.naturalWidth > 0 && image.naturalHeight > 0;
+    },
+    undefined,
+    { timeout: 10000 }
   );
 
   const processButton = page.getByRole(
@@ -475,9 +488,8 @@ async function testImage(page, slug, fixtures) {
     timeout: 10000,
   });
 
-  // FileReader-backed image tools can occasionally need an extra
-  // React state turn after Playwright attaches the file. Retry the
-  // file assignment if the Process button does not become enabled.
+  // Retry the file assignment if the Process button does not become enabled
+  // after the preview has decoded.
   let processReady = false;
   let lastProcessWaitError = null;
 
