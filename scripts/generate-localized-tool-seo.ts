@@ -57,14 +57,44 @@ async function translateText(text: string, locale: string, toolName: string, loc
   return text;
 }
 
-async function translateArray(values: string[], locale: string, toolName: string, localizedToolName: string): Promise<string[]> {
-  const result: string[] = [];
-  for (const value of values) {
-    result.push(await translateText(value, locale, toolName, localizedToolName));
-  }
-  return result;
-}
+async function translateMany(values: string[], locale: string, toolName: string, localizedToolName: string): Promise<string[]> {
+  if (!values.length) return [];
 
+  const output: string[] = [];
+  let chunk: string[] = [];
+  let chars = 0;
+
+  const flush = async () => {
+    if (!chunk.length) return;
+    const markers = chunk.map((_, index) => `__ITEM_${index}_7c1f__`);
+    const source = chunk.map((value, index) => `${markers[index]}\\n${value}`).join('\\n');
+    const translated = await translateText(source, locale, toolName, localizedToolName);
+    const parsed = markers.map((marker, index) => {
+      const start = translated.indexOf(marker);
+      if (start < 0) return null;
+      const contentStart = start + marker.length;
+      const nextMarker = markers[index + 1];
+      const end = nextMarker ? translated.indexOf(nextMarker, contentStart) : translated.length;
+      if (end < 0) return null;
+      return translated.slice(contentStart, end).trim();
+    });
+    if (parsed.some((value) => value === null || value === '')) {
+      for (const value of chunk) output.push(await translateText(value, locale, toolName, localizedToolName));
+    } else {
+      output.push(...(parsed as string[]));
+    }
+    chunk = [];
+    chars = 0;
+  };
+
+  for (const value of values) {
+    if (chunk.length && chars + value.length > 4200) await flush();
+    chunk.push(value);
+    chars += value.length + 24;
+  }
+  await flush();
+  return output;
+}
 async function translateTool(tool: typeof TOOLS_REGISTRY[number], locale: string): Promise<[string, ToolSeoContent]> {
   const base = getToolSeoContent(tool);
   const localizedToolName = getLocalizedToolName(tool, locale as any);
@@ -72,12 +102,12 @@ async function translateTool(tool: typeof TOOLS_REGISTRY[number], locale: string
   const [intro, why, steps, useCases, tips, limitations, faqQ, faqA, formula] = await Promise.all([
     translateText(base.intro, locale, tool.name, localizedToolName),
     translateText(base.why, locale, tool.name, localizedToolName),
-    translateArray(base.steps, locale, tool.name, localizedToolName),
-    translateArray(base.useCases, locale, tool.name, localizedToolName),
-    translateArray(base.tips, locale, tool.name, localizedToolName),
-    translateArray(base.limitations, locale, tool.name, localizedToolName),
-    translateArray(base.faq.map((item) => item.q), locale, tool.name, localizedToolName),
-    translateArray(base.faq.map((item) => item.a), locale, tool.name, localizedToolName),
+    translateMany(base.steps, locale, tool.name, localizedToolName),
+    translateMany(base.useCases, locale, tool.name, localizedToolName),
+    translateMany(base.tips, locale, tool.name, localizedToolName),
+    translateMany(base.limitations, locale, tool.name, localizedToolName),
+    translateMany(base.faq.map((item) => item.q), locale, tool.name, localizedToolName),
+    translateMany(base.faq.map((item) => item.a), locale, tool.name, localizedToolName),
     base.formula ? translateText(base.formula, locale, tool.name, localizedToolName) : Promise.resolve(undefined),
   ]);
 
