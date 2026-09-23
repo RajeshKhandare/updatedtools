@@ -66,15 +66,13 @@ async function renderPdf(
     'pdfjs-dist/legacy/build/pdf.mjs'
   );
 
-  pdfjs.GlobalWorkerOptions.workerSrc =
-    '/pdf.worker.min.mjs';
-
   const data = new Uint8Array(
     await file.arrayBuffer()
   );
 
   const doc = await pdfjs.getDocument({
     data,
+    disableWorker: true,
   }).promise;
 
   const pages: {
@@ -184,15 +182,13 @@ async function pdfToDocx(file: File) {
     'pdfjs-dist/legacy/build/pdf.mjs'
   );
 
-  pdfjs.GlobalWorkerOptions.workerSrc =
-    '/pdf.worker.min.mjs';
-
   const data = new Uint8Array(
     await file.arrayBuffer()
   );
 
   const doc = await pdfjs.getDocument({
     data,
+    disableWorker: true,
   }).promise;
 
   let body = '';
