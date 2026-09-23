@@ -166,7 +166,7 @@ export default function TimeTableEngine({tool,locale='en'}:{tool:ToolMeta;locale
           {!isOneDay&&<div className={`mb-3 rounded-xl px-3 py-2 text-sm font-black ${theme.day}`}>{dayLabel(d)}</div>}
           <div className="space-y-2">
             {row.map((cell,p)=><div key={p} className="rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white/60 dark:bg-zinc-950/50 p-3">
-              <div className="flex items-center justify-between gap-2 mb-2"><div className={`text-xs font-black ${theme.accent}`}>{isAcademic?\`${columnLabel} \${p+1}\`:columnLabel}</div><div className="text-[10px] text-zinc-400">{timeLabels[p]}</div></div>
+              <div className="flex items-center justify-between gap-2 mb-2"><div className={`text-xs font-black ${theme.accent}`}>{isAcademic?`${columnLabel} ${p+1}`:columnLabel}</div><div className="text-[10px] text-zinc-400">{timeLabels[p]}</div></div>
               <div className="grid grid-cols-2 gap-2 mb-2"><div><span className="mb-1 block text-[8px] font-semibold uppercase tracking-wide text-zinc-400">{extra.time} · Start</span>{renderTimePicker(p,0)}</div><div><span className="mb-1 block text-[8px] font-semibold uppercase tracking-wide text-zinc-400">{extra.time} · End</span>{renderTimePicker(p,1)}</div></div>
               <input aria-label={`${dayLabel(d)} ${columnLabel} ${p+1}`} className={`w-full rounded-xl border border-zinc-200 dark:border-zinc-800 bg-transparent px-3 py-2.5 text-sm outline-none ${theme.cell}`} value={cell} onChange={e=>updateCell(d,p,e.target.value)} />
             </div>)}
