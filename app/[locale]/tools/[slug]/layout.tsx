@@ -4,6 +4,7 @@ import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { getLocale, LOCALES, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
 import { SITE_NAME, SITE_URL } from '@/config/site';
+import { getLocalizedToolSeoContent } from '@/data/toolSeo';
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
@@ -19,8 +20,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   const name = getLocalizedToolName(tool, locale.code);
   const ui = getLocalizedUi(locale.code);
+  const seo = getLocalizedToolSeoContent(tool, locale.code);
   const title = name === tool.name ? `${name} Online` : name;
-  const description = `${ui.freeLabel}. ${ui.description} ${name}.`;
+  const description = seo.heroIntro || seo.intro;
   const url = SITE_URL + localizedToolPath(locale.code, tool.slug);
 
   return {
