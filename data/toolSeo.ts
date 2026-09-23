@@ -1,4 +1,5 @@
 import { ToolMeta } from '@/data/toolsRegistry';
+import { GENERATED_LOCALIZED_TOOL_SEO } from './generatedLocalizedToolSeo';
 
 export type ToolFaq = { q: string; a: string };
 export type ToolSeoContent = {
@@ -374,20 +375,10 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   const base = getToolSeoContent(tool);
   if (locale === 'en') return base;
 
-  // The English tool guide is the canonical source of truth. Until a complete
-  // per-tool/per-locale translation dataset exists, never replace tool-specific
-  // facts with generic category copy. Localized UI labels and tool names are
-  // translated separately by the page components.
-  return {
-    ...base,
-    intro: base.intro,
-    why: base.why,
-    steps: [...base.steps],
-    useCases: [...base.useCases],
-    tips: [...base.tips],
-    limitations: [...base.limitations],
-    faq: base.faq.map((item) => ({ ...item })),
-    visual: base.visual,
-    formula: base.formula,
-  };
+  // Every localized page uses the same canonical English source fields.
+  // The generated static dataset contains a translation of each of those
+  // fields for every supported locale. If generation has not completed yet,
+  // the canonical English content is retained rather than showing unrelated
+  // generic/category filler.
+  return GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug] || base;
 }
