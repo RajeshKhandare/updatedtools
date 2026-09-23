@@ -66,6 +66,10 @@ async function renderPdf(
     'pdfjs-dist/legacy/build/pdf.mjs'
   );
 
+  pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
+
+  pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
+
   const data = new Uint8Array(
     await file.arrayBuffer()
   );
