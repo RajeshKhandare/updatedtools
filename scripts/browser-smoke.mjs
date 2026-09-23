@@ -454,6 +454,17 @@ async function testImage(page, slug, fixtures) {
 
   await page.waitForTimeout(1000);
 
+  await page.locator('[data-testid="image-input-preview"]').waitFor({
+    state: 'visible',
+    timeout: 10000,
+  });
+
+  const previewSrc = await page.locator('[data-testid="image-input-preview"]').getAttribute('src');
+  assert(
+    Boolean(previewSrc && previewSrc.startsWith('data:image/')),
+    slug + ': uploaded image preview did not render'
+  );
+
   const processButton = page.getByRole(
     'button',
     { name: /^Process / }
