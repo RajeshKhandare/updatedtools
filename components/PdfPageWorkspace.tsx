@@ -50,15 +50,17 @@ export default function PdfPageWorkspace({
         const pdfjs: any = await import(
           'pdfjs-dist/legacy/build/pdf.mjs'
         );
-        // The preview runs many page renders, so use the bundled PDF.js
-        // worker instead of disabling workers. postinstall copies this file
-        // to /pdf.worker.min.mjs for static/Cloudflare deployments.
-        pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
+        // Keep the preview self-contained. PDF.js can render from the main
+        // thread when no worker is available, which avoids worker-path/CSP
+        // failures on static Cloudflare routes.
         const next: PageItem[] = [];
 
         for (let fileIndex = 0; fileIndex < files.length; fileIndex += 1) {
           const data = new Uint8Array(await files[fileIndex].arrayBuffer());
-          const doc = await pdfjs.getDocument({ data }).promise;
+          const doc = await pdfjs.getDocument({
+        data,
+        disableWorker: true,
+      }).promise;
           const limit = Math.min(
             doc.numPages,
             (mode === 'reorder' ? 200 : PREVIEW_LIMIT) - next.length
@@ -131,7 +133,7 @@ export default function PdfPageWorkspace({
       cancelled = true;
       urls.length = 0;
     };
-  }, [files]);
+  }, [files, mode]);
 
   const selectedSet = useMemo(
     () => new Set(selectedPages),
@@ -218,16 +220,23 @@ export default function PdfPageWorkspace({
               <div
                 key={`${page.fileIndex}-${page.pageIndex}-${index}`}
                 draggable={mode === 'reorder'}
-                onDragStart={() => {
-                  if (mode === 'reorder') setDraggedIndex(index);
+                onDragStart={(event) => {
+                  if (mode !== 'reorder') return;
+                  setDraggedIndex(index);
+                  event.dataTransfer.effectAllowed = 'move';
+                  event.dataTransfer.setData('text/plain', String(index));
                 }}
                 onDragOver={(event) => {
-                  if (mode === 'reorder') event.preventDefault();
+                  if (mode !== 'reorder') return;
+                  event.preventDefault();
+                  event.dataTransfer.dropEffect = 'move';
                 }}
                 onDrop={(event) => {
                   event.preventDefault();
-                  if (mode === 'reorder' && draggedIndex !== null) {
-                    reorderPages(draggedIndex, index);
+                  if (mode !== 'reorder') return;
+                  const from = draggedIndex ?? Number(event.dataTransfer.getData('text/plain'));
+                  if (Number.isInteger(from)) {
+                    reorderPages(from, index);
                   }
                   setDraggedIndex(null);
                 }}
