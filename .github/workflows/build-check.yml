@@ -2,7 +2,7 @@ name: Build Check
 
 on:
   push:
-    branches: [main]
+    branches: [main, cloudflare-test]
   workflow_dispatch:
 
 jobs:
@@ -33,6 +33,7 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Wait for Vercel deployment to match this commit
+        if: github.ref == 'refs/heads/main'
         env:
           EXPECTED_COMMIT: ${{ github.sha }}
           SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
@@ -50,6 +51,7 @@ jobs:
           exit 1
 
       - name: Browser smoke test all 87 tools
+        if: github.ref == 'refs/heads/main'
         env:
           SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
         run: node scripts/browser-smoke.mjs
