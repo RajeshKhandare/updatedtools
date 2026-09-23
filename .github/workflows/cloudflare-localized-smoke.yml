@@ -1,0 +1,33 @@
+name: Cloudflare Live Localization Matrix
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Cloudflare Worker URL"
+        required: true
+        default: "https://updatedtools.rajeshkhandare788.workers.dev"
+
+jobs:
+  localized-route-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Verify registry and localization foundation
+        run: |
+          npm run verify:tools
+          npm run verify:international-seo
+
+      - name: Test all 12 locales × 87 tools
+        env:
+          SMOKE_BASE_URL: ${{ inputs.base_url }}
+        run: npm run verify:localized-routes
