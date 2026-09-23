@@ -40,4 +40,6 @@ jobs:
             exit 0
           fi
           git commit -m "generate complete localized tool content"
+          git fetch origin cloudflare-test
+          git rebase origin/cloudflare-test
           git push
