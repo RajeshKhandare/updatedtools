@@ -16,6 +16,7 @@ const CATEGORIES_CONFIG = [
   { label: 'Compiler', query: 'Compiler' },
   { label: 'Finance', query: 'Finance' },
   { label: 'YouTube', query: 'YouTube' },
+  { label: 'Time Table', query: 'Time Table' },
 ];
 
 export default function Navbar() {
@@ -136,7 +137,7 @@ export default function Navbar() {
         <div className="lg:hidden border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 px-4 py-4 space-y-3">
           <div className="grid grid-cols-2 gap-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
             <button onClick={() => { setMobileMenuOpen(false); router.push(currentLocale === 'en' ? '/tools' : `/${currentLocale}/tools`); }} className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900">
-              {ui.toolsLabel} (87)
+              {ui.toolsLabel} (112)
             </button>
             {CATEGORIES_CONFIG.map((cat) => (
               <button key={cat.label} onClick={() => handleCategoryNavigate(cat.query)} className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900">
