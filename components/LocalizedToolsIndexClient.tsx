@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { TOOLS_REGISTRY, CATEGORIES, ToolMeta } from '@/data/toolsRegistry';
-import { Search, FileText, Image as ImageIcon, Code, Calculator, Video, Type, ArrowLeftRight } from 'lucide-react';
+import { Search, FileText, Image as ImageIcon, Code, Calculator, Video, Type, ArrowLeftRight, CalendarDays } from 'lucide-react';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 import { localizedToolPath, type LocaleCode } from '@/data/internationalSeo';
 import { getLocalizedToolSeoContent } from '@/data/toolSeo';
@@ -19,6 +19,7 @@ function getToolIcon(cat: string) {
     case 'Developer': return <Code className="h-5 w-5 text-emerald-500 dark:text-emerald-400" />;
     case 'Finance': return <Calculator className="h-5 w-5 text-indigo-500 dark:text-indigo-400" />;
     case 'YouTube': return <Video className="h-5 w-5 text-rose-500 dark:text-rose-400" />;
+    case 'Time Table': return <CalendarDays className="h-5 w-5 text-sky-500 dark:text-sky-400" />;
     case 'Converters': return <ArrowLeftRight className="h-5 w-5 text-cyan-500 dark:text-cyan-400" />;
     case 'Calculators': return <Calculator className="h-5 w-5 text-amber-500 dark:text-amber-400" />;
     default: return <Type className="h-5 w-5 text-violet-500" />;
