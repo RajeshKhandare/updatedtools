@@ -23,7 +23,7 @@ const MAX_CHARS = 4200;
 const CONCURRENCY = 4; // bounded to keep translation generation stable
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-const escapeRegExp = (value: string) => value.replace(/[.*+?^\${}()|[\]\\]/g, '\\const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));');
+const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 async function translateText(text: string, locale: string, toolName: string, localizedToolName: string): Promise<string> {
   if (!text.trim()) return text;
