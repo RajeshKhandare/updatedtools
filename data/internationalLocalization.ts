@@ -1,6 +1,7 @@
 import { TOOLS_REGISTRY, type ToolMeta } from './toolsRegistry';
 import { LOCALES, type LocaleCode } from './internationalSeo';
 import { getInternationalKeywordValidation } from './internationalKeywordValidation';
+import { getTimeTableLocalizedName } from './timeTableLocalization';
 
 export interface LocalizationCoverageRow {
   locale: LocaleCode;
@@ -98,18 +99,18 @@ const NAME_PHRASES: Record<string, Partial<Record<LocaleCode, string>>> = {
 
 
 const CATEGORY_LABELS: Record<LocaleCode, Record<string, string>> = {
-  en: { PDF: 'PDF Tools', Image: 'Image Tools', Compiler: 'Compilers & Code', Finance: 'Finance Calculators', Developer: 'Developer Tools', Text: 'Text Tools', Converters: 'Converters', Calculators: 'Calculators', YouTube: 'YouTube Tools' },
-  pt: { PDF: 'Ferramentas PDF', Image: 'Ferramentas de imagem', Compiler: 'Compiladores e código', Finance: 'Calculadoras financeiras', Developer: 'Ferramentas para desenvolvedores', Text: 'Ferramentas de texto', Converters: 'Conversores', Calculators: 'Calculadoras', YouTube: 'Ferramentas do YouTube' },
-  es: { PDF: 'Herramientas PDF', Image: 'Herramientas de imagen', Compiler: 'Compiladores y código', Finance: 'Calculadoras financieras', Developer: 'Herramientas para desarrolladores', Text: 'Herramientas de texto', Converters: 'Convertidores', Calculators: 'Calculadoras', YouTube: 'Herramientas de YouTube' },
-  de: { PDF: 'PDF-Tools', Image: 'Bildtools', Compiler: 'Compiler & Code', Finance: 'Finanzrechner', Developer: 'Entwicklertools', Text: 'Texttools', Converters: 'Konverter', Calculators: 'Rechner', YouTube: 'YouTube-Tools' },
-  fr: { PDF: 'Outils PDF', Image: 'Outils image', Compiler: 'Compilateurs et code', Finance: 'Calculateurs financiers', Developer: 'Outils pour développeurs', Text: 'Outils de texte', Converters: 'Convertisseurs', Calculators: 'Calculatrices', YouTube: 'Outils YouTube' },
-  it: { PDF: 'Strumenti PDF', Image: 'Strumenti immagine', Compiler: 'Compilatori e codice', Finance: 'Calcolatori finanziari', Developer: 'Strumenti per sviluppatori', Text: 'Strumenti di testo', Converters: 'Convertitori', Calculators: 'Calcolatori', YouTube: 'Strumenti YouTube' },
-  ja: { PDF: 'PDFツール', Image: '画像ツール', Compiler: 'コンパイラとコード', Finance: '金融計算機', Developer: '開発者ツール', Text: 'テキストツール', Converters: '変換ツール', Calculators: '計算機', YouTube: 'YouTubeツール' },
-  ko: { PDF: 'PDF 도구', Image: '이미지 도구', Compiler: '컴파일러 및 코드', Finance: '금융 계산기', Developer: '개발자 도구', Text: '텍스트 도구', Converters: '변환 도구', Calculators: '계산기', YouTube: 'YouTube 도구' },
-  zh: { PDF: 'PDF工具', Image: '图片工具', Compiler: '编译器与代码', Finance: '财务计算器', Developer: '开发者工具', Text: '文本工具', Converters: '转换工具', Calculators: '计算器', YouTube: 'YouTube工具' },
-  ru: { PDF: 'PDF-инструменты', Image: 'Инструменты изображений', Compiler: 'Компиляторы и код', Finance: 'Финансовые калькуляторы', Developer: 'Инструменты разработчика', Text: 'Текстовые инструменты', Converters: 'Конвертеры', Calculators: 'Калькуляторы', YouTube: 'Инструменты YouTube' },
-  ar: { PDF: 'أدوات PDF', Image: 'أدوات الصور', Compiler: 'المترجمات والبرمجة', Finance: 'حاسبات مالية', Developer: 'أدوات المطورين', Text: 'أدوات النصوص', Converters: 'المحوّلات', Calculators: 'الحاسبات', YouTube: 'أدوات YouTube' },
-  hi: { PDF: 'PDF टूल्स', Image: 'इमेज टूल्स', Compiler: 'कंपाइलर और कोड', Finance: 'वित्तीय कैलकुलेटर', Developer: 'डेवलपर टूल्स', Text: 'टेक्स्ट टूल्स', Converters: 'कन्वर्टर्स', Calculators: 'कैलकुलेटर', YouTube: 'YouTube टूल्स' },
+  en: { PDF: 'PDF Tools', Image: 'Image Tools', Compiler: 'Compilers & Code', Finance: 'Finance Calculators', Developer: 'Developer Tools', Text: 'Text Tools', Converters: 'Converters', Calculators: 'Calculators', YouTube: 'YouTube Tools', 'Time Table': 'Time Table Tools' },
+  pt: { PDF: 'Ferramentas PDF', Image: 'Ferramentas de imagem', Compiler: 'Compiladores e código', Finance: 'Calculadoras financeiras', Developer: 'Ferramentas para desenvolvedores', Text: 'Ferramentas de texto', Converters: 'Conversores', Calculators: 'Calculadoras', YouTube: 'Ferramentas do YouTube', 'Time Table': 'Ferramentas de horários' },
+  es: { PDF: 'Herramientas PDF', Image: 'Herramientas de imagen', Compiler: 'Compiladores y código', Finance: 'Calculadoras financieras', Developer: 'Herramientas para desarrolladores', Text: 'Herramientas de texto', Converters: 'Convertidores', Calculators: 'Calculadoras', YouTube: 'Herramientas de YouTube', 'Time Table': 'Herramientas de horarios' },
+  de: { PDF: 'PDF-Tools', Image: 'Bildtools', Compiler: 'Compiler & Code', Finance: 'Finanzrechner', Developer: 'Entwicklertools', Text: 'Texttools', Converters: 'Konverter', Calculators: 'Rechner', YouTube: 'YouTube-Tools', 'Time Table': 'Stundenplan-Tools' },
+  fr: { PDF: 'Outils PDF', Image: 'Outils image', Compiler: 'Compilateurs et code', Finance: 'Calculateurs financiers', Developer: 'Outils pour développeurs', Text: 'Outils de texte', Converters: 'Convertisseurs', Calculators: 'Calculatrices', YouTube: 'Outils YouTube', 'Time Table': 'Outils d’emploi du temps' },
+  it: { PDF: 'Strumenti PDF', Image: 'Strumenti immagine', Compiler: 'Compilatori e codice', Finance: 'Calcolatori finanziari', Developer: 'Strumenti per sviluppatori', Text: 'Strumenti di testo', Converters: 'Convertitori', Calculators: 'Calcolatori', YouTube: 'Strumenti YouTube', 'Time Table': 'Strumenti per orari' },
+  ja: { PDF: 'PDFツール', Image: '画像ツール', Compiler: 'コンパイラとコード', Finance: '金融計算機', Developer: '開発者ツール', Text: 'テキストツール', Converters: '変換ツール', Calculators: '計算機', YouTube: 'YouTubeツール', 'Time Table': '時間割ツール' },
+  ko: { PDF: 'PDF 도구', Image: '이미지 도구', Compiler: '컴파일러 및 코드', Finance: '금융 계산기', Developer: '개발자 도구', Text: '텍스트 도구', Converters: '변환 도구', Calculators: '계산기', YouTube: 'YouTube 도구', 'Time Table': '시간표 도구' },
+  zh: { PDF: 'PDF工具', Image: '图片工具', Compiler: '编译器与代码', Finance: '财务计算器', Developer: '开发者工具', Text: '文本工具', Converters: '转换工具', Calculators: '计算器', YouTube: 'YouTube工具', 'Time Table': '时间表工具' },
+  ru: { PDF: 'PDF-инструменты', Image: 'Инструменты изображений', Compiler: 'Компиляторы и код', Finance: 'Финансовые калькуляторы', Developer: 'Инструменты разработчика', Text: 'Текстовые инструменты', Converters: 'Конвертеры', Calculators: 'Калькуляторы', YouTube: 'Инструменты YouTube', 'Time Table': 'Инструменты расписания' },
+  ar: { PDF: 'أدوات PDF', Image: 'أدوات الصور', Compiler: 'المترجمات والبرمجة', Finance: 'حاسبات مالية', Developer: 'أدوات المطورين', Text: 'أدوات النصوص', Converters: 'المحوّلات', Calculators: 'الحاسبات', YouTube: 'أدوات YouTube', 'Time Table': 'أدوات الجداول' },
+  hi: { PDF: 'PDF टूल्स', Image: 'इमेज टूल्स', Compiler: 'कंपाइलर और कोड', Finance: 'वित्तीय कैलकुलेटर', Developer: 'डेवलपर टूल्स', Text: 'टेक्स्ट टूल्स', Converters: 'कन्वर्टर्स', Calculators: 'कैलकुलेटर', YouTube: 'YouTube टूल्स', 'Time Table': 'टाइम टेबल टूल्स' },
 };
 
 export function getLocalizedCategoryLabel(category: string, locale: LocaleCode): string {
@@ -198,6 +199,10 @@ function generateLocalizedName(tool: ToolMeta, locale: Exclude<LocaleCode, 'en'>
 
 export function getLocalizedToolName(tool: ToolMeta, locale: LocaleCode): string {
   if (locale === 'en') return tool.name;
+  if (tool.category === 'Time Table') {
+    const timeTableName = getTimeTableLocalizedName(tool.slug, locale);
+    if (timeTableName) return timeTableName;
+  }
   const localeCode = locale as Exclude<LocaleCode, 'en'>;
 
   // Explicit tool-name translations are authoritative. Prefer them before
