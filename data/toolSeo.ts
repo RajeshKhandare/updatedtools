@@ -3,6 +3,8 @@ import { GENERATED_LOCALIZED_TOOL_SEO } from './generatedLocalizedToolSeo';
 
 export type ToolFaq = { q: string; a: string };
 export type ToolSeoContent = {
+  /** Short hero description matching the English tool page's tool.description. */
+  heroIntro?: string;
   intro: string;
   why: string;
   steps: string[];
