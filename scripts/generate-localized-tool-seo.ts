@@ -23,6 +23,7 @@ const MAX_CHARS = 4200;
 const CONCURRENCY = 4; // bounded to keep translation generation stable
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+const escapeRegExp = (value: string) => value.replace(/[.*+?^\${}()|[\]\\]/g, '\\const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));');
 
 async function translateText(text: string, locale: string, toolName: string, localizedToolName: string): Promise<string> {
   if (!text.trim()) return text;
@@ -45,7 +46,8 @@ async function translateText(text: string, locale: string, toolName: string, loc
         ? data[0].map((part: any[]) => String(part?.[0] ?? '')).join('')
         : '';
       if (!translated) throw new Error('empty translation');
-      return translated.split(marker).join(localizedToolName);
+      const restored = translated.split(marker).join(localizedToolName);
+      return restored.replace(new RegExp(escapeRegExp(toolName), 'gi'), () => localizedToolName);
     } catch (error) {
       if (attempt === 4) {
         console.warn('translation fallback', locale, toolName, error);
