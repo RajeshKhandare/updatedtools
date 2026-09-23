@@ -25,7 +25,7 @@ const numberValue = (value: string) => {
 };
 
 const FINANCE_LABELS: Record<string, Record<string, string>> = {
-  en: { investment:'Investment amount', annualReturn:'Annual return %', years:'Years', invested:'Invested', estimatedReturns:'Estimated returns', futureValue:'Future value', monthlyEmi:'Monthly EMI', totalPayment:'Total payment', totalInterest:'Total interest', amount:'Amount', gstRate:'GST rate %', gstMode:'Mode (0 = exclusive, 1 = inclusive)', baseAmount:'Base amount', gst:'GST', total:'Total', grossMonthly:'Gross monthly salary', deductions:'Deductions', estimatedInHand:'Estimated in-hand', unused:'Unused', principalDeposit:'Principal / monthly deposit', annualInterest:'Annual interest %', tenure:'Tenure (years)', principal:'Principal', interest:'Interest', maturity:'Maturity', currentNeed:'Current monthly need', inflationNeed:'Inflation-adjusted monthly need', futureSavings:'Future value of current savings', estimateNote:'Estimates only; actual bank, tax, investment, and retirement outcomes can differ.' },
+  en: { investment:f.investment, annualReturn:f.annualReturn, years:f.years, invested:'Invested', estimatedReturns:f.estimatedReturns, futureValue:'Future value', monthlyEmi:'Monthly EMI', totalPayment:f.totalPayment, totalInterest:f.totalInterest, amount:f.amount, gstRate:f.gstRate, gstMode:f.gstMode, baseAmount:'Base amount', gst:'GST', total:'Total', grossMonthly:f.grossMonthly, deductions:f.deductions, estimatedInHand:f.estimatedInHand, unused:f.unused, principalDeposit:f.principalDeposit, annualInterest:f.annualInterest, tenure:f.tenure, principal:'Principal', interest:f.interest, maturity:'Maturity', currentNeed:f.currentNeed, inflationNeed:f.inflationNeed, futureSavings:f.futureSavings, estimateNote:'Estimates only; actual bank, tax, investment, and retirement outcomes can differ.' },
   pt: { investment:'Valor do investimento', annualReturn:'Retorno anual %', years:'Anos', invested:'Investido', estimatedReturns:'Retornos estimados', futureValue:'Valor futuro', monthlyEmi:'EMI mensal', totalPayment:'Pagamento total', totalInterest:'Juros totais', amount:'Valor', gstRate:'Taxa de GST %', gstMode:'Modo (0 = exclusivo, 1 = inclusivo)', baseAmount:'Valor base', gst:'GST', total:'Total', grossMonthly:'Salário mensal bruto', deductions:'Deduções', estimatedInHand:'Valor líquido estimado', unused:'Não utilizado', principalDeposit:'Principal / depósito mensal', annualInterest:'Juros anuais %', tenure:'Prazo (anos)', principal:'Principal', interest:'Juros', maturity:'Vencimento', currentNeed:'Necessidade mensal atual', inflationNeed:'Necessidade mensal ajustada pela inflação', futureSavings:'Valor futuro da poupança atual', estimateNote:'Apenas estimativas; os resultados reais de banco, impostos, investimentos e aposentadoria podem variar.' },
   es: { investment:'Importe de inversión', annualReturn:'Rendimiento anual %', years:'Años', invested:'Invertido', estimatedReturns:'Rendimientos estimados', futureValue:'Valor futuro', monthlyEmi:'EMI mensual', totalPayment:'Pago total', totalInterest:'Interés total', amount:'Importe', gstRate:'Tasa de GST %', gstMode:'Modo (0 = exclusivo, 1 = incluido)', baseAmount:'Importe base', gst:'GST', total:'Total', grossMonthly:'Salario mensual bruto', deductions:'Deducciones', estimatedInHand:'Neto estimado', unused:'No utilizado', principalDeposit:'Principal / depósito mensual', annualInterest:'Interés anual %', tenure:'Plazo (años)', principal:'Principal', interest:'Interés', maturity:'Vencimiento', currentNeed:'Necesidad mensual actual', inflationNeed:'Necesidad mensual ajustada por inflación', futureSavings:'Valor futuro del ahorro actual', estimateNote:'Solo estimaciones; los resultados reales de bancos, impuestos, inversiones y jubilación pueden variar.' },
   de: { investment:'Anlagebetrag', annualReturn:'Jährliche Rendite %', years:'Jahre', invested:'Investiert', estimatedReturns:'Geschätzte Rendite', futureValue:'Zukünftiger Wert', monthlyEmi:'Monatliche EMI', totalPayment:'Gesamtzahlung', totalInterest:'Gesamtzinsen', amount:'Betrag', gstRate:'GST-Satz %', gstMode:'Modus (0 = exklusive, 1 = inklusive)', baseAmount:'Grundbetrag', gst:'GST', total:'Gesamt', grossMonthly:'Bruttomonatsgehalt', deductions:'Abzüge', estimatedInHand:'Geschätztes Nettogehalt', unused:'Nicht verwendet', principalDeposit:'Kapital / monatliche Einzahlung', annualInterest:'Jährlicher Zinssatz %', tenure:'Laufzeit (Jahre)', principal:'Kapital', interest:'Zinsen', maturity:'Endbetrag', currentNeed:'Aktueller monatlicher Bedarf', inflationNeed:'Inflationsbereinigter monatlicher Bedarf', futureSavings:'Zukünftiger Wert der aktuellen Ersparnisse', estimateNote:'Nur Schätzungen; tatsächliche Bank-, Steuer-, Anlage- und Ruhestandsergebnisse können abweichen.' },
@@ -52,7 +52,8 @@ export default function FinanceEngine({
   locale?: LocaleCode;
 }) {
   const ui = getEngineUi(locale);
-  const [a, setA] = useState<string>('5000');
+  const f = FINANCE_LABELS[locale] || FINANCE_LABELS.en;
+  const [a, setA = useState<string>('5000');
   const [b, setB] = useState<string>('12');
   const [c, setC] = useState<string>('10');
   const [d, setD] = useState<string>('1');
@@ -88,7 +89,7 @@ export default function FinanceEngine({
         return [
           [f.invested, money(invested)],
           [
-            'Estimated returns',
+            f.estimatedReturns,
             money(futureValue - invested),
           ],
           [f.futureValue, money(futureValue)],
@@ -123,11 +124,11 @@ export default function FinanceEngine({
         return [
           [f.monthlyEmi, money(emi)],
           [
-            'Total payment',
+            f.totalPayment,
             money(totalPayment),
           ],
           [
-            'Total interest',
+            f.totalInterest,
             money(totalPayment - p),
           ],
         ];
@@ -140,9 +141,9 @@ export default function FinanceEngine({
           p * Math.pow(1 + r / 100, years);
 
         return [
-          ['Invested', money(p)],
+          [f.invested, money(p)],
           [
-            'Estimated returns',
+            f.estimatedReturns,
             money(futureValue - p),
           ],
           [f.futureValue, money(futureValue)],
@@ -191,15 +192,15 @@ export default function FinanceEngine({
 
         return [
           [
-            'Gross monthly',
+            f.grossMonthly,
             money(grossMonthly),
           ],
           [
-            'Deductions',
+            f.deductions,
             money(deductions),
           ],
           [
-            'Estimated in-hand',
+            f.estimatedInHand,
             money(inHand),
           ],
         ];
@@ -218,7 +219,7 @@ export default function FinanceEngine({
         return [
           [f.principal, money(p)],
           [
-            'Interest',
+            f.interest,
             money(maturity - p),
           ],
           [f.maturity, money(maturity)],
@@ -255,7 +256,7 @@ export default function FinanceEngine({
         return [
           [f.invested, money(deposits)],
           [
-            'Interest',
+            f.interest,
             money(maturity - deposits),
           ],
           [f.maturity, money(maturity)],
@@ -287,17 +288,17 @@ export default function FinanceEngine({
 
         return [
           [
-            'Current monthly need',
+            f.currentNeed,
             money(currentMonthlyNeed),
           ],
           [
-            'Inflation-adjusted monthly need',
+            f.inflationNeed,
             money(
               inflationAdjustedNeed
             ),
           ],
           [
-            'Future value of current savings',
+            f.futureSavings,
             money(futureSavings),
           ],
         ];
@@ -312,41 +313,41 @@ export default function FinanceEngine({
   const labels: string[] =
     toolSlug === 'gst-calculator'
       ? [
-          'Amount',
-          'GST rate %',
-          'Mode (0 = exclusive, 1 = inclusive)',
+          f.amount,
+          f.gstRate,
+          f.gstMode,
         ]
       : toolSlug === 'salary-calculator'
         ? [
-            'Gross monthly salary',
-            'Deductions',
-            'Unused',
+            f.grossMonthly,
+            f.deductions,
+            f.unused,
           ]
         : toolSlug === 'fd-calculator' ||
             toolSlug === 'rd-calculator'
           ? [
-              'Principal / monthly deposit',
-              'Annual interest %',
-              'Tenure (years)',
+              f.principalDeposit,
+              f.annualInterest,
+              f.tenure,
             ]
           : toolSlug ===
                 'retirement-calculator'
             ? [
-                'Current monthly need',
-                'Annual return %',
-                'Years',
-                'Inflation %',
+                f.currentNeed,
+                f.annualReturn,
+                f.years,
+                f.inflationNeed,
               ]
             : toolSlug === 'emi-calculator'
               ? [
                   'Loan amount',
-                  'Annual interest %',
-                  'Tenure (years)',
+                  f.annualInterest,
+                  f.tenure,
                 ]
               : [
-                  'Investment amount',
-                  'Annual return %',
-                  'Years',
+                  f.investment,
+                  f.annualReturn,
+                  f.years,
                 ];
 
   const values: string[] = [a, b, c];
@@ -423,9 +424,7 @@ export default function FinanceEngine({
       </div>
 
       <p className="text-[11px] text-zinc-400">
-        Estimates only; actual bank, tax,
-        investment, and retirement outcomes
-        can differ.
+        {f.estimateNote}
       </p>
     </div>
   );
