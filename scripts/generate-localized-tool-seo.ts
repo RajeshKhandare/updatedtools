@@ -150,13 +150,21 @@ async function mapConcurrent<T, R>(items: T[], worker: (item: T) => Promise<R>):
   return output;
 }
 
-const generated: Record<string, Record<string, ToolSeoContent>> = {};
-for (const locale of TARGETS) {
-  console.log('Generating', locale, 'for', TOOLS_REGISTRY.length, 'tools');
-  const entries = await mapConcurrent(TOOLS_REGISTRY, (tool) => translateTool(tool, locale));
-  generated[locale] = Object.fromEntries(entries);
+async function main() {
+  const generated: Record<string, Record<string, ToolSeoContent>> = {};
+
+  for (const locale of TARGETS) {
+    console.log('Generating', locale, 'for', TOOLS_REGISTRY.length, 'tools');
+    const entries = await mapConcurrent(TOOLS_REGISTRY, (tool) => translateTool(tool, locale));
+    generated[locale] = Object.fromEntries(entries);
+  }
+
+  const output = `// AUTO-GENERATED. Do not edit manually.\nimport type { LocaleCode } from '@/data/internationalSeo';\nimport type { ToolSeoContent } from '@/data/toolSeo';\n\nexport const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<string, ToolSeoContent>>> = ${JSON.stringify(generated, null, 2)};\n`;
+  await fs.writeFile('data/generatedLocalizedToolSeo.ts', output, 'utf8');
+  console.log('Wrote data/generatedLocalizedToolSeo.ts');
 }
 
-const output = `// AUTO-GENERATED. Do not edit manually.\nimport type { LocaleCode } from '@/data/internationalSeo';\nimport type { ToolSeoContent } from '@/data/toolSeo';\n\nexport const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<string, ToolSeoContent>>> = ${JSON.stringify(generated, null, 2)};\n`;
-await fs.writeFile('data/generatedLocalizedToolSeo.ts', output, 'utf8');
-console.log('Wrote data/generatedLocalizedToolSeo.ts');
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
