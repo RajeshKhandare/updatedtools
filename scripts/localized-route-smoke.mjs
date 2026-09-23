@@ -13,7 +13,7 @@ const LOCALES = [
 const TOOL_SLUGS = [
   'merge-pdf','split-pdf','pdf-to-jpg','jpg-to-pdf','protect-pdf-password',
   'unlock-pdf-password','rotate-pdf','compress-pdf','add-page-numbers-pdf',
-  'word-to-pdf','delete-pdf-pages','reorder-pdf-pages','pdf-grayscale-converter',
+  'pdf-to-word','word-to-pdf','delete-pdf-pages','reorder-pdf-pages','pdf-grayscale-converter',
   'compress-image','crop-image-online','image-resizer','webp-to-png-converter',
   'webp-to-jpg-converter','png-to-jpg-converter','jpg-to-png-converter',
   'svg-to-png-converter','black-and-white-image-filter','invert-image-colors',
