@@ -1022,6 +1022,14 @@ async function testUniversal(page, slug, category) {
     'Process'
   );
 
+  if (slug === 'hex-to-rgb-hsl-converter') {
+    const output = page.getByText(/RGB:\\s*rgb\\(/).last();
+    await output.waitFor({ state: 'visible', timeout: 5000 });
+    const body = await page.locator('body').textContent();
+    assert(/RGB:\\s*rgb\\(/.test(body) && /HSL:\\s*hsl\\(/.test(body), slug + ': color conversion output missing');
+    return;
+  }
+
   const result =
     page.locator(
       'pre'
