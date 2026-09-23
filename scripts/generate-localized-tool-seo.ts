@@ -102,6 +102,7 @@ async function translateTool(tool: typeof TOOLS_REGISTRY[number], locale: string
   const localizedToolName = getLocalizedToolName(tool, locale as any);
 
   const values = [
+    base.heroIntro || tool.description,
     base.intro,
     base.why,
     ...base.steps,
@@ -115,6 +116,7 @@ async function translateTool(tool: typeof TOOLS_REGISTRY[number], locale: string
 
   const translated = await translateMany(values, locale, tool.name, localizedToolName);
   let cursor = 0;
+  const heroIntro = translated[cursor++];
   const intro = translated[cursor++];
   const why = translated[cursor++];
   const steps = translated.slice(cursor, cursor + base.steps.length); cursor += base.steps.length;
@@ -126,6 +128,7 @@ async function translateTool(tool: typeof TOOLS_REGISTRY[number], locale: string
   const formula = base.formula ? translated[cursor] : undefined;
 
   return [tool.slug, {
+    heroIntro,
     intro,
     why,
     steps,
