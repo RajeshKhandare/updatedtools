@@ -1051,6 +1051,24 @@ async function testUniversal(page, slug, category) {
     return;
   }
 
+  if (slug === 'html-entity-encoder') {
+    await page.waitForFunction(
+      () => (document.body?.textContent || '').includes('&lt;div&gt;hello&lt;/div&gt;'),
+      undefined,
+      { timeout: 5000 }
+    );
+    return;
+  }
+
+  if (slug === 'css-minifier-cleaner') {
+    await page.waitForFunction(
+      () => (document.body?.textContent || '').includes('body{color:red;padding:10px;}'),
+      undefined,
+      { timeout: 5000 }
+    );
+    return;
+  }
+
   const result =
     page.locator(
       'pre'
