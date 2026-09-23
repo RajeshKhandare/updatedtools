@@ -74,7 +74,7 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    tips:d.tips,
    limitations:['Es un formato de planificación; revisa el resultado antes de usarlo en situaciones reales.'],
    faq:[
-     ...c.faq.map(([q,a])=>({q,a})),
+     ...c!.faq.map(([q,a])=>({q,a})),
      ...d.faq.map(([q,a])=>({q:q+' — '+name,a})),
      {q:name+': ¿puedo personalizar el horario?',a:'Sí. Puedes editar las celdas y añadir una nota o frase personal.'}
    ].slice(0,6),
