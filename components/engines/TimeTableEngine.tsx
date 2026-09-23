@@ -43,6 +43,21 @@ const EXTRA:Record<LocaleCode,{time:string;activity:string;session:string;shift:
  hi:{time:'समय',activity:'गतिविधि',session:'सेशन',shift:'शिफ्ट',meal:'भोजन',dayToday:'आज',title:'टाइम टेबल का शीर्षक',note:'पर्सनल नोट',notePlaceholder:'अपने लिए कोई नोट लिखें...',quote:'पर्सनल कोट या रिमाइंडर',quotePlaceholder:'कोई quote, goal या reminder लिखें ताकि यह timetable आपका लगे...',personalize:'अपना बनाएं',weekdays:'वर्किंग डे',schoolDays:'स्कूल के दिन'}
 };
 
+const MOBILE_VIEW_HINT:Record<LocaleCode,string>={
+  en:'For the full timetable view, switch to Desktop mode.',
+  pt:'Para ver o horário completo, mude para o modo Desktop.',
+  es:'Para ver el horario completo, cambia al modo Escritorio.',
+  de:'Für die vollständige Stundenplanansicht zum Desktop-Modus wechseln.',
+  fr:'Pour afficher l’emploi du temps complet, passez en mode Bureau.',
+  it:'Per visualizzare l’orario completo, passa alla modalità Desktop.',
+  ja:'時間割全体を表示するには、デスクトップモードに切り替えてください。',
+  ko:'전체 시간표를 보려면 데스크톱 모드로 전환하세요.',
+  zh:'如需查看完整课程表，请切换到桌面模式。',
+  ru:'Для полного просмотра расписания переключитесь в режим рабочего стола.',
+  ar:'لعرض الجدول كاملاً، انتقل إلى وضع سطح المكتب.',
+  hi:'पूरा टाइम टेबल देखने के लिए Desktop मोड पर स्विच करें।'
+};
+
 const DAYS=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 const DAY_LABELS:Record<LocaleCode,string[]>={
  en:DAYS,pt:['Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],es:['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo'],de:['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag'],fr:['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'],it:['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'],ja:['月','火','水','木','金','土','日'],ko:['월','화','수','목','금','토','일'],zh:['周一','周二','周三','周四','周五','周六','周日'],ru:['Пн','Вт','Ср','Чт','Пт','Сб','Вс'],ar:['الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت','الأحد'],hi:['सोमवार','मंगलवार','बुधवार','गुरुवार','शुक्रवार','शनिवार','रविवार']
@@ -139,6 +154,12 @@ export default function TimeTableEngine({tool,locale='en'}:{tool:ToolMeta;locale
   const renderTimePicker=(p:number,part:number)=>{const value=timeRanges[p]?.[part]||'08:00';return <div className="relative"><input type="time" aria-label={`${columnLabel} ${p+1} ${extra.time}`} value={value} step="300" onChange={e=>updateTime(p,part,e.target.value)} className="h-8 w-full min-w-0 rounded-lg border border-zinc-300/80 bg-white/80 px-2 text-[11px] font-semibold text-zinc-800 outline-none transition focus:border-violet-500 focus:ring-2 focus:ring-violet-500/15 dark:border-zinc-700 dark:bg-zinc-950/80 dark:text-zinc-100 sm:h-9 sm:text-xs [color-scheme:light] dark:[color-scheme:dark]" /></div>;};
   return <>
   <div className={`${card} ${theme.card} print:hidden`} data-testid="timetable-engine">
+    <div className="md:hidden flex items-center gap-2 rounded-xl border border-violet-200/70 bg-violet-50/70 px-3 py-2 text-[11px] font-medium text-violet-700 dark:border-violet-900/50 dark:bg-violet-950/20 dark:text-violet-200" role="note">
+      <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-violet-500" />
+      <span>{MOBILE_VIEW_HINT[locale]||MOBILE_VIEW_HINT.en}</span>
+    </div>
+
+
     <div className="flex flex-wrap items-center justify-between gap-3">
       <div className="min-w-0">
         <div className={`inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider ${theme.accent}`}><CalendarDays aria-hidden="true" className={`h-4 w-4 ${theme.icon}`}/>{ui.title}</div>
