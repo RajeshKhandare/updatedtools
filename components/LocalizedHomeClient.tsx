@@ -82,6 +82,11 @@ export default function LocalizedHomeClient({ localeCode }: { localeCode: string
     (!query.trim()||t.name.toLowerCase().includes(query.toLowerCase())||getLocalizedToolName(t,locale.code).toLowerCase().includes(query.toLowerCase()))
   ),[query,category]);
 
+  const displayedTools=useMemo(() => {
+    if (query.trim().length > 0 || category !== 'All') return tools;
+    return tools.slice(0,12);
+  }, [tools, query, category]);
+
   return <main lang={locale.code} dir={locale.code==='ar'?'rtl':'ltr'} className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
     <Navbar />
     <section className="mx-auto max-w-5xl px-4 pt-5 sm:pt-8 pb-6 text-center">
@@ -108,11 +113,11 @@ export default function LocalizedHomeClient({ localeCode }: { localeCode: string
         <button onClick={()=>setCategory('All')} className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${category==='All'?'bg-violet-600 text-white shadow-md shadow-violet-500/20':'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800 hover:border-violet-300 dark:hover:border-zinc-700'}`}>{copy.popular}</button>
         {CATEGORIES.filter(c=>c!=='All').map(c=><button key={c} onClick={()=>setCategory(c)} className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${category===c?'bg-violet-600 text-white shadow-md shadow-violet-500/20':'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800 hover:border-violet-300 dark:hover:border-zinc-700'}`}>{getLocalizedCategoryLabel(c,locale.code)}</button>)}
       </div></div>
-      <div className="mt-4 mb-2 flex items-center justify-between"><p className="text-xs font-bold uppercase tracking-wider text-zinc-400">{copy.showing} {tools.length} {category==='All'?copy.popular:getLocalizedCategoryLabel(category,locale.code)} {copy.utilities}</p></div>
+      <div className="mt-4 mb-2 flex items-center justify-between"><p className="text-xs font-bold uppercase tracking-wider text-zinc-400">{copy.showing} {displayedTools.length} {category==='All'?copy.popular:getLocalizedCategoryLabel(category,locale.code)} {copy.utilities}</p></div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {tools.slice(0,12).map((tool:ToolMeta)=><Link key={tool.slug} href={localizedToolPath(locale.code,tool.slug)} className="group flex items-start gap-3.5 rounded-2xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-4 transition-all hover:shadow-md hover:border-violet-400 hover:-translate-y-0.5">
+        {displayedTools.map((tool:ToolMeta)=><Link key={tool.slug} href={localizedToolPath(locale.code,tool.slug)} className="group flex items-start gap-3.5 rounded-2xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-4 transition-all hover:shadow-md hover:border-violet-400 hover:-translate-y-0.5">
           <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-violet-50 dark:bg-zinc-800/80 mt-0.5">{icon(tool.category)}</div>
-          <div className="min-w-0"><h2 className="text-xs sm:text-sm font-bold truncate">{getLocalizedToolName(tool,locale.code)}</h2><span className="text-[10px] font-semibold text-violet-600 dark:text-violet-400 block mt-0.5">{getLocalizedCategoryLabel(tool.category,locale.code)}</span><p className="mt-1 text-[11px] text-zinc-500 dark:text-zinc-400 line-clamp-1">{ui.browserLabel}</p></div>
+          <div className="min-w-0"><h2 className="text-xs sm:text-sm font-bold truncate">{getLocalizedToolName(tool,locale.code)}</h2><span className="text-[10px] font-semibold text-violet-600 dark:text-violet-400 block mt-0.5">{getLocalizedCategoryLabel(tool.category,locale.code)}</span><p className="mt-1 text-[11px] text-zinc-500 dark:text-zinc-400 line-clamp-1">{getLocalizedToolSeoContent(tool,locale.code).heroIntro || tool.description}</p></div>
         </Link>)}
       </div>
       {category==='All'&&!query&&<div className="mt-10 text-center"><Link href={'/'+locale.code+'/tools'} className="inline-flex items-center gap-2 rounded-2xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-950 px-8 py-3.5 text-xs font-extrabold"><span>{copy.explore}</span><ArrowRight className="h-4 w-4"/></Link></div>}
