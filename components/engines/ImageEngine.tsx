@@ -454,7 +454,7 @@ export default function ImageEngine({
         </div>
       )}
 
-
+      {src && (
         <div className="grid sm:grid-cols-2 gap-3">
           {[
             'image-resizer',
