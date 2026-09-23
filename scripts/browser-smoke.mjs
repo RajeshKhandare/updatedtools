@@ -914,13 +914,23 @@ async function testUniversal(page, slug, category) {
   }
 
   if (category === 'Time Table') {
-    const subjects = page.locator('textarea').first();
-    await subjects.waitFor({ state: 'visible', timeout: 10000 });
-    await subjects.fill('Math, English, Science, Study');
-    await clickButton(page, /Generate Timetable/);
-    await page.locator('[data-testid="timetable-engine"] table').waitFor({ state: 'visible', timeout: 10000 });
+    const table = page.locator('[data-testid="timetable-engine"] table');
+    await table.waitFor({ state: 'visible', timeout: 10000 });
+
+    const editableCell = table.locator('tbody input').first();
+    await editableCell.waitFor({ state: 'visible', timeout: 5000 });
+    await editableCell.fill('Smoke Test Entry');
+
+    const note = page.locator('textarea').first();
+    if (await note.count()) {
+      await note.fill('Smoke test personal note');
+    }
+
     const body = await page.locator('body').textContent();
-    assert(!/NaN|Error:|Invalid result/.test(body), slug + ': timetable generator returned an error');
+    assert(
+      !/NaN|Error:|Invalid result|Application error|Unhandled Runtime Error/i.test(body),
+      slug + ': timetable generator returned an error'
+    );
     return;
   }
 
