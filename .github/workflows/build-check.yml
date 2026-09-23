@@ -56,3 +56,4 @@ jobs:
         env:
           SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
         run: node scripts/browser-smoke.mjs
+
