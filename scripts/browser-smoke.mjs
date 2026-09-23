@@ -913,6 +913,17 @@ async function testUniversal(page, slug, category) {
     return;
   }
 
+  if (category === 'Time Table') {
+    const subjects = page.locator('textarea').first();
+    await subjects.waitFor({ state: 'visible', timeout: 10000 });
+    await subjects.fill('Math, English, Science, Study');
+    await clickButton(page, /Generate Timetable/);
+    await page.locator('[data-testid="timetable-engine"] table').waitFor({ state: 'visible', timeout: 10000 });
+    const body = await page.locator('body').textContent();
+    assert(!/NaN|Error:|Invalid result/.test(body), slug + ': timetable generator returned an error');
+    return;
+  }
+
   // Developer + Text tools
   const textareas =
     page.locator(
@@ -1044,8 +1055,8 @@ async function main() {
   );
 
   assert(
-    tools.length === 87,
-    'Registry expected 87 tools, found ' +
+    tools.length === 112,
+    'Registry expected 112 tools, found ' +
       tools.length
   );
 
