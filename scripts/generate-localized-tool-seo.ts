@@ -20,7 +20,7 @@ const GOOGLE_CODES: Record<string, string> = {
 };
 
 const MAX_CHARS = 4200;
-const CONCURRENCY = 4;
+const CONCURRENCY = 4; // bounded to keep translation generation stable
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
