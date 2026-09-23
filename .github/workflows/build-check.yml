@@ -22,7 +22,10 @@ jobs:
 
 
       - name: Verify tool registry and assets
-        run: npm run verify:tools
+        run: |
+          npm run verify:tools
+          test -s public/pdf.worker.min.mjs
+          echo "PDF.js worker asset is present"
 
       - name: Verify international SEO foundation
         run: npm run verify:international-seo
