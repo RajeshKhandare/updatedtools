@@ -113,14 +113,38 @@ async function renderPdf(
       );
     }
 
-    if (gray) {
-      ctx.filter = 'grayscale(1)';
-    }
-
+    // Render normally first. Applying CanvasRenderingContext2D.filter
+    // before pdf.js paints can behave inconsistently in headless Chromium
+    // and has caused the grayscale tool to stall on Cloudflare. Convert the
+    // completed pixels instead so the PDF renderer and output path stay
+    // deterministic across browsers.
     await page.render({
       canvasContext: ctx,
       viewport,
     }).promise;
+
+    if (gray) {
+      const image = ctx.getImageData(
+        0,
+        0,
+        canvas.width,
+        canvas.height
+      );
+      const pixels = image.data;
+
+      for (let i = 0; i < pixels.length; i += 4) {
+        const luminance = Math.round(
+          0.299 * pixels[i] +
+          0.587 * pixels[i + 1] +
+          0.114 * pixels[i + 2]
+        );
+        pixels[i] = luminance;
+        pixels[i + 1] = luminance;
+        pixels[i + 2] = luminance;
+      }
+
+      ctx.putImageData(image, 0, 0);
+    }
 
     const blob: Blob =
       await new Promise(
