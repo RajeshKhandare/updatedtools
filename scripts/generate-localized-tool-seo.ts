@@ -67,7 +67,7 @@ async function translateMany(values: string[], locale: string, toolName: string,
   const flush = async () => {
     if (!chunk.length) return;
     const markers = chunk.map((_, index) => `__ITEM_${index}_7c1f__`);
-    const source = chunk.map((value, index) => `${markers[index]}\\n${value}`).join('\\n');
+    const source = chunk.map((value, index) => `${markers[index]}\n${value}`).join('\n');
     const translated = await translateText(source, locale, toolName, localizedToolName);
     const parsed = markers.map((marker, index) => {
       const start = translated.indexOf(marker);
