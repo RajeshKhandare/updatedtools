@@ -325,15 +325,27 @@ async function testPdf(page, slug, fixtures, state) {
       { name: 'Download' }
     ).first();
 
-  await downloadButton.waitFor({
-    state: 'visible',
-    timeout: 60000,
-  });
+  // PDF processing can be CPU-heavy in headless Chromium, especially
+  // pdf.js rendering on the Cloudflare deployment. Wait for either the
+  // download action or a surfaced UI error so failures are diagnostic.
+  try {
+    await downloadButton.waitFor({
+      state: 'visible',
+      timeout: 90000,
+    });
+  } catch (error) {
+    const bodyText = await page.locator('body').textContent();
+    throw new Error(
+      slug +
+        ': Download button did not appear after processing. UI: ' +
+        String(bodyText || '').replace(/\s+/g, ' ').slice(-1200)
+    );
+  }
 
   const downloadPromise =
     page.waitForEvent(
       'download',
-      { timeout: 20000 }
+      { timeout: 30000 }
     );
 
   await downloadButton.click();
@@ -821,17 +833,44 @@ async function testUniversal(page, slug, category) {
         'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
       );
 
+      // The current UI first parses the URL with "Generate", then exposes
+      // the thumbnail and a separate "Download" action.
       await clickButton(
         page,
-        'Get Thumbnail'
+        'Generate'
       );
 
       await page.locator(
         'img[alt="YouTube thumbnail"]'
       ).waitFor({
         state: 'visible',
+        timeout: 15000,
+      });
+
+      const downloadButton = page.getByRole(
+        'button',
+        { name: 'Download' }
+      ).first();
+
+      await downloadButton.waitFor({
+        state: 'visible',
         timeout: 10000,
       });
+
+      const downloadPromise = page.waitForEvent(
+        'download',
+        { timeout: 20000 }
+      );
+
+      await downloadButton.click();
+
+      const download = await downloadPromise;
+      const path = await download.path();
+
+      assert(
+        path && fs.statSync(path).size > 0,
+        slug + ': YouTube thumbnail download was empty'
+      );
       return;
     }
 
