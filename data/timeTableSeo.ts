@@ -45,6 +45,21 @@ const TT_DETAILS:Record<string,{why:string;steps:string[];useCases:string[];tips
  'smart-timetable-generator':{why:'Generate a balanced schedule from your priorities using local deterministic rules without an external AI service.',steps:['Choose days and time blocks.','Enter priorities or activities.','Generate the first draft.','Edit conflicts and add a personal goal or note.'],useCases:['Priority planning','Study and work balancing','Personal scheduling'],tips:['Treat the generated plan as a draft and adjust it to real constraints.'],faq:[['Is this powered by an external AI API?','No. It uses local deterministic scheduling rules in the browser.']]}
 };
 
+
+const LOCAL_LIMITATIONS:Record<Exclude<LocaleCode,'en'>,string[]> = {
+ pt:['É um modelo de planejamento; confirme horários, salas, turnos e outras restrições reais antes de usar.','Revise o resultado antes de imprimir ou usar como agenda definitiva.'],
+ es:['Es una plantilla de planificación; confirma horarios, salas, turnos y otras restricciones reales antes de usarla.','Revisa el resultado antes de imprimirlo o usarlo como horario definitivo.'],
+ de:['Dies ist eine Planungsvorlage; prüfe Zeiten, Räume, Schichten und andere reale Einschränkungen vor der Verwendung.','Prüfe den erstellten Plan vor dem Drucken oder der tatsächlichen Nutzung.'],
+ fr:['Il s’agit d’un modèle de planification ; vérifiez les horaires, salles, équipes et autres contraintes réelles avant utilisation.','Relisez le résultat avant de l’imprimer ou de l’utiliser comme planning définitif.'],
+ it:['È un modello di pianificazione; verifica orari, aule, turni e altri vincoli reali prima dell’uso.','Controlla il risultato prima di stamparlo o usarlo come programma definitivo.'],
+ ja:['計画用テンプレートのため、実際の時間、教室、シフトなどの条件は使用前に確認してください。','印刷または実際の予定として使う前に内容を確認してください。'],
+ ko:['계획용 템플릿이므로 실제 시간, 강의실, 근무 교대 등의 조건은 사용 전에 확인하세요.','인쇄하거나 실제 일정으로 사용하기 전에 결과를 검토하세요.'],
+ zh:['这是规划模板；使用前请确认实际时间、教室、班次及其他现实约束。','打印或作为正式日程使用前，请检查生成结果。'],
+ ru:['Это шаблон планирования; перед использованием проверьте реальные часы, аудитории, смены и другие ограничения.','Проверьте результат перед печатью или использованием как окончательного расписания.'],
+ ar:['هذا قالب للتخطيط؛ تحقّق من الأوقات والقاعات والمناوبات والقيود الواقعية الأخرى قبل الاستخدام.','راجع النتيجة قبل طباعتها أو اعتمادها كجدول نهائي.'],
+ hi:['यह planning template है; इस्तेमाल से पहले वास्तविक समय, कमरा, शिफ्ट और दूसरी practical constraints जरूर जाँचें।','प्रिंट करने या final schedule की तरह इस्तेमाल करने से पहले generated timetable review करें.']
+};
+
 export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoContent{
  const d=TT_DETAILS[tool.slug]||TT_DETAILS['timetable-maker'];
  const name=locale==='en'?tool.name:(getTimeTableLocalizedName(tool.slug,locale)||tool.name);
@@ -72,7 +87,7 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    steps:d.steps,
    useCases:d.useCases,
    tips:d.tips,
-   limitations:['Es un formato de planificación; revisa el resultado antes de usarlo en situaciones reales.'],
+   limitations:LOCAL_LIMITATIONS[locale],
    faq:[
      ...c!.faq.map(([q,a])=>({q,a})),
      ...d.faq.map(([q,a])=>({q:q+' — '+name,a})),
