@@ -77,6 +77,8 @@ const PRESETS:Record<string,{days:number;periods:number;subjects:string[]}> = {
 };
 
 
+function slugPreset(slug:string){ return PRESETS[slug] || PRESETS['timetable-maker']; }
+
 function getMode(slug:string){
   if(['timetable-maker','student-timetable-maker','school-timetable-maker','college-timetable-maker','university-timetable-maker','class-timetable-generator','teacher-timetable-maker','printable-timetable-maker'].includes(slug)) return 'academic';
   if(['study-timetable-maker'].includes(slug)) return 'study';
