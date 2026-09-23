@@ -54,6 +54,24 @@ jobs:
           echo "Timed out waiting for Vercel deployment $EXPECTED_COMMIT"
           exit 1
 
+      - name: Wait for Cloudflare deployment to match this commit
+        if: github.ref == 'refs/heads/cloudflare-test'
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+          SMOKE_BASE_URL: https://updatedtools.rajeshkhandare788.workers.dev
+        run: |
+          for i in {1..60}; do
+            ACTUAL_COMMIT="$(curl -fsS --max-time 10 "$SMOKE_BASE_URL/api/build-version?check=$EXPECTED_COMMIT" | node -e "let s=''; process.stdin.on('data',d=>s+=d).on('end',()=>{try{console.log(JSON.parse(s).commit)}catch{console.log('')}})")"
+            echo "Cloudflare deployment commit: $ACTUAL_COMMIT"
+            if [ "$ACTUAL_COMMIT" = "$EXPECTED_COMMIT" ]; then
+              echo "Cloudflare deployment is serving $EXPECTED_COMMIT"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Timed out waiting for Cloudflare deployment $EXPECTED_COMMIT"
+          exit 1
+
       - name: Browser smoke test all 112 tools (Cloudflare)
         if: github.ref == 'refs/heads/cloudflare-test'
         env:
