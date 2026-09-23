@@ -6,6 +6,10 @@ on:
     branches: [main, cloudflare-test]
   workflow_dispatch:
 
+concurrency:
+  group: build-check-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,7 +23,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-
 
       - name: Verify tool registry and assets
         run: |
@@ -83,4 +86,3 @@ jobs:
         env:
           SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
         run: node scripts/browser-smoke.mjs
-
