@@ -30,6 +30,10 @@ const input =
 
 const MAX = 100 * 1024 * 1024;
 const MAX_FILES = 20;
+const PDF_PLACEHOLDERS: Record<LocaleCode, { pages:string; order:string; rotation:string }> = {
+  en:{pages:'Pages: 1,3-5 (rotate can use all)',order:'Complete order, e.g. 3,1,2',rotation:'Rotation: 90, 180, 270'}, pt:{pages:'Páginas: 1,3-5 (girar pode usar todas)',order:'Ordem completa, ex.: 3,1,2',rotation:'Rotação: 90, 180, 270'}, es:{pages:'Páginas: 1,3-5 (girar puede usar todas)',order:'Orden completa, p. ej. 3,1,2',rotation:'Rotación: 90, 180, 270'}, de:{pages:'Seiten: 1,3-5 (Drehen kann alle verwenden)',order:'Vollständige Reihenfolge, z. B. 3,1,2',rotation:'Drehung: 90, 180, 270'}, fr:{pages:'Pages : 1,3-5 (la rotation peut utiliser toutes les pages)',order:'Ordre complet, ex. 3,1,2',rotation:'Rotation : 90, 180, 270'}, it:{pages:'Pagine: 1,3-5 (la rotazione può usare tutte)',order:'Ordine completo, es. 3,1,2',rotation:'Rotazione: 90, 180, 270'}, ja:{pages:'ページ: 1,3-5（回転はすべて指定可能）',order:'完全な順序（例：3,1,2）',rotation:'回転：90、180、270'}, ko:{pages:'페이지: 1,3-5 (회전은 전체 사용 가능)',order:'전체 순서 예: 3,1,2',rotation:'회전: 90, 180, 270'}, zh:{pages:'页面：1,3-5（旋转可使用全部页面）',order:'完整顺序，例如 3,1,2',rotation:'旋转：90、180、270'}, ru:{pages:'Страницы: 1,3-5 (для поворота можно выбрать все)',order:'Полный порядок, например 3,1,2',rotation:'Поворот: 90, 180, 270'}, ar:{pages:'الصفحات: 1،3-5 (يمكن تدوير جميع الصفحات)',order:'الترتيب الكامل، مثال: 3،1،2',rotation:'الدوران: 90، 180، 270'}, hi:{pages:'पेज: 1,3-5 (रोटेशन में सभी चुन सकते हैं)',order:'पूरा क्रम, जैसे 3,1,2',rotation:'रोटेशन: 90, 180, 270'}
+};
+
 
 function save(
   bytes: Uint8Array,
@@ -378,6 +382,8 @@ export default function PdfEngine({
 
   const [processing, setProcessing] =
     useState(false);
+
+  const pdfPlaceholders = PDF_PLACEHOLDERS[locale] ?? PDF_PLACEHOLDERS.en;
 
   const [error, setError] =
     useState('');
@@ -776,7 +782,7 @@ export default function PdfEngine({
 
             if (!match) {
               throw new Error(
-                'Invalid page range.'
+                ui.universal.invalidInput
               );
             }
 
@@ -792,7 +798,7 @@ export default function PdfEngine({
               start > end
             ) {
               throw new Error(
-                'Invalid page range.'
+                ui.universal.invalidInput
               );
             }
 
@@ -1151,7 +1157,7 @@ export default function PdfEngine({
               e.target.value
             )
           }
-          placeholder="Pages: 1,3-5 (rotate can use all)"
+          placeholder={pdfPlaceholders.pages}
         />
       )}
 
@@ -1165,7 +1171,7 @@ export default function PdfEngine({
               e.target.value
             )
           }
-          placeholder="Complete order, e.g. 3,1,2"
+          placeholder={pdfPlaceholders.order}
         />
       )}
 
@@ -1179,7 +1185,7 @@ export default function PdfEngine({
               e.target.value
             )
           }
-          placeholder="Rotation: 90, 180, 270"
+          placeholder={pdfPlaceholders.rotation}
         />
       )}
 
