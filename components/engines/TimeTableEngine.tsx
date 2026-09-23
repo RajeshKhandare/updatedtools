@@ -134,25 +134,27 @@ export default function TimeTableEngine({tool,locale='en'}:{tool:ToolMeta;locale
   const reset=()=>{setDayCount(preset.days);setPeriodCount(preset.periods);setStart('08:00');setDuration(50);setBreakAfter(mode==='meal'?0:4);setSubjects(preset.subjects.join(', '));setGrid(Array.from({length:preset.days},(_,d)=>Array.from({length:preset.periods},(_,p)=>preset.subjects[(d*preset.periods+p)%preset.subjects.length]||'Activity')));setTimeRanges(Array.from({length:preset.periods},(_,p)=>{const s=addMinutes('08:00',p*50+(p>=4?20:0));return [s,addMinutes(s,50)];}));setGenerated(true);setScheduleTitle('');setPersonalNote('');setQuote('');};
   const updateCell=(d:number,p:number,value:string)=>setGrid(prev=>prev.map((row,ri)=>ri===d?row.map((cell,ci)=>ci===p?value:cell):row));
   const download=()=>{if(!grid.length)return;const headers=[...(isOneDay?[]:[ui.weekday]),...timeLabels.map((t,i)=>`${columnLabel} ${i+1} | ${t}`)];const rows=grid.map((row,d)=>[...(isOneDay?[]:[dayLabel(d)]),...row]);const csv=[[scheduleTitle||getLocalizedToolName(tool,locale)],headers,...rows,...(personalNote?[['Note',personalNote]]:[]),...(quote?[['Quote',quote]]:[])].map(r=>r.map(csvEscape).join(',')).join('\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`${tool.slug}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),500);};
+  const printTimetable=()=>{const cleanup=()=>document.body.classList.remove('timetable-print-mode');window.addEventListener('afterprint',cleanup,{once:true});document.body.classList.add('timetable-print-mode');window.print();};
 
   const renderTimePicker=(p:number,part:number)=>{const value=timeRanges[p]?.[part]||'08:00';return <div className="relative"><input type="time" aria-label={`${columnLabel} ${p+1} ${extra.time}`} value={value} step="300" onChange={e=>updateTime(p,part,e.target.value)} className="h-8 w-full min-w-0 rounded-lg border border-zinc-300/80 bg-white/80 px-2 text-[11px] font-semibold text-zinc-800 outline-none transition focus:border-violet-500 focus:ring-2 focus:ring-violet-500/15 dark:border-zinc-700 dark:bg-zinc-950/80 dark:text-zinc-100 sm:h-9 sm:text-xs [color-scheme:light] dark:[color-scheme:dark]" /></div>;};
-  return <div className={`${card} ${theme.card} print:shadow-none print:border-zinc-300`} data-testid="timetable-engine">
+  return <>
+  <div className={`${card} ${theme.card} print:hidden`} data-testid="timetable-engine">
     <div className="flex flex-wrap items-center justify-between gap-3">
       <div className="min-w-0">
-        <div className={`inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider ${theme.accent}`}><CalendarDays className={`h-4 w-4 ${theme.icon}`}/>{ui.title}</div>
+        <div className={`inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider ${theme.accent}`}><CalendarDays aria-hidden="true" className={`h-4 w-4 ${theme.icon}`}/>{ui.title}</div>
         <h2 className="mt-1 text-xl sm:text-2xl font-black truncate">{getLocalizedToolName(tool,locale)}</h2>
       </div>
       <div className="flex flex-wrap gap-2">
-        <button className={secondary} onClick={download}><Download className="h-4 w-4"/>{ui.download}</button>
-        <button className={secondary} onClick={()=>window.print()}><Printer className="h-4 w-4"/>{ui.print}</button>
-        <button className={secondary} onClick={reset}><RefreshCw className="h-4 w-4"/>{ui.reset}</button>
+        <button className={secondary} onClick={download}><Download aria-hidden="true" className="h-4 w-4"/>{ui.download}</button>
+        <button className={secondary} onClick={printTimetable}><Printer aria-hidden="true" className="h-4 w-4"/>{ui.print}</button>
+        <button className={secondary} onClick={reset}><RefreshCw aria-hidden="true" className="h-4 w-4"/>{ui.reset}</button>
       </div>
     </div>
 
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
       <label className="text-xs font-semibold">{extra.title}<input className={input+' mt-2'} value={scheduleTitle} onChange={e=>setScheduleTitle(e.target.value)} placeholder={getLocalizedToolName(tool,locale)}/></label>
-      <label className="text-xs font-semibold"><span className="inline-flex items-center gap-1"><Heart className="h-3.5 w-3.5 text-rose-500"/>{extra.note}</span><textarea className={input+' mt-2 min-h-20'} value={personalNote} onChange={e=>setPersonalNote(e.target.value)} placeholder={extra.notePlaceholder}/></label>
-      <label className="text-xs font-semibold"><span className="inline-flex items-center gap-1"><Quote className={`h-3.5 w-3.5 ${theme.icon}`}/>{extra.quote}</span><textarea className={input+' mt-2 min-h-20'} value={quote} onChange={e=>setQuote(e.target.value)} placeholder={extra.quotePlaceholder}/></label>
+      <label className="text-xs font-semibold"><span className="inline-flex items-center gap-1"><Heart aria-hidden="true" className="h-3.5 w-3.5 text-rose-500"/>{extra.note}</span><textarea className={input+' mt-2 min-h-20'} value={personalNote} onChange={e=>setPersonalNote(e.target.value)} placeholder={extra.notePlaceholder}/></label>
+      <label className="text-xs font-semibold"><span className="inline-flex items-center gap-1"><Quote aria-hidden="true" className={`h-3.5 w-3.5 ${theme.icon}`}/>{extra.quote}</span><textarea className={input+' mt-2 min-h-20'} value={quote} onChange={e=>setQuote(e.target.value)} placeholder={extra.quotePlaceholder}/></label>
     </div>
 
     {grid.length>0 ? <div className={`rounded-2xl border ${theme.panel}`}>
@@ -177,5 +179,30 @@ export default function TimeTableEngine({tool,locale='en'}:{tool:ToolMeta;locale
     <div className="text-[11px] text-zinc-400">
       {isAcademic ? ui.tip : extra.personalize}
     </div>
-  </div>;
+  <div id="timetable-print-sheet" className="hidden print:block" aria-label={getLocalizedToolName(tool,locale)}>
+    <header className="mb-5 border-b-2 border-zinc-900 pb-3">
+      <div className="text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-500">${ui.title}</div>
+      <h1 className="mt-1 text-2xl font-black text-zinc-900">${scheduleTitle||getLocalizedToolName(tool,locale)}</h1>
+      {personalNote&&<p className="mt-1 text-xs text-zinc-600 whitespace-pre-wrap">{personalNote}</p>}
+      {quote&&<p className="mt-1 text-xs italic text-zinc-500 whitespace-pre-wrap">“{quote}”</p>}
+    </header>
+    <table className="w-full border-collapse table-fixed text-[9px] text-zinc-900">
+      <thead>
+        <tr>
+          {!isOneDay&&<th className="border border-zinc-400 bg-zinc-100 px-2 py-2 text-left font-bold">{ui.weekday}</th>}
+          {timeLabels.map((t,p)=><th key={p} className="border border-zinc-400 bg-zinc-100 px-1.5 py-2 text-left align-top font-bold"><div>{isAcademic?`${columnLabel} ${p+1}`:columnLabel}</div><div className="mt-1 font-normal text-zinc-500">{t}</div></th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {grid.map((row,d)=><tr key={d}>
+          {!isOneDay&&<th className="border border-zinc-400 bg-zinc-50 px-2 py-2 text-left font-bold align-top">{dayLabel(d)}</th>}
+          {row.map((cell,p)=><td key={p} className="border border-zinc-400 px-1.5 py-2 align-top"><div className="font-semibold leading-4">{cell||"—"}</div><div className="mt-1 text-[8px] text-zinc-500">{timeLabels[p]}</div></td>)}
+        </tr>)}
+      </tbody>
+    </table>
+    <footer className="mt-4 flex items-center justify-between border-t border-zinc-300 pt-2 text-[8px] text-zinc-500">
+      <span>Toolployee · {getLocalizedToolName(tool,locale)}</span><span>{new Date().toLocaleDateString(locale)}</span>
+    </footer>
+  </div>
+  </>;
 }
