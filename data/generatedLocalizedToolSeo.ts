@@ -834,7 +834,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Compacte arquivos PNG, JPEG e WebP para reduzir o tamanho do arquivo e, ao mesmo tempo, equilibrar a qualidade da saída. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este fluxo de trabalho de imagem concentra-se em uma transformação para que uma tarefa rápida possa ser concluída sem um editor gráfico completo. É útil para trabalhos de web, documentos, redes sociais, desenvolvimento e imagens cotidianas.",
       "steps": [
-        "Abra Compress Image online online e identifique o formato ou valores de entrada necessários.",
+        "Abra Compress Image online online online e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -863,23 +863,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Compress Image online online?",
+          "q": "Para que é usado Compress Image online online online?",
           "a": "Compacte arquivos PNG, JPEG e WebP para reduzir o tamanho do arquivo e, ao mesmo tempo, equilibrar a qualidade da saída. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Compress Image online online?",
+          "q": "Como funciona Compress Image online online online?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Compress Image online online?",
+          "q": "Para que posso usar Compress Image online online online?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Compress Image online online requer uma conta ou instalação?",
+          "q": "Compress Image online online online requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Compress Image online online?",
+          "q": "O que devo verificar antes de usar a saída de Compress Image online online online?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -893,7 +893,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Corte imagens com proporções predefinidas (16:9, 1:1, 4:3) ou seleção de caixa de formato livre. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este fluxo de trabalho de imagem concentra-se em uma transformação para que uma tarefa rápida possa ser concluída sem um editor gráfico completo. É útil para trabalhos de web, documentos, redes sociais, desenvolvimento e imagens cotidianas.",
       "steps": [
-        "Abra Crop Image online online e identifique o formato ou valores de entrada necessários.",
+        "Abra Crop Image online online online e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -922,23 +922,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Crop Image online online?",
+          "q": "Para que é usado Crop Image online online online?",
           "a": "Corte imagens com proporções predefinidas (16:9, 1:1, 4:3) ou seleção de caixa de formato livre. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Crop Image online online?",
+          "q": "Como funciona Crop Image online online online?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Crop Image online online?",
+          "q": "Para que posso usar Crop Image online online online?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Crop Image online online requer uma conta ou instalação?",
+          "q": "Crop Image online online online requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Crop Image online online?",
+          "q": "O que devo verificar antes de usar a saída de Crop Image online online online?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -952,7 +952,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Redimensione as dimensões da imagem por largura, altura personalizada ou porcentagens em pixels e cm. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este fluxo de trabalho de imagem concentra-se em uma transformação para que uma tarefa rápida possa ser concluída sem um editor gráfico completo. É útil para trabalhos de web, documentos, redes sociais, desenvolvimento e imagens cotidianas.",
       "steps": [
-        "Abra Resize Image online online e identifique o formato ou valores de entrada necessários.",
+        "Abra Resize Image online online online e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
         "Execute a ferramenta e inspecione o resultado em vez de assumir que a primeira saída está correta.",
         "Baixe, copie ou reutilize o resultado somente depois de compará-lo com seus requisitos originais."
@@ -981,23 +981,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Para que é usado Resize Image online online?",
+          "q": "Para que é usado Resize Image online online online?",
           "a": "Redimensione as dimensões da imagem por largura, altura personalizada ou porcentagens em pixels e cm. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
-          "q": "Como funciona Resize Image online online?",
+          "q": "Como funciona Resize Image online online online?",
           "a": "Insira a entrada necessária no espaço de trabalho, revise as opções disponíveis, execute a operação e inspecione o resultado. Onde o processamento no navegador é suportado, o trabalho é executado no navegador; os requisitos de execução ou de tempo de execução externo são indicados pela ferramenta."
         },
         {
-          "q": "Para que posso usar Resize Image online online?",
+          "q": "Para que posso usar Resize Image online online online?",
           "a": "Os usos comuns incluem o fluxo de trabalho descrito acima, tarefas únicas e rápidas, trabalho de preparação repetível e verificação de uma saída antes de movê-la para outro aplicativo. Uma entrada limpa e uma revisão final geralmente produzem o resultado mais confiável."
         },
         {
-          "q": "Resize Image online online requer uma conta ou instalação?",
+          "q": "Resize Image online online online requer uma conta ou instalação?",
           "a": "A página foi projetada para ser usada diretamente em um navegador moderno, sem uma instalação separada na área de trabalho. Nenhuma conta é necessária para o fluxo de trabalho principal. Os recursos do navegador, o tamanho da entrada, os recursos do dispositivo e qualquer tempo de execução externo ainda podem afetar operações individuais."
         },
         {
-          "q": "O que devo verificar antes de usar a saída de Resize Image online online?",
+          "q": "O que devo verificar antes de usar a saída de Resize Image online online online?",
           "a": "Compare a saída com a entrada original, confirme se a transformação pretendida ocorreu e verifique detalhes importantes antes de publicar, enviar, enviar ou usar o resultado em um fluxo de trabalho de produção."
         },
         {
@@ -5985,7 +5985,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Comprima archivos PNG, JPEG y WebP para reducir el tamaño del archivo y equilibrar la calidad de salida. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
-        "Abra Compress Image online online e identifique el formato o los valores de entrada requeridos.",
+        "Abra Compress Image online online online e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -6014,23 +6014,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Compress Image online online?",
+          "q": "¿Para qué se utiliza Compress Image online online online?",
           "a": "Comprima archivos PNG, JPEG y WebP para reducir el tamaño del archivo y equilibrar la calidad de salida. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Compress Image online online?",
+          "q": "¿Cómo funciona Compress Image online online online?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Compress Image online online?",
+          "q": "¿Para qué puedo utilizar Compress Image online online online?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Compress Image online online requiere una cuenta o instalación?",
+          "q": "¿Compress Image online online online requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Compress Image online online?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Compress Image online online online?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -6044,7 +6044,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Recorte imágenes con relaciones de aspecto preestablecidas (16:9, 1:1, 4:3) o selección de cuadro de forma libre. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
-        "Abra Crop Image online online e identifique el formato o los valores de entrada requeridos.",
+        "Abra Crop Image online online online e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -6073,23 +6073,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Crop Image online online?",
+          "q": "¿Para qué se utiliza Crop Image online online online?",
           "a": "Recorte imágenes con relaciones de aspecto preestablecidas (16:9, 1:1, 4:3) o selección de cuadro de forma libre. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Crop Image online online?",
+          "q": "¿Cómo funciona Crop Image online online online?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Crop Image online online?",
+          "q": "¿Para qué puedo utilizar Crop Image online online online?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Crop Image online online requiere una cuenta o instalación?",
+          "q": "¿Crop Image online online online requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Crop Image online online?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Crop Image online online online?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -6103,7 +6103,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Cambie el tamaño de las dimensiones de la imagen según el ancho, alto o porcentajes personalizados en píxeles y cm. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
-        "Abra Resize Image online online e identifique el formato o los valores de entrada requeridos.",
+        "Abra Resize Image online online online e identifique el formato o los valores de entrada requeridos.",
         "Ingrese o seleccione la entrada y revise todas las opciones disponibles antes de ejecutar la operación.",
         "Ejecute la herramienta e inspeccione el resultado en lugar de asumir que el primer resultado es correcto.",
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
@@ -6132,23 +6132,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "¿Para qué se utiliza Resize Image online online?",
+          "q": "¿Para qué se utiliza Resize Image online online online?",
           "a": "Cambie el tamaño de las dimensiones de la imagen según el ancho, alto o porcentajes personalizados en píxeles y cm. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
-          "q": "¿Cómo funciona Resize Image online online?",
+          "q": "¿Cómo funciona Resize Image online online online?",
           "a": "Ingrese la entrada requerida en el espacio de trabajo, revise las opciones disponibles, ejecute la operación e inspeccione el resultado. Cuando se admite el procesamiento del lado del navegador, el trabajo se realiza en el navegador; La herramienta indica los requisitos de ejecución o de tiempo de ejecución externo."
         },
         {
-          "q": "¿Para qué puedo utilizar Resize Image online online?",
+          "q": "¿Para qué puedo utilizar Resize Image online online online?",
           "a": "Los usos comunes incluyen el flujo de trabajo descrito anteriormente, tareas rápidas únicas, trabajo de preparación repetible y verificación de una salida antes de pasarla a otra aplicación. Una entrada limpia y una revisión final suelen producir el resultado más fiable."
         },
         {
-          "q": "¿Resize Image online online requiere una cuenta o instalación?",
+          "q": "¿Resize Image online online online requiere una cuenta o instalación?",
           "a": "La página está diseñada para poder usarse directamente en un navegador moderno sin una instalación de escritorio separada. No se requiere ninguna cuenta para el flujo de trabajo principal. Las capacidades del navegador, el tamaño de entrada, los recursos del dispositivo y cualquier tiempo de ejecución externo aún pueden afectar las operaciones individuales."
         },
         {
-          "q": "¿Qué debo comprobar antes de utilizar el resultado de Resize Image online online?",
+          "q": "¿Qué debo comprobar antes de utilizar el resultado de Resize Image online online online?",
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
@@ -6835,7 +6835,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -6953,7 +6953,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -7012,7 +7012,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -7071,7 +7071,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -10344,7 +10344,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF zusammenfügen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF zusammenfügen verwenden?",
@@ -10521,7 +10521,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert JPG-zu-PDF-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich JPG-zu-PDF-Konverter verwenden?",
@@ -11136,7 +11136,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Komprimieren Sie PNG-, JPEG- und WebP-Dateien, um die Dateigröße zu reduzieren und gleichzeitig die Ausgabequalität auszugleichen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
-        "Öffnen Sie Compress Image online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Compress Image online online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -11165,23 +11165,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Compress Image online online verwendet?",
+          "q": "Wofür wird Compress Image online online online verwendet?",
           "a": "Komprimieren Sie PNG-, JPEG- und WebP-Dateien, um die Dateigröße zu reduzieren und gleichzeitig die Ausgabequalität auszugleichen. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Compress Image online online?",
+          "q": "Wie funktioniert Compress Image online online online?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Compress Image online online verwenden?",
+          "q": "Wofür kann ich Compress Image online online online verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Compress Image online online ein Konto oder eine Installation?",
+          "q": "Benötigt Compress Image online online online ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Compress Image online online verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Compress Image online online online verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -11195,7 +11195,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder freier Boxauswahl. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
-        "Öffnen Sie Crop Image online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Crop Image online online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -11224,23 +11224,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Crop Image online online verwendet?",
+          "q": "Wofür wird Crop Image online online online verwendet?",
           "a": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder freier Boxauswahl. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Crop Image online online?",
+          "q": "Wie funktioniert Crop Image online online online?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Crop Image online online verwenden?",
+          "q": "Wofür kann ich Crop Image online online online verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Crop Image online online ein Konto oder eine Installation?",
+          "q": "Benötigt Crop Image online online online ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Crop Image online online verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Crop Image online online online verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -11254,7 +11254,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Passen Sie die Bildabmessungen nach benutzerdefinierter Breite, Höhe oder Prozentsätzen in Pixel und cm an. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
-        "Öffnen Sie Resize Image online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
+        "Öffnen Sie Resize Image online online online und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
         "Geben Sie die Eingabe ein oder wählen Sie sie aus und überprüfen Sie alle verfügbaren Optionen, bevor Sie den Vorgang ausführen.",
         "Führen Sie das Tool aus und überprüfen Sie das Ergebnis, anstatt davon auszugehen, dass die erste Ausgabe korrekt ist.",
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
@@ -11283,23 +11283,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Wofür wird Resize Image online online verwendet?",
+          "q": "Wofür wird Resize Image online online online verwendet?",
           "a": "Passen Sie die Bildabmessungen nach benutzerdefinierter Breite, Höhe oder Prozentsätzen in Pixel und cm an. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
-          "q": "Wie funktioniert Resize Image online online?",
+          "q": "Wie funktioniert Resize Image online online online?",
           "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
-          "q": "Wofür kann ich Resize Image online online verwenden?",
+          "q": "Wofür kann ich Resize Image online online online verwenden?",
           "a": "Zu den üblichen Verwendungszwecken gehören der oben beschriebene Arbeitsablauf, schnelle einmalige Aufgaben, wiederholbare Vorbereitungsarbeiten und die Überprüfung einer Ausgabe vor dem Verschieben in eine andere Anwendung. Eine saubere Eingabe und eine abschließende Überprüfung führen in der Regel zu den zuverlässigsten Ergebnissen."
         },
         {
-          "q": "Benötigt Resize Image online online ein Konto oder eine Installation?",
+          "q": "Benötigt Resize Image online online online ein Konto oder eine Installation?",
           "a": "Die Seite ist so konzipiert, dass sie ohne separate Desktop-Installation direkt in einem modernen Browser nutzbar ist. Für den Kernworkflow ist kein Konto erforderlich. Browserfunktionen, Eingabegröße, Geräteressourcen und externe Laufzeiten können sich dennoch auf einzelne Vorgänge auswirken."
         },
         {
-          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Resize Image online online verwende?",
+          "q": "Was sollte ich überprüfen, bevor ich die Ausgabe von Resize Image online online online verwende?",
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
@@ -14347,7 +14347,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -14407,7 +14407,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -14467,7 +14467,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -14587,7 +14587,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -14647,7 +14647,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -16287,7 +16287,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Compressez les fichiers PNG, JPEG et WebP pour réduire la taille du fichier tout en équilibrant la qualité de sortie. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
-        "Ouvrez Compress Image online en ligne et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Compress Image online en ligne en ligne et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -16316,23 +16316,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Compress Image online en ligne ?",
+          "q": "À quoi sert Compress Image online en ligne en ligne ?",
           "a": "Compressez les fichiers PNG, JPEG et WebP pour réduire la taille du fichier tout en équilibrant la qualité de sortie. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Compress Image online en ligne ?",
+          "q": "Comment fonctionne Compress Image online en ligne en ligne ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Compress Image online en ligne ?",
+          "q": "À quoi puis-je utiliser Compress Image online en ligne en ligne ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Compress Image online en ligne nécessite-t-il un compte ou une installation ?",
+          "q": "Compress Image online en ligne en ligne nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Compress Image online en ligne ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Compress Image online en ligne en ligne ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -16346,7 +16346,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Recadrez les images avec des formats d'image prédéfinis (16:9, 1:1, 4:3) ou une sélection de boîte de forme libre. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
-        "Ouvrez Crop Image online en ligne et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Crop Image online en ligne en ligne et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -16375,23 +16375,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Crop Image online en ligne ?",
+          "q": "À quoi sert Crop Image online en ligne en ligne ?",
           "a": "Recadrez les images avec des formats d'image prédéfinis (16:9, 1:1, 4:3) ou une sélection de boîte de forme libre. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Crop Image online en ligne ?",
+          "q": "Comment fonctionne Crop Image online en ligne en ligne ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Crop Image online en ligne ?",
+          "q": "À quoi puis-je utiliser Crop Image online en ligne en ligne ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Crop Image online en ligne nécessite-t-il un compte ou une installation ?",
+          "q": "Crop Image online en ligne en ligne nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Crop Image online en ligne ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Crop Image online en ligne en ligne ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -16405,7 +16405,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Redimensionnez les dimensions de l'image selon une largeur, une hauteur ou des pourcentages personnalisés en pixels et en cm. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
-        "Ouvrez Resize Image online en ligne et identifiez le format ou les valeurs d'entrée requises.",
+        "Ouvrez Resize Image online en ligne en ligne et identifiez le format ou les valeurs d'entrée requises.",
         "Saisissez ou sélectionnez l'entrée et examinez toutes les options disponibles avant d'exécuter l'opération.",
         "Exécutez l'outil et inspectez le résultat plutôt que de supposer que la première sortie est correcte.",
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
@@ -16434,23 +16434,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "À quoi sert Resize Image online en ligne ?",
+          "q": "À quoi sert Resize Image online en ligne en ligne ?",
           "a": "Redimensionnez les dimensions de l'image selon une largeur, une hauteur ou des pourcentages personnalisés en pixels et en cm. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
-          "q": "Comment fonctionne Resize Image online en ligne ?",
+          "q": "Comment fonctionne Resize Image online en ligne en ligne ?",
           "a": "Entrez l'entrée requise dans l'espace de travail, examinez les options disponibles, exécutez l'opération et inspectez le résultat. Lorsque le traitement côté navigateur est pris en charge, le travail est effectué dans le navigateur ; les exigences d’exécution ou d’exécution externe sont indiquées par l’outil."
         },
         {
-          "q": "À quoi puis-je utiliser Resize Image online en ligne ?",
+          "q": "À quoi puis-je utiliser Resize Image online en ligne en ligne ?",
           "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
         },
         {
-          "q": "Resize Image online en ligne nécessite-t-il un compte ou une installation ?",
+          "q": "Resize Image online en ligne en ligne nécessite-t-il un compte ou une installation ?",
           "a": "La page est conçue pour être utilisable directement dans un navigateur moderne sans installation de bureau distincte. Aucun compte n'est requis pour le flux de travail principal. Les capacités du navigateur, la taille d'entrée, les ressources de l'appareil et tout environnement d'exécution externe peuvent toujours affecter les opérations individuelles."
         },
         {
-          "q": "Que dois-je vérifier avant d'utiliser la sortie de Resize Image online en ligne ?",
+          "q": "Que dois-je vérifier avant d'utiliser la sortie de Resize Image online en ligne en ligne ?",
           "a": "Vérifiez la sortie par rapport à l'entrée d'origine, confirmez que la transformation prévue a eu lieu et vérifiez les détails importants avant de publier, soumettre, envoyer ou utiliser le résultat dans un flux de production."
         },
         {
@@ -21438,7 +21438,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Comprimi file PNG, JPEG e WebP per ridurre le dimensioni del file bilanciando la qualità dell'output. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
-        "Apri Compress Image online online e identifica il formato o i valori di input richiesti.",
+        "Apri Compress Image online online online e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21467,23 +21467,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Compress Image online online?",
+          "q": "A cosa serve Compress Image online online online?",
           "a": "Comprimi file PNG, JPEG e WebP per ridurre le dimensioni del file bilanciando la qualità dell'output. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Compress Image online online?",
+          "q": "Come funziona Compress Image online online online?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Compress Image online online?",
+          "q": "Per cosa posso utilizzare Compress Image online online online?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Compress Image online online richiede un account o un'installazione?",
+          "q": "Compress Image online online online richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Compress Image online online?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Compress Image online online online?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -21497,7 +21497,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Ritaglia le immagini con proporzioni preimpostate (16:9, 1:1, 4:3) o selezionando una casella a mano libera. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
-        "Apri Crop Image online online e identifica il formato o i valori di input richiesti.",
+        "Apri Crop Image online online online e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21526,23 +21526,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Crop Image online online?",
+          "q": "A cosa serve Crop Image online online online?",
           "a": "Ritaglia le immagini con proporzioni preimpostate (16:9, 1:1, 4:3) o selezionando una casella a mano libera. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Crop Image online online?",
+          "q": "Come funziona Crop Image online online online?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Crop Image online online?",
+          "q": "Per cosa posso utilizzare Crop Image online online online?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Crop Image online online richiede un account o un'installazione?",
+          "q": "Crop Image online online online richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Crop Image online online?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Crop Image online online online?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -21556,7 +21556,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Ridimensiona le dimensioni dell'immagine in base a larghezza, altezza o percentuali personalizzate in pixel e cm. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
-        "Apri Resize Image online online e identifica il formato o i valori di input richiesti.",
+        "Apri Resize Image online online online e identifica il formato o i valori di input richiesti.",
         "Immettere o selezionare l'input ed esaminare tutte le opzioni disponibili prima di eseguire l'operazione.",
         "Esegui lo strumento e controlla il risultato anziché dare per scontato che il primo output sia corretto.",
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
@@ -21585,23 +21585,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "A cosa serve Resize Image online online?",
+          "q": "A cosa serve Resize Image online online online?",
           "a": "Ridimensiona le dimensioni dell'immagine in base a larghezza, altezza o percentuali personalizzate in pixel e cm. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
-          "q": "Come funziona Resize Image online online?",
+          "q": "Come funziona Resize Image online online online?",
           "a": "Inserisci l'input richiesto nell'area di lavoro, esamina le opzioni disponibili, esegui l'operazione e controlla il risultato. Laddove è supportata l'elaborazione lato browser, il lavoro viene eseguito nel browser; i requisiti di esecuzione o di runtime esterno sono indicati dallo strumento."
         },
         {
-          "q": "Per cosa posso utilizzare Resize Image online online?",
+          "q": "Per cosa posso utilizzare Resize Image online online online?",
           "a": "Gli usi comuni includono il flusso di lavoro descritto sopra, attività rapide una tantum, lavoro di preparazione ripetibile e controllo di un output prima di spostarlo in un'altra applicazione. Un input pulito e una revisione finale di solito producono il risultato più affidabile."
         },
         {
-          "q": "Resize Image online online richiede un account o un'installazione?",
+          "q": "Resize Image online online online richiede un account o un'installazione?",
           "a": "La pagina è progettata per essere utilizzabile direttamente in un browser moderno senza un'installazione desktop separata. Non è richiesto alcun account per il flusso di lavoro principale. Le funzionalità del browser, le dimensioni dell'input, le risorse del dispositivo e qualsiasi runtime esterno possono comunque influenzare le singole operazioni."
         },
         {
-          "q": "Cosa devo controllare prima di utilizzare l'output di Resize Image online online?",
+          "q": "Cosa devo controllare prima di utilizzare l'output di Resize Image online online online?",
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
@@ -23469,7 +23469,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -23528,7 +23528,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -23646,7 +23646,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -23705,7 +23705,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -24741,7 +24741,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "EMI = P × r × (1 + r)^n / [(1 + r)^n − 1], dove P è il capitale, r è il tasso di interesse mensile e n è il numero di pagamenti mensili."
     },
     "lumpsum-calculator": {
-      "intro": "Stima dei rendimenti totali a scadenza sugli investimenti in fondi comuni di investimento una tantum. Questa pagina combina la calcolatrice interattiva con spiegazioni pratiche, esempi, ipotesi ed errori comuni in modo che il risultato possa essere interpretato correttamente.",
+      "intro": "Stima dei rendimenti totali a scadenza sugli investimenti una tantum in fondi comuni di investimento. Questa pagina combina la calcolatrice interattiva con spiegazioni pratiche, esempi, ipotesi ed errori comuni in modo che il risultato possa essere interpretato correttamente.",
       "why": "Un calcolatore forfettario illustra come un investimento una tantum può cambiare nel tempo in base a un modello di rendimento e capitalizzazione presunto.",
       "steps": [
         "Immettere i valori richiesti dalla calcolatrice.",
@@ -26589,7 +26589,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "PNG、JPEG、および WebP ファイルを圧縮して、出力品質のバランスをとりながらファイル サイズを削減します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この画像ワークフローは 1 つの変換に焦点を当てているため、完全なグラフィック エディタがなくても簡単なタスクを完了できます。 Web、ドキュメント、ソーシャル、開発、日常の画像作業に役立ちます。",
       "steps": [
-        "Compress Image online オンライン を開き、必要な入力形式または値を特定します。",
+        "Compress Image online オンライン オンライン を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -26618,23 +26618,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online オンライン は何に使用されますか?",
+          "q": "Compress Image online オンライン オンライン は何に使用されますか?",
           "a": "PNG、JPEG、および WebP ファイルを圧縮して、出力品質のバランスをとりながらファイル サイズを削減します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Compress Image online オンライン はどのように機能しますか?",
+          "q": "Compress Image online オンライン オンライン はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Compress Image online オンライン は何に使用できますか?",
+          "q": "Compress Image online オンライン オンライン は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Compress Image online オンライン にはアカウントやインストールが必要ですか?",
+          "q": "Compress Image online オンライン オンライン にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Compress Image online オンライン からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "Compress Image online オンライン オンライン からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -26648,7 +26648,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "プリセットのアスペクト比 (16:9、1:1、4:3) または自由形式のボックス選択で画像をトリミングします。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この画像ワークフローは 1 つの変換に焦点を当てているため、完全なグラフィック エディタがなくても簡単なタスクを完了できます。 Web、ドキュメント、ソーシャル、開発、日常の画像作業に役立ちます。",
       "steps": [
-        "Crop Image online オンライン を開き、必要な入力形式または値を特定します。",
+        "Crop Image online オンライン オンライン を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -26677,23 +26677,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online オンライン は何に使用されますか?",
+          "q": "Crop Image online オンライン オンライン は何に使用されますか?",
           "a": "プリセットのアスペクト比 (16:9、1:1、4:3) または自由形式のボックス選択で画像をトリミングします。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Crop Image online オンライン はどのように機能しますか?",
+          "q": "Crop Image online オンライン オンライン はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Crop Image online オンライン は何に使用できますか?",
+          "q": "Crop Image online オンライン オンライン は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Crop Image online オンライン にはアカウントやインストールが必要ですか?",
+          "q": "Crop Image online オンライン オンライン にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Crop Image online オンライン からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "Crop Image online オンライン オンライン からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -26707,7 +26707,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "カスタムの幅、高さ、またはピクセルとセンチメートル単位のパーセンテージで画像のサイズを変更します。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この画像ワークフローは 1 つの変換に焦点を当てているため、完全なグラフィック エディタがなくても簡単なタスクを完了できます。 Web、ドキュメント、ソーシャル、開発、日常の画像作業に役立ちます。",
       "steps": [
-        "Resize Image online オンライン を開き、必要な入力形式または値を特定します。",
+        "Resize Image online オンライン オンライン を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
         "最初の出力が正しいと仮定するのではなく、ツールを実行して結果を検査します。",
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
@@ -26736,23 +26736,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online オンライン は何に使用されますか?",
+          "q": "Resize Image online オンライン オンライン は何に使用されますか?",
           "a": "カスタムの幅、高さ、またはピクセルとセンチメートル単位のパーセンテージで画像のサイズを変更します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
-          "q": "Resize Image online オンライン はどのように機能しますか?",
+          "q": "Resize Image online オンライン オンライン はどのように機能しますか?",
           "a": "ワークスペースに必要な入力を入力し、利用可能なオプションを確認し、操作を実行して、結果を検査します。ブラウザ側の処理がサポートされている場合、作業はブラウザ内で実行されます。実行要件または外部ランタイム要件はツールによって示されます。"
         },
         {
-          "q": "Resize Image online オンライン は何に使用できますか?",
+          "q": "Resize Image online オンライン オンライン は何に使用できますか?",
           "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
-          "q": "Resize Image online オンライン にはアカウントやインストールが必要ですか?",
+          "q": "Resize Image online オンライン オンライン にはアカウントやインストールが必要ですか?",
           "a": "このページは、デスクトップに別個にインストールしなくても、最新のブラウザで直接使用できるように設計されています。コア ワークフローにはアカウントは必要ありません。ブラウザーの機能、入力サイズ、デバイス リソース、および外部ランタイムは、依然として個々の操作に影響を与える可能性があります。"
         },
         {
-          "q": "Resize Image online オンライン からの出力を使用する前に何を確認する必要がありますか?",
+          "q": "Resize Image online オンライン オンライン からの出力を使用する前に何を確認する必要がありますか?",
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
@@ -29843,7 +29843,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "さまざまな emi 計算シナリオを比較します。",
         "スプレッドシートや公式声明を使用する前に、簡単な計画の見積もりを作成してください。",
-        "どの入力が結果に最大の影響を与えるかを理解します。",
+        "どの入力が結果に最も大きな影響を与えるかを理解します。",
         "後で計算を繰り返すことができるように、仮定を記録します。",
         "2 つのローン期間を比較します。",
         "住宅、車、または個人ローンの合計利息を見積もります。",
@@ -30760,7 +30760,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "公開されているビデオ情報とプラットフォームの動作は変更される可能性があります。",
         "収益の見積もりは、視聴者、地域、収益化、広告在庫、その他の要因によって異なります。",
-        "ランキング、視聴数、収益、チャンネルの成長を保証できるツールはありません。"
+        "ランキング、視聴回数、収益、チャンネルの成長を保証できるツールはありません。"
       ],
       "faq": [
         {
@@ -30819,7 +30819,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "公開されているビデオ情報とプラットフォームの動作は変更される可能性があります。",
         "収益の見積もりは、視聴者、地域、収益化、広告在庫、その他の要因によって異なります。",
-        "ランキング、視聴数、収益、チャンネルの成長を保証できるツールはありません。"
+        "ランキング、視聴回数、収益、チャンネルの成長を保証できるツールはありません。"
       ],
       "faq": [
         {
@@ -30944,7 +30944,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "PDF 합치기는 어떤 용도로 사용되나요?",
-          "a": "여러 PDF 파일을 선택한 순서대로 하나의 깨끗한 문서로 결합합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "여러 PDF 파일을 선택한 순서대로 하나의 깨끗한 문서로 결합합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "PDF 합치기는 어떻게 작동하나요?",
@@ -31062,7 +31062,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "PDF를 JPG로 변환는 어떤 용도로 사용되나요?",
-          "a": "PDF 문서에서 페이지를 추출하여 고품질 JPG 이미지로 내보냅니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "PDF 문서에서 페이지를 추출하여 고품질 JPG 이미지로 내보냅니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "PDF를 JPG로 변환는 어떻게 작동하나요?",
@@ -31121,7 +31121,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "JPG를 PDF로 변환는 어떤 용도로 사용되나요?",
-          "a": "JPG, JPEG 및 PNG 이미지를 깨끗하고 표준화된 PDF 파일로 변환합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "JPG, JPEG 및 PNG 이미지를 깨끗하고 표준화된 PDF 파일로 변환합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "JPG를 PDF로 변환는 어떻게 작동하나요?",
@@ -31740,7 +31740,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "PNG, JPEG 및 WebP 파일을 압축하여 출력 품질의 균형을 유지하면서 파일 크기를 줄입니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
-        "Compress Image online 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "Compress Image online 온라인 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -31769,23 +31769,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online 온라인는 어떤 용도로 사용되나요?",
+          "q": "Compress Image online 온라인 온라인는 어떤 용도로 사용되나요?",
           "a": "PNG, JPEG 및 WebP 파일을 압축하여 출력 품질의 균형을 유지하면서 파일 크기를 줄입니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Compress Image online 온라인는 어떻게 작동하나요?",
+          "q": "Compress Image online 온라인 온라인는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Compress Image online 온라인는 무엇에 사용할 수 있나요?",
+          "q": "Compress Image online 온라인 온라인는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Compress Image online 온라인에는 계정이나 설치가 필요합니까?",
+          "q": "Compress Image online 온라인 온라인에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Compress Image online 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "Compress Image online 온라인 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -31799,7 +31799,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "사전 설정된 화면비(16:9, 1:1, 4:3) 또는 자유 형식 상자 선택으로 이미지를 자릅니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
-        "Crop Image online 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "Crop Image online 온라인 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -31828,23 +31828,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online 온라인는 어떤 용도로 사용되나요?",
+          "q": "Crop Image online 온라인 온라인는 어떤 용도로 사용되나요?",
           "a": "사전 설정된 화면비(16:9, 1:1, 4:3) 또는 자유 형식 상자 선택으로 이미지를 자릅니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Crop Image online 온라인는 어떻게 작동하나요?",
+          "q": "Crop Image online 온라인 온라인는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Crop Image online 온라인는 무엇에 사용할 수 있나요?",
+          "q": "Crop Image online 온라인 온라인는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Crop Image online 온라인에는 계정이나 설치가 필요합니까?",
+          "q": "Crop Image online 온라인 온라인에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Crop Image online 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "Crop Image online 온라인 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -31858,7 +31858,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "사용자 정의 너비, 높이 또는 백분율(픽셀 및 cm)로 이미지 크기를 조정합니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
-        "Resize Image online 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
+        "Resize Image online 온라인 온라인를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "작업을 실행하기 전에 입력을 입력하거나 선택하고 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
@@ -31887,23 +31887,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online 온라인는 어떤 용도로 사용되나요?",
+          "q": "Resize Image online 온라인 온라인는 어떤 용도로 사용되나요?",
           "a": "사용자 정의 너비, 높이 또는 백분율(픽셀 및 cm)로 이미지 크기를 조정합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공하는 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
-          "q": "Resize Image online 온라인는 어떻게 작동하나요?",
+          "q": "Resize Image online 온라인 온라인는 어떻게 작동하나요?",
           "a": "작업 공간에 필요한 입력을 입력하고, 사용 가능한 옵션을 검토하고, 작업을 실행하고, 결과를 검사합니다. 브라우저 측 처리가 지원되는 경우 작업은 브라우저에서 수행됩니다. 실행 또는 외부 런타임 요구 사항은 도구에 표시됩니다."
         },
         {
-          "q": "Resize Image online 온라인는 무엇에 사용할 수 있나요?",
+          "q": "Resize Image online 온라인 온라인는 무엇에 사용할 수 있나요?",
           "a": "일반적인 용도로는 위에서 설명한 워크플로우, 빠른 일회성 작업, 반복 가능한 준비 작업, 다른 애플리케이션으로 이동하기 전 출력 확인 등이 있습니다. 명확한 입력과 최종 검토는 일반적으로 가장 신뢰할 수 있는 결과를 생성합니다."
         },
         {
-          "q": "Resize Image online 온라인에는 계정이나 설치가 필요합니까?",
+          "q": "Resize Image online 온라인 온라인에는 계정이나 설치가 필요합니까?",
           "a": "별도의 데스크톱 설치 없이 모던 브라우저에서 바로 사용할 수 있도록 페이지를 구성하였습니다. 핵심 워크플로에는 계정이 필요하지 않습니다. 브라우저 기능, 입력 크기, 장치 리소스 및 외부 런타임은 여전히 ​​개별 작업에 영향을 미칠 수 있습니다."
         },
         {
-          "q": "Resize Image online 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
+          "q": "Resize Image online 온라인 온라인의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
           "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
         },
         {
@@ -34935,7 +34935,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "다양한 모금 계산기 시나리오를 비교해 보세요.",
         "스프레드시트나 공식 성명을 사용하기 전에 빠른 계획 견적을 작성하세요.",
         "어떤 입력이 결과에 가장 큰 영향을 미치는지 이해합니다.",
-        "나중에 계산을 반복할 수 있도록 가정을 기록하십시오.",
+        "나중에 계산을 반복할 수 있도록 가정을 기록합니다.",
         "10년, 15년, 20년 동안 월간 기여금을 비교하세요.",
         "몇 가지 가정된 연간 수익률을 테스트해 보세요.",
         "예상 성장에서 총 기여금을 분리합니다."
@@ -36891,7 +36891,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "压缩 PNG、JPEG 和 WebP 文件以减小文件大小，同时平衡输出质量。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
-        "打开 Compress Image online 在线 并确定所需的输入格式或值。",
+        "打开 Compress Image online 在线 在线 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -36920,23 +36920,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online 在线 有何用途？",
+          "q": "Compress Image online 在线 在线 有何用途？",
           "a": "压缩 PNG、JPEG 和 WebP 文件以减小文件大小，同时平衡输出质量。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Compress Image online 在线 如何工作？",
+          "q": "Compress Image online 在线 在线 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Compress Image online 在线 可以用来做什么？",
+          "q": "Compress Image online 在线 在线 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Compress Image online 在线 是否需要帐户或安装？",
+          "q": "Compress Image online 在线 在线 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Compress Image online 在线 的输出之前我应该检查什么？",
+          "q": "在使用 Compress Image online 在线 在线 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -36950,7 +36950,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "使用预设长宽比（16:9、1:1、4:3）或自由框选择裁剪图像。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
-        "打开 Crop Image online 在线 并确定所需的输入格式或值。",
+        "打开 Crop Image online 在线 在线 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -36979,23 +36979,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online 在线 有何用途？",
+          "q": "Crop Image online 在线 在线 有何用途？",
           "a": "使用预设长宽比（16:9、1:1、4:3）或自由框选择裁剪图像。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Crop Image online 在线 如何工作？",
+          "q": "Crop Image online 在线 在线 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Crop Image online 在线 可以用来做什么？",
+          "q": "Crop Image online 在线 在线 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Crop Image online 在线 是否需要帐户或安装？",
+          "q": "Crop Image online 在线 在线 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Crop Image online 在线 的输出之前我应该检查什么？",
+          "q": "在使用 Crop Image online 在线 在线 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -37009,7 +37009,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "按自定义宽度、高度或百分比（以像素和厘米为单位）调整图像尺寸。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
-        "打开 Resize Image online 在线 并确定所需的输入格式或值。",
+        "打开 Resize Image online 在线 在线 并确定所需的输入格式或值。",
         "在运行操作之前输入或选择输入并检查每个可用选项。",
         "运行该工具并检查结果，而不是假设第一个输出是正确的。",
         "仅在根据您的原始要求进行检查后才下载、复制或重复使用结果。"
@@ -37038,23 +37038,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online 在线 有何用途？",
+          "q": "Resize Image online 在线 在线 有何用途？",
           "a": "按自定义宽度、高度或百分比（以像素和厘米为单位）调整图像尺寸。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
-          "q": "Resize Image online 在线 如何工作？",
+          "q": "Resize Image online 在线 在线 如何工作？",
           "a": "在工作区中输入所需的输入，查看可用选项，运行操作并检查结果。如果支持浏览器端处理，则工作在浏览器中执行；执行或外部运行时要求由工具指示。"
         },
         {
-          "q": "Resize Image online 在线 可以用来做什么？",
+          "q": "Resize Image online 在线 在线 可以用来做什么？",
           "a": "常见用途包括上述工作流程、快速一次性任务、可重复的准备工作以及在将输出移至另一个应用程序之前检查输出。干净的输入和最终的审查通常会产生最可靠的结果。"
         },
         {
-          "q": "Resize Image online 在线 是否需要帐户或安装？",
+          "q": "Resize Image online 在线 在线 是否需要帐户或安装？",
           "a": "该页面设计为可直接在现代浏览器中使用，无需单独的桌面安装。核心工作流程不需要帐户。浏览器功能、输入大小、设备资源和任何外部运行时仍然会影响单个操作。"
         },
         {
-          "q": "在使用 Resize Image online 在线 的输出之前我应该检查什么？",
+          "q": "在使用 Resize Image online 在线 在线 的输出之前我应该检查什么？",
           "a": "根据原始输入检查输出，确认发生了预期的转换，并在发布、提交、发送或在生产工作流程中使用结果之前验证重要细节。"
         },
         {
@@ -42042,7 +42042,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Сжимайте файлы PNG, JPEG и WebP, чтобы уменьшить размер файла и одновременно сбалансировать качество вывода. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс с изображением фокусируется на одном преобразовании, поэтому быструю задачу можно выполнить без полноценного графического редактора. Он полезен для веб-сайтов, документов, социальных сетей, разработки и повседневной работы с изображениями.",
       "steps": [
-        "Откройте Compress Image online онлайн и определите необходимый формат ввода или значения.",
+        "Откройте Compress Image online онлайн онлайн и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -42071,23 +42071,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Compress Image online онлайн?",
+          "q": "Для чего используется Compress Image online онлайн онлайн?",
           "a": "Сжимайте файлы PNG, JPEG и WebP, чтобы уменьшить размер файла и одновременно сбалансировать качество вывода. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Compress Image online онлайн?",
+          "q": "Как работает Compress Image online онлайн онлайн?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Compress Image online онлайн?",
+          "q": "Для чего я могу использовать Compress Image online онлайн онлайн?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Compress Image online онлайн учетная запись или установка?",
+          "q": "Требуется ли для Compress Image online онлайн онлайн учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Compress Image online онлайн?",
+          "q": "Что мне следует проверить перед использованием результатов Compress Image online онлайн онлайн?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -42101,7 +42101,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Обрезайте изображения с предустановленными соотношениями сторон (16:9, 1:1, 4:3) или выбором рамки произвольной формы. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс с изображением фокусируется на одном преобразовании, поэтому быструю задачу можно выполнить без полноценного графического редактора. Он полезен для веб-сайтов, документов, социальных сетей, разработки и повседневной работы с изображениями.",
       "steps": [
-        "Откройте Crop Image online онлайн и определите необходимый формат ввода или значения.",
+        "Откройте Crop Image online онлайн онлайн и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -42130,23 +42130,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Crop Image online онлайн?",
+          "q": "Для чего используется Crop Image online онлайн онлайн?",
           "a": "Обрезайте изображения с предустановленными соотношениями сторон (16:9, 1:1, 4:3) или выбором рамки произвольной формы. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Crop Image online онлайн?",
+          "q": "Как работает Crop Image online онлайн онлайн?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Crop Image online онлайн?",
+          "q": "Для чего я могу использовать Crop Image online онлайн онлайн?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Crop Image online онлайн учетная запись или установка?",
+          "q": "Требуется ли для Crop Image online онлайн онлайн учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Crop Image online онлайн?",
+          "q": "Что мне следует проверить перед использованием результатов Crop Image online онлайн онлайн?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -42160,7 +42160,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Измените размеры изображения по индивидуальной ширине, высоте или в процентах в пикселях и см. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс с изображением фокусируется на одном преобразовании, поэтому быструю задачу можно выполнить без полноценного графического редактора. Он полезен для веб-сайтов, документов, социальных сетей, разработки и повседневной работы с изображениями.",
       "steps": [
-        "Откройте Resize Image online онлайн и определите необходимый формат ввода или значения.",
+        "Откройте Resize Image online онлайн онлайн и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
         "Запустите инструмент и проверьте результат, а не предполагайте, что первый вывод верен.",
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
@@ -42189,23 +42189,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Для чего используется Resize Image online онлайн?",
+          "q": "Для чего используется Resize Image online онлайн онлайн?",
           "a": "Измените размеры изображения по индивидуальной ширине, высоте или в процентах в пикселях и см. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
-          "q": "Как работает Resize Image online онлайн?",
+          "q": "Как работает Resize Image online онлайн онлайн?",
           "a": "Введите необходимые данные в рабочую область, просмотрите доступные параметры, запустите операцию и проверьте результат. Если поддерживается обработка на стороне браузера, работа выполняется в браузере; Требования к выполнению или внешнему времени выполнения указываются инструментом."
         },
         {
-          "q": "Для чего я могу использовать Resize Image online онлайн?",
+          "q": "Для чего я могу использовать Resize Image online онлайн онлайн?",
           "a": "Обычное использование включает описанный выше рабочий процесс, быстрые одноразовые задачи, повторяемую подготовительную работу и проверку результатов перед перемещением их в другое приложение. Чистая информация и окончательная проверка обычно дают наиболее надежный результат."
         },
         {
-          "q": "Требуется ли для Resize Image online онлайн учетная запись или установка?",
+          "q": "Требуется ли для Resize Image online онлайн онлайн учетная запись или установка?",
           "a": "Страница спроектирована так, чтобы ее можно было использовать непосредственно в современном браузере без отдельной установки на рабочий стол. Для основного рабочего процесса учетная запись не требуется. Возможности браузера, размер входных данных, ресурсы устройства и любая внешняя среда выполнения по-прежнему могут влиять на отдельные операции."
         },
         {
-          "q": "Что мне следует проверить перед использованием результатов Resize Image online онлайн?",
+          "q": "Что мне следует проверить перед использованием результатов Resize Image online онлайн онлайн?",
           "a": "Сравнивайте выходные данные с исходными входными, подтвердите, что запланированное преобразование произошло, и проверьте важные детали перед публикацией, отправкой, отправкой или использованием результата в производственном рабочем процессе."
         },
         {
@@ -43356,7 +43356,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "Проверьте преобразованные данные перед их фиксацией.",
-        "Включайте крайние случаи и неверные входные данные во время тестирования.",
+        "Включайте крайние случаи и неверный ввод во время тестирования.",
         "Никогда не вставляйте производственные секреты или личные данные клиентов.",
         "Избегайте: путайте JSON с синтаксисом объектов JavaScript.",
         "Избегайте: потери дубликатов ключей без наблюдения за поведением анализатора.",
@@ -43533,7 +43533,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "Проверьте преобразованные данные перед их фиксацией.",
-        "Включайте крайние случаи и неверные входные данные во время тестирования.",
+        "Включайте крайние случаи и неверный ввод во время тестирования.",
         "Никогда не вставляйте производственные секреты или личные данные клиентов.",
         "Избегайте: многократного кодирования одного и того же текста.",
         "Избегайте: путать экранирование HTML с кодировкой URL.",
@@ -44104,7 +44104,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "text"
     },
     "text-case-converter": {
-      "intro": "Мгновенно преобразуйте текст в ПРОПИСНЫЙ, строчный регистр, регистр заголовков и верблюжий регистр. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
+      "intro": "Мгновенно преобразуйте текст в ПРОПИСНЫЕ, строчные буквы, регистр заголовков и верблюжий регистр. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Эта текстовая утилита предназначена для повторяющихся задач очистки, сравнения, преобразования или создания, когда ручное редактирование выполняется медленнее или более подвержено ошибкам.",
       "steps": [
         "Откройте Text Case и определите необходимый формат ввода или значения.",
@@ -45313,7 +45313,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Результаты зависят от допущений и исходных данных.",
         "Округление может привести к небольшим отличиям от официальных калькуляторов или заявлений.",
-        "Результаты, связанные с финансами и здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
+        "Финансовые результаты и результаты, связанные со здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
       ],
       "faq": [
         {
@@ -46205,7 +46205,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Используйте результаты как средство планирования, а не как гарантию эффективности.",
         "Прежде чем публиковать решения, проверьте сведения о общедоступном видео.",
-        "Никогда не вводите данные личной учетной записи.",
+        "Никогда не вводите данные личного аккаунта.",
         "Избегайте: использования контента без разрешения.",
         "Избегайте: Предполагать, что каждое видео имеет любое разрешение.",
         "Избегайте: игнорирования прав оригинального создателя и условий платформы."
@@ -46264,7 +46264,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Используйте результаты как средство планирования, а не как гарантию эффективности.",
         "Прежде чем публиковать решения, проверьте сведения о общедоступном видео.",
-        "Никогда не вводите данные личной учетной записи.",
+        "Никогда не вводите данные личного аккаунта.",
         "Избегайте: Наполнения нерелевантными ключевыми словами.",
         "Избегайте: Рассматривать теги как гарантию ранжирования.",
         "Избегайте: игнорирования заголовка, миниатюры, качества контента и намерений зрителей."
@@ -46423,7 +46423,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "split-pdf": {
-      "intro": "افصل الصفحات الفردية أو استخرج نطاقات صفحات معينة من ملفات PDF. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "intro": "افصل الصفحات الفردية أو استخرج نطاقات صفحات محددة من ملفات PDF. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح تقسيم PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
@@ -46895,7 +46895,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "pdf-to-word": {
-      "intro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم محتوى المصدر. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "intro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم المحتوى المصدر. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح محول PDF إلى Word وحدد تنسيق الإدخال أو القيم المطلوبة.",
@@ -47193,7 +47193,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قم بضغط ملفات PNG وJPEG وWebP لتقليل حجم الملف مع موازنة جودة الإخراج. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
-        "افتح Compress Image online عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح Compress Image online عبر الإنترنت عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -47222,23 +47222,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام Compress Image online عبر الإنترنت؟",
+          "q": "ما هو الغرض من استخدام Compress Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "قم بضغط ملفات PNG وJPEG وWebP لتقليل حجم الملف مع موازنة جودة الإخراج. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل Compress Image online عبر الإنترنت؟",
+          "q": "كيف يعمل Compress Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه Compress Image online عبر الإنترنت من أجله؟",
+          "q": "ما الذي يمكنني استخدامه Compress Image online عبر الإنترنت عبر الإنترنت من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب Compress Image online عبر الإنترنت حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب Compress Image online عبر الإنترنت عبر الإنترنت حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Compress Image online عبر الإنترنت؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Compress Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -47252,7 +47252,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قص الصور بنسب عرض إلى ارتفاع محددة مسبقًا (16:9، 1:1، 4:3) أو تحديد مربع حر الشكل. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
-        "افتح Crop Image online عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح Crop Image online عبر الإنترنت عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -47281,23 +47281,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام Crop Image online عبر الإنترنت؟",
+          "q": "ما هو الغرض من استخدام Crop Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "قص الصور بنسب عرض إلى ارتفاع محددة مسبقًا (16:9، 1:1، 4:3) أو تحديد مربع حر الشكل. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل Crop Image online عبر الإنترنت؟",
+          "q": "كيف يعمل Crop Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه Crop Image online عبر الإنترنت من أجله؟",
+          "q": "ما الذي يمكنني استخدامه Crop Image online عبر الإنترنت عبر الإنترنت من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب Crop Image online عبر الإنترنت حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب Crop Image online عبر الإنترنت عبر الإنترنت حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Crop Image online عبر الإنترنت؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Crop Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -47311,7 +47311,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "قم بتغيير حجم أبعاد الصورة حسب العرض أو الارتفاع أو النسب المئوية بالبكسل والسم. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
-        "افتح Resize Image online عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
+        "افتح Resize Image online عبر الإنترنت عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
         "قم بتشغيل الأداة وافحص النتيجة بدلاً من افتراض صحة الإخراج الأول.",
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
@@ -47340,23 +47340,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "ما هو الغرض من استخدام Resize Image online عبر الإنترنت؟",
+          "q": "ما هو الغرض من استخدام Resize Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "قم بتغيير حجم أبعاد الصورة حسب العرض أو الارتفاع أو النسب المئوية بالبكسل والسم. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
-          "q": "كيف يعمل Resize Image online عبر الإنترنت؟",
+          "q": "كيف يعمل Resize Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "أدخل المدخلات المطلوبة في مساحة العمل، وراجع الخيارات المتاحة، وقم بتشغيل العملية، وافحص النتيجة. عندما يتم دعم المعالجة من جانب المتصفح، يتم تنفيذ العمل في المتصفح؛ تتم الإشارة إلى متطلبات التنفيذ أو وقت التشغيل الخارجي بواسطة الأداة."
         },
         {
-          "q": "ما الذي يمكنني استخدامه Resize Image online عبر الإنترنت من أجله؟",
+          "q": "ما الذي يمكنني استخدامه Resize Image online عبر الإنترنت عبر الإنترنت من أجله؟",
           "a": "تتضمن الاستخدامات الشائعة سير العمل الموصوف أعلاه، والمهام السريعة لمرة واحدة، وأعمال التحضير المتكررة، والتحقق من المخرجات قبل نقلها إلى تطبيق آخر. عادةً ما تؤدي المدخلات الواضحة والمراجعة النهائية إلى النتيجة الأكثر موثوقية."
         },
         {
-          "q": "هل يتطلب Resize Image online عبر الإنترنت حسابًا أو تثبيتًا؟",
+          "q": "هل يتطلب Resize Image online عبر الإنترنت عبر الإنترنت حسابًا أو تثبيتًا؟",
           "a": "تم تصميم الصفحة لتكون قابلة للاستخدام مباشرة في متصفح حديث دون الحاجة إلى تثبيت منفصل على سطح المكتب. لا يوجد حساب مطلوب لسير العمل الأساسي. لا تزال إمكانيات المتصفح وحجم الإدخال وموارد الجهاز وأي وقت تشغيل خارجي تؤثر على العمليات الفردية."
         },
         {
-          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Resize Image online عبر الإنترنت؟",
+          "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من Resize Image online عبر الإنترنت عبر الإنترنت؟",
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
@@ -50441,7 +50441,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "steps": [
         "أدخل القيم التي طلبتها الآلة الحاسبة.",
         "مراجعة الافتراضات والوحدات قبل الحساب.",
-        "قم بإجراء العملية الحسابية وقارن بين سيناريو بديل واحد على الأقل.",
+        "قم بإجراء الحساب وقارن بين سيناريو بديل واحد على الأقل.",
         "استخدم النتيجة كتقدير وتحقق من القرارات المهمة مقابل السجلات أو الشروط الرسمية."
       ],
       "useCases": [
@@ -51337,7 +51337,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "youtube-thumbnail-downloader": {
       "intro": "استرجع دقة الصور المصغرة المتاحة لمقاطع فيديو YouTube العامة باستخدام معرفات الفيديو أو عناوين URL الخاصة بها. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "يدعم سير عمل منشئ المحتوى هذا معلومات YouTube العامة أو تخطيط المحتوى أو التقدير. لقد تم تصميمه لجعل مهام المنشئ المتكررة أسرع مع إبقاء الافتراضات مرئية.",
+      "why": "يدعم سير عمل منشئ المحتوى هذا معلومات YouTube العامة أو تخطيط المحتوى أو التقدير. إنه مصمم لجعل مهام المنشئ المتكررة أسرع مع إبقاء الافتراضات مرئية.",
       "steps": [
         "افتح YouTube Thumbnail وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -51396,7 +51396,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "youtube-tag-generator": {
       "intro": "قم بإنشاء علامات YouTube وأفكار الكلمات الرئيسية ذات الصلة للمساعدة في تنظيم البيانات الوصفية للفيديو وتحسينها. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "يدعم سير عمل منشئ المحتوى هذا معلومات YouTube العامة أو تخطيط المحتوى أو التقدير. لقد تم تصميمه لجعل مهام المنشئ المتكررة أسرع مع إبقاء الافتراضات مرئية.",
+      "why": "يدعم سير عمل منشئ المحتوى هذا معلومات YouTube العامة أو تخطيط المحتوى أو التقدير. إنه مصمم لجعل مهام المنشئ المتكررة أسرع مع إبقاء الافتراضات مرئية.",
       "steps": [
         "افتح مولد YouTube Tag وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -52344,7 +52344,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "आउटपुट गुणवत्ता को संतुलित करते हुए फ़ाइल का आकार कम करने के लिए पीएनजी, जेपीईजी और वेबपी फ़ाइलों को संपीड़ित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Compress Image online ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "Compress Image online ऑनलाइन ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -52373,23 +52373,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Compress Image online ऑनलाइन का उपयोग किसके लिए किया जाता है?",
+          "q": "Compress Image online ऑनलाइन ऑनलाइन का उपयोग किसके लिए किया जाता है?",
           "a": "आउटपुट गुणवत्ता को संतुलित करते हुए फ़ाइल का आकार कम करने के लिए पीएनजी, जेपीईजी और वेबपी फ़ाइलों को संपीड़ित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Compress Image online ऑनलाइन कैसे काम करता है?",
+          "q": "Compress Image online ऑनलाइन ऑनलाइन कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Compress Image online ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं Compress Image online ऑनलाइन ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Compress Image online ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या Compress Image online ऑनलाइन ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Compress Image online ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "Compress Image online ऑनलाइन ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -52403,7 +52403,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "पूर्व निर्धारित पहलू अनुपात (16:9, 1:1, 4:3) या फ़्रीफ़ॉर्म बॉक्स चयन के साथ छवियों को काटें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Crop Image online ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "Crop Image online ऑनलाइन ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -52432,23 +52432,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Crop Image online ऑनलाइन का उपयोग किसके लिए किया जाता है?",
+          "q": "Crop Image online ऑनलाइन ऑनलाइन का उपयोग किसके लिए किया जाता है?",
           "a": "पूर्व निर्धारित पहलू अनुपात (16:9, 1:1, 4:3) या फ़्रीफ़ॉर्म बॉक्स चयन के साथ छवियों को काटें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Crop Image online ऑनलाइन कैसे काम करता है?",
+          "q": "Crop Image online ऑनलाइन ऑनलाइन कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Crop Image online ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं Crop Image online ऑनलाइन ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Crop Image online ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या Crop Image online ऑनलाइन ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Crop Image online ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "Crop Image online ऑनलाइन ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -52462,7 +52462,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "कस्टम चौड़ाई, ऊंचाई या पिक्सेल और सेमी में प्रतिशत के आधार पर छवि आयामों का आकार बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Resize Image online ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "Resize Image online ऑनलाइन ऑनलाइन खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
         "टूल चलाएँ और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
@@ -52491,23 +52491,23 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "faq": [
         {
-          "q": "Resize Image online ऑनलाइन का उपयोग किसके लिए किया जाता है?",
+          "q": "Resize Image online ऑनलाइन ऑनलाइन का उपयोग किसके लिए किया जाता है?",
           "a": "कस्टम चौड़ाई, ऊंचाई या पिक्सेल और सेमी में प्रतिशत के आधार पर छवि आयामों का आकार बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "Resize Image online ऑनलाइन कैसे काम करता है?",
+          "q": "Resize Image online ऑनलाइन ऑनलाइन कैसे काम करता है?",
           "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "मैं Resize Image online ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
+          "q": "मैं Resize Image online ऑनलाइन ऑनलाइन का उपयोग किस लिए कर सकता हूँ?",
           "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "क्या Resize Image online ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "q": "क्या Resize Image online ऑनलाइन ऑनलाइन को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
           "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "Resize Image online ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "q": "Resize Image online ऑनलाइन ऑनलाइन से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
@@ -53195,7 +53195,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
         "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
-        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
       ],
       "faq": [
         {
@@ -53254,7 +53254,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
         "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
-        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
       ],
       "faq": [
         {
@@ -53431,7 +53431,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
         "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
-        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
       ],
       "faq": [
         {
@@ -54374,7 +54374,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
-        "स्वचालित पाठ परिवर्तन हर अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
         "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
@@ -55468,7 +55468,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "converter"
     },
     "power-wattage-converter": {
-      "intro": "वाट, किलोवाट (किलोवाट), मेगावाट और यांत्रिक अश्वशक्ति परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "intro": "वाट, किलोवाट (किलोवाट), मेगावाट, और यांत्रिक अश्वशक्ति परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
         "पावर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
@@ -55572,7 +55572,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए SIP कैलकुलेटर का उपयोग कर सकता हूं?",
-          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता।"
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
           "q": "क्या एसआईपी कैलकुलेटर भविष्य के मूल्य की गारंटी देता है?",
@@ -55632,7 +55632,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए EMI कैलकुलेटर का उपयोग कर सकता हूं?",
-          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता।"
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
           "q": "क्या हर महीने ईएमआई एक समान होती है?",
@@ -55692,7 +55692,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए Lumpsum कैलकुलेटर का उपयोग कर सकता हूं?",
-          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता।"
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
           "q": "एकमुश्त निवेश एसआईपी से कैसे अलग है?",
@@ -55812,7 +55812,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए सैलरी कैलकुलेटर का उपयोग कर सकता हूं?",
-          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता।"
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
           "q": "क्या वेतन कैलकुलेटर का आउटपुट मेरी वेतन पर्ची के समान है?",
@@ -55872,7 +55872,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए FD कैलकुलेटर का उपयोग कर सकता हूं?",
-          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता।"
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
           "q": "क्या FD पर ब्याज की गणना हर बैंक द्वारा एक ही तरह से की जाती है?",
