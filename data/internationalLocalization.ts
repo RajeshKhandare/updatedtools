@@ -199,11 +199,16 @@ function generateLocalizedName(tool: ToolMeta, locale: Exclude<LocaleCode, 'en'>
 export function getLocalizedToolName(tool: ToolMeta, locale: LocaleCode): string {
   if (locale === 'en') return tool.name;
   const localeCode = locale as Exclude<LocaleCode, 'en'>;
+
+  // Explicit tool-name translations are authoritative. Prefer them before
+  // generated keyword candidates so a mixed-language SEO phrase cannot
+  // override the actual localized UI name.
+  const explicitName = NAME_PHRASES[tool.name]?.[locale];
+  if (explicitName) return explicitName;
+
   const generated = generateLocalizedName(tool, localeCode);
   if (generated && generated !== tool.name) return generated;
 
-  const explicitName = NAME_PHRASES[tool.name]?.[locale];
-  if (explicitName) return explicitName;
   const validationLocale = locale === 'pt' ? 'pt-BR' : locale === 'zh' ? 'zh-CN' : locale;
   const evidence = getInternationalKeywordValidation(validationLocale, tool.slug);
   return evidence?.primaryKeyword || generated || tool.name;
