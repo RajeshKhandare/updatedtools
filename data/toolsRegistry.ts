@@ -17,6 +17,7 @@ export const CATEGORIES = [
   'Converters',
   'Calculators',
   'YouTube',
+  'Time Table',
 ] as const;
 
 export const TOOLS_REGISTRY: ToolMeta[] = [
