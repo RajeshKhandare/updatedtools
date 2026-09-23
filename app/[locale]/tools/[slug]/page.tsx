@@ -57,7 +57,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
               {name}
             </h1>
             <p className="mt-3 text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7">
-              {getLocalizedToolSeoContent(tool, locale.code).intro}
+              {getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro}
             </p>
           </div>
         </div>
