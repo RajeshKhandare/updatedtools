@@ -921,6 +921,11 @@ async function testUniversal(page, slug, category) {
     await editableCell.waitFor({ state: 'visible', timeout: 5000 });
     await editableCell.fill('Smoke Test Entry');
 
+    const editableTime = table.locator('thead input[type="time"]').first();
+    await editableTime.waitFor({ state: 'visible', timeout: 5000 });
+    const originalTime = await editableTime.inputValue();
+    await editableTime.fill(originalTime === '08:00' ? '08:15' : '08:00');
+
     const note = page.locator('textarea').first();
     if (await note.count()) {
       await note.fill('Smoke test personal note');
