@@ -6,6 +6,7 @@ on:
       - cloudflare-test
     paths-ignore:
       - data/generatedLocalizedToolSeo.ts
+      - .github/workflows/**
   workflow_dispatch:
 
 permissions:
