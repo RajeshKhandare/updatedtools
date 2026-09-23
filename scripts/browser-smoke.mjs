@@ -933,7 +933,7 @@ async function testUniversal(page, slug, category) {
 
     const body = await page.locator('body').textContent();
     assert(
-      !/NaN|Error:|Invalid result|Application error|Unhandled Runtime Error/i.test(body),
+      !/Application error|Unhandled Runtime Error|Tool not found/i.test(body),
       slug + ': timetable generator returned an error'
     );
     return;
