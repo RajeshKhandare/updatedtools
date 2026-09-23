@@ -11,7 +11,8 @@
     "verify:tools": "node scripts/verify-tools.mjs",
     "verify:international-seo": "node scripts/audit-international-seo.mjs",
     "preview": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "verify:localized-routes": "node scripts/localized-route-smoke.mjs"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
