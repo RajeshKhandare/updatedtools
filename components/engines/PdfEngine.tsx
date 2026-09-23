@@ -71,8 +71,6 @@ async function renderPdf(
 
   pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
 
-  pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
-
   const data = new Uint8Array(
     await file.arrayBuffer()
   );
@@ -487,14 +485,24 @@ export default function PdfEngine({
       return;
     }
 
-    setFiles((previous) => [
-      ...previous,
-      ...ok,
-    ]);
+    if (toolSlug === 'reorder-pdf-pages') {
+      if (ok.length > 1) {
+        setError('Reorder PDF accepts one PDF at a time.');
+        return;
+      }
+      if (ok.length === 1) {
+        setFiles([ok[0]]);
+      }
+    } else {
+      setFiles((previous) => [
+        ...previous,
+        ...ok,
+      ]);
+    }
 
     setSelectedPages([]);
     setPageSpec('1');
-    setOrder('');
+    setOrder(toolSlug === 'reorder-pdf-pages' ? '' : '');
     setError('');
     setOutput(null);
   };
