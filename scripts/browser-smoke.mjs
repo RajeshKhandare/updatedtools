@@ -454,14 +454,10 @@ async function testImage(page, slug, fixtures) {
 
   await page.waitForTimeout(1000);
 
-  await page.locator('[data-testid="image-input-preview"]').waitFor({
-    state: 'visible',
-    timeout: 10000,
-  });
-
-  // Verify the file reached the browser input. The preview is a UI enhancement
-  // and can settle on a different render tick in headless Chromium, so it must
-  // not block the actual image-processing smoke test.
+  // The preview is a UI enhancement and is not required to prove that the
+  // uploaded file reached the processing pipeline. Some image tools render
+  // their preview differently (or omit it), so do not make the smoke test
+  // depend on this optional preview element.
   await page.waitForFunction(
     () => {
       const input = document.querySelector('input[type="file"]');
