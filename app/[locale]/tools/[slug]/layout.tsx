@@ -45,7 +45,6 @@ export default async function LocalizedToolLayout({ children, params }: { childr
   if (!locale || !tool) notFound();
 
   const url = SITE_URL + localizedToolPath(locale.code, tool.slug);
-  const englishUrl = SITE_URL + '/tools/' + tool.slug;
   const name = getLocalizedToolName(tool, locale.code);
 
   const breadcrumb = {
@@ -80,8 +79,6 @@ export default async function LocalizedToolLayout({ children, params }: { childr
   };
 
   return <>
-    <link rel="alternate" hrefLang="en" href={englishUrl} />
-    <link rel="alternate" hrefLang={locale.hreflang} href={url} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(app) }} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
