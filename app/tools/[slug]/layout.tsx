@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 import { getToolSeoContent } from '@/data/toolSeo';
+import { getLocalizedAlternates } from '@/data/internationalSeo';
 
 export function generateStaticParams() {
   return TOOLS_REGISTRY.map((tool) => ({ slug: tool.slug }));
@@ -22,7 +23,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title,
     description,
     keywords: [keyword, `free ${keyword.toLowerCase()}`, `${tool.name.toLowerCase()} online`, `${tool.category.toLowerCase()} tools`, ...tool.slug.split('-').filter((part) => part.length > 2)],
-    alternates: { canonical: `${SITE_URL}/tools/${tool.slug}` },
+    alternates: {
+      canonical: `${SITE_URL}/tools/${tool.slug}`,
+      languages: Object.fromEntries(
+        Object.entries(getLocalizedAlternates(tool.slug)).map(([hreflang, path]) => [hreflang, SITE_URL + path])
+      ),
+    },
     openGraph: { title, description, url: `${SITE_URL}/tools/${tool.slug}`, siteName: SITE_NAME, type: 'website' },
     twitter: { card: 'summary_large_image', title, description },
     robots: { index: SITE_URL_CONFIGURED, follow: true },
