@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
-import { getLocalizedAlternates } from '@/data/internationalSeo';
+import { LOCALES } from '@/data/internationalSeo';
 
 export const metadata: Metadata = {
   title: 'All Free Online Tools | PDF, Image, Developer, Converter & Calculator Tools',
@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL + '/tools',
     languages: Object.fromEntries(
-      Object.entries(getLocalizedAlternates('merge-pdf')).map(([hreflang, path]) => [hreflang, SITE_URL + path.replace('/merge-pdf', '')])
+      LOCALES.map((locale) => [
+        locale.hreflang,
+        SITE_URL + (locale.code === 'en' ? '/tools' : '/' + locale.code + '/tools'),
+      ])
     ),
   },
   openGraph: {
