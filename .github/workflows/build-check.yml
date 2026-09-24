@@ -49,7 +49,7 @@ jobs:
       - name: Wait for stable Cloudflare deployment
         if: github.ref == 'refs/heads/cloudflare-test'
         env:
-          SMOKE_BASE_URL: https://updatedtools.rajeshkhandare788.workers.dev
+          SMOKE_BASE_URL: https://toolployee.com
         run: |
           for stability_attempt in {1..3}; do
             EXPECTED_COMMIT="$(git ls-remote origin refs/heads/cloudflare-test | cut -f1)"
@@ -79,7 +79,7 @@ jobs:
       - name: Browser smoke test all 112 tools (Cloudflare)
         if: github.ref == 'refs/heads/cloudflare-test'
         env:
-          SMOKE_BASE_URL: https://updatedtools.rajeshkhandare788.workers.dev
+          SMOKE_BASE_URL: https://toolployee.com
         run: node scripts/browser-smoke.mjs
       - name: Browser smoke test all 112 tools (Vercel)
         if: github.ref == 'refs/heads/main'
