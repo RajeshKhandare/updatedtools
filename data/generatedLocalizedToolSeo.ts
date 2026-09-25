@@ -379,7 +379,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Trabalho de preparação repetível para documentos, mídia, texto, código, dados ou fluxos de trabalho do criador.",
         "Verificando um resultado intermediário durante um projeto maior.",
         "Preparando uma saída para outro aplicativo ou fluxo de trabalho.",
-        "Corrija páginas digitalizadas lateralmente.",
+        "Corrija as páginas digitalizadas lateralmente.",
         "Gire as páginas selecionadas para impressão.",
         "Padronize a orientação da página em um documento misto."
       ],
@@ -2914,7 +2914,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Entradas muito grandes podem ser limitadas pela memória do navegador.",
         "A transformação automatizada de texto não compreende todos os contextos semânticos.",
-        "A formatação rich text pode não sobreviver a fluxos de trabalho de texto simples."
+        "A formatação de rich text pode não sobreviver a fluxos de trabalho de texto simples."
       ],
       "faq": [
         {
@@ -3094,7 +3094,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Entradas muito grandes podem ser limitadas pela memória do navegador.",
         "A transformação automatizada de texto não compreende todos os contextos semânticos.",
-        "A formatação rich text pode não sobreviver a fluxos de trabalho de texto simples."
+        "A formatação de rich text pode não sobreviver a fluxos de trabalho de texto simples."
       ],
       "faq": [
         {
@@ -3154,7 +3154,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Entradas muito grandes podem ser limitadas pela memória do navegador.",
         "A transformação automatizada de texto não compreende todos os contextos semânticos.",
-        "A formatação rich text pode não sobreviver a fluxos de trabalho de texto simples."
+        "A formatação de rich text pode não sobreviver a fluxos de trabalho de texto simples."
       ],
       "faq": [
         {
@@ -3214,7 +3214,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Entradas muito grandes podem ser limitadas pela memória do navegador.",
         "A transformação automatizada de texto não compreende todos os contextos semânticos.",
-        "A formatação rich text pode não sobreviver a fluxos de trabalho de texto simples."
+        "A formatação de rich text pode não sobreviver a fluxos de trabalho de texto simples."
       ],
       "faq": [
         {
@@ -3274,7 +3274,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Entradas muito grandes podem ser limitadas pela memória do navegador.",
         "A transformação automatizada de texto não compreende todos os contextos semânticos.",
-        "A formatação rich text pode não sobreviver a fluxos de trabalho de texto simples."
+        "A formatação de rich text pode não sobreviver a fluxos de trabalho de texto simples."
       ],
       "faq": [
         {
@@ -8064,7 +8064,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -11192,7 +11192,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Verifique el modo de ángulo trigonométrico previsto.",
         "Validar resultados importantes de forma independiente.",
         "Evite: Usar el modo de ángulo incorrecto.",
-        "Evitar: Ignorar la precedencia del operador.",
+        "Evitar: Ignorar la precedencia de los operadores.",
         "Evitar: Copiar un resultado sin verificar la expresión."
       ],
       "limitations": [
@@ -12625,7 +12625,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF zusammenfügen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF zusammenfügen verwenden?",
@@ -16757,7 +16757,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -16940,7 +16940,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -17001,7 +17001,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -18912,7 +18912,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "À quoi sert Fusionner PDF ?",
-          "a": "Combinez plusieurs fichiers PDF en un seul document propre dans l'ordre de votre choix. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
+          "a": "Combinez plusieurs fichiers PDF en un seul document propre dans l'ordre de votre choix. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer d'utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
           "q": "Comment fonctionne Fusionner PDF ?",
@@ -18920,7 +18920,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "À quoi puis-je utiliser Fusionner PDF ?",
-          "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
+          "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée claire et un examen final produisent généralement le résultat le plus fiable."
         },
         {
           "q": "Fusionner PDF nécessite-t-il un compte ou une installation ?",
@@ -18972,7 +18972,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "À quoi sert Diviser PDF ?",
-          "a": "Séparez les pages individuelles ou extrayez des plages de pages spécifiques à partir de fichiers PDF. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
+          "a": "Séparez les pages individuelles ou extrayez des plages de pages spécifiques à partir de fichiers PDF. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer d'utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
           "q": "Comment fonctionne Diviser PDF ?",
@@ -18980,7 +18980,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "À quoi puis-je utiliser Diviser PDF ?",
-          "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
+          "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée claire et un examen final produisent généralement le résultat le plus fiable."
         },
         {
           "q": "Diviser PDF nécessite-t-il un compte ou une installation ?",
@@ -19032,7 +19032,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "À quoi sert Convertisseur PDF en JPG ?",
-          "a": "Extrayez des pages de votre document PDF et exportez-les sous forme d'images JPG de haute qualité. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
+          "a": "Extrayez des pages de votre document PDF et exportez-les sous forme d'images JPG de haute qualité. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer d'utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
           "q": "Comment fonctionne Convertisseur PDF en JPG ?",
@@ -19040,7 +19040,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "À quoi puis-je utiliser Convertisseur PDF en JPG ?",
-          "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée propre et un examen final produisent généralement le résultat le plus fiable."
+          "a": "Les utilisations courantes incluent le flux de travail décrit ci-dessus, les tâches ponctuelles rapides, le travail de préparation répétable et la vérification d'une sortie avant de la déplacer vers une autre application. Une entrée claire et un examen final produisent généralement le résultat le plus fiable."
         },
         {
           "q": "Convertisseur PDF en JPG nécessite-t-il un compte ou une installation ?",
@@ -20612,7 +20612,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Puis-je utiliser un compilateur Python en ligne pour apprendre ?",
-          "a": "Oui. De petits exercices, des pratiques de syntaxe, des algorithmes et des exemples reproductibles conviennent parfaitement à un compilateur de navigateur."
+          "a": "Yes. De petits exercices, des pratiques de syntaxe, des algorithmes et des exemples reproductibles conviennent parfaitement à un compilateur de navigateur."
         }
       ],
       "visual": "code"
@@ -23064,7 +23064,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de EMI pour un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur de EMI pour obtenir un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -23687,7 +23687,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         }
       ],
       "visual": "finance",
-      "formula": "L'âge est dérivé de la différence, tenant compte du calendrier, entre une date de naissance et une date de référence sélectionnée."
+      "formula": "L'âge est dérivé de la différence calendaire entre une date de naissance et une date de référence sélectionnée."
     },
     "bmi-calculator": {
       "heroIntro": "Calculez l'indice de masse corporelle (IMC) à partir de la taille et du poids et affichez les catégories d'IMC couramment utilisées.",
@@ -28432,7 +28432,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Controlla gli spazi bianchi, la punteggiatura, i caratteri Unicode e le terminazioni di riga.",
         "Correggi l'output editoriale invece di fare affidamento solo sull'automazione.",
         "Da evitare: confrontare spazi bianchi normalizzati in modo diverso.",
-        "Evitare: assumere che una differenza visiva dimostri l'equivalenza semantica.",
+        "Evitare: assumere una differenza visiva dimostra l'equivalenza semantica.",
         "Evita: incollare contenuti riservati."
       ],
       "limitations": [
@@ -32856,7 +32856,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
         "写真のネガ効果を作成します。",
         "反転した視覚情報を検査します。",
-        "デザイン作業用にシンプルな視覚効果を構築します。"
+        "デザイン作業用のシンプルな視覚効果を構築します。"
       ],
       "tips": [
         "品質が重要な場合は、元の画像を保持してください。",
@@ -34470,7 +34470,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールせずに、重複行を削除する 1 回限りのタスクをすばやく実行します。",
+        "別のユーティリティをインストールすることなく、重複行を削除するタスクを 1 回限りで迅速に実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -35590,7 +35590,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "SIP 計算ツールは将来の価値を保証しますか?",
-          "a": "いいえ、拠出金額、期間、想定収益などの前提に基づく予測です。実際の投資パフォーマンスは大幅に異なる場合があります。"
+          "a": "いいえ、拠出額、期間、想定収益などの前提に基づく予測です。実際の投資パフォーマンスは大幅に異なる場合があります。"
         },
         {
           "q": "SIP計算機 は無料で使用できますか?",
@@ -35613,7 +35613,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "さまざまな emi 計算シナリオを比較します。",
         "スプレッドシートや公式声明を使用する前に、簡単な計画の見積もりを作成してください。",
-        "どの入力が結果に最大の影響を与えるかを理解します。",
+        "どの入力が結果に最も大きな影響を与えるかを理解します。",
         "後で計算を繰り返すことができるように、仮定を記録します。",
         "2 つのローン期間を比較します。",
         "住宅、車、または個人ローンの合計利息を見積もります。",
@@ -37816,7 +37816,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 작업 흐름은 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 분할를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -37936,7 +37936,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 작업 흐름은 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "JPG를 PDF로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41953,7 +41953,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "EMI = P × r × (1 + r)^n / [(1 + r)^n − 1], 여기서 P는 원금, r은 월 이자율, n은 월별 지불 횟수입니다."
     },
     "lumpsum-calculator": {
-      "heroIntro": "일회성 일시금 뮤추얼 펀드 투자에 대한 총 만기 수익을 추정합니다.",
+      "heroIntro": "일회성 일시불 뮤추얼 펀드 투자에 대한 총 만기 수익을 추정합니다.",
       "intro": "일회성 일시불 뮤추얼 펀드 투자에 대한 총 만기 수익을 추정합니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "일시금 계산기는 가정된 수익 및 복리 모델에 따라 일회성 투자가 시간이 지남에 따라 어떻게 변할 수 있는지 보여줍니다.",
       "steps": [
@@ -43922,7 +43922,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "youtube-tag-generator": {
       "heroIntro": "동영상 메타데이터를 구성하고 최적화하는 데 도움이 되는 관련 YouTube 태그와 키워드 아이디어를 생성하세요.",
       "intro": "동영상 메타데이터를 구성하고 최적화하는 데 도움이 되는 관련 YouTube 태그와 키워드 아이디어를 생성하세요. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실제 제한 사항에 대해 설명합니다.",
-      "why": "이 제작자 워크플로는 공개 YouTube 정보, 콘텐츠 계획 또는 추정을 지원합니다. 가정을 가시적으로 유지하면서 반복적인 생성자 작업을 더 빠르게 수행하도록 설계되었습니다.",
+      "why": "이 제작자 워크플로는 공개 YouTube 정보, 콘텐츠 계획 또는 견적을 지원합니다. 가정을 가시적으로 유지하면서 반복적인 생성자 작업을 더 빠르게 수행하도록 설계되었습니다.",
       "steps": [
         "YouTube Tag 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
         "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
@@ -46916,7 +46916,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "用户代理字符串可以识别用户吗？",
-          "a": "不会。它报告客户声明的信息，并且可以更改或欺骗。它不应被视为可靠的身份或安全凭证。"
+          "a": "不可以。它报告客户声明的信息，并且可以更改或欺骗。它不应被视为可靠的身份或安全凭证。"
         }
       ],
       "visual": "code"
@@ -48251,7 +48251,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "输入计算器要求的值。",
         "计算前检查假设和单位。",
         "运行计算并比较至少一种替代方案。",
-        "使用结果作为估计并根据官方记录或条款验证重要决策。"
+        "使用结果作为估计，并根据官方记录或条款验证重要决策。"
       ],
       "useCases": [
         "比较不同的一次性计算器场景。",
@@ -50029,7 +50029,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "制定每周的早餐、零食、午餐、晚餐和简单的膳食计划例程的用餐时间表。使用实际用餐时间而不是一般的上课时间来计划早餐、零食、午餐和晚餐。添加您自己的时间表标题、个人注释和报价，然后在下载或打印之前编辑每个生成的单元格。",
       "why": "使用实际用餐时间而不是一般的上课时间来计划早餐、零食、午餐和晚餐。",
       "steps": [
-        "选择日子。",
+        "Choose the days.",
         "设定用餐时间和持续时间。",
         "输入餐食或餐食类型。",
         "生成并个性化每周膳食计划。"
@@ -54174,7 +54174,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "area-land-converter": {
       "heroIntro": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигха.",
-      "intro": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигхи. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
+      "intro": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигха. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс преобразования обеспечивает прямую связь между определенными единицами и полезен для учебы, путешествий, инженерного дела, покупок, науки, фитнеса и повседневного планирования.",
       "steps": [
         "Откройте Площадь и определите необходимый формат ввода или значения.",
@@ -54503,7 +54503,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Результаты зависят от допущений и исходных данных.",
         "Округление может привести к небольшим отличиям от официальных калькуляторов или заявлений.",
-        "Результаты, связанные с финансами и здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
+        "Финансовые результаты и результаты, связанные со здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
       ],
       "faq": [
         {
@@ -54686,7 +54686,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Результаты зависят от допущений и исходных данных.",
         "Округление может привести к небольшим отличиям от официальных калькуляторов или заявлений.",
-        "Результаты, связанные с финансами и здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
+        "Финансовые результаты и результаты, связанные со здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
       ],
       "faq": [
         {
@@ -54747,7 +54747,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Результаты зависят от допущений и исходных данных.",
         "Округление может привести к небольшим отличиям от официальных калькуляторов или заявлений.",
-        "Результаты, связанные с финансами и здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
+        "Финансовые результаты и результаты, связанные со здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
       ],
       "faq": [
         {
@@ -55770,8 +55770,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "weekly-timetable-maker": {
-      "heroIntro": "Создайте еженедельное расписание для школы, работы, учебы, физических упражнений, семейного времени, хобби и личного планирования.",
-      "intro": "Создайте еженедельное расписание для школы, работы, учебы, физических упражнений, семейного времени, хобби и личного планирования. Создайте гибкий семидневный план для работы, учебы, занятий спортом, семейного времени и личных задач. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
+      "heroIntro": "Создайте еженедельное расписание для школы, работы, учебы, занятий спортом, времяпрепровождения с семьей, хобби и личного планирования.",
+      "intro": "Создайте еженедельное расписание для школы, работы, учебы, занятий спортом, времяпрепровождения с семьей, хобби и личного планирования. Создайте гибкий семидневный план для работы, учебы, занятий спортом, семейного времени и личных задач. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
       "why": "Создайте гибкий семидневный план для работы, учебы, занятий спортом, семейного времени и личных задач.",
       "steps": [
         "Выберите количество дней и временных блоков.",
@@ -55794,7 +55794,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Для чего используется Создатель недельного расписания?",
-          "a": "Создайте еженедельное расписание для школы, работы, учебы, физических упражнений, семейного времени, хобби и личного планирования. Создайте гибкий семидневный план для работы, учебы, занятий спортом, семейного времени и личных задач."
+          "a": "Создайте еженедельное расписание для школы, работы, учебы, занятий спортом, времяпрепровождения с семьей, хобби и личного планирования. Создайте гибкий семидневный план для работы, учебы, занятий спортом, семейного времени и личных задач."
         },
         {
           "q": "Могу ли я планировать внешкольные мероприятия?",
@@ -58558,7 +58558,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "أعمال تحضيرية متكررة للمستندات أو الوسائط أو النصوص أو التعليمات البرمجية أو البيانات أو سير عمل المنشئ.",
         "التحقق من نتيجة وسيطة خلال مشروع أكبر.",
         "إعداد مخرجات لتطبيق أو سير عمل آخر.",
-        "تدرب على بناء جملة Java ومجموعاتها.",
+        "ممارسة بناء جملة جافا ومجموعاتها.",
         "اختبر خوارزمية صغيرة.",
         "إعادة إنتاج خطأ مترجم جافا."
       ],
@@ -60637,7 +60637,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
-          "q": "هل kWh وحدة طاقة أم طاقة؟",
+          "q": "هل kWh وحدة طاقة أم قوة؟",
           "a": "كيلووات/ساعة هي وحدة للطاقة. كيلووات هي وحدة طاقة، تصف معدل استخدام الطاقة أو نقلها."
         }
       ],
@@ -60771,7 +60771,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "steps": [
         "أدخل القيم التي طلبتها الآلة الحاسبة.",
         "مراجعة الافتراضات والوحدات قبل الحساب.",
-        "قم بإجراء العملية الحسابية وقارن بين سيناريو بديل واحد على الأقل.",
+        "قم بإجراء الحساب وقارن بين سيناريو بديل واحد على الأقل.",
         "استخدم النتيجة كتقدير وتحقق من القرارات المهمة مقابل السجلات أو الشروط الرسمية."
       ],
       "useCases": [
@@ -64624,7 +64624,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
         "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
-        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
       ],
       "faq": [
         {
@@ -65823,7 +65823,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
-        "स्वचालित पाठ परिवर्तन हर अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
         "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
@@ -65883,7 +65883,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
-        "स्वचालित पाठ परिवर्तन हर अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
         "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
@@ -66123,7 +66123,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
-        "स्वचालित पाठ परिवर्तन हर अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
         "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
@@ -66395,61 +66395,61 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "text"
     },
     "unit-length-converter": {
-      "heroIntro": "Convert between Meters, Kilometers, Miles, Feet, Inches, and Yards.",
-      "intro": "Convert between Meters, Kilometers, Miles, Feet, Inches, and Yards. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "मीटर, किलोमीटर, मील, फीट, इंच और गज के बीच कनवर्ट करें।",
+      "intro": "मीटर, किलोमीटर, मील, फीट, इंच और गज के बीच कनवर्ट करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open लंबाई and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "लंबाई खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off length converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert kilometers to miles for travel.",
-        "Convert feet and inches for measurements.",
-        "Convert metric dimensions to imperial units."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त लंबाई कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "यात्रा के लिए किलोमीटर को मील में बदलें।",
+        "माप के लिए फ़ीट और इंच को परिवर्तित करें।",
+        "मीट्रिक आयामों को शाही इकाइयों में बदलें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Mixing units in one calculation.",
-        "Avoid: Rounding too early.",
-        "Avoid: Using a conversion for a context-specific survey or engineering standard without verification."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: इकाइयों को एक गणना में मिलाने से।",
+        "बचें: बहुत जल्दी गोलाई करना।",
+        "बचें: सत्यापन के बिना संदर्भ-विशिष्ट सर्वेक्षण या इंजीनियरिंग मानक के लिए रूपांतरण का उपयोग करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is लंबाई used for?",
-          "a": "Convert between Meters, Kilometers, Miles, Feet, Inches, and Yards. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "लंबाई का उपयोग किसके लिए किया जाता है?",
+          "a": "मीटर, किलोमीटर, मील, फीट, इंच और गज के बीच कनवर्ट करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does लंबाई work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "लंबाई कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use लंबाई for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं लंबाई का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does लंबाई require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या लंबाई को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from लंबाई?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "लंबाई से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Which length units can I convert?",
-          "a": "The tool covers common units such as meters, kilometers, miles, feet, inches, and yards."
+          "q": "मैं कौन सी लंबाई की इकाइयों को परिवर्तित कर सकता हूं?",
+          "a": "यह उपकरण मीटर, किलोमीटर, मील, फुट, इंच और गज जैसी सामान्य इकाइयों को कवर करता है।"
         }
       ],
       "visual": "converter"
@@ -66695,61 +66695,61 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "converter"
     },
     "time-duration-converter": {
-      "heroIntro": "Convert common time units such as seconds, minutes, hours, days, weeks, months, and years.",
-      "intro": "Convert common time units such as seconds, minutes, hours, days, weeks, months, and years. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "सामान्य समय इकाइयों जैसे सेकंड, मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष को परिवर्तित करें।",
+      "intro": "सामान्य समय इकाइयों जैसे सेकंड, मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष को परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open समय and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "समय खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off time converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert minutes to hours.",
-        "Convert days to weeks for planning.",
-        "Convert seconds for programming or timing tasks."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त समय कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "मिनटों को घंटों में बदलें.",
+        "योजना बनाने के लिए दिनों को सप्ताहों में बदलें।",
+        "प्रोग्रामिंग या टाइमिंग कार्यों के लिए सेकंड बदलें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Treating a month as a fixed number of days.",
-        "Avoid: Confusing duration with a calendar date.",
-        "Avoid: Ignoring leap years when a calendar-aware calculation is required."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: एक महीने को दिनों की निश्चित संख्या मानने से बचें।",
+        "बचें: कैलेंडर तिथि के साथ भ्रमित करने वाली अवधि।",
+        "बचें: जब कैलेंडर-जागरूक गणना की आवश्यकता हो तो लीप वर्ष को अनदेखा करें।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is समय used for?",
-          "a": "Convert common time units such as seconds, minutes, hours, days, weeks, months, and years. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "समय का उपयोग किसके लिए किया जाता है?",
+          "a": "सामान्य समय इकाइयों जैसे सेकंड, मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष को परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does समय work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "समय कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use समय for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं समय का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does समय require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या समय को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from समय?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "समय से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is a month always the same number of days?",
-          "a": "No. Calendar months vary in length. Duration conversions involving months and years depend on the convention or reference date used."
+          "q": "क्या एक महीने में हमेशा दिनों की संख्या समान होती है?",
+          "a": "नहीं, कैलेंडर महीनों की लंबाई अलग-अलग होती है। महीनों और वर्षों से जुड़े अवधि रूपांतरण उपयोग की गई परंपरा या संदर्भ तिथि पर निर्भर करते हैं।"
         }
       ],
       "visual": "converter"
@@ -66869,7 +66869,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "गेज और निरपेक्ष दबाव के बीच क्या अंतर है?",
-          "a": "Gauge pressure is measured relative to ambient pressure, while absolute pressure is measured relative to a vacuum reference. A unit conversion alone does not change that reference."
+          "a": "गेज दबाव को परिवेशी दबाव के सापेक्ष मापा जाता है, जबकि निरपेक्ष दबाव को वैक्यूम संदर्भ के सापेक्ष मापा जाता है। केवल एक इकाई रूपांतरण उस संदर्भ को नहीं बदलता है।"
         }
       ],
       "visual": "converter"
@@ -66995,2210 +66995,2210 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "converter"
     },
     "sip-wealth-calculator": {
-      "heroIntro": "Estimate SIP investment growth, total contributions, and future value using a monthly contribution and annual return assumption.",
-      "intro": "Estimate SIP investment growth, total contributions, and future value using a monthly contribution and annual return assumption. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A SIP calculator separates the amount you contribute from the estimated growth of those contributions. This makes it easier to see how contribution size, time, and an assumed return rate affect a projected future value.",
+      "heroIntro": "मासिक योगदान और वार्षिक रिटर्न धारणा का उपयोग करके एसआईपी निवेश वृद्धि, कुल योगदान और भविष्य के मूल्य का अनुमान लगाएं।",
+      "intro": "मासिक योगदान और वार्षिक रिटर्न धारणा का उपयोग करके एसआईपी निवेश वृद्धि, कुल योगदान और भविष्य के मूल्य का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक एसआईपी कैलकुलेटर आपके द्वारा योगदान की गई राशि को उन योगदानों की अनुमानित वृद्धि से अलग करता है। इससे यह देखना आसान हो जाता है कि योगदान का आकार, समय और अनुमानित रिटर्न दर अनुमानित भविष्य के मूल्य को कैसे प्रभावित करते हैं।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different sip calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare monthly contributions over 10, 15, or 20 years.",
-        "Test several assumed annual return rates.",
-        "Separate total contributions from projected growth."
+        "विभिन्न सिप कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "10, 15, या 20 वर्षों में मासिक योगदान की तुलना करें।",
+        "कई अनुमानित वार्षिक रिटर्न दरों का परीक्षण करें।",
+        "अनुमानित वृद्धि से कुल योगदान को अलग करें।"
       ],
       "tips": [
-        "Compare several contribution amounts.",
-        "Test conservative and optimistic return assumptions.",
-        "Treat the result as an estimate rather than a guaranteed investment outcome.",
-        "Avoid: Treating projected returns as guaranteed.",
-        "Avoid: Ignoring fees, taxes, inflation, or changing contributions.",
-        "Avoid: Comparing scenarios with inconsistent assumptions."
+        "कई योगदान राशियों की तुलना करें.",
+        "रूढ़िवादी और आशावादी रिटर्न धारणाओं का परीक्षण करें।",
+        "परिणाम को गारंटीकृत निवेश परिणाम के बजाय एक अनुमान के रूप में मानें।",
+        "बचें: अनुमानित रिटर्न को गारंटीशुदा मानने से बचें।",
+        "बचें: फीस, करों, मुद्रास्फीति, या बदलते योगदान को नजरअंदाज करना।",
+        "बचें: असंगत धारणाओं के साथ परिदृश्यों की तुलना करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is SIP कैलकुलेटर used for?",
-          "a": "Estimate SIP investment growth, total contributions, and future value using a monthly contribution and annual return assumption. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "SIP कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "मासिक योगदान और वार्षिक रिटर्न धारणा का उपयोग करके एसआईपी निवेश वृद्धि, कुल योगदान और भविष्य के मूल्य का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does SIP कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "SIP कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does SIP कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "SIP कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use SIP कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए SIP कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता।"
         },
         {
-          "q": "Does a SIP calculator guarantee the future value?",
-          "a": "No. It is a projection based on assumptions such as contribution amount, time, and assumed return. Actual investment performance can differ substantially."
+          "q": "क्या एसआईपी कैलकुलेटर भविष्य के मूल्य की गारंटी देता है?",
+          "a": "नहीं, यह योगदान राशि, समय और अनुमानित रिटर्न जैसी मान्यताओं पर आधारित एक प्रक्षेपण है। वास्तविक निवेश प्रदर्शन काफी भिन्न हो सकता है।"
         },
         {
-          "q": "Is SIP कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या SIP कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Future value ≈ P × [((1 + r)^n − 1) / r] × (1 + r), where P is the periodic contribution, r is the periodic assumed return, and n is the number of contributions."
+      "formula": "भविष्य का मूल्य ≈ P × [((1 + r)^n - 1) / r] × (1 + r), जहां P आवधिक योगदान है, r आवधिक कल्पित रिटर्न है, और n योगदान की संख्या है।"
     },
     "emi-calculator": {
-      "heroIntro": "Calculate monthly loan installments, total interest costs, and amortization schedules.",
-      "intro": "Calculate monthly loan installments, total interest costs, and amortization schedules. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An EMI calculator separates the effects of principal, interest rate, and tenure so loan scenarios can be compared before borrowing.",
+      "heroIntro": "मासिक ऋण किश्तों, कुल ब्याज लागत और ऋणशोधन कार्यक्रम की गणना करें।",
+      "intro": "मासिक ऋण किश्तों, कुल ब्याज लागत और ऋणशोधन कार्यक्रम की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "ईएमआई कैलकुलेटर मूलधन, ब्याज दर और कार्यकाल के प्रभावों को अलग करता है ताकि उधार लेने से पहले ऋण परिदृश्यों की तुलना की जा सके।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different emi calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare two loan tenures.",
-        "Estimate total interest for a home, vehicle, or personal loan.",
-        "Check how a rate change affects monthly EMI."
+        "विभिन्न ईएमआई कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "दो ऋण अवधियों की तुलना करें।",
+        "घर, वाहन या व्यक्तिगत ऋण के लिए कुल ब्याज का अनुमान लगाएं।",
+        "जांचें कि दर परिवर्तन मासिक ईएमआई को कैसे प्रभावित करता है।"
       ],
       "tips": [
-        "Compare total interest, not only monthly EMI.",
-        "Test a shorter tenure to understand the interest trade-off.",
-        "Use the lender quote for the final payable amount and charges.",
-        "Avoid: Comparing only EMI and ignoring total interest.",
-        "Avoid: Ignoring processing fees and other charges.",
-        "Avoid: Using a quoted annual rate without checking the lender’s calculation convention."
+        "केवल मासिक ईएमआई ही नहीं, बल्कि कुल ब्याज की तुलना करें।",
+        "ब्याज समझौते को समझने के लिए छोटी अवधि का परीक्षण करें।",
+        "अंतिम देय राशि और शुल्क के लिए ऋणदाता उद्धरण का उपयोग करें।",
+        "बचें: केवल ईएमआई की तुलना करना और कुल ब्याज को नजरअंदाज करना।",
+        "बचें: प्रोसेसिंग फीस और अन्य शुल्कों को नजरअंदाज करें।",
+        "बचें: ऋणदाता की गणना परंपरा की जांच किए बिना उद्धृत वार्षिक दर का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is EMI कैलकुलेटर used for?",
-          "a": "Calculate monthly loan installments, total interest costs, and amortization schedules. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "EMI कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "मासिक ऋण किश्तों, कुल ब्याज लागत और ऋणशोधन कार्यक्रम की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does EMI कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "EMI कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does EMI कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "EMI कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use EMI कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए EMI कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is EMI the same for every month?",
-          "a": "For a standard fixed-rate amortizing loan, the scheduled EMI can remain constant while the interest and principal portions change over time. Actual loan products can use different structures."
+          "q": "क्या हर महीने ईएमआई एक समान होती है?",
+          "a": "एक मानक निश्चित दर परिशोधन ऋण के लिए, निर्धारित ईएमआई स्थिर रह सकती है जबकि ब्याज और मूल भाग समय के साथ बदलते हैं। वास्तविक ऋण उत्पाद विभिन्न संरचनाओं का उपयोग कर सकते हैं।"
         },
         {
-          "q": "Is EMI कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या EMI कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "EMI = P × r × (1 + r)^n / [(1 + r)^n − 1], where P is principal, r is monthly interest rate, and n is the number of monthly payments."
+      "formula": "ईएमआई = पी × आर × (1 + आर)^एन / [(1 + आर)^एन - 1], जहां पी मूलधन है, आर मासिक ब्याज दर है, और एन मासिक भुगतान की संख्या है।"
     },
     "lumpsum-calculator": {
-      "heroIntro": "Estimate total maturity returns on one-time lumpsum mutual fund investments.",
-      "intro": "Estimate total maturity returns on one-time lumpsum mutual fund investments. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A lumpsum calculator illustrates how a one-time investment can change over time under an assumed return and compounding model.",
+      "heroIntro": "एकमुश्त म्यूचुअल फंड निवेश पर कुल परिपक्वता रिटर्न का अनुमान लगाएं।",
+      "intro": "एकमुश्त म्यूचुअल फंड निवेश पर कुल परिपक्वता रिटर्न का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एकमुश्त कैलकुलेटर दर्शाता है कि अनुमानित रिटर्न और कंपाउंडिंग मॉडल के तहत एकमुश्त निवेश समय के साथ कैसे बदल सकता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different lumpsum calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare one-time investments across different horizons.",
-        "Test several assumed return rates.",
-        "Separate initial principal from projected growth."
+        "विभिन्न एकमुश्त कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "विभिन्न क्षितिजों में एकमुश्त निवेश की तुलना करें।",
+        "कई अनुमानित रिटर्न दरों का परीक्षण करें।",
+        "प्रारंभिक मूलधन को अनुमानित वृद्धि से अलग करें।"
       ],
       "tips": [
-        "Change the investment horizon.",
-        "Compare several assumed return rates.",
-        "Do not treat an assumed return as guaranteed.",
-        "Avoid: Assuming the return is guaranteed.",
-        "Avoid: Ignoring taxes, fees, and inflation.",
-        "Avoid: Using a nominal return as a real return."
+        "निवेश का दायरा बदलें.",
+        "कई अनुमानित रिटर्न दरों की तुलना करें।",
+        "अनुमानित रिटर्न को गारंटीशुदा न मानें।",
+        "बचें: यह मानकर कि रिटर्न की गारंटी है।",
+        "बचें: करों, शुल्कों और मुद्रास्फीति को नज़रअंदाज करें।",
+        "बचें: वास्तविक रिटर्न के रूप में नाममात्र रिटर्न का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is Lumpsum कैलकुलेटर used for?",
-          "a": "Estimate total maturity returns on one-time lumpsum mutual fund investments. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "Lumpsum कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "एकमुश्त म्यूचुअल फंड निवेश पर कुल परिपक्वता रिटर्न का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does Lumpsum कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "Lumpsum कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does Lumpsum कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "Lumpsum कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use Lumpsum कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए Lumpsum कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How is a lumpsum investment different from a SIP?",
-          "a": "A lumpsum model starts with a one-time contribution, while a SIP model typically adds contributions periodically. The timing of contributions changes the projection."
+          "q": "एकमुश्त निवेश एसआईपी से कैसे अलग है?",
+          "a": "एकमुश्त मॉडल एक बार के योगदान से शुरू होता है, जबकि एक एसआईपी मॉडल आम तौर पर समय-समय पर योगदान जोड़ता है। योगदान का समय प्रक्षेपण को बदल देता है।"
         },
         {
-          "q": "Is Lumpsum कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या Lumpsum कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Future value = P × (1 + r)^n for a simplified annual-compounding model."
+      "formula": "सरलीकृत वार्षिक-कंपाउंडिंग मॉडल के लिए भविष्य का मूल्य = P × (1 + r)^n।"
     },
     "gst-calculator": {
-      "heroIntro": "Calculate inclusive and exclusive Goods and Services Tax (GST) for invoices.",
-      "intro": "Calculate inclusive and exclusive Goods and Services Tax (GST) for invoices. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A GST calculator makes invoice arithmetic easier by showing the tax component and resulting inclusive or exclusive amount.",
+      "heroIntro": "चालान के लिए समावेशी और विशिष्ट वस्तु एवं सेवा कर (जीएसटी) की गणना करें।",
+      "intro": "चालान के लिए समावेशी और विशिष्ट वस्तु एवं सेवा कर (जीएसटी) की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक जीएसटी कैलकुलेटर कर घटक और परिणामी समावेशी या विशिष्ट राशि दिखाकर चालान अंकगणित को आसान बनाता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different gst calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Add GST to a taxable invoice value.",
-        "Extract GST from an inclusive price.",
-        "Compare invoice totals under different GST rates."
+        "विभिन्न जीएसटी कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "कर योग्य चालान मूल्य में जीएसटी जोड़ें।",
+        "समावेशी मूल्य से जीएसटी निकालें।",
+        "विभिन्न जीएसटी दरों के तहत कुल चालान की तुलना करें।"
       ],
       "tips": [
-        "Confirm the applicable GST rate.",
-        "Keep original invoice values for records.",
-        "Use the calculator for arithmetic; it does not determine legal tax applicability.",
-        "Avoid: Using the wrong GST rate.",
-        "Avoid: Confusing inclusive and exclusive pricing.",
-        "Avoid: Treating arithmetic output as a determination of tax applicability."
+        "लागू जीएसटी दर की पुष्टि करें।",
+        "रिकॉर्ड के लिए मूल चालान मान रखें।",
+        "अंकगणित के लिए कैलकुलेटर का प्रयोग करें; यह कानूनी कर प्रयोज्यता निर्धारित नहीं करता है।",
+        "बचें: गलत जीएसटी दर का उपयोग करना।",
+        "बचें: भ्रामक समावेशी और विशिष्ट मूल्य निर्धारण।",
+        "बचें: अंकगणितीय आउटपुट को कर प्रयोज्यता के निर्धारण के रूप में मानें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is GST कैलकुलेटर used for?",
-          "a": "Calculate inclusive and exclusive Goods and Services Tax (GST) for invoices. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "GST कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "चालान के लिए समावेशी और विशिष्ट वस्तु एवं सेवा कर (जीएसटी) की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does GST कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "GST कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does GST कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "GST कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use GST कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए GST कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How do I calculate GST from an inclusive price?",
-          "a": "For a simple inclusive calculation, the GST component can be derived from the inclusive amount and applicable rate. Confirm the applicable tax treatment and rate for the actual transaction."
+          "q": "मैं समावेशी मूल्य से जीएसटी की गणना कैसे करूं?",
+          "a": "एक सरल समावेशी गणना के लिए, जीएसटी घटक को समावेशी राशि और लागू दर से प्राप्त किया जा सकता है। वास्तविक लेनदेन के लिए लागू कर उपचार और दर की पुष्टि करें।"
         },
         {
-          "q": "Is GST कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या GST कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "GST amount = taxable value × GST rate. For an inclusive price, the tax component can be derived as inclusive price × rate / (100 + rate)."
+      "formula": "जीएसटी राशि = कर योग्य मूल्य × जीएसटी दर। एक समावेशी मूल्य के लिए, कर घटक को समावेशी मूल्य × दर / (100 + दर) के रूप में प्राप्त किया जा सकता है।"
     },
     "salary-calculator": {
-      "heroIntro": "Estimate monthly take-home salary from gross monthly pay and the deductions you enter.",
-      "intro": "Estimate monthly take-home salary from gross monthly pay and the deductions you enter. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A salary calculator translates gross compensation into a planning estimate of monthly take-home pay.",
+      "heroIntro": "सकल मासिक वेतन और आपके द्वारा दर्ज की गई कटौतियों से मासिक टेक-होम वेतन का अनुमान लगाएं।",
+      "intro": "सकल मासिक वेतन और आपके द्वारा दर्ज की गई कटौतियों से मासिक टेक-होम वेतन का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक वेतन कैलकुलेटर सकल मुआवजे को मासिक टेक-होम वेतन के नियोजन अनुमान में परिवर्तित करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different salary calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Estimate monthly take-home from gross salary.",
-        "Compare two compensation structures.",
-        "Separate fixed pay, variable pay, and deductions for planning."
+        "विभिन्न वेतन कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "सकल वेतन से मासिक टेक-होम का अनुमान लगाएं।",
+        "दो मुआवजा संरचनाओं की तुलना करें।",
+        "नियोजन के लिए अलग-अलग निश्चित वेतन, परिवर्तनीय वेतन और कटौतियाँ।"
       ],
       "tips": [
-        "Enter only deductions that actually apply.",
-        "Check whether annual figures include variable pay or employer contributions.",
-        "Use the final payslip as the authoritative amount.",
-        "Avoid: Treating CTC as monthly take-home.",
-        "Avoid: Ignoring variable pay and employer contributions.",
-        "Avoid: Using generic deductions instead of actual payroll rules."
+        "केवल वही कटौतियाँ दर्ज करें जो वास्तव में लागू हों।",
+        "जांचें कि क्या वार्षिक आंकड़ों में परिवर्तनीय वेतन या नियोक्ता योगदान शामिल हैं।",
+        "अंतिम भुगतान पर्ची का उपयोग आधिकारिक राशि के रूप में करें।",
+        "बचें: सीटीसी को मासिक टेक-होम मानने से बचें।",
+        "बचें: परिवर्तनीय वेतन और नियोक्ता योगदान को नजरअंदाज करना।",
+        "बचें: वास्तविक पेरोल नियमों के बजाय सामान्य कटौतियों का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is सैलरी कैलकुलेटर used for?",
-          "a": "Estimate monthly take-home salary from gross monthly pay and the deductions you enter. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "सैलरी कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "सकल मासिक वेतन और आपके द्वारा दर्ज की गई कटौतियों से मासिक टेक-होम वेतन का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does सैलरी कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "सैलरी कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does सैलरी कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "सैलरी कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use सैलरी कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए सैलरी कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is salary calculator output the same as my payslip?",
-          "a": "Not necessarily. Payroll can include employer-specific benefits, statutory deductions, taxes, reimbursements, and variable components that a general calculator may not know."
+          "q": "क्या वेतन कैलकुलेटर का आउटपुट मेरी वेतन पर्ची के समान है?",
+          "a": "जरूरी नहीं. पेरोल में नियोक्ता-विशिष्ट लाभ, वैधानिक कटौती, कर, प्रतिपूर्ति और परिवर्तनीय घटक शामिल हो सकते हैं जो एक सामान्य कैलकुलेटर को नहीं पता हो सकता है।"
         },
         {
-          "q": "Is सैलरी कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या सैलरी कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Estimated take-home = gross pay − the deductions entered. Actual payroll can include employer-specific taxes, benefits, reimbursements, and statutory deductions."
+      "formula": "अनुमानित टेक-होम = सकल वेतन - दर्ज की गई कटौतियाँ। वास्तविक पेरोल में नियोक्ता-विशिष्ट कर, लाभ, प्रतिपूर्ति और वैधानिक कटौतियाँ शामिल हो सकती हैं।"
     },
     "fd-calculator": {
-      "heroIntro": "Calculate fixed deposit interest payout and total maturity sum over tenure.",
-      "intro": "Calculate fixed deposit interest payout and total maturity sum over tenure. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An FD calculator helps compare deposit amount, tenure, rate, and compounding assumptions before choosing a fixed-deposit scenario.",
+      "heroIntro": "अवधि के दौरान सावधि जमा ब्याज भुगतान और कुल परिपक्वता राशि की गणना करें।",
+      "intro": "अवधि के दौरान सावधि जमा ब्याज भुगतान और कुल परिपक्वता राशि की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक एफडी कैलकुलेटर निश्चित जमा परिदृश्य चुनने से पहले जमा राशि, कार्यकाल, दर और चक्रवृद्धि मान्यताओं की तुलना करने में मदद करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different fd calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare FD maturity for different tenures.",
-        "Estimate interest from a principal and rate.",
-        "Compare compounding assumptions."
+        "विभिन्न एफडी कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "विभिन्न अवधियों के लिए एफडी परिपक्वता की तुलना करें।",
+        "मूलधन और दर से ब्याज का अनुमान लगाएं।",
+        "मिश्रित धारणाओं की तुलना करें."
       ],
       "tips": [
-        "Verify the bank’s actual compounding frequency.",
-        "Check tax and premature-withdrawal terms.",
-        "Compare maturity value and liquidity, not just the quoted rate.",
-        "Avoid: Ignoring compounding frequency.",
-        "Avoid: Ignoring tax treatment or premature-closure rules.",
-        "Avoid: Treating the displayed rate as a guaranteed final return without checking bank terms."
+        "बैंक की वास्तविक कंपाउंडिंग आवृत्ति सत्यापित करें।",
+        "कर और समय से पहले निकासी की शर्तों की जाँच करें।",
+        "परिपक्वता मूल्य और तरलता की तुलना करें, न कि केवल उद्धृत दर की।",
+        "बचें: कंपाउंडिंग फ़्रीक्वेंसी को नज़रअंदाज करें।",
+        "बचें: कर उपचार या समय से पहले बंद करने के नियमों की अनदेखी।",
+        "बचें: बैंक की शर्तों की जांच किए बिना प्रदर्शित दर को गारंटीकृत अंतिम रिटर्न के रूप में मानने से बचें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is FD कैलकुलेटर used for?",
-          "a": "Calculate fixed deposit interest payout and total maturity sum over tenure. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "FD कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "अवधि के दौरान सावधि जमा ब्याज भुगतान और कुल परिपक्वता राशि की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does FD कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "FD कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does FD कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "FD कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use FD कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए FD कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is FD interest calculated the same way by every bank?",
-          "a": "Not necessarily. Banks can apply specific compounding, payout, tax, and premature-closure rules. Use the institution’s terms for the final amount."
+          "q": "क्या FD पर ब्याज की गणना हर बैंक द्वारा एक ही तरह से की जाती है?",
+          "a": "जरूरी नहीं. बैंक विशिष्ट कंपाउंडिंग, भुगतान, कर और समयपूर्व समापन नियम लागू कर सकते हैं। अंतिम राशि के लिए संस्था की शर्तों का उपयोग करें।"
         },
         {
-          "q": "Is FD कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या FD कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "For a simplified compound model, maturity ≈ P × (1 + r/m)^(m×t), where P is principal, r is annual rate, m is compounding frequency, and t is years."
+      "formula": "एक सरलीकृत यौगिक मॉडल के लिए, परिपक्वता ≈ P × (1 + r/m)^(m×t), जहां P मूलधन है, r वार्षिक दर है, m चक्रवृद्धि आवृत्ति है, और t वर्ष है।"
     },
     "rd-calculator": {
-      "heroIntro": "Estimate compounded interest gains on recurring monthly bank deposits.",
-      "intro": "Estimate compounded interest gains on recurring monthly bank deposits. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An RD calculator estimates how regular deposits can accumulate over a chosen period.",
+      "heroIntro": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं।",
+      "intro": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "आरडी कैलकुलेटर यह अनुमान लगाता है कि चुनी गई अवधि में नियमित जमा राशि कैसे जमा हो सकती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different rd calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Estimate maturity from a monthly deposit.",
-        "Compare recurring deposits over different tenures.",
-        "See how rate assumptions affect projected maturity."
+        "विभिन्न आरडी कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "मासिक जमा से परिपक्वता का अनुमान लगाएं।",
+        "विभिन्न अवधियों में आवर्ती जमा की तुलना करें।",
+        "देखें कि दर धारणाएँ अनुमानित परिपक्वता को कैसे प्रभावित करती हैं।"
       ],
       "tips": [
-        "Confirm the bank’s exact calculation method.",
-        "Check missed-installment and premature-closure rules.",
-        "Verify the estimate against the bank’s terms.",
-        "Avoid: Assuming all banks use identical RD formulas.",
-        "Avoid: Ignoring missed-installment penalties.",
-        "Avoid: Ignoring tax and premature-closure terms."
+        "बैंक की सटीक गणना पद्धति की पुष्टि करें।",
+        "छूटी हुई किश्त और समय से पहले बंद होने के नियमों की जाँच करें।",
+        "बैंक की शर्तों के अनुसार अनुमान सत्यापित करें.",
+        "बचें: यह मानते हुए कि सभी बैंक समान आरडी फॉर्मूले का उपयोग करते हैं।",
+        "बचें: छूटी हुई किश्त के जुर्माने को नज़रअंदाज़ करना।",
+        "बचें: कर और समय से पहले बंद करने की शर्तों को नजरअंदाज करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is RD कैलकुलेटर used for?",
-          "a": "Estimate compounded interest gains on recurring monthly bank deposits. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "RD कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does RD कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "RD कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does RD कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "RD कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use RD कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए RD कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How is RD different from FD?",
-          "a": "An RD generally involves periodic deposits, while an FD usually starts with a lump-sum deposit. The institution’s exact interest calculation and terms determine the final amount."
+          "q": "आरडी एफडी से कैसे अलग है?",
+          "a": "आरडी में आम तौर पर आवधिक जमा शामिल होता है, जबकि एफडी आमतौर पर एकमुश्त जमा के साथ शुरू होता है। संस्था की सटीक ब्याज गणना और शर्तें अंतिम राशि निर्धारित करती हैं।"
         },
         {
-          "q": "Is RD कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या RD कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Recurring-deposit maturity depends on the periodic deposit, rate, tenure, and the institution’s compounding convention."
+      "formula": "आवर्ती-जमा की परिपक्वता आवधिक जमा, दर, कार्यकाल और संस्था की चक्रवृद्धि परंपरा पर निर्भर करती है।"
     },
     "retirement-calculator": {
-      "heroIntro": "Estimate future monthly living expenses using return and inflation assumptions for retirement planning.",
-      "intro": "Estimate future monthly living expenses using return and inflation assumptions for retirement planning. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Retirement planning is sensitive to assumptions. A calculator helps test scenarios rather than relying on one target number.",
+      "heroIntro": "सेवानिवृत्ति योजना के लिए रिटर्न और मुद्रास्फीति अनुमानों का उपयोग करके भविष्य के मासिक जीवन व्यय का अनुमान लगाएं।",
+      "intro": "सेवानिवृत्ति योजना के लिए रिटर्न और मुद्रास्फीति अनुमानों का उपयोग करके भविष्य के मासिक जीवन व्यय का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "सेवानिवृत्ति योजना मान्यताओं के प्रति संवेदनशील है। एक कैलकुलेटर एक लक्ष्य संख्या पर निर्भर रहने के बजाय परिदृश्यों का परीक्षण करने में मदद करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different retirement calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Estimate a future retirement corpus target.",
-        "Test different retirement ages.",
-        "Compare inflation and return assumptions."
+        "विभिन्न सेवानिवृत्ति कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "भविष्य के सेवानिवृत्ति कोष लक्ष्य का अनुमान लगाएं।",
+        "विभिन्न सेवानिवृत्ति आयु का परीक्षण करें।",
+        "मुद्रास्फीति और रिटर्न अनुमानों की तुलना करें।"
       ],
       "tips": [
-        "Run several inflation and return scenarios.",
-        "Include healthcare and irregular expenses where appropriate.",
-        "Revisit the projection when income, savings, or timing changes.",
-        "Avoid: Using one optimistic return assumption.",
-        "Avoid: Ignoring inflation and healthcare costs.",
-        "Avoid: Assuming retirement spending stays unchanged for decades."
+        "कई मुद्रास्फीति और वापसी परिदृश्य चलाएँ।",
+        "जहां उपयुक्त हो वहां स्वास्थ्य देखभाल और अनियमित खर्चों को शामिल करें।",
+        "जब आय, बचत या समय में परिवर्तन हो तो प्रक्षेपण पर दोबारा गौर करें।",
+        "बचें: एक आशावादी रिटर्न धारणा का उपयोग करना।",
+        "बचें: मुद्रास्फीति और स्वास्थ्य देखभाल की लागत को नजरअंदाज करें।",
+        "बचें: यह मानते हुए कि सेवानिवृत्ति व्यय दशकों तक अपरिवर्तित रहता है।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is रिटायरमेंट कैलकुलेटर used for?",
-          "a": "Estimate future monthly living expenses using return and inflation assumptions for retirement planning. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "रिटायरमेंट कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "सेवानिवृत्ति योजना के लिए रिटर्न और मुद्रास्फीति अनुमानों का उपयोग करके भविष्य के मासिक जीवन व्यय का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does रिटायरमेंट कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "रिटायरमेंट कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does रिटायरमेंट कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "रिटायरमेंट कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use रिटायरमेंट कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए रिटायरमेंट कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Why does inflation matter in retirement planning?",
-          "a": "Inflation reduces purchasing power over time, so future spending needs can be materially higher than today’s spending even if lifestyle remains similar."
+          "q": "सेवानिवृत्ति योजना में मुद्रास्फीति क्यों मायने रखती है?",
+          "a": "मुद्रास्फीति समय के साथ क्रय शक्ति को कम कर देती है, इसलिए भविष्य की खर्च की ज़रूरतें आज के खर्च की तुलना में भौतिक रूप से अधिक हो सकती हैं, भले ही जीवनशैली समान रहे।"
         },
         {
-          "q": "Is रिटायरमेंट कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या रिटायरमेंट कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Retirement projections combine current spending, inflation, investment return, retirement age, and expected retirement duration to estimate a future funding requirement."
+      "formula": "सेवानिवृत्ति अनुमान भविष्य की फंडिंग आवश्यकता का अनुमान लगाने के लिए वर्तमान खर्च, मुद्रास्फीति, निवेश रिटर्न, सेवानिवृत्ति की आयु और अपेक्षित सेवानिवृत्ति अवधि को जोड़ते हैं।"
     },
     "compound-interest-calculator": {
-      "heroIntro": "Calculate annual, monthly, and daily compound interest growth on savings.",
-      "intro": "Calculate annual, monthly, and daily compound interest growth on savings. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Compound interest calculations show how previously earned interest can participate in future growth.",
+      "heroIntro": "बचत पर वार्षिक, मासिक और दैनिक चक्रवृद्धि ब्याज वृद्धि की गणना करें।",
+      "intro": "बचत पर वार्षिक, मासिक और दैनिक चक्रवृद्धि ब्याज वृद्धि की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "चक्रवृद्धि ब्याज की गणना से पता चलता है कि पहले अर्जित ब्याज भविष्य की वृद्धि में कैसे भाग ले सकता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different compound interest calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare annual, monthly, and daily compounding.",
-        "Estimate savings growth over several years.",
-        "Separate principal from interest growth."
+        "विभिन्न चक्रवृद्धि ब्याज कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "वार्षिक, मासिक और दैनिक चक्रवृद्धि की तुलना करें।",
+        "कई वर्षों में बचत वृद्धि का अनुमान लगाएं।",
+        "मूलधन को ब्याज वृद्धि से अलग करें।"
       ],
       "tips": [
-        "Compare compounding frequencies.",
-        "Keep rate and time units consistent.",
-        "Use scenario comparisons instead of treating one projection as a promise.",
-        "Avoid: Mixing annual rates with monthly periods incorrectly.",
-        "Avoid: Ignoring compounding frequency.",
-        "Avoid: Treating a projection as a guaranteed return."
+        "कंपाउंडिंग आवृत्तियों की तुलना करें.",
+        "दर और समय इकाइयों को सुसंगत रखें.",
+        "किसी एक प्रक्षेपण को वादे के रूप में मानने के बजाय परिदृश्य तुलनाओं का उपयोग करें।",
+        "बचें: वार्षिक दरों को मासिक अवधियों के साथ गलत तरीके से मिलाना।",
+        "बचें: कंपाउंडिंग फ़्रीक्वेंसी को नज़रअंदाज करें।",
+        "बचें: किसी प्रक्षेपण को गारंटीशुदा रिटर्न मानने से बचें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is चक्रवृद्धि ब्याज कैलकुलेटर used for?",
-          "a": "Calculate annual, monthly, and daily compound interest growth on savings. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "चक्रवृद्धि ब्याज कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "बचत पर वार्षिक, मासिक और दैनिक चक्रवृद्धि ब्याज वृद्धि की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does चक्रवृद्धि ब्याज कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "चक्रवृद्धि ब्याज कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does चक्रवृद्धि ब्याज कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "चक्रवृद्धि ब्याज कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use चक्रवृद्धि ब्याज कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए चक्रवृद्धि ब्याज कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Why does compounding frequency matter?",
-          "a": "With the same nominal rate and period, more frequent compounding can change the calculated growth because interest is added to the balance more often."
+          "q": "कंपाउंडिंग आवृत्ति क्यों मायने रखती है?",
+          "a": "समान नाममात्र दर और अवधि के साथ, अधिक बार चक्रवृद्धि गणना की गई वृद्धि को बदल सकती है क्योंकि ब्याज को शेष राशि में अधिक बार जोड़ा जाता है।"
         },
         {
-          "q": "Is चक्रवृद्धि ब्याज कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या चक्रवृद्धि ब्याज कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "A = P × (1 + r/n)^(nt), where P is principal, r is annual rate, n is compounding periods per year, and t is years."
+      "formula": "ए = पी × (1 + आर/एन)^(एनटी), जहां पी मूलधन है, आर वार्षिक दर है, एन प्रति वर्ष चक्रवृद्धि अवधि है, और टी वर्ष है।"
     },
     "simple-interest-calculator": {
-      "heroIntro": "Calculate basic simple interest accrued on principal amounts with fixed rates.",
-      "intro": "Calculate basic simple interest accrued on principal amounts with fixed rates. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Simple interest is a model where interest is calculated on the original principal rather than repeatedly added to the principal.",
+      "heroIntro": "निश्चित दरों के साथ मूल राशि पर अर्जित मूल साधारण ब्याज की गणना करें।",
+      "intro": "निश्चित दरों के साथ मूल राशि पर अर्जित मूल साधारण ब्याज की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "साधारण ब्याज एक ऐसा मॉडल है जहां ब्याज की गणना मूलधन में बार-बार जोड़ने के बजाय मूल मूलधन पर की जाती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different simple interest calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate interest on a fixed principal.",
-        "Check a simple-interest exercise.",
-        "Compare simple and compound interest models."
+        "विभिन्न साधारण ब्याज कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "निश्चित मूलधन पर ब्याज की गणना करें.",
+        "एक सरल-रुचि अभ्यास की जाँच करें।",
+        "सरल और चक्रवृद्धि ब्याज मॉडल की तुलना करें।"
       ],
       "tips": [
-        "Keep time units consistent with the annual rate.",
-        "Check whether the real product uses simple interest.",
-        "Use the result as an arithmetic calculation.",
-        "Avoid: Using the wrong time unit.",
-        "Avoid: Applying simple interest to a product that actually compounds.",
-        "Avoid: Confusing rate percentage with decimal rate."
+        "समय इकाइयों को वार्षिक दर के अनुरूप रखें।",
+        "जांचें कि क्या वास्तविक उत्पाद साधारण ब्याज का उपयोग करता है।",
+        "परिणाम को अंकगणितीय गणना के रूप में उपयोग करें।",
+        "बचें: ग़लत समय इकाई का उपयोग करना।",
+        "बचें: किसी ऐसे उत्पाद पर साधारण ब्याज लागू करना जो वास्तव में मिश्रित होता है।",
+        "बचें: दशमलव दर के साथ भ्रमित करने वाले दर प्रतिशत।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is साधारण ब्याज कैलकुलेटर used for?",
-          "a": "Calculate basic simple interest accrued on principal amounts with fixed rates. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "साधारण ब्याज कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "निश्चित दरों के साथ मूल राशि पर अर्जित मूल साधारण ब्याज की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does साधारण ब्याज कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "साधारण ब्याज कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does साधारण ब्याज कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "साधारण ब्याज कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use साधारण ब्याज कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए साधारण ब्याज कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "What is the simple-interest formula?",
-          "a": "A common formula is I = P × R × T / 100, where P is principal, R is annual rate in percent, and T is time in years."
+          "q": "सरल-ब्याज फॉर्मूला क्या है?",
+          "a": "एक सामान्य सूत्र I = P × R × T / 100 है, जहां P मूलधन है, R प्रतिशत में वार्षिक दर है, और T वर्षों में समय है।"
         },
         {
-          "q": "Is साधारण ब्याज कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या साधारण ब्याज कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Simple interest = P × R × T / 100."
+      "formula": "साधारण ब्याज = P × R × T / 100."
     },
     "percentage-calculator": {
-      "heroIntro": "Calculate percentage increase, percentage decrease, and fraction differences instantly.",
-      "intro": "Calculate percentage increase, percentage decrease, and fraction differences instantly. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Percentage calculations are useful for discounts, changes, margins, growth rates, and proportions.",
+      "heroIntro": "प्रतिशत वृद्धि, प्रतिशत कमी और अंश अंतर की तुरंत गणना करें।",
+      "intro": "प्रतिशत वृद्धि, प्रतिशत कमी और अंश अंतर की तुरंत गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "प्रतिशत गणना छूट, परिवर्तन, मार्जिन, विकास दर और अनुपात के लिए उपयोगी होती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different percentage calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate a percentage of a value.",
-        "Find percentage increase or decrease.",
-        "Compare a part with a whole."
+        "विभिन्न प्रतिशत कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "किसी मान के प्रतिशत की गणना करें.",
+        "प्रतिशत वृद्धि या कमी ज्ञात कीजिए।",
+        "एक भाग की संपूर्ण से तुलना करें।"
       ],
       "tips": [
-        "Distinguish percentage points from percentage change.",
-        "Check which value is the baseline.",
-        "Keep both values in compatible units.",
-        "Avoid: Using the wrong baseline.",
-        "Avoid: Confusing percentage points with percent change.",
-        "Avoid: Rounding before the final step."
+        "प्रतिशत परिवर्तन से प्रतिशत अंक को अलग करें।",
+        "जांचें कि कौन सा मान आधार रेखा है.",
+        "दोनों मानों को संगत इकाइयों में रखें.",
+        "बचें: ग़लत आधार रेखा का उपयोग करना।",
+        "बचें: प्रतिशत परिवर्तन के साथ प्रतिशत अंकों को भ्रमित करने से बचें।",
+        "बचें: अंतिम चरण से पहले पूर्णांकन करें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is प्रतिशत कैलकुलेटर used for?",
-          "a": "Calculate percentage increase, percentage decrease, and fraction differences instantly. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "प्रतिशत कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "प्रतिशत वृद्धि, प्रतिशत कमी और अंश अंतर की तुरंत गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does प्रतिशत कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "प्रतिशत कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does प्रतिशत कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "प्रतिशत कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use प्रतिशत कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए प्रतिशत कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How do I calculate percentage increase?",
-          "a": "Percentage increase is commonly calculated as (new value − old value) ÷ old value × 100."
+          "q": "मैं प्रतिशत वृद्धि की गणना कैसे करूँ?",
+          "a": "प्रतिशत वृद्धि की गणना आमतौर पर (नया मान - पुराना मान) ÷ पुराना मान × 100 के रूप में की जाती है।"
         },
         {
-          "q": "Is प्रतिशत कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या प्रतिशत कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Percentage = (part ÷ whole) × 100. Percentage change = ((new − old) ÷ old) × 100."
+      "formula": "प्रतिशत = (भाग ÷ पूरा) × 100। प्रतिशत परिवर्तन = ((नया - पुराना) ÷ पुराना) × 100।"
     },
     "age-calculator": {
-      "heroIntro": "Calculate exact chronological age in years, months, weeks, and days.",
-      "intro": "Calculate exact chronological age in years, months, weeks, and days. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An age calculator is useful when an exact calendar age is needed rather than an approximate year difference.",
+      "heroIntro": "वर्षों, महीनों, सप्ताहों और दिनों में सटीक कालानुक्रमिक आयु की गणना करें।",
+      "intro": "वर्षों, महीनों, सप्ताहों और दिनों में सटीक कालानुक्रमिक आयु की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "आयु कैलकुलेटर तब उपयोगी होता है जब अनुमानित वर्ष अंतर के बजाय सटीक कैलेंडर आयु की आवश्यकता होती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different age calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Find exact age on a selected date.",
-        "Calculate age in years, months, and days.",
-        "Check an age-related date interval."
+        "विभिन्न आयु कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "चयनित तिथि पर सटीक आयु ज्ञात करें।",
+        "आयु की गणना वर्षों, महीनों और दिनों में करें।",
+        "आयु-संबंधित दिनांक अंतराल की जाँच करें."
       ],
       "tips": [
-        "Verify the entered date.",
-        "For legal eligibility, follow the relevant institution’s rules.",
-        "Choose the intended reference date.",
-        "Avoid: Entering the wrong birth date.",
-        "Avoid: Ignoring the reference date.",
-        "Avoid: Using an approximate year difference for legal eligibility."
+        "दर्ज की गई तारीख सत्यापित करें.",
+        "कानूनी पात्रता के लिए संबंधित संस्थान के नियमों का पालन करें।",
+        "इच्छित संदर्भ तिथि चुनें.",
+        "बचें: ग़लत जन्मतिथि दर्ज करना।",
+        "बचें: संदर्भ तिथि को नजरअंदाज करना।",
+        "बचें: कानूनी पात्रता के लिए अनुमानित वर्ष के अंतर का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is उम्र कैलकुलेटर used for?",
-          "a": "Calculate exact chronological age in years, months, weeks, and days. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "उम्र कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "वर्षों, महीनों, सप्ताहों और दिनों में सटीक कालानुक्रमिक आयु की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does उम्र कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "उम्र कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does उम्र कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "उम्र कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use उम्र कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए उम्र कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Can an age calculator determine legal eligibility?",
-          "a": "It can calculate a calendar age, but legal eligibility depends on the applicable law, institution, jurisdiction, and reference date."
+          "q": "क्या आयु कैलकुलेटर कानूनी पात्रता निर्धारित कर सकता है?",
+          "a": "यह एक कैलेंडर आयु की गणना कर सकता है, लेकिन कानूनी पात्रता लागू कानून, संस्था, अधिकार क्षेत्र और संदर्भ तिथि पर निर्भर करती है।"
         },
         {
-          "q": "Is उम्र कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या उम्र कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Age is derived from the calendar-aware difference between a birth date and a selected reference date."
+      "formula": "आयु का निर्धारण जन्मतिथि और चयनित संदर्भ तिथि के बीच कैलेंडर-जागरूक अंतर से किया जाता है।"
     },
     "bmi-calculator": {
-      "heroIntro": "Calculate body mass index (BMI) from height and weight and show commonly used BMI categories.",
-      "intro": "Calculate body mass index (BMI) from height and weight and show commonly used BMI categories. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "BMI is a simple screening measure based on height and weight. It does not by itself describe body composition or individual health.",
+      "heroIntro": "ऊंचाई और वजन से बॉडी मास इंडेक्स (बीएमआई) की गणना करें और आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणियां दिखाएं।",
+      "intro": "ऊंचाई और वजन से बॉडी मास इंडेक्स (बीएमआई) की गणना करें और आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणियां दिखाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "बीएमआई ऊंचाई और वजन पर आधारित एक सरल स्क्रीनिंग माप है। यह अपने आप में शरीर की संरचना या व्यक्तिगत स्वास्थ्य का वर्णन नहीं करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different bmi calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate BMI from height and weight.",
-        "Understand the commonly used BMI category ranges.",
-        "Track a BMI value over time as one screening metric."
+        "विभिन्न बीएमआई कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "ऊंचाई और वजन से बीएमआई की गणना करें।",
+        "आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणी श्रेणियों को समझें।",
+        "एक स्क्रीनिंग मीट्रिक के रूप में समय के साथ बीएमआई मान को ट्रैक करें।"
       ],
       "tips": [
-        "Enter height and weight using the correct units.",
-        "Use an appropriate reference population.",
-        "Do not treat a calculator result as a diagnosis.",
-        "Avoid: Treating BMI as a diagnosis.",
-        "Avoid: Using incorrect height or weight units.",
-        "Avoid: Ignoring age, body composition, pregnancy, or population-specific interpretation."
+        "सही इकाइयों का उपयोग करके ऊंचाई और वजन दर्ज करें।",
+        "एक उपयुक्त संदर्भ जनसंख्या का उपयोग करें.",
+        "कैलकुलेटर के परिणाम को निदान न समझें।",
+        "बचें: बीएमआई को निदान के रूप में मानें।",
+        "बचें: गलत ऊंचाई या वजन इकाइयों का उपयोग करना।",
+        "बचें: उम्र, शरीर संरचना, गर्भावस्था, या जनसंख्या-विशिष्ट व्याख्या को नजरअंदाज करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is BMI कैलकुलेटर used for?",
-          "a": "Calculate body mass index (BMI) from height and weight and show commonly used BMI categories. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "BMI कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "ऊंचाई और वजन से बॉडी मास इंडेक्स (बीएमआई) की गणना करें और आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणियां दिखाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does BMI कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "BMI कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does BMI कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "BMI कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use BMI कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए BMI कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is BMI a diagnosis?",
-          "a": "No. BMI is a screening measure based on height and weight. Individual health assessment can require additional context and professional evaluation."
+          "q": "क्या बीएमआई एक निदान है?",
+          "a": "नहीं, बीएमआई ऊंचाई और वजन पर आधारित एक स्क्रीनिंग माप है। व्यक्तिगत स्वास्थ्य मूल्यांकन के लिए अतिरिक्त संदर्भ और पेशेवर मूल्यांकन की आवश्यकता हो सकती है।"
         },
         {
-          "q": "Is BMI कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या BMI कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "BMI = weight in kilograms ÷ (height in metres)^2."
+      "formula": "बीएमआई = वजन किलोग्राम में ÷ (ऊंचाई मीटर में)^2."
     },
     "scientific-calculator": {
-      "heroIntro": "Perform advanced trigonometry, logarithms, exponentials, and algebra expressions.",
-      "intro": "Perform advanced trigonometry, logarithms, exponentials, and algebra expressions. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A scientific calculator helps with repeatable calculations involving advanced mathematical functions.",
+      "heroIntro": "उन्नत त्रिकोणमिति, लघुगणक, घातांक और बीजगणित अभिव्यक्तियाँ निष्पादित करें।",
+      "intro": "उन्नत त्रिकोणमिति, लघुगणक, घातांक और बीजगणित अभिव्यक्तियाँ निष्पादित करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक वैज्ञानिक कैलकुलेटर उन्नत गणितीय कार्यों से युक्त दोहराई जाने वाली गणनाओं में मदद करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different scientific calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Evaluate trigonometric expressions.",
-        "Calculate logarithms and powers.",
-        "Check algebraic arithmetic with explicit parentheses."
+        "विभिन्न वैज्ञानिक कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "त्रिकोणमितीय व्यंजकों का मूल्यांकन करें.",
+        "लघुगणक और घातों की गणना करें.",
+        "स्पष्ट कोष्ठकों के साथ बीजगणितीय अंकगणित की जाँच करें।"
       ],
       "tips": [
-        "Use parentheses to make precedence explicit.",
-        "Check the intended trigonometric angle mode.",
-        "Validate important results independently.",
-        "Avoid: Using the wrong angle mode.",
-        "Avoid: Ignoring operator precedence.",
-        "Avoid: Copying a result without checking the expression."
+        "प्राथमिकता को स्पष्ट करने के लिए कोष्ठक का उपयोग करें।",
+        "इच्छित त्रिकोणमितीय कोण मोड की जाँच करें।",
+        "महत्वपूर्ण परिणामों को स्वतंत्र रूप से मान्य करें.",
+        "बचें: गलत कोण मोड का उपयोग करना।",
+        "बचें: ऑपरेटर प्राथमिकता को अनदेखा करना।",
+        "बचें: अभिव्यक्ति की जांच किए बिना परिणाम की प्रतिलिपि बनाना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is साइंटिफिक कैलकुलेटर used for?",
-          "a": "Perform advanced trigonometry, logarithms, exponentials, and algebra expressions. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "साइंटिफिक कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "उन्नत त्रिकोणमिति, लघुगणक, घातांक और बीजगणित अभिव्यक्तियाँ निष्पादित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does साइंटिफिक कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "साइंटिफिक कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does साइंटिफिक कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "साइंटिफिक कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use साइंटिफिक कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए साइंटिफिक कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Why do trigonometric results look wrong?",
-          "a": "Check whether the calculator is using degrees or radians and use parentheses to make the intended expression explicit."
+          "q": "त्रिकोणमिति परिणाम गलत क्यों दिखते हैं?",
+          "a": "जांचें कि कैलकुलेटर डिग्री या रेडियन का उपयोग कर रहा है या नहीं और इच्छित अभिव्यक्ति को स्पष्ट करने के लिए कोष्ठक का उपयोग करें।"
         },
         {
-          "q": "Is साइंटिफिक कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या साइंटिफिक कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Expressions may combine arithmetic, powers, roots, trigonometric functions, logarithms, and other supported operations according to the calculator syntax."
+      "formula": "अभिव्यक्ति कैलकुलेटर सिंटैक्स के अनुसार अंकगणित, शक्तियों, जड़ों, त्रिकोणमितीय कार्यों, लघुगणक और अन्य समर्थित संचालन को जोड़ सकती है।"
     },
     "discount-calculator": {
-      "heroIntro": "Calculate the discount amount and final price from an original price and discount rate.",
-      "intro": "Calculate the discount amount and final price from an original price and discount rate. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A discount calculator separates the advertised percentage from the amount saved and final price.",
+      "heroIntro": "मूल कीमत और छूट दर से छूट राशि और अंतिम कीमत की गणना करें।",
+      "intro": "मूल कीमत और छूट दर से छूट राशि और अंतिम कीमत की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक डिस्काउंट कैलकुलेटर विज्ञापित प्रतिशत को बचाई गई राशि और अंतिम कीमत से अलग करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different discount calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate sale savings.",
-        "Compare different discount percentages.",
-        "Find the final price before additional taxes or fees."
+        "विभिन्न छूट कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "बिक्री बचत की गणना करें.",
+        "विभिन्न छूट प्रतिशत की तुलना करें.",
+        "अतिरिक्त करों या शुल्कों से पहले अंतिम कीमत ज्ञात करें।"
       ],
       "tips": [
-        "Check whether multiple discounts are sequential.",
-        "Include taxes or fees separately.",
-        "Do not confuse percentage discount with percentage-point change.",
-        "Avoid: Applying multiple discounts as simple addition.",
-        "Avoid: Ignoring taxes or service charges.",
-        "Avoid: Confusing discount percentage with margin."
+        "जांचें कि क्या एकाधिक छूट अनुक्रमिक हैं।",
+        "कर या शुल्क अलग से शामिल करें.",
+        "प्रतिशत छूट को प्रतिशत-बिंदु परिवर्तन के साथ भ्रमित न करें।",
+        "बचें: साधारण छूट के रूप में कई छूट लागू करना।",
+        "बचें: करों या सेवा शुल्कों की अनदेखी।",
+        "बचें: मार्जिन के साथ छूट प्रतिशत को भ्रमित करने वाली बात।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is डिस्काउंट कैलकुलेटर used for?",
-          "a": "Calculate the discount amount and final price from an original price and discount rate. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "डिस्काउंट कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "मूल कीमत और छूट दर से छूट राशि और अंतिम कीमत की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does डिस्काउंट कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "डिस्काउंट कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does डिस्काउंट कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "डिस्काउंट कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use डिस्काउंट कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए डिस्काउंट कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Are two discounts of 20% and 10% equal to 30% off?",
-          "a": "Not generally. Sequential percentage discounts are applied to the changing price, so the combined reduction is usually less than simply adding the percentages."
+          "q": "क्या 20% और 10% की दो छूटें 30% छूट के बराबर हैं?",
+          "a": "आम तौर पर नहीं. बदलती कीमत पर क्रमिक प्रतिशत छूट लागू की जाती है, इसलिए संयुक्त कटौती आमतौर पर केवल प्रतिशत जोड़ने से कम होती है।"
         },
         {
-          "q": "Is डिस्काउंट कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या डिस्काउंट कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Discount amount = original price × discount rate / 100; final price = original price − discount amount."
+      "formula": "छूट राशि = मूल कीमत × छूट दर / 100; अंतिम कीमत = मूल कीमत - छूट राशि।"
     },
     "tip-calculator": {
-      "heroIntro": "Split restaurant dinner bills and calculate service tip percentages evenly.",
-      "intro": "Split restaurant dinner bills and calculate service tip percentages evenly. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A tip calculator simplifies service-charge arithmetic and can divide a final amount across people.",
+      "heroIntro": "रेस्तरां के रात्रिभोज के बिलों को विभाजित करें और सेवा टिप प्रतिशत की समान रूप से गणना करें।",
+      "intro": "रेस्तरां के रात्रिभोज के बिलों को विभाजित करें और सेवा टिप प्रतिशत की समान रूप से गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक टिप कैलकुलेटर सेवा-प्रभार अंकगणित को सरल बनाता है और अंतिम राशि को लोगों में विभाजित कर सकता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different tip calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate a restaurant tip.",
-        "Split a bill between several people.",
-        "Compare different tip percentages."
+        "विभिन्न टिप कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "एक रेस्तरां टिप की गणना करें.",
+        "एक बिल को कई लोगों के बीच बांटें।",
+        "विभिन्न टिप प्रतिशत की तुलना करें."
       ],
       "tips": [
-        "Decide whether tip is calculated before or after tax.",
-        "Check rounding when splitting a bill.",
-        "Treat local service-charge rules separately from voluntary tips.",
-        "Avoid: Calculating the tip on the wrong base.",
-        "Avoid: Ignoring an already-added service charge.",
-        "Avoid: Rounding unevenly when splitting the total."
+        "तय करें कि टिप की गणना टैक्स से पहले की जाएगी या बाद में।",
+        "बिल बांटते समय पूर्णांकन की जांच करें।",
+        "स्थानीय सेवा-प्रभार नियमों को स्वैच्छिक युक्तियों से अलग रखें।",
+        "बचें: गलत आधार पर टिप की गणना करना।",
+        "बचें: पहले से जोड़े गए सेवा शुल्क को नज़रअंदाज़ करना।",
+        "बचें: कुल को विभाजित करते समय असमान रूप से गोल करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is टिप कैलकुलेटर used for?",
-          "a": "Split restaurant dinner bills and calculate service tip percentages evenly. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "टिप कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "रेस्तरां के रात्रिभोज के बिलों को विभाजित करें और सेवा टिप प्रतिशत की समान रूप से गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does टिप कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "टिप कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does टिप कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "टिप कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use टिप कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए टिप कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Should a tip be calculated before or after tax?",
-          "a": "Practices vary. Choose the convention required by the venue or your group and check whether a service charge has already been included."
+          "q": "क्या टिप की गणना कर से पहले या बाद में की जानी चाहिए?",
+          "a": "प्रथाएँ भिन्न-भिन्न होती हैं। आयोजन स्थल या अपने समूह के लिए आवश्यक सम्मेलन चुनें और जांचें कि सेवा शुल्क पहले से ही शामिल किया गया है या नहीं।"
         },
         {
-          "q": "Is टिप कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या टिप कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Tip = bill amount × tip rate / 100; total = bill amount + tip."
+      "formula": "टिप = बिल राशि × टिप दर / 100; कुल = बिल राशि + टिप।"
     },
     "timetable-maker": {
-      "heroIntro": "Create a flexible weekly or daily timetable from ready-made school, study, work, or personal templates and edit every time slot yourself.",
-      "intro": "Create a flexible weekly or daily timetable from ready-made school, study, work, or personal templates and edit every time slot yourself. Build a balanced weekly timetable with subjects, breaks, start times, and editable cells. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a balanced weekly timetable with subjects, breaks, start times, and editable cells.",
+      "heroIntro": "तैयार स्कूल, अध्ययन, कार्य या व्यक्तिगत टेम्पलेट्स से एक लचीली साप्ताहिक या दैनिक समय सारिणी बनाएं और प्रत्येक टाइम स्लॉट को स्वयं संपादित करें।",
+      "intro": "तैयार स्कूल, अध्ययन, कार्य या व्यक्तिगत टेम्पलेट्स से एक लचीली साप्ताहिक या दैनिक समय सारिणी बनाएं और प्रत्येक टाइम स्लॉट को स्वयं संपादित करें। विषयों, विरामों, प्रारंभ समय और संपादन योग्य कक्षों के साथ एक संतुलित साप्ताहिक समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "विषयों, विरामों, प्रारंभ समय और संपादन योग्य कक्षों के साथ एक संतुलित साप्ताहिक समय सारिणी बनाएं।",
       "steps": [
-        "Choose school days and class slots.",
-        "Set the first start time and slot length.",
-        "Enter subjects and generate the grid.",
-        "Edit the final timetable and print or export it."
+        "स्कूल के दिन और कक्षा के स्थान चुनें।",
+        "पहला प्रारंभ समय और स्लॉट की लंबाई निर्धारित करें।",
+        "विषय दर्ज करें और ग्रिड उत्पन्न करें।",
+        "अंतिम समय सारिणी संपादित करें और इसे प्रिंट या निर्यात करें।"
       ],
       "useCases": [
-        "School planning",
-        "Weekly class organization",
-        "Home study planning"
+        "स्कूल योजना",
+        "साप्ताहिक कक्षा का आयोजन",
+        "गृह अध्ययन योजना"
       ],
       "tips": [
-        "Keep subject names short.",
-        "Leave room for real breaks."
+        "विषय के नाम संक्षिप्त रखें.",
+        "वास्तविक विराम के लिए जगह छोड़ें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is टाइम टेबल मेकर used for?",
-          "a": "Create a flexible weekly or daily timetable from ready-made school, study, work, or personal templates and edit every time slot yourself. Build a balanced weekly timetable with subjects, breaks, start times, and editable cells."
+          "q": "टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "तैयार स्कूल, अध्ययन, कार्य या व्यक्तिगत टेम्पलेट्स से एक लचीली साप्ताहिक या दैनिक समय सारिणी बनाएं और प्रत्येक टाइम स्लॉट को स्वयं संपादित करें। विषयों, विरामों, प्रारंभ समय और संपादन योग्य कक्षों के साथ एक संतुलित साप्ताहिक समय सारिणी बनाएं।"
         },
         {
-          "q": "Can I make my own school timetable?",
-          "a": "Yes. Set your days, slot count, times, subjects, note, and personal message."
+          "q": "क्या मैं अपने स्कूल की समय सारिणी स्वयं बना सकता हूँ?",
+          "a": "हाँ. अपने दिन, स्लॉट संख्या, समय, विषय, नोट और व्यक्तिगत संदेश निर्धारित करें।"
         },
         {
-          "q": "Can I personalize टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "cute-timetable-maker": {
-      "heroIntro": "Make a cute customizable timetable with ready-made layouts for students, kids, study plans, and daily routines.",
-      "intro": "Make a cute customizable timetable with ready-made layouts for students, kids, study plans, and daily routines. Create a visually friendly timetable with a softer layout, personal message, and printable schedule. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a visually friendly timetable with a softer layout, personal message, and printable schedule.",
+      "heroIntro": "छात्रों, बच्चों, अध्ययन योजनाओं और दैनिक दिनचर्या के लिए तैयार लेआउट के साथ एक सुंदर अनुकूलन योग्य समय सारिणी बनाएं।",
+      "intro": "छात्रों, बच्चों, अध्ययन योजनाओं और दैनिक दिनचर्या के लिए तैयार लेआउट के साथ एक सुंदर अनुकूलन योग्य समय सारिणी बनाएं। एक नरम लेआउट, व्यक्तिगत संदेश और प्रिंट करने योग्य शेड्यूल के साथ एक दृष्टि-अनुकूल समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक नरम लेआउट, व्यक्तिगत संदेश और प्रिंट करने योग्य शेड्यूल के साथ एक दृष्टि-अनुकूल समय सारिणी बनाएं।",
       "steps": [
-        "Choose the school days and class slots.",
-        "Set times and subjects.",
-        "Add a personal note or favorite quote.",
-        "Generate, edit, and print your cute timetable."
+        "स्कूल के दिन और कक्षा स्लॉट चुनें।",
+        "समय और विषय निर्धारित करें.",
+        "एक व्यक्तिगत नोट या पसंदीदा उद्धरण जोड़ें.",
+        "अपनी सुंदर समय सारिणी बनाएं, संपादित करें और प्रिंट करें।"
       ],
       "useCases": [
-        "Student planners",
-        "Cute study boards",
-        "Bedroom or desk schedules"
+        "छात्र योजनाकार",
+        "प्यारा अध्ययन बोर्ड",
+        "शयनकक्ष या डेस्क कार्यक्रम"
       ],
       "tips": [
-        "Use short subject names and a favorite quote.",
-        "Print it for a desk or wall."
+        "संक्षिप्त विषय नाम और पसंदीदा उद्धरण का उपयोग करें।",
+        "इसे डेस्क या दीवार के लिए प्रिंट करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is क्यूट टाइम टेबल मेकर used for?",
-          "a": "Make a cute customizable timetable with ready-made layouts for students, kids, study plans, and daily routines. Create a visually friendly timetable with a softer layout, personal message, and printable schedule."
+          "q": "क्यूट टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "छात्रों, बच्चों, अध्ययन योजनाओं और दैनिक दिनचर्या के लिए तैयार लेआउट के साथ एक सुंदर अनुकूलन योग्य समय सारिणी बनाएं। एक नरम लेआउट, व्यक्तिगत संदेश और प्रिंट करने योग्य शेड्यूल के साथ एक दृष्टि-अनुकूल समय सारिणी बनाएं।"
         },
         {
-          "q": "Can I add a personal quote?",
-          "a": "Yes. Add a quote or reminder and it appears with the generated timetable."
+          "q": "क्या मैं एक व्यक्तिगत उद्धरण जोड़ सकता हूँ?",
+          "a": "हाँ. एक उद्धरण या अनुस्मारक जोड़ें और यह उत्पन्न समय सारिणी के साथ दिखाई देगा।"
         },
         {
-          "q": "Can I personalize क्यूट टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं क्यूट टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download क्यूट टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं क्यूट टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "student-timetable-maker": {
-      "heroIntro": "Create a student timetable for classes, study sessions, homework, revision, breaks, and personal activities.",
-      "intro": "Create a student timetable for classes, study sessions, homework, revision, breaks, and personal activities. Create a student-focused weekly class and study timetable with clear time blocks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a student-focused weekly class and study timetable with clear time blocks.",
+      "heroIntro": "कक्षाओं, अध्ययन सत्रों, गृहकार्य, पुनरीक्षण, अवकाश और व्यक्तिगत गतिविधियों के लिए एक छात्र समय सारिणी बनाएं।",
+      "intro": "कक्षाओं, अध्ययन सत्रों, गृहकार्य, पुनरीक्षण, अवकाश और व्यक्तिगत गतिविधियों के लिए एक छात्र समय सारिणी बनाएं। एक छात्र-केंद्रित साप्ताहिक कक्षा बनाएं और स्पष्ट समय खंडों के साथ अध्ययन समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक छात्र-केंद्रित साप्ताहिक कक्षा बनाएं और स्पष्ट समय खंडों के साथ अध्ययन समय सारिणी बनाएं।",
       "steps": [
-        "Choose study days and slots.",
-        "Set the school start time and duration.",
-        "Add subjects and study activities.",
-        "Edit cells and add a personal note before printing."
+        "अध्ययन के दिन और स्लॉट चुनें।",
+        "स्कूल प्रारंभ होने का समय और अवधि निर्धारित करें।",
+        "विषय और अध्ययन गतिविधियाँ जोड़ें।",
+        "सेल संपादित करें और मुद्रण से पहले एक व्यक्तिगत नोट जोड़ें।"
       ],
       "useCases": [
-        "School students",
-        "College students",
-        "Study planning"
+        "स्कूली छात्र",
+        "कॉलेज के छात्र",
+        "अध्ययन योजना"
       ],
       "tips": [
-        "Reserve a few blocks for revision.",
-        "Use consistent subject names."
+        "पुनरीक्षण के लिए कुछ ब्लॉक आरक्षित रखें।",
+        "सुसंगत विषय नामों का प्रयोग करें."
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्टूडेंट टाइम टेबल मेकर used for?",
-          "a": "Create a student timetable for classes, study sessions, homework, revision, breaks, and personal activities. Create a student-focused weekly class and study timetable with clear time blocks."
+          "q": "स्टूडेंट टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "कक्षाओं, अध्ययन सत्रों, गृहकार्य, पुनरीक्षण, अवकाश और व्यक्तिगत गतिविधियों के लिए एक छात्र समय सारिणी बनाएं। एक छात्र-केंद्रित साप्ताहिक कक्षा बनाएं और स्पष्ट समय खंडों के साथ अध्ययन समय सारिणी बनाएं।"
         },
         {
-          "q": "Is it editable after generation?",
-          "a": "Yes. Every schedule cell remains editable."
+          "q": "क्या यह पीढ़ी दर पीढ़ी संपादन योग्य है?",
+          "a": "हाँ. प्रत्येक शेड्यूल सेल संपादन योग्य रहता है।"
         },
         {
-          "q": "Can I personalize स्टूडेंट टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्टूडेंट टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्टूडेंट टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्टूडेंट टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "school-timetable-maker": {
-      "heroIntro": "Build a school timetable with ready-made class periods, subjects, breaks, and editable weekly schedules.",
-      "intro": "Build a school timetable with ready-made class periods, subjects, breaks, and editable weekly schedules. Create a school timetable organized around class slots, subjects, breaks, and school days. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a school timetable organized around class slots, subjects, breaks, and school days.",
+      "heroIntro": "तैयार कक्षा अवधि, विषयों, ब्रेक और संपादन योग्य साप्ताहिक कार्यक्रम के साथ एक स्कूल समय सारिणी बनाएं।",
+      "intro": "तैयार कक्षा अवधि, विषयों, ब्रेक और संपादन योग्य साप्ताहिक कार्यक्रम के साथ एक स्कूल समय सारिणी बनाएं। कक्षा स्लॉट, विषयों, अवकाश और स्कूल के दिनों के अनुसार व्यवस्थित एक स्कूल समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "कक्षा स्लॉट, विषयों, अवकाश और स्कूल के दिनों के अनुसार व्यवस्थित एक स्कूल समय सारिणी बनाएं।",
       "steps": [
-        "Set school days and class periods.",
-        "Choose start time, class length, and break.",
-        "Enter subjects.",
-        "Generate and adjust the class grid."
+        "स्कूल के दिन और कक्षा अवधि निर्धारित करें।",
+        "प्रारंभ समय, कक्षा की अवधि और विराम चुनें।",
+        "विषय दर्ज करें.",
+        "क्लास ग्रिड बनाएं और समायोजित करें।"
       ],
       "useCases": [
-        "Primary school",
-        "Secondary school",
-        "Classroom planning"
+        "प्राथमिक विद्यालय",
+        "माध्यमिक विद्यालय",
+        "कक्षा योजना"
       ],
       "tips": [
-        "Check break placement and teacher availability before use."
+        "उपयोग से पहले ब्रेक प्लेसमेंट और शिक्षक उपलब्धता की जांच करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्कूल टाइम टेबल मेकर used for?",
-          "a": "Build a school timetable with ready-made class periods, subjects, breaks, and editable weekly schedules. Create a school timetable organized around class slots, subjects, breaks, and school days."
+          "q": "स्कूल टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "तैयार कक्षा अवधि, विषयों, ब्रेक और संपादन योग्य साप्ताहिक कार्यक्रम के साथ एक स्कूल समय सारिणी बनाएं। कक्षा स्लॉट, विषयों, अवकाश और स्कूल के दिनों के अनुसार व्यवस्थित एक स्कूल समय सारिणी बनाएं।"
         },
         {
-          "q": "Can I print the school timetable?",
-          "a": "Yes. Use Print Timetable after generating it."
+          "q": "क्या मैं स्कूल की समय सारिणी प्रिंट कर सकता हूँ?",
+          "a": "हाँ. इसे जनरेट करने के बाद प्रिंट टाइमटेबल का उपयोग करें।"
         },
         {
-          "q": "Can I personalize स्कूल टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्कूल टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्कूल टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्कूल टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "college-timetable-maker": {
-      "heroIntro": "Create a college timetable for lectures, labs, tutorials, seminars, study blocks, and weekly campus routines.",
-      "intro": "Create a college timetable for lectures, labs, tutorials, seminars, study blocks, and weekly campus routines. Plan lectures, labs, tutorials, projects, and study blocks across a college week. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Plan lectures, labs, tutorials, projects, and study blocks across a college week.",
+      "heroIntro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, सेमिनार, अध्ययन ब्लॉक और साप्ताहिक परिसर दिनचर्या के लिए एक कॉलेज समय सारिणी बनाएं।",
+      "intro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, सेमिनार, अध्ययन ब्लॉक और साप्ताहिक परिसर दिनचर्या के लिए एक कॉलेज समय सारिणी बनाएं। पूरे कॉलेज सप्ताह में व्याख्यान, प्रयोगशाला, ट्यूटोरियल, प्रोजेक्ट और अध्ययन ब्लॉक की योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पूरे कॉलेज सप्ताह में व्याख्यान, प्रयोगशाला, ट्यूटोरियल, प्रोजेक्ट और अध्ययन ब्लॉक की योजना बनाएं।",
       "steps": [
-        "Select college days and class slots.",
-        "Set lecture timing.",
-        "Enter lectures, labs, tutorials, or projects.",
-        "Edit the generated schedule and export it."
+        "कॉलेज के दिन और कक्षा के स्लॉट चुनें।",
+        "व्याख्यान का समय निर्धारित करें।",
+        "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, या प्रोजेक्ट दर्ज करें।",
+        "जनरेट किए गए शेड्यूल को संपादित करें और इसे निर्यात करें।"
       ],
       "useCases": [
-        "College schedules",
-        "Lecture planning",
-        "Lab schedules"
+        "कॉलेज कार्यक्रम",
+        "व्याख्यान योजना",
+        "लैब शेड्यूल"
       ],
       "tips": [
-        "Use separate names for labs and lectures."
+        "प्रयोगशालाओं और व्याख्यानों के लिए अलग-अलग नामों का उपयोग करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is कॉलेज टाइम टेबल मेकर used for?",
-          "a": "Create a college timetable for lectures, labs, tutorials, seminars, study blocks, and weekly campus routines. Plan lectures, labs, tutorials, projects, and study blocks across a college week."
+          "q": "कॉलेज टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, सेमिनार, अध्ययन ब्लॉक और साप्ताहिक परिसर दिनचर्या के लिए एक कॉलेज समय सारिणी बनाएं। पूरे कॉलेज सप्ताह में व्याख्यान, प्रयोगशाला, ट्यूटोरियल, प्रोजेक्ट और अध्ययन ब्लॉक की योजना बनाएं।"
         },
         {
-          "q": "Can labs and lectures be mixed?",
-          "a": "Yes. Each cell accepts any activity you want."
+          "q": "क्या प्रयोगशालाओं और व्याख्यानों को मिश्रित किया जा सकता है?",
+          "a": "हाँ. प्रत्येक कोशिका आपकी इच्छित किसी भी गतिविधि को स्वीकार करती है।"
         },
         {
-          "q": "Can I personalize कॉलेज टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं कॉलेज टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download कॉलेज टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं कॉलेज टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "university-timetable-maker": {
-      "heroIntro": "Make a university timetable for lectures, labs, tutorials, research, seminars, and personal study periods.",
-      "intro": "Make a university timetable for lectures, labs, tutorials, research, seminars, and personal study periods. Build a university schedule for lectures, labs, research, seminars, and independent study. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a university schedule for lectures, labs, research, seminars, and independent study.",
+      "heroIntro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, अनुसंधान, सेमिनार और व्यक्तिगत अध्ययन अवधि के लिए एक विश्वविद्यालय समय सारिणी बनाएं।",
+      "intro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, अनुसंधान, सेमिनार और व्यक्तिगत अध्ययन अवधि के लिए एक विश्वविद्यालय समय सारिणी बनाएं। व्याख्यान, प्रयोगशाला, अनुसंधान, सेमिनार और स्वतंत्र अध्ययन के लिए एक विश्वविद्यालय कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "व्याख्यान, प्रयोगशाला, अनुसंधान, सेमिनार और स्वतंत्र अध्ययन के लिए एक विश्वविद्यालय कार्यक्रम बनाएं।",
       "steps": [
-        "Choose university days and slots.",
-        "Set the daily start time.",
-        "Add academic activities.",
-        "Generate and personalize the grid."
+        "विश्वविद्यालय के दिन और स्लॉट चुनें।",
+        "दैनिक प्रारंभ समय निर्धारित करें.",
+        "शैक्षणिक गतिविधियाँ जोड़ें.",
+        "ग्रिड बनाएं और निजीकृत करें."
       ],
       "useCases": [
-        "University students",
-        "Research schedules",
-        "Seminar planning"
+        "विश्वविद्यालय के छात्र",
+        "अनुसंधान कार्यक्रम",
+        "सेमिनार योजना"
       ],
       "tips": [
-        "Include research and preparation time, not only classes."
+        "केवल कक्षाएं ही नहीं, अनुसंधान और तैयारी का समय भी शामिल करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is यूनिवर्सिटी टाइम टेबल मेकर used for?",
-          "a": "Make a university timetable for lectures, labs, tutorials, research, seminars, and personal study periods. Build a university schedule for lectures, labs, research, seminars, and independent study."
+          "q": "यूनिवर्सिटी टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, अनुसंधान, सेमिनार और व्यक्तिगत अध्ययन अवधि के लिए एक विश्वविद्यालय समय सारिणी बनाएं। व्याख्यान, प्रयोगशाला, अनुसंधान, सेमिनार और स्वतंत्र अध्ययन के लिए एक विश्वविद्यालय कार्यक्रम बनाएं।"
         },
         {
-          "q": "Can I use it for research planning?",
-          "a": "Yes. Research, seminars, labs, and study blocks can all be entered."
+          "q": "क्या मैं इसका उपयोग अनुसंधान योजना के लिए कर सकता हूँ?",
+          "a": "हाँ. अनुसंधान, सेमिनार, प्रयोगशालाएं और अध्ययन ब्लॉक सभी में प्रवेश किया जा सकता है।"
         },
         {
-          "q": "Can I personalize यूनिवर्सिटी टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं यूनिवर्सिटी टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download यूनिवर्सिटी टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं यूनिवर्सिटी टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "class-timetable-generator": {
-      "heroIntro": "Generate an editable class timetable with periods, subjects, breaks, and a printable weekly grid.",
-      "intro": "Generate an editable class timetable with periods, subjects, breaks, and a printable weekly grid. Generate a class-ready grid for multiple subjects and teaching slots. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Generate a class-ready grid for multiple subjects and teaching slots.",
+      "heroIntro": "अवधियों, विषयों, विरामों और एक मुद्रण योग्य साप्ताहिक ग्रिड के साथ एक संपादन योग्य कक्षा समय सारिणी तैयार करें।",
+      "intro": "अवधियों, विषयों, विरामों और एक मुद्रण योग्य साप्ताहिक ग्रिड के साथ एक संपादन योग्य कक्षा समय सारिणी तैयार करें। अनेक विषयों और शिक्षण स्लॉट के लिए कक्षा-तैयार ग्रिड बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "अनेक विषयों और शिक्षण स्लॉट के लिए कक्षा-तैयार ग्रिड बनाएं।",
       "steps": [
-        "Choose class days and slot count.",
-        "Set timing and break position.",
-        "Enter subjects.",
-        "Generate and edit each class cell."
+        "कक्षा के दिन और स्लॉट संख्या चुनें।",
+        "समय निर्धारित करें और स्थिति तोड़ें।",
+        "विषय दर्ज करें.",
+        "प्रत्येक क्लास सेल बनाएं और संपादित करें।"
       ],
       "useCases": [
-        "Class teachers",
-        "School coordinators",
-        "Subject schedules"
+        "कक्षा शिक्षक",
+        "स्कूल समन्वयक",
+        "विषय अनुसूचियाँ"
       ],
       "tips": [
-        "Verify teacher and room conflicts separately."
+        "शिक्षक और कक्ष के टकराव को अलग-अलग सत्यापित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is क्लास टाइम टेबल जनरेटर used for?",
-          "a": "Generate an editable class timetable with periods, subjects, breaks, and a printable weekly grid. Generate a class-ready grid for multiple subjects and teaching slots."
+          "q": "क्लास टाइम टेबल जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "अवधियों, विषयों, विरामों और एक मुद्रण योग्य साप्ताहिक ग्रिड के साथ एक संपादन योग्य कक्षा समय सारिणी तैयार करें। अनेक विषयों और शिक्षण स्लॉट के लिए कक्षा-तैयार ग्रिड बनाएं।"
         },
         {
-          "q": "Does it assign teachers automatically?",
-          "a": "No. It creates the planning grid; teacher and room allocation should be reviewed separately."
+          "q": "क्या यह शिक्षकों को स्वचालित रूप से नियुक्त करता है?",
+          "a": "नहीं, यह नियोजन ग्रिड बनाता है; शिक्षक एवं कक्ष आवंटन की अलग से समीक्षा की जाए।"
         },
         {
-          "q": "Can I personalize क्लास टाइम टेबल जनरेटर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं क्लास टाइम टेबल जनरेटर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download क्लास टाइम टेबल जनरेटर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं क्लास टाइम टेबल जनरेटर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "study-timetable-maker": {
-      "heroIntro": "Create a study timetable for daily revision, focused study blocks, practice, reading, mock tests, and breaks.",
-      "intro": "Create a study timetable for daily revision, focused study blocks, practice, reading, mock tests, and breaks. Create a study plan that separates revision, practice, reading, and mock-test sessions by time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a study plan that separates revision, practice, reading, and mock-test sessions by time.",
+      "heroIntro": "दैनिक पुनरीक्षण, केंद्रित अध्ययन ब्लॉक, अभ्यास, पढ़ना, मॉक टेस्ट और ब्रेक के लिए एक अध्ययन समय सारिणी बनाएं।",
+      "intro": "दैनिक पुनरीक्षण, केंद्रित अध्ययन ब्लॉक, अभ्यास, पढ़ना, मॉक टेस्ट और ब्रेक के लिए एक अध्ययन समय सारिणी बनाएं। एक अध्ययन योजना बनाएं जो समय के अनुसार पुनरीक्षण, अभ्यास, पढ़ना और मॉक-टेस्ट सत्रों को अलग करती है। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक अध्ययन योजना बनाएं जो समय के अनुसार पुनरीक्षण, अभ्यास, पढ़ना और मॉक-टेस्ट सत्रों को अलग करती है।",
       "steps": [
-        "Choose study days and sessions.",
-        "Set realistic session duration.",
-        "Add study subjects or activities.",
-        "Add a goal note or quote and generate."
+        "अध्ययन के दिन और सत्र चुनें.",
+        "यथार्थवादी सत्र अवधि निर्धारित करें.",
+        "अध्ययन विषय या गतिविधियाँ जोड़ें.",
+        "एक लक्ष्य नोट या उद्धरण जोड़ें और उत्पन्न करें।"
       ],
       "useCases": [
-        "Exam preparation",
-        "Daily study plans",
-        "Revision schedules"
+        "परीक्षा की तैयारी",
+        "दैनिक अध्ययन योजना",
+        "पुनरीक्षण कार्यक्रम"
       ],
       "tips": [
-        "Alternate focused study with breaks."
+        "ब्रेक के साथ वैकल्पिक रूप से केंद्रित अध्ययन।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्टडी टाइम टेबल मेकर used for?",
-          "a": "Create a study timetable for daily revision, focused study blocks, practice, reading, mock tests, and breaks. Create a study plan that separates revision, practice, reading, and mock-test sessions by time."
+          "q": "स्टडी टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "दैनिक पुनरीक्षण, केंद्रित अध्ययन ब्लॉक, अभ्यास, पढ़ना, मॉक टेस्ट और ब्रेक के लिए एक अध्ययन समय सारिणी बनाएं। एक अध्ययन योजना बनाएं जो समय के अनुसार पुनरीक्षण, अभ्यास, पढ़ना और मॉक-टेस्ट सत्रों को अलग करती है।"
         },
         {
-          "q": "Can I use it for exam preparation?",
-          "a": "Yes. Use sessions for revision, practice, reading, and mock tests."
+          "q": "क्या मैं इसका उपयोग परीक्षा की तैयारी के लिए कर सकता हूँ?",
+          "a": "हाँ. पुनरीक्षण, अभ्यास, पढ़ने और मॉक टेस्ट के लिए सत्रों का उपयोग करें।"
         },
         {
-          "q": "Can I personalize स्टडी टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्टडी टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्टडी टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्टडी टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "exam-timetable-maker": {
-      "heroIntro": "Build an exam timetable with exam subjects, revision sessions, dates, periods, and an easy-to-edit schedule.",
-      "intro": "Build an exam timetable with exam subjects, revision sessions, dates, periods, and an easy-to-edit schedule. Organize exam dates and revision blocks without forcing every entry into a generic school period label. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Organize exam dates and revision blocks without forcing every entry into a generic school period label.",
+      "heroIntro": "परीक्षा विषयों, पुनरीक्षण सत्र, तिथियों, अवधियों और संपादित करने में आसान शेड्यूल के साथ एक परीक्षा समय सारिणी बनाएं।",
+      "intro": "परीक्षा विषयों, पुनरीक्षण सत्र, तिथियों, अवधियों और संपादित करने में आसान शेड्यूल के साथ एक परीक्षा समय सारिणी बनाएं। सामान्य स्कूल अवधि लेबल में प्रत्येक प्रविष्टि को बाध्य किए बिना परीक्षा तिथियों और पुनरीक्षण ब्लॉकों को व्यवस्थित करें। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "सामान्य स्कूल अवधि लेबल में प्रत्येक प्रविष्टि को बाध्य किए बिना परीक्षा तिथियों और पुनरीक्षण ब्लॉकों को व्यवस्थित करें।",
       "steps": [
-        "Choose the days or exam dates represented by your plan.",
-        "Set the time blocks you need.",
-        "Enter exams or revision tasks.",
-        "Add a reminder and print the final plan."
+        "अपनी योजना में दर्शाए गए दिन या परीक्षा तिथियां चुनें।",
+        "आपके लिए आवश्यक समय ब्लॉक सेट करें.",
+        "परीक्षा या पुनरीक्षण कार्य दर्ज करें।",
+        "एक अनुस्मारक जोड़ें और अंतिम योजना प्रिंट करें।"
       ],
       "useCases": [
-        "Exam calendars",
-        "Revision planning",
-        "Test preparation"
+        "परीक्षा कैलेंडर",
+        "पुनरीक्षण योजना",
+        "परीक्षण की तैयारी"
       ],
       "tips": [
-        "Double-check official exam dates before relying on the generated plan."
+        "बनाई गई योजना पर भरोसा करने से पहले आधिकारिक परीक्षा तिथियों की दोबारा जांच करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is एग्जाम टाइम टेबल मेकर used for?",
-          "a": "Build an exam timetable with exam subjects, revision sessions, dates, periods, and an easy-to-edit schedule. Organize exam dates and revision blocks without forcing every entry into a generic school period label."
+          "q": "एग्जाम टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "परीक्षा विषयों, पुनरीक्षण सत्र, तिथियों, अवधियों और संपादित करने में आसान शेड्यूल के साथ एक परीक्षा समय सारिणी बनाएं। सामान्य स्कूल अवधि लेबल में प्रत्येक प्रविष्टि को बाध्य किए बिना परीक्षा तिथियों और पुनरीक्षण ब्लॉकों को व्यवस्थित करें।"
         },
         {
-          "q": "Is this an official exam schedule?",
-          "a": "No. It is a planning tool; verify dates against your school or exam authority."
+          "q": "क्या यह आधिकारिक परीक्षा कार्यक्रम है?",
+          "a": "नहीं, यह एक नियोजन उपकरण है; अपने स्कूल या परीक्षा प्राधिकारी के विरुद्ध तारीखों की पुष्टि करें।"
         },
         {
-          "q": "Can I personalize एग्जाम टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं एग्जाम टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download एग्जाम टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं एग्जाम टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "weekly-timetable-maker": {
-      "heroIntro": "Generate a weekly timetable for school, work, study, exercise, family time, hobbies, and personal planning.",
-      "intro": "Generate a weekly timetable for school, work, study, exercise, family time, hobbies, and personal planning. Create a flexible seven-day plan for work, study, exercise, family time, and personal tasks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a flexible seven-day plan for work, study, exercise, family time, and personal tasks.",
+      "heroIntro": "स्कूल, काम, अध्ययन, व्यायाम, पारिवारिक समय, शौक और व्यक्तिगत योजना के लिए एक साप्ताहिक समय सारिणी बनाएं।",
+      "intro": "स्कूल, काम, अध्ययन, व्यायाम, पारिवारिक समय, शौक और व्यक्तिगत योजना के लिए एक साप्ताहिक समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, पारिवारिक समय और व्यक्तिगत कार्यों के लिए एक लचीली सात-दिवसीय योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "काम, अध्ययन, व्यायाम, पारिवारिक समय और व्यक्तिगत कार्यों के लिए एक लचीली सात-दिवसीय योजना बनाएं।",
       "steps": [
-        "Choose the number of days and time blocks.",
-        "Set a convenient start time.",
-        "Enter activities.",
-        "Add a personal note and generate the week."
+        "दिनों की संख्या और समय ब्लॉक चुनें.",
+        "एक सुविधाजनक प्रारंभ समय निर्धारित करें.",
+        "गतिविधियाँ दर्ज करें.",
+        "एक व्यक्तिगत नोट जोड़ें और सप्ताह तैयार करें।"
       ],
       "useCases": [
-        "Weekly planning",
-        "Personal productivity",
-        "Family schedules"
+        "साप्ताहिक योजना",
+        "व्यक्तिगत उत्पादकता",
+        "पारिवारिक कार्यक्रम"
       ],
       "tips": [
-        "Keep flexible blocks for unexpected tasks."
+        "अप्रत्याशित कार्यों के लिए लचीले ब्लॉक रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is साप्ताहिक टाइम टेबल मेकर used for?",
-          "a": "Generate a weekly timetable for school, work, study, exercise, family time, hobbies, and personal planning. Create a flexible seven-day plan for work, study, exercise, family time, and personal tasks."
+          "q": "साप्ताहिक टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "स्कूल, काम, अध्ययन, व्यायाम, पारिवारिक समय, शौक और व्यक्तिगत योजना के लिए एक साप्ताहिक समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, पारिवारिक समय और व्यक्तिगत कार्यों के लिए एक लचीली सात-दिवसीय योजना बनाएं।"
         },
         {
-          "q": "Can I plan non-school activities?",
-          "a": "Yes. Any activity can be placed into a time block."
+          "q": "क्या मैं गैर-स्कूल गतिविधियों की योजना बना सकता हूँ?",
+          "a": "हाँ. किसी भी गतिविधि को टाइम ब्लॉक में रखा जा सकता है।"
         },
         {
-          "q": "Can I personalize साप्ताहिक टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं साप्ताहिक टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download साप्ताहिक टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं साप्ताहिक टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "daily-timetable-maker": {
-      "heroIntro": "Create a daily timetable with time slots for routines, work, study, meals, exercise, family, and rest.",
-      "intro": "Create a daily timetable with time slots for routines, work, study, meals, exercise, family, and rest. Build a one-day schedule using real clock times instead of school-style period labels. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a one-day schedule using real clock times instead of school-style period labels.",
+      "heroIntro": "दिनचर्या, काम, अध्ययन, भोजन, व्यायाम, परिवार और आराम के लिए समय स्लॉट के साथ एक दैनिक समय सारिणी बनाएं।",
+      "intro": "दिनचर्या, काम, अध्ययन, भोजन, व्यायाम, परिवार और आराम के लिए समय स्लॉट के साथ एक दैनिक समय सारिणी बनाएं। स्कूल-शैली अवधि लेबल के बजाय वास्तविक घड़ी समय का उपयोग करके एक दिन का शेड्यूल बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "स्कूल-शैली अवधि लेबल के बजाय वास्तविक घड़ी समय का उपयोग करके एक दिन का शेड्यूल बनाएं।",
       "steps": [
-        "Set your start time and number of activities.",
-        "Choose the activity duration.",
-        "Enter your routine.",
-        "Generate and personalize the day."
+        "अपना प्रारंभ समय और गतिविधियों की संख्या निर्धारित करें।",
+        "गतिविधि अवधि चुनें.",
+        "अपनी दिनचर्या दर्ज करें.",
+        "दिन को बनाएं और निजीकृत करें."
       ],
       "useCases": [
-        "Daily routines",
-        "Productivity plans",
-        "Morning-to-evening schedules"
+        "दैनिक दिनचर्या",
+        "उत्पादकता योजनाएँ",
+        "सुबह से शाम तक का शेड्यूल"
       ],
       "tips": [
-        "Use actual clock times to make the plan easier to follow."
+        "योजना का पालन करना आसान बनाने के लिए वास्तविक घड़ी समय का उपयोग करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is डेली टाइम टेबल मेकर used for?",
-          "a": "Create a daily timetable with time slots for routines, work, study, meals, exercise, family, and rest. Build a one-day schedule using real clock times instead of school-style period labels."
+          "q": "डेली टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "दिनचर्या, काम, अध्ययन, भोजन, व्यायाम, परिवार और आराम के लिए समय स्लॉट के साथ एक दैनिक समय सारिणी बनाएं। स्कूल-शैली अवधि लेबल के बजाय वास्तविक घड़ी समय का उपयोग करके एक दिन का शेड्यूल बनाएं।"
         },
         {
-          "q": "Does the daily planner show real times?",
-          "a": "Yes. Generated blocks display start and end times."
+          "q": "क्या दैनिक योजनाकार वास्तविक समय दिखाता है?",
+          "a": "हाँ. जेनरेट किए गए ब्लॉक प्रारंभ और समाप्ति समय प्रदर्शित करते हैं।"
         },
         {
-          "q": "Can I personalize डेली टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं डेली टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download डेली टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं डेली टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "kids-timetable-maker": {
-      "heroIntro": "Make a simple kids timetable with school, homework, play, reading, creative activities, family time, and routines.",
-      "intro": "Make a simple kids timetable with school, homework, play, reading, creative activities, family time, and routines. Make a child-friendly weekly schedule for school, homework, play, reading, and family time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Make a child-friendly weekly schedule for school, homework, play, reading, and family time.",
+      "heroIntro": "स्कूल, होमवर्क, खेल, पढ़ना, रचनात्मक गतिविधियाँ, पारिवारिक समय और दिनचर्या के साथ बच्चों की एक सरल समय सारिणी बनाएं।",
+      "intro": "स्कूल, होमवर्क, खेल, पढ़ना, रचनात्मक गतिविधियाँ, पारिवारिक समय और दिनचर्या के साथ बच्चों की एक सरल समय सारिणी बनाएं। स्कूल, होमवर्क, खेल, पढ़ने और परिवार के साथ समय बिताने के लिए बच्चों के अनुकूल साप्ताहिक कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "स्कूल, होमवर्क, खेल, पढ़ने और परिवार के साथ समय बिताने के लिए बच्चों के अनुकूल साप्ताहिक कार्यक्रम बनाएं।",
       "steps": [
-        "Choose the child’s days and time blocks.",
-        "Set simple activity names.",
-        "Add a cheerful note or reminder.",
-        "Generate and print the schedule."
+        "बच्चे के दिन और समय ब्लॉक चुनें।",
+        "सरल गतिविधि नाम सेट करें.",
+        "एक हर्षित नोट या अनुस्मारक जोड़ें.",
+        "शेड्यूल बनाएं और प्रिंट करें."
       ],
       "useCases": [
-        "Kids school routines",
-        "Homework schedules",
-        "After-school planning"
+        "बच्चों के स्कूल की दिनचर्या",
+        "होमवर्क शेड्यूल",
+        "स्कूल के बाद की योजना"
       ],
       "tips": [
-        "Keep activity names simple and include play time."
+        "गतिविधि के नाम सरल रखें और खेलने का समय भी शामिल करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is किड्स टाइम टेबल मेकर used for?",
-          "a": "Make a simple kids timetable with school, homework, play, reading, creative activities, family time, and routines. Make a child-friendly weekly schedule for school, homework, play, reading, and family time."
+          "q": "किड्स टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "स्कूल, होमवर्क, खेल, पढ़ना, रचनात्मक गतिविधियाँ, पारिवारिक समय और दिनचर्या के साथ बच्चों की एक सरल समय सारिणी बनाएं। स्कूल, होमवर्क, खेल, पढ़ने और परिवार के साथ समय बिताने के लिए बच्चों के अनुकूल साप्ताहिक कार्यक्रम बनाएं।"
         },
         {
-          "q": "Is this designed for kids?",
-          "a": "Yes. The layout uses a child-friendly visual theme while keeping the schedule easy to edit."
+          "q": "क्या यह बच्चों के लिए बनाया गया है?",
+          "a": "हाँ. शेड्यूल को संपादित करना आसान रखते हुए लेआउट बच्चों के अनुकूल दृश्य थीम का उपयोग करता है।"
         },
         {
-          "q": "Can I personalize किड्स टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं किड्स टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download किड्स टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं किड्स टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "kids-daily-routine-planner": {
-      "heroIntro": "Create a kid-friendly daily routine planner for wake-up, school, homework, play, reading, meals, and bedtime.",
-      "intro": "Create a kid-friendly daily routine planner for wake-up, school, homework, play, reading, meals, and bedtime. Create a simple daily routine for children using actual clock times for wake-up, school, homework, play, meals, and bedtime. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a simple daily routine for children using actual clock times for wake-up, school, homework, play, meals, and bedtime.",
+      "heroIntro": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं।",
+      "intro": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।",
       "steps": [
-        "Choose the daily time blocks.",
-        "Set the start time and duration.",
-        "Enter routine activities.",
-        "Add a positive note or quote and print it."
+        "दैनिक समय ब्लॉक चुनें.",
+        "प्रारंभ समय और अवधि निर्धारित करें.",
+        "नियमित गतिविधियाँ दर्ज करें.",
+        "एक सकारात्मक नोट या उद्धरण जोड़ें और उसे प्रिंट करें।"
       ],
       "useCases": [
-        "Morning routines",
-        "School-day routines",
-        "Bedtime planning"
+        "सुबह की दिनचर्या",
+        "स्कूल-दिन की दिनचर्या",
+        "सोने के समय की योजना"
       ],
       "tips": [
-        "Keep transitions realistic and leave space between major activities."
+        "बदलावों को यथार्थवादी रखें और प्रमुख गतिविधियों के बीच जगह छोड़ें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is बच्चों का डेली रूटीन प्लानर used for?",
-          "a": "Create a kid-friendly daily routine planner for wake-up, school, homework, play, reading, meals, and bedtime. Create a simple daily routine for children using actual clock times for wake-up, school, homework, play, meals, and bedtime."
+          "q": "बच्चों का डेली रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।"
         },
         {
-          "q": "Does it use Monday as the only day?",
-          "a": "No. This one-day routine uses Today and focuses on clock times and activities."
+          "q": "क्या यह सोमवार को ही एकमात्र दिन के रूप में उपयोग करता है?",
+          "a": "नहीं, यह एक दिवसीय दिनचर्या आज का उपयोग करती है और घड़ी के समय और गतिविधियों पर ध्यान केंद्रित करती है।"
         },
         {
-          "q": "Can I personalize बच्चों का डेली रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं बच्चों का डेली रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download बच्चों का डेली रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं बच्चों का डेली रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "girls-daily-routine-planner": {
-      "heroIntro": "Create an editable daily and weekly routine planner for girls with study, school, exercise, self-care, family, and free time.",
-      "intro": "Create an editable daily and weekly routine planner for girls with study, school, exercise, self-care, family, and free time. Create a personalized daily or weekly routine with study, work, exercise, self-care, family, and free-time blocks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a personalized daily or weekly routine with study, work, exercise, self-care, family, and free-time blocks.",
+      "heroIntro": "पढ़ाई, स्कूल, व्यायाम, आत्म-देखभाल, परिवार और खाली समय वाली लड़कियों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं।",
+      "intro": "पढ़ाई, स्कूल, व्यायाम, आत्म-देखभाल, परिवार और खाली समय वाली लड़कियों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। अध्ययन, कार्य, व्यायाम, आत्म-देखभाल, परिवार और खाली समय के ब्लॉक के साथ एक व्यक्तिगत दैनिक या साप्ताहिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "अध्ययन, कार्य, व्यायाम, आत्म-देखभाल, परिवार और खाली समय के ब्लॉक के साथ एक व्यक्तिगत दैनिक या साप्ताहिक दिनचर्या बनाएं।",
       "steps": [
-        "Choose the days and time blocks.",
-        "Set your start time.",
-        "Add routine activities.",
-        "Personalize the title, note, and quote."
+        "दिन और समय ब्लॉक चुनें.",
+        "अपना प्रारंभ समय निर्धारित करें.",
+        "नियमित गतिविधियाँ जोड़ें.",
+        "शीर्षक, नोट और उद्धरण को वैयक्तिकृत करें।"
       ],
       "useCases": [
-        "Student routines",
-        "Self-care planning",
-        "Weekly personal organization"
+        "विद्यार्थी दिनचर्या",
+        "स्व-देखभाल योजना",
+        "साप्ताहिक व्यक्तिगत संगठन"
       ],
       "tips": [
-        "Balance responsibilities with rest and personal time."
+        "आराम और व्यक्तिगत समय के साथ जिम्मेदारियों को संतुलित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is गर्ल्स डेली रूटीन प्लानर used for?",
-          "a": "Create an editable daily and weekly routine planner for girls with study, school, exercise, self-care, family, and free time. Create a personalized daily or weekly routine with study, work, exercise, self-care, family, and free-time blocks."
+          "q": "गर्ल्स डेली रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "पढ़ाई, स्कूल, व्यायाम, आत्म-देखभाल, परिवार और खाली समय वाली लड़कियों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। अध्ययन, कार्य, व्यायाम, आत्म-देखभाल, परिवार और खाली समय के ब्लॉक के साथ एक व्यक्तिगत दैनिक या साप्ताहिक दिनचर्या बनाएं।"
         },
         {
-          "q": "Can I personalize the routine?",
-          "a": "Yes. You can edit every cell and add your own note and quote."
+          "q": "क्या मैं दिनचर्या को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. आप प्रत्येक सेल को संपादित कर सकते हैं और अपना स्वयं का नोट और उद्धरण जोड़ सकते हैं।"
         },
         {
-          "q": "Can I personalize गर्ल्स डेली रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं गर्ल्स डेली रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download गर्ल्स डेली रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं गर्ल्स डेली रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "boys-daily-routine-planner": {
-      "heroIntro": "Create an editable daily and weekly routine planner for boys with study, school, exercise, hobbies, family, and free time.",
-      "intro": "Create an editable daily and weekly routine planner for boys with study, school, exercise, hobbies, family, and free time. Create a practical weekly routine for school, work, exercise, hobbies, family, and free time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a practical weekly routine for school, work, exercise, hobbies, family, and free time.",
+      "heroIntro": "पढ़ाई, स्कूल, व्यायाम, शौक, परिवार और खाली समय वाले लड़कों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं।",
+      "intro": "पढ़ाई, स्कूल, व्यायाम, शौक, परिवार और खाली समय वाले लड़कों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। स्कूल, काम, व्यायाम, शौक, परिवार और खाली समय के लिए एक व्यावहारिक साप्ताहिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "स्कूल, काम, व्यायाम, शौक, परिवार और खाली समय के लिए एक व्यावहारिक साप्ताहिक दिनचर्या बनाएं।",
       "steps": [
-        "Choose days and time blocks.",
-        "Set realistic durations.",
-        "Add activities and hobbies.",
-        "Generate and personalize the plan."
+        "दिन और समय ब्लॉक चुनें.",
+        "यथार्थवादी अवधि निर्धारित करें.",
+        "गतिविधियाँ और शौक जोड़ें.",
+        "योजना बनाएं और वैयक्तिकृत करें."
       ],
       "useCases": [
-        "Student routines",
-        "Fitness and hobbies",
-        "Weekly organization"
+        "विद्यार्थी दिनचर्या",
+        "फिटनेस और शौक",
+        "साप्ताहिक संगठन"
       ],
       "tips": [
-        "Keep exercise and recovery realistic."
+        "व्यायाम और पुनर्प्राप्ति को यथार्थवादी रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is बॉयज़ डेली रूटीन प्लानर used for?",
-          "a": "Create an editable daily and weekly routine planner for boys with study, school, exercise, hobbies, family, and free time. Create a practical weekly routine for school, work, exercise, hobbies, family, and free time."
+          "q": "बॉयज़ डेली रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "पढ़ाई, स्कूल, व्यायाम, शौक, परिवार और खाली समय वाले लड़कों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। स्कूल, काम, व्यायाम, शौक, परिवार और खाली समय के लिए एक व्यावहारिक साप्ताहिक दिनचर्या बनाएं।"
         },
         {
-          "q": "Can hobbies be included?",
-          "a": "Yes. Any activity can be entered into a schedule cell."
+          "q": "क्या शौक शामिल किये जा सकते हैं?",
+          "a": "हाँ. किसी भी गतिविधि को शेड्यूल सेल में दर्ज किया जा सकता है।"
         },
         {
-          "q": "Can I personalize बॉयज़ डेली रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं बॉयज़ डेली रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download बॉयज़ डेली रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं बॉयज़ डेली रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "employee-work-timetable": {
-      "heroIntro": "Create an employee work timetable for focus work, meetings, projects, planning, breaks, team tasks, and review blocks.",
-      "intro": "Create an employee work timetable for focus work, meetings, projects, planning, breaks, team tasks, and review blocks. Plan focused work, meetings, email, projects, team time, lunch, and review blocks across the workweek. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Plan focused work, meetings, email, projects, team time, lunch, and review blocks across the workweek.",
+      "heroIntro": "फोकस कार्य, बैठकों, परियोजनाओं, योजना, ब्रेक, टीम कार्यों और समीक्षा ब्लॉकों के लिए एक कर्मचारी कार्य समय सारिणी बनाएं।",
+      "intro": "फोकस कार्य, बैठकों, परियोजनाओं, योजना, ब्रेक, टीम कार्यों और समीक्षा ब्लॉकों के लिए एक कर्मचारी कार्य समय सारिणी बनाएं। पूरे कार्य सप्ताह में केंद्रित कार्य, बैठकें, ईमेल, प्रोजेक्ट, टीम समय, दोपहर का भोजन और समीक्षा ब्लॉक की योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पूरे कार्य सप्ताह में केंद्रित कार्य, बैठकें, ईमेल, प्रोजेक्ट, टीम समय, दोपहर का भोजन और समीक्षा ब्लॉक की योजना बनाएं।",
       "steps": [
-        "Choose workdays and time blocks.",
-        "Set working hours and duration.",
-        "Add work activities.",
-        "Generate and edit the final work plan."
+        "कार्यदिवस और समय ब्लॉक चुनें.",
+        "काम के घंटे और अवधि निर्धारित करें.",
+        "कार्य गतिविधियाँ जोड़ें.",
+        "अंतिम कार्य योजना तैयार करें और संपादित करें।"
       ],
       "useCases": [
-        "Employee planning",
-        "Focus-time schedules",
-        "Team workweeks"
+        "कर्मचारी नियोजन",
+        "फोकस-समय कार्यक्रम",
+        "टीम कार्य सप्ताह"
       ],
       "tips": [
-        "Protect focus blocks and keep meeting time visible."
+        "फोकस ब्लॉकों को सुरक्षित रखें और मीटिंग का समय दृश्यमान रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is एम्प्लॉयी वर्क टाइम टेबल used for?",
-          "a": "Create an employee work timetable for focus work, meetings, projects, planning, breaks, team tasks, and review blocks. Plan focused work, meetings, email, projects, team time, lunch, and review blocks across the workweek."
+          "q": "एम्प्लॉयी वर्क टाइम टेबल का उपयोग किसके लिए किया जाता है?",
+          "a": "फोकस कार्य, बैठकों, परियोजनाओं, योजना, ब्रेक, टीम कार्यों और समीक्षा ब्लॉकों के लिए एक कर्मचारी कार्य समय सारिणी बनाएं। पूरे कार्य सप्ताह में केंद्रित कार्य, बैठकें, ईमेल, प्रोजेक्ट, टीम समय, दोपहर का भोजन और समीक्षा ब्लॉक की योजना बनाएं।"
         },
         {
-          "q": "Can I use it for office work?",
-          "a": "Yes. It is designed for work blocks, meetings, planning, and review."
+          "q": "क्या मैं इसे कार्यालय के काम के लिए उपयोग कर सकता हूँ?",
+          "a": "हाँ. इसे कार्य ब्लॉकों, बैठकों, योजना और समीक्षा के लिए डिज़ाइन किया गया है।"
         },
         {
-          "q": "Can I personalize एम्प्लॉयी वर्क टाइम टेबल?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं एम्प्लॉयी वर्क टाइम टेबल को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download एम्प्लॉयी वर्क टाइम टेबल?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं एम्प्लॉयी वर्क टाइम टेबल को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "work-shift-schedule-maker": {
-      "heroIntro": "Make a work shift schedule for morning, evening, night, rotating, or custom shifts across a weekly grid.",
-      "intro": "Make a work shift schedule for morning, evening, night, rotating, or custom shifts across a weekly grid. Create a shift-oriented schedule for morning, evening, night, or custom work shifts. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a shift-oriented schedule for morning, evening, night, or custom work shifts.",
+      "heroIntro": "साप्ताहिक ग्रिड में सुबह, शाम, रात, घूमने वाली या कस्टम शिफ्ट के लिए कार्य शिफ्ट शेड्यूल बनाएं।",
+      "intro": "साप्ताहिक ग्रिड में सुबह, शाम, रात, घूमने वाली या कस्टम शिफ्ट के लिए कार्य शिफ्ट शेड्यूल बनाएं। सुबह, शाम, रात या कस्टम कार्य शिफ्ट के लिए शिफ्ट-उन्मुख शेड्यूल बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "सुबह, शाम, रात या कस्टम कार्य शिफ्ट के लिए शिफ्ट-उन्मुख शेड्यूल बनाएं।",
       "steps": [
-        "Choose the days and shift slots.",
-        "Set shift timing.",
-        "Enter shift names or duties.",
-        "Generate and review the rota."
+        "दिन चुनें और स्लॉट बदलें।",
+        "शिफ्ट टाइमिंग सेट करें.",
+        "शिफ्ट नाम या कर्तव्य दर्ज करें.",
+        "रोटा उत्पन्न करें और समीक्षा करें।"
       ],
       "useCases": [
-        "Shift workers",
-        "Weekly rota planning",
-        "Team coverage drafts"
+        "श्रमिकों को शिफ्ट करें",
+        "साप्ताहिक रोटा योजना",
+        "टीम कवरेज ड्राफ्ट"
       ],
       "tips": [
-        "Verify staffing and labor requirements separately."
+        "स्टाफिंग और श्रमिक आवश्यकताओं को अलग से सत्यापित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is वर्क शिफ्ट शेड्यूल मेकर used for?",
-          "a": "Make a work shift schedule for morning, evening, night, rotating, or custom shifts across a weekly grid. Create a shift-oriented schedule for morning, evening, night, or custom work shifts."
+          "q": "वर्क शिफ्ट शेड्यूल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "साप्ताहिक ग्रिड में सुबह, शाम, रात, घूमने वाली या कस्टम शिफ्ट के लिए कार्य शिफ्ट शेड्यूल बनाएं। सुबह, शाम, रात या कस्टम कार्य शिफ्ट के लिए शिफ्ट-उन्मुख शेड्यूल बनाएं।"
         },
         {
-          "q": "Does it calculate staffing automatically?",
-          "a": "No. It creates a schedule grid; staffing decisions remain with the user."
+          "q": "क्या यह स्वचालित रूप से स्टाफिंग की गणना करता है?",
+          "a": "नहीं, यह एक शेड्यूल ग्रिड बनाता है; स्टाफिंग संबंधी निर्णय उपयोगकर्ता के पास रहते हैं।"
         },
         {
-          "q": "Can I personalize वर्क शिफ्ट शेड्यूल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं वर्क शिफ्ट शेड्यूल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download वर्क शिफ्ट शेड्यूल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं वर्क शिफ्ट शेड्यूल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "teacher-timetable-maker": {
-      "heroIntro": "Build a teacher timetable with classes, planning, meetings, preparation, assessments, labs, and free periods.",
-      "intro": "Build a teacher timetable with classes, planning, meetings, preparation, assessments, labs, and free periods. Create a teacher timetable that separates classes, preparation, meetings, assessment, labs, and free periods. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a teacher timetable that separates classes, preparation, meetings, assessment, labs, and free periods.",
+      "heroIntro": "कक्षाओं, योजना, बैठकों, तैयारी, मूल्यांकन, प्रयोगशालाओं और निःशुल्क अवधियों के साथ एक शिक्षक समय सारिणी बनाएं।",
+      "intro": "कक्षाओं, योजना, बैठकों, तैयारी, मूल्यांकन, प्रयोगशालाओं और निःशुल्क अवधियों के साथ एक शिक्षक समय सारिणी बनाएं। एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो।",
       "steps": [
-        "Choose teaching days and slots.",
-        "Set school hours.",
-        "Enter classes and teacher tasks.",
-        "Generate and check the final timetable."
+        "शिक्षण दिवस और स्लॉट चुनें.",
+        "स्कूल का समय निर्धारित करें.",
+        "कक्षाएँ और शिक्षक कार्य दर्ज करें।",
+        "अंतिम समय सारिणी बनाएं और जांचें।"
       ],
       "useCases": [
-        "Teacher schedules",
-        "Lesson planning",
-        "Preparation blocks"
+        "शिक्षक कार्यक्रम",
+        "पाठ योजना",
+        "तैयारी ब्लॉक"
       ],
       "tips": [
-        "Leave visible preparation and transition time."
+        "दृश्यमान तैयारी और परिवर्तन का समय छोड़ दें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is टीचर टाइम टेबल मेकर used for?",
-          "a": "Build a teacher timetable with classes, planning, meetings, preparation, assessments, labs, and free periods. Create a teacher timetable that separates classes, preparation, meetings, assessment, labs, and free periods."
+          "q": "टीचर टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "कक्षाओं, योजना, बैठकों, तैयारी, मूल्यांकन, प्रयोगशालाओं और निःशुल्क अवधियों के साथ एक शिक्षक समय सारिणी बनाएं। एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो।"
         },
         {
-          "q": "Can preparation periods be included?",
-          "a": "Yes. Every cell can contain classes or teacher tasks."
+          "q": "क्या तैयारी की अवधि शामिल की जा सकती है?",
+          "a": "हाँ. प्रत्येक कक्ष में कक्षाएँ या शिक्षक कार्य हो सकते हैं।"
         },
         {
-          "q": "Can I personalize टीचर टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं टीचर टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download टीचर टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं टीचर टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "class-schedule-maker": {
-      "heroIntro": "Create an editable class schedule with periods, subjects, activities, breaks, and a printable weekly timetable.",
-      "intro": "Create an editable class schedule with periods, subjects, activities, breaks, and a printable weekly timetable. Build a simple class schedule with named classes and real clock-time blocks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a simple class schedule with named classes and real clock-time blocks.",
+      "heroIntro": "अवधियों, विषयों, गतिविधियों, अवकाशों और एक मुद्रण योग्य साप्ताहिक समय सारिणी के साथ एक संपादन योग्य कक्षा कार्यक्रम बनाएं।",
+      "intro": "अवधियों, विषयों, गतिविधियों, अवकाशों और एक मुद्रण योग्य साप्ताहिक समय सारिणी के साथ एक संपादन योग्य कक्षा कार्यक्रम बनाएं। नामित कक्षाओं और वास्तविक घड़ी-समय ब्लॉकों के साथ एक सरल कक्षा अनुसूची बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "नामित कक्षाओं और वास्तविक घड़ी-समय ब्लॉकों के साथ एक सरल कक्षा अनुसूची बनाएं।",
       "steps": [
-        "Choose class days and slots.",
-        "Set start time and duration.",
-        "Enter class names.",
-        "Generate and edit the schedule."
+        "कक्षा के दिन और स्लॉट चुनें.",
+        "आरंभ समय और अवधि निर्धारित करें.",
+        "कक्षा के नाम दर्ज करें.",
+        "शेड्यूल बनाएं और संपादित करें."
       ],
       "useCases": [
-        "Class groups",
-        "Course schedules",
-        "Training sessions"
+        "कक्षा समूह",
+        "पाठ्यक्रम कार्यक्रम",
+        "प्रशिक्षण सत्र"
       ],
       "tips": [
-        "Use one clear class name per cell."
+        "प्रति कक्ष एक स्पष्ट वर्ग नाम का उपयोग करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is क्लास टाइम टेबल जनरेटर used for?",
-          "a": "Create an editable class schedule with periods, subjects, activities, breaks, and a printable weekly timetable. Build a simple class schedule with named classes and real clock-time blocks."
+          "q": "क्लास टाइम टेबल जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "अवधियों, विषयों, गतिविधियों, अवकाशों और एक मुद्रण योग्य साप्ताहिक समय सारिणी के साथ एक संपादन योग्य कक्षा कार्यक्रम बनाएं। नामित कक्षाओं और वास्तविक घड़ी-समय ब्लॉकों के साथ एक सरल कक्षा अनुसूची बनाएं।"
         },
         {
-          "q": "Can I use custom class names?",
-          "a": "Yes. Replace every generated cell with your own class or activity."
+          "q": "क्या मैं कस्टम क्लास नामों का उपयोग कर सकता हूँ?",
+          "a": "हाँ. प्रत्येक जेनरेटेड सेल को अपनी कक्षा या गतिविधि से बदलें।"
         },
         {
-          "q": "Can I personalize क्लास टाइम टेबल जनरेटर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं क्लास टाइम टेबल जनरेटर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download क्लास टाइम टेबल जनरेटर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं क्लास टाइम टेबल जनरेटर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "personal-timetable-maker": {
-      "heroIntro": "Create a personal timetable for work, study, exercise, errands, family time, hobbies, and personal goals.",
-      "intro": "Create a personal timetable for work, study, exercise, errands, family time, hobbies, and personal goals. Create a personal schedule combining work, study, exercise, errands, family, and personal time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a personal schedule combining work, study, exercise, errands, family, and personal time.",
+      "heroIntro": "काम, अध्ययन, व्यायाम, कामकाज, पारिवारिक समय, शौक और व्यक्तिगत लक्ष्यों के लिए एक व्यक्तिगत समय सारिणी बनाएं।",
+      "intro": "काम, अध्ययन, व्यायाम, कामकाज, पारिवारिक समय, शौक और व्यक्तिगत लक्ष्यों के लिए एक व्यक्तिगत समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, कामकाज, परिवार और व्यक्तिगत समय को मिलाकर एक व्यक्तिगत कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "काम, अध्ययन, व्यायाम, कामकाज, परिवार और व्यक्तिगत समय को मिलाकर एक व्यक्तिगत कार्यक्रम बनाएं।",
       "steps": [
-        "Choose days and time blocks.",
-        "Set your normal start time.",
-        "Add activities.",
-        "Add a personal note or quote and generate."
+        "दिन और समय ब्लॉक चुनें.",
+        "अपना सामान्य प्रारंभ समय निर्धारित करें.",
+        "गतिविधियाँ जोड़ें.",
+        "एक व्यक्तिगत नोट या उद्धरण जोड़ें और जनरेट करें।"
       ],
       "useCases": [
-        "Personal productivity",
-        "Life planning",
-        "Weekly routines"
+        "व्यक्तिगत उत्पादकता",
+        "जीवन नियोजन",
+        "साप्ताहिक दिनचर्या"
       ],
       "tips": [
-        "Keep at least one flexible block."
+        "कम से कम एक लचीला ब्लॉक रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is पर्सनल टाइम टेबल मेकर used for?",
-          "a": "Create a personal timetable for work, study, exercise, errands, family time, hobbies, and personal goals. Create a personal schedule combining work, study, exercise, errands, family, and personal time."
+          "q": "पर्सनल टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "काम, अध्ययन, व्यायाम, कामकाज, पारिवारिक समय, शौक और व्यक्तिगत लक्ष्यों के लिए एक व्यक्तिगत समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, कामकाज, परिवार और व्यक्तिगत समय को मिलाकर एक व्यक्तिगत कार्यक्रम बनाएं।"
         },
         {
-          "q": "Can I combine work and personal tasks?",
-          "a": "Yes. The generator accepts any mix of activities."
+          "q": "क्या मैं काम और व्यक्तिगत कार्यों को जोड़ सकता हूँ?",
+          "a": "हाँ. जनरेटर गतिविधियों के किसी भी मिश्रण को स्वीकार करता है।"
         },
         {
-          "q": "Can I personalize पर्सनल टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं पर्सनल टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download पर्सनल टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं पर्सनल टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "home-routine-planner": {
-      "heroIntro": "Make a home routine planner for cleaning, meals, family activities, errands, rest, and recurring household tasks.",
-      "intro": "Make a home routine planner for cleaning, meals, family activities, errands, rest, and recurring household tasks. Organize household routines such as cleaning, meals, family time, and rest across the week. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Organize household routines such as cleaning, meals, family time, and rest across the week.",
+      "heroIntro": "सफ़ाई, भोजन, पारिवारिक गतिविधियाँ, कामकाज, आराम और बार-बार होने वाले घरेलू कार्यों के लिए एक घरेलू दिनचर्या योजना बनाएं।",
+      "intro": "सफ़ाई, भोजन, पारिवारिक गतिविधियाँ, कामकाज, आराम और बार-बार होने वाले घरेलू कार्यों के लिए एक घरेलू दिनचर्या योजना बनाएं। पूरे सप्ताह घरेलू दिनचर्या जैसे सफाई, भोजन, पारिवारिक समय और आराम को व्यवस्थित करें। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पूरे सप्ताह घरेलू दिनचर्या जैसे सफाई, भोजन, पारिवारिक समय और आराम को व्यवस्थित करें।",
       "steps": [
-        "Choose household days and time blocks.",
-        "Set the daily start time.",
-        "Add routine tasks.",
-        "Generate and print the family plan."
+        "घरेलू दिन और समय ब्लॉक चुनें।",
+        "दैनिक प्रारंभ समय निर्धारित करें.",
+        "नियमित कार्य जोड़ें.",
+        "परिवार योजना बनाएं और प्रिंट करें."
       ],
       "useCases": [
-        "Home routines",
-        "Family schedules",
-        "Cleaning plans"
+        "घरेलू दिनचर्या",
+        "पारिवारिक कार्यक्रम",
+        "सफ़ाई योजना"
       ],
       "tips": [
-        "Keep routine blocks realistic and repeatable."
+        "नियमित ब्लॉकों को यथार्थवादी और दोहराने योग्य रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is होम रूटीन प्लानर used for?",
-          "a": "Make a home routine planner for cleaning, meals, family activities, errands, rest, and recurring household tasks. Organize household routines such as cleaning, meals, family time, and rest across the week."
+          "q": "होम रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "सफ़ाई, भोजन, पारिवारिक गतिविधियाँ, कामकाज, आराम और बार-बार होने वाले घरेलू कार्यों के लिए एक घरेलू दिनचर्या योजना बनाएं। पूरे सप्ताह घरेलू दिनचर्या जैसे सफाई, भोजन, पारिवारिक समय और आराम को व्यवस्थित करें।"
         },
         {
-          "q": "Can the plan be printed?",
-          "a": "Yes. The generated home routine is printable."
+          "q": "क्या योजना मुद्रित की जा सकती है?",
+          "a": "हाँ. उत्पन्न होम रूटीन मुद्रण योग्य है।"
         },
         {
-          "q": "Can I personalize होम रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं होम रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download होम रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं होम रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "workout-timetable-maker": {
-      "heroIntro": "Create a weekly workout timetable for strength, cardio, mobility, rest days, and repeatable training routines.",
-      "intro": "Create a weekly workout timetable for strength, cardio, mobility, rest days, and repeatable training routines. Create a weekly workout schedule for strength, cardio, mobility, and recovery sessions. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a weekly workout schedule for strength, cardio, mobility, and recovery sessions.",
+      "heroIntro": "ताकत, कार्डियो, गतिशीलता, आराम के दिनों और दोहराने योग्य प्रशिक्षण दिनचर्या के लिए साप्ताहिक कसरत समय सारिणी बनाएं।",
+      "intro": "ताकत, कार्डियो, गतिशीलता, आराम के दिनों और दोहराने योग्य प्रशिक्षण दिनचर्या के लिए साप्ताहिक कसरत समय सारिणी बनाएं। शक्ति, कार्डियो, गतिशीलता और पुनर्प्राप्ति सत्रों के लिए साप्ताहिक कसरत कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "शक्ति, कार्डियो, गतिशीलता और पुनर्प्राप्ति सत्रों के लिए साप्ताहिक कसरत कार्यक्रम बनाएं।",
       "steps": [
-        "Choose workout days.",
-        "Set session times.",
-        "Enter workout types.",
-        "Add a recovery reminder and generate."
+        "कसरत के दिन चुनें.",
+        "सत्र का समय निर्धारित करें.",
+        "कसरत के प्रकार दर्ज करें.",
+        "एक पुनर्प्राप्ति अनुस्मारक जोड़ें और जनरेट करें।"
       ],
       "useCases": [
-        "Gym planning",
-        "Home workouts",
-        "Weekly fitness routines"
+        "जिम योजना",
+        "घरेलू कसरत",
+        "साप्ताहिक फिटनेस दिनचर्या"
       ],
       "tips": [
-        "Include rest and recovery rather than scheduling every day as hard training."
+        "हर दिन को कठिन प्रशिक्षण के रूप में निर्धारित करने के बजाय आराम और रिकवरी को शामिल करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is वर्कआउट टाइम टेबल मेकर used for?",
-          "a": "Create a weekly workout timetable for strength, cardio, mobility, rest days, and repeatable training routines. Create a weekly workout schedule for strength, cardio, mobility, and recovery sessions."
+          "q": "वर्कआउट टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "ताकत, कार्डियो, गतिशीलता, आराम के दिनों और दोहराने योग्य प्रशिक्षण दिनचर्या के लिए साप्ताहिक कसरत समय सारिणी बनाएं। शक्ति, कार्डियो, गतिशीलता और पुनर्प्राप्ति सत्रों के लिए साप्ताहिक कसरत कार्यक्रम बनाएं।"
         },
         {
-          "q": "Can I schedule rest days?",
-          "a": "Yes. Rest can be entered as its own schedule activity."
+          "q": "क्या मैं आराम के दिन निर्धारित कर सकता हूँ?",
+          "a": "हाँ. बाकी को अपनी स्वयं की शेड्यूल गतिविधि के रूप में दर्ज किया जा सकता है।"
         },
         {
-          "q": "Can I personalize वर्कआउट टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं वर्कआउट टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download वर्कआउट टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं वर्कआउट टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "meal-timetable-planner": {
-      "heroIntro": "Build a weekly meal timetable for breakfast, snacks, lunch, dinner, and simple meal-planning routines.",
-      "intro": "Build a weekly meal timetable for breakfast, snacks, lunch, dinner, and simple meal-planning routines. Plan breakfast, snacks, lunch, and dinner using actual meal times rather than generic school periods. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Plan breakfast, snacks, lunch, and dinner using actual meal times rather than generic school periods.",
+      "heroIntro": "नाश्ते, नाश्ते, दोपहर के भोजन, रात के खाने और सरल भोजन-योजना दिनचर्या के लिए साप्ताहिक भोजन समय सारिणी बनाएं।",
+      "intro": "नाश्ते, नाश्ते, दोपहर के भोजन, रात के खाने और सरल भोजन-योजना दिनचर्या के लिए साप्ताहिक भोजन समय सारिणी बनाएं। सामान्य स्कूल अवधि के बजाय वास्तविक भोजन समय का उपयोग करके नाश्ते, नाश्ते, दोपहर के भोजन और रात के खाने की योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "सामान्य स्कूल अवधि के बजाय वास्तविक भोजन समय का उपयोग करके नाश्ते, नाश्ते, दोपहर के भोजन और रात के खाने की योजना बनाएं।",
       "steps": [
-        "Choose the days.",
-        "Set meal times and duration.",
-        "Enter meals or meal types.",
-        "Generate and personalize the weekly meal plan."
+        "दिन चुनें.",
+        "भोजन का समय और अवधि निर्धारित करें।",
+        "भोजन या भोजन के प्रकार दर्ज करें.",
+        "साप्ताहिक भोजन योजना बनाएं और वैयक्तिकृत करें।"
       ],
       "useCases": [
-        "Weekly meal planning",
-        "Family meal schedules",
-        "Routine planning"
+        "साप्ताहिक भोजन योजना",
+        "पारिवारिक भोजन कार्यक्रम",
+        "नियमित योजना"
       ],
       "tips": [
-        "Use the plan as an organizer, not as medical or nutritional advice."
+        "योजना का उपयोग एक आयोजक के रूप में करें, न कि चिकित्सीय या पोषण संबंधी सलाह के रूप में।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is मील टाइम टेबल प्लानर used for?",
-          "a": "Build a weekly meal timetable for breakfast, snacks, lunch, dinner, and simple meal-planning routines. Plan breakfast, snacks, lunch, and dinner using actual meal times rather than generic school periods."
+          "q": "मील टाइम टेबल प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "नाश्ते, नाश्ते, दोपहर के भोजन, रात के खाने और सरल भोजन-योजना दिनचर्या के लिए साप्ताहिक भोजन समय सारिणी बनाएं। सामान्य स्कूल अवधि के बजाय वास्तविक भोजन समय का उपयोग करके नाश्ते, नाश्ते, दोपहर के भोजन और रात के खाने की योजना बनाएं।"
         },
         {
-          "q": "Does it create a nutrition plan?",
-          "a": "No. It organizes meal timing and labels; nutritional decisions remain with the user."
+          "q": "क्या यह कोई पोषण योजना बनाता है?",
+          "a": "नहीं, यह भोजन के समय और लेबल को व्यवस्थित करता है; पोषण संबंधी निर्णय उपयोगकर्ता पर निर्भर रहता है।"
         },
         {
-          "q": "Can I personalize मील टाइम टेबल प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं मील टाइम टेबल प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download मील टाइम टेबल प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं मील टाइम टेबल प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "printable-timetable-maker": {
-      "heroIntro": "Generate a clean printable timetable with editable periods and subjects for school, study, work, or personal planning.",
-      "intro": "Generate a clean printable timetable with editable periods and subjects for school, study, work, or personal planning. Create a clean print-first timetable with readable clock times, editable cells, and personal notes. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a clean print-first timetable with readable clock times, editable cells, and personal notes.",
+      "heroIntro": "स्कूल, अध्ययन, कार्य या व्यक्तिगत योजना के लिए संपादन योग्य अवधियों और विषयों के साथ एक साफ मुद्रण योग्य समय सारिणी तैयार करें।",
+      "intro": "स्कूल, अध्ययन, कार्य या व्यक्तिगत योजना के लिए संपादन योग्य अवधियों और विषयों के साथ एक साफ मुद्रण योग्य समय सारिणी तैयार करें। पढ़ने योग्य घड़ी के समय, संपादन योग्य सेल और व्यक्तिगत नोट्स के साथ एक साफ प्रिंट-प्रथम समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पढ़ने योग्य घड़ी के समय, संपादन योग्य सेल और व्यक्तिगत नोट्स के साथ एक साफ प्रिंट-प्रथम समय सारिणी बनाएं।",
       "steps": [
-        "Choose days and time blocks.",
-        "Set the start time and duration.",
-        "Enter your schedule.",
-        "Add a note or quote and print."
+        "दिन और समय ब्लॉक चुनें.",
+        "प्रारंभ समय और अवधि निर्धारित करें.",
+        "अपना शेड्यूल दर्ज करें.",
+        "एक नोट या उद्धरण जोड़ें और प्रिंट करें।"
       ],
       "useCases": [
-        "Wall timetables",
-        "Desk planners",
-        "School printouts"
+        "दीवार समय सारिणी",
+        "डेस्क योजनाकार",
+        "स्कूल प्रिंटआउट"
       ],
       "tips": [
-        "Preview the page before printing."
+        "मुद्रण से पहले पृष्ठ का पूर्वावलोकन करें."
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is प्रिंटेबल टाइम टेबल मेकर used for?",
-          "a": "Generate a clean printable timetable with editable periods and subjects for school, study, work, or personal planning. Create a clean print-first timetable with readable clock times, editable cells, and personal notes."
+          "q": "प्रिंटेबल टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "स्कूल, अध्ययन, कार्य या व्यक्तिगत योजना के लिए संपादन योग्य अवधियों और विषयों के साथ एक साफ मुद्रण योग्य समय सारिणी तैयार करें। पढ़ने योग्य घड़ी के समय, संपादन योग्य सेल और व्यक्तिगत नोट्स के साथ एक साफ प्रिंट-प्रथम समय सारिणी बनाएं।"
         },
         {
-          "q": "Is it designed for printing?",
-          "a": "Yes. The layout is optimized for a clean printable schedule."
+          "q": "क्या इसे मुद्रण के लिए डिज़ाइन किया गया है?",
+          "a": "हाँ. लेआउट को साफ़ मुद्रण योग्य शेड्यूल के लिए अनुकूलित किया गया है।"
         },
         {
-          "q": "Can I personalize प्रिंटेबल टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं प्रिंटेबल टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download प्रिंटेबल टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं प्रिंटेबल टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "smart-timetable-generator": {
-      "heroIntro": "Generate a smart editable timetable automatically from your chosen days, periods, subjects, and routine preferences without an external AI service.",
-      "intro": "Generate a smart editable timetable automatically from your chosen days, periods, subjects, and routine preferences without an external AI service. Generate a balanced schedule from your priorities using local deterministic rules without an external AI service. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Generate a balanced schedule from your priorities using local deterministic rules without an external AI service.",
+      "heroIntro": "बाहरी एआई सेवा के बिना अपने चुने हुए दिनों, अवधियों, विषयों और नियमित प्राथमिकताओं से स्वचालित रूप से एक स्मार्ट संपादन योग्य समय सारिणी बनाएं।",
+      "intro": "बाहरी एआई सेवा के बिना अपने चुने हुए दिनों, अवधियों, विषयों और नियमित प्राथमिकताओं से स्वचालित रूप से एक स्मार्ट संपादन योग्य समय सारिणी बनाएं। बाहरी एआई सेवा के बिना स्थानीय नियतात्मक नियमों का उपयोग करके अपनी प्राथमिकताओं से एक संतुलित शेड्यूल तैयार करें। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "बाहरी एआई सेवा के बिना स्थानीय नियतात्मक नियमों का उपयोग करके अपनी प्राथमिकताओं से एक संतुलित शेड्यूल तैयार करें।",
       "steps": [
-        "Choose days and time blocks.",
-        "Enter priorities or activities.",
-        "Generate the first draft.",
-        "Edit conflicts and add a personal goal or note."
+        "दिन और समय ब्लॉक चुनें.",
+        "प्राथमिकताएँ या गतिविधियाँ दर्ज करें।",
+        "पहला ड्राफ्ट जनरेट करें.",
+        "विरोधों को संपादित करें और एक व्यक्तिगत लक्ष्य या नोट जोड़ें।"
       ],
       "useCases": [
-        "Priority planning",
-        "Study and work balancing",
-        "Personal scheduling"
+        "प्राथमिकता योजना",
+        "पढ़ाई और काम में संतुलन",
+        "व्यक्तिगत शेड्यूलिंग"
       ],
       "tips": [
-        "Treat the generated plan as a draft and adjust it to real constraints."
+        "उत्पन्न योजना को एक मसौदे के रूप में मानें और इसे वास्तविक बाधाओं के अनुसार समायोजित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्मार्ट टाइम टेबल जनरेटर used for?",
-          "a": "Generate a smart editable timetable automatically from your chosen days, periods, subjects, and routine preferences without an external AI service. Generate a balanced schedule from your priorities using local deterministic rules without an external AI service."
+          "q": "स्मार्ट टाइम टेबल जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "बाहरी एआई सेवा के बिना अपने चुने हुए दिनों, अवधियों, विषयों और नियमित प्राथमिकताओं से स्वचालित रूप से एक स्मार्ट संपादन योग्य समय सारिणी बनाएं। बाहरी एआई सेवा के बिना स्थानीय नियतात्मक नियमों का उपयोग करके अपनी प्राथमिकताओं से एक संतुलित शेड्यूल तैयार करें।"
         },
         {
-          "q": "Is this powered by an external AI API?",
-          "a": "No. It uses local deterministic scheduling rules in the browser."
+          "q": "क्या यह बाहरी AI API द्वारा संचालित है?",
+          "a": "नहीं, यह ब्राउज़र में स्थानीय नियतात्मक शेड्यूलिंग नियमों का उपयोग करता है।"
         },
         {
-          "q": "Can I personalize स्मार्ट टाइम टेबल जनरेटर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्मार्ट टाइम टेबल जनरेटर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्मार्ट टाइम टेबल जनरेटर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्मार्ट टाइम टेबल जनरेटर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "youtube-thumbnail-downloader": {
-      "heroIntro": "Retrieve available thumbnail image resolutions for public YouTube videos using their video IDs or URLs.",
-      "intro": "Retrieve available thumbnail image resolutions for public YouTube videos using their video IDs or URLs. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This creator workflow supports public YouTube information, content planning, or estimation. It is designed to make repetitive creator tasks faster while keeping assumptions visible.",
+      "heroIntro": "सार्वजनिक YouTube वीडियो के लिए उनके वीडियो आईडी या यूआरएल का उपयोग करके उपलब्ध थंबनेल छवि रिज़ॉल्यूशन पुनर्प्राप्त करें।",
+      "intro": "सार्वजनिक YouTube वीडियो के लिए उनके वीडियो आईडी या यूआरएल का उपयोग करके उपलब्ध थंबनेल छवि रिज़ॉल्यूशन पुनर्प्राप्त करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह निर्माता वर्कफ़्लो सार्वजनिक YouTube जानकारी, सामग्री योजना या अनुमान का समर्थन करता है। इसे धारणाओं को दृश्यमान रखते हुए दोहराए जाने वाले निर्माता कार्यों को तेज़ बनाने के लिए डिज़ाइन किया गया है।",
       "steps": [
-        "Open YouTube Thumbnail and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "YouTube Thumbnail खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off youtube thumbnail downloader tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Retrieve a public video thumbnail for a design reference.",
-        "Check available thumbnail resolutions.",
-        "Prepare a thumbnail image for an authorized content workflow."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूट्यूब थंबनेल डाउनलोडर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "डिज़ाइन संदर्भ के लिए सार्वजनिक वीडियो थंबनेल पुनर्प्राप्त करें।",
+        "उपलब्ध थंबनेल रिज़ॉल्यूशन की जाँच करें।",
+        "अधिकृत सामग्री वर्कफ़्लो के लिए एक थंबनेल छवि तैयार करें।"
       ],
       "tips": [
-        "Use results as planning aids rather than performance guarantees.",
-        "Check public video details before publishing decisions.",
-        "Never enter private account credentials.",
-        "Avoid: Using content without permission.",
-        "Avoid: Assuming every video has every resolution.",
-        "Avoid: Ignoring the original creator’s rights and platform terms."
+        "परिणामों को प्रदर्शन गारंटी के बजाय नियोजन सहायता के रूप में उपयोग करें।",
+        "निर्णय प्रकाशित करने से पहले सार्वजनिक वीडियो विवरण जांचें।",
+        "कभी भी निजी खाता क्रेडेंशियल दर्ज न करें.",
+        "बचें: बिना अनुमति के सामग्री का उपयोग करना।",
+        "बचें: मान लें कि हर वीडियो का हर रिज़ॉल्यूशन है।",
+        "बचें: मूल निर्माता के अधिकारों और प्लेटफ़ॉर्म शर्तों को अनदेखा करना।"
       ],
       "limitations": [
-        "Public video information and platform behavior can change.",
-        "Revenue estimates vary with audience, geography, monetization, ad inventory, and other factors.",
-        "No tool can guarantee rankings, views, revenue, or channel growth."
+        "सार्वजनिक वीडियो जानकारी और प्लेटफ़ॉर्म व्यवहार बदल सकते हैं।",
+        "राजस्व का अनुमान दर्शकों, भूगोल, मुद्रीकरण, विज्ञापन सूची और अन्य कारकों के आधार पर भिन्न होता है।",
+        "कोई भी टूल रैंकिंग, व्यू, राजस्व या चैनल की वृद्धि की गारंटी नहीं दे सकता।"
       ],
       "faq": [
         {
-          "q": "What is YouTube Thumbnail used for?",
-          "a": "Retrieve available thumbnail image resolutions for public YouTube videos using their video IDs or URLs. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "YouTube Thumbnail का उपयोग किसके लिए किया जाता है?",
+          "a": "सार्वजनिक YouTube वीडियो के लिए उनके वीडियो आईडी या यूआरएल का उपयोग करके उपलब्ध थंबनेल छवि रिज़ॉल्यूशन पुनर्प्राप्त करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does YouTube Thumbnail work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "YouTube Thumbnail कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use YouTube Thumbnail for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं YouTube Thumbnail का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does YouTube Thumbnail require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या YouTube Thumbnail को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from YouTube Thumbnail?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "YouTube Thumbnail से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I download any YouTube thumbnail?",
-          "a": "The tool can retrieve available public thumbnail images, but downloading does not grant permission to reuse copyrighted material. Check the rights and intended use."
+          "q": "क्या मैं कोई YouTube थंबनेल डाउनलोड कर सकता हूँ?",
+          "a": "उपकरण उपलब्ध सार्वजनिक थंबनेल छवियों को पुनः प्राप्त कर सकता है, लेकिन डाउनलोड करने से कॉपीराइट सामग्री का पुन: उपयोग करने की अनुमति नहीं मिलती है। अधिकारों और इच्छित उपयोग की जाँच करें।"
         }
       ],
       "visual": "youtube"
     },
     "youtube-tag-generator": {
-      "heroIntro": "Generate relevant YouTube tags and keyword ideas to help organize and optimize video metadata.",
-      "intro": "Generate relevant YouTube tags and keyword ideas to help organize and optimize video metadata. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This creator workflow supports public YouTube information, content planning, or estimation. It is designed to make repetitive creator tasks faster while keeping assumptions visible.",
+      "heroIntro": "वीडियो मेटाडेटा को व्यवस्थित और अनुकूलित करने में सहायता के लिए प्रासंगिक YouTube टैग और कीवर्ड विचार उत्पन्न करें।",
+      "intro": "वीडियो मेटाडेटा को व्यवस्थित और अनुकूलित करने में सहायता के लिए प्रासंगिक YouTube टैग और कीवर्ड विचार उत्पन्न करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह निर्माता वर्कफ़्लो सार्वजनिक YouTube जानकारी, सामग्री योजना या अनुमान का समर्थन करता है। इसे मान्यताओं को दृश्यमान रखते हुए दोहराए जाने वाले निर्माता कार्यों को तेज़ बनाने के लिए डिज़ाइन किया गया है।",
       "steps": [
-        "Open YouTube Tag जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "YouTube Tag जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off youtube tag generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Generate related keyword ideas for a video topic.",
-        "Create a starting list of metadata terms.",
-        "Group topic variations for content planning."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूट्यूब टैग जेनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी वीडियो विषय के लिए संबंधित कीवर्ड विचार उत्पन्न करें।",
+        "मेटाडेटा शब्दों की एक आरंभिक सूची बनाएं.",
+        "सामग्री नियोजन के लिए समूह विषय विविधताएँ।"
       ],
       "tips": [
-        "Use results as planning aids rather than performance guarantees.",
-        "Check public video details before publishing decisions.",
-        "Never enter private account credentials.",
-        "Avoid: Stuffing irrelevant keywords.",
-        "Avoid: Treating tags as a guarantee of rankings.",
-        "Avoid: Ignoring title, thumbnail, content quality, and viewer intent."
+        "परिणामों को प्रदर्शन गारंटी के बजाय नियोजन सहायता के रूप में उपयोग करें।",
+        "निर्णय प्रकाशित करने से पहले सार्वजनिक वीडियो विवरण जांचें।",
+        "कभी भी निजी खाता क्रेडेंशियल दर्ज न करें.",
+        "बचें: अप्रासंगिक कीवर्ड भरना।",
+        "बचें: टैग को रैंकिंग की गारंटी मानने से बचें।",
+        "बचें: शीर्षक, थंबनेल, सामग्री की गुणवत्ता और दर्शक के इरादे को अनदेखा करना।"
       ],
       "limitations": [
-        "Public video information and platform behavior can change.",
-        "Revenue estimates vary with audience, geography, monetization, ad inventory, and other factors.",
-        "No tool can guarantee rankings, views, revenue, or channel growth."
+        "सार्वजनिक वीडियो जानकारी और प्लेटफ़ॉर्म व्यवहार बदल सकते हैं।",
+        "राजस्व का अनुमान दर्शकों, भूगोल, मुद्रीकरण, विज्ञापन सूची और अन्य कारकों के आधार पर भिन्न होता है।",
+        "कोई भी टूल रैंकिंग, व्यू, राजस्व या चैनल की वृद्धि की गारंटी नहीं दे सकता।"
       ],
       "faq": [
         {
-          "q": "What is YouTube Tag जनरेटर used for?",
-          "a": "Generate relevant YouTube tags and keyword ideas to help organize and optimize video metadata. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "YouTube Tag जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "वीडियो मेटाडेटा को व्यवस्थित और अनुकूलित करने में सहायता के लिए प्रासंगिक YouTube टैग और कीवर्ड विचार उत्पन्न करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does YouTube Tag जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "YouTube Tag जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use YouTube Tag जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं YouTube Tag जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does YouTube Tag जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या YouTube Tag जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from YouTube Tag जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "YouTube Tag जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Do YouTube tags guarantee higher rankings?",
-          "a": "No. Tags are only one metadata element and do not guarantee rankings, views, or recommendations. Use relevant terms that accurately describe the video."
+          "q": "क्या YouTube टैग उच्च रैंकिंग की गारंटी देते हैं?",
+          "a": "नहीं, टैग केवल एक मेटाडेटा तत्व हैं और रैंकिंग, दृश्य या अनुशंसाओं की गारंटी नहीं देते हैं। प्रासंगिक शब्दों का उपयोग करें जो वीडियो का सटीक वर्णन करें।"
         }
       ],
       "visual": "youtube"
     },
     "youtube-money-calculator": {
-      "heroIntro": "Estimate potential YouTube ad revenue from views and RPM assumptions; actual earnings vary by channel and audience.",
-      "intro": "Estimate potential YouTube ad revenue from views and RPM assumptions; actual earnings vary by channel and audience. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This creator workflow supports public YouTube information, content planning, or estimation. It is designed to make repetitive creator tasks faster while keeping assumptions visible.",
+      "heroIntro": "दृश्यों और आरपीएम अनुमानों से संभावित YouTube विज्ञापन राजस्व का अनुमान लगाएं; वास्तविक कमाई चैनल और दर्शकों के अनुसार अलग-अलग होती है।",
+      "intro": "दृश्यों और आरपीएम अनुमानों से संभावित YouTube विज्ञापन राजस्व का अनुमान लगाएं; वास्तविक कमाई चैनल और दर्शकों के अनुसार अलग-अलग होती है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह निर्माता वर्कफ़्लो सार्वजनिक YouTube जानकारी, सामग्री योजना या अनुमान का समर्थन करता है। इसे मान्यताओं को दृश्यमान रखते हुए दोहराए जाने वाले निर्माता कार्यों को तेज़ बनाने के लिए डिज़ाइन किया गया है।",
       "steps": [
-        "Open YouTube Money कैलकुलेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "YouTube Money कैलकुलेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off youtube money calculator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Model revenue at different view counts.",
-        "Compare RPM assumptions.",
-        "Separate gross ad-revenue estimates from actual channel income."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूट्यूब मनी कैलकुलेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "विभिन्न दृश्य गणनाओं पर मॉडल राजस्व।",
+        "RPM मान्यताओं की तुलना करें.",
+        "सकल विज्ञापन-राजस्व अनुमान को वास्तविक चैनल आय से अलग करें।"
       ],
       "tips": [
-        "Use results as planning aids rather than performance guarantees.",
-        "Check public video details before publishing decisions.",
-        "Never enter private account credentials.",
-        "Avoid: Treating RPM as fixed.",
-        "Avoid: Ignoring geography, monetization eligibility, ad inventory, and revenue sources.",
-        "Avoid: Presenting an estimate as guaranteed earnings."
+        "परिणामों को प्रदर्शन गारंटी के बजाय नियोजन सहायता के रूप में उपयोग करें।",
+        "निर्णय प्रकाशित करने से पहले सार्वजनिक वीडियो विवरण जांचें।",
+        "कभी भी निजी खाता क्रेडेंशियल दर्ज न करें.",
+        "बचें: आरपीएम को निश्चित मानने से।",
+        "बचें: भूगोल, मुद्रीकरण पात्रता, विज्ञापन सूची और राजस्व स्रोतों की अनदेखी।",
+        "बचें: किसी अनुमान को गारंटीशुदा आय के रूप में प्रस्तुत करना।"
       ],
       "limitations": [
-        "Public video information and platform behavior can change.",
-        "Revenue estimates vary with audience, geography, monetization, ad inventory, and other factors.",
-        "No tool can guarantee rankings, views, revenue, or channel growth."
+        "सार्वजनिक वीडियो जानकारी और प्लेटफ़ॉर्म व्यवहार बदल सकते हैं।",
+        "राजस्व का अनुमान दर्शकों, भूगोल, मुद्रीकरण, विज्ञापन सूची और अन्य कारकों के आधार पर भिन्न होता है।",
+        "कोई भी टूल रैंकिंग, व्यू, राजस्व या चैनल की वृद्धि की गारंटी नहीं दे सकता।"
       ],
       "faq": [
         {
-          "q": "What is YouTube Money कैलकुलेटर used for?",
-          "a": "Estimate potential YouTube ad revenue from views and RPM assumptions; actual earnings vary by channel and audience. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "YouTube Money कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "दृश्यों और आरपीएम अनुमानों से संभावित YouTube विज्ञापन राजस्व का अनुमान लगाएं; वास्तविक कमाई चैनल और दर्शकों के अनुसार अलग-अलग होती है। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does YouTube Money कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "YouTube Money कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use YouTube Money कैलकुलेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं YouTube Money कैलकुलेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी आउटपुट को किसी अन्य एप्लिकेशन में ले जाने से पहले जांचना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does YouTube Money कैलकुलेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या YouTube Money कैलकुलेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from YouTube Money कैलकुलेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "YouTube Money कैलकुलेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why can actual YouTube earnings differ from a calculator?",
-          "a": "Actual earnings can vary with RPM, audience geography, monetized views, ad demand, content type, seasonality, platform revenue sharing, taxes, and other factors."
+          "q": "वास्तविक YouTube आय कैलकुलेटर से भिन्न क्यों हो सकती है?",
+          "a": "वास्तविक कमाई आरपीएम, दर्शक भूगोल, मुद्रीकृत दृश्य, विज्ञापन मांग, सामग्री प्रकार, मौसमी, प्लेटफ़ॉर्म राजस्व साझाकरण, कर और अन्य कारकों के साथ भिन्न हो सकती है।"
         }
       ],
       "visual": "youtube"
