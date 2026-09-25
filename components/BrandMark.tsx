@@ -11,10 +11,10 @@ export default function BrandMark({ className = '', iconClassName = '' }: BrandM
   return (
     <div aria-hidden="true" className={`relative flex shrink-0 items-center justify-center ${className}`}>
       <img
-        src="/branding/toolployee-logo.png"
+        src="/branding/toolployee-logo.webp"
         alt=""
-        width={2048}
-        height={2048}
+        width={128}
+        height={128}
         draggable={false}
         className={`h-full w-full object-contain ${iconClassName}`}
       />
