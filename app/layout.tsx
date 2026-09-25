@@ -23,7 +23,7 @@ export const metadata:Metadata={
   openGraph:{title:`${SITE_NAME} | Free Online Tools`,description:'Free online tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.',url:SITE_URL,siteName:SITE_NAME,locale:'en_US',type:'website'},
   twitter:{card:'summary_large_image',title:`${SITE_NAME} | Free Online Tools`,description:'Free browser-based tools for PDF, images, code, text, conversions, calculators, finance, and YouTube.'},
   robots:{index:SITE_URL_CONFIGURED,follow:true,googleBot:{index:SITE_URL_CONFIGURED,follow:true,'max-video-preview':-1,'max-image-preview':'large','max-snippet':-1}},
-  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ? {verification:{google:process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION}} : {})
+  verification:{\n    ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ? {google:process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION} : {}),\n    other:{'msvalidate.01':'78A6BDEDE3EBD3D2DDAF6F0C5DFD0C2F'}\n  }
 };
 
 export default function RootLayout({children}:{children:React.ReactNode}){
