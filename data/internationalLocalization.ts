@@ -1,6 +1,5 @@
 import { TOOLS_REGISTRY, type ToolMeta } from './toolsRegistry';
 import { LOCALES, type LocaleCode } from './internationalSeo';
-import { getInternationalKeywordValidation } from './internationalKeywordValidation';
 import { getTimeTableLocalizedName } from './timeTableLocalization';
 
 export interface LocalizationCoverageRow {
@@ -214,9 +213,7 @@ export function getLocalizedToolName(tool: ToolMeta, locale: LocaleCode): string
   const generated = generateLocalizedName(tool, localeCode);
   if (generated && generated !== tool.name) return generated;
 
-  const validationLocale = locale === 'pt' ? 'pt-BR' : locale === 'zh' ? 'zh-CN' : locale;
-  const evidence = getInternationalKeywordValidation(validationLocale, tool.slug);
-  return evidence?.primaryKeyword || generated || tool.name;
+  return generated || tool.name;
 }
 
 export const SEARCH_QUERY_MODIFIERS: Record<LocaleCode, string[]> = {
