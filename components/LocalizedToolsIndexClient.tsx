@@ -30,7 +30,8 @@ export default function LocalizedToolsIndexClient({ locale, ui }: { locale: Loca
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
-  const filteredTools = useMemo(() => TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' && {
+  const filteredTools = useMemo(() => TOOLS_REGISTRY.filter((tool) => {
+    if (tool.category === 'Festival') return false;
     const matchesCategory =
       selectedCategory === 'All' ||
       tool.category.toLowerCase().replace(/\s+/g, '') === selectedCategory.toLowerCase().replace(/\s+/g, '');
