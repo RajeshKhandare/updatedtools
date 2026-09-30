@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const localizedRoutes: MetadataRoute.Sitemap = INDEXABLE_LOCALES
     .filter((locale) => locale.code !== 'en')
     .flatMap((locale) =>
-      TOOLS_REGISTRY.map((tool) => ({
+      TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival').map((tool) => ({
         url: SITE_URL + localizedToolPath(locale.code, tool.slug),
         lastModified: now,
         changeFrequency: 'weekly' as const,
