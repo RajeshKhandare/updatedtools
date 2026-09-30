@@ -27,6 +27,7 @@ import {
   Layers,
   ArrowLeftRight,
   CalendarDays,
+  Flower2, Flame, Gift, ShoppingBag, ListChecks, Lightbulb, Home, Sparkles,
 } from 'lucide-react';
 
 const FAQ_ITEMS = [
@@ -106,7 +107,16 @@ function HomeContent() {
     return filteredTools.slice(0, 12);
   }, [filteredTools, searchQuery, selectedCategory]);
 
-  const getToolIcon = (cat: string) => {
+  const getToolIcon = (cat: string, slug?: string) => {
+    if (cat === 'Festival') {
+      if (slug === 'navratri-colors-2026') return <Flower2 className="h-5 w-5 text-orange-500" />;
+      if (slug === 'diwali-mithai-faral-calculator') return <Gift className="h-5 w-5 text-amber-500" />;
+      if (slug === 'diwali-puja-samagri-checklist') return <ListChecks className="h-5 w-5 text-violet-500" />;
+      if (slug === 'diwali-budget-calculator') return <ShoppingBag className="h-5 w-5 text-emerald-500" />;
+      if (slug === 'diya-requirement-calculator') return <Lightbulb className="h-5 w-5 text-amber-500" />;
+      if (slug === 'diwali-cleaning-planner') return <Home className="h-5 w-5 text-sky-500" />;
+      return <Sparkles className="h-5 w-5 text-violet-500" />;
+    }
     switch (cat) {
       case 'PDF': return <FileText className="h-5 w-5 text-violet-600 dark:text-violet-400" />;
       case 'Image':
@@ -203,7 +213,7 @@ function HomeContent() {
                 className="group flex items-start gap-3.5 rounded-2xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-4 transition-all hover:shadow-md hover:border-violet-400 dark:hover:border-violet-500 hover:-translate-y-0.5 cursor-pointer"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-violet-50 dark:bg-zinc-800/80 group-hover:scale-105 transition-transform mt-0.5">
-                  {getToolIcon(tool.category)}
+                  {getToolIcon(tool.category, tool.slug)}
                 </div>
 
                 <div className="flex-1 min-w-0">
@@ -229,7 +239,7 @@ function HomeContent() {
                 href="/tools"
                 className="inline-flex items-center gap-2 rounded-2xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-950 px-8 py-3.5 text-xs font-extrabold hover:bg-violet-600 dark:hover:bg-violet-500 dark:hover:text-white transition-all shadow-md hover:scale-[1.02]"
               >
-                <span>Explore All 112 Tools</span>
+                <span>Explore All 119 Tools</span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -263,7 +273,7 @@ function HomeContent() {
               </div>
               <h3 className="text-base font-bold text-zinc-950 dark:text-white">Select Any Utility</h3>
               <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                Pick from our library of 112 specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
+                Pick from our library of 119 specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
               </p>
             </div>
 
@@ -355,7 +365,7 @@ function HomeContent() {
 
             <div className="mt-8 pt-8 border-t border-zinc-200/60 dark:border-zinc-800/60 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div>
-                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400" >112</p>
+                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400" >119</p>
                 <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Active Utilities</p>
               </div>
               <div>
@@ -440,7 +450,7 @@ function HomeContent() {
                   href="/tools"
                   className="rounded-2xl bg-violet-600 px-7 py-3 text-xs font-bold text-white hover:bg-violet-500 transition-all shadow-lg shadow-violet-600/30 hover:scale-105"
                 >
-                  Explore All 112 Utilities
+                  Explore All 119 Utilities
                 </Link>
                 <a
                   href="#tools"
