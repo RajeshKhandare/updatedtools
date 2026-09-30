@@ -21,13 +21,17 @@ export const LOCALES: readonly LocaleConfig[] = [
   { code:'ru', hreflang:'ru', languageName:'Русский', market:'Russian-speaking markets', status:'source' },
   { code:'ar', hreflang:'ar', languageName:'العربية', market:'Arabic-speaking markets', status:'source' },
   { code:'hi', hreflang:'hi', languageName:'हिन्दी', market:'India', status:'source' },
+
+];
+
+export const FESTIVAL_LOCALES: readonly LocaleConfig[] = [
   { code:'mr', hreflang:'mr', languageName:'मराठी', market:'India / Maharashtra', status:'source' },
 ];
 
 export const INDEXABLE_LOCALES = LOCALES.filter((locale) => locale.status === 'source');
 
 export function getLocale(code: string): LocaleConfig | undefined {
-  return LOCALES.find((locale) => locale.code === code);
+  return [...LOCALES, ...FESTIVAL_LOCALES].find((locale) => locale.code === code);
 }
 
 export function isLocale(code: string): code is LocaleCode {
