@@ -27,7 +27,7 @@ jobs:
           npm run verify:tools
           npm run verify:international-seo
 
-      - name: Test all 12 locales × 87 tools
+      - name: Test all 12 core locales × 112 non-festival tools
         env:
           SMOKE_BASE_URL: ${{ inputs.base_url }}
         run: npm run verify:localized-routes
