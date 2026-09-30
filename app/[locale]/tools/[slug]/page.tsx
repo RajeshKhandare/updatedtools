@@ -14,7 +14,7 @@ export const dynamicParams = false;
 
 export function generateStaticParams() {
   return LOCALES.filter((locale) => locale.code !== 'en').flatMap((locale) =>
-    TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival').map((tool) => ({ locale: locale.code, slug: tool.slug }))
+    TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' || locale.code === 'hi' || locale.code === 'mr').map((tool) => ({ locale: locale.code, slug: tool.slug }))
   );
 }
 
@@ -22,8 +22,9 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
   const { locale: localeCode, slug } = await params;
   const locale = getLocale(localeCode);
   const tool = TOOLS_REGISTRY.find((x) => x.slug === slug);
-  if (tool?.category === 'Festival') notFound();
   if (!locale || !tool || locale.code === 'en') notFound();
+  if (tool.category === 'Festival' && locale.code !== 'hi' && locale.code !== 'mr') notFound();
+  if (locale.code === 'mr' && tool.category !== 'Festival') notFound();
 
   const ui = getLocalizedUi(locale.code);
   const name = getLocalizedToolName(tool, locale.code);
