@@ -1,4 +1,4 @@
-export type LocaleCode = 'en'|'pt'|'es'|'de'|'fr'|'it'|'ja'|'ko'|'zh'|'ru'|'ar'|'hi';
+export type LocaleCode = 'en'|'pt'|'es'|'de'|'fr'|'it'|'ja'|'ko'|'zh'|'ru'|'ar'|'hi'|'mr';
 
 export interface LocaleConfig {
   code: LocaleCode;
@@ -21,6 +21,7 @@ export const LOCALES: readonly LocaleConfig[] = [
   { code:'ru', hreflang:'ru', languageName:'Русский', market:'Russian-speaking markets', status:'source' },
   { code:'ar', hreflang:'ar', languageName:'العربية', market:'Arabic-speaking markets', status:'source' },
   { code:'hi', hreflang:'hi', languageName:'हिन्दी', market:'India', status:'source' },
+  { code:'mr', hreflang:'mr', languageName:'मराठी', market:'India / Maharashtra', status:'source' },
 ];
 
 export const INDEXABLE_LOCALES = LOCALES.filter((locale) => locale.status === 'source');
