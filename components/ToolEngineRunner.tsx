@@ -22,6 +22,8 @@ export default function ToolEngineRunner({ tool, locale = 'en' }: { tool: ToolMe
       return <CompilerEngine toolSlug={tool.slug} toolName={getLocalizedToolName(tool, locale)} locale={locale} />;
     case 'Time Table':
       return <TimeTableEngine tool={tool} locale={locale} />;
+    case 'Festival':
+      return <FestivalEngine tool={tool} />;
     case 'Finance':
       return <FinanceEngine toolSlug={tool.slug} toolName={getLocalizedToolName(tool, locale)} locale={locale} />;
     case 'Calculators':
