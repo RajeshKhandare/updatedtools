@@ -23,6 +23,7 @@ const CATEGORY_LABELS: Record<LocaleCode, Record<string, string>> = {
   ru: { PDF: 'PDF-инструменты', Image: 'Инструменты изображений', Compiler: 'Компиляторы и код', Finance: 'Финансовые калькуляторы', Developer: 'Инструменты разработчика', Text: 'Текстовые инструменты', Converters: 'Конвертеры', Calculators: 'Калькуляторы', YouTube: 'Инструменты YouTube', 'Time Table': 'Инструменты расписания' },
   ar: { PDF: 'أدوات PDF', Image: 'أدوات الصور', Compiler: 'المترجمات والبرمجة', Finance: 'حاسبات مالية', Developer: 'أدوات المطورين', Text: 'أدوات النصوص', Converters: 'المحوّلات', Calculators: 'الحاسبات', YouTube: 'أدوات YouTube', 'Time Table': 'أدوات الجداول' },
   hi: { PDF: 'PDF टूल्स', Image: 'इमेज टूल्स', Compiler: 'कंपाइलर और कोड', Finance: 'वित्तीय कैलकुलेटर', Developer: 'डेवलपर टूल्स', Text: 'टेक्स्ट टूल्स', Converters: 'कन्वर्टर्स', Calculators: 'कैलकुलेटर', YouTube: 'YouTube टूल्स', 'Time Table': 'टाइम टेबल टूल्स' },
+  mr: { PDF: 'PDF टूल्स', Image: 'इमेज टूल्स', Compiler: 'कंपाइलर आणि कोड', Finance: 'फायनान्स कॅल्क्युलेटर्स', Developer: 'डेव्हलपर टूल्स', Text: 'टेक्स्ट टूल्स', Converters: 'कन्व्हर्टर टूल्स', Calculators: 'कॅल्क्युलेटर टूल्स', YouTube: 'YouTube टूल्स', 'Time Table': 'टाइमटेबल टूल्स', Festival: 'फेस्टिवल टूल्स' },
 };
 
 export function getLocalizedCategoryLabel(category: string, locale: LocaleCode): string {
@@ -142,6 +143,7 @@ export const SEARCH_QUERY_MODIFIERS: Record<LocaleCode, string[]> = {
   ru: ['онлайн', 'бесплатно', 'бесплатный', 'бесплатно онлайн'],
   ar: ['أونلاين', 'عبر الإنترنت', 'مجاني', 'مجانا أونلاين'],
   hi: ['ऑनलाइन', 'मुफ्त', 'फ्री', 'मुफ्त ऑनलाइन'],
+  mr: ['ऑनलाइन', 'मोफत', 'मोफत ऑनलाइन'],
 };
 
 /**
@@ -163,6 +165,7 @@ export const LONG_TAIL_QUERY_PATTERNS: Record<LocaleCode, string[]> = {
   ru: ['как использовать', 'как сделать', 'без установки', 'на телефоне', 'пошагово', 'без регистрации'],
   ar: ['كيفية الاستخدام', 'كيفية', 'بدون تثبيت', 'على الهاتف', 'خطوة بخطوة', 'بدون تسجيل'],
   hi: ['कैसे इस्तेमाल करें', 'कैसे करें', 'इंस्टॉल किए बिना', 'मोबाइल पर', 'स्टेप बाय स्टेप', 'बिना साइन अप'],
+  mr: ['कसे वापरावे', 'कसे करावे', 'इन्स्टॉल न करता', 'मोबाईलवर', 'नवशिक्यांसाठी', 'स्टेप बाय स्टेप', 'साइनअपशिवाय'],
 };
 
 
@@ -304,6 +307,7 @@ const CATEGORY_LONG_TAIL_PATTERNS: Record<LocaleCode, Partial<Record<string, str
     Calculators: ['फॉर्मूला के साथ', 'उदाहरण के साथ', 'स्टेप बाय स्टेप'],
     YouTube: ['क्रिएटर्स के लिए', 'वीडियो के लिए', 'YouTube URL के साथ'],
   },
+  mr: { PDF: ['अनेक फाइल्ससह', 'डॉक्युमेंटसाठी', 'प्रिंटसाठी'], Image: ['फोटोसाठी', 'सोशल मीडियासाठी'], Finance: ['मासिक गणनेसाठी'], Calculators: ['फॉर्म्युलासह', 'उदाहरणासह'], Festival: ['सणासाठी', 'दिवाळीसाठी', 'नवरात्रीसाठी'] },
 };
 
 export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): string[] {
