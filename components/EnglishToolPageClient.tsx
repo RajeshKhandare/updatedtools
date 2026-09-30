@@ -62,7 +62,7 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
             <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black tracking-[-0.03em] text-zinc-950 dark:text-white">
               {tool.name}
             </h1>
-            {isFestival && <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700/80 dark:text-amber-300/80">Celebrate • Prepare • Plan</p>}
+            {isFestival && <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700/80 dark:text-amber-300/80">{tool.slug === 'navratri-colors-2026' ? '🌸 Celebrate • Pray • Prepare' : '🪔 Celebrate • Light • Prepare • 🎆'}</p>}
             <p className={`${isFestival ? 'mt-2' : 'mt-3'} text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7`}>
               {tool.description}
             </p>
