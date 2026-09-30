@@ -9,7 +9,8 @@ const localizationSource = fs.readFileSync('data/internationalLocalization.ts', 
 const localizedLayoutSource = fs.readFileSync('app/[locale]/tools/[slug]/layout.tsx', 'utf8');
 const marketEvidenceSource = fs.readFileSync('data/internationalMarketEvidence.ts', 'utf8');
 
-const coreLocaleBlock = localeSource.match(/export const LOCALES:[\s\S]*?\n\];/)?.[0] ?? '';\nconst localeMatches = [...coreLocaleBlock.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
+const coreLocaleBlock = localeSource.split('export const LOCALES')[1]?.split('];')[0] ?? '';
+const localeMatches = [...coreLocaleBlock.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
 const seedMatches = [...seedSource.matchAll(/locale:'([^']+)'/g)].map((m) => m[1]);
 const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'[\s\S]*?category:\s*'([^']+)'/g)]
   .filter(([, , category]) => category !== 'Festival')
