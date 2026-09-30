@@ -6,6 +6,7 @@
   'Diya Requirement Calculator': { hi: 'दीया आवश्यकता कैलकुलेटर', mr: 'पणती आवश्यकता कॅल्क्युलेटर' },
   'Diwali Cleaning Planner': { hi: 'दिवाली सफाई प्लानर', mr: 'दिवाळी स्वच्छता नियोजक' },
   'Diwali Countdown & Preparation Planner': { hi: 'दिवाली काउंटडाउन और तैयारी प्लानर', mr: 'दिवाळी काउंटडाउन आणि तयारी नियोजक' },
+  mr: { toolLabel: 'टूल', toolsLabel: 'टूल्स', freeLabel: 'मोफत ऑनलाइन टूल', browserLabel: 'ब्राउझरमध्ये काम करते', guideLabel: 'टूल मार्गदर्शक', guideDescription: 'Toolployee च्या सणासुदीच्या साधनांसाठी हा मराठी मार्ग उपलब्ध आहे.', openEnglish: 'इंग्रजी आवृत्ती उघडा', relatedLabel: 'संबंधित टूल्स', categoriesLabel: 'श्रेणी', popularToolsLabel: 'लोकप्रिय टूल्स', platformLabel: 'प्लॅटफॉर्म', viewAllLabel: 'सर्व पहा', aboutLabel: 'आमच्याबद्दल', contactLabel: 'सपोर्ट', privacyLabel: 'प्रायव्हसी पॉलिसी', termsLabel: 'सेवा अटी', operationalLabel: 'सर्व टूल्स उपलब्ध · 100% मोफत', footerDescription: 'क्रिएटर्स, विद्यार्थी आणि डेव्हलपर्ससाठी मोफत डिजिटल टूल्स.', craftedLabel: 'वेग आणि प्रायव्हसीसाठी तयार', description: 'हे टूल ब्राउझरमध्ये वापरा.' },
 };
 
 
@@ -302,8 +303,7 @@ const CATEGORY_LONG_TAIL_PATTERNS: Record<LocaleCode, Partial<Record<string, str
     Finance: ['फॉर्मूला के साथ', 'उदाहरण के साथ', 'मासिक गणना'],
     Calculators: ['फॉर्मूला के साथ', 'उदाहरण के साथ', 'स्टेप बाय स्टेप'],
     YouTube: ['क्रिएटर्स के लिए', 'वीडियो के लिए', 'YouTube URL के साथ'],
-  },,
-  mr: { toolLabel: 'टूल', toolsLabel: 'टूल्स', freeLabel: 'मोफत ऑनलाइन टूल', browserLabel: 'ब्राउझरमध्ये काम करते', guideLabel: 'टूल मार्गदर्शक', guideDescription: 'Toolployee च्या सणासुदीच्या साधनांसाठी हा मराठी मार्ग उपलब्ध आहे.', openEnglish: 'इंग्रजी आवृत्ती उघडा', relatedLabel: 'संबंधित टूल्स', categoriesLabel: 'श्रेणी', popularToolsLabel: 'लोकप्रिय टूल्स', platformLabel: 'प्लॅटफॉर्म', viewAllLabel: 'सर्व पहा', aboutLabel: 'आमच्याबद्दल', contactLabel: 'सपोर्ट', privacyLabel: 'प्रायव्हसी पॉलिसी', termsLabel: 'सेवा अटी', operationalLabel: 'सर्व टूल्स उपलब्ध · 100% मोफत', footerDescription: 'क्रिएटर्स, विद्यार्थी आणि डेव्हलपर्ससाठी मोफत डिजिटल टूल्स.', craftedLabel: 'वेग आणि प्रायव्हसीसाठी तयार', description: 'हे टूल ब्राउझरमध्ये वापरा.' },
+  },
 };
 
 export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): string[] {
