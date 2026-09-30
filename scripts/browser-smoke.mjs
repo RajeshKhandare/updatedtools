@@ -1117,10 +1117,11 @@ async function main() {
       BASE_URL
   );
 
+  const smokeTools = tools.filter((tool) => tool.category !== 'Festival');
+
   assert(
-    tools.length === 112,
-    'Registry expected 112 tools, found ' +
-      tools.length
+    smokeTools.length === 112,
+    'Core registry expected 112 non-festival tools, found ' + smokeTools.length
   );
 
   const browser =
