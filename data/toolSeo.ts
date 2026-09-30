@@ -1,6 +1,7 @@
 import { ToolMeta } from '@/data/toolsRegistry';
 import { GENERATED_LOCALIZED_TOOL_SEO } from './generatedLocalizedToolSeo';
 import { getTimeTableSeoContent } from './timeTableSeo';
+import { getFestivalSeoContent } from './festivalSeo';
 
 export type ToolFaq = { q: string; a: string };
 export type ToolSeoContent = {
@@ -281,6 +282,7 @@ const getToolFocus = (tool: ToolMeta): { focus: string; examples: string[]; mist
 
 export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
   if (tool.category === 'Time Table') return getTimeTableSeoContent(tool, 'en');
+  if (tool.category === 'Festival') return getFestivalSeoContent(tool);
   const detail = financeDetails[tool.slug];
   const focus = getToolFocus(tool);
   if (detail) {
