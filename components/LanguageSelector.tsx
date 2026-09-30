@@ -129,7 +129,8 @@ export default function LanguageSelector() {
     const path = window.location.pathname;
     const localePattern = /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?=\/|$)/;
     const englishPath = path.replace(localePattern, '') || '/';
-    const targetPath = langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
+    const festivalPath = /^\/tools\/(navratri-colors-2026|diwali-mithai-faral-calculator|diwali-puja-samagri-checklist|diwali-budget-calculator|diya-requirement-calculator|diwali-cleaning-planner|diwali-countdown-preparation-planner)(?:\/|$)/.test(englishPath);
+    const targetPath = langCode === 'mr' && !festivalPath ? '/' : langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
     window.location.assign(targetPath);
   };
 
