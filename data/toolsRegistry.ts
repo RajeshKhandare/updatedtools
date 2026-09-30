@@ -18,6 +18,7 @@ export const CATEGORIES = [
   'Calculators',
   'YouTube',
   'Time Table',
+  'Festival',
 ] as const;
 
 export const TOOLS_REGISTRY: ToolMeta[] = [
@@ -818,6 +819,59 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     category: 'Time Table',
     description: 'Generate a smart editable timetable automatically from your chosen days, periods, subjects, and routine preferences without an external AI service.',
     targetKeyword: 'Smart Timetable Generator',
+  },
+
+  // ==========================================
+  // 10. FESTIVAL & INDIA SEASONAL TOOLS
+  // ==========================================
+  {
+    name: 'Navratri Colors 2026',
+    slug: 'navratri-colors-2026',
+    category: 'Festival',
+    description: 'Check Navratri Colors 2026, the 9-day color calendar, today’s color, dates and traditional significance.',
+    targetKeyword: 'Navratri Colors 2026',
+  },
+  {
+    name: 'Diwali Mithai & Faral Quantity Calculator',
+    slug: 'diwali-mithai-faral-calculator',
+    category: 'Festival',
+    description: 'Estimate Diwali mithai and faral quantities for family serving, guests and gifting.',
+    targetKeyword: 'Diwali Mithai Quantity Calculator',
+  },
+  {
+    name: 'Diwali Puja Samagri Checklist',
+    slug: 'diwali-puja-samagri-checklist',
+    category: 'Festival',
+    description: 'Interactive Diwali Puja Samagri List with Lakshmi Puja items, checkboxes, print and share.',
+    targetKeyword: 'Diwali Puja Samagri List',
+  },
+  {
+    name: 'Diwali Budget Calculator',
+    slug: 'diwali-budget-calculator',
+    category: 'Festival',
+    description: 'Plan Diwali spending across gifts, clothes, mithai, decoration, puja, travel and food.',
+    targetKeyword: 'Diwali Budget Calculator',
+  },
+  {
+    name: 'Diya Requirement Calculator',
+    slug: 'diya-requirement-calculator',
+    category: 'Festival',
+    description: 'Estimate the number of diyas and approximate oil or ghee needed for Diwali lighting.',
+    targetKeyword: 'Diya Requirement Calculator',
+  },
+  {
+    name: 'Diwali Cleaning Planner',
+    slug: 'diwali-cleaning-planner',
+    category: 'Festival',
+    description: 'Create a practical Diwali cleaning sequence based on the number of days you have.',
+    targetKeyword: 'Diwali Cleaning Planner',
+  },
+  {
+    name: 'Diwali Countdown & Preparation Planner',
+    slug: 'diwali-countdown-preparation-planner',
+    category: 'Festival',
+    description: 'Track the Diwali 2026 countdown and plan cleaning, shopping, puja and festival preparation.',
+    targetKeyword: 'Diwali Countdown 2026',
   },
 
   // 10. YOUTUBE TOOLS (4 Complete Tools) (4 Complete Tools)
