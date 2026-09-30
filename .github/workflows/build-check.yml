@@ -76,7 +76,7 @@ jobs:
           done
           echo "Cloudflare branch did not reach a stable deployed commit."
           exit 1
-      - name: Browser smoke test all 112 tools (Cloudflare)
+      - name: Browser smoke test all 112 core tools (Cloudflare)
         if: github.ref == 'refs/heads/cloudflare-test'
         env:
           SMOKE_BASE_URL: https://toolployee.com
