@@ -77,6 +77,7 @@ const FLAG_ICONS: Record<string, React.ReactNode> = {
       <path fill="#fff" d="M120 230h400v20H120z"/>
     </svg>
   ),
+  mr: (<span className="inline-flex h-3.5 w-5 items-center justify-center rounded-sm bg-gradient-to-b from-orange-500 via-white to-green-600 text-[7px] font-black text-blue-900">म</span>),
   hi: (
     <svg className="h-3.5 w-5 rounded-sm object-cover shadow-sm shrink-0" viewBox="0 0 640 480">
       <path fill="#ff9933" d="M0 0h640v160H0z"/>
@@ -100,6 +101,7 @@ const LANGUAGES = [
   { code: 'ru', name: 'Русский' },
   { code: 'ar', name: 'العربية' },
   { code: 'hi', name: 'हिन्दी' },
+  { code: 'mr', name: 'मराठी' },
 ];
 
 export default function LanguageSelector() {
