@@ -29,6 +29,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
   const ui = getLocalizedUi(locale.code);
   const name = getLocalizedToolName(tool, locale.code);
   const categoryLabel = getLocalizedCategoryLabel(tool.category, locale.code);
+  const isFestival = tool.category === 'Festival';
 
   const companionTools = TOOLS_REGISTRY
     .filter((candidate) => candidate.category === tool.category && candidate.slug !== tool.slug)
@@ -47,17 +48,18 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
       <div>
         <Navbar />
 
-        <div className="relative overflow-hidden border-b border-zinc-200/70 dark:border-white/10 bg-white dark:bg-zinc-950">
+        <div className={isFestival ? 'relative overflow-hidden border-b border-amber-200/80 dark:border-white/10 bg-gradient-to-br from-amber-50/80 via-white to-orange-50/70 dark:from-zinc-950 dark:via-zinc-950 dark:to-amber-950/10' : 'relative overflow-hidden border-b border-zinc-200/70 dark:border-white/10 bg-white dark:bg-zinc-950'}>
           <div className="absolute inset-0 tool-premium-grid opacity-70 dark:opacity-40" />
-          <div className="absolute -top-24 right-10 h-56 w-56 rounded-full bg-violet-500/10 blur-3xl" />
+          <div className={`absolute -top-24 right-10 h-56 w-56 rounded-full blur-3xl ${isFestival ? 'bg-amber-500/15' : 'bg-violet-500/10'}`} />
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 lg:py-14">
             <div className="inline-flex items-center gap-2 rounded-full border border-violet-200/80 dark:border-violet-400/20 bg-violet-50/80 dark:bg-violet-950/30 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.16em] text-violet-700 dark:text-violet-300">
               <span className="h-1.5 w-1.5 rounded-full bg-violet-500 shadow-[0_0_10px_rgba(124,58,237,.7)]" />
-              {categoryLabel}
+              {isFestival ? `🪔 ${categoryLabel}` : categoryLabel}
             </div>
             <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black tracking-[-0.03em] text-zinc-950 dark:text-white">
               {name}
             </h1>
+            {isFestival && <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700/80 dark:text-amber-300/80">{tool.slug === 'navratri-colors-2026' ? '🌸 Celebrate • Pray • Prepare' : '🪔 Celebrate • Light • Prepare • 🎆'}</p>}
             <p className="mt-3 text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7">
               {getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro}
             </p>
