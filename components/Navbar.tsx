@@ -25,7 +25,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const pathname = usePathname();
-  const currentLocale = ((pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/)?.[1] as LocaleCode | undefined) || 'en');
+  const currentLocale = ((pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi|mr)(?:\/|$)/)?.[1] as LocaleCode | undefined) || 'en');
   const ui = getLocalizedUi(currentLocale);
 
   useEffect(() => {
