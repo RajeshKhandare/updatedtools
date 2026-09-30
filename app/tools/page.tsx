@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { TOOLS_REGISTRY, CATEGORIES, ToolMeta } from '@/data/toolsRegistry';
-import { Search, FileText, Image as ImageIcon, Code, Calculator, Video, Type, ArrowLeftRight, CalendarDays } from 'lucide-react';
+import { Search, FileText, Image as ImageIcon, Code, Calculator, Video, Type, ArrowLeftRight, CalendarDays, Flower2, Flame, Gift, ShoppingBag, ListChecks, Lightbulb, Home, Sparkles } from 'lucide-react';
 
 export default function AllToolsPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -28,6 +28,15 @@ export default function AllToolsPage() {
   }, [searchQuery, selectedCategory]);
 
   const getToolIcon = (cat: string, slug?: string) => {
+    if (cat === 'Festival') {
+      if (slug === 'navratri-colors-2026') return <Flower2 className="h-5 w-5 text-orange-500" />;
+      if (slug === 'diwali-mithai-faral-calculator') return <Gift className="h-5 w-5 text-amber-500" />;
+      if (slug === 'diwali-puja-samagri-checklist') return <ListChecks className="h-5 w-5 text-violet-500" />;
+      if (slug === 'diwali-budget-calculator') return <ShoppingBag className="h-5 w-5 text-emerald-500" />;
+      if (slug === 'diya-requirement-calculator') return <Lightbulb className="h-5 w-5 text-amber-500" />;
+      if (slug === 'diwali-cleaning-planner') return <Home className="h-5 w-5 text-sky-500" />;
+      return <Sparkles className="h-5 w-5 text-violet-500" />;
+    }
     if (cat === 'Festival') {
       if (slug === 'navratri-colors-2026') return <Flower2 className="h-5 w-5 text-orange-500" />;
       if (slug === 'diwali-mithai-faral-calculator') return <Gift className="h-5 w-5 text-amber-500" />;
