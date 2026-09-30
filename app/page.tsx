@@ -27,7 +27,7 @@ import {
   Layers,
   ArrowLeftRight,
   CalendarDays,
-  Flower2, Flame, Gift, ShoppingBag, ListChecks, Lightbulb, Home, Sparkles,
+  Flower2, Flame, Gift, ShoppingBag, ListChecks, Lightbulb, Home,
 } from 'lucide-react';
 
 const FAQ_ITEMS = [
