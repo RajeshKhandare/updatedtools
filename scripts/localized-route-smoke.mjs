@@ -14,7 +14,7 @@ const LOCALES = [
 
 const fs = await import('node:fs');
 const registrySource = fs.readFileSync('data/toolsRegistry.ts', 'utf8');
-const TOOL_SLUGS = [...registrySource.matchAll(/slug:\\s*'([^']+)'[\\s\\S]*?category:\\s*'([^']+)'/g)]
+const TOOL_SLUGS = [...registrySource.matchAll(/slug:\s*'([^']+)'[\s\\S]*?category:\s*'([^']+)'/g)]
   .filter(([, , category]) => category !== 'Festival')
   .map(([, slug]) => slug);
 
