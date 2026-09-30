@@ -30,7 +30,7 @@ export default function LocalizedToolsIndexClient({ locale, ui }: { locale: Loca
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
-  const filteredTools = useMemo(() => TOOLS_REGISTRY.filter((tool) => {
+  const filteredTools = useMemo(() => TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' && {
     const matchesCategory =
       selectedCategory === 'All' ||
       tool.category.toLowerCase().replace(/\s+/g, '') === selectedCategory.toLowerCase().replace(/\s+/g, '');
@@ -72,7 +72,7 @@ export default function LocalizedToolsIndexClient({ locale, ui }: { locale: Loca
 
         <section className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-4 no-scrollbar">
-            {CATEGORIES.map((category) => {
+            {CATEGORIES.filter((category) => category !== 'Festival').map((category) => {
               const isActive = selectedCategory === category;
               return (
                 <button key={category} onClick={() => setSelectedCategory(category)}
