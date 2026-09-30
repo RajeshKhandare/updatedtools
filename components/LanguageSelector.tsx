@@ -111,7 +111,7 @@ export default function LanguageSelector() {
 
   useEffect(() => {
     const path = window.location.pathname;
-    const match = path.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
+    const match = path.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi|mr)(?:\/|$)/);
     setSelectedLang(match?.[1] || 'en');
 
     const handleClickOutside = (e: MouseEvent) => {
@@ -127,7 +127,7 @@ export default function LanguageSelector() {
     document.cookie = `toolployee-locale=${langCode}; path=/; max-age=31536000; SameSite=Lax`;
 
     const path = window.location.pathname;
-    const localePattern = /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?=\/|$)/;
+    const localePattern = /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi|mr)(?=\/|$)/;
     const englishPath = path.replace(localePattern, '') || '/';
     const festivalPath = /^\/tools\/(navratri-colors-2026|diwali-mithai-faral-calculator|diwali-puja-samagri-checklist|diwali-budget-calculator|diya-requirement-calculator|diwali-cleaning-planner|diwali-countdown-preparation-planner)(?:\/|$)/.test(englishPath);
     const targetPath = langCode === 'mr' && !festivalPath ? '/' : langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
