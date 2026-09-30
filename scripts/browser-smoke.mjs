@@ -1167,7 +1167,7 @@ async function main() {
   const pdfWarnings = [];
 
   for (
-    const tool of tools
+    const tool of smokeTools
   ) {
     const label =
       tool.category +
@@ -1336,13 +1336,13 @@ async function main() {
   console.log(
     JSON.stringify(
       {
-        totalTools: tools.length,
+        totalTools: smokeTools.length,
         skippedPdf:
-          tools.filter((tool) => tool.category === 'PDF').length,
+          smokeTools.filter((tool) => tool.category === 'PDF').length,
         tested:
-          tools.filter((tool) => tool.category !== 'PDF').length,
+          smokeTools.filter((tool) => tool.category !== 'PDF').length,
         passed:
-          tools.filter((tool) => tool.category !== 'PDF').length -
+          smokeTools.filter((tool) => tool.category !== 'PDF').length -
           failures.length,
         failed:
           failures.length,
