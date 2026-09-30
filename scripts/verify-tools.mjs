@@ -8,7 +8,7 @@ if(slugs.length!==119||new Set(slugs).size!==119) throw new Error(`Expected 119 
 const names=[...registry.matchAll(/name:\s*'([^']+)'/g)].map(m=>m[1]);
 const descriptions=[...registry.matchAll(/description:\s*'([^']*)'/g)].map(m=>m[1]);
 const targetKeywords=[...registry.matchAll(/targetKeyword:\s*'([^']+)'/g)].map(m=>m[1]);
-if(names.length!==119||descriptions.length!==119||targetKeywords.length!==119) throw new Error(`Expected 112 names, descriptions, and target keywords; found ${names.length}, ${descriptions.length}, ${targetKeywords.length}`);
+if(names.length!==119||descriptions.length!==119||targetKeywords.length!==119) throw new Error(`Expected 119 names, descriptions, and target keywords; found ${names.length}, ${descriptions.length}, ${targetKeywords.length}`);
 if(descriptions.some(d=>d.trim().length<30)) throw new Error('Every tool description must contain at least 30 characters');
 if(targetKeywords.some(k=>!k.trim())) throw new Error('Every tool must have a non-empty targetKeyword');
 if(slugs.some(s=>!(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).test(s))) throw new Error('Every tool slug must be lowercase kebab-case');
