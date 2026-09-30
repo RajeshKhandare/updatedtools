@@ -2,6 +2,7 @@ import { ToolMeta } from '@/data/toolsRegistry';
 import { GENERATED_LOCALIZED_TOOL_SEO } from './generatedLocalizedToolSeo';
 import { getTimeTableSeoContent } from './timeTableSeo';
 import { getFestivalSeoContent } from './festivalSeo';
+import { getFestivalLocalizedSeoContent } from './festivalLocalizedSeo';
 
 export type ToolFaq = { q: string; a: string };
 export type ToolSeoContent = {
@@ -379,6 +380,7 @@ const LOCALIZED_FAQ_COMMON: Record<Exclude<LocaleCode,'en'>, ToolFaq[]> = {
 
 export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): ToolSeoContent {
   if (tool.category === 'Time Table') return getTimeTableSeoContent(tool, locale);
+  if (tool.category === 'Festival') return getFestivalLocalizedSeoContent(locale, tool.slug) || getFestivalSeoContent(tool);
   const base = getToolSeoContent(tool);
   if (locale === 'en') return base;
 
