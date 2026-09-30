@@ -1,15 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
-import { getLocale, LOCALES, localizedToolPath } from '@/data/internationalSeo';
+import { getLocale, LOCALES, FESTIVAL_LOCALES, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi } from '@/data/internationalLocalization';
 import { SITE_NAME, SITE_URL } from '@/config/site';
 import { getLocalizedToolSeoContent } from '@/data/toolSeo';
 
 export function generateStaticParams() {
-  return LOCALES.flatMap((locale) =>
-    TOOLS_REGISTRY.map((tool) => ({ locale: locale.code, slug: tool.slug }))
-  );
+  return [...LOCALES.flatMap((locale) => TOOLS_REGISTRY.map((tool) => ({ locale: locale.code, slug: tool.slug }))), ...FESTIVAL_LOCALES.flatMap((locale) => TOOLS_REGISTRY.filter((tool) => tool.category === 'Festival').map((tool) => ({ locale: locale.code, slug: tool.slug })))]
+;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
@@ -30,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
+      languages: Object.fromEntries([...LOCALES, ...(tool.category === 'Festival' ? FESTIVAL_LOCALES : [])].map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
     },
     openGraph: { title, description, url, siteName: SITE_NAME, type: 'website', locale: locale.hreflang },
     twitter: { card: 'summary_large_image', title, description },
