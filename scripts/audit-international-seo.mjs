@@ -11,7 +11,9 @@ const marketEvidenceSource = fs.readFileSync('data/internationalMarketEvidence.t
 
 const localeMatches = [...localeSource.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
 const seedMatches = [...seedSource.matchAll(/locale:'([^']+)'/g)].map((m) => m[1]);
-const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
+const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'[\s\S]*?category:\s*'([^']+)'/g)]
+  .filter(([, , category]) => category !== 'Festival')
+  .map(([ , slug]) => slug);
 
 if (new Set(toolMatches).size !== 112) throw new Error(`Expected 112 tools, found ${new Set(toolMatches).size}`);
 if (localeMatches.length !== 12) throw new Error(`Expected 12 locales, found ${localeMatches.length}`);
