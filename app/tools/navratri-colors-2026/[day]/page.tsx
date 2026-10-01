@@ -5,6 +5,7 @@ import { ArrowLeft, Sparkles, Heart, ShoppingBag, Utensils, Music2, Flower2, Cal
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { getNavratriDays } from '@/data/festivalNavratri';
+import { SITE_URL } from '@/config/site';
 
 export const dynamicParams = false;
 
@@ -20,7 +21,7 @@ export async function generateMetadata({params}:{params:Promise<{day:string}>}):
   return {
     title:`Navratri Day ${item.day} ${item.color} ${item.date} | Toolployee`,
     description:`Navratri Day ${item.day} on ${item.date}: ${item.color} color, ${item.devi}, significance, puja ideas, outfit ideas and festive planning.`,
-    alternates:{canonical:`/tools/navratri-colors-2026/day-${item.day}`},
+    alternates:{canonical:`${SITE_URL}/tools/navratri-colors-2026/day-${item.day}`,languages:{en:`${SITE_URL}/tools/navratri-colors-2026/day-${item.day}`,hi:`${SITE_URL}/hi/tools/navratri-colors-2026/day-${item.day}`}},
   };
 }
 
