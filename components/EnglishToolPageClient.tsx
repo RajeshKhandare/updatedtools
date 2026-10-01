@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
 import ToolSeoContent from '@/components/ToolSeoContent';
+import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY, type ToolMeta } from '@/data/toolsRegistry';
 
@@ -71,6 +72,7 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
 
         <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
           <ToolEngineRunner tool={tool} />
+          {isFestival && <FestivalAffiliateLinks tool={tool} locale="en" />}
           <ToolSeoContent tool={tool} />
 
           <div className="mt-14">
