@@ -7,6 +7,7 @@ import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from 
 import { getLocalizedToolSeoContent, getToolSeoContent } from '@/data/toolSeo';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
 import ToolSeoContent from '@/components/ToolSeoContent';
+import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -67,6 +68,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
 
         <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
           <ToolEngineRunner tool={tool} locale={locale.code} />
+          {isFestival && <FestivalAffiliateLinks tool={tool} locale={locale.code} />}
           <ToolSeoContent tool={tool} locale={locale.code} />
 
           <div className="mt-14">
