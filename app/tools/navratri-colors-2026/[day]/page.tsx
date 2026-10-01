@@ -9,12 +9,13 @@ import { getNavratriDays } from '@/data/festivalNavratri';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return Array.from({length:9},(_,i)=>({day:String(i+1)}));
+  return Array.from({length:9},(_,i)=>({day:`day-${i+1}`}));
 }
 
 export async function generateMetadata({params}:{params:Promise<{day:string}>}):Promise<Metadata>{
   const {day}=await params;
-  const item=getNavratriDays('en')[Number(day)-1];
+  const dayNumber=Number(day.replace(/^day-/,'') );
+  const item=getNavratriDays('en')[dayNumber-1];
   if(!item) return {};
   return {
     title:`Navratri Day ${item.day} ${item.color} ${item.date} | Toolployee`,
@@ -25,7 +26,7 @@ export async function generateMetadata({params}:{params:Promise<{day:string}>}):
 
 export default async function NavratriDayPage({params}:{params:Promise<{day:string}>}){
   const {day}=await params;
-  const index=Number(day)-1;
+  const index=Number(day.replace(/^day-/,'') )-1;
   const item=getNavratriDays('en')[index];
   if(!item) notFound();
   const next=index<8?item.day+1:1;
