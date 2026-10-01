@@ -64,7 +64,7 @@ export const LOCALIZED_UI: Record<LocaleCode, LocalizedUi> = {
   ru: { toolLabel: 'Инструмент', toolsLabel: 'Инструменты', freeLabel: 'Бесплатный онлайн-инструмент', browserLabel: 'Работает в браузере', guideLabel: 'Руководство по инструменту', guideDescription: 'Этот локализованный маршрут входит в международное покрытие Toolployee. Руководства, FAQ, примеры и ключевые слова локализуются и проверяются отдельно.', openEnglish: 'Открыть английскую версию', relatedLabel: 'Похожие инструменты', categoriesLabel: 'Категории', popularToolsLabel: 'Популярные инструменты', platformLabel: 'Платформа', viewAllLabel: 'Показать все', aboutLabel: 'О нас', contactLabel: 'Поддержка', privacyLabel: 'Политика конфиденциальности', termsLabel: 'Условия использования', operationalLabel: 'Все инструменты доступны · 100% бесплатно', footerDescription: 'Бесплатные, быстрые и доступные цифровые инструменты для создателей, студентов и разработчиков. Редактируйте, считайте и конвертируйте прямо в браузере.', craftedLabel: 'Создано для скорости и конфиденциальности', description: 'Используйте этот инструмент в браузере без установки отдельного приложения.' },
   ar: { toolLabel: 'أداة', toolsLabel: 'أدوات', freeLabel: 'أداة مجانية عبر الإنترنت', browserLabel: 'تعمل في المتصفح', guideLabel: 'دليل الأداة', guideDescription: 'هذا المسار المترجم جزء من التغطية الدولية لـ Toolployee. تتم ترجمة الأدلة والأسئلة الشائعة والأمثلة والكلمات المفتاحية ومراجعتها بشكل منفصل.', openEnglish: 'فتح النسخة الإنجليزية', relatedLabel: 'أدوات ذات صلة', categoriesLabel: 'الفئات', popularToolsLabel: 'أدوات شائعة', platformLabel: 'المنصة', viewAllLabel: 'عرض الكل', aboutLabel: 'من نحن', contactLabel: 'الدعم', privacyLabel: 'سياسة الخصوصية', termsLabel: 'شروط الخدمة', operationalLabel: 'جميع الأدوات متاحة · مجانية 100%', footerDescription: 'أدوات رقمية مجانية وسريعة وسهلة الاستخدام للمبدعين والطلاب والمطورين. حرر واحسب وحوّل مباشرة في المتصفح.', craftedLabel: 'مصممة للسرعة والخصوصية', description: 'استخدم هذه الأداة في المتصفح دون تثبيت تطبيق منفصل على سطح المكتب.' },
   hi: { toolLabel: 'टूल', toolsLabel: 'टूल्स', freeLabel: 'मुफ्त ऑनलाइन टूल', browserLabel: 'ब्राउज़र में काम करता है', guideLabel: 'टूल गाइड', guideDescription: 'यह लोकलाइज़्ड रूट Toolployee की अंतरराष्ट्रीय कवरेज का हिस्सा है। गाइड, FAQ, उदाहरण और कीवर्ड अलग से लोकलाइज़ और रिव्यू किए जाते हैं।', openEnglish: 'अंग्रेज़ी संस्करण खोलें', relatedLabel: 'संबंधित टूल्स', categoriesLabel: 'श्रेणियाँ', popularToolsLabel: 'लोकप्रिय टूल्स', platformLabel: 'प्लेटफ़ॉर्म', viewAllLabel: 'सभी देखें', aboutLabel: 'हमारे बारे में', contactLabel: 'सपोर्ट', privacyLabel: 'प्राइवेसी पॉलिसी', termsLabel: 'सेवा की शर्तें', operationalLabel: 'सभी टूल्स उपलब्ध · 100% मुफ्त', footerDescription: 'क्रिएटर्स, छात्रों और डेवलपर्स के लिए मुफ्त, तेज़ और आसान डिजिटल टूल्स। ब्राउज़र में सीधे एडिट, कैलकुलेट और कन्वर्ट करें।', craftedLabel: 'स्पीड और प्राइवेसी के लिए बनाया गया', description: 'अलग डेस्कटॉप ऐप इंस्टॉल किए बिना इस टूल का उपयोग ब्राउज़र में करें।' },
-  mr: { toolLabel: 'टूल', toolsLabel: 'टूल्स', freeLabel: 'मोफत ऑनलाइन टूल', browserLabel: 'ब्राउझरमध्ये काम करते', guideLabel: 'टूल मार्गदर्शक', guideDescription: 'Toolployee च्या सणासुदीच्या साधनांसाठी हा मराठी मार्ग उपलब्ध आहे.', openEnglish: 'इंग्रजी आवृत्ती उघडा', relatedLabel: 'संबंधित टूल्स', categoriesLabel: 'श्रेणी', popularToolsLabel: 'लोकप्रिय टूल्स', platformLabel: 'प्लॅटफॉर्म', viewAllLabel: 'सर्व पहा', aboutLabel: 'आमच्याबद्दल', contactLabel: 'सपोर्ट', privacyLabel: 'प्रायव्हसी पॉलिसी', termsLabel: 'सेवा अटी', operationalLabel: 'सर्व टूल्स उपलब्ध · 100% मोफत', footerDescription: 'क्रिएटर्स, विद्यार्थी आणि डेव्हलपर्ससाठी मोफत डिजिटल टूल्स.', craftedLabel: 'वेग आणि प्रायव्हसीसाठी तयार', description: 'हे टूल ब्राउझरमध्ये वापरा.' },
+
 };
 const NAME_PHRASES: Record<string, Partial<Record<LocaleCode, string>>> = {
   'Merge PDF': { pt: 'Juntar PDF', es: 'Unir PDF', de: 'PDF zusammenfügen', fr: 'Fusionner PDF', it: 'Unire PDF', ja: 'PDF 結合', ko: 'PDF 합치기', zh: '合并PDF', ru: 'Объединить PDF', ar: 'دمج PDF', hi: 'PDF मर्ज करें' },
@@ -118,7 +118,7 @@ const CATEGORY_LABELS: Record<LocaleCode, Record<string, string>> = {
   ru: { PDF: 'PDF-инструменты', Image: 'Инструменты изображений', Compiler: 'Компиляторы и код', Finance: 'Финансовые калькуляторы', Developer: 'Инструменты разработчика', Text: 'Текстовые инструменты', Converters: 'Конвертеры', Calculators: 'Калькуляторы', YouTube: 'Инструменты YouTube', 'Time Table': 'Инструменты расписания' },
   ar: { PDF: 'أدوات PDF', Image: 'أدوات الصور', Compiler: 'المترجمات والبرمجة', Finance: 'حاسبات مالية', Developer: 'أدوات المطورين', Text: 'أدوات النصوص', Converters: 'المحوّلات', Calculators: 'الحاسبات', YouTube: 'أدوات YouTube', 'Time Table': 'أدوات الجداول' },
   hi: { PDF: 'PDF टूल्स', Image: 'इमेज टूल्स', Compiler: 'कंपाइलर और कोड', Finance: 'वित्तीय कैलकुलेटर', Developer: 'डेवलपर टूल्स', Text: 'टेक्स्ट टूल्स', Converters: 'कन्वर्टर्स', Calculators: 'कैलकुलेटर', YouTube: 'YouTube टूल्स', 'Time Table': 'टाइम टेबल टूल्स', Festival: 'फेस्टिवल टूल्स' },
-  mr: { PDF: 'PDF टूल्स', Image: 'इमेज टूल्स', Compiler: 'कंपाइलर आणि कोड', Finance: 'फायनान्स कॅल्क्युलेटर्स', Developer: 'डेव्हलपर टूल्स', Text: 'टेक्स्ट टूल्स', Converters: 'कन्व्हर्टर टूल्स', Calculators: 'कॅल्क्युलेटर टूल्स', YouTube: 'YouTube टूल्स', 'Time Table': 'टाइमटेबल टूल्स', Festival: 'फेस्टिवल टूल्स' },
+
 };
 
 export function getLocalizedCategoryLabel(category: string, locale: LocaleCode): string {
@@ -238,7 +238,7 @@ export const SEARCH_QUERY_MODIFIERS: Record<LocaleCode, string[]> = {
   ru: ['онлайн', 'бесплатно', 'бесплатный', 'бесплатно онлайн'],
   ar: ['أونلاين', 'عبر الإنترنت', 'مجاني', 'مجانا أونلاين'],
   hi: ['ऑनलाइन', 'मुफ्त', 'फ्री', 'मुफ्त ऑनलाइन'],
-  mr: ['ऑनलाइन', 'मोफत', 'मोफत ऑनलाइन'],
+
 };
 
 /**
@@ -260,7 +260,7 @@ export const LONG_TAIL_QUERY_PATTERNS: Record<LocaleCode, string[]> = {
   ru: ['как использовать', 'как сделать', 'без установки', 'на телефоне', 'пошагово', 'без регистрации'],
   ar: ['كيفية الاستخدام', 'كيفية', 'بدون تثبيت', 'على الهاتف', 'خطوة بخطوة', 'بدون تسجيل'],
   hi: ['कैसे इस्तेमाल करें', 'कैसे करें', 'इंस्टॉल किए बिना', 'मोबाइल पर', 'स्टेप बाय स्टेप', 'बिना साइन अप'],
-  mr: ['कसे वापरावे', 'कसे करावे', 'इन्स्टॉल न करता', 'मोबाईलवर', 'नवशिक्यांसाठी', 'स्टेप बाय स्टेप', 'साइनअपशिवाय'],
+
 };
 
 
@@ -402,7 +402,7 @@ const CATEGORY_LONG_TAIL_PATTERNS: Record<LocaleCode, Partial<Record<string, str
     Calculators: ['फॉर्मूला के साथ', 'उदाहरण के साथ', 'स्टेप बाय स्टेप'],
     YouTube: ['क्रिएटर्स के लिए', 'वीडियो के लिए', 'YouTube URL के साथ'],
   },
-  mr: { PDF: ['अनेक फाइल्ससह', 'डॉक्युमेंटसाठी', 'प्रिंटसाठी'], Image: ['फोटोसाठी', 'सोशल मीडियासाठी'], Finance: ['मासिक गणनेसाठी'], Calculators: ['फॉर्म्युलासह', 'उदाहरणासह'], Festival: ['सणासाठी', 'दिवाळीसाठी', 'नवरात्रीसाठी'] },
+
 };
 
 export function getLongTailQueryCandidates(tool: ToolMeta, locale: LocaleCode): string[] {
