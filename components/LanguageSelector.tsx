@@ -126,7 +126,8 @@ export default function LanguageSelector() {
 
     const path = window.location.pathname;
     const localePattern = /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?=\/|$)/;
-    const englishPath = path.replace(localePattern, '') || '/';langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
+    const englishPath = path.replace(localePattern, '') || '/';
+    const targetPath = langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
     window.location.assign(targetPath);
   };
 
