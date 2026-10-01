@@ -22,14 +22,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const seo = getLocalizedToolSeoContent(tool, locale.code);
   const title = name === tool.name ? `${name} Online` : name;
   const description = seo.heroIntro || seo.intro;
+  const keywords = [tool.targetKeyword, ...seo.useCases].filter(Boolean) as string[];
   const url = SITE_URL + localizedToolPath(locale.code, tool.slug);
 
   return {
     title,
     description,
+    keywords,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries((tool.category === 'Festival' ? LOCALES.filter((item) => item.code === 'hi') : LOCALES).map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
+      languages: Object.fromEntries((tool.category === 'Festival' ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi') : LOCALES).map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
     },
     openGraph: { title, description, url, siteName: SITE_NAME, type: 'website', locale: locale.hreflang },
     twitter: { card: 'summary_large_image', title, description },
