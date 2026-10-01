@@ -95,13 +95,13 @@ const NAME_PHRASES: Record<string, Partial<Record<LocaleCode, string>>> = {
   'UUID Generator': { pt: 'Gerador de UUID', es: 'Generador de UUID', de: 'UUID-Generator', fr: 'Générateur d’UUID', it: 'Generatore UUID', ja: 'UUIDジェネレーター', ko: 'UUID 생성기', zh: 'UUID生成器', ru: 'Генератор UUID', ar: 'مولد UUID', hi: 'UUID जनरेटर' },
   'Password Generator': { pt: 'Gerador de senhas', es: 'Generador de contraseñas', de: 'Passwort-Generator', fr: 'Générateur de mots de passe', it: 'Generatore di password', ja: 'ランダムパスワード生成ツール', ko: '비밀번호 생성기', zh: '随机密码生成器', ru: 'Генератор паролей', ar: 'مولد كلمات المرور', hi: 'पासवर्ड जनरेटर' },
   'QR Code Generator': { pt: 'Gerador de QR Code', es: 'Generador de códigos QR', de: 'QR-Code-Generator', fr: 'Générateur de QR code', it: 'Generatore di codici QR', ja: 'QRコードジェネレーター', ko: 'QR 코드 생성기', zh: '二维码生成器', ru: 'Генератор QR-кодов', ar: 'مولد رمز QR', hi: 'QR कोड जनरेटर' },
-  'Navratri Colors 2026': { hi: 'नवरात्रि के 9 रंग 2026', mr: 'नवरात्रीचे 9 रंग 2026' },
-  'Diwali Mithai & Faral Quantity Calculator': { hi: 'दिवाली मिठाई और फराल मात्रा कैलकुलेटर', mr: 'दिवाळी मिठाई आणि फराळ प्रमाण कॅल्क्युलेटर' },
-  'Diwali Puja Samagri Checklist': { hi: 'दिवाली पूजा सामग्री चेकलिस्ट', mr: 'दिवाळी पूजा साहित्य चेकलिस्ट' },
-  'Diwali Budget Calculator': { hi: 'दिवाली बजट कैलकुलेटर', mr: 'दिवाळी बजेट कॅल्क्युलेटर' },
-  'Diya Requirement Calculator': { hi: 'दीया आवश्यकता कैलकुलेटर', mr: 'पणती आवश्यकता कॅल्क्युलेटर' },
-  'Diwali Cleaning Planner': { hi: 'दिवाली सफाई प्लानर', mr: 'दिवाळी स्वच्छता नियोजक' },
-  'Diwali Countdown & Preparation Planner': { hi: 'दिवाली काउंटडाउन और तैयारी प्लानर', mr: 'दिवाळी काउंटडाउन आणि तयारी नियोजक' },
+  'Navratri Colors 2026': { hi: 'नवरात्रि के 9 रंग 2026' },
+  'Diwali Mithai & Faral Quantity Calculator': { hi: 'दिवाली मिठाई और फराल मात्रा कैलकुलेटर' },
+  'Diwali Puja Samagri Checklist': { hi: 'दिवाली पूजा सामग्री चेकलिस्ट' },
+  'Diwali Budget Calculator': { hi: 'दिवाली बजट कैलकुलेटर' },
+  'Diya Requirement Calculator': { hi: 'दीया आवश्यकता कैलकुलेटर' },
+  'Diwali Cleaning Planner': { hi: 'दिवाली सफाई प्लानर' },
+  'Diwali Countdown & Preparation Planner': { hi: 'दिवाली काउंटडाउन और तैयारी प्लानर' },
 };
 
 
