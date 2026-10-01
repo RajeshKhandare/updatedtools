@@ -31,3 +31,6 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Verify festival SEO, hreflang and affiliate placement
+        run: npm run verify:festival-seo
