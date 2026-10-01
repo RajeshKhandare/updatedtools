@@ -38,8 +38,8 @@ let checked = 0;
 for (const slug of festivalSlugs) {
   const en = read(`tools/${slug}/index.html`);
   const hi = read(`hi/tools/${slug}/index.html`);
-  const enUrl = `https://toolployee.com/tools/${slug}/`;
-  const hiUrl = `https://toolployee.com/hi/tools/${slug}/`;
+  const enUrl = `https://toolployee.com/tools/${slug}`;
+  const hiUrl = `https://toolployee.com/hi/tools/${slug}`;
   if (!hasHreflang(en, 'en', enUrl) || !hasHreflang(en, 'hi', hiUrl)) throw new Error('English hreflang missing for ' + slug);
   if (!hasHreflang(hi, 'en', enUrl) || !hasHreflang(hi, 'hi', hiUrl)) throw new Error('Hindi hreflang missing for ' + slug);
 
