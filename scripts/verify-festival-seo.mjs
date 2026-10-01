@@ -29,11 +29,11 @@ function read(rel) {
 }
 
 function hasHreflang(html, lang, href) {
-  const normalized = html.replace(/\s+/g, ' ');
-  return new RegExp(`(?:hreflang|hrefLang)=[\"']${lang}[\"'][^>]*href=[\"']${href.replace(/[.*+?^$\{\}()|[\]\\]/g, '\\\\$&')}[\"']`, 'i').test(normalized)
-    || new RegExp(`href=[\"']${href.replace(/[.*+?^$\{\}()|[\]\\]/g, '\\\\$&')}[\"'][^>]*(?:hreflang|hrefLang)=[\"']${lang}[\"']`, 'i').test(normalized);
+  const normalized = html.replace(/\\s+/g, ' ');
+  const langPresent = new RegExp(`(?:hreflang|hrefLang)=[\\\"']${lang}[\\\"']`, 'i').test(normalized);
+  const urlPresent = normalized.includes(`href=\\\"${href}\\\"`) || normalized.includes(`href='${href}'`);
+  return langPresent && urlPresent;
 }
-
 let checked = 0;
 for (const slug of festivalSlugs) {
   const en = read(`tools/${slug}/index.html`);
