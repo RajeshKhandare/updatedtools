@@ -40,5 +40,20 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const tool = TOOLS_REGISTRY.find((t) => t.slug === slug);
   if (!tool) notFound();
-  const seo = getToolSeoContent(tool);\n  const faq = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: seo.faq.map((x) => ({ '@type': 'Question', name: x.q, acceptedAnswer: { '@type': 'Answer', text: x.a } })) };\n  return <>\n    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />\n    <EnglishToolPageClient tool={tool} />\n  </>;
+  const seo = getToolSeoContent(tool);
+  const faq = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: seo.faq.map((x) => ({
+      '@type': 'Question',
+      name: x.q,
+      acceptedAnswer: { '@type': 'Answer', text: x.a },
+    })),
+  };
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
+      <EnglishToolPageClient tool={tool} />
+    </>
+  );
 }
