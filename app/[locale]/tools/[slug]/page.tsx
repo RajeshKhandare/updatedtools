@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
-import { LOCALES, FESTIVAL_LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
+import { LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 import { getLocalizedToolSeoContent, getToolSeoContent } from '@/data/toolSeo';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
@@ -13,8 +13,8 @@ import Footer from '@/components/Footer';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [...LOCALES.filter((locale) => locale.code !== 'en'), ...FESTIVAL_LOCALES].flatMap((locale) =>
-    TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' || locale.code === 'hi' || locale.code === 'mr').map((tool) => ({ locale: locale.code, slug: tool.slug }))
+  return LOCALES.filter((locale) => locale.code !== 'en').flatMap((locale) =>
+    TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' || locale.code === 'hi').map((tool) => ({ locale: locale.code, slug: tool.slug }))
   );
 }
 
@@ -23,8 +23,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
   const locale = getLocale(localeCode);
   const tool = TOOLS_REGISTRY.find((x) => x.slug === slug);
   if (!locale || !tool || locale.code === 'en') notFound();
-  if (tool.category === 'Festival' && locale.code !== 'hi' && locale.code !== 'mr') notFound();
-  if (locale.code === 'mr' && tool.category !== 'Festival') notFound();
+  if (tool.category === 'Festival' && locale.code !== 'hi') notFound();
 
   const ui = getLocalizedUi(locale.code);
   const name = getLocalizedToolName(tool, locale.code);
