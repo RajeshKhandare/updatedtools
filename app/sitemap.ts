@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
-import { INDEXABLE_LOCALES, FESTIVAL_LOCALES, localizedToolPath } from '@/data/internationalSeo';
+import { INDEXABLE_LOCALES, localizedToolPath } from '@/data/internationalSeo';
 
 export const dynamic = 'force-static';
 
@@ -36,18 +36,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { url: SITE_URL + '/' + locale.code + '/terms', lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
     ]);
 
-  const festivalLocalizedRoutes: MetadataRoute.Sitemap = FESTIVAL_LOCALES.flatMap((locale) =>
-    TOOLS_REGISTRY.filter((tool) => tool.category === 'Festival').map((tool) => ({
-      url: SITE_URL + localizedToolPath(locale.code, tool.slug),
-      lastModified: now,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    }))
-  );
-
   const navratriDayRoutes: MetadataRoute.Sitemap = [
     ...Array.from({ length: 9 }, (_, i) => SITE_URL + '/tools/navratri-colors-2026/day-' + (i + 1)),
-    ...['hi', 'mr'].flatMap((locale) => Array.from({ length: 9 }, (_, i) => SITE_URL + '/' + locale + '/tools/navratri-colors-2026/day-' + (i + 1))),
+    ...['hi'].flatMap((locale) => Array.from({ length: 9 }, (_, i) => SITE_URL + '/' + locale + '/tools/navratri-colors-2026/day-' + (i + 1))),
   ].map((url) => ({ url, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.78 }));
 
   const localizedRoutes: MetadataRoute.Sitemap = INDEXABLE_LOCALES
@@ -61,5 +52,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }))
     );
 
-  return [...staticRoutes, ...toolRoutes, ...localizedStaticRoutes, ...localizedRoutes, ...festivalLocalizedRoutes, ...navratriDayRoutes];
+  return [...staticRoutes, ...toolRoutes, ...localizedStaticRoutes, ...localizedRoutes, ...navratriDayRoutes];
 }
