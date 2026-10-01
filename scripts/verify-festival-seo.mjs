@@ -29,12 +29,14 @@ function read(rel) {
 }
 
 function hasHreflang(html, lang, href) {
-  const tags = html.match(/<link[^>]+(?:hreflang|hrefLang)=[\\\"'][^\\\"']+[\\\"'][^>]*>/gi) || [];
-  const target = href.replace(/\\/$/, '');
-  return tags.some((tag) =>
-    new RegExp(`(?:hreflang|hrefLang)=[\\\"']${lang}[\\\"']`, 'i').test(tag) &&
-    tag.includes(target)
-  );
+  const tags = html.match(/<link[^>]+(?:hreflang|hrefLang)=["'][^"']+["'][^>]*>/gi) || [];
+  const target = href.replace(/\/$/, '');
+  const wanted = lang.toLowerCase();
+  return tags.some((tag) => {
+    const lower = tag.toLowerCase();
+    const langMatch = lower.includes('hreflang="' + wanted + '"') || lower.includes("hreflang='" + wanted + "'");
+    return langMatch && tag.includes(target);
+  });
 }
 let checked = 0;
 for (const slug of festivalSlugs) {
