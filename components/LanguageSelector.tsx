@@ -77,7 +77,6 @@ const FLAG_ICONS: Record<string, React.ReactNode> = {
       <path fill="#fff" d="M120 230h400v20H120z"/>
     </svg>
   ),
-  mr: (<span className="inline-flex h-3.5 w-5 items-center justify-center rounded-sm bg-gradient-to-b from-orange-500 via-white to-green-600 text-[7px] font-black text-blue-900">म</span>),
   hi: (
     <svg className="h-3.5 w-5 rounded-sm object-cover shadow-sm shrink-0" viewBox="0 0 640 480">
       <path fill="#ff9933" d="M0 0h640v160H0z"/>
@@ -101,7 +100,6 @@ const LANGUAGES = [
   { code: 'ru', name: 'Русский' },
   { code: 'ar', name: 'العربية' },
   { code: 'hi', name: 'हिन्दी' },
-  { code: 'mr', name: 'मराठी' },
 ];
 
 export default function LanguageSelector() {
@@ -111,7 +109,7 @@ export default function LanguageSelector() {
 
   useEffect(() => {
     const path = window.location.pathname;
-    const match = path.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi|mr)(?:\/|$)/);
+    const match = path.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
     setSelectedLang(match?.[1] || 'en');
 
     const handleClickOutside = (e: MouseEvent) => {
@@ -127,10 +125,8 @@ export default function LanguageSelector() {
     document.cookie = `toolployee-locale=${langCode}; path=/; max-age=31536000; SameSite=Lax`;
 
     const path = window.location.pathname;
-    const localePattern = /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi|mr)(?=\/|$)/;
-    const englishPath = path.replace(localePattern, '') || '/';
-    const festivalPath = /^\/tools\/(navratri-colors-2026|diwali-mithai-faral-calculator|diwali-puja-samagri-checklist|diwali-budget-calculator|diya-requirement-calculator|diwali-cleaning-planner|diwali-countdown-preparation-planner)(?:\/|$)/.test(englishPath);
-    const targetPath = langCode === 'mr' && !festivalPath ? '/' : langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
+    const localePattern = /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?=\/|$)/;
+    const englishPath = path.replace(localePattern, '') || '/';langCode === 'en' ? englishPath : `/${langCode}${englishPath === '/' ? '' : englishPath}`;
     window.location.assign(targetPath);
   };
 
