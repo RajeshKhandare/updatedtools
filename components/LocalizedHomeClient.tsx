@@ -78,7 +78,7 @@ export default function LocalizedHomeClient({ localeCode }: { localeCode: string
   const [query,setQuery]=useState('');
   const [category,setCategory]=useState('All');
   const [faq,setFaq]=useState<number|null>(null);
-  const tools=useMemo(()=>TOOLS_REGISTRY.filter(t=>(t.category !== 'Festival' || locale.code === 'hi' || locale.code === 'mr') && (locale.code !== 'mr' || t.category === 'Festival') &&
+  const tools=useMemo(()=>TOOLS_REGISTRY.filter(t=>(t.category !== 'Festival' || locale.code === 'hi') &&
     (category==='All'||t.category===category) &&
     (!query.trim()||t.name.toLowerCase().includes(query.toLowerCase())||getLocalizedToolName(t,locale.code).toLowerCase().includes(query.toLowerCase()))
   ),[query,category]);
