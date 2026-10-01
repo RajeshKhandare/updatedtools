@@ -1,4 +1,4 @@
-export type LocaleCode = 'en'|'pt'|'es'|'de'|'fr'|'it'|'ja'|'ko'|'zh'|'ru'|'ar'|'hi'|'mr';
+export type LocaleCode = 'en'|'pt'|'es'|'de'|'fr'|'it'|'ja'|'ko'|'zh'|'ru'|'ar'|'hi';
 
 export interface LocaleConfig {
   code: LocaleCode;
@@ -24,14 +24,11 @@ export const LOCALES: readonly LocaleConfig[] = [
 
 ];
 
-export const FESTIVAL_LOCALES: readonly LocaleConfig[] = [
-  { code:'mr', hreflang:'mr', languageName:'मराठी', market:'India / Maharashtra', status:'source' },
-];
 
 export const INDEXABLE_LOCALES = LOCALES.filter((locale) => locale.status === 'source');
 
 export function getLocale(code: string): LocaleConfig | undefined {
-  return [...LOCALES, ...FESTIVAL_LOCALES].find((locale) => locale.code === code);
+  return LOCALES.find((locale) => locale.code === code);
 }
 
 export function isLocale(code: string): code is LocaleCode {
