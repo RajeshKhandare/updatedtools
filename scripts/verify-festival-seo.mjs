@@ -29,7 +29,7 @@ function read(rel) {
 }
 
 function hasHreflang(html, lang, href) {
-  const normalized = html.replace(/\\s+/g, ' ');
+  const normalized = html.replace(/\s+/g, ' ');
   const langPresent = new RegExp(`(?:hreflang|hrefLang)=[\\\"']${lang}[\\\"']`, 'i').test(normalized);
   const urlPresent = normalized.includes(`href=\\\"${href}\\\"`) || normalized.includes(`href='${href}'`);
   return langPresent && urlPresent;
