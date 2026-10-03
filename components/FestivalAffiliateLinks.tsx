@@ -70,8 +70,6 @@ function amazonSearchUrl(query: string) {
 }
 
 export default function FestivalAffiliateLinks({ tool, locale = 'en' }: { tool: ToolMeta; locale?: string }) {
-  if (tool.slug === 'navratri-colors-2026') return null;
-
   const items = ITEMS[tool.slug];
   const [products, setProducts] = useState<AmazonProduct[]>([]);
   const [loading, setLoading] = useState(true);
@@ -123,7 +121,7 @@ export default function FestivalAffiliateLinks({ tool, locale = 'en' }: { tool: 
     return () => { cancelled = true; };
   }, [tool.category, tool.slug]);
 
-  if (tool.category !== 'Festival' || !items?.length) return null;
+  if (tool.slug === 'navratri-colors-2026' || tool.category !== 'Festival' || !items?.length) return null;
 
   const copy = locale === 'hi'
     ? HI[tool.slug] || { heading: 'फेस्टिवल शॉपिंग', intro: 'तैयारी के लिए संबंधित Amazon प्रोडक्ट देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' }
