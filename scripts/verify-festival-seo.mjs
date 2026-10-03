@@ -28,6 +28,12 @@ function read(rel) {
   return fs.readFileSync(file, 'utf8');
 }
 
+function readSource(rel) {
+  const file = path.resolve(rel);
+  if (!fs.existsSync(file)) throw new Error('Missing source file: ' + rel);
+  return fs.readFileSync(file, 'utf8');
+}
+
 function hasHreflang(html, lang, href) {
   const tags = html.match(/<link[^>]+(?:hreflang|hrefLang)=["'][^"']+["'][^>]*>/gi) || [];
   const target = href.replace(/\/$/, '');
@@ -38,6 +44,7 @@ function hasHreflang(html, lang, href) {
     return langMatch && tag.includes(target);
   });
 }
+
 let checked = 0;
 for (const slug of festivalSlugs) {
   const en = read(`tools/${slug}/index.html`);
@@ -49,9 +56,6 @@ for (const slug of festivalSlugs) {
 
   const foundKeywords = (hindiKeywordChecks[slug] || []).filter((keyword) => hi.includes(keyword));
   if (foundKeywords.length < 2) throw new Error(`Hindi SEO keyword coverage too low for ${slug}: ${foundKeywords.join(', ')}`);
-
-  const amazonLinks = (hi.match(/https:\/\/www\.amazon\.in\/s\?/g) || []).length;
-  if (amazonLinks < 2) throw new Error('Amazon shopping links missing from Hindi page: ' + slug);
   checked++;
 }
 
@@ -64,15 +68,23 @@ for (let day = 1; day <= 9; day++) {
   if (!hasHreflang(hi, 'en', enUrl) || !hasHreflang(hi, 'hi', hiUrl)) throw new Error('Hindi Navratri day hreflang missing: day-' + day);
 }
 
-const tag = process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG?.trim() || '';
-if (tag) {
-  const sample = read('hi/tools/diwali-puja-samagri-checklist/index.html');
-  if (!sample.includes(`tag=${tag}`) && !sample.includes(`tag%3D${tag}`)) {
-    throw new Error('Amazon Associate tag is configured but was not present in generated affiliate links.');
-  }
-  console.log('Amazon Associates tag: present in generated links.');
-} else {
-  console.log('Amazon Associates tag: not configured in CI; Amazon search links are present and will become tagged when the Cloudflare build variable is set.');
+const affiliateComponent = readSource('components/FestivalAffiliateLinks.tsx');
+const curatedProducts = readSource('data/festivalAffiliateProducts.ts');
+if (!affiliateComponent.includes('/api/amazon-products?q=') || !affiliateComponent.includes('innovative067-21')) {
+  throw new Error('Amazon live-search route or affiliate attribution is missing from FestivalAffiliateLinks.');
+}
+if (!curatedProducts.includes('innovative067-21')) {
+  throw new Error('Curated Amazon fallback products are missing the affiliate tag.');
 }
 
-console.log(`Festival SEO verification OK: ${checked} Hindi/English festival pages + 18 Navratri day pages checked for hreflang, Hindi search-intent content, and Amazon link placement.`);
+const tag = process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG?.trim() || '';
+if (tag) {
+  if (!affiliateComponent.includes(tag) && !curatedProducts.includes(tag)) {
+    throw new Error('Amazon Associate tag is configured but was not present in the festival affiliate source.');
+  }
+  console.log('Amazon Associates tag: present in festival affiliate source.');
+} else {
+  console.log('Amazon Associates tag: not configured in CI; source uses the production affiliate tag and runtime API responses enforce the configured Cloudflare tag.');
+}
+
+console.log(`Festival SEO verification OK: ${checked} Hindi/English festival pages + 18 Navratri day pages checked for hreflang, Hindi search-intent content, and Amazon affiliate source/fallback placement.`);
