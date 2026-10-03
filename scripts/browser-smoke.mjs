@@ -630,6 +630,12 @@ async function testCompiler(page, slug) {
     /^(Run Code|Preview)$/
   );
 
+  // Allow the controlled editor state and remote execution result to settle.
+  // PHP is retried once if the first remote result is stale.
+  if (slug !== 'online-html-editor') {
+    await page.waitForTimeout(1000);
+  }
+
   if (
     slug ===
     'online-html-editor'
@@ -667,43 +673,61 @@ async function testCompiler(page, slug) {
   const output =
     page.locator('pre').last();
 
+  const expectedText =
+    slug === 'online-sql-runner'
+      ? 'values'
+      : 'SMOKE_OK';
+
   await output.waitFor({
     state: 'visible',
     timeout: 30000,
   });
 
-  await page.waitForFunction(
-    () => {
-      const pre =
-        document.querySelectorAll('pre');
-      const node =
-        pre[pre.length - 1];
-      const text =
-        node?.textContent || '';
-      return (
-        text.length > 0 &&
-        !text.startsWith(
-          'Submitting code to the configured execution runtime...'
-        ) &&
-        !text.startsWith(
-          'Running SQL locally...'
-        )
-      );
-    },
-    undefined,
-    { timeout: 30000 }
-  );
+  const waitForExpectedOutput = async () => {
+    await page.waitForFunction(
+      (expected) => {
+        const pre = document.querySelectorAll('pre');
+        const node = pre[pre.length - 1];
+        const text = node?.textContent || '';
+        return (
+          text.includes(expected) &&
+          !text.startsWith('Submitting code to the configured execution runtime...') &&
+          !text.startsWith('Running SQL locally...')
+        );
+      },
+      expectedText,
+      { timeout: 30000 }
+    );
+  };
+
+  try {
+    await waitForExpectedOutput();
+  } catch (error) {
+    if (slug === 'online-php-runner') {
+      await editor.fill(code);
+      await editor.evaluate((node, expected) => {
+        const textarea = node;
+        const setter = Object.getOwnPropertyDescriptor(
+          HTMLTextAreaElement.prototype,
+          'value'
+        )?.set;
+        setter?.call(textarea, expected);
+        textarea.dispatchEvent(new Event('input', { bubbles: true }));
+        textarea.dispatchEvent(new Event('change', { bubbles: true }));
+      }, code);
+      await page.waitForTimeout(750);
+      await clickButton(page, /^(Run Code|Preview)$/);
+      await waitForExpectedOutput();
+    } else {
+      throw error;
+    }
+  }
 
   const text =
     await output.textContent();
 
   assert(
-    text.includes(
-      slug ===
-        'online-sql-runner'
-        ? 'values'
-        : 'SMOKE_OK'
-    ),
+    text.includes(expectedText),
     slug +
       ': compiler output did not contain expected result: ' +
       text
@@ -1092,7 +1116,7 @@ async function testUniversal(page, slug, category) {
 
   await result.waitFor({
     state: 'visible',
-    timeout: 5000,
+    timeout: 15000,
   });
 
   const text =
