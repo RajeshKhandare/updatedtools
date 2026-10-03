@@ -63,6 +63,8 @@ const HI: Record<string, { heading: string; intro: string; disclosure: string; c
   'diwali-countdown-preparation-planner': { heading: 'दिवाली तैयारी की खरीदारी', intro: 'काउंटडाउन के साथ जरूरी सजावट और gift packaging प्रोडक्ट देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' },
 };
 
+const AMAZON_AFFILIATE_UI_ENABLED = false;
+
 const EN = { heading: 'Related Diwali & Festival Shopping', intro: 'Relevant Amazon products are loaded for the preparation tasks covered by this tool.', disclosure: 'Amazon link (paid link)', cta: 'View on Amazon' };
 
 function amazonSearchUrl(query: string) {
@@ -75,7 +77,7 @@ export default function FestivalAffiliateLinks({ tool, locale = 'en' }: { tool: 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (tool.category !== 'Festival' || !items?.length) {
+    if (!AMAZON_AFFILIATE_UI_ENABLED || tool.category !== 'Festival' || !items?.length) {
       setLoading(false);
       return;
     }
@@ -121,7 +123,7 @@ export default function FestivalAffiliateLinks({ tool, locale = 'en' }: { tool: 
     return () => { cancelled = true; };
   }, [tool.category, tool.slug]);
 
-  if (tool.slug === 'navratri-colors-2026' || tool.category !== 'Festival' || !items?.length) return null;
+  if (!AMAZON_AFFILIATE_UI_ENABLED || tool.slug === 'navratri-colors-2026' || tool.category !== 'Festival' || !items?.length) return null;
 
   const copy = locale === 'hi'
     ? HI[tool.slug] || { heading: 'फेस्टिवल शॉपिंग', intro: 'तैयारी के लिए संबंधित Amazon प्रोडक्ट देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' }
