@@ -72,7 +72,7 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
 
         <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
           <ToolEngineRunner tool={tool} />
-          {isFestival && <FestivalAffiliateLinks tool={tool} locale="en" />}
+          {isFestival && tool.slug !== 'navratri-colors-2026' && <FestivalAffiliateLinks tool={tool} locale="en" />}
           <ToolSeoContent tool={tool} />
 
           <div className="mt-14">
