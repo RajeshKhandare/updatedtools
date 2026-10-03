@@ -7533,7 +7533,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
         "Crea una imagen de perfil cuadrada.",
-        "Crop a banner to 16:9.",
+        "Recorta un banner a 16:9.",
         "Elimina los bordes no deseados de una fotografía."
       ],
       "tips": [
@@ -8446,7 +8446,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -12307,7 +12307,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "employee-work-timetable": {
-      "heroIntro": "Cree un horario de trabajo de los empleados para enfocarse en el trabajo, reuniones, proyectos, planificación, descansos, tareas de equipo y bloques de revisión.",
+      "heroIntro": "Cree un cronograma de trabajo de los empleados para enfocarse en el trabajo, reuniones, proyectos, planificación, descansos, tareas de equipo y bloques de revisión.",
       "intro": "Cree un cronograma de trabajo de los empleados para enfocarse en el trabajo, reuniones, proyectos, planificación, descansos, tareas de equipo y bloques de revisión. Planifique trabajos enfocados, reuniones, correos electrónicos, proyectos, tiempo en equipo, almuerzos y bloques de revisión a lo largo de la semana laboral. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Planifique trabajos enfocados, reuniones, correos electrónicos, proyectos, tiempo en equipo, almuerzos y bloques de revisión a lo largo de la semana laboral.",
       "steps": [
@@ -13389,7 +13389,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF-zu-JPG-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF-zu-JPG-Konverter verwenden?",
@@ -17401,7 +17401,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -17584,7 +17584,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -17645,7 +17645,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Die Ergebnisse hängen von den Annahmen und Eingaben ab.",
         "Durch Rundungen kann es zu geringfügigen Abweichungen von offiziellen Rechnern oder Angaben kommen.",
-        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen und keine professionelle Beratung oder Garantien."
+        "Finanzielle und gesundheitsbezogene Ergebnisse sind Informationsberechnungen, keine professionelle Beratung oder Garantien."
       ],
       "faq": [
         {
@@ -19006,7 +19006,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "teacher-timetable-maker": {
       "heroIntro": "Erstellen Sie einen Stundenplan für Lehrer mit Unterricht, Planung, Besprechungen, Vorbereitung, Beurteilungen, Laboren und Freistunden.",
       "intro": "Erstellen Sie einen Stundenplan für Lehrer mit Unterricht, Planung, Besprechungen, Vorbereitung, Beurteilungen, Laboren und Freistunden. Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden unterteilt. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
-      "why": "Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden trennt.",
+      "why": "Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden unterteilt.",
       "steps": [
         "Wählen Sie Unterrichtstage und -slots.",
         "Legen Sie die Schulzeiten fest.",
@@ -23969,7 +23969,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de SIP pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur de SIP pour un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -24091,7 +24091,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de Lumpsum pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur de Lumpsum pour un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -24152,7 +24152,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "L'espace de travail demande les valeurs pertinentes pour ce calcul. Saisissez-les en utilisant les unités affichées et examinez les hypothèses avant de calculer."
         },
         {
-          "q": "Puis-je utiliser Calculateur de GST pour obtenir un résultat exact et réel ?",
+          "q": "Puis-je utiliser Calculateur de GST pour un résultat exact et réel ?",
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les déclarations officielles, les devis des prêteurs, les registres de paie, les conditions du produit ou d'autres sources faisant autorité peuvent inclure des règles et des frais qu'un calculateur général ne peut pas connaître."
         },
         {
@@ -28677,7 +28677,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "base64-encoder-decoder": {
-      "heroIntro": "Codifica e decodifica risorse binarie o di testo normale UTF-8 da e verso Base64.",
+      "heroIntro": "Codifica e decodifica testo semplice UTF-8 o risorse binarie da e verso Base64.",
       "intro": "Codifica e decodifica testo semplice UTF-8 o risorse binarie da e verso Base64. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questa utilità per sviluppatori è destinata a un flusso di lavoro ripetibile che comunemente appare durante il lavoro API, il debug, lo sviluppo frontend o backend, i test e la preparazione dei dati.",
       "steps": [
@@ -43776,7 +43776,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "다양한 모금 계산기 시나리오를 비교해 보세요.",
         "스프레드시트나 공식 성명을 사용하기 전에 빠른 계획 견적을 작성하세요.",
         "어떤 입력이 결과에 가장 큰 영향을 미치는지 이해합니다.",
-        "나중에 계산을 반복할 수 있도록 가정을 기록하십시오.",
+        "나중에 계산을 반복할 수 있도록 가정을 기록합니다.",
         "10년, 15년, 20년 동안 월간 기여금을 비교하세요.",
         "몇 가지 가정된 연간 수익률을 테스트해 보세요.",
         "예상 성장에서 총 기여금을 분리합니다."
@@ -43885,8 +43885,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "EMI = P × r × (1 + r)^n / [(1 + r)^n − 1], 여기서 P는 원금, r은 월 이자율, n은 월별 지불 횟수입니다."
     },
     "lumpsum-calculator": {
-      "heroIntro": "일회성 일시금 뮤추얼 펀드 투자에 대한 총 만기 수익을 추정합니다.",
-      "intro": "일회성 일시금 뮤추얼 펀드 투자에 대한 총 만기 수익을 추정합니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "heroIntro": "일회성 일시불 뮤추얼 펀드 투자에 대한 총 만기 수익을 추정합니다.",
+      "intro": "일회성 일시불 뮤추얼 펀드 투자에 대한 총 만기 수익을 추정합니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "일시금 계산기는 가정된 수익 및 복리 모델에 따라 일회성 투자가 시간이 지남에 따라 어떻게 변할 수 있는지 보여줍니다.",
       "steps": [
         "계산기에서 요구하는 값을 입력합니다.",
@@ -44020,7 +44020,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "다양한 급여 계산기 시나리오를 비교해 보세요.",
         "스프레드시트나 공식 성명을 사용하기 전에 빠른 계획 견적을 작성하세요.",
         "어떤 입력이 결과에 가장 큰 영향을 미치는지 이해합니다.",
-        "나중에 계산을 반복할 수 있도록 가정을 기록하십시오.",
+        "나중에 계산을 반복할 수 있도록 가정을 기록합니다.",
         "총 급여에서 월별 수입을 추정합니다.",
         "두 가지 보상 구조를 비교해보세요.",
         "계획에 따른 고정급, 변동급, 공제를 별도로 구분합니다."
@@ -45498,8 +45498,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "class-schedule-maker": {
-      "heroIntro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만드세요.",
-      "intro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만드세요. 명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
+      "heroIntro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만듭니다.",
+      "intro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만듭니다. 명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요.",
       "steps": [
         "수업 요일과 시간대를 선택하세요.",
@@ -45583,7 +45583,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "home-routine-planner": {
       "heroIntro": "청소, 식사, 가족 활동, 심부름, 휴식, 반복되는 집안일에 대한 가정 일과 계획표를 만드세요.",
-      "intro": "청소, 식사, 가족 활동, 심부름, 휴식, 반복되는 가사 작업에 대한 가정 루틴 플래너를 만드세요. 일주일 내내 청소, 식사, 가족과의 시간, 휴식 등 집안일과를 정리하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
+      "intro": "청소, 식사, 가족 활동, 심부름, 휴식, 반복되는 집안일에 대한 가정 일과 계획표를 만드세요. 일주일 내내 청소, 식사, 가족과의 시간, 휴식 등 집안일과를 정리하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "일주일 내내 청소, 식사, 가족과의 시간, 휴식 등 집안일과를 정리하세요.",
       "steps": [
         "가족의 요일과 시간을 선택하세요.",
@@ -47285,7 +47285,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "浏览器内存会影响非常大的图像。",
         "有损格式会在重复编码后降低质量。",
-        "颜色配置文件、元数据、动画和不寻常的图像特征可能无法在每次转换中幸存下来。"
+        "颜色配置文件、元数据、动画和不寻常的图像特征可能无法在每次转换中幸存。"
       ],
       "faq": [
         {
@@ -48516,7 +48516,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "base64-encoder-decoder": {
-      "heroIntro": "对 UTF-8 纯文本或二进制资源与 Base64 进行编码和解码。",
+      "heroIntro": "对 UTF-8 纯文本或二进制资源进行 Base64 编码和解码。",
       "intro": "对 UTF-8 纯文本或二进制资源进行 Base64 编码和解码。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该开发人员实用程序的目标是可重复的工作流程，该工作流程通常出现在 API 工作、调试、前端或后端开发、测试和数据准备期间。",
       "steps": [
@@ -51902,7 +51902,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "girls-daily-routine-planner": {
       "heroIntro": "为女孩创建一个可编辑的每日和每周例行计划，包括学习、上学、锻炼、自我护理、家庭和空闲时间。",
-      "intro": "为女孩创建可编辑的每日和每周例行计划，包括学习、上学、锻炼、自我护理、家庭和空闲时间。创建个性化的每日或每周例程，包括学习、工作、锻炼、自我护理、家庭和空闲时间。添加您自己的时间表标题、个人注释和报价，然后在下载或打印之前编辑每个生成的单元格。",
+      "intro": "为女孩创建一个可编辑的每日和每周例行计划，包括学习、上学、锻炼、自我护理、家庭和空闲时间。创建个性化的每日或每周例程，包括学习、工作、锻炼、自我护理、家庭和空闲时间。添加您自己的时间表标题、个人注释和报价，然后在下载或打印之前编辑每个生成的单元格。",
       "why": "创建个性化的每日或每周例程，包括学习、工作、锻炼、自我护理、家庭和空闲时间。",
       "steps": [
         "选择日期和时间段。",
@@ -57079,7 +57079,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Результаты зависят от допущений и исходных данных.",
         "Округление может привести к небольшим отличиям от официальных калькуляторов или заявлений.",
-        "Результаты, связанные с финансами и здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
+        "Финансовые результаты и результаты, связанные со здравоохранением, представляют собой информационные расчеты, а не профессиональные советы или гарантии."
       ],
       "faq": [
         {
@@ -57092,7 +57092,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Какие входные данные нужны Калькулятор EMI?",
-          "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы, и проверьте предположения перед расчетом."
+          "a": "Рабочая область запрашивает значения, относящиеся к этому расчету. Введите их, используя отображаемые единицы измерения, и проверьте предположения перед расчетом."
         },
         {
           "q": "Могу ли я использовать Калькулятор EMI для получения точного реального результата?",
@@ -60062,8 +60062,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "pdf-to-word": {
-      "heroIntro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم المحتوى المصدر.",
-      "intro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم المحتوى المصدر. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "heroIntro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم محتوى المصدر.",
+      "intro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم محتوى المصدر. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح محول PDF إلى Word وحدد تنسيق الإدخال أو القيم المطلوبة.",
@@ -60243,7 +60243,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "reorder-pdf-pages": {
       "heroIntro": "قم بسحب وإسقاط وإعادة ترتيب تسلسل الصفحات لمستند PDF الخاص بك.",
-      "intro": "قم بسحب وإفلات وإعادة ترتيب تسلسل الصفحات لمستند PDF الخاص بك. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "intro": "قم بسحب وإسقاط وإعادة ترتيب تسلسل الصفحات لمستند PDF الخاص بك. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح إعادة ترتيب صفحات PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
@@ -61142,7 +61142,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "formats"
     },
     "image-color-palette-extractor": {
-      "heroIntro": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرة من أي صورة.",
+      "heroIntro": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرةً من أي صورة.",
       "intro": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرةً من أي صورة. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
@@ -63023,7 +63023,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "تأكيد المصدر والوحدات المستهدفة.",
         "استخدم أرقامًا مهمة مناسبة لدقة المصدر.",
-        "بالنسبة للأعمال المنظمة أو الهندسية، يجب التحقق من المواصفة القياسية المطلوبة.",
+        "بالنسبة للأعمال المنظمة أو الهندسية، يجب التحقق من المواصفة المطلوبة.",
         "تجنب: خلط الوحدات في عملية حسابية واحدة.",
         "تجنب: التقريب مبكرًا جدًا.",
         "تجنب: استخدام التحويل لمسح خاص بسياق أو معيار هندسي دون التحقق."
@@ -63203,7 +63203,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "تأكيد المصدر والوحدات المستهدفة.",
         "استخدم أرقامًا مهمة مناسبة لدقة المصدر.",
-        "بالنسبة للأعمال المنظمة أو الهندسية، يجب التحقق من المواصفة القياسية المطلوبة.",
+        "بالنسبة للأعمال المنظمة أو الهندسية، يجب التحقق من المواصفة المطلوبة.",
         "تجنب: الخلط بين البادئات العشرية والثنائية.",
         "تجنب: خلط البتات والبايتات.",
         "تجنب: افتراض أن كل نظام تشغيل يعرض وحدات التخزين بنفس الطريقة."
@@ -63669,7 +63669,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "steps": [
         "أدخل القيم التي طلبتها الآلة الحاسبة.",
         "مراجعة الافتراضات والوحدات قبل الحساب.",
-        "قم بإجراء العملية الحسابية وقارن بين سيناريو بديل واحد على الأقل.",
+        "قم بإجراء الحساب وقارن بين سيناريو بديل واحد على الأقل.",
         "استخدم النتيجة كتقدير وتحقق من القرارات المهمة مقابل السجلات أو الشروط الرسمية."
       ],
       "useCases": [
@@ -63852,7 +63852,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "steps": [
         "أدخل القيم التي طلبتها الآلة الحاسبة.",
         "مراجعة الافتراضات والوحدات قبل الحساب.",
-        "قم بإجراء العملية الحسابية وقارن بين سيناريو بديل واحد على الأقل.",
+        "قم بإجراء الحساب وقارن بين سيناريو بديل واحد على الأقل.",
         "استخدم النتيجة كتقدير وتحقق من القرارات المهمة مقابل السجلات أو الشروط الرسمية."
       ],
       "useCases": [
@@ -63913,7 +63913,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "steps": [
         "أدخل القيم التي طلبتها الآلة الحاسبة.",
         "مراجعة الافتراضات والوحدات قبل الحساب.",
-        "قم بإجراء العملية الحسابية وقارن بين سيناريو بديل واحد على الأقل.",
+        "قم بإجراء الحساب وقارن بين سيناريو بديل واحد على الأقل.",
         "استخدم النتيجة كتقدير وتحقق من القرارات المهمة مقابل السجلات أو الشروط الرسمية."
       ],
       "useCases": [
@@ -66123,11 +66123,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "ما الذي يجب علي التحقق منه قبل استخدام الإخراج من حاسبة YouTube Money؟",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "a": "تحقق من المخرجات مقابل المدخلات الأصلية، وتأكد من حدوث التحويل المقصود، وتحقق من التفاصيل المهمة قبل نشر النتيجة أو إرسالها أو إرسالها أو استخدامها في سير عمل الإنتاج."
         },
         {
           "q": "لماذا يمكن أن تختلف أرباح YouTube الفعلية عن الآلة الحاسبة؟",
-          "a": "Actual earnings can vary with RPM, audience geography, monetized views, ad demand, content type, seasonality, platform revenue sharing, taxes, and other factors."
+          "a": "يمكن أن تختلف الأرباح الفعلية باختلاف العائد لكل ألف ظهور، وجغرافية الجمهور، والمشاهدات التي يتم تحقيق الدخل منها، وطلب الإعلان، ونوع المحتوى، والموسمية، ومشاركة إيرادات النظام الأساسي، والضرائب، وعوامل أخرى."
         }
       ],
       "visual": "youtube"
@@ -66135,181 +66135,181 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
   },
   "hi": {
     "merge-pdf": {
-      "heroIntro": "Combine multiple PDF files into one clean document in your chosen order.",
-      "intro": "Combine multiple PDF files into one clean document in your chosen order. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "अपने चुने हुए क्रम में एकाधिक पीडीएफ फाइलों को एक साफ दस्तावेज़ में संयोजित करें।",
+      "intro": "अपने चुने हुए क्रम में एकाधिक पीडीएफ फाइलों को एक साफ दस्तावेज़ में संयोजित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF मर्ज करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF मर्ज करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off merge pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Combine a resume, cover letter, and supporting certificates into one submission.",
-        "Join invoice pages or scanned records into a single archive.",
-        "Keep the intended page order before exporting."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त मर्ज पीडीएफ कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक बायोडाटा, कवर लेटर और सहायक प्रमाणपत्रों को एक सबमिशन में मिलाएं।",
+        "चालान पृष्ठों या स्कैन किए गए रिकॉर्ड को एक ही संग्रह में जोड़ें।",
+        "निर्यात करने से पहले इच्छित पृष्ठ क्रम रखें."
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Selecting files in the wrong order.",
-        "Avoid: Assuming bookmarks, forms, or unusual PDF features will always merge identically.",
-        "Avoid: Replacing the only original copy."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: ग़लत क्रम में फ़ाइलों का चयन करना।",
+        "बचें: यह मानते हुए कि बुकमार्क, फ़ॉर्म, या असामान्य पीडीएफ सुविधाएँ हमेशा समान रूप से मर्ज होंगी।",
+        "बचें: एकमात्र मूल प्रति बदलना।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF मर्ज करें used for?",
-          "a": "Combine multiple PDF files into one clean document in your chosen order. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF मर्ज करें का उपयोग किसके लिए किया जाता है?",
+          "a": "अपने चुने हुए क्रम में एकाधिक पीडीएफ फाइलों को एक साफ दस्तावेज़ में संयोजित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF मर्ज करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF मर्ज करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF मर्ज करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF मर्ज करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF मर्ज करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF मर्ज करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF मर्ज करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF मर्ज करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I merge PDFs with different page sizes?",
-          "a": "Yes, supported PDF pages can be combined, but the resulting document can contain mixed page dimensions. Review the merged file before printing or submitting it."
+          "q": "क्या मैं विभिन्न पृष्ठ आकारों वाली पीडीएफ़ को मर्ज कर सकता हूँ?",
+          "a": "हां, समर्थित पीडीएफ पृष्ठों को जोड़ा जा सकता है, लेकिन परिणामी दस्तावेज़ में मिश्रित पृष्ठ आयाम हो सकते हैं। मर्ज की गई फ़ाइल को प्रिंट करने या सबमिट करने से पहले उसकी समीक्षा करें।"
         }
       ],
       "visual": "workflow"
     },
     "split-pdf": {
-      "heroIntro": "Separate individual pages or extract specific page ranges from PDF files.",
-      "intro": "Separate individual pages or extract specific page ranges from PDF files. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "अलग-अलग पृष्ठों को अलग करें या पीडीएफ फाइलों से विशिष्ट पृष्ठ श्रेणियां निकालें।",
+      "intro": "अलग-अलग पृष्ठों को अलग करें या पीडीएफ फाइलों से विशिष्ट पृष्ठ श्रेणियां निकालें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF विभाजित करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF विभाजित करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off split pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Extract selected pages from a long report.",
-        "Create a smaller document from a chapter or section.",
-        "Separate supporting documents before uploading them elsewhere."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ स्प्लिट पीडीएफ कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक लंबी रिपोर्ट से चयनित पृष्ठ निकालें.",
+        "किसी अध्याय या अनुभाग से एक छोटा दस्तावेज़ बनाएँ।",
+        "सहायक दस्तावेज़ों को अन्यत्र अपलोड करने से पहले उन्हें अलग कर लें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Using the wrong page range.",
-        "Avoid: Confusing page numbers shown by a viewer with the PDF page index.",
-        "Avoid: Deleting the source before checking the extracted file."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: ग़लत पृष्ठ श्रेणी का उपयोग करना।",
+        "बचें: पीडीएफ पेज इंडेक्स के साथ एक दर्शक द्वारा दिखाए गए भ्रमित करने वाले पेज नंबर।",
+        "बचें: निकाली गई फ़ाइल की जाँच करने से पहले स्रोत को हटा दें।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF विभाजित करें used for?",
-          "a": "Separate individual pages or extract specific page ranges from PDF files. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF विभाजित करें का उपयोग किसके लिए किया जाता है?",
+          "a": "अलग-अलग पृष्ठों को अलग करें या पीडीएफ फाइलों से विशिष्ट पृष्ठ श्रेणियां निकालें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF विभाजित करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF विभाजित करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF विभाजित करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF विभाजित करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF विभाजित करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF विभाजित करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF विभाजित करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF विभाजित करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I extract specific PDF pages?",
-          "a": "Yes. Select the pages or page range required by the workflow and inspect the resulting document before sharing it."
+          "q": "क्या मैं विशिष्ट पीडीएफ पेज निकाल सकता हूँ?",
+          "a": "हाँ. वर्कफ़्लो के लिए आवश्यक पृष्ठों या पृष्ठ श्रेणी का चयन करें और परिणामी दस्तावेज़ को साझा करने से पहले उसका निरीक्षण करें।"
         }
       ],
       "visual": "workflow"
     },
     "pdf-to-jpg": {
-      "heroIntro": "Extract pages from your PDF document and export them as high-quality JPG images.",
-      "intro": "Extract pages from your PDF document and export them as high-quality JPG images. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "अपने पीडीएफ दस्तावेज़ से पेज निकालें और उन्हें उच्च गुणवत्ता वाली जेपीजी छवियों के रूप में निर्यात करें।",
+      "intro": "अपने पीडीएफ दस्तावेज़ से पेज निकालें और उन्हें उच्च गुणवत्ता वाली जेपीजी छवियों के रूप में निर्यात करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF से JPG कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF से JPG कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off pdf to jpg converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Turn a PDF page into an image for a presentation.",
-        "Create JPG previews of scanned documents.",
-        "Extract selected pages for image-based workflows."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त पीडीएफ से जेपीजी कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "प्रेजेंटेशन के लिए एक पीडीएफ पेज को एक छवि में बदलें।",
+        "स्कैन किए गए दस्तावेज़ों के JPG पूर्वावलोकन बनाएं।",
+        "छवि-आधारित वर्कफ़्लो के लिए चयनित पृष्ठ निकालें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Expecting vector text to remain editable as text.",
-        "Avoid: Choosing an output resolution without considering the final display size.",
-        "Avoid: Using JPG for artwork that requires transparency."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: वेक्टर टेक्स्ट से टेक्स्ट के रूप में संपादन योग्य बने रहने की अपेक्षा करना।",
+        "बचें: अंतिम डिस्प्ले आकार पर विचार किए बिना आउटपुट रिज़ॉल्यूशन चुनना।",
+        "बचें: कलाकृति के लिए जेपीजी का उपयोग करना जिसमें पारदर्शिता की आवश्यकता होती है।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF से JPG कन्वर्टर used for?",
-          "a": "Extract pages from your PDF document and export them as high-quality JPG images. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF से JPG कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "अपने पीडीएफ दस्तावेज़ से पेज निकालें और उन्हें उच्च गुणवत्ता वाली जेपीजी छवियों के रूप में निर्यात करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF से JPG कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF से JPG कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF से JPG कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF से JPG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF से JPG कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF से JPG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF से JPG कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF से JPG कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does PDF to JPG convert every page?",
-          "a": "The workflow can export PDF pages as images. Check the selected page range and output preview before downloading."
+          "q": "क्या पीडीएफ से जेपीजी हर पेज को परिवर्तित करता है?",
+          "a": "वर्कफ़्लो पीडीएफ पृष्ठों को छवियों के रूप में निर्यात कर सकता है। डाउनलोड करने से पहले चयनित पृष्ठ श्रेणी और आउटपुट पूर्वावलोकन की जाँच करें।"
         }
       ],
       "visual": "workflow"
@@ -66369,6378 +66369,6378 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या मैं एकाधिक JPG छवियों को एक पीडीएफ में बदल सकता हूँ?",
-          "a": "Yes, the workflow is intended for converting image files into a standardized PDF and can be used for multi-image document preparation."
+          "a": "हां, वर्कफ़्लो छवि फ़ाइलों को मानकीकृत पीडीएफ में परिवर्तित करने के लिए है और इसका उपयोग बहु-छवि दस्तावेज़ तैयार करने के लिए किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "protect-pdf-password": {
-      "heroIntro": "Add password protection to supported PDF documents using PDF encryption features.",
-      "intro": "Add password protection to supported PDF documents using PDF encryption features. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेजों में पासवर्ड सुरक्षा जोड़ें।",
+      "intro": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेजों में पासवर्ड सुरक्षा जोड़ें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF को सुरक्षित करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF को सुरक्षित करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off protect pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Protect a document before sharing it with a recipient.",
-        "Add an access password to a copy of a PDF.",
-        "Create a protected archive of a document."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ पीडीएफ कार्यों की सुरक्षा करें।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी दस्तावेज़ को प्राप्तकर्ता के साथ साझा करने से पहले उसे सुरक्षित रखें।",
+        "पीडीएफ की एक प्रति में एक एक्सेस पासवर्ड जोड़ें।",
+        "किसी दस्तावेज़ का संरक्षित संग्रह बनाएं."
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Forgetting the password.",
-        "Avoid: Using a weak or reused password.",
-        "Avoid: Assuming password protection replaces secure file transfer."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: पासवर्ड भूल जाना।",
+        "बचें: कमज़ोर या पुन: उपयोग किए गए पासवर्ड का उपयोग करना।",
+        "बचें: यह मानते हुए कि पासवर्ड सुरक्षा सुरक्षित फ़ाइल स्थानांतरण की जगह ले लेती है।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF को सुरक्षित करें used for?",
-          "a": "Add password protection to supported PDF documents using PDF encryption features. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF को सुरक्षित करें का उपयोग किसके लिए किया जाता है?",
+          "a": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेजों में पासवर्ड सुरक्षा जोड़ें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF को सुरक्षित करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF को सुरक्षित करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF को सुरक्षित करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF को सुरक्षित करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF को सुरक्षित करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF को सुरक्षित करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF को सुरक्षित करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF को सुरक्षित करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does protecting a PDF encrypt its contents?",
-          "a": "Supported PDF protection uses PDF encryption features. The exact security properties depend on the PDF engine and protection settings used by the file."
+          "q": "क्या पीडीएफ की सुरक्षा उसकी सामग्री को एन्क्रिप्ट करती है?",
+          "a": "समर्थित पीडीएफ सुरक्षा पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करती है। सटीक सुरक्षा गुण पीडीएफ इंजन और फ़ाइल द्वारा उपयोग की जाने वाली सुरक्षा सेटिंग्स पर निर्भर करते हैं।"
         }
       ],
       "visual": "workflow"
     },
     "unlock-pdf-password": {
-      "heroIntro": "Remove passwords and permissions from encrypted PDF documents locally.",
-      "intro": "Remove passwords and permissions from encrypted PDF documents locally. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "स्थानीय रूप से एन्क्रिप्टेड पीडीएफ दस्तावेज़ों से पासवर्ड और अनुमतियाँ हटाएँ।",
+      "intro": "स्थानीय रूप से एन्क्रिप्टेड पीडीएफ दस्तावेज़ों से पासवर्ड और अनुमतियाँ हटाएँ। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF अनलॉक करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF अनलॉक करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off unlock pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Remove a password from a document you are authorized to access.",
-        "Create an accessible working copy after obtaining the required credentials.",
-        "Prepare an unlocked copy for another authorized workflow."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी पीडीएफ कार्यों को अनलॉक करें।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "जिस दस्तावेज़ तक आप पहुंचने के लिए अधिकृत हैं, उससे पासवर्ड हटा दें।",
+        "आवश्यक क्रेडेंशियल प्राप्त करने के बाद एक सुलभ कार्यशील प्रतिलिपि बनाएँ।",
+        "किसी अन्य अधिकृत वर्कफ़्लो के लिए एक अनलॉक प्रतिलिपि तैयार करें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Trying to bypass access to a document without authorization.",
-        "Avoid: Assuming every PDF encryption scheme can be removed.",
-        "Avoid: Losing the protected original."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: प्राधिकरण के बिना किसी दस्तावेज़ तक पहुंच को बायपास करने का प्रयास करना।",
+        "बचें: यह मानते हुए कि प्रत्येक पीडीएफ एन्क्रिप्शन योजना को हटाया जा सकता है।",
+        "बचें: संरक्षित मूल को खोना।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF अनलॉक करें used for?",
-          "a": "Remove passwords and permissions from encrypted PDF documents locally. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF अनलॉक करें का उपयोग किसके लिए किया जाता है?",
+          "a": "स्थानीय रूप से एन्क्रिप्टेड पीडीएफ दस्तावेज़ों से पासवर्ड और अनुमतियाँ हटाएँ। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF अनलॉक करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF अनलॉक करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF अनलॉक करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF अनलॉक करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF अनलॉक करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF अनलॉक करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF अनलॉक करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF अनलॉक करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can this unlock any password-protected PDF?",
-          "a": "No. PDF encryption and permissions vary. The workflow is intended for documents you are authorized to access and can only process formats and protections supported by its PDF engine."
+          "q": "क्या यह किसी पासवर्ड-सुरक्षित पीडीएफ को अनलॉक कर सकता है?",
+          "a": "नहीं, पीडीएफ एन्क्रिप्शन और अनुमतियाँ अलग-अलग होती हैं। वर्कफ़्लो उन दस्तावेज़ों के लिए है जिन्हें आप एक्सेस करने के लिए अधिकृत हैं और केवल इसके पीडीएफ इंजन द्वारा समर्थित प्रारूपों और सुरक्षा को संसाधित कर सकते हैं।"
         }
       ],
       "visual": "workflow"
     },
     "rotate-pdf": {
-      "heroIntro": "Rotate individual or all pages inside a PDF document 90, 180, or 270 degrees.",
-      "intro": "Rotate individual or all pages inside a PDF document 90, 180, or 270 degrees. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "पीडीएफ दस्तावेज़ के अंदर अलग-अलग या सभी पृष्ठों को 90, 180, या 270 डिग्री घुमाएँ।",
+      "intro": "पीडीएफ दस्तावेज़ के अंदर अलग-अलग या सभी पृष्ठों को 90, 180, या 270 डिग्री घुमाएँ। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF घुमाएँ and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF घुमाएँ खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off rotate pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Correct sideways scanned pages.",
-        "Rotate selected pages for printing.",
-        "Standardize page orientation in a mixed document."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ रोटेट पीडीएफ कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किनारे से स्कैन किए गए पृष्ठों को ठीक करें.",
+        "मुद्रण के लिए चयनित पृष्ठों को घुमाएँ।",
+        "मिश्रित दस्तावेज़ में पेज ओरिएंटेशन को मानकीकृत करें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Rotating every page when only some need correction.",
-        "Avoid: Confusing viewer rotation with saved page rotation.",
-        "Avoid: Not checking the exported file."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: प्रत्येक पृष्ठ को तब घुमाएँ जब केवल कुछ में सुधार की आवश्यकता हो।",
+        "बचें: सहेजे गए पेज रोटेशन के साथ दर्शक रोटेशन को भ्रमित करें।",
+        "बचें: निर्यात की गई फ़ाइल की जाँच न करना।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF घुमाएँ used for?",
-          "a": "Rotate individual or all pages inside a PDF document 90, 180, or 270 degrees. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF घुमाएँ का उपयोग किसके लिए किया जाता है?",
+          "a": "पीडीएफ दस्तावेज़ के अंदर अलग-अलग या सभी पृष्ठों को 90, 180, या 270 डिग्री घुमाएँ। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF घुमाएँ work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF घुमाएँ कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF घुमाएँ for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF घुमाएँ का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF घुमाएँ require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF घुमाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF घुमाएँ?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF घुमाएँ से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I rotate only selected PDF pages?",
-          "a": "Yes, where the interface provides page selection, rotate only the pages that need correction and verify the saved output."
+          "q": "क्या मैं केवल चयनित पीडीएफ पेजों को घुमा सकता हूँ?",
+          "a": "हां, जहां इंटरफ़ेस पृष्ठ चयन प्रदान करता है, केवल उन पृष्ठों को घुमाएं जिन्हें सुधार की आवश्यकता है और सहेजे गए आउटपुट को सत्यापित करें।"
         }
       ],
       "visual": "workflow"
     },
     "compress-pdf": {
-      "heroIntro": "Reduce PDF document file footprint while maintaining clean text resolution.",
-      "intro": "Reduce PDF document file footprint while maintaining clean text resolution. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "स्वच्छ टेक्स्ट रिज़ॉल्यूशन बनाए रखते हुए पीडीएफ दस्तावेज़ फ़ाइल फ़ुटप्रिंट को कम करें।",
+      "intro": "स्वच्छ टेक्स्ट रिज़ॉल्यूशन बनाए रखते हुए पीडीएफ दस्तावेज़ फ़ाइल फ़ुटप्रिंट को कम करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF कंप्रेस करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF कंप्रेस करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off compress pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Reduce a document before email upload.",
-        "Prepare a PDF for a portal with a file-size limit.",
-        "Create a smaller copy for web distribution."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ़ कंप्रेस पीडीएफ कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "ईमेल अपलोड करने से पहले दस्तावेज़ को छोटा करें।",
+        "फ़ाइल-आकार सीमा वाले पोर्टल के लिए एक पीडीएफ तैयार करें।",
+        "वेब वितरण के लिए एक छोटी प्रतिलिपि बनाएँ।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Optimizing without checking text and image readability.",
-        "Avoid: Assuming every PDF can shrink by the same percentage.",
-        "Avoid: Overwriting the original file."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: पाठ और छवि पठनीयता की जांच किए बिना अनुकूलन करना।",
+        "बचें: यह मानते हुए कि प्रत्येक पीडीएफ समान प्रतिशत तक सिकुड़ सकता है।",
+        "बचें: मूल फ़ाइल को ओवरराइट करना।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF कंप्रेस करें used for?",
-          "a": "Reduce PDF document file footprint while maintaining clean text resolution. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF कंप्रेस करें का उपयोग किसके लिए किया जाता है?",
+          "a": "स्वच्छ टेक्स्ट रिज़ॉल्यूशन बनाए रखते हुए पीडीएफ दस्तावेज़ फ़ाइल फ़ुटप्रिंट को कम करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF कंप्रेस करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF कंप्रेस करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF कंप्रेस करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF कंप्रेस करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF कंप्रेस करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF कंप्रेस करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF कंप्रेस करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF कंप्रेस करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does PDF compression affect quality?",
-          "a": "It can, depending on what is optimized inside the document. Always compare the compressed file with the original when image or print quality matters."
+          "q": "क्या पीडीएफ संपीड़न गुणवत्ता को प्रभावित करता है?",
+          "a": "यह इस बात पर निर्भर करता है कि दस्तावेज़ के अंदर क्या अनुकूलित किया गया है। जब छवि या प्रिंट गुणवत्ता मायने रखती है तो हमेशा संपीड़ित फ़ाइल की तुलना मूल फ़ाइल से करें।"
         }
       ],
       "visual": "workflow"
     },
     "add-page-numbers-pdf": {
-      "heroIntro": "Insert header or footer page numbers across your entire PDF file.",
-      "intro": "Insert header or footer page numbers across your entire PDF file. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "अपनी संपूर्ण पीडीएफ फाइल में हेडर या फुटर पेज नंबर डालें।",
+      "intro": "अपनी संपूर्ण पीडीएफ फाइल में हेडर या फुटर पेज नंबर डालें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF में पेज नंबर जोड़ें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF में पेज नंबर जोड़ें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off add page numbers to pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Number a long report or thesis.",
-        "Add page numbers to a document prepared for printing.",
-        "Standardize numbering across a compiled PDF."
+        "एक अलग उपयोगिता स्थापित किए बिना पीडीएफ कार्यों में त्वरित एकबारगी पेज नंबर जोड़ें।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक लंबी रिपोर्ट या थीसिस को क्रमांकित करें।",
+        "मुद्रण के लिए तैयार दस्तावेज़ में पृष्ठ संख्याएँ जोड़ें।",
+        "संकलित पीडीएफ में क्रमांकन को मानकीकृत करें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Covering existing content with the footer or header.",
-        "Avoid: Using the wrong starting number.",
-        "Avoid: Not checking the first and last pages."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: मौजूदा सामग्री को पादलेख या शीर्षलेख से ढकना।",
+        "बचें: ग़लत प्रारंभिक संख्या का प्रयोग करें।",
+        "बचें: पहले और आखिरी पन्नों की जाँच न करें।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF में पेज नंबर जोड़ें used for?",
-          "a": "Insert header or footer page numbers across your entire PDF file. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF में पेज नंबर जोड़ें का उपयोग किसके लिए किया जाता है?",
+          "a": "अपनी संपूर्ण पीडीएफ फाइल में हेडर या फुटर पेज नंबर डालें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF में पेज नंबर जोड़ें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF में पेज नंबर जोड़ें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF में पेज नंबर जोड़ें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF में पेज नंबर जोड़ें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF में पेज नंबर जोड़ें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF में पेज नंबर जोड़ें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF में पेज नंबर जोड़ें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF में पेज नंबर जोड़ें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I add page numbers to every PDF page?",
-          "a": "The tool is designed to place page numbers across the document. Review position, numbering, and pages with unusual margins before final use."
+          "q": "क्या मैं प्रत्येक पीडीएफ पेज में पेज नंबर जोड़ सकता हूँ?",
+          "a": "टूल को पूरे दस्तावेज़ में पृष्ठ संख्याएँ रखने के लिए डिज़ाइन किया गया है। अंतिम उपयोग से पहले स्थिति, क्रमांकन और असामान्य मार्जिन वाले पृष्ठों की समीक्षा करें।"
         }
       ],
       "visual": "workflow"
     },
     "pdf-to-word": {
-      "heroIntro": "Convert PDF files into editable DOCX Word format where the source content is supported.",
-      "intro": "Convert PDF files into editable DOCX Word format where the source content is supported. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "पीडीएफ फाइलों को संपादन योग्य DOCX वर्ड प्रारूप में परिवर्तित करें जहां स्रोत सामग्री समर्थित है।",
+      "intro": "पीडीएफ फाइलों को संपादन योग्य DOCX वर्ड प्रारूप में परिवर्तित करें जहां स्रोत सामग्री समर्थित है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF से Word कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF से Word कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off pdf to word converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Turn a text-heavy PDF into an editable DOCX draft.",
-        "Reuse report content in a Word workflow.",
-        "Prepare a document for further editing."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त पीडीएफ से वर्ड कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "टेक्स्ट-भारी पीडीएफ को संपादन योग्य DOCX ड्राफ्ट में बदलें।",
+        "वर्ड वर्कफ़्लो में रिपोर्ट सामग्री का पुन: उपयोग करें।",
+        "आगे के संपादन के लिए एक दस्तावेज़ तैयार करें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Expecting complex layouts to convert perfectly.",
-        "Avoid: Failing to proofread tables, columns, fonts, and page breaks.",
-        "Avoid: Treating OCR-like results as error-free."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: जटिल लेआउट को पूरी तरह से परिवर्तित करने की अपेक्षा करना।",
+        "बचें: टेबल, कॉलम, फ़ॉन्ट और पेज ब्रेक को प्रूफरीड करने में असफल होना।",
+        "बचें: ओसीआर-जैसे परिणामों को त्रुटि-मुक्त मानें।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF से Word कन्वर्टर used for?",
-          "a": "Convert PDF files into editable DOCX Word format where the source content is supported. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF से Word कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "पीडीएफ फाइलों को संपादन योग्य DOCX वर्ड प्रारूप में परिवर्तित करें जहां स्रोत सामग्री समर्थित है। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF से Word कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF से Word कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF से Word कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF से Word कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF से Word कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF से Word कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF से Word कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF से Word कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Will PDF to Word preserve the exact layout?",
-          "a": "Not always. Conversion depends on the source PDF structure, fonts, tables, images, and other embedded elements. Review the DOCX before publishing or submitting it."
+          "q": "क्या पीडीएफ से वर्ड सटीक लेआउट सुरक्षित रखेगा?",
+          "a": "हमेशा नहीं. रूपांतरण स्रोत पीडीएफ संरचना, फ़ॉन्ट, तालिकाओं, छवियों और अन्य एम्बेडेड तत्वों पर निर्भर करता है। DOCX को प्रकाशित या सबमिट करने से पहले उसकी समीक्षा करें।"
         }
       ],
       "visual": "workflow"
     },
     "word-to-pdf": {
-      "heroIntro": "Convert Microsoft Word documents (DOCX, DOC) into standard PDF files.",
-      "intro": "Convert Microsoft Word documents (DOCX, DOC) into standard PDF files. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "Microsoft Word दस्तावेज़ों (DOCX, DOC) को मानक PDF फ़ाइलों में बदलें।",
+      "intro": "Microsoft Word दस्तावेज़ों (DOCX, DOC) को मानक PDF फ़ाइलों में बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open Word से PDF कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "Word से PDF कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off word to pdf converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Create a fixed-layout document for sharing.",
-        "Prepare a DOCX for submission or printing.",
-        "Standardize Word documents into PDF format."
+        "एक अलग उपयोगिता स्थापित किए बिना पीडीएफ कनवर्टर कार्यों के लिए त्वरित एकमुश्त कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "साझा करने के लिए एक निश्चित-लेआउट दस्तावेज़ बनाएं।",
+        "प्रस्तुत करने या मुद्रण के लिए एक DOCX तैयार करें।",
+        "Word दस्तावेज़ों को पीडीएफ प्रारूप में मानकीकृत करें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Ignoring page breaks and margins.",
-        "Avoid: Not checking fonts and images after conversion.",
-        "Avoid: Assuming editing will remain available in the PDF."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: पेज ब्रेक और मार्जिन को नजरअंदाज करें।",
+        "बचें: रूपांतरण के बाद फ़ॉन्ट और छवियों की जाँच न करें।",
+        "बचें: यह मानते हुए कि संपादन पीडीएफ में उपलब्ध रहेगा।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is Word से PDF कन्वर्टर used for?",
-          "a": "Convert Microsoft Word documents (DOCX, DOC) into standard PDF files. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "Word से PDF कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "Microsoft Word दस्तावेज़ों (DOCX, DOC) को मानक PDF फ़ाइलों में बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does Word से PDF कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "Word से PDF कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use Word से PDF कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं Word से PDF कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does Word से PDF कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या Word से PDF कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from Word से PDF कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "Word से PDF कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why convert Word to PDF?",
-          "a": "PDF is commonly used when you want a more consistent viewing and printing format across devices and applications."
+          "q": "वर्ड को पीडीएफ में क्यों बदलें?",
+          "a": "पीडीएफ का उपयोग आमतौर पर तब किया जाता है जब आप सभी डिवाइस और एप्लिकेशन में अधिक सुसंगत देखने और मुद्रण प्रारूप चाहते हैं।"
         }
       ],
       "visual": "workflow"
     },
     "delete-pdf-pages": {
-      "heroIntro": "Select and remove unwanted pages from any PDF file with instant download.",
-      "intro": "Select and remove unwanted pages from any PDF file with instant download. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "तत्काल डाउनलोड के साथ किसी भी पीडीएफ फाइल से अवांछित पृष्ठों को चुनें और हटाएं।",
+      "intro": "तत्काल डाउनलोड के साथ किसी भी पीडीएफ फाइल से अवांछित पृष्ठों को चुनें और हटाएं। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF से पेज हटाएँ and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF से पेज हटाएँ खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off delete pages from pdf tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Remove blank pages from a report.",
-        "Delete duplicate or unwanted pages before submission.",
-        "Create a shorter copy of a document."
+        "एक अलग उपयोगिता स्थापित किए बिना पीडीएफ कार्यों से त्वरित एकमुश्त पृष्ठों को हटाएं।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी रिपोर्ट से रिक्त पृष्ठ हटाएँ.",
+        "सबमिट करने से पहले डुप्लिकेट या अवांछित पेज हटा दें।",
+        "किसी दस्तावेज़ की एक छोटी प्रतिलिपि बनाएँ।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Deleting the wrong page because viewer numbering differs.",
-        "Avoid: Not keeping the original.",
-        "Avoid: Skipping a final page-by-page review."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: गलत पेज को हटा दें क्योंकि दर्शकों की संख्या अलग-अलग है।",
+        "बचें: मूल न रखना।",
+        "बचें: अंतिम पृष्ठ-दर-पृष्ठ समीक्षा को छोड़ना।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF से पेज हटाएँ used for?",
-          "a": "Select and remove unwanted pages from any PDF file with instant download. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF से पेज हटाएँ का उपयोग किसके लिए किया जाता है?",
+          "a": "तत्काल डाउनलोड के साथ किसी भी पीडीएफ फाइल से अवांछित पृष्ठों को चुनें और हटाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF से पेज हटाएँ work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF से पेज हटाएँ कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF से पेज हटाएँ for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF से पेज हटाएँ का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF से पेज हटाएँ require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF से पेज हटाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF से पेज हटाएँ?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF से पेज हटाएँ से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I delete multiple PDF pages?",
-          "a": "Yes, select the unwanted pages in the document workflow and verify the resulting page count and order."
+          "q": "क्या मैं एकाधिक पीडीएफ पेज हटा सकता हूँ?",
+          "a": "हां, दस्तावेज़ वर्कफ़्लो में अवांछित पृष्ठों का चयन करें और परिणामी पृष्ठ संख्या और क्रम को सत्यापित करें।"
         }
       ],
       "visual": "workflow"
     },
     "reorder-pdf-pages": {
-      "heroIntro": "Drag, drop, and rearrange the page sequence of your PDF document.",
-      "intro": "Drag, drop, and rearrange the page sequence of your PDF document. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "अपने पीडीएफ दस्तावेज़ के पृष्ठ अनुक्रम को खींचें, छोड़ें और पुनर्व्यवस्थित करें।",
+      "intro": "अपने पीडीएफ दस्तावेज़ के पृष्ठ अनुक्रम को खींचें, छोड़ें और पुनर्व्यवस्थित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF पेजों का क्रम बदलें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF पेजों का क्रम बदलें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off reorder pdf pages tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Fix a scanned document whose pages are out of sequence.",
-        "Put appendices after the main report.",
-        "Prepare a submission in the required order."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी पीडीएफ पृष्ठों के कार्यों को पुनः व्यवस्थित करें।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "स्कैन किए गए दस्तावेज़ को ठीक करें जिसके पृष्ठ क्रम से बाहर हैं।",
+        "मुख्य रिपोर्ट के बाद परिशिष्ट रखें।",
+        "आवश्यक क्रम में एक सबमिशन तैयार करें।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Dragging pages into the wrong position.",
-        "Avoid: Ignoring rotated pages during review.",
-        "Avoid: Downloading without checking the final sequence."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: पृष्ठों को गलत स्थिति में खींचने से।",
+        "बचें: समीक्षा के दौरान घुमाए गए पृष्ठों को अनदेखा करना।",
+        "बचें: अंतिम अनुक्रम की जाँच किए बिना डाउनलोड करना।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF पेजों का क्रम बदलें used for?",
-          "a": "Drag, drop, and rearrange the page sequence of your PDF document. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF पेजों का क्रम बदलें का उपयोग किसके लिए किया जाता है?",
+          "a": "अपने पीडीएफ दस्तावेज़ के पृष्ठ अनुक्रम को खींचें, छोड़ें और पुनर्व्यवस्थित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF पेजों का क्रम बदलें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF पेजों का क्रम बदलें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF पेजों का क्रम बदलें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF पेजों का क्रम बदलें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF पेजों का क्रम बदलें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF पेजों का क्रम बदलें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF पेजों का क्रम बदलें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF पेजों का क्रम बदलें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does reordering change the page content?",
-          "a": "The intended operation changes page sequence rather than rewriting page content. Review the output for rotation, annotations, and other PDF features."
+          "q": "क्या पुनः क्रमित करने से पृष्ठ की सामग्री बदल जाती है?",
+          "a": "इच्छित ऑपरेशन पृष्ठ सामग्री को फिर से लिखने के बजाय पृष्ठ अनुक्रम को बदलता है। रोटेशन, एनोटेशन और अन्य पीडीएफ सुविधाओं के लिए आउटपुट की समीक्षा करें।"
         }
       ],
       "visual": "workflow"
     },
     "pdf-grayscale-converter": {
-      "heroIntro": "Convert PDF pages to grayscale to reduce color information and prepare documents for monochrome printing.",
-      "intro": "Convert PDF pages to grayscale to reduce color information and prepare documents for monochrome printing. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This PDF workflow is designed around a focused document task: prepare the source, apply the operation, review the output, and keep the result only if it meets your requirement.",
+      "heroIntro": "रंगीन जानकारी कम करने और मोनोक्रोम प्रिंटिंग के लिए दस्तावेज़ तैयार करने के लिए पीडीएफ पृष्ठों को ग्रेस्केल में बदलें।",
+      "intro": "रंगीन जानकारी कम करने और मोनोक्रोम प्रिंटिंग के लिए दस्तावेज़ तैयार करने के लिए पीडीएफ पृष्ठों को ग्रेस्केल में बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
-        "Open PDF ग्रेस्केल कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PDF ग्रेस्केल कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off pdf to grayscale converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Prepare documents for monochrome printing.",
-        "Reduce color information in scanned paperwork.",
-        "Create a black-and-white archival copy."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त पीडीएफ से ग्रेस्केल कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "मोनोक्रोम मुद्रण के लिए दस्तावेज़ तैयार करें.",
+        "स्कैन किए गए कागज़ात में रंगीन जानकारी कम करें।",
+        "एक श्वेत-श्याम अभिलेखीय प्रतिलिपि बनाएँ।"
       ],
       "tips": [
-        "Keep an original copy before destructive edits.",
-        "Review page order, orientation, filenames, and output quality.",
-        "For confidential files, prefer browser-side processing where explicitly supported and never enter unnecessary secrets.",
-        "Avoid: Converting documents where color conveys critical information.",
-        "Avoid: Not checking contrast on scans.",
-        "Avoid: Overwriting the color original."
+        "विनाशकारी संपादनों से पहले एक मूल प्रति अपने पास रखें।",
+        "पृष्ठ क्रम, ओरिएंटेशन, फ़ाइल नाम और आउटपुट गुणवत्ता की समीक्षा करें।",
+        "गोपनीय फ़ाइलों के लिए, ब्राउज़र-साइड प्रोसेसिंग को प्राथमिकता दें जहाँ स्पष्ट रूप से समर्थित हो और कभी भी अनावश्यक रहस्य दर्ज न करें।",
+        "बचें: ऐसे दस्तावेज़ों को परिवर्तित करना जहां रंग महत्वपूर्ण जानकारी देते हैं।",
+        "बचें: स्कैन पर कंट्रास्ट की जाँच न करना।",
+        "बचें: मूल रंग को ओवरराइट करना।"
       ],
       "limitations": [
-        "Very large or complex documents can be limited by browser memory.",
-        "PDF encryption, fonts, annotations, and embedded objects can vary between PDF engines.",
-        "Inspect generated files before using them as official documents."
+        "बहुत बड़े या जटिल दस्तावेज़ों को ब्राउज़र मेमोरी द्वारा सीमित किया जा सकता है।",
+        "पीडीएफ एन्क्रिप्शन, फ़ॉन्ट, एनोटेशन और एम्बेडेड ऑब्जेक्ट पीडीएफ इंजनों के बीच भिन्न हो सकते हैं।",
+        "आधिकारिक दस्तावेज़ के रूप में उपयोग करने से पहले जेनरेट की गई फ़ाइलों का निरीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is PDF ग्रेस्केल कन्वर्टर used for?",
-          "a": "Convert PDF pages to grayscale to reduce color information and prepare documents for monochrome printing. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PDF ग्रेस्केल कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "रंगीन जानकारी कम करने और मोनोक्रोम प्रिंटिंग के लिए दस्तावेज़ तैयार करने के लिए पीडीएफ पृष्ठों को ग्रेस्केल में बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PDF ग्रेस्केल कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PDF ग्रेस्केल कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PDF ग्रेस्केल कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PDF ग्रेस्केल कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PDF ग्रेस्केल कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PDF ग्रेस्केल कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PDF ग्रेस्केल कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PDF ग्रेस्केल कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why convert a PDF to grayscale?",
-          "a": "Grayscale can simplify documents for monochrome printing or workflows where color is unnecessary, but it can remove color-based distinctions."
+          "q": "पीडीएफ को ग्रेस्केल में क्यों बदलें?",
+          "a": "ग्रेस्केल मोनोक्रोम प्रिंटिंग या वर्कफ़्लो के लिए दस्तावेज़ों को सरल बना सकता है जहां रंग अनावश्यक है, लेकिन यह रंग-आधारित भेदों को हटा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "compress-image": {
-      "heroIntro": "Compress PNG, JPEG, and WebP files to reduce file size while balancing output quality.",
-      "intro": "Compress PNG, JPEG, and WebP files to reduce file size while balancing output quality. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "आउटपुट गुणवत्ता को संतुलित करते हुए फ़ाइल का आकार कम करने के लिए पीएनजी, जेपीईजी और वेबपी फ़ाइलों को संपीड़ित करें।",
+      "intro": "आउटपुट गुणवत्ता को संतुलित करते हुए फ़ाइल का आकार कम करने के लिए पीएनजी, जेपीईजी और वेबपी फ़ाइलों को संपीड़ित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि एक त्वरित कार्य को पूर्ण ग्राफ़िक्स संपादक के बिना पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open इमेज ऑनलाइन कंप्रेस करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "इमेज ऑनलाइन कंप्रेस करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off compress image online tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Reduce an image before uploading it to a website.",
-        "Prepare photos for email or messaging.",
-        "Lower asset size for faster page delivery."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त संपीड़ित छवि ऑनलाइन कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी छवि को वेबसाइट पर अपलोड करने से पहले उसे छोटा करें।",
+        "ईमेल या मैसेजिंग के लिए फ़ोटो तैयार करें.",
+        "तेज़ पेज डिलीवरी के लिए कम संपत्ति का आकार।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Compressing repeatedly from an already lossy image.",
-        "Avoid: Choosing a format without considering transparency.",
-        "Avoid: Checking only dimensions and not file size."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: पहले से ही ख़राब छवि से बार-बार संपीड़ित होना।",
+        "बचें: पारदर्शिता पर विचार किए बिना प्रारूप का चयन करना।",
+        "बचें: केवल आयामों की जाँच करें, फ़ाइल आकार की नहीं।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is इमेज ऑनलाइन कंप्रेस करें used for?",
-          "a": "Compress PNG, JPEG, and WebP files to reduce file size while balancing output quality. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "इमेज ऑनलाइन कंप्रेस करें का उपयोग किसके लिए किया जाता है?",
+          "a": "आउटपुट गुणवत्ता को संतुलित करते हुए फ़ाइल का आकार कम करने के लिए पीएनजी, जेपीईजी और वेबपी फ़ाइलों को संपीड़ित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does इमेज ऑनलाइन कंप्रेस करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "इमेज ऑनलाइन कंप्रेस करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use इमेज ऑनलाइन कंप्रेस करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं इमेज ऑनलाइन कंप्रेस करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does इमेज ऑनलाइन कंप्रेस करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या इमेज ऑनलाइन कंप्रेस करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from इमेज ऑनलाइन कंप्रेस करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "इमेज ऑनलाइन कंप्रेस करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What is the best image format for compression?",
-          "a": "It depends on the image. JPEG is often suitable for photographs, PNG for lossless graphics or transparency, and WebP can provide efficient modern delivery when supported."
+          "q": "संपीड़न के लिए सबसे अच्छा छवि प्रारूप क्या है?",
+          "a": "यह छवि पर निर्भर करता है. JPEG अक्सर तस्वीरों के लिए उपयुक्त होता है, PNG दोषरहित ग्राफिक्स या पारदर्शिता के लिए, और WebP समर्थित होने पर कुशल आधुनिक डिलीवरी प्रदान कर सकता है।"
         }
       ],
       "visual": "formats"
     },
     "crop-image-online": {
-      "heroIntro": "Crop images with preset aspect ratios (16:9, 1:1, 4:3) or freeform box selection.",
-      "intro": "Crop images with preset aspect ratios (16:9, 1:1, 4:3) or freeform box selection. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "पूर्व निर्धारित पहलू अनुपात (16:9, 1:1, 4:3) या फ़्रीफ़ॉर्म बॉक्स चयन के साथ छवियों को काटें।",
+      "intro": "पूर्व निर्धारित पहलू अनुपात (16:9, 1:1, 4:3) या फ़्रीफ़ॉर्म बॉक्स चयन के साथ छवियों को काटें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open इमेज ऑनलाइन क्रॉप करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "इमेज ऑनलाइन क्रॉप करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off crop image online tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Create a square profile image.",
-        "Crop a banner to 16:9.",
-        "Remove unwanted edges from a photograph."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त फसल छवि ऑनलाइन कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक वर्गाकार प्रोफ़ाइल छवि बनाएं.",
+        "16:9 पर एक बैनर काटें।",
+        "किसी फ़ोटोग्राफ़ से अवांछित किनारे हटाएँ."
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Cropping before deciding the final aspect ratio.",
-        "Avoid: Cutting off important subjects near the edge.",
-        "Avoid: Exporting at a size unsuitable for the destination."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: अंतिम पहलू अनुपात तय करने से पहले काट-छांट करें।",
+        "बचें: महत्वपूर्ण विषयों को किनारे से काट दें।",
+        "बचें: गंतव्य के लिए अनुपयुक्त आकार में निर्यात करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is इमेज ऑनलाइन क्रॉप करें used for?",
-          "a": "Crop images with preset aspect ratios (16:9, 1:1, 4:3) or freeform box selection. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "इमेज ऑनलाइन क्रॉप करें का उपयोग किसके लिए किया जाता है?",
+          "a": "पूर्व निर्धारित पहलू अनुपात (16:9, 1:1, 4:3) या फ़्रीफ़ॉर्म बॉक्स चयन के साथ छवियों को काटें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does इमेज ऑनलाइन क्रॉप करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "इमेज ऑनलाइन क्रॉप करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use इमेज ऑनलाइन क्रॉप करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं इमेज ऑनलाइन क्रॉप करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does इमेज ऑनलाइन क्रॉप करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या इमेज ऑनलाइन क्रॉप करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from इमेज ऑनलाइन क्रॉप करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "इमेज ऑनलाइन क्रॉप करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I crop to a specific aspect ratio?",
-          "a": "Yes, supported presets such as 16:9, 1:1, and 4:3 make common destination formats easier to prepare."
+          "q": "क्या मैं किसी विशिष्ट पक्षानुपात में काट-छांट कर सकता हूँ?",
+          "a": "हाँ, 16:9, 1:1, और 4:3 जैसे समर्थित प्रीसेट सामान्य गंतव्य प्रारूपों को तैयार करना आसान बनाते हैं।"
         }
       ],
       "visual": "formats"
     },
     "image-resizer": {
-      "heroIntro": "Resize image dimensions by custom width, height, or percentages in pixels and cm.",
-      "intro": "Resize image dimensions by custom width, height, or percentages in pixels and cm. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "कस्टम चौड़ाई, ऊंचाई या पिक्सेल और सेमी में प्रतिशत के आधार पर छवि आयामों का आकार बदलें।",
+      "intro": "कस्टम चौड़ाई, ऊंचाई या पिक्सेल और सेमी में प्रतिशत के आधार पर छवि आयामों का आकार बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open इमेज ऑनलाइन रिसाइज़ करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "इमेज ऑनलाइन रिसाइज़ करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off resize image online tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Resize an image for a website upload.",
-        "Create smaller copies for email.",
-        "Prepare consistent dimensions for a content library."
+        "एक अलग उपयोगिता स्थापित किए बिना छवि का आकार बदलने का त्वरित एकमुश्त ऑनलाइन कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी वेबसाइट अपलोड के लिए छवि का आकार बदलें.",
+        "ईमेल के लिए छोटी प्रतियां बनाएं.",
+        "सामग्री लाइब्रेरी के लिए सुसंगत आयाम तैयार करें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Distorting the aspect ratio.",
-        "Avoid: Upscaling a low-resolution source and expecting new detail.",
-        "Avoid: Ignoring the output file format."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: पहलू अनुपात को विकृत करना।",
+        "बचें: कम-रिज़ॉल्यूशन स्रोत को अपग्रेड करना और नए विवरण की अपेक्षा करना।",
+        "बचें: आउटपुट फ़ाइल स्वरूप को अनदेखा करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is इमेज ऑनलाइन रिसाइज़ करें used for?",
-          "a": "Resize image dimensions by custom width, height, or percentages in pixels and cm. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "इमेज ऑनलाइन रिसाइज़ करें का उपयोग किसके लिए किया जाता है?",
+          "a": "कस्टम चौड़ाई, ऊंचाई या पिक्सेल और सेमी में प्रतिशत के आधार पर छवि आयामों का आकार बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does इमेज ऑनलाइन रिसाइज़ करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "इमेज ऑनलाइन रिसाइज़ करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use इमेज ऑनलाइन रिसाइज़ करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं इमेज ऑनलाइन रिसाइज़ करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does इमेज ऑनलाइन रिसाइज़ करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या इमेज ऑनलाइन रिसाइज़ करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from इमेज ऑनलाइन रिसाइज़ करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "इमेज ऑनलाइन रिसाइज़ करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does resizing improve image quality?",
-          "a": "Resizing changes pixel dimensions; it cannot recreate detail that was not present in the source. Use the highest-quality original available."
+          "q": "क्या आकार बदलने से छवि गुणवत्ता में सुधार होता है?",
+          "a": "आकार बदलने से पिक्सेल आयाम में परिवर्तन होता है; यह उस विवरण को दोबारा नहीं बना सकता जो स्रोत में मौजूद नहीं था। उपलब्ध उच्चतम गुणवत्ता वाली मूल सामग्री का उपयोग करें।"
         }
       ],
       "visual": "formats"
     },
     "webp-to-png-converter": {
-      "heroIntro": "Convert WebP images to PNG format in browser memory, preserving transparency when present.",
-      "intro": "Convert WebP images to PNG format in browser memory, preserving transparency when present. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "ब्राउज़र मेमोरी में वेबपी छवियों को पीएनजी प्रारूप में कनवर्ट करें, मौजूद होने पर पारदर्शिता बनाए रखें।",
+      "intro": "ब्राउज़र मेमोरी में वेबपी छवियों को पीएनजी प्रारूप में कनवर्ट करें, मौजूद होने पर पारदर्शिता बनाए रखें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open WebP से PNG कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "WebP से PNG कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off webp to png converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert WebP assets for software that expects PNG.",
-        "Preserve transparency for graphics workflows.",
-        "Prepare a raster asset for editing."
+        "एक अलग उपयोगिता स्थापित किए बिना पीएनजी कनवर्टर कार्यों के लिए त्वरित एकमुश्त वेबपी।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "पीएनजी की अपेक्षा रखने वाले सॉफ़्टवेयर के लिए WebP संपत्तियों को कनवर्ट करें।",
+        "ग्राफ़िक्स वर्कफ़्लोज़ के लिए पारदर्शिता बनाए रखें.",
+        "संपादन के लिए एक रैस्टर एसेट तैयार करें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Expecting smaller files after conversion to PNG.",
-        "Avoid: Ignoring transparency requirements.",
-        "Avoid: Converting a very large asset without checking memory use."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: पीएनजी में रूपांतरण के बाद छोटी फ़ाइलों की अपेक्षा करना।",
+        "बचें: पारदर्शिता आवश्यकताओं की अनदेखी।",
+        "बचें: मेमोरी उपयोग की जांच किए बिना एक बहुत बड़ी संपत्ति को परिवर्तित करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is WebP से PNG कन्वर्टर used for?",
-          "a": "Convert WebP images to PNG format in browser memory, preserving transparency when present. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "WebP से PNG कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "ब्राउज़र मेमोरी में वेबपी छवियों को पीएनजी प्रारूप में कनवर्ट करें, मौजूद होने पर पारदर्शिता बनाए रखें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does WebP से PNG कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "WebP से PNG कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use WebP से PNG कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं WebP से PNG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does WebP से PNG कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या WebP से PNG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from WebP से PNG कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "WebP से PNG कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does WebP to PNG preserve transparency?",
-          "a": "When the source contains supported transparency, the conversion is designed to preserve it in PNG."
+          "q": "क्या WebP से PNG पारदर्शिता बनाए रखता है?",
+          "a": "जब स्रोत में समर्थित पारदर्शिता होती है, तो रूपांतरण को पीएनजी में संरक्षित करने के लिए डिज़ाइन किया गया है।"
         }
       ],
       "visual": "formats"
     },
     "webp-to-jpg-converter": {
-      "heroIntro": "Convert modern WebP images into standard JPG format in high quality.",
-      "intro": "Convert modern WebP images into standard JPG format in high quality. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "आधुनिक वेबपी छवियों को उच्च गुणवत्ता में मानक जेपीजी प्रारूप में परिवर्तित करें।",
+      "intro": "आधुनिक वेबपी छवियों को उच्च गुणवत्ता में मानक जेपीजी प्रारूप में परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open WebP से JPG कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "WebP से JPG कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off webp to jpg converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Prepare a WebP photo for older software.",
-        "Create a widely compatible JPEG copy.",
-        "Reduce compatibility issues in image upload workflows."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त वेबपी से जेपीजी कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "पुराने सॉफ़्टवेयर के लिए एक WebP फ़ोटो तैयार करें।",
+        "एक व्यापक रूप से संगत JPEG प्रतिलिपि बनाएँ।",
+        "छवि अपलोड वर्कफ़्लो में संगतता समस्याओं को कम करें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Expecting transparency to survive JPG conversion.",
-        "Avoid: Re-encoding a lossy image repeatedly.",
-        "Avoid: Ignoring the desired quality setting."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: जेपीजी रूपांतरण से बचने के लिए पारदर्शिता की उम्मीद करना।",
+        "बचें: किसी हानिपूर्ण छवि को बार-बार पुनः एन्कोड करना।",
+        "बचें: वांछित गुणवत्ता सेटिंग को अनदेखा करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is WebP से JPG कन्वर्टर used for?",
-          "a": "Convert modern WebP images into standard JPG format in high quality. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "WebP से JPG कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "आधुनिक वेबपी छवियों को उच्च गुणवत्ता में मानक जेपीजी प्रारूप में परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does WebP से JPG कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "WebP से JPG कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use WebP से JPG कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं WebP से JPG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does WebP से JPG कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या WebP से JPG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from WebP से JPG कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "WebP से JPG कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does WebP to JPG keep transparency?",
-          "a": "JPG does not support transparency. Transparent areas therefore need to be represented against a background during conversion."
+          "q": "क्या WebP से JPG पारदर्शिता रखता है?",
+          "a": "JPG पारदर्शिता का समर्थन नहीं करता. इसलिए रूपांतरण के दौरान पारदर्शी क्षेत्रों को पृष्ठभूमि में प्रस्तुत करने की आवश्यकता होती है।"
         }
       ],
       "visual": "formats"
     },
     "png-to-jpg-converter": {
-      "heroIntro": "Quickly convert large PNG images into lightweight JPG pictures.",
-      "intro": "Quickly convert large PNG images into lightweight JPG pictures. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "बड़ी पीएनजी छवियों को तुरंत हल्के जेपीजी चित्रों में परिवर्तित करें।",
+      "intro": "बड़ी पीएनजी छवियों को तुरंत हल्के जेपीजी चित्रों में परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open PNG से JPG कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "PNG से JPG कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off png to jpg converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Reduce a large photographic PNG.",
-        "Prepare an image for a JPG-only upload form.",
-        "Create a smaller photo copy."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त पीएनजी से जेपीजी कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक बड़ी फोटोग्राफिक पीएनजी कम करें।",
+        "केवल JPG अपलोड फॉर्म के लिए एक छवि तैयार करें।",
+        "एक छोटी फोटो कॉपी बनाएं."
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Using JPG when transparency is required.",
-        "Avoid: Converting line art repeatedly.",
-        "Avoid: Not checking the background after transparency is removed."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: जब पारदर्शिता की आवश्यकता हो तो जेपीजी का उपयोग करें।",
+        "बचें: लाइन आर्ट को बार-बार परिवर्तित करना।",
+        "बचें: पारदर्शिता हटने के बाद पृष्ठभूमि की जाँच न करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is PNG से JPG कन्वर्टर used for?",
-          "a": "Quickly convert large PNG images into lightweight JPG pictures. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "PNG से JPG कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "बड़ी पीएनजी छवियों को तुरंत हल्के जेपीजी चित्रों में परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does PNG से JPG कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "PNG से JPG कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use PNG से JPG कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं PNG से JPG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does PNG से JPG कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या PNG से JPG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from PNG से JPG कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "PNG से JPG कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why convert PNG to JPG?",
-          "a": "JPG can be substantially smaller for photographic images and is widely supported, but it does not preserve transparency or lossless pixel data."
+          "q": "पीएनजी को जेपीजी में क्यों बदलें?",
+          "a": "जेपीजी फोटोग्राफिक छवियों के लिए काफी छोटा हो सकता है और व्यापक रूप से समर्थित है, लेकिन यह पारदर्शिता या दोषरहित पिक्सेल डेटा को संरक्षित नहीं करता है।"
         }
       ],
       "visual": "formats"
     },
     "jpg-to-png-converter": {
-      "heroIntro": "Convert JPEG/JPG pictures to PNG format for workflows that need a lossless output format.",
-      "intro": "Convert JPEG/JPG pictures to PNG format for workflows that need a lossless output format. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "उन वर्कफ़्लो के लिए JPEG/JPG चित्रों को PNG प्रारूप में कनवर्ट करें जिनके लिए दोषरहित आउटपुट प्रारूप की आवश्यकता होती है।",
+      "intro": "उन वर्कफ़्लो के लिए JPEG/JPG चित्रों को PNG प्रारूप में कनवर्ट करें जिनके लिए दोषरहित आउटपुट प्रारूप की आवश्यकता होती है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open JPG से PNG कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "JPG से PNG कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off jpg to png converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Prepare an image for a PNG-based design workflow.",
-        "Create a lossless-format copy for further editing.",
-        "Standardize assets for a pipeline that expects PNG."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त जेपीजी से पीएनजी कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "पीएनजी-आधारित डिज़ाइन वर्कफ़्लो के लिए एक छवि तैयार करें।",
+        "आगे के संपादन के लिए एक दोषरहित-प्रारूप वाली प्रतिलिपि बनाएँ।",
+        "पीएनजी की अपेक्षा करने वाली पाइपलाइन के लिए संपत्तियों का मानकीकरण करें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Expecting JPG artifacts to disappear after conversion.",
-        "Avoid: Assuming conversion makes the source higher quality.",
-        "Avoid: Using PNG when file size is the priority."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: रूपांतरण के बाद जेपीजी कलाकृतियों के गायब होने की उम्मीद करना।",
+        "बचें: यह मान लें कि रूपांतरण स्रोत को उच्च गुणवत्ता वाला बनाता है।",
+        "बचें: जब फ़ाइल का आकार प्राथमिकता हो तो पीएनजी का उपयोग करें।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is JPG से PNG कन्वर्टर used for?",
-          "a": "Convert JPEG/JPG pictures to PNG format for workflows that need a lossless output format. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "JPG से PNG कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "उन वर्कफ़्लो के लिए JPEG/JPG चित्रों को PNG प्रारूप में कनवर्ट करें जिनके लिए दोषरहित आउटपुट प्रारूप की आवश्यकता होती है। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does JPG से PNG कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "JPG से PNG कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use JPG से PNG कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं JPG से PNG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does JPG से PNG कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या JPG से PNG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from JPG से PNG कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "JPG से PNG कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does JPG to PNG restore lost quality?",
-          "a": "No. PNG can preserve the pixels produced by the conversion, but it cannot recover detail already lost in the JPG source."
+          "q": "क्या JPG से PNG खोई हुई गुणवत्ता बहाल करता है?",
+          "a": "नहीं, पीएनजी रूपांतरण द्वारा उत्पादित पिक्सल को संरक्षित कर सकता है, लेकिन यह जेपीजी स्रोत में पहले से खोए गए विवरण को पुनर्प्राप्त नहीं कर सकता है।"
         }
       ],
       "visual": "formats"
     },
     "svg-to-png-converter": {
-      "heroIntro": "Convert SVG vector files into PNG raster images at a selected output size.",
-      "intro": "Convert SVG vector files into PNG raster images at a selected output size. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "चयनित आउटपुट आकार पर एसवीजी वेक्टर फ़ाइलों को पीएनजी रेखापुंज छवियों में परिवर्तित करें।",
+      "intro": "चयनित आउटपुट आकार पर एसवीजी वेक्टर फ़ाइलों को पीएनजी रेखापुंज छवियों में परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open SVG से PNG कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "SVG से PNG कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off svg to png converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Create PNG previews from a vector logo.",
-        "Rasterize an SVG for social media or documents.",
-        "Generate a fixed-size bitmap asset."
+        "एक अलग उपयोगिता स्थापित किए बिना एसवीजी से पीएनजी कनवर्टर कार्यों का त्वरित एकमुश्त कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "वेक्टर लोगो से पीएनजी पूर्वावलोकन बनाएं।",
+        "सोशल मीडिया या दस्तावेज़ों के लिए एक एसवीजी को व्यवस्थित करें।",
+        "एक निश्चित आकार की बिटमैप संपत्ति उत्पन्न करें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Choosing too small an output size.",
-        "Avoid: Forgetting that SVG can scale while PNG has fixed pixels.",
-        "Avoid: Ignoring fonts or external SVG resources."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: बहुत छोटा आउटपुट आकार चुनना।",
+        "बचें: यह भूल जाएं कि एसवीजी स्केल कर सकता है जबकि पीएनजी में निश्चित पिक्सल हैं।",
+        "बचें: फ़ॉन्ट या बाहरी एसवीजी संसाधनों को अनदेखा करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is SVG से PNG कन्वर्टर used for?",
-          "a": "Convert SVG vector files into PNG raster images at a selected output size. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "SVG से PNG कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "चयनित आउटपुट आकार पर एसवीजी वेक्टर फ़ाइलों को पीएनजी रेखापुंज छवियों में परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does SVG से PNG कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "SVG से PNG कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use SVG से PNG कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं SVG से PNG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does SVG से PNG कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या SVG से PNG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from SVG से PNG कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "SVG से PNG कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why convert SVG to PNG?",
-          "a": "PNG is useful when a fixed raster image is required by an application, upload form, or document workflow."
+          "q": "एसवीजी को पीएनजी में क्यों बदलें?",
+          "a": "पीएनजी तब उपयोगी होता है जब किसी एप्लिकेशन, अपलोड फॉर्म या दस्तावेज़ वर्कफ़्लो के लिए एक निश्चित रास्टर छवि की आवश्यकता होती है।"
         }
       ],
       "visual": "formats"
     },
     "black-and-white-image-filter": {
-      "heroIntro": "Convert colored photographs into black and white monochrome representations.",
-      "intro": "Convert colored photographs into black and white monochrome representations. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "रंगीन तस्वीरों को काले और सफेद मोनोक्रोम अभ्यावेदन में परिवर्तित करें।",
+      "intro": "रंगीन तस्वीरों को काले और सफेद मोनोक्रोम अभ्यावेदन में परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open ब्लैक एंड व्हाइट इमेज कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ब्लैक एंड व्हाइट इमेज कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off black and white image converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Prepare a monochrome print image.",
-        "Create a classic black-and-white photo effect.",
-        "Reduce color information in a document scan."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त काले और सफेद छवि कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक मोनोक्रोम प्रिंट छवि तैयार करें.",
+        "एक क्लासिक श्वेत-श्याम फोटो प्रभाव बनाएं।",
+        "दस्तावेज़ स्कैन में रंग संबंधी जानकारी कम करें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Removing color that carries meaning.",
-        "Avoid: Not checking contrast.",
-        "Avoid: Overwriting the color original."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: ऐसे रंग हटाना जो अर्थपूर्ण हों।",
+        "बचें: कंट्रास्ट की जाँच न करना।",
+        "बचें: मूल रंग को ओवरराइट करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is ब्लैक एंड व्हाइट इमेज कन्वर्टर used for?",
-          "a": "Convert colored photographs into black and white monochrome representations. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ब्लैक एंड व्हाइट इमेज कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "रंगीन तस्वीरों को काले और सफेद मोनोक्रोम अभ्यावेदन में परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ब्लैक एंड व्हाइट इमेज कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ब्लैक एंड व्हाइट इमेज कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ब्लैक एंड व्हाइट इमेज कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ब्लैक एंड व्हाइट इमेज कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ब्लैक एंड व्हाइट इमेज कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ब्लैक एंड व्हाइट इमेज कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ब्लैक एंड व्हाइट इमेज कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ब्लैक एंड व्हाइट इमेज कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is black-and-white the same as grayscale?",
-          "a": "Not always. A black-and-white effect may use a threshold, while grayscale represents a range of gray tones between black and white."
+          "q": "क्या काला और सफेद ग्रेस्केल के समान है?",
+          "a": "हमेशा नहीं. एक काले और सफेद प्रभाव के लिए एक सीमा का उपयोग किया जा सकता है, जबकि ग्रेस्केल काले और सफेद के बीच ग्रे टोन की एक श्रृंखला का प्रतिनिधित्व करता है।"
         }
       ],
       "visual": "formats"
     },
     "invert-image-colors": {
-      "heroIntro": "Invert RGB pixel values to generate negative color effects on photos.",
-      "intro": "Invert RGB pixel values to generate negative color effects on photos. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "फ़ोटो पर नकारात्मक रंग प्रभाव उत्पन्न करने के लिए RGB पिक्सेल मानों को उल्टा करें।",
+      "intro": "फ़ोटो पर नकारात्मक रंग प्रभाव उत्पन्न करने के लिए RGB पिक्सेल मानों को उल्टा करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open इमेज के रंग उलटें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "इमेज के रंग उलटें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off invert image colors tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Create a photographic negative effect.",
-        "Inspect inverted visual information.",
-        "Build a simple visual effect for design work."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी उलटा छवि रंग कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक फोटोग्राफिक नकारात्मक प्रभाव बनाएँ.",
+        "उल्टे दृश्य जानकारी का निरीक्षण करें.",
+        "डिज़ाइन कार्य के लिए एक सरल दृश्य प्रभाव बनाएं।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Expecting inversion to preserve semantic colors.",
-        "Avoid: Using it as a substitute for accessibility contrast testing.",
-        "Avoid: Overwriting the source image."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: अर्थपूर्ण रंगों को संरक्षित करने के लिए व्युत्क्रम की अपेक्षा करना।",
+        "बचें: इसे एक्सेसिबिलिटी कंट्रास्ट परीक्षण के विकल्प के रूप में उपयोग करें।",
+        "बचें: स्रोत छवि को ओवरराइट करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is इमेज के रंग उलटें used for?",
-          "a": "Invert RGB pixel values to generate negative color effects on photos. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "इमेज के रंग उलटें का उपयोग किसके लिए किया जाता है?",
+          "a": "फ़ोटो पर नकारात्मक रंग प्रभाव उत्पन्न करने के लिए RGB पिक्सेल मानों को उल्टा करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does इमेज के रंग उलटें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "इमेज के रंग उलटें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use इमेज के रंग उलटें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं इमेज के रंग उलटें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does इमेज के रंग उलटें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या इमेज के रंग उलटें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from इमेज के रंग उलटें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "इमेज के रंग उलटें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What does image color inversion do?",
-          "a": "It reverses pixel color values to create a negative-style representation of the image."
+          "q": "छवि रंग उलटा क्या करता है?",
+          "a": "यह छवि का नकारात्मक-शैली प्रतिनिधित्व बनाने के लिए पिक्सेल रंग मानों को उलट देता है।"
         }
       ],
       "visual": "formats"
     },
     "flip-rotate-image": {
-      "heroIntro": "Flip images horizontally, vertically, or rotate 90 degrees with instant canvas preview.",
-      "intro": "Flip images horizontally, vertically, or rotate 90 degrees with instant canvas preview. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "तत्काल कैनवास पूर्वावलोकन के साथ छवियों को क्षैतिज, लंबवत रूप से पलटें या 90 डिग्री घुमाएँ।",
+      "intro": "तत्काल कैनवास पूर्वावलोकन के साथ छवियों को क्षैतिज, लंबवत रूप से पलटें या 90 डिग्री घुमाएँ। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open इमेज फ्लिप और रोटेट करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "इमेज फ्लिप और रोटेट करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off flip and rotate image tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Mirror a photo horizontally.",
-        "Correct an image orientation.",
-        "Rotate a graphic before publishing."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी फ्लिप और रोटेट छवि कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी फ़ोटो को क्षैतिज रूप से मिरर करें.",
+        "छवि अभिविन्यास ठीक करें.",
+        "प्रकाशन से पहले ग्राफ़िक घुमाएँ."
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Flipping text or logos unintentionally.",
-        "Avoid: Rotating without checking the final canvas dimensions.",
-        "Avoid: Exporting without previewing."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: टेक्स्ट या लोगो को अनजाने में फ़्लिप करना।",
+        "बचें: अंतिम कैनवास आयामों की जांच किए बिना घूमना।",
+        "बचें: पूर्वावलोकन किए बिना निर्यात करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is इमेज फ्लिप और रोटेट करें used for?",
-          "a": "Flip images horizontally, vertically, or rotate 90 degrees with instant canvas preview. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "इमेज फ्लिप और रोटेट करें का उपयोग किसके लिए किया जाता है?",
+          "a": "तत्काल कैनवास पूर्वावलोकन के साथ छवियों को क्षैतिज, लंबवत रूप से पलटें या 90 डिग्री घुमाएँ। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does इमेज फ्लिप और रोटेट करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "इमेज फ्लिप और रोटेट करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use इमेज फ्लिप और रोटेट करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं इमेज फ्लिप और रोटेट करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does इमेज फ्लिप और रोटेट करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या इमेज फ्लिप और रोटेट करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from इमेज फ्लिप और रोटेट करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "इमेज फ्लिप और रोटेट करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I flip an image horizontally or vertically?",
-          "a": "Yes, the workflow supports common horizontal and vertical flips along with 90-degree rotation operations."
+          "q": "क्या मैं किसी छवि को क्षैतिज या लंबवत रूप से फ़्लिप कर सकता हूँ?",
+          "a": "हाँ, वर्कफ़्लो 90-डिग्री रोटेशन संचालन के साथ-साथ सामान्य क्षैतिज और ऊर्ध्वाधर फ़्लिप का समर्थन करता है।"
         }
       ],
       "visual": "formats"
     },
     "instant-qr-code-generator": {
-      "heroIntro": "Generate scannable high-resolution QR codes from text, links, or contact cards.",
-      "intro": "Generate scannable high-resolution QR codes from text, links, or contact cards. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "टेक्स्ट, लिंक या संपर्क कार्ड से स्कैन करने योग्य उच्च-रिज़ॉल्यूशन क्यूआर कोड उत्पन्न करें।",
+      "intro": "टेक्स्ट, लिंक या संपर्क कार्ड से स्कैन करने योग्य उच्च-रिज़ॉल्यूशन क्यूआर कोड उत्पन्न करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open QR कोड जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "QR कोड जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off qr code generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Create a QR code for a website URL.",
-        "Share contact or event information.",
-        "Add a scannable link to printed material."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त क्यूआर कोड जनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "वेबसाइट यूआरएल के लिए एक क्यूआर कोड बनाएं।",
+        "संपर्क या घटना की जानकारी साझा करें.",
+        "मुद्रित सामग्री में एक स्कैन करने योग्य लिंक जोड़ें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Using a URL that later becomes invalid.",
-        "Avoid: Making the code too small to scan.",
-        "Avoid: Reducing contrast or adding visual effects that hurt readability."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: ऐसे यूआरएल का उपयोग करना जो बाद में अमान्य हो जाए।",
+        "बचें: स्कैन करने के लिए कोड को बहुत छोटा बनाना।",
+        "बचें: कंट्रास्ट कम करना या पठनीयता को नुकसान पहुंचाने वाले दृश्य प्रभाव जोड़ना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is QR कोड जनरेटर used for?",
-          "a": "Generate scannable high-resolution QR codes from text, links, or contact cards. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "QR कोड जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "टेक्स्ट, लिंक या संपर्क कार्ड से स्कैन करने योग्य उच्च-रिज़ॉल्यूशन क्यूआर कोड उत्पन्न करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does QR कोड जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "QR कोड जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use QR कोड जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं QR कोड जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does QR कोड जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या QR कोड जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from QR कोड जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "QR कोड जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What can I encode in a QR code?",
-          "a": "Common inputs include URLs, plain text, and supported contact information. The encoded data should be tested with a real camera before distribution."
+          "q": "मैं क्यूआर कोड में क्या एनकोड कर सकता हूं?",
+          "a": "सामान्य इनपुट में यूआरएल, सादा पाठ और समर्थित संपर्क जानकारी शामिल है। वितरण से पहले एन्कोडेड डेटा का वास्तविक कैमरे से परीक्षण किया जाना चाहिए।"
         }
       ],
       "visual": "formats"
     },
     "image-blur-filter": {
-      "heroIntro": "Apply Gaussian blur effects to hide faces, plates, or private details.",
-      "intro": "Apply Gaussian blur effects to hide faces, plates, or private details. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "चेहरे, प्लेटें, या निजी विवरण छिपाने के लिए गाऊसी धुंधला प्रभाव लागू करें।",
+      "intro": "चेहरे, प्लेटें, या निजी विवरण छिपाने के लिए गाऊसी धुंधला प्रभाव लागू करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open इमेज ऑनलाइन ब्लर करें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "इमेज ऑनलाइन ब्लर करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off blur image online tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Blur a face in a screenshot.",
-        "Hide a license plate in a photo.",
-        "Obscure a small private detail before sharing an image."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त धुंधली छवि ऑनलाइन कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "स्क्रीनशॉट में चेहरा धुंधला करें.",
+        "किसी फ़ोटो में लाइसेंस प्लेट छिपाएँ।",
+        "किसी छवि को साझा करने से पहले एक छोटी निजी जानकारी को अस्पष्ट करें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Using too little blur for sensitive information.",
-        "Avoid: Forgetting duplicate copies of the private detail elsewhere in the image.",
-        "Avoid: Assuming blur is equivalent to secure redaction."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: संवेदनशील जानकारी के लिए बहुत कम धुंधलापन का उपयोग करना।",
+        "बचें: छवि में अन्यत्र निजी विवरण की डुप्लिकेट प्रतियाँ भूल जाना।",
+        "बचें: यह मानते हुए कि धुंधलापन सुरक्षित पुनर्निर्देशन के बराबर है।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is इमेज ऑनलाइन ब्लर करें used for?",
-          "a": "Apply Gaussian blur effects to hide faces, plates, or private details. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "इमेज ऑनलाइन ब्लर करें का उपयोग किसके लिए किया जाता है?",
+          "a": "चेहरे, प्लेटें, या निजी विवरण छिपाने के लिए गाऊसी धुंधला प्रभाव लागू करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does इमेज ऑनलाइन ब्लर करें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "इमेज ऑनलाइन ब्लर करें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use इमेज ऑनलाइन ब्लर करें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं इमेज ऑनलाइन ब्लर करें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does इमेज ऑनलाइन ब्लर करें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या इमेज ऑनलाइन ब्लर करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from इमेज ऑनलाइन ब्लर करें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "इमेज ऑनलाइन ब्लर करें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is blur a secure way to redact sensitive information?",
-          "a": "Blur can obscure visual details, but it should not be treated as a guaranteed security redaction method. For sensitive documents, use a true redaction workflow where appropriate."
+          "q": "क्या ब्लर संवेदनशील जानकारी को संशोधित करने का एक सुरक्षित तरीका है?",
+          "a": "धुंधलापन दृश्य विवरण को अस्पष्ट कर सकता है, लेकिन इसे गारंटीशुदा सुरक्षा सुधार विधि के रूप में नहीं माना जाना चाहिए। संवेदनशील दस्तावेज़ों के लिए, जहां उपयुक्त हो, वास्तविक रिडक्शन वर्कफ़्लो का उपयोग करें।"
         }
       ],
       "visual": "formats"
     },
     "image-color-palette-extractor": {
-      "heroIntro": "Extract dominant HEX and RGB color schemes directly from any photo.",
-      "intro": "Extract dominant HEX and RGB color schemes directly from any photo. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This image workflow focuses on one transformation so a quick task can be completed without a full graphics editor. It is useful for web, document, social, development, and everyday image work.",
+      "heroIntro": "किसी भी फोटो से सीधे प्रमुख HEX और RGB रंग योजनाएं निकालें।",
+      "intro": "किसी भी फोटो से सीधे प्रमुख HEX और RGB रंग योजनाएं निकालें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
-        "Open इमेज कलर पैलेट जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "इमेज कलर पैलेट जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off image color palette generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Build a design palette from a photograph.",
-        "Identify dominant colors for branding.",
-        "Extract HEX values for a UI mockup."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी छवि रंग पैलेट जेनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक तस्वीर से एक डिज़ाइन पैलेट बनाएं।",
+        "ब्रांडिंग के लिए प्रमुख रंगों की पहचान करें।",
+        "यूआई मॉकअप के लिए HEX मान निकालें।"
       ],
       "tips": [
-        "Keep the original image when quality matters.",
-        "Choose output format based on transparency, compression, compatibility, and intended use.",
-        "Preview the result at its actual display size.",
-        "Avoid: Treating sampled colors as universal brand colors.",
-        "Avoid: Ignoring color-management differences.",
-        "Avoid: Using a dominant color as the only design decision."
+        "जब गुणवत्ता मायने रखती है तो मूल छवि रखें।",
+        "पारदर्शिता, संपीड़न, अनुकूलता और इच्छित उपयोग के आधार पर आउटपुट स्वरूप चुनें।",
+        "परिणाम का उसके वास्तविक प्रदर्शन आकार पर पूर्वावलोकन करें।",
+        "बचें: नमूने वाले रंगों को सार्वभौमिक ब्रांड के रंगों के रूप में मानने से बचें।",
+        "बचें: रंग-प्रबंधन मतभेदों को नज़रअंदाज करें।",
+        "बचें: एकमात्र डिज़ाइन निर्णय के रूप में प्रमुख रंग का उपयोग करना।"
       ],
       "limitations": [
-        "Browser memory affects very large images.",
-        "Lossy formats can reduce quality after repeated encoding.",
-        "Color profiles, metadata, animation, and unusual image features may not survive every transformation."
+        "ब्राउज़र मेमोरी बहुत बड़ी छवियों को प्रभावित करती है.",
+        "बार-बार एन्कोडिंग के बाद हानिपूर्ण प्रारूप गुणवत्ता को कम कर सकते हैं।",
+        "रंग प्रोफ़ाइल, मेटाडेटा, एनीमेशन और असामान्य छवि सुविधाएँ हर परिवर्तन से बच नहीं सकती हैं।"
       ],
       "faq": [
         {
-          "q": "What is इमेज कलर पैलेट जनरेटर used for?",
-          "a": "Extract dominant HEX and RGB color schemes directly from any photo. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "इमेज कलर पैलेट जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "किसी भी फोटो से सीधे प्रमुख HEX और RGB रंग योजनाएं निकालें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does इमेज कलर पैलेट जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "इमेज कलर पैलेट जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use इमेज कलर पैलेट जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं इमेज कलर पैलेट जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does इमेज कलर पैलेट जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या इमेज कलर पैलेट जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from इमेज कलर पैलेट जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "इमेज कलर पैलेट जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What does an image color palette generator return?",
-          "a": "It identifies representative colors from the image and can expose values such as HEX and RGB for design or development use."
+          "q": "एक छवि रंग पैलेट जनरेटर क्या लौटाता है?",
+          "a": "यह छवि से प्रतिनिधि रंगों की पहचान करता है और डिजाइन या विकास के उपयोग के लिए HEX और RGB जैसे मूल्यों को उजागर कर सकता है।"
         }
       ],
       "visual": "formats"
     },
     "online-python-compiler": {
-      "heroIntro": "Run Python 3 scripts in browser sandbox with real-time terminal output.",
-      "intro": "Run Python 3 scripts in browser sandbox with real-time terminal output. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "रीयल-टाइम टर्मिनल आउटपुट के साथ ब्राउज़र सैंडबॉक्स में पायथन 3 स्क्रिप्ट चलाएं।",
+      "intro": "रीयल-टाइम टर्मिनल आउटपुट के साथ ब्राउज़र सैंडबॉक्स में पायथन 3 स्क्रिप्ट चलाएं। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन Python कंपाइलर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन Python कंपाइलर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online python compiler tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Test a short Python algorithm.",
-        "Practice loops, functions, and data structures.",
-        "Reproduce a small bug with minimal code."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन पायथन कंपाइलर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक लघु पायथन एल्गोरिदम का परीक्षण करें।",
+        "लूप, फ़ंक्शंस और डेटा संरचनाओं का अभ्यास करें।",
+        "न्यूनतम कोड के साथ एक छोटा बग पुन: प्रस्तुत करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Expecting all third-party packages to be available.",
-        "Avoid: Pasting credentials into code.",
-        "Avoid: Assuming sandbox behavior matches production."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: सभी तृतीय-पक्ष पैकेज उपलब्ध होने की अपेक्षा करना।",
+        "बचें: कोड में क्रेडेंशियल चिपकाने से।",
+        "बचें: यह मानते हुए कि सैंडबॉक्स व्यवहार उत्पादन से मेल खाता है।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन Python कंपाइलर used for?",
-          "a": "Run Python 3 scripts in browser sandbox with real-time terminal output. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन Python कंपाइलर का उपयोग किसके लिए किया जाता है?",
+          "a": "रीयल-टाइम टर्मिनल आउटपुट के साथ ब्राउज़र सैंडबॉक्स में पायथन 3 स्क्रिप्ट चलाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन Python कंपाइलर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन Python कंपाइलर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन Python कंपाइलर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन Python कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन Python कंपाइलर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन Python कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन Python कंपाइलर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन Python कंपाइलर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I use an online Python compiler for learning?",
-          "a": "Yes. Small exercises, syntax practice, algorithms, and reproducible examples are good fits for a browser compiler."
+          "q": "क्या मैं सीखने के लिए ऑनलाइन पायथन कंपाइलर का उपयोग कर सकता हूँ?",
+          "a": "हाँ. छोटे अभ्यास, वाक्यविन्यास अभ्यास, एल्गोरिदम और प्रतिलिपि प्रस्तुत करने योग्य उदाहरण ब्राउज़र कंपाइलर के लिए उपयुक्त हैं।"
         }
       ],
       "visual": "code"
     },
     "online-javascript-compiler": {
-      "heroIntro": "Execute modern ES6+ JavaScript code snippets in browser environment.",
-      "intro": "Execute modern ES6+ JavaScript code snippets in browser environment. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "ब्राउज़र वातावरण में आधुनिक ES6+ JavaScript कोड स्निपेट निष्पादित करें।",
+      "intro": "ब्राउज़र वातावरण में आधुनिक ES6+ JavaScript कोड स्निपेट निष्पादित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन JavaScript कंपाइलर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन JavaScript कंपाइलर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online javascript compiler tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Test JavaScript functions.",
-        "Practice modern syntax.",
-        "Debug a small algorithm or transformation."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन जावास्क्रिप्ट कंपाइलर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "जावास्क्रिप्ट फ़ंक्शंस का परीक्षण करें।",
+        "आधुनिक वाक्यविन्यास का अभ्यास करें.",
+        "एक छोटा एल्गोरिदम या परिवर्तन डीबग करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Assuming browser APIs exist in every execution context.",
-        "Avoid: Mixing server-only and browser-only code.",
-        "Avoid: Pasting secrets into snippets."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: यह मानते हुए कि प्रत्येक निष्पादन संदर्भ में ब्राउज़र एपीआई मौजूद हैं।",
+        "बचें: केवल-सर्वर और केवल-ब्राउज़र कोड को मिलाने से।",
+        "बचें: रहस्यों को स्निपेट में चिपकाना।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन JavaScript कंपाइलर used for?",
-          "a": "Execute modern ES6+ JavaScript code snippets in browser environment. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन JavaScript कंपाइलर का उपयोग किसके लिए किया जाता है?",
+          "a": "ब्राउज़र वातावरण में आधुनिक ES6+ JavaScript कोड स्निपेट निष्पादित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन JavaScript कंपाइलर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन JavaScript कंपाइलर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन JavaScript कंपाइलर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन JavaScript कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन JavaScript कंपाइलर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन JavaScript कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन JavaScript कंपाइलर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन JavaScript कंपाइलर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I run modern JavaScript?",
-          "a": "The compiler is intended for modern JavaScript syntax supported by its configured runtime. Browser-only APIs may require the HTML editor workflow instead."
+          "q": "क्या मैं आधुनिक जावास्क्रिप्ट चला सकता हूँ?",
+          "a": "कंपाइलर अपने कॉन्फ़िगर किए गए रनटाइम द्वारा समर्थित आधुनिक जावास्क्रिप्ट सिंटैक्स के लिए अभिप्रेत है। इसके बजाय केवल-ब्राउज़र एपीआई को HTML संपादक वर्कफ़्लो की आवश्यकता हो सकती है।"
         }
       ],
       "visual": "code"
     },
     "online-html-editor": {
-      "heroIntro": "Live interactive HTML, CSS, and JavaScript editor with split-screen DOM preview.",
-      "intro": "Live interactive HTML, CSS, and JavaScript editor with split-screen DOM preview. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "स्प्लिट-स्क्रीन DOM पूर्वावलोकन के साथ लाइव इंटरैक्टिव HTML, CSS और JavaScript संपादक।",
+      "intro": "स्प्लिट-स्क्रीन DOM पूर्वावलोकन के साथ लाइव इंटरैक्टिव HTML, CSS और JavaScript संपादक। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन HTML एडिटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन HTML एडिटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online html editor tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Prototype a landing-page component.",
-        "Test CSS layout changes.",
-        "Experiment with DOM and client-side JavaScript."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन HTML संपादक कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक लैंडिंग-पेज घटक को प्रोटोटाइप करें।",
+        "सीएसएस लेआउट परिवर्तन का परीक्षण करें।",
+        "DOM और क्लाइंट-साइड JavaScript के साथ प्रयोग करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Using external assets that are unavailable in the preview.",
-        "Avoid: Forgetting responsive behavior.",
-        "Avoid: Treating a prototype as production-ready code."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: बाहरी परिसंपत्तियों का उपयोग करना जो पूर्वावलोकन में अनुपलब्ध हैं।",
+        "बचें: प्रतिक्रियाशील व्यवहार को भूल जाना।",
+        "बचें: किसी प्रोटोटाइप को उत्पादन के लिए तैयार कोड मानने से बचें।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन HTML एडिटर used for?",
-          "a": "Live interactive HTML, CSS, and JavaScript editor with split-screen DOM preview. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन HTML एडिटर का उपयोग किसके लिए किया जाता है?",
+          "a": "स्प्लिट-स्क्रीन DOM पूर्वावलोकन के साथ लाइव इंटरैक्टिव HTML, CSS और JavaScript संपादक। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन HTML एडिटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन HTML एडिटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन HTML एडिटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन HTML एडिटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन HTML एडिटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन HTML एडिटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन HTML एडिटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन HTML एडिटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I test HTML, CSS, and JavaScript together?",
-          "a": "Yes. The editor is designed for live HTML, CSS, and JavaScript experimentation with a preview workflow."
+          "q": "क्या मैं HTML, CSS और JavaScript का एक साथ परीक्षण कर सकता हूँ?",
+          "a": "हाँ. संपादक को पूर्वावलोकन वर्कफ़्लो के साथ लाइव HTML, CSS और JavaScript प्रयोग के लिए डिज़ाइन किया गया है।"
         }
       ],
       "visual": "code"
     },
     "online-cpp-compiler": {
-      "heroIntro": "Compile and test C++ programs online in browser memory with instant console logs.",
-      "intro": "Compile and test C++ programs online in browser memory with instant console logs. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "त्वरित कंसोल लॉग के साथ ब्राउज़र मेमोरी में C++ प्रोग्राम को ऑनलाइन संकलित और परीक्षण करें।",
+      "intro": "त्वरित कंसोल लॉग के साथ ब्राउज़र मेमोरी में C++ प्रोग्राम को ऑनलाइन संकलित और परीक्षण करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन C++ कंपाइलर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन C++ कंपाइलर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online c++ compiler tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Practice C++ syntax and STL examples.",
-        "Test algorithms with small inputs.",
-        "Reproduce a compile-time error."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन सी++ कंपाइलर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "C++ सिंटैक्स और STL उदाहरणों का अभ्यास करें।",
+        "छोटे इनपुट के साथ एल्गोरिदम का परीक्षण करें।",
+        "संकलन-समय त्रुटि पुन: प्रस्तुत करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Relying on unavailable libraries.",
-        "Avoid: Ignoring compiler version differences.",
-        "Avoid: Using unsafe code with assumptions from production systems."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: अनुपलब्ध पुस्तकालयों पर भरोसा करना।",
+        "बचें: कंपाइलर संस्करण के अंतरों को नजरअंदाज करना।",
+        "बचें: उत्पादन प्रणालियों की धारणाओं के साथ असुरक्षित कोड का उपयोग करना।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन C++ कंपाइलर used for?",
-          "a": "Compile and test C++ programs online in browser memory with instant console logs. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन C++ कंपाइलर का उपयोग किसके लिए किया जाता है?",
+          "a": "त्वरित कंसोल लॉग के साथ ब्राउज़र मेमोरी में C++ प्रोग्राम को ऑनलाइन संकलित और परीक्षण करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन C++ कंपाइलर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन C++ कंपाइलर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन C++ कंपाइलर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन C++ कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन C++ कंपाइलर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन C++ कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन C++ कंपाइलर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन C++ कंपाइलर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is an online C++ compiler suitable for interview practice?",
-          "a": "It can be useful for short coding exercises and algorithm practice, while the exact compiler version and environment should be checked when a task depends on a specific standard."
+          "q": "क्या ऑनलाइन C++ कंपाइलर साक्षात्कार अभ्यास के लिए उपयुक्त है?",
+          "a": "यह संक्षिप्त कोडिंग अभ्यास और एल्गोरिदम अभ्यास के लिए उपयोगी हो सकता है, जबकि जब कोई कार्य किसी विशिष्ट मानक पर निर्भर करता है तो सटीक कंपाइलर संस्करण और वातावरण की जांच की जानी चाहिए।"
         }
       ],
       "visual": "code"
     },
     "online-java-compiler": {
-      "heroIntro": "Write, debug, and run standard Java code snippets directly in your web browser.",
-      "intro": "Write, debug, and run standard Java code snippets directly in your web browser. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "सीधे अपने वेब ब्राउज़र में मानक जावा कोड स्निपेट लिखें, डीबग करें और चलाएं।",
+      "intro": "सीधे अपने वेब ब्राउज़र में मानक जावा कोड स्निपेट लिखें, डीबग करें और चलाएं। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन Java कंपाइलर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन Java कंपाइलर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online java compiler tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Practice Java syntax and collections.",
-        "Test a small algorithm.",
-        "Reproduce a Java compiler error."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन जावा कंपाइलर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "जावा सिंटैक्स और संग्रह का अभ्यास करें।",
+        "एक छोटे एल्गोरिदम का परीक्षण करें.",
+        "जावा कंपाइलर त्रुटि पुन: उत्पन्न करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Assuming every Maven dependency exists.",
-        "Avoid: Ignoring the configured Java version.",
-        "Avoid: Pasting private application code or credentials."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: यह मानते हुए कि प्रत्येक मावेन निर्भरता मौजूद है।",
+        "बचें: कॉन्फ़िगर किए गए जावा संस्करण को अनदेखा करना।",
+        "बचें: निजी एप्लिकेशन कोड या क्रेडेंशियल चिपकाना।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन Java कंपाइलर used for?",
-          "a": "Write, debug, and run standard Java code snippets directly in your web browser. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन Java कंपाइलर का उपयोग किसके लिए किया जाता है?",
+          "a": "सीधे अपने वेब ब्राउज़र में मानक जावा कोड स्निपेट लिखें, डीबग करें और चलाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन Java कंपाइलर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन Java कंपाइलर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन Java कंपाइलर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन Java कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन Java कंपाइलर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन Java कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन Java कंपाइलर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन Java कंपाइलर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I practice Java programs online?",
-          "a": "Yes. Small programs, algorithms, collections, and language exercises are appropriate browser-compiler use cases."
+          "q": "क्या मैं जावा प्रोग्राम का ऑनलाइन अभ्यास कर सकता हूँ?",
+          "a": "हाँ. छोटे प्रोग्राम, एल्गोरिदम, संग्रह और भाषा अभ्यास उपयुक्त ब्राउज़र-कंपाइलर उपयोग के मामले हैं।"
         }
       ],
       "visual": "code"
     },
     "online-csharp-compiler": {
-      "heroIntro": "Run C# code scripts in client sandbox with immediate standard output display.",
-      "intro": "Run C# code scripts in client sandbox with immediate standard output display. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "तत्काल मानक आउटपुट डिस्प्ले के साथ क्लाइंट सैंडबॉक्स में C# कोड स्क्रिप्ट चलाएँ।",
+      "intro": "तत्काल मानक आउटपुट डिस्प्ले के साथ क्लाइंट सैंडबॉक्स में C# कोड स्क्रिप्ट चलाएँ। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन C# कंपाइलर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन C# कंपाइलर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online c# compiler tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Practice C# language features.",
-        "Test a small algorithm.",
-        "Experiment with classes and LINQ-style code where supported."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन सी# कंपाइलर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "C# भाषा सुविधाओं का अभ्यास करें।",
+        "एक छोटे एल्गोरिदम का परीक्षण करें.",
+        "जहां समर्थित हो वहां कक्षाओं और LINQ-शैली कोड के साथ प्रयोग करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Assuming every .NET package is available.",
-        "Avoid: Ignoring runtime/version differences.",
-        "Avoid: Using production secrets in sample code."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: यह मानते हुए कि प्रत्येक .NET पैकेज उपलब्ध है।",
+        "बचें: रनटाइम/संस्करण अंतरों को अनदेखा करना।",
+        "बचें: नमूना कोड में उत्पादन रहस्यों का उपयोग करना।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन C# कंपाइलर used for?",
-          "a": "Run C# code scripts in client sandbox with immediate standard output display. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन C# कंपाइलर का उपयोग किसके लिए किया जाता है?",
+          "a": "तत्काल मानक आउटपुट डिस्प्ले के साथ क्लाइंट सैंडबॉक्स में C# कोड स्क्रिप्ट चलाएँ। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन C# कंपाइलर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन C# कंपाइलर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन C# कंपाइलर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन C# कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन C# कंपाइलर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन C# कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन C# कंपाइलर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन C# कंपाइलर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I test C# code without installing an IDE?",
-          "a": "Yes, the browser sandbox can be used for supported C# snippets and learning exercises without a local IDE installation."
+          "q": "क्या मैं आईडीई स्थापित किए बिना सी# कोड का परीक्षण कर सकता हूं?",
+          "a": "हां, ब्राउज़र सैंडबॉक्स का उपयोग स्थानीय आईडीई इंस्टॉलेशन के बिना समर्थित सी # स्निपेट्स और सीखने के अभ्यास के लिए किया जा सकता है।"
         }
       ],
       "visual": "code"
     },
     "online-php-runner": {
-      "heroIntro": "Test PHP code syntax and algorithms directly inside browser memory.",
-      "intro": "Test PHP code syntax and algorithms directly inside browser memory. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "सीधे ब्राउज़र मेमोरी के अंदर PHP कोड सिंटैक्स और एल्गोरिदम का परीक्षण करें।",
+      "intro": "सीधे ब्राउज़र मेमोरी के अंदर PHP कोड सिंटैक्स और एल्गोरिदम का परीक्षण करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन PHP कंपाइलर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन PHP कंपाइलर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online php compiler tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Test PHP syntax.",
-        "Practice functions and arrays.",
-        "Reproduce a small server-side logic issue."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन php कंपाइलर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "PHP सिंटैक्स का परीक्षण करें.",
+        "कार्यों और सरणियों का अभ्यास करें।",
+        "एक छोटी सर्वर-साइड लॉजिक समस्या को पुन: प्रस्तुत करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Expecting a full web-server environment.",
-        "Avoid: Assuming extensions are installed.",
-        "Avoid: Pasting database passwords or API keys."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: पूर्ण वेब-सर्वर वातावरण की अपेक्षा करें।",
+        "बचें: मान लें कि एक्सटेंशन स्थापित हैं।",
+        "बचें: डेटाबेस पासवर्ड या एपीआई कुंजियाँ चिपकाना।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन PHP कंपाइलर used for?",
-          "a": "Test PHP code syntax and algorithms directly inside browser memory. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन PHP कंपाइलर का उपयोग किसके लिए किया जाता है?",
+          "a": "सीधे ब्राउज़र मेमोरी के अंदर PHP कोड सिंटैक्स और एल्गोरिदम का परीक्षण करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन PHP कंपाइलर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन PHP कंपाइलर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन PHP कंपाइलर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन PHP कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन PHP कंपाइलर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन PHP कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन PHP कंपाइलर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन PHP कंपाइलर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I test PHP syntax online?",
-          "a": "Yes. The tool is intended for supported PHP snippets, syntax checks, and small algorithmic experiments."
+          "q": "क्या मैं PHP सिंटैक्स का ऑनलाइन परीक्षण कर सकता हूँ?",
+          "a": "हाँ. यह टूल समर्थित PHP स्निपेट्स, सिंटैक्स जांच और छोटे एल्गोरिदम प्रयोगों के लिए है।"
         }
       ],
       "visual": "code"
     },
     "online-sql-runner": {
-      "heroIntro": "Execute SQL queries, test database tables, and verify relational commands.",
-      "intro": "Execute SQL queries, test database tables, and verify relational commands. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
+      "heroIntro": "SQL क्वेरी निष्पादित करें, डेटाबेस तालिकाओं का परीक्षण करें और संबंधपरक आदेशों को सत्यापित करें।",
+      "intro": "SQL क्वेरी निष्पादित करें, डेटाबेस तालिकाओं का परीक्षण करें और संबंधपरक आदेशों को सत्यापित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
       "steps": [
-        "Open ऑनलाइन SQL एडिटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऑनलाइन SQL एडिटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off online sql editor tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Create a small table and test SELECT queries.",
-        "Practice joins and filters.",
-        "Verify SQL transformations on sample data."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन एसक्यूएल संपादक कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक छोटी तालिका बनाएं और SELECT क्वेरीज़ का परीक्षण करें।",
+        "जोड़ने और फ़िल्टर करने का अभ्यास करें।",
+        "नमूना डेटा पर SQL परिवर्तनों को सत्यापित करें।"
       ],
       "tips": [
-        "Start with a small reproducible example.",
-        "Read the first compiler or runtime error carefully.",
-        "Never paste API keys, passwords, private tokens, or production credentials.",
-        "Avoid: Using production credentials or data.",
-        "Avoid: Assuming every database vendor uses identical SQL syntax.",
-        "Avoid: Forgetting transaction or schema assumptions."
+        "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
+        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
+        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
+        "बचें: उत्पादन क्रेडेंशियल्स या डेटा का उपयोग करना।",
+        "बचें: यह मानते हुए कि प्रत्येक डेटाबेस विक्रेता समान SQL सिंटैक्स का उपयोग करता है।",
+        "बचें: लेन-देन या स्कीमा मान्यताओं को भूल जाना।"
       ],
       "limitations": [
-        "A sandbox does not reproduce every production dependency or operating-system feature.",
-        "Execution time, memory, packages, and language versions can affect results.",
-        "Test working code again in its intended deployment environment."
+        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
+        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
+        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का फिर से परीक्षण करें।"
       ],
       "faq": [
         {
-          "q": "What is ऑनलाइन SQL एडिटर used for?",
-          "a": "Execute SQL queries, test database tables, and verify relational commands. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऑनलाइन SQL एडिटर का उपयोग किसके लिए किया जाता है?",
+          "a": "SQL क्वेरी निष्पादित करें, डेटाबेस तालिकाओं का परीक्षण करें और संबंधपरक आदेशों को सत्यापित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऑनलाइन SQL एडिटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऑनलाइन SQL एडिटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऑनलाइन SQL एडिटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऑनलाइन SQL एडिटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऑनलाइन SQL एडिटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऑनलाइन SQL एडिटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऑनलाइन SQL एडिटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऑनलाइन SQL एडिटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does an online SQL editor connect to my production database?",
-          "a": "No assumption should be made that it connects to a production database. Use sample data in the sandbox and verify vendor-specific SQL in the intended database environment."
+          "q": "क्या कोई ऑनलाइन SQL संपादक मेरे उत्पादन डेटाबेस से कनेक्ट होता है?",
+          "a": "यह धारणा नहीं बनाई जानी चाहिए कि यह किसी उत्पादन डेटाबेस से जुड़ता है। सैंडबॉक्स में नमूना डेटा का उपयोग करें और इच्छित डेटाबेस वातावरण में विक्रेता-विशिष्ट SQL को सत्यापित करें।"
         }
       ],
       "visual": "code"
     },
     "json-formatter-validator": {
-      "heroIntro": "Prettify, format, validate, and minify messy JSON data strings with syntax highlighting.",
-      "intro": "Prettify, format, validate, and minify messy JSON data strings with syntax highlighting. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "सिंटैक्स हाइलाइटिंग के साथ अव्यवस्थित JSON डेटा स्ट्रिंग्स को सुंदर बनाएं, प्रारूपित करें, सत्यापित करें और छोटा करें।",
+      "intro": "सिंटैक्स हाइलाइटिंग के साथ अव्यवस्थित JSON डेटा स्ट्रिंग्स को सुंदर बनाएं, प्रारूपित करें, सत्यापित करें और छोटा करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open JSON फ़ॉर्मेटर और वैलिडेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "JSON फ़ॉर्मेटर और वैलिडेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off json formatter and validator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Pretty-print an API response.",
-        "Validate JSON before committing a configuration file.",
-        "Minify JSON for a payload or test fixture."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ़ json फ़ॉर्मेटर और सत्यापनकर्ता कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एपीआई प्रतिक्रिया को सुंदर ढंग से प्रिंट करें।",
+        "कॉन्फ़िगरेशन फ़ाइल करने से पहले JSON को सत्यापित करें।",
+        "पेलोड या परीक्षण फिक्स्चर के लिए JSON को छोटा करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Confusing JSON with JavaScript object syntax.",
-        "Avoid: Losing duplicate keys without noticing parser behavior.",
-        "Avoid: Pasting confidential API responses."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: जावास्क्रिप्ट ऑब्जेक्ट सिंटैक्स के साथ JSON को भ्रमित करना।",
+        "बचें: पार्सर व्यवहार पर ध्यान दिए बिना डुप्लिकेट कुंजियाँ खोना।",
+        "बचें: गोपनीय एपीआई प्रतिक्रियाएँ चिपकाना।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is JSON फ़ॉर्मेटर और वैलिडेटर used for?",
-          "a": "Prettify, format, validate, and minify messy JSON data strings with syntax highlighting. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "JSON फ़ॉर्मेटर और वैलिडेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "सिंटैक्स हाइलाइटिंग के साथ अव्यवस्थित JSON डेटा स्ट्रिंग्स को सुंदर बनाएं, प्रारूपित करें, सत्यापित करें और छोटा करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does JSON फ़ॉर्मेटर और वैलिडेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "JSON फ़ॉर्मेटर और वैलिडेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use JSON फ़ॉर्मेटर और वैलिडेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं JSON फ़ॉर्मेटर और वैलिडेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does JSON फ़ॉर्मेटर और वैलिडेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या JSON फ़ॉर्मेटर और वैलिडेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from JSON फ़ॉर्मेटर और वैलिडेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "JSON फ़ॉर्मेटर और वैलिडेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can a JSON formatter fix invalid JSON?",
-          "a": "It can identify or help expose syntax problems, but invalid JSON still needs to be corrected according to JSON syntax rules."
+          "q": "क्या कोई JSON फ़ॉर्मेटर अमान्य JSON को ठीक कर सकता है?",
+          "a": "यह सिंटैक्स समस्याओं की पहचान कर सकता है या उन्हें उजागर करने में मदद कर सकता है, लेकिन अमान्य JSON को अभी भी JSON सिंटैक्स नियमों के अनुसार ठीक करने की आवश्यकता है।"
         }
       ],
       "visual": "code"
     },
     "base64-encoder-decoder": {
-      "heroIntro": "Encode and decode UTF-8 plain text or binary assets to and from Base64.",
-      "intro": "Encode and decode UTF-8 plain text or binary assets to and from Base64. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "यूटीएफ-8 सादे पाठ या बाइनरी संपत्तियों को बेस64 से एनकोड और डीकोड करें।",
+      "intro": "यूटीएफ-8 सादे पाठ या बाइनरी संपत्तियों को बेस64 से एनकोड और डीकोड करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open Base64 एनकोडर और डिकोडर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "Base64 एनकोडर और डिकोडर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off base64 encoder decoder tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Encode text for a protocol that requires Base64.",
-        "Decode a Base64 payload during debugging.",
-        "Inspect an encoded test fixture."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी बेस64 एनकोडर डिकोडर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी प्रोटोकॉल के लिए टेक्स्ट को एन्कोड करें जिसके लिए बेस64 की आवश्यकता होती है।",
+        "डिबगिंग के दौरान बेस64 पेलोड को डिकोड करें।",
+        "एक एन्कोडेड परीक्षण स्थिरता का निरीक्षण करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Treating Base64 as encryption.",
-        "Avoid: Confusing URL-safe and standard Base64.",
-        "Avoid: Encoding secrets and assuming the result is protected."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: बेस64 को एन्क्रिप्शन के रूप में मानें।",
+        "बचें: भ्रमित करने वाला यूआरएल-सुरक्षित और मानक बेस64।",
+        "बचें: रहस्यों को एन्कोड करना और यह मान लेना कि परिणाम सुरक्षित है।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is Base64 एनकोडर और डिकोडर used for?",
-          "a": "Encode and decode UTF-8 plain text or binary assets to and from Base64. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "Base64 एनकोडर और डिकोडर का उपयोग किसके लिए किया जाता है?",
+          "a": "यूटीएफ-8 सादे पाठ या बाइनरी संपत्तियों को बेस64 से एनकोड और डीकोड करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does Base64 एनकोडर और डिकोडर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "Base64 एनकोडर और डिकोडर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use Base64 एनकोडर और डिकोडर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं Base64 एनकोडर और डिकोडर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does Base64 एनकोडर और डिकोडर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या Base64 एनकोडर और डिकोडर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from Base64 एनकोडर और डिकोडर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "Base64 एनकोडर और डिकोडर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is Base64 encryption?",
-          "a": "No. Base64 is an encoding format, not encryption. Anyone who receives the encoded data can decode it."
+          "q": "क्या बेस64 एन्क्रिप्शन है?",
+          "a": "नहीं, Base64 एक एन्कोडिंग प्रारूप है, एन्क्रिप्शन नहीं। एन्कोडेड डेटा प्राप्त करने वाला कोई भी व्यक्ति इसे डिकोड कर सकता है।"
         }
       ],
       "visual": "code"
     },
     "clean-url-slug-generator": {
-      "heroIntro": "Convert article titles and raw strings into SEO-friendly URL slugs.",
-      "intro": "Convert article titles and raw strings into SEO-friendly URL slugs. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "आलेख शीर्षकों और मूल स्ट्रिंग्स को SEO-अनुकूल URL स्लग में बदलें।",
+      "intro": "आलेख शीर्षकों और मूल स्ट्रिंग्स को SEO-अनुकूल URL स्लग में बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open URL Slug जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "URL Slug जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off url slug generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Turn an article title into a readable URL path.",
-        "Normalize a product name for a page slug.",
-        "Create consistent slugs for a content workflow."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूआरएल स्लग जनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी आलेख शीर्षक को पढ़ने योग्य URL पथ में बदलें।",
+        "पेज स्लग के लिए उत्पाद नाम को सामान्यीकृत करें।",
+        "सामग्री वर्कफ़्लो के लिए सुसंगत स्लग बनाएँ।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Changing established URLs without redirects.",
-        "Avoid: Using unnecessary stop words or punctuation.",
-        "Avoid: Creating duplicate slugs for different pages."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: रीडायरेक्ट के बिना स्थापित यूआरएल बदलना।",
+        "बचें: अनावश्यक रोक शब्दों या विराम चिह्नों का प्रयोग करें।",
+        "बचें: विभिन्न पृष्ठों के लिए डुप्लिकेट स्लग बनाना।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is URL Slug जनरेटर used for?",
-          "a": "Convert article titles and raw strings into SEO-friendly URL slugs. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "URL Slug जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "आलेख शीर्षकों और मूल स्ट्रिंग्स को SEO-अनुकूल URL स्लग में बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does URL Slug जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "URL Slug जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use URL Slug जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं URL Slug जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does URL Slug जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या URL Slug जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from URL Slug जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "URL Slug जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What makes a URL slug SEO-friendly?",
-          "a": "A useful slug is readable, concise, descriptive, stable, and aligned with the page topic. Avoid unnecessary punctuation and frequent changes."
+          "q": "क्या चीज़ किसी URL को SEO-अनुकूल बनाती है?",
+          "a": "एक उपयोगी स्लग पठनीय, संक्षिप्त, वर्णनात्मक, स्थिर और पृष्ठ विषय के अनुरूप होता है। अनावश्यक विराम चिह्न और बार-बार परिवर्तन से बचें।"
         }
       ],
       "visual": "code"
     },
     "html-entity-encoder": {
-      "heroIntro": "Convert special symbols and reserved characters into their corresponding HTML entities.",
-      "intro": "Convert special symbols and reserved characters into their corresponding HTML entities. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "विशेष प्रतीकों और आरक्षित वर्णों को उनकी संगत HTML इकाइयों में परिवर्तित करें।",
+      "intro": "विशेष प्रतीकों और आरक्षित वर्णों को उनकी संगत HTML इकाइयों में परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open HTML Entity Encoder and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "HTML Entity Encoder खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off html entity encoder tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Encode reserved HTML characters.",
-        "Prepare text containing ampersands or angle brackets for markup.",
-        "Inspect entity representations during debugging."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त HTML इकाई एनकोडर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "आरक्षित HTML वर्णों को एन्कोड करें।",
+        "मार्कअप के लिए एम्परसेंड या कोण कोष्ठक युक्त पाठ तैयार करें।",
+        "डिबगिंग के दौरान इकाई प्रतिनिधित्व का निरीक्षण करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Encoding the same text repeatedly.",
-        "Avoid: Confusing HTML escaping with URL encoding.",
-        "Avoid: Using encoded text where raw text is required."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: एक ही पाठ को बार-बार एन्कोड करना।",
+        "बचें: यूआरएल एन्कोडिंग के साथ भ्रमित करने वाले HTML से बचना।",
+        "बचें: जहां कच्चे पाठ की आवश्यकता हो वहां एन्कोडेड पाठ का उपयोग करें।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is HTML Entity Encoder used for?",
-          "a": "Convert special symbols and reserved characters into their corresponding HTML entities. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "HTML Entity Encoder का उपयोग किसके लिए किया जाता है?",
+          "a": "विशेष प्रतीकों और आरक्षित वर्णों को उनकी संगत HTML इकाइयों में परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does HTML Entity Encoder work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "HTML Entity Encoder कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use HTML Entity Encoder for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं HTML Entity Encoder का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does HTML Entity Encoder require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या HTML Entity Encoder को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from HTML Entity Encoder?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "HTML Entity Encoder से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why encode HTML entities?",
-          "a": "HTML entities represent reserved characters safely within HTML markup and help prevent markup characters from being interpreted as tags or syntax."
+          "q": "HTML इकाइयों को एन्कोड क्यों करें?",
+          "a": "HTML इकाइयाँ HTML मार्कअप के भीतर सुरक्षित रूप से आरक्षित वर्णों का प्रतिनिधित्व करती हैं और मार्कअप वर्णों को टैग या सिंटैक्स के रूप में व्याख्या करने से रोकने में मदद करती हैं।"
         }
       ],
       "visual": "code"
     },
     "css-minifier-cleaner": {
-      "heroIntro": "Compress stylesheet rules by stripping whitespace and comments.",
-      "intro": "Compress stylesheet rules by stripping whitespace and comments. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "रिक्त स्थान और टिप्पणियों को हटाकर स्टाइलशीट नियमों को संपीड़ित करें।",
+      "intro": "रिक्त स्थान और टिप्पणियों को हटाकर स्टाइलशीट नियमों को संपीड़ित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open CSS Minifier and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "CSS Minifier खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off css minifier tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Reduce stylesheet transfer size.",
-        "Clean generated CSS for deployment.",
-        "Prepare a compact test fixture."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त सीएसएस मिनीफ़ायर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "स्टाइलशीट स्थानांतरण आकार कम करें।",
+        "तैनाती के लिए स्वच्छ उत्पन्न सीएसएस।",
+        "एक कॉम्पैक्ट परीक्षण स्थिरता तैयार करें."
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Minifying source code without retaining a readable original.",
-        "Avoid: Assuming minification fixes invalid CSS.",
-        "Avoid: Ignoring source maps in a development workflow."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: पठनीय मूल को बनाए रखे बिना स्रोत कोड को छोटा करना।",
+        "बचें: मान लें कि छोटा करने से अमान्य सीएसएस ठीक हो जाता है।",
+        "बचें: विकास वर्कफ़्लो में स्रोत मानचित्रों को अनदेखा करना।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is CSS Minifier used for?",
-          "a": "Compress stylesheet rules by stripping whitespace and comments. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "CSS Minifier का उपयोग किसके लिए किया जाता है?",
+          "a": "रिक्त स्थान और टिप्पणियों को हटाकर स्टाइलशीट नियमों को संपीड़ित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does CSS Minifier work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "CSS Minifier कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use CSS Minifier for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं CSS Minifier का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does CSS Minifier require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या CSS Minifier को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from CSS Minifier?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "CSS Minifier से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does CSS minification change how styles work?",
-          "a": "A correct minifier removes unnecessary whitespace and comments while preserving CSS behavior, but complex or invalid input should still be tested after minification."
+          "q": "क्या सीएसएस लघुकरण से शैलियों के काम करने का तरीका बदल जाता है?",
+          "a": "एक सही मिनिफायर सीएसएस व्यवहार को संरक्षित करते हुए अनावश्यक रिक्त स्थान और टिप्पणियों को हटा देता है, लेकिन जटिल या अमान्य इनपुट को मिनिमाइजेशन के बाद भी परीक्षण किया जाना चाहिए।"
         }
       ],
       "visual": "code"
     },
     "unix-timestamp-converter": {
-      "heroIntro": "Convert Epoch timestamps to human-readable dates and back.",
-      "intro": "Convert Epoch timestamps to human-readable dates and back. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "एपोच टाइमस्टैम्प को मानव-पठनीय तिथियों और पिछली तारीखों में बदलें।",
+      "intro": "एपोच टाइमस्टैम्प को मानव-पठनीय तिथियों और पिछली तारीखों में बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open Unix समयstamp and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "Unix समयstamp खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off unix timestamp converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert an API timestamp to a readable date.",
-        "Generate an epoch value for a test case.",
-        "Compare event times during debugging."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूनिक्स टाइमस्टैम्प कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एपीआई टाइमस्टैम्प को पढ़ने योग्य तारीख में बदलें।",
+        "परीक्षण मामले के लिए एक युग मान उत्पन्न करें।",
+        "डिबगिंग के दौरान ईवेंट समय की तुलना करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Confusing seconds with milliseconds.",
-        "Avoid: Ignoring timezone display conventions.",
-        "Avoid: Using local time when UTC is required."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: मिलीसेकंड के साथ सेकंड को भ्रमित करने वाला।",
+        "बचें: समयक्षेत्र प्रदर्शन परंपराओं को अनदेखा करना।",
+        "बचें: जब यूटीसी की आवश्यकता हो तो स्थानीय समय का उपयोग करें।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is Unix समयstamp used for?",
-          "a": "Convert Epoch timestamps to human-readable dates and back. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "Unix समयstamp का उपयोग किसके लिए किया जाता है?",
+          "a": "एपोच टाइमस्टैम्प को मानव-पठनीय तिथियों और पिछली तारीखों में बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does Unix समयstamp work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "Unix समयstamp कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use Unix समयstamp for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं Unix समयstamp का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does Unix समयstamp require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या Unix समयstamp को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from Unix समयstamp?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "Unix समयstamp से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Are Unix timestamps in seconds or milliseconds?",
-          "a": "Both conventions are common. Check the source system before converting; a value that differs by roughly three orders of magnitude often indicates seconds versus milliseconds."
+          "q": "क्या यूनिक्स टाइमस्टैम्प सेकंड या मिलीसेकंड में हैं?",
+          "a": "दोनों सम्मेलन आम हैं। परिवर्तित करने से पहले स्रोत प्रणाली की जाँच करें; एक मान जो परिमाण के लगभग तीन क्रमों से भिन्न होता है, अक्सर सेकंड बनाम मिलीसेकंड को इंगित करता है।"
         }
       ],
       "visual": "code"
     },
     "hex-to-rgb-hsl-converter": {
-      "heroIntro": "Convert HEX color codes into CSS RGB, RGBA, and HSL formats.",
-      "intro": "Convert HEX color codes into CSS RGB, RGBA, and HSL formats. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "HEX कलर कोड को CSS RGB, RGBA और HSL फॉर्मेट में बदलें।",
+      "intro": "HEX कलर कोड को CSS RGB, RGBA और HSL फॉर्मेट में बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open HEX से RGB कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "HEX से RGB कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off hex to rgb converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert a design HEX color to CSS RGB.",
-        "Create an RGBA value with transparency.",
-        "Inspect HSL values for a color system."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ़ हेक्स से आरजीबी कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "एक डिज़ाइन HEX रंग को CSS RGB में बदलें।",
+        "पारदर्शिता के साथ RGBA मान बनाएँ।",
+        "रंग प्रणाली के लिए एचएसएल मानों का निरीक्षण करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Dropping the alpha channel.",
-        "Avoid: Confusing 3-digit and 6-digit HEX shorthand.",
-        "Avoid: Assuming displayed colors are identical across every device."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: अल्फा चैनल को गिराना।",
+        "बचें: भ्रमित करने वाले 3-अंकीय और 6-अंकीय HEX शॉर्टहैंड।",
+        "बचें: यह मानते हुए कि प्रदर्शित रंग हर डिवाइस में समान हैं।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is HEX से RGB कन्वर्टर used for?",
-          "a": "Convert HEX color codes into CSS RGB, RGBA, and HSL formats. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "HEX से RGB कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "HEX कलर कोड को CSS RGB, RGBA और HSL फॉर्मेट में बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does HEX से RGB कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "HEX से RGB कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use HEX से RGB कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं HEX से RGB कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does HEX से RGB कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या HEX से RGB कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from HEX से RGB कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "HEX से RGB कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can HEX be converted to RGB and HSL?",
-          "a": "Yes. A HEX color can be represented as RGB, RGBA, and HSL values for CSS and design workflows."
+          "q": "क्या HEX को RGB और HSL में बदला जा सकता है?",
+          "a": "हाँ. CSS और डिज़ाइन वर्कफ़्लो के लिए HEX रंग को RGB, RGBA और HSL मानों के रूप में दर्शाया जा सकता है।"
         }
       ],
       "visual": "code"
     },
     "url-component-encoder-decoder": {
-      "heroIntro": "Safely encode or decode URL query strings and URI parameters.",
-      "intro": "Safely encode or decode URL query strings and URI parameters. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "यूआरएल क्वेरी स्ट्रिंग और यूआरआई पैरामीटर को सुरक्षित रूप से एनकोड या डीकोड करें।",
+      "intro": "यूआरएल क्वेरी स्ट्रिंग और यूआरआई पैरामीटर को सुरक्षित रूप से एनकोड या डीकोड करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open URL एनकोडर और डिकोडर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "URL एनकोडर और डिकोडर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off url encoder decoder tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Encode a query parameter safely.",
-        "Decode percent-encoded text during debugging.",
-        "Inspect a URL component without changing the rest of the URL."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूआरएल एनकोडर डिकोडर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "क्वेरी पैरामीटर को सुरक्षित रूप से एन्कोड करें।",
+        "डिबगिंग के दौरान प्रतिशत-एन्कोडेड टेक्स्ट को डिकोड करें।",
+        "शेष यूआरएल को बदले बिना यूआरएल घटक का निरीक्षण करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Encoding an entire URL when only a component should be encoded.",
-        "Avoid: Double-encoding values.",
-        "Avoid: Confusing URL encoding with Base64."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: संपूर्ण URL को एन्कोड करना जबकि केवल एक घटक को एन्कोड किया जाना चाहिए।",
+        "बचें: डबल-एन्कोडिंग मान।",
+        "बचें: बेस64 के साथ भ्रमित करने वाली यूआरएल एन्कोडिंग।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is URL एनकोडर और डिकोडर used for?",
-          "a": "Safely encode or decode URL query strings and URI parameters. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "URL एनकोडर और डिकोडर का उपयोग किसके लिए किया जाता है?",
+          "a": "यूआरएल क्वेरी स्ट्रिंग और यूआरआई पैरामीटर को सुरक्षित रूप से एनकोड या डीकोड करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does URL एनकोडर और डिकोडर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "URL एनकोडर और डिकोडर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use URL एनकोडर और डिकोडर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं URL एनकोडर और डिकोडर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does URL एनकोडर और डिकोडर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या URL एनकोडर और डिकोडर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from URL एनकोडर और डिकोडर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "URL एनकोडर और डिकोडर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What is URL encoding used for?",
-          "a": "URL encoding represents characters that have special meaning or are not safe in a URL component so they can be transported correctly."
+          "q": "यूआरएल एन्कोडिंग का उपयोग किसके लिए किया जाता है?",
+          "a": "यूआरएल एन्कोडिंग उन वर्णों का प्रतिनिधित्व करती है जिनका विशेष अर्थ है या यूआरएल घटक में सुरक्षित नहीं हैं ताकि उन्हें सही ढंग से ले जाया जा सके।"
         }
       ],
       "visual": "code"
     },
     "jwt-token-inspector": {
-      "heroIntro": "Decode JSON Web Tokens and view payload claims locally.",
-      "intro": "Decode JSON Web Tokens and view payload claims locally. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "JSON वेब टोकन को डिकोड करें और पेलोड दावों को स्थानीय रूप से देखें।",
+      "intro": "JSON वेब टोकन को डिकोड करें और पेलोड दावों को स्थानीय रूप से देखें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open JWT Decoder and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "JWT Decoder खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off jwt decoder tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Inspect claims in a development JWT.",
-        "Decode a token during API debugging.",
-        "Check header and payload structure."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी जेडब्ल्यूटी डिकोडर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "विकास JWT में दावों का निरीक्षण करें।",
+        "एपीआई डिबगिंग के दौरान एक टोकन को डिकोड करें।",
+        "हेडर और पेलोड संरचना की जाँच करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Treating decoded claims as verified claims.",
-        "Avoid: Pasting production tokens into public tools.",
-        "Avoid: Assuming decoding reveals the signing secret."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: डिकोड किए गए दावों को सत्यापित दावों के रूप में मानें।",
+        "बचें: सार्वजनिक उपकरणों में उत्पादन टोकन चिपकाने से बचें।",
+        "बचें: मान लें कि डिकोडिंग से हस्ताक्षर करने का रहस्य उजागर हो जाता है।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is JWT Decoder used for?",
-          "a": "Decode JSON Web Tokens and view payload claims locally. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "JWT Decoder का उपयोग किसके लिए किया जाता है?",
+          "a": "JSON वेब टोकन को डिकोड करें और पेलोड दावों को स्थानीय रूप से देखें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does JWT Decoder work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "JWT Decoder कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use JWT Decoder for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं JWT Decoder का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does JWT Decoder require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या JWT Decoder को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from JWT Decoder?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "JWT Decoder से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does a JWT decoder verify a token signature?",
-          "a": "Decoding a JWT reveals its encoded header and payload; it does not by itself prove that the token is authentic. Signature verification requires the appropriate key and validation rules."
+          "q": "क्या JWT डिकोडर टोकन हस्ताक्षर को सत्यापित करता है?",
+          "a": "JWT को डिकोड करने से इसके एन्कोडेड हेडर और पेलोड का पता चलता है; यह अपने आप में यह साबित नहीं करता कि टोकन प्रामाणिक है। हस्ताक्षर सत्यापन के लिए उपयुक्त कुंजी और सत्यापन नियमों की आवश्यकता होती है।"
         }
       ],
       "visual": "code"
     },
     "uuid-guid-v4-generator": {
-      "heroIntro": "Generate random UUID v4 identifiers in bulk for development and testing.",
-      "intro": "Generate random UUID v4 identifiers in bulk for development and testing. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "विकास और परीक्षण के लिए थोक में यादृच्छिक यूयूआईडी v4 पहचानकर्ता उत्पन्न करें।",
+      "intro": "विकास और परीक्षण के लिए थोक में यादृच्छिक यूयूआईडी v4 पहचानकर्ता उत्पन्न करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open UUID जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "UUID जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off uuid generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Generate IDs for database test data.",
-        "Create unique identifiers for development fixtures.",
-        "Produce a batch of UUID v4 values."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूयूआईडी जनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "डेटाबेस परीक्षण डेटा के लिए आईडी जेनरेट करें।",
+        "विकास फिक्स्चर के लिए विशिष्ट पहचानकर्ता बनाएं।",
+        "UUID v4 मानों का एक बैच तैयार करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Using generated UUIDs as secrets without considering the security model.",
-        "Avoid: Assuming uniqueness is an absolute mathematical guarantee.",
-        "Avoid: Using the wrong UUID version for a system requirement."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: सुरक्षा मॉडल पर विचार किए बिना उत्पन्न यूयूआईडी को रहस्य के रूप में उपयोग करना।",
+        "बचें: विशिष्टता मानना एक पूर्ण गणितीय गारंटी है।",
+        "बचें: सिस्टम आवश्यकता के लिए गलत यूयूआईडी संस्करण का उपयोग करना।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is UUID जनरेटर used for?",
-          "a": "Generate random UUID v4 identifiers in bulk for development and testing. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "UUID जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "विकास और परीक्षण के लिए थोक में यादृच्छिक यूयूआईडी v4 पहचानकर्ता उत्पन्न करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does UUID जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "UUID जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use UUID जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं UUID जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does UUID जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या UUID जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from UUID जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "UUID जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What is UUID v4?",
-          "a": "UUID version 4 is a randomly generated UUID variant commonly used when an application needs a practical identifier without encoding application-specific meaning."
+          "q": "यूयूआईडी v4 क्या है?",
+          "a": "यूयूआईडी संस्करण 4 एक बेतरतीब ढंग से उत्पन्न यूयूआईडी संस्करण है जिसका उपयोग आमतौर पर तब किया जाता है जब किसी एप्लिकेशन को एप्लिकेशन-विशिष्ट अर्थ को एन्कोड किए बिना व्यावहारिक पहचानकर्ता की आवश्यकता होती है।"
         }
       ],
       "visual": "code"
     },
     "strong-password-generator": {
-      "heroIntro": "Generate customizable, high-entropy random passwords.",
-      "intro": "Generate customizable, high-entropy random passwords. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "अनुकूलन योग्य, उच्च-एन्ट्रॉपी यादृच्छिक पासवर्ड उत्पन्न करें।",
+      "intro": "अनुकूलन योग्य, उच्च-एन्ट्रॉपी यादृच्छिक पासवर्ड उत्पन्न करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open पासवर्ड जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "पासवर्ड जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off password generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Create a random password for a new account.",
-        "Generate separate credentials for test environments.",
-        "Create high-entropy strings with selected character rules."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ़ पासवर्ड जेनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "नए खाते के लिए एक यादृच्छिक पासवर्ड बनाएं.",
+        "परीक्षण वातावरण के लिए अलग क्रेडेंशियल उत्पन्न करें।",
+        "चयनित वर्ण नियमों के साथ उच्च-एन्ट्रॉपी स्ट्रिंग बनाएं।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Reusing generated passwords across accounts.",
-        "Avoid: Saving the password in plain text.",
-        "Avoid: Including predictable custom patterns when strong randomness is the goal."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: सभी खातों में जनरेट किए गए पासवर्ड का पुन: उपयोग करना।",
+        "बचें: पासवर्ड को सादे पाठ में सहेजना।",
+        "बचें: जब मजबूत यादृच्छिकता लक्ष्य हो तो पूर्वानुमानित कस्टम पैटर्न शामिल करना।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is पासवर्ड जनरेटर used for?",
-          "a": "Generate customizable, high-entropy random passwords. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "पासवर्ड जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "अनुकूलन योग्य, उच्च-एन्ट्रॉपी यादृच्छिक पासवर्ड उत्पन्न करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does पासवर्ड जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "पासवर्ड जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use पासवर्ड जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं पासवर्ड जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does पासवर्ड जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या पासवर्ड जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from पासवर्ड जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "पासवर्ड जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Should generated passwords be reused?",
-          "a": "No. Use a unique password for each account and store it in a trusted password manager when appropriate."
+          "q": "क्या जनरेट किए गए पासवर्ड का पुन: उपयोग किया जाना चाहिए?",
+          "a": "नहीं, प्रत्येक खाते के लिए एक अद्वितीय पासवर्ड का उपयोग करें और उपयुक्त होने पर इसे किसी विश्वसनीय पासवर्ड मैनेजर में संग्रहीत करें।"
         }
       ],
       "visual": "code"
     },
     "user-agent-string-parser": {
-      "heroIntro": "Parse user-agent strings to identify reported browser, rendering engine, operating system, and device details.",
-      "intro": "Parse user-agent strings to identify reported browser, rendering engine, operating system, and device details. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This developer utility targets a repeatable workflow that commonly appears during API work, debugging, frontend or backend development, testing, and data preparation.",
+      "heroIntro": "रिपोर्ट किए गए ब्राउज़र, रेंडरिंग इंजन, ऑपरेटिंग सिस्टम और डिवाइस विवरण की पहचान करने के लिए उपयोगकर्ता-एजेंट स्ट्रिंग को पार्स करें।",
+      "intro": "रिपोर्ट किए गए ब्राउज़र, रेंडरिंग इंजन, ऑपरेटिंग सिस्टम और डिवाइस विवरण की पहचान करने के लिए उपयोगकर्ता-एजेंट स्ट्रिंग को पार्स करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
-        "Open User Agent पार्सर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "User Agent पार्सर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off user agent parser tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Inspect a browser user-agent during debugging.",
-        "Understand reported operating-system and browser tokens.",
-        "Analyze sample logs without exposing private user data."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त उपयोगकर्ता एजेंट पार्सर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "डिबगिंग के दौरान ब्राउज़र उपयोगकर्ता-एजेंट का निरीक्षण करें।",
+        "रिपोर्ट किए गए ऑपरेटिंग सिस्टम और ब्राउज़र टोकन को समझें।",
+        "निजी उपयोगकर्ता डेटा को उजागर किए बिना नमूना लॉग का विश्लेषण करें।"
       ],
       "tips": [
-        "Validate transformed data before committing it.",
-        "Include edge cases and malformed input during testing.",
-        "Never paste production secrets or private customer data.",
-        "Avoid: Treating user-agent detection as authoritative identity.",
-        "Avoid: Assuming a user-agent uniquely identifies a device.",
-        "Avoid: Using it as the only security control."
+        "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
+        "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
+        "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
+        "बचें: उपयोगकर्ता-एजेंट की पहचान को आधिकारिक पहचान के रूप में मानें।",
+        "बचें: यह मानते हुए कि उपयोगकर्ता-एजेंट विशिष्ट रूप से किसी डिवाइस की पहचान करता है।",
+        "बचें: इसे एकमात्र सुरक्षा नियंत्रण के रूप में उपयोग करें।"
       ],
       "limitations": [
-        "Output follows the syntax and rules supported by the tool.",
-        "Special encodings or implementation-specific extensions can differ in production.",
-        "Security-sensitive output should be verified with trusted project tooling."
+        "आउटपुट टूल द्वारा समर्थित सिंटैक्स और नियमों का पालन करता है।",
+        "विशेष एन्कोडिंग या कार्यान्वयन-विशिष्ट एक्सटेंशन उत्पादन में भिन्न हो सकते हैं।",
+        "सुरक्षा-संवेदनशील आउटपुट को विश्वसनीय प्रोजेक्ट टूलींग से सत्यापित किया जाना चाहिए।"
       ],
       "faq": [
         {
-          "q": "What is User Agent पार्सर used for?",
-          "a": "Parse user-agent strings to identify reported browser, rendering engine, operating system, and device details. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "User Agent पार्सर का उपयोग किसके लिए किया जाता है?",
+          "a": "रिपोर्ट किए गए ब्राउज़र, रेंडरिंग इंजन, ऑपरेटिंग सिस्टम और डिवाइस विवरण की पहचान करने के लिए उपयोगकर्ता-एजेंट स्ट्रिंग को पार्स करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does User Agent पार्सर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "User Agent पार्सर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use User Agent पार्सर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं User Agent पार्सर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does User Agent पार्सर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या User Agent पार्सर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from User Agent पार्सर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "User Agent पार्सर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can a user-agent string identify a user?",
-          "a": "No. It reports client-declared information and can be changed or spoofed. It should not be treated as a reliable identity or security credential."
+          "q": "क्या उपयोगकर्ता-एजेंट स्ट्रिंग किसी उपयोगकर्ता की पहचान कर सकती है?",
+          "a": "नहीं, यह ग्राहक द्वारा घोषित जानकारी की रिपोर्ट करता है और इसे बदला या धोखा दिया जा सकता है। इसे एक विश्वसनीय पहचान या सुरक्षा क्रेडेंशियल के रूप में नहीं माना जाना चाहिए।"
         }
       ],
       "visual": "code"
     },
     "word-character-counter": {
-      "heroIntro": "Count real-time words, characters, sentences, paragraphs, and reading duration.",
-      "intro": "Count real-time words, characters, sentences, paragraphs, and reading duration. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "वास्तविक समय के शब्दों, वर्णों, वाक्यों, पैराग्राफों और पढ़ने की अवधि की गणना करें।",
+      "intro": "वास्तविक समय के शब्दों, वर्णों, वाक्यों, पैराग्राफों और पढ़ने की अवधि की गणना करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open वर्ड काउंटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "वर्ड काउंटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off word counter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Check an essay or assignment length.",
-        "Measure copy against a character limit.",
-        "Estimate reading time for an article draft."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त शब्द काउंटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "निबंध या असाइनमेंट की लंबाई की जाँच करें।",
+        "प्रतिलिपि को किसी वर्ण सीमा के विरुद्ध मापें.",
+        "किसी लेख के मसौदे को पढ़ने के समय का अनुमान लगाएं।"
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Assuming every platform counts words identically.",
-        "Avoid: Ignoring whitespace or Unicode behavior.",
-        "Avoid: Using a character count where a byte limit is required."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: यह मानते हुए कि प्रत्येक प्लेटफ़ॉर्म शब्दों को समान रूप से गिनता है।",
+        "बचें: रिक्त स्थान या यूनिकोड व्यवहार को अनदेखा करना।",
+        "बचें: जहां बाइट सीमा की आवश्यकता हो वहां वर्ण गणना का उपयोग करना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन हर अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is वर्ड काउंटर used for?",
-          "a": "Count real-time words, characters, sentences, paragraphs, and reading duration. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "वर्ड काउंटर का उपयोग किसके लिए किया जाता है?",
+          "a": "वास्तविक समय के शब्दों, वर्णों, वाक्यों, पैराग्राफों और पढ़ने की अवधि की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does वर्ड काउंटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "वर्ड काउंटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use वर्ड काउंटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं वर्ड काउंटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does वर्ड काउंटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या वर्ड काउंटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from वर्ड काउंटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "वर्ड काउंटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why can word counts differ between tools?",
-          "a": "Different tools can use different rules for punctuation, whitespace, Unicode text, contractions, and line breaks. Use the counting convention required by the destination platform."
+          "q": "विभिन्न उपकरणों में शब्द गणना भिन्न क्यों हो सकती है?",
+          "a": "विभिन्न उपकरण विराम चिह्न, रिक्त स्थान, यूनिकोड पाठ, संकुचन और पंक्ति विराम के लिए विभिन्न नियमों का उपयोग कर सकते हैं। गंतव्य प्लेटफ़ॉर्म के लिए आवश्यक गणना पद्धति का उपयोग करें।"
         }
       ],
       "visual": "text"
     },
     "text-case-converter": {
-      "heroIntro": "Instantly transform text into UPPERCASE, lowercase, Title Case, and camelCase.",
-      "intro": "Instantly transform text into UPPERCASE, lowercase, Title Case, and camelCase. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "टेक्स्ट को तुरंत अपरकेस, लोअरकेस, टाइटल केस और कैमलकेस में बदलें।",
+      "intro": "टेक्स्ट को तुरंत अपरकेस, लोअरकेस, टाइटल केस और कैमलकेस में बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open टेक्स्ट केस कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "टेक्स्ट केस कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off text case converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert headings to Title Case.",
-        "Normalize imported text to lowercase.",
-        "Prepare identifiers or labels in a consistent case."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त टेक्स्ट केस कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "शीर्षकों को शीर्षक केस में बदलें.",
+        "आयातित पाठ को लोअरकेस में सामान्यीकृत करें।",
+        "सुसंगत मामले में पहचानकर्ता या लेबल तैयार करें।"
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Changing case inside code or case-sensitive identifiers.",
-        "Avoid: Expecting perfect language-aware capitalization.",
-        "Avoid: Applying a transformation without keeping the original."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: कोड या केस-संवेदी पहचानकर्ताओं के अंदर केस बदलना।",
+        "बचें: पूर्ण भाषा-जागरूक पूंजीकरण की अपेक्षा करना।",
+        "बचें: मूल को बनाए रखे बिना परिवर्तन लागू करना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is टेक्स्ट केस कन्वर्टर used for?",
-          "a": "Instantly transform text into UPPERCASE, lowercase, Title Case, and camelCase. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "टेक्स्ट केस कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "टेक्स्ट को तुरंत अपरकेस, लोअरकेस, टाइटल केस और कैमलकेस में बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does टेक्स्ट केस कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "टेक्स्ट केस कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use टेक्स्ट केस कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं टेक्स्ट केस कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does टेक्स्ट केस कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या टेक्स्ट केस कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from टेक्स्ट केस कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "टेक्स्ट केस कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can a case converter preserve the meaning of every proper noun?",
-          "a": "Case transformations are primarily mechanical. Proper nouns and language-specific capitalization should be reviewed after conversion."
+          "q": "क्या कोई केस परिवर्तक प्रत्येक व्यक्तिवाचक संज्ञा के अर्थ को सुरक्षित रख सकता है?",
+          "a": "केस परिवर्तन मुख्यतः यांत्रिक होते हैं। रूपांतरण के बाद व्यक्तिवाचक संज्ञा और भाषा-विशिष्ट पूंजीकरण की समीक्षा की जानी चाहिए।"
         }
       ],
       "visual": "text"
     },
     "remove-duplicate-lines": {
-      "heroIntro": "Clean lists and data arrays by removing repetitive text lines instantly.",
-      "intro": "Clean lists and data arrays by removing repetitive text lines instantly. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "दोहराई जाने वाली पाठ पंक्तियों को तुरंत हटाकर सूचियाँ और डेटा सारणी साफ़ करें।",
+      "intro": "दोहराई जाने वाली पाठ पंक्तियों को तुरंत हटाकर सूचियाँ और डेटा सारणी साफ़ करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open डुप्लिकेट लाइन हटाएँ and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "डुप्लिकेट लाइन हटाएँ खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off remove duplicate lines tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Clean a list of emails or IDs.",
-        "Deduplicate imported text data.",
-        "Remove repeated entries from a configuration list."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त डुप्लिकेट लाइनों को हटाने का कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "ईमेल या आईडी की सूची साफ़ करें.",
+        "आयातित पाठ डेटा को डुप्लिकेट करें।",
+        "कॉन्फ़िगरेशन सूची से बार-बार की गई प्रविष्टियाँ हटाएँ।"
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Removing duplicates when repeated lines are meaningful.",
-        "Avoid: Ignoring case sensitivity.",
-        "Avoid: Not checking whitespace differences."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: जब दोहराई गई पंक्तियाँ अर्थपूर्ण हों तो डुप्लिकेट हटाना।",
+        "बचें: केस संवेदनशीलता को नजरअंदाज करना।",
+        "बचें: रिक्त स्थान के अंतर की जाँच न करना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन हर अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is डुप्लिकेट लाइन हटाएँ used for?",
-          "a": "Clean lists and data arrays by removing repetitive text lines instantly. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "डुप्लिकेट लाइन हटाएँ का उपयोग किसके लिए किया जाता है?",
+          "a": "दोहराई जाने वाली पाठ पंक्तियों को तुरंत हटाकर सूचियाँ और डेटा सारणी साफ़ करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does डुप्लिकेट लाइन हटाएँ work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "डुप्लिकेट लाइन हटाएँ कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use डुप्लिकेट लाइन हटाएँ for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं डुप्लिकेट लाइन हटाएँ का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does डुप्लिकेट लाइन हटाएँ require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या डुप्लिकेट लाइन हटाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from डुप्लिकेट लाइन हटाएँ?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "डुप्लिकेट लाइन हटाएँ से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does removing duplicate lines consider case and spaces?",
-          "a": "The result depends on the tool’s comparison rules. Review capitalization and leading/trailing whitespace when exact deduplication matters."
+          "q": "क्या डुप्लिकेट लाइनें हटाने से केस और स्पेस पर विचार होता है?",
+          "a": "परिणाम उपकरण के तुलना नियमों पर निर्भर करता है। जब सटीक डिडुप्लीकेशन मायने रखता है तो पूंजीकरण और अग्रणी/अनुगामी रिक्त स्थान की समीक्षा करें।"
         }
       ],
       "visual": "text"
     },
     "lorem-ipsum-generator": {
-      "heroIntro": "Generate customizable placeholder text paragraphs and sentences for mockups.",
-      "intro": "Generate customizable placeholder text paragraphs and sentences for mockups. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "मॉकअप के लिए अनुकूलन योग्य प्लेसहोल्डर टेक्स्ट पैराग्राफ और वाक्य बनाएं।",
+      "intro": "मॉकअप के लिए अनुकूलन योग्य प्लेसहोल्डर टेक्स्ट पैराग्राफ और वाक्य बनाएं। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open Lorem Ipsum जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "Lorem Ipsum जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off lorem ipsum generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Fill a UI mockup with realistic text blocks.",
-        "Test typography and responsive layouts.",
-        "Prototype card and article layouts."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त लोरेम इप्सम जनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "यथार्थवादी टेक्स्ट ब्लॉक के साथ यूआई मॉकअप भरें।",
+        "टाइपोग्राफी और रिस्पॉन्सिव लेआउट का परीक्षण करें।",
+        "प्रोटोटाइप कार्ड और लेख लेआउट."
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Publishing placeholder text accidentally.",
-        "Avoid: Using placeholder copy to test semantics.",
-        "Avoid: Forgetting to replace it before launch."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: प्लेसहोल्डर टेक्स्ट को गलती से प्रकाशित करना।",
+        "बचें: शब्दार्थ का परीक्षण करने के लिए प्लेसहोल्डर कॉपी का उपयोग करना।",
+        "बचें: लॉन्च से पहले इसे बदलना भूल जाएं।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is Lorem Ipsum जनरेटर used for?",
-          "a": "Generate customizable placeholder text paragraphs and sentences for mockups. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "Lorem Ipsum जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "मॉकअप के लिए अनुकूलन योग्य प्लेसहोल्डर टेक्स्ट पैराग्राफ और वाक्य बनाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does Lorem Ipsum जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "Lorem Ipsum जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use Lorem Ipsum जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं Lorem Ipsum जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does Lorem Ipsum जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या Lorem Ipsum जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from Lorem Ipsum जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "Lorem Ipsum जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What is Lorem Ipsum used for?",
-          "a": "It provides placeholder text so designers and developers can evaluate layout, typography, and spacing before final copy is available."
+          "q": "लोरेम इप्सम का उपयोग किस लिए किया जाता है?",
+          "a": "यह प्लेसहोल्डर टेक्स्ट प्रदान करता है ताकि डिज़ाइनर और डेवलपर अंतिम प्रतिलिपि उपलब्ध होने से पहले लेआउट, टाइपोग्राफी और रिक्ति का मूल्यांकन कर सकें।"
         }
       ],
       "visual": "text"
     },
     "markdown-to-html-converter": {
-      "heroIntro": "Write Markdown syntax and preview sanitized HTML output in real time.",
-      "intro": "Write Markdown syntax and preview sanitized HTML output in real time. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "मार्कडाउन सिंटैक्स लिखें और वास्तविक समय में स्वच्छ HTML आउटपुट का पूर्वावलोकन करें।",
+      "intro": "मार्कडाउन सिंटैक्स लिखें और वास्तविक समय में स्वच्छ HTML आउटपुट का पूर्वावलोकन करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open Markdown से HTML कन्वर्टर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "Markdown से HTML कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off markdown to html converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Preview Markdown as HTML.",
-        "Prepare documentation markup.",
-        "Check headings, lists, links, and code blocks before publishing."
+        "एक अलग उपयोगिता स्थापित किए बिना एचटीएमएल कनवर्टर कार्यों के लिए त्वरित एकमुश्त मार्कडाउन।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "HTML के रूप में मार्कडाउन का पूर्वावलोकन करें।",
+        "दस्तावेज़ीकरण मार्कअप तैयार करें.",
+        "प्रकाशन से पहले शीर्षकों, सूचियों, लिंक और कोड ब्लॉक की जाँच करें।"
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Assuming Markdown output is automatically safe for every context.",
-        "Avoid: Mixing incompatible Markdown dialects.",
-        "Avoid: Skipping a rendered-output review."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: यह मानते हुए कि मार्कडाउन आउटपुट हर संदर्भ के लिए स्वचालित रूप से सुरक्षित है।",
+        "बचें: असंगत मार्कडाउन बोलियों का मिश्रण।",
+        "बचें: प्रस्तुत-आउटपुट समीक्षा को छोड़ना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is Markdown से HTML कन्वर्टर used for?",
-          "a": "Write Markdown syntax and preview sanitized HTML output in real time. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "Markdown से HTML कन्वर्टर का उपयोग किसके लिए किया जाता है?",
+          "a": "मार्कडाउन सिंटैक्स लिखें और वास्तविक समय में स्वच्छ HTML आउटपुट का पूर्वावलोकन करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does Markdown से HTML कन्वर्टर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "Markdown से HTML कन्वर्टर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use Markdown से HTML कन्वर्टर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं Markdown से HTML कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does Markdown से HTML कन्वर्टर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या Markdown से HTML कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from Markdown से HTML कन्वर्टर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "Markdown से HTML कन्वर्टर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can Markdown be converted to HTML?",
-          "a": "Yes. Supported Markdown syntax can be rendered as HTML, but the exact output depends on the Markdown rules implemented by the converter."
+          "q": "क्या मार्कडाउन को HTML में बदला जा सकता है?",
+          "a": "हाँ. समर्थित मार्कडाउन सिंटैक्स को HTML के रूप में प्रस्तुत किया जा सकता है, लेकिन सटीक आउटपुट कनवर्टर द्वारा लागू मार्कडाउन नियमों पर निर्भर करता है।"
         }
       ],
       "visual": "text"
     },
     "reverse-text-mirror-tool": {
-      "heroIntro": "Reverse string characters or word order with backwards text effects.",
-      "intro": "Reverse string characters or word order with backwards text effects. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "पाठ प्रभाव के साथ स्ट्रिंग वर्णों या शब्द क्रम को उल्टा करें।",
+      "intro": "पाठ प्रभाव के साथ स्ट्रिंग वर्णों या शब्द क्रम को उल्टा करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open रिवर्स टेक्स्ट जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "रिवर्स टेक्स्ट जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off reverse text generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Reverse a string for testing.",
-        "Reverse word order in a text experiment.",
-        "Create a simple mirrored-text effect."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी रिवर्स टेक्स्ट जेनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "परीक्षण के लिए एक स्ट्रिंग को उल्टा करें।",
+        "किसी पाठ प्रयोग में शब्द क्रम को उल्टा करें।",
+        "एक सरल प्रतिबिंबित-पाठ प्रभाव बनाएँ।"
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Using reversed text where Unicode grapheme clusters matter.",
-        "Avoid: Expecting language-aware reversal.",
-        "Avoid: Overwriting the source text."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: जहां यूनिकोड ग्रैफेम क्लस्टर मायने रखते हैं वहां उल्टे पाठ का उपयोग करें।",
+        "बचें: भाषा-जागरूक उलटफेर की उम्मीद करना।",
+        "बचें: स्रोत पाठ को ओवरराइट करना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is रिवर्स टेक्स्ट जनरेटर used for?",
-          "a": "Reverse string characters or word order with backwards text effects. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "रिवर्स टेक्स्ट जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "पाठ प्रभाव के साथ स्ट्रिंग वर्णों या शब्द क्रम को उल्टा करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does रिवर्स टेक्स्ट जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "रिवर्स टेक्स्ट जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use रिवर्स टेक्स्ट जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं रिवर्स टेक्स्ट जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does रिवर्स टेक्स्ट जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या रिवर्स टेक्स्ट जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from रिवर्स टेक्स्ट जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "रिवर्स टेक्स्ट जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can text be reversed by characters or words?",
-          "a": "The intended workflow can reverse text at the character or word level depending on the available option."
+          "q": "क्या पाठ को वर्णों या शब्दों से उलटा किया जा सकता है?",
+          "a": "इच्छित वर्कफ़्लो उपलब्ध विकल्प के आधार पर वर्ण या शब्द स्तर पर पाठ को उलट सकता है।"
         }
       ],
       "visual": "text"
     },
     "text-diff-checker": {
-      "heroIntro": "Compare two text blocks side-by-side to highlight added and removed text.",
-      "intro": "Compare two text blocks side-by-side to highlight added and removed text. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "जोड़े गए और हटाए गए टेक्स्ट को हाइलाइट करने के लिए दो टेक्स्ट ब्लॉकों की साथ-साथ तुलना करें।",
+      "intro": "जोड़े गए और हटाए गए टेक्स्ट को हाइलाइट करने के लिए दो टेक्स्ट ब्लॉकों की साथ-साथ तुलना करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open टेक्स्ट डिफ चेकर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "टेक्स्ट डिफ चेकर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off text diff checker tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Compare two document versions.",
-        "Review a code or configuration change.",
-        "Find missing or added lines in text."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त टेक्स्ट डिफ चेकर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "दो दस्तावेज़ संस्करणों की तुलना करें.",
+        "किसी कोड या कॉन्फ़िगरेशन परिवर्तन की समीक्षा करें.",
+        "पाठ में लुप्त या जोड़ी गई पंक्तियाँ ढूँढ़ें।"
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Comparing differently normalized whitespace.",
-        "Avoid: Assuming a visual diff proves semantic equivalence.",
-        "Avoid: Pasting confidential content."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: अलग-अलग सामान्यीकृत रिक्त स्थान की तुलना करना।",
+        "बचें: दृश्य अंतर मानने से अर्थ संबंधी तुल्यता साबित होती है।",
+        "बचें: गोपनीय सामग्री चिपकाना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is टेक्स्ट डिफ चेकर used for?",
-          "a": "Compare two text blocks side-by-side to highlight added and removed text. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "टेक्स्ट डिफ चेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "जोड़े गए और हटाए गए टेक्स्ट को हाइलाइट करने के लिए दो टेक्स्ट ब्लॉकों की साथ-साथ तुलना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does टेक्स्ट डिफ चेकर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "टेक्स्ट डिफ चेकर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use टेक्स्ट डिफ चेकर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं टेक्स्ट डिफ चेकर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does टेक्स्ट डिफ चेकर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या टेक्स्ट डिफ चेकर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from टेक्स्ट डिफ चेकर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "टेक्स्ट डिफ चेकर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What does a text diff checker show?",
-          "a": "It compares two text inputs and highlights differences such as additions, removals, or changed sections according to its comparison method."
+          "q": "टेक्स्ट डिफ चेकर क्या दिखाता है?",
+          "a": "यह दो टेक्स्ट इनपुट की तुलना करता है और इसकी तुलना पद्धति के अनुसार अंतर को जोड़ने, हटाने या बदले गए अनुभागों जैसे अंतरों पर प्रकाश डालता है।"
         }
       ],
       "visual": "text"
     },
     "alphabetical-line-sorter": {
-      "heroIntro": "Sort lists and lines alphabetically (A-Z, Z-A) or by string length.",
-      "intro": "Sort lists and lines alphabetically (A-Z, Z-A) or by string length. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "सूचियों और पंक्तियों को वर्णानुक्रम में (A-Z, Z-A) या स्ट्रिंग की लंबाई के अनुसार क्रमबद्ध करें।",
+      "intro": "सूचियों और पंक्तियों को वर्णानुक्रम में (A-Z, Z-A) या स्ट्रिंग की लंबाई के अनुसार क्रमबद्ध करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open अल्फाबेटिकल ऑर्डर टूल and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "अल्फाबेटिकल ऑर्डर टूल खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off alphabetical order tool tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Sort a list of names.",
-        "Order text lines for a data-cleaning task.",
-        "Sort by A-Z, Z-A, or supported length rules."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त वर्णमाला क्रम उपकरण कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "नामों की सूची क्रमबद्ध करें.",
+        "डेटा-क्लीनिंग कार्य के लिए टेक्स्ट पंक्तियाँ ऑर्डर करें।",
+        "A-Z, Z-A, या समर्थित लंबाई नियमों के अनुसार क्रमबद्ध करें।"
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Ignoring case and locale rules.",
-        "Avoid: Sorting numeric strings lexicographically when numeric order is intended.",
-        "Avoid: Changing meaningful original order."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: मामले और स्थानीय नियमों की अनदेखी करना।",
+        "बचें: जब संख्यात्मक क्रम का इरादा हो तो संख्यात्मक स्ट्रिंग को शब्दकोषीय रूप से क्रमबद्ध करना।",
+        "बचें: सार्थक मूल क्रम को बदलना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is अल्फाबेटिकल ऑर्डर टूल used for?",
-          "a": "Sort lists and lines alphabetically (A-Z, Z-A) or by string length. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "अल्फाबेटिकल ऑर्डर टूल का उपयोग किसके लिए किया जाता है?",
+          "a": "सूचियों और पंक्तियों को वर्णानुक्रम में (A-Z, Z-A) या स्ट्रिंग की लंबाई के अनुसार क्रमबद्ध करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does अल्फाबेटिकल ऑर्डर टूल work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "अल्फाबेटिकल ऑर्डर टूल कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use अल्फाबेटिकल ऑर्डर टूल for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं अल्फाबेटिकल ऑर्डर टूल का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does अल्फाबेटिकल ऑर्डर टूल require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या अल्फाबेटिकल ऑर्डर टूल को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from अल्फाबेटिकल ऑर्डर टूल?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "अल्फाबेटिकल ऑर्डर टूल से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I sort text in reverse alphabetical order?",
-          "a": "Yes, supported sorting modes can place lines from Z to A or use other available ordering rules."
+          "q": "क्या मैं पाठ को उल्टे वर्णमाला क्रम में क्रमबद्ध कर सकता हूँ?",
+          "a": "हां, समर्थित सॉर्टिंग मोड Z से A तक लाइनें लगा सकते हैं या अन्य उपलब्ध ऑर्डरिंग नियमों का उपयोग कर सकते हैं।"
         }
       ],
       "visual": "text"
     },
     "strip-html-tags": {
-      "heroIntro": "Clean raw HTML source code down to plain legible text strings.",
-      "intro": "Clean raw HTML source code down to plain legible text strings. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "कच्चे HTML स्रोत कोड को सादे सुपाठ्य पाठ स्ट्रिंग तक साफ़ करें।",
+      "intro": "कच्चे HTML स्रोत कोड को सादे सुपाठ्य पाठ स्ट्रिंग तक साफ़ करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open HTML टैग हटाएँ and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "HTML टैग हटाएँ खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off remove html tags tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Extract readable text from HTML snippets.",
-        "Clean markup copied from a web source.",
-        "Prepare plain text for another system."
+        "एक अलग उपयोगिता स्थापित किए बिना एचटीएमएल टैग हटाने के त्वरित एकमुश्त कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "HTML स्निपेट्स से पठनीय पाठ निकालें।",
+        "साफ़ मार्कअप एक वेब स्रोत से कॉपी किया गया।",
+        "किसी अन्य सिस्टम के लिए सादा पाठ तैयार करें."
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Expecting scripts or hidden content to become meaningful text.",
-        "Avoid: Removing markup without preserving required links or structure.",
-        "Avoid: Using stripped text as a secure sanitizer without validating the destination context."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: स्क्रिप्ट या छिपी हुई सामग्री से सार्थक पाठ बनने की अपेक्षा करना।",
+        "बचें: आवश्यक लिंक या संरचना को संरक्षित किए बिना मार्कअप हटाना।",
+        "बचें: गंतव्य संदर्भ को सत्यापित किए बिना सुरक्षित सैनिटाइज़र के रूप में छीने गए पाठ का उपयोग करना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is HTML टैग हटाएँ used for?",
-          "a": "Clean raw HTML source code down to plain legible text strings. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "HTML टैग हटाएँ का उपयोग किसके लिए किया जाता है?",
+          "a": "कच्चे HTML स्रोत कोड को सादे सुपाठ्य पाठ स्ट्रिंग तक साफ़ करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does HTML टैग हटाएँ work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "HTML टैग हटाएँ कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use HTML टैग हटाएँ for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं HTML टैग हटाएँ का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does HTML टैग हटाएँ require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या HTML टैग हटाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from HTML टैग हटाएँ?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "HTML टैग हटाएँ से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Does removing HTML tags make text safe for every application?",
-          "a": "No. Stripping tags is a transformation, not a universal security sanitizer. The destination context determines the required escaping or sanitization rules."
+          "q": "क्या HTML टैग हटाने से टेक्स्ट प्रत्येक एप्लिकेशन के लिए सुरक्षित हो जाता है?",
+          "a": "नहीं, स्ट्रिपिंग टैग एक परिवर्तन है, कोई सार्वभौमिक सुरक्षा सैनिटाइज़र नहीं। गंतव्य संदर्भ आवश्यक पलायन या स्वच्छता नियमों को निर्धारित करता है।"
         }
       ],
       "visual": "text"
     },
     "find-replace-text": {
-      "heroIntro": "Search and replace words or patterns across long text documents.",
-      "intro": "Search and replace words or patterns across long text documents. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This text utility is intended for repetitive cleanup, comparison, transformation, or generation tasks where manual editing is slower or more error-prone.",
+      "heroIntro": "लंबे टेक्स्ट दस्तावेज़ों में शब्द या पैटर्न खोजें और बदलें।",
+      "intro": "लंबे टेक्स्ट दस्तावेज़ों में शब्द या पैटर्न खोजें और बदलें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह पाठ उपयोगिता दोहराए जाने वाले सफ़ाई, तुलना, परिवर्तन, या पीढ़ी के कार्यों के लिए है जहां मैन्युअल संपादन धीमा या अधिक त्रुटि-प्रवण है।",
       "steps": [
-        "Open टेक्स्ट खोजें और बदलें and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "टेक्स्ट खोजें और बदलें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off find and replace text tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Rename repeated terms in a document.",
-        "Correct a consistent typo across a long text.",
-        "Replace a placeholder value in a template."
+        "एक अलग उपयोगिता स्थापित किए बिना टेक्स्ट कार्यों को त्वरित रूप से ढूंढें और बदलें।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी दस्तावेज़ में दोहराए गए शब्दों का नाम बदलें।",
+        "एक लंबे पाठ में सुसंगत टाइपो को ठीक करें।",
+        "टेम्पलेट में प्लेसहोल्डर मान बदलें."
       ],
       "tips": [
-        "Keep source text before destructive transformations.",
-        "Check whitespace, punctuation, Unicode characters, and line endings.",
-        "Proofread publishing output instead of relying only on automation.",
-        "Avoid: Replacing inside words unintentionally.",
-        "Avoid: Using case-sensitive rules without checking.",
-        "Avoid: Running a destructive replacement without a source copy."
+        "विनाशकारी परिवर्तनों से पहले स्रोत पाठ रखें।",
+        "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
+        "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
+        "बचें: अनजाने में अंदर के शब्दों को बदलना।",
+        "बचें: बिना जाँचे केस-संवेदी नियमों का उपयोग करना।",
+        "बचें: स्रोत प्रतिलिपि के बिना विनाशकारी प्रतिस्थापन चलाना।"
       ],
       "limitations": [
-        "Very large inputs can be constrained by browser memory.",
-        "Automated text transformation does not understand every semantic context.",
-        "Rich-text formatting may not survive plain-text workflows."
+        "ब्राउज़र मेमोरी द्वारा बहुत बड़े इनपुट को प्रतिबंधित किया जा सकता है।",
+        "स्वचालित पाठ परिवर्तन प्रत्येक अर्थ संबंधी संदर्भ को नहीं समझता है।",
+        "रिच-टेक्स्ट फ़ॉर्मेटिंग सादे-टेक्स्ट वर्कफ़्लोज़ में टिक नहीं सकती है।"
       ],
       "faq": [
         {
-          "q": "What is टेक्स्ट खोजें और बदलें used for?",
-          "a": "Search and replace words or patterns across long text documents. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "टेक्स्ट खोजें और बदलें का उपयोग किसके लिए किया जाता है?",
+          "a": "लंबे टेक्स्ट दस्तावेज़ों में शब्द या पैटर्न खोजें और बदलें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does टेक्स्ट खोजें और बदलें work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "टेक्स्ट खोजें और बदलें कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use टेक्स्ट खोजें और बदलें for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं टेक्स्ट खोजें और बदलें का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does टेक्स्ट खोजें और बदलें require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या टेक्स्ट खोजें और बदलें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from टेक्स्ट खोजें और बदलें?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "टेक्स्ट खोजें और बदलें से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can find and replace change multiple occurrences?",
-          "a": "Yes, the workflow is intended for repeated text replacement. Review the match rules before applying a broad replacement."
+          "q": "क्या अनेक घटनाओं में परिवर्तन को खोजा और बदला जा सकता है?",
+          "a": "हाँ, वर्कफ़्लो बार-बार पाठ प्रतिस्थापन के लिए अभिप्रेत है। व्यापक प्रतिस्थापन लागू करने से पहले मिलान नियमों की समीक्षा करें।"
         }
       ],
       "visual": "text"
     },
     "unit-length-converter": {
-      "heroIntro": "Convert between Meters, Kilometers, Miles, Feet, Inches, and Yards.",
-      "intro": "Convert between Meters, Kilometers, Miles, Feet, Inches, and Yards. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "मीटर, किलोमीटर, मील, फीट, इंच और गज के बीच कनवर्ट करें।",
+      "intro": "मीटर, किलोमीटर, मील, फीट, इंच और गज के बीच कनवर्ट करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open लंबाई and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "लंबाई खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off length converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert kilometers to miles for travel.",
-        "Convert feet and inches for measurements.",
-        "Convert metric dimensions to imperial units."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त लंबाई कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "यात्रा के लिए किलोमीटर को मील में बदलें।",
+        "माप के लिए फ़ीट और इंच को परिवर्तित करें।",
+        "मीट्रिक आयामों को शाही इकाइयों में बदलें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Mixing units in one calculation.",
-        "Avoid: Rounding too early.",
-        "Avoid: Using a conversion for a context-specific survey or engineering standard without verification."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: इकाइयों को एक गणना में मिलाने से।",
+        "बचें: बहुत जल्दी गोलाई करना।",
+        "बचें: सत्यापन के बिना संदर्भ-विशिष्ट सर्वेक्षण या इंजीनियरिंग मानक के लिए रूपांतरण का उपयोग करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is लंबाई used for?",
-          "a": "Convert between Meters, Kilometers, Miles, Feet, Inches, and Yards. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "लंबाई का उपयोग किसके लिए किया जाता है?",
+          "a": "मीटर, किलोमीटर, मील, फीट, इंच और गज के बीच कनवर्ट करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does लंबाई work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "लंबाई कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use लंबाई for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं लंबाई का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does लंबाई require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या लंबाई को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from लंबाई?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "लंबाई से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Which length units can I convert?",
-          "a": "The tool covers common units such as meters, kilometers, miles, feet, inches, and yards."
+          "q": "मैं कौन सी लंबाई की इकाइयों को परिवर्तित कर सकता हूं?",
+          "a": "यह उपकरण मीटर, किलोमीटर, मील, फुट, इंच और गज जैसी सामान्य इकाइयों को कवर करता है।"
         }
       ],
       "visual": "converter"
     },
     "weight-mass-converter": {
-      "heroIntro": "Convert Kilograms, Grams, Pounds (lbs), Ounces, and Metric Tons.",
-      "intro": "Convert Kilograms, Grams, Pounds (lbs), Ounces, and Metric Tons. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "किलोग्राम, ग्राम, पाउंड (पाउंड), औंस और मीट्रिक टन परिवर्तित करें।",
+      "intro": "किलोग्राम, ग्राम, पाउंड (पाउंड), औंस और मीट्रिक टन परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open वज़न and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "वज़न खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off weight converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert kilograms to pounds.",
-        "Convert grams to ounces for recipes.",
-        "Convert metric tons for logistics estimates."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त वजन कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किलोग्राम को पाउंड में बदलें.",
+        "व्यंजनों के लिए ग्राम को औंस में बदलें।",
+        "लॉजिस्टिक्स अनुमान के लिए मीट्रिक टन परिवर्तित करें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Confusing mass and force.",
-        "Avoid: Rounding before the final calculation.",
-        "Avoid: Using an approximate conversion where regulated precision is required."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: भ्रमित करने वाला द्रव्यमान और बल।",
+        "बचें: अंतिम गणना से पहले पूर्णांकन करें।",
+        "बचें: जहां विनियमित परिशुद्धता की आवश्यकता होती है वहां अनुमानित रूपांतरण का उपयोग करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is वज़न used for?",
-          "a": "Convert Kilograms, Grams, Pounds (lbs), Ounces, and Metric Tons. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "वज़न का उपयोग किसके लिए किया जाता है?",
+          "a": "किलोग्राम, ग्राम, पाउंड (पाउंड), औंस और मीट्रिक टन परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does वज़न work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "वज़न कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use वज़न for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं वज़न का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does वज़न require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या वज़न को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from वज़न?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "वज़न से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What is the difference between mass and weight?",
-          "a": "Mass measures the amount of matter, while weight is a force affected by gravity. Everyday conversion tools often label common mass units as weight units."
+          "q": "द्रव्यमान और भार में क्या अंतर है?",
+          "a": "द्रव्यमान पदार्थ की मात्रा को मापता है, जबकि भार गुरुत्वाकर्षण से प्रभावित एक बल है। रोजमर्रा के रूपांतरण उपकरण अक्सर सामान्य द्रव्यमान इकाइयों को वजन इकाइयों के रूप में लेबल करते हैं।"
         }
       ],
       "visual": "converter"
     },
     "temperature-converter": {
-      "heroIntro": "Instantly convert between Celsius (°C), Fahrenheit (°F), and Kelvin (K).",
-      "intro": "Instantly convert between Celsius (°C), Fahrenheit (°F), and Kelvin (K). This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "तुरंत सेल्सियस (°C), फ़ारेनहाइट (°F), और केल्विन (K) के बीच परिवर्तित करें।",
+      "intro": "तुरंत सेल्सियस (°C), फ़ारेनहाइट (°F), और केल्विन (K) के बीच परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open तापमान and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "तापमान खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off temperature converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert Celsius to Fahrenheit for weather.",
-        "Convert Fahrenheit to Celsius for cooking.",
-        "Convert Celsius or Fahrenheit to Kelvin for science."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी तापमान कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "मौसम के लिए सेल्सियस को फ़ारेनहाइट में बदलें।",
+        "खाना पकाने के लिए फ़ारेनहाइट को सेल्सियस में बदलें।",
+        "विज्ञान के लिए सेल्सियस या फ़ारेनहाइट को केल्विन में बदलें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Using a simple multiplication factor without the offset.",
-        "Avoid: Confusing temperature conversion with temperature difference conversion.",
-        "Avoid: Rounding too early."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: ऑफसेट के बिना एक साधारण गुणन कारक का उपयोग करना।",
+        "बचें: तापमान अंतर रूपांतरण के साथ भ्रमित करने वाला तापमान रूपांतरण।",
+        "बचें: बहुत जल्दी गोलाई करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is तापमान used for?",
-          "a": "Instantly convert between Celsius (°C), Fahrenheit (°F), and Kelvin (K). It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "तापमान का उपयोग किसके लिए किया जाता है?",
+          "a": "तुरंत सेल्सियस (°C), फ़ारेनहाइट (°F), और केल्विन (K) के बीच परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does तापमान work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "तापमान कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use तापमान for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं तापमान का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does तापमान require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या तापमान को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from तापमान?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "तापमान से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "How are Celsius and Fahrenheit converted?",
-          "a": "The conversion uses both a scale factor and an offset. For example, °F = °C × 9/5 + 32."
+          "q": "सेल्सियस और फ़ारेनहाइट को कैसे परिवर्तित किया जाता है?",
+          "a": "रूपांतरण स्केल फ़ैक्टर और ऑफ़सेट दोनों का उपयोग करता है। उदाहरण के लिए, °F = °C × 9/5 + 32."
         }
       ],
       "visual": "converter"
     },
     "data-size-converter": {
-      "heroIntro": "Calculate digital binary and decimal bytes (KB, MB, GB, TB, PB).",
-      "intro": "Calculate digital binary and decimal bytes (KB, MB, GB, TB, PB). This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "डिजिटल बाइनरी और दशमलव बाइट्स (केबी, एमबी, जीबी, टीबी, पीबी) की गणना करें।",
+      "intro": "डिजिटल बाइनरी और दशमलव बाइट्स (केबी, एमबी, जीबी, टीबी, पीबी) की गणना करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open डेटा साइज़ and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "डेटा साइज़ खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off data size converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert MB to GB for storage planning.",
-        "Compare file sizes across systems.",
-        "Convert bytes for upload or memory estimates."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त डेटा आकार कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "भंडारण योजना के लिए एमबी को जीबी में बदलें।",
+        "सभी सिस्टमों में फ़ाइल आकारों की तुलना करें।",
+        "अपलोड या मेमोरी अनुमान के लिए बाइट्स कनवर्ट करें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Confusing decimal and binary prefixes.",
-        "Avoid: Mixing bits and bytes.",
-        "Avoid: Assuming every operating system displays storage units the same way."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: भ्रमित करने वाले दशमलव और बाइनरी उपसर्ग।",
+        "बचें: बिट्स और बाइट्स को मिलाने से।",
+        "बचें: यह मानते हुए कि प्रत्येक ऑपरेटिंग सिस्टम स्टोरेज इकाइयों को उसी तरह प्रदर्शित करता है।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is डेटा साइज़ used for?",
-          "a": "Calculate digital binary and decimal bytes (KB, MB, GB, TB, PB). It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "डेटा साइज़ का उपयोग किसके लिए किया जाता है?",
+          "a": "डिजिटल बाइनरी और दशमलव बाइट्स (केबी, एमबी, जीबी, टीबी, पीबी) की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does डेटा साइज़ work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "डेटा साइज़ कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use डेटा साइज़ for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं डेटा साइज़ का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does डेटा साइज़ require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या डेटा साइज़ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from डेटा साइज़?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "डेटा साइज़ से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What is the difference between GB and GiB?",
-          "a": "GB is a decimal unit based on powers of 1000, while GiB is a binary unit based on powers of 1024. Always check which convention a system uses."
+          "q": "GB और GiB में क्या अंतर है?",
+          "a": "GB 1000 की शक्तियों पर आधारित एक दशमलव इकाई है, जबकि GiB 1024 की शक्तियों पर आधारित एक द्विआधारी इकाई है। हमेशा जांचें कि सिस्टम किस कन्वेंशन का उपयोग करता है।"
         }
       ],
       "visual": "converter"
     },
     "speed-velocity-converter": {
-      "heroIntro": "Convert km/h, mph, meters per second, knots, and Mach speeds.",
-      "intro": "Convert km/h, mph, meters per second, knots, and Mach speeds. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "किमी/घंटा, मील प्रति घंटे, मीटर प्रति सेकंड, समुद्री मील और मच गति को परिवर्तित करें।",
+      "intro": "किमी/घंटा, मील प्रति घंटे, मीटर प्रति सेकंड, समुद्री मील और मच गति को परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open स्पीड and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "स्पीड खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off speed converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert km/h to mph for travel.",
-        "Convert knots for marine or aviation contexts.",
-        "Convert meters per second for physics calculations."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त गति कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "यात्रा के लिए किमी/घंटा को मील प्रति घंटे में बदलें।",
+        "समुद्री या विमानन संदर्भों के लिए गांठें परिवर्तित करें।",
+        "भौतिकी गणना के लिए मीटर प्रति सेकंड परिवर्तित करें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Confusing speed with acceleration.",
-        "Avoid: Rounding too early.",
-        "Avoid: Using Mach without specifying the relevant speed-of-sound conditions."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: त्वरण के साथ भ्रमित करने वाली गति।",
+        "बचें: बहुत जल्दी गोलाई करना।",
+        "बचें: प्रासंगिक ध्वनि की गति की स्थितियों को निर्दिष्ट किए बिना मैक का उपयोग करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is स्पीड used for?",
-          "a": "Convert km/h, mph, meters per second, knots, and Mach speeds. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "स्पीड का उपयोग किसके लिए किया जाता है?",
+          "a": "किमी/घंटा, मील प्रति घंटे, मीटर प्रति सेकंड, समुद्री मील और मच गति को परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does स्पीड work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "स्पीड कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use स्पीड for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं स्पीड का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does स्पीड require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या स्पीड को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from स्पीड?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "स्पीड से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I convert km/h to mph?",
-          "a": "Yes. The tool supports common speed units including kilometers per hour and miles per hour."
+          "q": "क्या मैं किमी/घंटा को मील प्रति घंटे में बदल सकता हूँ?",
+          "a": "हाँ. यह उपकरण किलोमीटर प्रति घंटा और मील प्रति घंटा सहित सामान्य गति इकाइयों का समर्थन करता है।"
         }
       ],
       "visual": "converter"
     },
     "time-duration-converter": {
-      "heroIntro": "Convert common time units such as seconds, minutes, hours, days, weeks, months, and years.",
-      "intro": "Convert common time units such as seconds, minutes, hours, days, weeks, months, and years. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "सामान्य समय इकाइयों जैसे सेकंड, मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष को परिवर्तित करें।",
+      "intro": "सामान्य समय इकाइयों जैसे सेकंड, मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष को परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open समय and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "समय खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off time converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert minutes to hours.",
-        "Convert days to weeks for planning.",
-        "Convert seconds for programming or timing tasks."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त समय कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "मिनटों को घंटों में बदलें.",
+        "योजना बनाने के लिए दिनों को सप्ताहों में बदलें।",
+        "प्रोग्रामिंग या टाइमिंग कार्यों के लिए सेकंड बदलें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Treating a month as a fixed number of days.",
-        "Avoid: Confusing duration with a calendar date.",
-        "Avoid: Ignoring leap years when a calendar-aware calculation is required."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: एक महीने को दिनों की निश्चित संख्या मानने से बचें।",
+        "बचें: कैलेंडर तिथि के साथ भ्रमित करने वाली अवधि।",
+        "बचें: जब कैलेंडर-जागरूक गणना की आवश्यकता हो तो लीप वर्ष को अनदेखा करें।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is समय used for?",
-          "a": "Convert common time units such as seconds, minutes, hours, days, weeks, months, and years. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "समय का उपयोग किसके लिए किया जाता है?",
+          "a": "सामान्य समय इकाइयों जैसे सेकंड, मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष को परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does समय work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "समय कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use समय for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं समय का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does समय require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या समय को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from समय?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "समय से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is a month always the same number of days?",
-          "a": "No. Calendar months vary in length. Duration conversions involving months and years depend on the convention or reference date used."
+          "q": "क्या एक महीने में हमेशा दिनों की संख्या समान होती है?",
+          "a": "नहीं, कैलेंडर महीनों की लंबाई अलग-अलग होती है। महीनों और वर्षों से जुड़े अवधि रूपांतरण उपयोग की गई परंपरा या संदर्भ तिथि पर निर्भर करते हैं।"
         }
       ],
       "visual": "converter"
     },
     "area-land-converter": {
-      "heroIntro": "Convert common area units including square feet, square meters, acres, hectares, and Bigha.",
-      "intro": "Convert common area units including square feet, square meters, acres, hectares, and Bigha. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "वर्ग फुट, वर्ग मीटर, एकड़, हेक्टेयर और बीघा सहित सामान्य क्षेत्र इकाइयों को परिवर्तित करें।",
+      "intro": "वर्ग फुट, वर्ग मीटर, एकड़, हेक्टेयर और बीघा सहित सामान्य क्षेत्र इकाइयों को परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open क्षेत्रफल and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "क्षेत्रफल खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off area converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert square feet to square meters.",
-        "Convert acres to hectares.",
-        "Compare common land-area units."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ क्षेत्र कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "वर्ग फुट को वर्ग मीटर में बदलें.",
+        "एकड़ को हेक्टेयर में बदलें.",
+        "सामान्य भूमि-क्षेत्र इकाइयों की तुलना करें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Using a linear conversion factor for area.",
-        "Avoid: Assuming regional land units such as Bigha have one universal value.",
-        "Avoid: Rounding too early."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: क्षेत्र के लिए एक रैखिक रूपांतरण कारक का उपयोग करना।",
+        "बचें: यह मानते हुए कि बीघा जैसी क्षेत्रीय भूमि इकाइयों का एक सार्वभौमिक मूल्य है।",
+        "बचें: बहुत जल्दी गोलाई करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is क्षेत्रफल used for?",
-          "a": "Convert common area units including square feet, square meters, acres, hectares, and Bigha. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "क्षेत्रफल का उपयोग किसके लिए किया जाता है?",
+          "a": "वर्ग फुट, वर्ग मीटर, एकड़, हेक्टेयर और बीघा सहित सामान्य क्षेत्र इकाइयों को परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does क्षेत्रफल work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "क्षेत्रफल कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use क्षेत्रफल for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं क्षेत्रफल का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does क्षेत्रफल require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या क्षेत्रफल को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from क्षेत्रफल?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "क्षेत्रफल से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is Bigha the same size everywhere?",
-          "a": "No. Regional land units can vary by location. Verify the local legal or customary definition before using a converted value for a property transaction."
+          "q": "क्या बिगहा का आकार हर जगह एक जैसा है?",
+          "a": "नहीं, क्षेत्रीय भूमि इकाइयाँ स्थान के अनुसार भिन्न हो सकती हैं। संपत्ति लेनदेन के लिए परिवर्तित मूल्य का उपयोग करने से पहले स्थानीय कानूनी या प्रथागत परिभाषा को सत्यापित करें।"
         }
       ],
       "visual": "converter"
     },
     "pressure-unit-converter": {
-      "heroIntro": "Convert pressure units including Pascal (Pa), bar, PSI, and standard atmosphere (atm).",
-      "intro": "Convert pressure units including Pascal (Pa), bar, PSI, and standard atmosphere (atm). This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "पास्कल (पीए), बार, पीएसआई और मानक वायुमंडल (एटीएम) सहित दबाव इकाइयों को परिवर्तित करें।",
+      "intro": "पास्कल (पीए), बार, पीएसआई और मानक वायुमंडल (एटीएम) सहित दबाव इकाइयों को परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open प्रेशर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "प्रेशर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off pressure converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert PSI to bar for equipment specifications.",
-        "Convert Pascal to kPa for engineering work.",
-        "Convert atmospheric pressure units."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त दबाव कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "उपकरण विशिष्टताओं के लिए PSI को बार में बदलें।",
+        "इंजीनियरिंग कार्य के लिए पास्कल को kPa में बदलें।",
+        "वायुमंडलीय दबाव इकाइयों को परिवर्तित करें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Confusing gauge and absolute pressure.",
-        "Avoid: Ignoring reference conditions.",
-        "Avoid: Using rounded values in safety-critical calculations."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: भ्रमित करने वाला गेज और पूर्ण दबाव।",
+        "बचें: संदर्भ शर्तों की अनदेखी।",
+        "बचें: सुरक्षा-महत्वपूर्ण गणनाओं में गोलाकार मानों का उपयोग करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is प्रेशर used for?",
-          "a": "Convert pressure units including Pascal (Pa), bar, PSI, and standard atmosphere (atm). It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "प्रेशर का उपयोग किसके लिए किया जाता है?",
+          "a": "पास्कल (पीए), बार, पीएसआई और मानक वायुमंडल (एटीएम) सहित दबाव इकाइयों को परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does प्रेशर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "प्रेशर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use प्रेशर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं प्रेशर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does प्रेशर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या प्रेशर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from प्रेशर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "प्रेशर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "What is the difference between gauge and absolute pressure?",
-          "a": "Gauge pressure is measured relative to ambient pressure, while absolute pressure is measured relative to a vacuum reference. A unit conversion alone does not change that reference."
+          "q": "गेज और निरपेक्ष दबाव के बीच क्या अंतर है?",
+          "a": "गेज दबाव को परिवेशी दबाव के सापेक्ष मापा जाता है, जबकि निरपेक्ष दबाव को वैक्यूम संदर्भ के सापेक्ष मापा जाता है। केवल एक इकाई रूपांतरण उस संदर्भ को नहीं बदलता है।"
         }
       ],
       "visual": "converter"
     },
     "energy-work-converter": {
-      "heroIntro": "Convert energy units including joules, kilojoules, calories, kilocalories, and kilowatt-hours.",
-      "intro": "Convert energy units including joules, kilojoules, calories, kilocalories, and kilowatt-hours. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "जूल, किलोजूल, कैलोरी, किलोकैलोरी और किलोवाट-घंटे सहित ऊर्जा इकाइयों को परिवर्तित करें।",
+      "intro": "जूल, किलोजूल, कैलोरी, किलोकैलोरी और किलोवाट-घंटे सहित ऊर्जा इकाइयों को परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open ऊर्जा and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "ऊर्जा खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off energy converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert joules to calories.",
-        "Convert kWh for electricity-related comparisons.",
-        "Convert energy units in physics exercises."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऊर्जा कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "जूल को कैलोरी में बदलें।",
+        "बिजली से संबंधित तुलनाओं के लिए kWh परिवर्तित करें।",
+        "भौतिकी अभ्यासों में ऊर्जा इकाइयों को परिवर्तित करें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Confusing energy with power.",
-        "Avoid: Mixing nutritional Calories with small-calorie units.",
-        "Avoid: Rounding before the final calculation."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: ऊर्जा को शक्ति के साथ भ्रमित करने से।",
+        "बचें: पोषक कैलोरी को छोटी-कैलोरी इकाइयों के साथ मिलाने से।",
+        "बचें: अंतिम गणना से पहले पूर्णांकन करें।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is ऊर्जा used for?",
-          "a": "Convert energy units including joules, kilojoules, calories, kilocalories, and kilowatt-hours. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "ऊर्जा का उपयोग किसके लिए किया जाता है?",
+          "a": "जूल, किलोजूल, कैलोरी, किलोकैलोरी और किलोवाट-घंटे सहित ऊर्जा इकाइयों को परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does ऊर्जा work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "ऊर्जा कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use ऊर्जा for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं ऊर्जा का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does ऊर्जा require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या ऊर्जा को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from ऊर्जा?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "ऊर्जा से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Is kWh a unit of energy or power?",
-          "a": "Kilowatt-hour is a unit of energy. Kilowatt is a unit of power, describing the rate of energy use or transfer."
+          "q": "क्या kWh ऊर्जा या शक्ति की एक इकाई है?",
+          "a": "किलोवाट-घंटा ऊर्जा की एक इकाई है। किलोवाट शक्ति की एक इकाई है, जो ऊर्जा के उपयोग या स्थानांतरण की दर का वर्णन करती है।"
         }
       ],
       "visual": "converter"
     },
     "power-wattage-converter": {
-      "heroIntro": "Convert Watts, Kilowatts (kW), Megawatts, and Mechanical Horsepower.",
-      "intro": "Convert Watts, Kilowatts (kW), Megawatts, and Mechanical Horsepower. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This conversion workflow provides a direct relationship between defined units and is useful for study, travel, engineering, shopping, science, fitness, and everyday planning.",
+      "heroIntro": "वाट, किलोवाट (किलोवाट), मेगावाट और यांत्रिक अश्वशक्ति परिवर्तित करें।",
+      "intro": "वाट, किलोवाट (किलोवाट), मेगावाट और यांत्रिक अश्वशक्ति परिवर्तित करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह रूपांतरण वर्कफ़्लो परिभाषित इकाइयों के बीच सीधा संबंध प्रदान करता है और अध्ययन, यात्रा, इंजीनियरिंग, खरीदारी, विज्ञान, फिटनेस और रोजमर्रा की योजना के लिए उपयोगी है।",
       "steps": [
-        "Open पावर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "पावर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off power converter tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Convert watts to kilowatts.",
-        "Convert mechanical horsepower for equipment specifications.",
-        "Compare power ratings across units."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी पावर कनवर्टर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "वाट को किलोवाट में बदलें.",
+        "उपकरण विशिष्टताओं के लिए यांत्रिक अश्वशक्ति परिवर्तित करें।",
+        "सभी इकाइयों में बिजली रेटिंग की तुलना करें।"
       ],
       "tips": [
-        "Confirm source and target units.",
-        "Use significant figures appropriate to the source precision.",
-        "For regulated or engineering work, verify the required standard.",
-        "Avoid: Confusing power with energy.",
-        "Avoid: Using horsepower definitions without checking the convention.",
-        "Avoid: Applying a nominal conversion to a safety-critical system without verification."
+        "स्रोत और लक्ष्य इकाइयों की पुष्टि करें.",
+        "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
+        "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
+        "बचें: ऊर्जा के साथ शक्ति को भ्रमित करने से।",
+        "बचें: परिपाटी की जाँच किए बिना अश्वशक्ति परिभाषाओं का उपयोग करना।",
+        "बचें: सत्यापन के बिना सुरक्षा-महत्वपूर्ण प्रणाली में नाममात्र रूपांतरण लागू करना।"
       ],
       "limitations": [
-        "Accuracy depends on the implemented unit definitions.",
-        "Some units have context-specific conventions.",
-        "A correct conversion does not automatically make a value suitable for a technical application."
+        "सटीकता कार्यान्वित इकाई परिभाषाओं पर निर्भर करती है।",
+        "कुछ इकाइयों में संदर्भ-विशिष्ट परंपराएँ होती हैं।",
+        "एक सही रूपांतरण स्वचालित रूप से तकनीकी अनुप्रयोग के लिए उपयुक्त मूल्य नहीं बनाता है।"
       ],
       "faq": [
         {
-          "q": "What is पावर used for?",
-          "a": "Convert Watts, Kilowatts (kW), Megawatts, and Mechanical Horsepower. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "पावर का उपयोग किसके लिए किया जाता है?",
+          "a": "वाट, किलोवाट (किलोवाट), मेगावाट और यांत्रिक अश्वशक्ति परिवर्तित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does पावर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "पावर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use पावर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं पावर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does पावर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या पावर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from पावर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "पावर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "How are watts and kilowatts related?",
-          "a": "One kilowatt equals 1,000 watts. Power converters can also express the same power using units such as mechanical horsepower."
+          "q": "वाट और किलोवाट कैसे संबंधित हैं?",
+          "a": "एक किलोवाट 1,000 वाट के बराबर होता है। पावर कन्वर्टर्स मैकेनिकल हॉर्सपावर जैसी इकाइयों का उपयोग करके भी उसी शक्ति को व्यक्त कर सकते हैं।"
         }
       ],
       "visual": "converter"
     },
     "sip-wealth-calculator": {
-      "heroIntro": "Estimate SIP investment growth, total contributions, and future value using a monthly contribution and annual return assumption.",
-      "intro": "Estimate SIP investment growth, total contributions, and future value using a monthly contribution and annual return assumption. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A SIP calculator separates the amount you contribute from the estimated growth of those contributions. This makes it easier to see how contribution size, time, and an assumed return rate affect a projected future value.",
+      "heroIntro": "मासिक योगदान और वार्षिक रिटर्न धारणा का उपयोग करके एसआईपी निवेश वृद्धि, कुल योगदान और भविष्य के मूल्य का अनुमान लगाएं।",
+      "intro": "मासिक योगदान और वार्षिक रिटर्न धारणा का उपयोग करके एसआईपी निवेश वृद्धि, कुल योगदान और भविष्य के मूल्य का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक एसआईपी कैलकुलेटर आपके द्वारा योगदान की गई राशि को उन योगदानों की अनुमानित वृद्धि से अलग करता है। इससे यह देखना आसान हो जाता है कि योगदान का आकार, समय और अनुमानित रिटर्न दर अनुमानित भविष्य के मूल्य को कैसे प्रभावित करते हैं।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different sip calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare monthly contributions over 10, 15, or 20 years.",
-        "Test several assumed annual return rates.",
-        "Separate total contributions from projected growth."
+        "विभिन्न सिप कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "10, 15, या 20 वर्षों में मासिक योगदान की तुलना करें।",
+        "कई अनुमानित वार्षिक रिटर्न दरों का परीक्षण करें।",
+        "अनुमानित वृद्धि से कुल योगदान को अलग करें।"
       ],
       "tips": [
-        "Compare several contribution amounts.",
-        "Test conservative and optimistic return assumptions.",
-        "Treat the result as an estimate rather than a guaranteed investment outcome.",
-        "Avoid: Treating projected returns as guaranteed.",
-        "Avoid: Ignoring fees, taxes, inflation, or changing contributions.",
-        "Avoid: Comparing scenarios with inconsistent assumptions."
+        "कई योगदान राशियों की तुलना करें.",
+        "रूढ़िवादी और आशावादी रिटर्न धारणाओं का परीक्षण करें।",
+        "परिणाम को गारंटीकृत निवेश परिणाम के बजाय एक अनुमान के रूप में मानें।",
+        "बचें: अनुमानित रिटर्न को गारंटीशुदा मानने से बचें।",
+        "बचें: फीस, करों, मुद्रास्फीति, या बदलते योगदान को नजरअंदाज करना।",
+        "बचें: असंगत धारणाओं के साथ परिदृश्यों की तुलना करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is SIP कैलकुलेटर used for?",
-          "a": "Estimate SIP investment growth, total contributions, and future value using a monthly contribution and annual return assumption. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "SIP कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "मासिक योगदान और वार्षिक रिटर्न धारणा का उपयोग करके एसआईपी निवेश वृद्धि, कुल योगदान और भविष्य के मूल्य का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does SIP कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "SIP कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does SIP कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "SIP कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use SIP कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए SIP कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Does a SIP calculator guarantee the future value?",
-          "a": "No. It is a projection based on assumptions such as contribution amount, time, and assumed return. Actual investment performance can differ substantially."
+          "q": "क्या एसआईपी कैलकुलेटर भविष्य के मूल्य की गारंटी देता है?",
+          "a": "नहीं, यह योगदान राशि, समय और अनुमानित रिटर्न जैसी मान्यताओं पर आधारित एक प्रक्षेपण है। वास्तविक निवेश प्रदर्शन काफी भिन्न हो सकता है।"
         },
         {
-          "q": "Is SIP कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या SIP कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Future value ≈ P × [((1 + r)^n − 1) / r] × (1 + r), where P is the periodic contribution, r is the periodic assumed return, and n is the number of contributions."
+      "formula": "भविष्य का मूल्य ≈ P × [((1 + r)^n - 1) / r] × (1 + r), जहां P आवधिक योगदान है, r आवधिक कल्पित रिटर्न है, और n योगदान की संख्या है।"
     },
     "emi-calculator": {
-      "heroIntro": "Calculate monthly loan installments, total interest costs, and amortization schedules.",
-      "intro": "Calculate monthly loan installments, total interest costs, and amortization schedules. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An EMI calculator separates the effects of principal, interest rate, and tenure so loan scenarios can be compared before borrowing.",
+      "heroIntro": "मासिक ऋण किश्तों, कुल ब्याज लागत और ऋणशोधन कार्यक्रम की गणना करें।",
+      "intro": "मासिक ऋण किश्तों, कुल ब्याज लागत और ऋणशोधन कार्यक्रम की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "ईएमआई कैलकुलेटर मूलधन, ब्याज दर और कार्यकाल के प्रभावों को अलग करता है ताकि उधार लेने से पहले ऋण परिदृश्यों की तुलना की जा सके।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different emi calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare two loan tenures.",
-        "Estimate total interest for a home, vehicle, or personal loan.",
-        "Check how a rate change affects monthly EMI."
+        "विभिन्न ईएमआई कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "दो ऋण अवधियों की तुलना करें।",
+        "घर, वाहन या व्यक्तिगत ऋण के लिए कुल ब्याज का अनुमान लगाएं।",
+        "जांचें कि दर परिवर्तन मासिक ईएमआई को कैसे प्रभावित करता है।"
       ],
       "tips": [
-        "Compare total interest, not only monthly EMI.",
-        "Test a shorter tenure to understand the interest trade-off.",
-        "Use the lender quote for the final payable amount and charges.",
-        "Avoid: Comparing only EMI and ignoring total interest.",
-        "Avoid: Ignoring processing fees and other charges.",
-        "Avoid: Using a quoted annual rate without checking the lender’s calculation convention."
+        "केवल मासिक ईएमआई ही नहीं, बल्कि कुल ब्याज की तुलना करें।",
+        "ब्याज समझौते को समझने के लिए छोटी अवधि का परीक्षण करें।",
+        "अंतिम देय राशि और शुल्क के लिए ऋणदाता उद्धरण का उपयोग करें।",
+        "बचें: केवल ईएमआई की तुलना करना और कुल ब्याज को नजरअंदाज करना।",
+        "बचें: प्रोसेसिंग फीस और अन्य शुल्कों को नजरअंदाज करें।",
+        "बचें: ऋणदाता की गणना परंपरा की जांच किए बिना उद्धृत वार्षिक दर का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is EMI कैलकुलेटर used for?",
-          "a": "Calculate monthly loan installments, total interest costs, and amortization schedules. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "EMI कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "मासिक ऋण किश्तों, कुल ब्याज लागत और ऋणशोधन कार्यक्रम की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does EMI कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "EMI कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does EMI कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "EMI कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use EMI कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए EMI कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is EMI the same for every month?",
-          "a": "For a standard fixed-rate amortizing loan, the scheduled EMI can remain constant while the interest and principal portions change over time. Actual loan products can use different structures."
+          "q": "क्या हर महीने ईएमआई एक समान होती है?",
+          "a": "एक मानक निश्चित दर परिशोधन ऋण के लिए, निर्धारित ईएमआई स्थिर रह सकती है जबकि ब्याज और मूल भाग समय के साथ बदलते हैं। वास्तविक ऋण उत्पाद विभिन्न संरचनाओं का उपयोग कर सकते हैं।"
         },
         {
-          "q": "Is EMI कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या EMI कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "EMI = P × r × (1 + r)^n / [(1 + r)^n − 1], where P is principal, r is monthly interest rate, and n is the number of monthly payments."
+      "formula": "ईएमआई = पी × आर × (1 + आर)^एन / [(1 + आर)^एन - 1], जहां पी मूलधन है, आर मासिक ब्याज दर है, और एन मासिक भुगतान की संख्या है।"
     },
     "lumpsum-calculator": {
-      "heroIntro": "Estimate total maturity returns on one-time lumpsum mutual fund investments.",
-      "intro": "Estimate total maturity returns on one-time lumpsum mutual fund investments. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A lumpsum calculator illustrates how a one-time investment can change over time under an assumed return and compounding model.",
+      "heroIntro": "एकमुश्त म्यूचुअल फंड निवेश पर कुल परिपक्वता रिटर्न का अनुमान लगाएं।",
+      "intro": "एकमुश्त म्यूचुअल फंड निवेश पर कुल परिपक्वता रिटर्न का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एकमुश्त कैलकुलेटर दर्शाता है कि अनुमानित रिटर्न और कंपाउंडिंग मॉडल के तहत एकमुश्त निवेश समय के साथ कैसे बदल सकता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different lumpsum calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare one-time investments across different horizons.",
-        "Test several assumed return rates.",
-        "Separate initial principal from projected growth."
+        "विभिन्न एकमुश्त कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "विभिन्न क्षितिजों में एकमुश्त निवेश की तुलना करें।",
+        "कई अनुमानित रिटर्न दरों का परीक्षण करें।",
+        "प्रारंभिक मूलधन को अनुमानित वृद्धि से अलग करें।"
       ],
       "tips": [
-        "Change the investment horizon.",
-        "Compare several assumed return rates.",
-        "Do not treat an assumed return as guaranteed.",
-        "Avoid: Assuming the return is guaranteed.",
-        "Avoid: Ignoring taxes, fees, and inflation.",
-        "Avoid: Using a nominal return as a real return."
+        "निवेश का दायरा बदलें.",
+        "कई अनुमानित रिटर्न दरों की तुलना करें।",
+        "अनुमानित रिटर्न को गारंटीशुदा न मानें।",
+        "बचें: यह मानकर कि रिटर्न की गारंटी है।",
+        "बचें: करों, शुल्कों और मुद्रास्फीति को नज़रअंदाज करें।",
+        "बचें: वास्तविक रिटर्न के रूप में नाममात्र रिटर्न का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is Lumpsum कैलकुलेटर used for?",
-          "a": "Estimate total maturity returns on one-time lumpsum mutual fund investments. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "Lumpsum कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "एकमुश्त म्यूचुअल फंड निवेश पर कुल परिपक्वता रिटर्न का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does Lumpsum कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "Lumpsum कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does Lumpsum कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "Lumpsum कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use Lumpsum कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए Lumpsum कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How is a lumpsum investment different from a SIP?",
-          "a": "A lumpsum model starts with a one-time contribution, while a SIP model typically adds contributions periodically. The timing of contributions changes the projection."
+          "q": "एकमुश्त निवेश एसआईपी से कैसे अलग है?",
+          "a": "एकमुश्त मॉडल एक बार के योगदान से शुरू होता है, जबकि एक एसआईपी मॉडल आम तौर पर समय-समय पर योगदान जोड़ता है। योगदान का समय प्रक्षेपण को बदल देता है।"
         },
         {
-          "q": "Is Lumpsum कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या Lumpsum कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Future value = P × (1 + r)^n for a simplified annual-compounding model."
+      "formula": "सरलीकृत वार्षिक-कंपाउंडिंग मॉडल के लिए भविष्य का मूल्य = P × (1 + r)^n।"
     },
     "gst-calculator": {
-      "heroIntro": "Calculate inclusive and exclusive Goods and Services Tax (GST) for invoices.",
-      "intro": "Calculate inclusive and exclusive Goods and Services Tax (GST) for invoices. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A GST calculator makes invoice arithmetic easier by showing the tax component and resulting inclusive or exclusive amount.",
+      "heroIntro": "चालान के लिए समावेशी और विशिष्ट वस्तु एवं सेवा कर (जीएसटी) की गणना करें।",
+      "intro": "चालान के लिए समावेशी और विशिष्ट वस्तु एवं सेवा कर (जीएसटी) की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "जीएसटी कैलकुलेटर कर घटक और परिणामी समावेशी या विशिष्ट राशि दिखाकर चालान अंकगणित को आसान बनाता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different gst calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Add GST to a taxable invoice value.",
-        "Extract GST from an inclusive price.",
-        "Compare invoice totals under different GST rates."
+        "विभिन्न जीएसटी कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "कर योग्य चालान मूल्य में जीएसटी जोड़ें।",
+        "समावेशी मूल्य से जीएसटी निकालें।",
+        "विभिन्न जीएसटी दरों के तहत कुल चालान की तुलना करें।"
       ],
       "tips": [
-        "Confirm the applicable GST rate.",
-        "Keep original invoice values for records.",
-        "Use the calculator for arithmetic; it does not determine legal tax applicability.",
-        "Avoid: Using the wrong GST rate.",
-        "Avoid: Confusing inclusive and exclusive pricing.",
-        "Avoid: Treating arithmetic output as a determination of tax applicability."
+        "लागू जीएसटी दर की पुष्टि करें।",
+        "रिकॉर्ड के लिए मूल चालान मान रखें।",
+        "अंकगणित के लिए कैलकुलेटर का प्रयोग करें; यह कानूनी कर प्रयोज्यता निर्धारित नहीं करता है।",
+        "बचें: गलत जीएसटी दर का उपयोग करना।",
+        "बचें: भ्रामक समावेशी और विशिष्ट मूल्य निर्धारण।",
+        "बचें: अंकगणितीय आउटपुट को कर प्रयोज्यता के निर्धारण के रूप में मानें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is GST कैलकुलेटर used for?",
-          "a": "Calculate inclusive and exclusive Goods and Services Tax (GST) for invoices. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "GST कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "चालान के लिए समावेशी और विशिष्ट वस्तु एवं सेवा कर (जीएसटी) की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does GST कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "GST कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does GST कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "GST कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use GST कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए GST कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How do I calculate GST from an inclusive price?",
-          "a": "For a simple inclusive calculation, the GST component can be derived from the inclusive amount and applicable rate. Confirm the applicable tax treatment and rate for the actual transaction."
+          "q": "मैं समावेशी मूल्य से जीएसटी की गणना कैसे करूं?",
+          "a": "एक सरल समावेशी गणना के लिए, जीएसटी घटक को समावेशी राशि और लागू दर से प्राप्त किया जा सकता है। वास्तविक लेनदेन के लिए लागू कर उपचार और दर की पुष्टि करें।"
         },
         {
-          "q": "Is GST कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या GST कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "GST amount = taxable value × GST rate. For an inclusive price, the tax component can be derived as inclusive price × rate / (100 + rate)."
+      "formula": "जीएसटी राशि = कर योग्य मूल्य × जीएसटी दर। एक समावेशी मूल्य के लिए, कर घटक को समावेशी मूल्य × दर / (100 + दर) के रूप में प्राप्त किया जा सकता है।"
     },
     "salary-calculator": {
-      "heroIntro": "Estimate monthly take-home salary from gross monthly pay and the deductions you enter.",
-      "intro": "Estimate monthly take-home salary from gross monthly pay and the deductions you enter. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A salary calculator translates gross compensation into a planning estimate of monthly take-home pay.",
+      "heroIntro": "सकल मासिक वेतन और आपके द्वारा दर्ज की गई कटौतियों से मासिक टेक-होम वेतन का अनुमान लगाएं।",
+      "intro": "सकल मासिक वेतन और आपके द्वारा दर्ज की गई कटौतियों से मासिक टेक-होम वेतन का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक वेतन कैलकुलेटर सकल मुआवजे को मासिक टेक-होम वेतन के नियोजन अनुमान में परिवर्तित करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different salary calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Estimate monthly take-home from gross salary.",
-        "Compare two compensation structures.",
-        "Separate fixed pay, variable pay, and deductions for planning."
+        "विभिन्न वेतन कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "सकल वेतन से मासिक टेक-होम का अनुमान लगाएं।",
+        "दो मुआवजा संरचनाओं की तुलना करें।",
+        "नियोजन के लिए अलग-अलग निश्चित वेतन, परिवर्तनीय वेतन और कटौतियाँ।"
       ],
       "tips": [
-        "Enter only deductions that actually apply.",
-        "Check whether annual figures include variable pay or employer contributions.",
-        "Use the final payslip as the authoritative amount.",
-        "Avoid: Treating CTC as monthly take-home.",
-        "Avoid: Ignoring variable pay and employer contributions.",
-        "Avoid: Using generic deductions instead of actual payroll rules."
+        "केवल वही कटौतियाँ दर्ज करें जो वास्तव में लागू हों।",
+        "जांचें कि क्या वार्षिक आंकड़ों में परिवर्तनीय वेतन या नियोक्ता योगदान शामिल हैं।",
+        "अंतिम भुगतान पर्ची का उपयोग आधिकारिक राशि के रूप में करें।",
+        "बचें: सीटीसी को मासिक टेक-होम मानने से बचें।",
+        "बचें: परिवर्तनीय वेतन और नियोक्ता योगदान को नजरअंदाज करना।",
+        "बचें: वास्तविक पेरोल नियमों के बजाय सामान्य कटौतियों का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is सैलरी कैलकुलेटर used for?",
-          "a": "Estimate monthly take-home salary from gross monthly pay and the deductions you enter. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "सैलरी कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "सकल मासिक वेतन और आपके द्वारा दर्ज की गई कटौतियों से मासिक टेक-होम वेतन का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does सैलरी कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "सैलरी कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does सैलरी कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "सैलरी कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use सैलरी कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए सैलरी कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is salary calculator output the same as my payslip?",
-          "a": "Not necessarily. Payroll can include employer-specific benefits, statutory deductions, taxes, reimbursements, and variable components that a general calculator may not know."
+          "q": "क्या वेतन कैलकुलेटर का आउटपुट मेरी वेतन पर्ची के समान है?",
+          "a": "जरूरी नहीं. पेरोल में नियोक्ता-विशिष्ट लाभ, वैधानिक कटौती, कर, प्रतिपूर्ति और परिवर्तनीय घटक शामिल हो सकते हैं जो एक सामान्य कैलकुलेटर को नहीं पता हो सकता है।"
         },
         {
-          "q": "Is सैलरी कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या सैलरी कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Estimated take-home = gross pay − the deductions entered. Actual payroll can include employer-specific taxes, benefits, reimbursements, and statutory deductions."
+      "formula": "अनुमानित टेक-होम = सकल वेतन - दर्ज की गई कटौतियाँ। वास्तविक पेरोल में नियोक्ता-विशिष्ट कर, लाभ, प्रतिपूर्ति और वैधानिक कटौतियाँ शामिल हो सकती हैं।"
     },
     "fd-calculator": {
-      "heroIntro": "Calculate fixed deposit interest payout and total maturity sum over tenure.",
-      "intro": "Calculate fixed deposit interest payout and total maturity sum over tenure. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An FD calculator helps compare deposit amount, tenure, rate, and compounding assumptions before choosing a fixed-deposit scenario.",
+      "heroIntro": "अवधि के दौरान सावधि जमा ब्याज भुगतान और कुल परिपक्वता राशि की गणना करें।",
+      "intro": "अवधि के दौरान सावधि जमा ब्याज भुगतान और कुल परिपक्वता राशि की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक एफडी कैलकुलेटर निश्चित जमा परिदृश्य चुनने से पहले जमा राशि, कार्यकाल, दर और चक्रवृद्धि मान्यताओं की तुलना करने में मदद करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different fd calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare FD maturity for different tenures.",
-        "Estimate interest from a principal and rate.",
-        "Compare compounding assumptions."
+        "विभिन्न एफडी कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "विभिन्न अवधियों के लिए एफडी परिपक्वता की तुलना करें।",
+        "मूलधन और दर से ब्याज का अनुमान लगाएं।",
+        "मिश्रित धारणाओं की तुलना करें."
       ],
       "tips": [
-        "Verify the bank’s actual compounding frequency.",
-        "Check tax and premature-withdrawal terms.",
-        "Compare maturity value and liquidity, not just the quoted rate.",
-        "Avoid: Ignoring compounding frequency.",
-        "Avoid: Ignoring tax treatment or premature-closure rules.",
-        "Avoid: Treating the displayed rate as a guaranteed final return without checking bank terms."
+        "बैंक की वास्तविक कंपाउंडिंग आवृत्ति सत्यापित करें।",
+        "कर और समय से पहले निकासी की शर्तों की जाँच करें।",
+        "परिपक्वता मूल्य और तरलता की तुलना करें, न कि केवल उद्धृत दर की।",
+        "बचें: कंपाउंडिंग फ़्रीक्वेंसी को नज़रअंदाज करें।",
+        "बचें: कर उपचार या समय से पहले बंद करने के नियमों की अनदेखी।",
+        "बचें: बैंक की शर्तों की जांच किए बिना प्रदर्शित दर को गारंटीकृत अंतिम रिटर्न के रूप में मानने से बचें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is FD कैलकुलेटर used for?",
-          "a": "Calculate fixed deposit interest payout and total maturity sum over tenure. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "FD कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "अवधि के दौरान सावधि जमा ब्याज भुगतान और कुल परिपक्वता राशि की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does FD कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "FD कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does FD कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "FD कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use FD कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए FD कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is FD interest calculated the same way by every bank?",
-          "a": "Not necessarily. Banks can apply specific compounding, payout, tax, and premature-closure rules. Use the institution’s terms for the final amount."
+          "q": "क्या FD पर ब्याज की गणना हर बैंक द्वारा एक ही तरह से की जाती है?",
+          "a": "जरूरी नहीं. बैंक विशिष्ट कंपाउंडिंग, भुगतान, कर और समयपूर्व समापन नियम लागू कर सकते हैं। अंतिम राशि के लिए संस्था की शर्तों का उपयोग करें।"
         },
         {
-          "q": "Is FD कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या FD कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "For a simplified compound model, maturity ≈ P × (1 + r/m)^(m×t), where P is principal, r is annual rate, m is compounding frequency, and t is years."
+      "formula": "एक सरलीकृत यौगिक मॉडल के लिए, परिपक्वता ≈ P × (1 + r/m)^(m×t), जहां P मूलधन है, r वार्षिक दर है, m चक्रवृद्धि आवृत्ति है, और t वर्ष है।"
     },
     "rd-calculator": {
-      "heroIntro": "Estimate compounded interest gains on recurring monthly bank deposits.",
-      "intro": "Estimate compounded interest gains on recurring monthly bank deposits. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An RD calculator estimates how regular deposits can accumulate over a chosen period.",
+      "heroIntro": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं।",
+      "intro": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "आरडी कैलकुलेटर यह अनुमान लगाता है कि चुनी गई अवधि में नियमित जमा राशि कैसे जमा हो सकती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different rd calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Estimate maturity from a monthly deposit.",
-        "Compare recurring deposits over different tenures.",
-        "See how rate assumptions affect projected maturity."
+        "विभिन्न आरडी कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "मासिक जमा से परिपक्वता का अनुमान लगाएं।",
+        "विभिन्न अवधियों में आवर्ती जमा की तुलना करें।",
+        "देखें कि दर धारणाएँ अनुमानित परिपक्वता को कैसे प्रभावित करती हैं।"
       ],
       "tips": [
-        "Confirm the bank’s exact calculation method.",
-        "Check missed-installment and premature-closure rules.",
-        "Verify the estimate against the bank’s terms.",
-        "Avoid: Assuming all banks use identical RD formulas.",
-        "Avoid: Ignoring missed-installment penalties.",
-        "Avoid: Ignoring tax and premature-closure terms."
+        "बैंक की सटीक गणना पद्धति की पुष्टि करें।",
+        "छूटी हुई किश्त और समय से पहले बंद होने के नियमों की जाँच करें।",
+        "बैंक की शर्तों के अनुसार अनुमान सत्यापित करें.",
+        "बचें: यह मानते हुए कि सभी बैंक समान आरडी फॉर्मूले का उपयोग करते हैं।",
+        "बचें: छूटी हुई किश्त के जुर्माने को नज़रअंदाज़ करना।",
+        "बचें: कर और समय से पहले बंद करने की शर्तों को नजरअंदाज करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is RD कैलकुलेटर used for?",
-          "a": "Estimate compounded interest gains on recurring monthly bank deposits. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "RD कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does RD कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "RD कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does RD कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "RD कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use RD कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए RD कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How is RD different from FD?",
-          "a": "An RD generally involves periodic deposits, while an FD usually starts with a lump-sum deposit. The institution’s exact interest calculation and terms determine the final amount."
+          "q": "आरडी एफडी से कैसे अलग है?",
+          "a": "आरडी में आम तौर पर आवधिक जमा शामिल होता है, जबकि एफडी आमतौर पर एकमुश्त जमा के साथ शुरू होता है। संस्था की सटीक ब्याज गणना और शर्तें अंतिम राशि निर्धारित करती हैं।"
         },
         {
-          "q": "Is RD कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या RD कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Recurring-deposit maturity depends on the periodic deposit, rate, tenure, and the institution’s compounding convention."
+      "formula": "आवर्ती-जमा की परिपक्वता आवधिक जमा, दर, कार्यकाल और संस्था की चक्रवृद्धि परंपरा पर निर्भर करती है।"
     },
     "retirement-calculator": {
-      "heroIntro": "Estimate future monthly living expenses using return and inflation assumptions for retirement planning.",
-      "intro": "Estimate future monthly living expenses using return and inflation assumptions for retirement planning. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Retirement planning is sensitive to assumptions. A calculator helps test scenarios rather than relying on one target number.",
+      "heroIntro": "सेवानिवृत्ति योजना के लिए रिटर्न और मुद्रास्फीति अनुमानों का उपयोग करके भविष्य के मासिक जीवन व्यय का अनुमान लगाएं।",
+      "intro": "सेवानिवृत्ति योजना के लिए रिटर्न और मुद्रास्फीति अनुमानों का उपयोग करके भविष्य के मासिक जीवन व्यय का अनुमान लगाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "सेवानिवृत्ति योजना मान्यताओं के प्रति संवेदनशील है। एक कैलकुलेटर एक लक्ष्य संख्या पर निर्भर रहने के बजाय परिदृश्यों का परीक्षण करने में मदद करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different retirement calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Estimate a future retirement corpus target.",
-        "Test different retirement ages.",
-        "Compare inflation and return assumptions."
+        "विभिन्न सेवानिवृत्ति कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "भविष्य के सेवानिवृत्ति कोष लक्ष्य का अनुमान लगाएं।",
+        "विभिन्न सेवानिवृत्ति आयु का परीक्षण करें।",
+        "मुद्रास्फीति और रिटर्न अनुमानों की तुलना करें।"
       ],
       "tips": [
-        "Run several inflation and return scenarios.",
-        "Include healthcare and irregular expenses where appropriate.",
-        "Revisit the projection when income, savings, or timing changes.",
-        "Avoid: Using one optimistic return assumption.",
-        "Avoid: Ignoring inflation and healthcare costs.",
-        "Avoid: Assuming retirement spending stays unchanged for decades."
+        "कई मुद्रास्फीति और वापसी परिदृश्य चलाएँ।",
+        "जहां उपयुक्त हो वहां स्वास्थ्य देखभाल और अनियमित खर्चों को शामिल करें।",
+        "जब आय, बचत या समय में परिवर्तन हो तो प्रक्षेपण पर दोबारा गौर करें।",
+        "बचें: एक आशावादी रिटर्न धारणा का उपयोग करना।",
+        "बचें: मुद्रास्फीति और स्वास्थ्य देखभाल की लागत को नजरअंदाज करें।",
+        "बचें: यह मानते हुए कि सेवानिवृत्ति व्यय दशकों तक अपरिवर्तित रहता है।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is रिटायरमेंट कैलकुलेटर used for?",
-          "a": "Estimate future monthly living expenses using return and inflation assumptions for retirement planning. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "रिटायरमेंट कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "सेवानिवृत्ति योजना के लिए रिटर्न और मुद्रास्फीति अनुमानों का उपयोग करके भविष्य के मासिक जीवन व्यय का अनुमान लगाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does रिटायरमेंट कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "रिटायरमेंट कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does रिटायरमेंट कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "रिटायरमेंट कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use रिटायरमेंट कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए रिटायरमेंट कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Why does inflation matter in retirement planning?",
-          "a": "Inflation reduces purchasing power over time, so future spending needs can be materially higher than today’s spending even if lifestyle remains similar."
+          "q": "सेवानिवृत्ति योजना में मुद्रास्फीति क्यों मायने रखती है?",
+          "a": "मुद्रास्फीति समय के साथ क्रय शक्ति को कम कर देती है, इसलिए भविष्य की खर्च की ज़रूरतें आज के खर्च की तुलना में भौतिक रूप से अधिक हो सकती हैं, भले ही जीवनशैली समान रहे।"
         },
         {
-          "q": "Is रिटायरमेंट कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या रिटायरमेंट कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Retirement projections combine current spending, inflation, investment return, retirement age, and expected retirement duration to estimate a future funding requirement."
+      "formula": "सेवानिवृत्ति अनुमान भविष्य की फंडिंग आवश्यकता का अनुमान लगाने के लिए वर्तमान खर्च, मुद्रास्फीति, निवेश रिटर्न, सेवानिवृत्ति की आयु और अपेक्षित सेवानिवृत्ति अवधि को जोड़ते हैं।"
     },
     "compound-interest-calculator": {
-      "heroIntro": "Calculate annual, monthly, and daily compound interest growth on savings.",
-      "intro": "Calculate annual, monthly, and daily compound interest growth on savings. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Compound interest calculations show how previously earned interest can participate in future growth.",
+      "heroIntro": "बचत पर वार्षिक, मासिक और दैनिक चक्रवृद्धि ब्याज वृद्धि की गणना करें।",
+      "intro": "बचत पर वार्षिक, मासिक और दैनिक चक्रवृद्धि ब्याज वृद्धि की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "चक्रवृद्धि ब्याज की गणना से पता चलता है कि पहले अर्जित ब्याज भविष्य की वृद्धि में कैसे भाग ले सकता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different compound interest calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Compare annual, monthly, and daily compounding.",
-        "Estimate savings growth over several years.",
-        "Separate principal from interest growth."
+        "विभिन्न चक्रवृद्धि ब्याज कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "वार्षिक, मासिक और दैनिक चक्रवृद्धि की तुलना करें।",
+        "कई वर्षों में बचत वृद्धि का अनुमान लगाएं।",
+        "मूलधन को ब्याज वृद्धि से अलग करें।"
       ],
       "tips": [
-        "Compare compounding frequencies.",
-        "Keep rate and time units consistent.",
-        "Use scenario comparisons instead of treating one projection as a promise.",
-        "Avoid: Mixing annual rates with monthly periods incorrectly.",
-        "Avoid: Ignoring compounding frequency.",
-        "Avoid: Treating a projection as a guaranteed return."
+        "कंपाउंडिंग आवृत्तियों की तुलना करें.",
+        "दर और समय इकाइयों को सुसंगत रखें.",
+        "किसी एक प्रक्षेपण को वादे के रूप में मानने के बजाय परिदृश्य तुलनाओं का उपयोग करें।",
+        "बचें: वार्षिक दरों को मासिक अवधियों के साथ गलत तरीके से मिलाना।",
+        "बचें: कंपाउंडिंग फ़्रीक्वेंसी को नज़रअंदाज करें।",
+        "बचें: किसी प्रक्षेपण को गारंटीशुदा रिटर्न मानने से बचें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is चक्रवृद्धि ब्याज कैलकुलेटर used for?",
-          "a": "Calculate annual, monthly, and daily compound interest growth on savings. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "चक्रवृद्धि ब्याज कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "बचत पर वार्षिक, मासिक और दैनिक चक्रवृद्धि ब्याज वृद्धि की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does चक्रवृद्धि ब्याज कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "चक्रवृद्धि ब्याज कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does चक्रवृद्धि ब्याज कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "चक्रवृद्धि ब्याज कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use चक्रवृद्धि ब्याज कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए चक्रवृद्धि ब्याज कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Why does compounding frequency matter?",
-          "a": "With the same nominal rate and period, more frequent compounding can change the calculated growth because interest is added to the balance more often."
+          "q": "कंपाउंडिंग आवृत्ति क्यों मायने रखती है?",
+          "a": "समान नाममात्र दर और अवधि के साथ, अधिक बार चक्रवृद्धि गणना की गई वृद्धि को बदल सकती है क्योंकि ब्याज को शेष राशि में अधिक बार जोड़ा जाता है।"
         },
         {
-          "q": "Is चक्रवृद्धि ब्याज कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या चक्रवृद्धि ब्याज कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "A = P × (1 + r/n)^(nt), where P is principal, r is annual rate, n is compounding periods per year, and t is years."
+      "formula": "ए = पी × (1 + आर/एन)^(एनटी), जहां पी मूलधन है, आर वार्षिक दर है, एन प्रति वर्ष चक्रवृद्धि अवधि है, और टी वर्ष है।"
     },
     "simple-interest-calculator": {
-      "heroIntro": "Calculate basic simple interest accrued on principal amounts with fixed rates.",
-      "intro": "Calculate basic simple interest accrued on principal amounts with fixed rates. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Simple interest is a model where interest is calculated on the original principal rather than repeatedly added to the principal.",
+      "heroIntro": "निश्चित दरों के साथ मूल राशि पर अर्जित मूल साधारण ब्याज की गणना करें।",
+      "intro": "निश्चित दरों के साथ मूल राशि पर अर्जित मूल साधारण ब्याज की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "साधारण ब्याज एक ऐसा मॉडल है जहां ब्याज की गणना मूलधन में बार-बार जोड़ने के बजाय मूल मूलधन पर की जाती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different simple interest calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate interest on a fixed principal.",
-        "Check a simple-interest exercise.",
-        "Compare simple and compound interest models."
+        "विभिन्न साधारण ब्याज कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "निश्चित मूलधन पर ब्याज की गणना करें.",
+        "एक सरल-रुचि अभ्यास की जाँच करें।",
+        "सरल और चक्रवृद्धि ब्याज मॉडल की तुलना करें।"
       ],
       "tips": [
-        "Keep time units consistent with the annual rate.",
-        "Check whether the real product uses simple interest.",
-        "Use the result as an arithmetic calculation.",
-        "Avoid: Using the wrong time unit.",
-        "Avoid: Applying simple interest to a product that actually compounds.",
-        "Avoid: Confusing rate percentage with decimal rate."
+        "समय इकाइयों को वार्षिक दर के अनुरूप रखें।",
+        "जांचें कि क्या वास्तविक उत्पाद साधारण ब्याज का उपयोग करता है।",
+        "परिणाम को अंकगणितीय गणना के रूप में उपयोग करें।",
+        "बचें: ग़लत समय इकाई का उपयोग करना।",
+        "बचें: ऐसे उत्पाद पर साधारण ब्याज लागू करना जो वास्तव में मिश्रित होता है।",
+        "बचें: दशमलव दर के साथ भ्रमित करने वाले दर प्रतिशत।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is साधारण ब्याज कैलकुलेटर used for?",
-          "a": "Calculate basic simple interest accrued on principal amounts with fixed rates. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "साधारण ब्याज कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "निश्चित दरों के साथ मूल राशि पर अर्जित मूल साधारण ब्याज की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does साधारण ब्याज कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "साधारण ब्याज कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does साधारण ब्याज कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "साधारण ब्याज कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use साधारण ब्याज कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए साधारण ब्याज कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "What is the simple-interest formula?",
-          "a": "A common formula is I = P × R × T / 100, where P is principal, R is annual rate in percent, and T is time in years."
+          "q": "सरल-ब्याज फॉर्मूला क्या है?",
+          "a": "एक सामान्य सूत्र I = P × R × T / 100 है, जहां P मूलधन है, R प्रतिशत में वार्षिक दर है, और T वर्षों में समय है।"
         },
         {
-          "q": "Is साधारण ब्याज कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या साधारण ब्याज कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Simple interest = P × R × T / 100."
+      "formula": "साधारण ब्याज = P × R × T / 100."
     },
     "percentage-calculator": {
-      "heroIntro": "Calculate percentage increase, percentage decrease, and fraction differences instantly.",
-      "intro": "Calculate percentage increase, percentage decrease, and fraction differences instantly. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "Percentage calculations are useful for discounts, changes, margins, growth rates, and proportions.",
+      "heroIntro": "प्रतिशत वृद्धि, प्रतिशत कमी और अंश अंतर की तुरंत गणना करें।",
+      "intro": "प्रतिशत वृद्धि, प्रतिशत कमी और अंश अंतर की तुरंत गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "प्रतिशत गणना छूट, परिवर्तन, मार्जिन, विकास दर और अनुपात के लिए उपयोगी होती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different percentage calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate a percentage of a value.",
-        "Find percentage increase or decrease.",
-        "Compare a part with a whole."
+        "विभिन्न प्रतिशत कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "किसी मान के प्रतिशत की गणना करें.",
+        "प्रतिशत वृद्धि या कमी ज्ञात कीजिए।",
+        "एक भाग की संपूर्ण से तुलना करें।"
       ],
       "tips": [
-        "Distinguish percentage points from percentage change.",
-        "Check which value is the baseline.",
-        "Keep both values in compatible units.",
-        "Avoid: Using the wrong baseline.",
-        "Avoid: Confusing percentage points with percent change.",
-        "Avoid: Rounding before the final step."
+        "प्रतिशत परिवर्तन से प्रतिशत अंक को अलग करें।",
+        "जांचें कि कौन सा मान आधार रेखा है.",
+        "दोनों मानों को संगत इकाइयों में रखें।",
+        "बचें: ग़लत आधार रेखा का उपयोग करना।",
+        "बचें: प्रतिशत परिवर्तन के साथ प्रतिशत अंकों को भ्रमित करने से बचें।",
+        "बचें: अंतिम चरण से पहले पूर्णांकन करें।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is प्रतिशत कैलकुलेटर used for?",
-          "a": "Calculate percentage increase, percentage decrease, and fraction differences instantly. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "प्रतिशत कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "प्रतिशत वृद्धि, प्रतिशत कमी और अंश अंतर की तुरंत गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does प्रतिशत कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "प्रतिशत कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does प्रतिशत कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "प्रतिशत कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use प्रतिशत कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए प्रतिशत कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "How do I calculate percentage increase?",
-          "a": "Percentage increase is commonly calculated as (new value − old value) ÷ old value × 100."
+          "q": "मैं प्रतिशत वृद्धि की गणना कैसे करूँ?",
+          "a": "प्रतिशत वृद्धि की गणना आमतौर पर (नया मान - पुराना मान) ÷ पुराना मान × 100 के रूप में की जाती है।"
         },
         {
-          "q": "Is प्रतिशत कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या प्रतिशत कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Percentage = (part ÷ whole) × 100. Percentage change = ((new − old) ÷ old) × 100."
+      "formula": "प्रतिशत = (भाग ÷ पूरा) × 100। प्रतिशत परिवर्तन = ((नया - पुराना) ÷ पुराना) × 100।"
     },
     "age-calculator": {
-      "heroIntro": "Calculate exact chronological age in years, months, weeks, and days.",
-      "intro": "Calculate exact chronological age in years, months, weeks, and days. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "An age calculator is useful when an exact calendar age is needed rather than an approximate year difference.",
+      "heroIntro": "वर्षों, महीनों, सप्ताहों और दिनों में सटीक कालानुक्रमिक आयु की गणना करें।",
+      "intro": "वर्षों, महीनों, सप्ताहों और दिनों में सटीक कालानुक्रमिक आयु की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "आयु कैलकुलेटर तब उपयोगी होता है जब अनुमानित वर्ष अंतर के बजाय सटीक कैलेंडर आयु की आवश्यकता होती है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different age calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Find exact age on a selected date.",
-        "Calculate age in years, months, and days.",
-        "Check an age-related date interval."
+        "विभिन्न आयु कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "चयनित तिथि पर सटीक आयु ज्ञात करें।",
+        "आयु की गणना वर्षों, महीनों और दिनों में करें।",
+        "आयु-संबंधित दिनांक अंतराल की जाँच करें."
       ],
       "tips": [
-        "Verify the entered date.",
-        "For legal eligibility, follow the relevant institution’s rules.",
-        "Choose the intended reference date.",
-        "Avoid: Entering the wrong birth date.",
-        "Avoid: Ignoring the reference date.",
-        "Avoid: Using an approximate year difference for legal eligibility."
+        "दर्ज की गई तारीख सत्यापित करें.",
+        "कानूनी पात्रता के लिए संबंधित संस्थान के नियमों का पालन करें।",
+        "इच्छित संदर्भ तिथि चुनें.",
+        "बचें: ग़लत जन्मतिथि दर्ज करना।",
+        "बचें: संदर्भ तिथि को नजरअंदाज करना।",
+        "बचें: कानूनी पात्रता के लिए अनुमानित वर्ष के अंतर का उपयोग करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is उम्र कैलकुलेटर used for?",
-          "a": "Calculate exact chronological age in years, months, weeks, and days. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "उम्र कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "वर्षों, महीनों, सप्ताहों और दिनों में सटीक कालानुक्रमिक आयु की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does उम्र कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "उम्र कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does उम्र कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "उम्र कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use उम्र कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए उम्र कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Can an age calculator determine legal eligibility?",
-          "a": "It can calculate a calendar age, but legal eligibility depends on the applicable law, institution, jurisdiction, and reference date."
+          "q": "क्या आयु कैलकुलेटर कानूनी पात्रता निर्धारित कर सकता है?",
+          "a": "यह एक कैलेंडर आयु की गणना कर सकता है, लेकिन कानूनी पात्रता लागू कानून, संस्था, अधिकार क्षेत्र और संदर्भ तिथि पर निर्भर करती है।"
         },
         {
-          "q": "Is उम्र कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या उम्र कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Age is derived from the calendar-aware difference between a birth date and a selected reference date."
+      "formula": "आयु का निर्धारण जन्म तिथि और चयनित संदर्भ तिथि के बीच कैलेंडर-जागरूक अंतर से किया जाता है।"
     },
     "bmi-calculator": {
-      "heroIntro": "Calculate body mass index (BMI) from height and weight and show commonly used BMI categories.",
-      "intro": "Calculate body mass index (BMI) from height and weight and show commonly used BMI categories. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "BMI is a simple screening measure based on height and weight. It does not by itself describe body composition or individual health.",
+      "heroIntro": "ऊंचाई और वजन से बॉडी मास इंडेक्स (बीएमआई) की गणना करें और आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणियां दिखाएं।",
+      "intro": "ऊंचाई और वजन से बॉडी मास इंडेक्स (बीएमआई) की गणना करें और आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणियां दिखाएं। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "बीएमआई ऊंचाई और वजन पर आधारित एक सरल स्क्रीनिंग माप है। यह अपने आप में शरीर की संरचना या व्यक्तिगत स्वास्थ्य का वर्णन नहीं करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different bmi calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate BMI from height and weight.",
-        "Understand the commonly used BMI category ranges.",
-        "Track a BMI value over time as one screening metric."
+        "विभिन्न बीएमआई कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "ऊंचाई और वजन से बीएमआई की गणना करें।",
+        "आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणी श्रेणियों को समझें।",
+        "एक स्क्रीनिंग मीट्रिक के रूप में समय के साथ बीएमआई मान को ट्रैक करें।"
       ],
       "tips": [
-        "Enter height and weight using the correct units.",
-        "Use an appropriate reference population.",
-        "Do not treat a calculator result as a diagnosis.",
-        "Avoid: Treating BMI as a diagnosis.",
-        "Avoid: Using incorrect height or weight units.",
-        "Avoid: Ignoring age, body composition, pregnancy, or population-specific interpretation."
+        "सही इकाइयों का उपयोग करके ऊंचाई और वजन दर्ज करें।",
+        "एक उपयुक्त संदर्भ जनसंख्या का उपयोग करें.",
+        "कैलकुलेटर के परिणाम को निदान न समझें।",
+        "बचें: बीएमआई को निदान के रूप में मानें।",
+        "बचें: गलत ऊंचाई या वजन इकाइयों का उपयोग करना।",
+        "बचें: उम्र, शरीर संरचना, गर्भावस्था, या जनसंख्या-विशिष्ट व्याख्या को नजरअंदाज करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is BMI कैलकुलेटर used for?",
-          "a": "Calculate body mass index (BMI) from height and weight and show commonly used BMI categories. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "BMI कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "ऊंचाई और वजन से बॉडी मास इंडेक्स (बीएमआई) की गणना करें और आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणियां दिखाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does BMI कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "BMI कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does BMI कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "BMI कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use BMI कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए BMI कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Is BMI a diagnosis?",
-          "a": "No. BMI is a screening measure based on height and weight. Individual health assessment can require additional context and professional evaluation."
+          "q": "क्या बीएमआई एक निदान है?",
+          "a": "नहीं, बीएमआई ऊंचाई और वजन पर आधारित एक स्क्रीनिंग माप है। व्यक्तिगत स्वास्थ्य मूल्यांकन के लिए अतिरिक्त संदर्भ और पेशेवर मूल्यांकन की आवश्यकता हो सकती है।"
         },
         {
-          "q": "Is BMI कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या BMI कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "BMI = weight in kilograms ÷ (height in metres)^2."
+      "formula": "बीएमआई = वजन किलोग्राम में ÷ (ऊंचाई मीटर में)^2."
     },
     "scientific-calculator": {
-      "heroIntro": "Perform advanced trigonometry, logarithms, exponentials, and algebra expressions.",
-      "intro": "Perform advanced trigonometry, logarithms, exponentials, and algebra expressions. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A scientific calculator helps with repeatable calculations involving advanced mathematical functions.",
+      "heroIntro": "उन्नत त्रिकोणमिति, लघुगणक, घातांक और बीजगणित अभिव्यक्तियाँ निष्पादित करें।",
+      "intro": "उन्नत त्रिकोणमिति, लघुगणक, घातांक और बीजगणित अभिव्यक्तियाँ निष्पादित करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक वैज्ञानिक कैलकुलेटर उन्नत गणितीय कार्यों से युक्त दोहराई जाने वाली गणनाओं में मदद करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different scientific calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Evaluate trigonometric expressions.",
-        "Calculate logarithms and powers.",
-        "Check algebraic arithmetic with explicit parentheses."
+        "विभिन्न वैज्ञानिक कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "त्रिकोणमितीय व्यंजकों का मूल्यांकन करें.",
+        "लघुगणक और घातों की गणना करें.",
+        "स्पष्ट कोष्ठकों के साथ बीजगणितीय अंकगणित की जाँच करें।"
       ],
       "tips": [
-        "Use parentheses to make precedence explicit.",
-        "Check the intended trigonometric angle mode.",
-        "Validate important results independently.",
-        "Avoid: Using the wrong angle mode.",
-        "Avoid: Ignoring operator precedence.",
-        "Avoid: Copying a result without checking the expression."
+        "प्राथमिकता को स्पष्ट करने के लिए कोष्ठक का उपयोग करें।",
+        "इच्छित त्रिकोणमितीय कोण मोड की जाँच करें।",
+        "महत्वपूर्ण परिणामों को स्वतंत्र रूप से मान्य करें.",
+        "बचें: गलत कोण मोड का उपयोग करना।",
+        "बचें: ऑपरेटर प्राथमिकता को अनदेखा करना।",
+        "बचें: अभिव्यक्ति की जांच किए बिना परिणाम की प्रतिलिपि बनाना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is साइंटिफिक कैलकुलेटर used for?",
-          "a": "Perform advanced trigonometry, logarithms, exponentials, and algebra expressions. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "साइंटिफिक कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "उन्नत त्रिकोणमिति, लघुगणक, घातांक और बीजगणित अभिव्यक्तियाँ निष्पादित करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does साइंटिफिक कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "साइंटिफिक कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does साइंटिफिक कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "साइंटिफिक कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use साइंटिफिक कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए साइंटिफिक कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Why do trigonometric results look wrong?",
-          "a": "Check whether the calculator is using degrees or radians and use parentheses to make the intended expression explicit."
+          "q": "त्रिकोणमिति परिणाम गलत क्यों दिखते हैं?",
+          "a": "जांचें कि कैलकुलेटर डिग्री या रेडियन का उपयोग कर रहा है या नहीं और इच्छित अभिव्यक्ति को स्पष्ट करने के लिए कोष्ठक का उपयोग करें।"
         },
         {
-          "q": "Is साइंटिफिक कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या साइंटिफिक कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Expressions may combine arithmetic, powers, roots, trigonometric functions, logarithms, and other supported operations according to the calculator syntax."
+      "formula": "अभिव्यक्ति कैलकुलेटर सिंटैक्स के अनुसार अंकगणित, शक्तियों, जड़ों, त्रिकोणमितीय कार्यों, लघुगणक और अन्य समर्थित संचालन को जोड़ सकती है।"
     },
     "discount-calculator": {
-      "heroIntro": "Calculate the discount amount and final price from an original price and discount rate.",
-      "intro": "Calculate the discount amount and final price from an original price and discount rate. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A discount calculator separates the advertised percentage from the amount saved and final price.",
+      "heroIntro": "मूल कीमत और छूट दर से छूट राशि और अंतिम कीमत की गणना करें।",
+      "intro": "मूल कीमत और छूट दर से छूट राशि और अंतिम कीमत की गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक डिस्काउंट कैलकुलेटर विज्ञापित प्रतिशत को बचाई गई राशि और अंतिम कीमत से अलग करता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different discount calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate sale savings.",
-        "Compare different discount percentages.",
-        "Find the final price before additional taxes or fees."
+        "विभिन्न छूट कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "बिक्री बचत की गणना करें.",
+        "विभिन्न छूट प्रतिशत की तुलना करें.",
+        "अतिरिक्त करों या शुल्कों से पहले अंतिम कीमत ज्ञात करें।"
       ],
       "tips": [
-        "Check whether multiple discounts are sequential.",
-        "Include taxes or fees separately.",
-        "Do not confuse percentage discount with percentage-point change.",
-        "Avoid: Applying multiple discounts as simple addition.",
-        "Avoid: Ignoring taxes or service charges.",
-        "Avoid: Confusing discount percentage with margin."
+        "जांचें कि क्या एकाधिक छूट अनुक्रमिक हैं।",
+        "कर या शुल्क अलग से शामिल करें.",
+        "प्रतिशत छूट को प्रतिशत-बिंदु परिवर्तन के साथ भ्रमित न करें।",
+        "बचें: साधारण छूट के रूप में कई छूट लागू करना।",
+        "बचें: करों या सेवा शुल्कों की अनदेखी।",
+        "बचें: मार्जिन के साथ छूट प्रतिशत को भ्रमित करने वाली बात।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is डिस्काउंट कैलकुलेटर used for?",
-          "a": "Calculate the discount amount and final price from an original price and discount rate. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "डिस्काउंट कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "मूल कीमत और छूट दर से छूट राशि और अंतिम कीमत की गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does डिस्काउंट कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "डिस्काउंट कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does डिस्काउंट कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "डिस्काउंट कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use डिस्काउंट कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए डिस्काउंट कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Are two discounts of 20% and 10% equal to 30% off?",
-          "a": "Not generally. Sequential percentage discounts are applied to the changing price, so the combined reduction is usually less than simply adding the percentages."
+          "q": "क्या 20% और 10% की दो छूटें 30% छूट के बराबर हैं?",
+          "a": "आम तौर पर नहीं. बदलती कीमत पर क्रमिक प्रतिशत छूट लागू की जाती है, इसलिए संयुक्त कटौती आमतौर पर केवल प्रतिशत जोड़ने से कम होती है।"
         },
         {
-          "q": "Is डिस्काउंट कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या डिस्काउंट कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Discount amount = original price × discount rate / 100; final price = original price − discount amount."
+      "formula": "छूट राशि = मूल कीमत × छूट दर / 100; अंतिम कीमत = मूल कीमत - छूट राशि।"
     },
     "tip-calculator": {
-      "heroIntro": "Split restaurant dinner bills and calculate service tip percentages evenly.",
-      "intro": "Split restaurant dinner bills and calculate service tip percentages evenly. This page combines the interactive calculator with practical explanations, examples, assumptions, and common mistakes so the result can be interpreted correctly.",
-      "why": "A tip calculator simplifies service-charge arithmetic and can divide a final amount across people.",
+      "heroIntro": "रेस्तरां के रात्रिभोज के बिलों को विभाजित करें और सेवा टिप प्रतिशत की समान रूप से गणना करें।",
+      "intro": "रेस्तरां के रात्रिभोज के बिलों को विभाजित करें और सेवा टिप प्रतिशत की समान रूप से गणना करें। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
+      "why": "एक टिप कैलकुलेटर सेवा-प्रभार अंकगणित को सरल बनाता है और अंतिम राशि को लोगों में विभाजित कर सकता है।",
       "steps": [
-        "Enter the values requested by the calculator.",
-        "Review assumptions and units before calculating.",
-        "Run the calculation and compare at least one alternative scenario.",
-        "Use the result as an estimate and verify important decisions against official records or terms."
+        "कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
+        "गणना करने से पहले मान्यताओं और इकाइयों की समीक्षा करें।",
+        "गणना चलाएँ और कम से कम एक वैकल्पिक परिदृश्य की तुलना करें।",
+        "परिणाम को अनुमान के रूप में उपयोग करें और आधिकारिक रिकॉर्ड या शर्तों के विरुद्ध महत्वपूर्ण निर्णयों को सत्यापित करें।"
       ],
       "useCases": [
-        "Compare different tip calculator scenarios.",
-        "Build a quick planning estimate before using a spreadsheet or official statement.",
-        "Understand which input has the largest effect on the result.",
-        "Record the assumptions so the calculation can be repeated later.",
-        "Calculate a restaurant tip.",
-        "Split a bill between several people.",
-        "Compare different tip percentages."
+        "विभिन्न टिप कैलकुलेटर परिदृश्यों की तुलना करें।",
+        "स्प्रेडशीट या आधिकारिक वक्तव्य का उपयोग करने से पहले एक त्वरित योजना अनुमान बनाएं।",
+        "समझें कि किस इनपुट का परिणाम पर सबसे अधिक प्रभाव पड़ता है।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना बाद में दोहराई जा सके।",
+        "एक रेस्तरां टिप की गणना करें.",
+        "एक बिल को कई लोगों के बीच बांटें।",
+        "विभिन्न टिप प्रतिशत की तुलना करें."
       ],
       "tips": [
-        "Decide whether tip is calculated before or after tax.",
-        "Check rounding when splitting a bill.",
-        "Treat local service-charge rules separately from voluntary tips.",
-        "Avoid: Calculating the tip on the wrong base.",
-        "Avoid: Ignoring an already-added service charge.",
-        "Avoid: Rounding unevenly when splitting the total."
+        "तय करें कि टिप की गणना टैक्स से पहले की जाएगी या बाद में।",
+        "बिल बांटते समय पूर्णांकन की जांच करें।",
+        "स्थानीय सेवा-प्रभार नियमों को स्वैच्छिक युक्तियों से अलग रखें।",
+        "बचें: गलत आधार पर टिप की गणना करना।",
+        "बचें: पहले से जोड़े गए सेवा शुल्क को नज़रअंदाज़ करना।",
+        "बचें: कुल को विभाजित करते समय असमान रूप से गोल करना।"
       ],
       "limitations": [
-        "Results depend on the assumptions and inputs.",
-        "Rounding can create small differences from official calculators or statements.",
-        "Financial and health-related outputs are informational calculations, not professional advice or guarantees."
+        "परिणाम धारणाओं और इनपुट पर निर्भर करते हैं।",
+        "पूर्णांकन आधिकारिक कैलकुलेटर या कथनों से छोटे अंतर पैदा कर सकता है।",
+        "वित्तीय और स्वास्थ्य संबंधी आउटपुट सूचनात्मक गणना हैं, पेशेवर सलाह या गारंटी नहीं।"
       ],
       "faq": [
         {
-          "q": "What is टिप कैलकुलेटर used for?",
-          "a": "Split restaurant dinner bills and calculate service tip percentages evenly. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "टिप कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "रेस्तरां के रात्रिभोज के बिलों को विभाजित करें और सेवा टिप प्रतिशत की समान रूप से गणना करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does टिप कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "टिप कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What inputs does टिप कैलकुलेटर need?",
-          "a": "The workspace requests the values relevant to this calculation. Enter them using the displayed units and review assumptions before calculating."
+          "q": "टिप कैलकुलेटर को क्या इनपुट चाहिए?",
+          "a": "कार्यक्षेत्र इस गणना के लिए प्रासंगिक मानों का अनुरोध करता है। प्रदर्शित इकाइयों का उपयोग करके उन्हें दर्ज करें और गणना करने से पहले मान्यताओं की समीक्षा करें।"
         },
         {
-          "q": "Can I use टिप कैलकुलेटर for an exact real-world result?",
-          "a": "Use it for planning and scenario analysis. Official statements, lender quotes, payroll records, product terms, or other authoritative sources may include rules and charges that a general calculator cannot know."
+          "q": "क्या मैं सटीक वास्तविक दुनिया के परिणाम के लिए टिप कैलकुलेटर का उपयोग कर सकता हूं?",
+          "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, या अन्य आधिकारिक स्रोतों में ऐसे नियम और शुल्क शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता है।"
         },
         {
-          "q": "Should a tip be calculated before or after tax?",
-          "a": "Practices vary. Choose the convention required by the venue or your group and check whether a service charge has already been included."
+          "q": "क्या टिप की गणना कर से पहले या बाद में की जानी चाहिए?",
+          "a": "प्रथाएँ भिन्न-भिन्न होती हैं। आयोजन स्थल या अपने समूह के लिए आवश्यक सम्मेलन चुनें और जांचें कि सेवा शुल्क पहले से ही शामिल किया गया है या नहीं।"
         },
         {
-          "q": "Is टिप कैलकुलेटर free to use?",
-          "a": "Yes. The tool is available without a paid account. Practical limits can come from browser memory, device performance, input size, or any third-party execution service used by a particular workflow."
+          "q": "क्या टिप कैलकुलेटर का उपयोग निःशुल्क है?",
+          "a": "हाँ. यह टूल बिना सशुल्क खाते के उपलब्ध है। व्यावहारिक सीमाएँ ब्राउज़र मेमोरी, डिवाइस प्रदर्शन, इनपुट आकार, या किसी विशेष वर्कफ़्लो द्वारा उपयोग की जाने वाली किसी तृतीय-पक्ष निष्पादन सेवा से आ सकती हैं।"
         }
       ],
       "visual": "finance",
-      "formula": "Tip = bill amount × tip rate / 100; total = bill amount + tip."
+      "formula": "टिप = बिल राशि × टिप दर / 100; कुल = बिल राशि + टिप।"
     },
     "timetable-maker": {
-      "heroIntro": "Create a flexible weekly or daily timetable from ready-made school, study, work, or personal templates and edit every time slot yourself.",
-      "intro": "Create a flexible weekly or daily timetable from ready-made school, study, work, or personal templates and edit every time slot yourself. Build a balanced weekly timetable with subjects, breaks, start times, and editable cells. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a balanced weekly timetable with subjects, breaks, start times, and editable cells.",
+      "heroIntro": "तैयार स्कूल, अध्ययन, कार्य या व्यक्तिगत टेम्पलेट्स से एक लचीली साप्ताहिक या दैनिक समय सारिणी बनाएं और प्रत्येक टाइम स्लॉट को स्वयं संपादित करें।",
+      "intro": "तैयार स्कूल, अध्ययन, कार्य या व्यक्तिगत टेम्पलेट्स से एक लचीली साप्ताहिक या दैनिक समय सारिणी बनाएं और प्रत्येक टाइम स्लॉट को स्वयं संपादित करें। विषयों, विरामों, प्रारंभ समय और संपादन योग्य कक्षों के साथ एक संतुलित साप्ताहिक समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "विषयों, विरामों, प्रारंभ समय और संपादन योग्य कक्षों के साथ एक संतुलित साप्ताहिक समय सारिणी बनाएं।",
       "steps": [
-        "Choose school days and class slots.",
-        "Set the first start time and slot length.",
-        "Enter subjects and generate the grid.",
-        "Edit the final timetable and print or export it."
+        "स्कूल के दिन और कक्षा के स्थान चुनें।",
+        "पहला प्रारंभ समय और स्लॉट की लंबाई निर्धारित करें।",
+        "विषय दर्ज करें और ग्रिड उत्पन्न करें।",
+        "अंतिम समय सारिणी संपादित करें और इसे प्रिंट या निर्यात करें।"
       ],
       "useCases": [
-        "School planning",
-        "Weekly class organization",
-        "Home study planning"
+        "स्कूल योजना",
+        "साप्ताहिक कक्षा का आयोजन",
+        "गृह अध्ययन योजना"
       ],
       "tips": [
-        "Keep subject names short.",
-        "Leave room for real breaks."
+        "विषय के नाम संक्षिप्त रखें.",
+        "वास्तविक विराम के लिए जगह छोड़ें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is टाइम टेबल मेकर used for?",
-          "a": "Create a flexible weekly or daily timetable from ready-made school, study, work, or personal templates and edit every time slot yourself. Build a balanced weekly timetable with subjects, breaks, start times, and editable cells."
+          "q": "टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "तैयार स्कूल, अध्ययन, कार्य या व्यक्तिगत टेम्पलेट्स से एक लचीली साप्ताहिक या दैनिक समय सारिणी बनाएं और प्रत्येक टाइम स्लॉट को स्वयं संपादित करें। विषयों, विरामों, प्रारंभ समय और संपादन योग्य कक्षों के साथ एक संतुलित साप्ताहिक समय सारिणी बनाएं।"
         },
         {
-          "q": "Can I make my own school timetable?",
-          "a": "Yes. Set your days, slot count, times, subjects, note, and personal message."
+          "q": "क्या मैं अपने स्कूल की समय सारिणी स्वयं बना सकता हूँ?",
+          "a": "हाँ. अपने दिन, स्लॉट संख्या, समय, विषय, नोट और व्यक्तिगत संदेश निर्धारित करें।"
         },
         {
-          "q": "Can I personalize टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "cute-timetable-maker": {
-      "heroIntro": "Make a cute customizable timetable with ready-made layouts for students, kids, study plans, and daily routines.",
-      "intro": "Make a cute customizable timetable with ready-made layouts for students, kids, study plans, and daily routines. Create a visually friendly timetable with a softer layout, personal message, and printable schedule. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a visually friendly timetable with a softer layout, personal message, and printable schedule.",
+      "heroIntro": "छात्रों, बच्चों, अध्ययन योजनाओं और दैनिक दिनचर्या के लिए तैयार लेआउट के साथ एक सुंदर अनुकूलन योग्य समय सारिणी बनाएं।",
+      "intro": "छात्रों, बच्चों, अध्ययन योजनाओं और दैनिक दिनचर्या के लिए तैयार लेआउट के साथ एक सुंदर अनुकूलन योग्य समय सारिणी बनाएं। एक नरम लेआउट, व्यक्तिगत संदेश और प्रिंट करने योग्य शेड्यूल के साथ एक दृष्टि-अनुकूल समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक नरम लेआउट, व्यक्तिगत संदेश और प्रिंट करने योग्य शेड्यूल के साथ एक दृष्टि-अनुकूल समय सारिणी बनाएं।",
       "steps": [
-        "Choose the school days and class slots.",
-        "Set times and subjects.",
-        "Add a personal note or favorite quote.",
-        "Generate, edit, and print your cute timetable."
+        "स्कूल के दिन और कक्षा स्लॉट चुनें।",
+        "समय और विषय निर्धारित करें.",
+        "एक व्यक्तिगत नोट या पसंदीदा उद्धरण जोड़ें.",
+        "अपनी सुंदर समय सारिणी बनाएं, संपादित करें और प्रिंट करें।"
       ],
       "useCases": [
-        "Student planners",
-        "Cute study boards",
-        "Bedroom or desk schedules"
+        "छात्र योजनाकार",
+        "प्यारा अध्ययन बोर्ड",
+        "शयनकक्ष या डेस्क कार्यक्रम"
       ],
       "tips": [
-        "Use short subject names and a favorite quote.",
-        "Print it for a desk or wall."
+        "संक्षिप्त विषय नाम और पसंदीदा उद्धरण का उपयोग करें।",
+        "इसे डेस्क या दीवार के लिए प्रिंट करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is क्यूट टाइम टेबल मेकर used for?",
-          "a": "Make a cute customizable timetable with ready-made layouts for students, kids, study plans, and daily routines. Create a visually friendly timetable with a softer layout, personal message, and printable schedule."
+          "q": "क्यूट टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "छात्रों, बच्चों, अध्ययन योजनाओं और दैनिक दिनचर्या के लिए तैयार लेआउट के साथ एक सुंदर अनुकूलन योग्य समय सारिणी बनाएं। एक नरम लेआउट, व्यक्तिगत संदेश और प्रिंट करने योग्य शेड्यूल के साथ एक दृष्टि-अनुकूल समय सारिणी बनाएं।"
         },
         {
-          "q": "Can I add a personal quote?",
-          "a": "Yes. Add a quote or reminder and it appears with the generated timetable."
+          "q": "क्या मैं एक व्यक्तिगत उद्धरण जोड़ सकता हूँ?",
+          "a": "हाँ. एक उद्धरण या अनुस्मारक जोड़ें और यह उत्पन्न समय सारिणी के साथ दिखाई देगा।"
         },
         {
-          "q": "Can I personalize क्यूट टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं क्यूट टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download क्यूट टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं क्यूट टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "student-timetable-maker": {
-      "heroIntro": "Create a student timetable for classes, study sessions, homework, revision, breaks, and personal activities.",
-      "intro": "Create a student timetable for classes, study sessions, homework, revision, breaks, and personal activities. Create a student-focused weekly class and study timetable with clear time blocks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a student-focused weekly class and study timetable with clear time blocks.",
+      "heroIntro": "कक्षाओं, अध्ययन सत्रों, गृहकार्य, पुनरीक्षण, अवकाश और व्यक्तिगत गतिविधियों के लिए एक छात्र समय सारिणी बनाएं।",
+      "intro": "कक्षाओं, अध्ययन सत्रों, गृहकार्य, पुनरीक्षण, अवकाश और व्यक्तिगत गतिविधियों के लिए एक छात्र समय सारिणी बनाएं। एक छात्र-केंद्रित साप्ताहिक कक्षा बनाएं और स्पष्ट समय खंडों के साथ अध्ययन समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक छात्र-केंद्रित साप्ताहिक कक्षा बनाएं और स्पष्ट समय खंडों के साथ अध्ययन समय सारिणी बनाएं।",
       "steps": [
-        "Choose study days and slots.",
-        "Set the school start time and duration.",
-        "Add subjects and study activities.",
-        "Edit cells and add a personal note before printing."
+        "अध्ययन के दिन और स्लॉट चुनें।",
+        "स्कूल प्रारंभ होने का समय और अवधि निर्धारित करें।",
+        "विषय और अध्ययन गतिविधियाँ जोड़ें.",
+        "सेल संपादित करें और मुद्रण से पहले एक व्यक्तिगत नोट जोड़ें।"
       ],
       "useCases": [
-        "School students",
-        "College students",
-        "Study planning"
+        "स्कूली छात्र",
+        "कॉलेज के छात्र",
+        "अध्ययन योजना"
       ],
       "tips": [
-        "Reserve a few blocks for revision.",
-        "Use consistent subject names."
+        "पुनरीक्षण के लिए कुछ ब्लॉक आरक्षित रखें।",
+        "सुसंगत विषय नामों का प्रयोग करें."
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्टूडेंट टाइम टेबल मेकर used for?",
-          "a": "Create a student timetable for classes, study sessions, homework, revision, breaks, and personal activities. Create a student-focused weekly class and study timetable with clear time blocks."
+          "q": "स्टूडेंट टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "कक्षाओं, अध्ययन सत्रों, गृहकार्य, पुनरीक्षण, अवकाश और व्यक्तिगत गतिविधियों के लिए एक छात्र समय सारिणी बनाएं। एक छात्र-केंद्रित साप्ताहिक कक्षा बनाएं और स्पष्ट समय खंडों के साथ अध्ययन समय सारिणी बनाएं।"
         },
         {
-          "q": "Is it editable after generation?",
-          "a": "Yes. Every schedule cell remains editable."
+          "q": "क्या यह पीढ़ी दर पीढ़ी संपादन योग्य है?",
+          "a": "हाँ. प्रत्येक शेड्यूल सेल संपादन योग्य रहता है।"
         },
         {
-          "q": "Can I personalize स्टूडेंट टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्टूडेंट टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्टूडेंट टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्टूडेंट टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "school-timetable-maker": {
-      "heroIntro": "Build a school timetable with ready-made class periods, subjects, breaks, and editable weekly schedules.",
-      "intro": "Build a school timetable with ready-made class periods, subjects, breaks, and editable weekly schedules. Create a school timetable organized around class slots, subjects, breaks, and school days. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a school timetable organized around class slots, subjects, breaks, and school days.",
+      "heroIntro": "तैयार कक्षा अवधि, विषयों, ब्रेक और संपादन योग्य साप्ताहिक शेड्यूल के साथ एक स्कूल समय सारिणी बनाएं।",
+      "intro": "तैयार कक्षा अवधि, विषयों, ब्रेक और संपादन योग्य साप्ताहिक शेड्यूल के साथ एक स्कूल समय सारिणी बनाएं। कक्षा स्लॉट, विषयों, अवकाश और स्कूल के दिनों के अनुसार व्यवस्थित एक स्कूल समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "कक्षा स्लॉट, विषयों, अवकाश और स्कूल के दिनों के अनुसार व्यवस्थित एक स्कूल समय सारिणी बनाएं।",
       "steps": [
-        "Set school days and class periods.",
-        "Choose start time, class length, and break.",
-        "Enter subjects.",
-        "Generate and adjust the class grid."
+        "स्कूल के दिन और कक्षा अवधि निर्धारित करें।",
+        "प्रारंभ समय, कक्षा की अवधि और विराम चुनें।",
+        "विषय दर्ज करें.",
+        "क्लास ग्रिड बनाएं और समायोजित करें।"
       ],
       "useCases": [
-        "Primary school",
-        "Secondary school",
-        "Classroom planning"
+        "प्राथमिक विद्यालय",
+        "माध्यमिक विद्यालय",
+        "कक्षा योजना"
       ],
       "tips": [
-        "Check break placement and teacher availability before use."
+        "उपयोग से पहले ब्रेक प्लेसमेंट और शिक्षक उपलब्धता की जांच करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्कूल टाइम टेबल मेकर used for?",
-          "a": "Build a school timetable with ready-made class periods, subjects, breaks, and editable weekly schedules. Create a school timetable organized around class slots, subjects, breaks, and school days."
+          "q": "स्कूल टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "तैयार कक्षा अवधि, विषयों, ब्रेक और संपादन योग्य साप्ताहिक शेड्यूल के साथ एक स्कूल समय सारिणी बनाएं। कक्षा स्लॉट, विषयों, अवकाश और स्कूल के दिनों के अनुसार व्यवस्थित एक स्कूल समय सारिणी बनाएं।"
         },
         {
-          "q": "Can I print the school timetable?",
-          "a": "Yes. Use Print Timetable after generating it."
+          "q": "क्या मैं स्कूल की समय सारिणी प्रिंट कर सकता हूँ?",
+          "a": "हाँ. इसे जनरेट करने के बाद प्रिंट टाइमटेबल का उपयोग करें।"
         },
         {
-          "q": "Can I personalize स्कूल टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्कूल टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्कूल टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्कूल टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "college-timetable-maker": {
-      "heroIntro": "Create a college timetable for lectures, labs, tutorials, seminars, study blocks, and weekly campus routines.",
-      "intro": "Create a college timetable for lectures, labs, tutorials, seminars, study blocks, and weekly campus routines. Plan lectures, labs, tutorials, projects, and study blocks across a college week. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Plan lectures, labs, tutorials, projects, and study blocks across a college week.",
+      "heroIntro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, सेमिनार, अध्ययन ब्लॉक और साप्ताहिक परिसर दिनचर्या के लिए एक कॉलेज समय सारिणी बनाएं।",
+      "intro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, सेमिनार, अध्ययन ब्लॉक और साप्ताहिक परिसर दिनचर्या के लिए एक कॉलेज समय सारिणी बनाएं। पूरे कॉलेज सप्ताह में व्याख्यान, प्रयोगशाला, ट्यूटोरियल, प्रोजेक्ट और अध्ययन ब्लॉक की योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पूरे कॉलेज सप्ताह में व्याख्यान, प्रयोगशाला, ट्यूटोरियल, प्रोजेक्ट और अध्ययन ब्लॉक की योजना बनाएं।",
       "steps": [
-        "Select college days and class slots.",
-        "Set lecture timing.",
-        "Enter lectures, labs, tutorials, or projects.",
-        "Edit the generated schedule and export it."
+        "कॉलेज के दिन और कक्षा के स्लॉट चुनें।",
+        "व्याख्यान का समय निर्धारित करें।",
+        "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, या प्रोजेक्ट दर्ज करें।",
+        "जनरेट किए गए शेड्यूल को संपादित करें और इसे निर्यात करें।"
       ],
       "useCases": [
-        "College schedules",
-        "Lecture planning",
-        "Lab schedules"
+        "कॉलेज कार्यक्रम",
+        "व्याख्यान योजना",
+        "लैब शेड्यूल"
       ],
       "tips": [
-        "Use separate names for labs and lectures."
+        "प्रयोगशालाओं और व्याख्यानों के लिए अलग-अलग नामों का उपयोग करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is कॉलेज टाइम टेबल मेकर used for?",
-          "a": "Create a college timetable for lectures, labs, tutorials, seminars, study blocks, and weekly campus routines. Plan lectures, labs, tutorials, projects, and study blocks across a college week."
+          "q": "कॉलेज टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, सेमिनार, अध्ययन ब्लॉक और साप्ताहिक परिसर दिनचर्या के लिए एक कॉलेज समय सारिणी बनाएं। पूरे कॉलेज सप्ताह में व्याख्यान, प्रयोगशाला, ट्यूटोरियल, प्रोजेक्ट और अध्ययन ब्लॉक की योजना बनाएं।"
         },
         {
-          "q": "Can labs and lectures be mixed?",
-          "a": "Yes. Each cell accepts any activity you want."
+          "q": "क्या प्रयोगशालाओं और व्याख्यानों को मिश्रित किया जा सकता है?",
+          "a": "हाँ. प्रत्येक कोशिका आपकी इच्छित किसी भी गतिविधि को स्वीकार करती है।"
         },
         {
-          "q": "Can I personalize कॉलेज टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं कॉलेज टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download कॉलेज टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं कॉलेज टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "university-timetable-maker": {
-      "heroIntro": "Make a university timetable for lectures, labs, tutorials, research, seminars, and personal study periods.",
-      "intro": "Make a university timetable for lectures, labs, tutorials, research, seminars, and personal study periods. Build a university schedule for lectures, labs, research, seminars, and independent study. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a university schedule for lectures, labs, research, seminars, and independent study.",
+      "heroIntro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, अनुसंधान, सेमिनार और व्यक्तिगत अध्ययन अवधि के लिए एक विश्वविद्यालय समय सारिणी बनाएं।",
+      "intro": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, अनुसंधान, सेमिनार और व्यक्तिगत अध्ययन अवधि के लिए एक विश्वविद्यालय समय सारिणी बनाएं। व्याख्यान, प्रयोगशाला, अनुसंधान, सेमिनार और स्वतंत्र अध्ययन के लिए एक विश्वविद्यालय कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "व्याख्यान, प्रयोगशाला, अनुसंधान, सेमिनार और स्वतंत्र अध्ययन के लिए एक विश्वविद्यालय कार्यक्रम बनाएं।",
       "steps": [
-        "Choose university days and slots.",
-        "Set the daily start time.",
-        "Add academic activities.",
-        "Generate and personalize the grid."
+        "विश्वविद्यालय के दिन और स्लॉट चुनें।",
+        "दैनिक प्रारंभ समय निर्धारित करें.",
+        "शैक्षणिक गतिविधियाँ जोड़ें.",
+        "ग्रिड बनाएं और निजीकृत करें."
       ],
       "useCases": [
-        "University students",
-        "Research schedules",
-        "Seminar planning"
+        "विश्वविद्यालय के छात्र",
+        "अनुसंधान कार्यक्रम",
+        "सेमिनार योजना"
       ],
       "tips": [
-        "Include research and preparation time, not only classes."
+        "केवल कक्षाएं ही नहीं, अनुसंधान और तैयारी का समय भी शामिल करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is यूनिवर्सिटी टाइम टेबल मेकर used for?",
-          "a": "Make a university timetable for lectures, labs, tutorials, research, seminars, and personal study periods. Build a university schedule for lectures, labs, research, seminars, and independent study."
+          "q": "यूनिवर्सिटी टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "व्याख्यान, प्रयोगशाला, ट्यूटोरियल, अनुसंधान, सेमिनार और व्यक्तिगत अध्ययन अवधि के लिए एक विश्वविद्यालय समय सारिणी बनाएं। व्याख्यान, प्रयोगशाला, अनुसंधान, सेमिनार और स्वतंत्र अध्ययन के लिए एक विश्वविद्यालय कार्यक्रम बनाएं।"
         },
         {
-          "q": "Can I use it for research planning?",
-          "a": "Yes. Research, seminars, labs, and study blocks can all be entered."
+          "q": "क्या मैं इसका उपयोग अनुसंधान योजना के लिए कर सकता हूँ?",
+          "a": "हाँ. अनुसंधान, सेमिनार, प्रयोगशालाएं और अध्ययन ब्लॉक सभी में प्रवेश किया जा सकता है।"
         },
         {
-          "q": "Can I personalize यूनिवर्सिटी टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं यूनिवर्सिटी टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download यूनिवर्सिटी टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं यूनिवर्सिटी टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "class-timetable-generator": {
-      "heroIntro": "Generate an editable class timetable with periods, subjects, breaks, and a printable weekly grid.",
-      "intro": "Generate an editable class timetable with periods, subjects, breaks, and a printable weekly grid. Generate a class-ready grid for multiple subjects and teaching slots. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Generate a class-ready grid for multiple subjects and teaching slots.",
+      "heroIntro": "अवधियों, विषयों, विरामों और एक मुद्रण योग्य साप्ताहिक ग्रिड के साथ एक संपादन योग्य कक्षा समय सारिणी तैयार करें।",
+      "intro": "अवधियों, विषयों, विरामों और एक मुद्रण योग्य साप्ताहिक ग्रिड के साथ एक संपादन योग्य कक्षा समय सारिणी तैयार करें। अनेक विषयों और शिक्षण स्लॉट के लिए कक्षा-तैयार ग्रिड बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "अनेक विषयों और शिक्षण स्लॉट के लिए कक्षा-तैयार ग्रिड बनाएं।",
       "steps": [
-        "Choose class days and slot count.",
-        "Set timing and break position.",
-        "Enter subjects.",
-        "Generate and edit each class cell."
+        "कक्षा के दिन और स्लॉट संख्या चुनें।",
+        "समय निर्धारित करें और स्थिति तोड़ें।",
+        "विषय दर्ज करें.",
+        "प्रत्येक क्लास सेल बनाएं और संपादित करें।"
       ],
       "useCases": [
-        "Class teachers",
-        "School coordinators",
-        "Subject schedules"
+        "कक्षा शिक्षक",
+        "स्कूल समन्वयक",
+        "विषय अनुसूचियाँ"
       ],
       "tips": [
-        "Verify teacher and room conflicts separately."
+        "शिक्षक और कक्ष के टकराव को अलग-अलग सत्यापित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is क्लास टाइम टेबल जनरेटर used for?",
-          "a": "Generate an editable class timetable with periods, subjects, breaks, and a printable weekly grid. Generate a class-ready grid for multiple subjects and teaching slots."
+          "q": "क्लास टाइम टेबल जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "अवधियों, विषयों, विरामों और एक मुद्रण योग्य साप्ताहिक ग्रिड के साथ एक संपादन योग्य कक्षा समय सारिणी तैयार करें। अनेक विषयों और शिक्षण स्लॉट के लिए कक्षा-तैयार ग्रिड बनाएं।"
         },
         {
-          "q": "Does it assign teachers automatically?",
-          "a": "No. It creates the planning grid; teacher and room allocation should be reviewed separately."
+          "q": "क्या यह शिक्षकों को स्वचालित रूप से नियुक्त करता है?",
+          "a": "नहीं, यह नियोजन ग्रिड बनाता है; शिक्षक एवं कक्ष आवंटन की अलग से समीक्षा की जाए।"
         },
         {
-          "q": "Can I personalize क्लास टाइम टेबल जनरेटर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं क्लास टाइम टेबल जनरेटर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download क्लास टाइम टेबल जनरेटर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं क्लास टाइम टेबल जनरेटर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "study-timetable-maker": {
-      "heroIntro": "Create a study timetable for daily revision, focused study blocks, practice, reading, mock tests, and breaks.",
-      "intro": "Create a study timetable for daily revision, focused study blocks, practice, reading, mock tests, and breaks. Create a study plan that separates revision, practice, reading, and mock-test sessions by time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a study plan that separates revision, practice, reading, and mock-test sessions by time.",
+      "heroIntro": "दैनिक पुनरीक्षण, केंद्रित अध्ययन ब्लॉक, अभ्यास, पढ़ना, मॉक टेस्ट और ब्रेक के लिए एक अध्ययन समय सारिणी बनाएं।",
+      "intro": "दैनिक पुनरीक्षण, केंद्रित अध्ययन ब्लॉक, अभ्यास, पढ़ना, मॉक टेस्ट और ब्रेक के लिए एक अध्ययन समय सारिणी बनाएं। एक अध्ययन योजना बनाएं जो समय के अनुसार पुनरीक्षण, अभ्यास, पढ़ना और मॉक-टेस्ट सत्रों को अलग करती है। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक अध्ययन योजना बनाएं जो समय के अनुसार पुनरीक्षण, अभ्यास, पढ़ना और मॉक-टेस्ट सत्रों को अलग करती है।",
       "steps": [
-        "Choose study days and sessions.",
-        "Set realistic session duration.",
-        "Add study subjects or activities.",
-        "Add a goal note or quote and generate."
+        "अध्ययन के दिन और सत्र चुनें.",
+        "यथार्थवादी सत्र अवधि निर्धारित करें.",
+        "अध्ययन विषय या गतिविधियाँ जोड़ें.",
+        "एक लक्ष्य नोट या उद्धरण जोड़ें और उत्पन्न करें।"
       ],
       "useCases": [
-        "Exam preparation",
-        "Daily study plans",
-        "Revision schedules"
+        "परीक्षा की तैयारी",
+        "दैनिक अध्ययन योजना",
+        "पुनरीक्षण कार्यक्रम"
       ],
       "tips": [
-        "Alternate focused study with breaks."
+        "ब्रेक के साथ वैकल्पिक रूप से केंद्रित अध्ययन।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्टडी टाइम टेबल मेकर used for?",
-          "a": "Create a study timetable for daily revision, focused study blocks, practice, reading, mock tests, and breaks. Create a study plan that separates revision, practice, reading, and mock-test sessions by time."
+          "q": "स्टडी टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "दैनिक पुनरीक्षण, केंद्रित अध्ययन ब्लॉक, अभ्यास, पढ़ना, मॉक टेस्ट और ब्रेक के लिए एक अध्ययन समय सारिणी बनाएं। एक अध्ययन योजना बनाएं जो समय के अनुसार पुनरीक्षण, अभ्यास, पढ़ना और मॉक-टेस्ट सत्रों को अलग करती है।"
         },
         {
-          "q": "Can I use it for exam preparation?",
-          "a": "Yes. Use sessions for revision, practice, reading, and mock tests."
+          "q": "क्या मैं इसका उपयोग परीक्षा की तैयारी के लिए कर सकता हूँ?",
+          "a": "हाँ. पुनरीक्षण, अभ्यास, पढ़ने और मॉक टेस्ट के लिए सत्रों का उपयोग करें।"
         },
         {
-          "q": "Can I personalize स्टडी टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्टडी टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्टडी टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्टडी टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "exam-timetable-maker": {
-      "heroIntro": "Build an exam timetable with exam subjects, revision sessions, dates, periods, and an easy-to-edit schedule.",
-      "intro": "Build an exam timetable with exam subjects, revision sessions, dates, periods, and an easy-to-edit schedule. Organize exam dates and revision blocks without forcing every entry into a generic school period label. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Organize exam dates and revision blocks without forcing every entry into a generic school period label.",
+      "heroIntro": "परीक्षा विषयों, पुनरीक्षण सत्र, तिथियों, अवधियों और संपादित करने में आसान शेड्यूल के साथ एक परीक्षा समय सारिणी बनाएं।",
+      "intro": "परीक्षा विषयों, पुनरीक्षण सत्र, तिथियों, अवधियों और संपादित करने में आसान शेड्यूल के साथ एक परीक्षा समय सारिणी बनाएं। सामान्य स्कूल अवधि लेबल में प्रत्येक प्रविष्टि को बाध्य किए बिना परीक्षा तिथियों और पुनरीक्षण ब्लॉकों को व्यवस्थित करें। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "सामान्य स्कूल अवधि लेबल में प्रत्येक प्रविष्टि को बाध्य किए बिना परीक्षा तिथियों और पुनरीक्षण ब्लॉकों को व्यवस्थित करें।",
       "steps": [
-        "Choose the days or exam dates represented by your plan.",
-        "Set the time blocks you need.",
-        "Enter exams or revision tasks.",
-        "Add a reminder and print the final plan."
+        "अपनी योजना में दर्शाए गए दिन या परीक्षा तिथियां चुनें।",
+        "आपके लिए आवश्यक समय ब्लॉक सेट करें.",
+        "परीक्षा या पुनरीक्षण कार्य दर्ज करें।",
+        "एक अनुस्मारक जोड़ें और अंतिम योजना प्रिंट करें।"
       ],
       "useCases": [
-        "Exam calendars",
-        "Revision planning",
-        "Test preparation"
+        "परीक्षा कैलेंडर",
+        "पुनरीक्षण योजना",
+        "परीक्षण की तैयारी"
       ],
       "tips": [
-        "Double-check official exam dates before relying on the generated plan."
+        "बनाई गई योजना पर भरोसा करने से पहले आधिकारिक परीक्षा तिथियों की दोबारा जांच करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is एग्जाम टाइम टेबल मेकर used for?",
-          "a": "Build an exam timetable with exam subjects, revision sessions, dates, periods, and an easy-to-edit schedule. Organize exam dates and revision blocks without forcing every entry into a generic school period label."
+          "q": "एग्जाम टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "परीक्षा विषयों, पुनरीक्षण सत्र, तिथियों, अवधियों और संपादित करने में आसान शेड्यूल के साथ एक परीक्षा समय सारिणी बनाएं। सामान्य स्कूल अवधि लेबल में प्रत्येक प्रविष्टि को बाध्य किए बिना परीक्षा तिथियों और पुनरीक्षण ब्लॉकों को व्यवस्थित करें।"
         },
         {
-          "q": "Is this an official exam schedule?",
-          "a": "No. It is a planning tool; verify dates against your school or exam authority."
+          "q": "क्या यह आधिकारिक परीक्षा कार्यक्रम है?",
+          "a": "नहीं, यह एक नियोजन उपकरण है; अपने स्कूल या परीक्षा प्राधिकारी के विरुद्ध तारीखों की पुष्टि करें।"
         },
         {
-          "q": "Can I personalize एग्जाम टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं एग्जाम टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download एग्जाम टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं एग्जाम टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "weekly-timetable-maker": {
-      "heroIntro": "Generate a weekly timetable for school, work, study, exercise, family time, hobbies, and personal planning.",
-      "intro": "Generate a weekly timetable for school, work, study, exercise, family time, hobbies, and personal planning. Create a flexible seven-day plan for work, study, exercise, family time, and personal tasks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a flexible seven-day plan for work, study, exercise, family time, and personal tasks.",
+      "heroIntro": "स्कूल, काम, अध्ययन, व्यायाम, पारिवारिक समय, शौक और व्यक्तिगत योजना के लिए एक साप्ताहिक समय सारिणी बनाएं।",
+      "intro": "स्कूल, काम, अध्ययन, व्यायाम, पारिवारिक समय, शौक और व्यक्तिगत योजना के लिए एक साप्ताहिक समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, पारिवारिक समय और व्यक्तिगत कार्यों के लिए एक लचीली सात-दिवसीय योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "काम, अध्ययन, व्यायाम, पारिवारिक समय और व्यक्तिगत कार्यों के लिए एक लचीली सात-दिवसीय योजना बनाएं।",
       "steps": [
-        "Choose the number of days and time blocks.",
-        "Set a convenient start time.",
-        "Enter activities.",
-        "Add a personal note and generate the week."
+        "दिनों की संख्या और समय ब्लॉक चुनें.",
+        "एक सुविधाजनक प्रारंभ समय निर्धारित करें.",
+        "गतिविधियाँ दर्ज करें.",
+        "एक व्यक्तिगत नोट जोड़ें और सप्ताह तैयार करें।"
       ],
       "useCases": [
-        "Weekly planning",
-        "Personal productivity",
-        "Family schedules"
+        "साप्ताहिक योजना",
+        "व्यक्तिगत उत्पादकता",
+        "पारिवारिक कार्यक्रम"
       ],
       "tips": [
-        "Keep flexible blocks for unexpected tasks."
+        "अप्रत्याशित कार्यों के लिए लचीले ब्लॉक रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is साप्ताहिक टाइम टेबल मेकर used for?",
-          "a": "Generate a weekly timetable for school, work, study, exercise, family time, hobbies, and personal planning. Create a flexible seven-day plan for work, study, exercise, family time, and personal tasks."
+          "q": "साप्ताहिक टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "स्कूल, काम, अध्ययन, व्यायाम, पारिवारिक समय, शौक और व्यक्तिगत योजना के लिए एक साप्ताहिक समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, पारिवारिक समय और व्यक्तिगत कार्यों के लिए एक लचीली सात-दिवसीय योजना बनाएं।"
         },
         {
-          "q": "Can I plan non-school activities?",
-          "a": "Yes. Any activity can be placed into a time block."
+          "q": "क्या मैं गैर-स्कूल गतिविधियों की योजना बना सकता हूँ?",
+          "a": "हाँ. किसी भी गतिविधि को टाइम ब्लॉक में रखा जा सकता है।"
         },
         {
-          "q": "Can I personalize साप्ताहिक टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं साप्ताहिक टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download साप्ताहिक टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं साप्ताहिक टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "daily-timetable-maker": {
-      "heroIntro": "Create a daily timetable with time slots for routines, work, study, meals, exercise, family, and rest.",
-      "intro": "Create a daily timetable with time slots for routines, work, study, meals, exercise, family, and rest. Build a one-day schedule using real clock times instead of school-style period labels. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a one-day schedule using real clock times instead of school-style period labels.",
+      "heroIntro": "दिनचर्या, काम, अध्ययन, भोजन, व्यायाम, परिवार और आराम के लिए समय स्लॉट के साथ एक दैनिक समय सारिणी बनाएं।",
+      "intro": "दिनचर्या, काम, अध्ययन, भोजन, व्यायाम, परिवार और आराम के लिए समय स्लॉट के साथ एक दैनिक समय सारिणी बनाएं। स्कूल-शैली अवधि लेबल के बजाय वास्तविक घड़ी समय का उपयोग करके एक दिन का शेड्यूल बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "स्कूल-शैली अवधि लेबल के बजाय वास्तविक घड़ी समय का उपयोग करके एक दिन का शेड्यूल बनाएं।",
       "steps": [
-        "Set your start time and number of activities.",
-        "Choose the activity duration.",
-        "Enter your routine.",
-        "Generate and personalize the day."
+        "अपना प्रारंभ समय और गतिविधियों की संख्या निर्धारित करें।",
+        "गतिविधि अवधि चुनें.",
+        "अपनी दिनचर्या दर्ज करें.",
+        "दिन को बनाएं और निजीकृत करें."
       ],
       "useCases": [
-        "Daily routines",
-        "Productivity plans",
-        "Morning-to-evening schedules"
+        "दैनिक दिनचर्या",
+        "उत्पादकता योजनाएँ",
+        "सुबह से शाम तक का शेड्यूल"
       ],
       "tips": [
-        "Use actual clock times to make the plan easier to follow."
+        "योजना का पालन करना आसान बनाने के लिए वास्तविक घड़ी समय का उपयोग करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is डेली टाइम टेबल मेकर used for?",
-          "a": "Create a daily timetable with time slots for routines, work, study, meals, exercise, family, and rest. Build a one-day schedule using real clock times instead of school-style period labels."
+          "q": "डेली टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "दिनचर्या, काम, अध्ययन, भोजन, व्यायाम, परिवार और आराम के लिए समय स्लॉट के साथ एक दैनिक समय सारिणी बनाएं। स्कूल-शैली अवधि लेबल के बजाय वास्तविक घड़ी समय का उपयोग करके एक दिन का शेड्यूल बनाएं।"
         },
         {
-          "q": "Does the daily planner show real times?",
-          "a": "Yes. Generated blocks display start and end times."
+          "q": "क्या दैनिक योजनाकार वास्तविक समय दिखाता है?",
+          "a": "हाँ. जेनरेट किए गए ब्लॉक प्रारंभ और समाप्ति समय प्रदर्शित करते हैं।"
         },
         {
-          "q": "Can I personalize डेली टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं डेली टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download डेली टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं डेली टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "kids-timetable-maker": {
-      "heroIntro": "Make a simple kids timetable with school, homework, play, reading, creative activities, family time, and routines.",
-      "intro": "Make a simple kids timetable with school, homework, play, reading, creative activities, family time, and routines. Make a child-friendly weekly schedule for school, homework, play, reading, and family time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Make a child-friendly weekly schedule for school, homework, play, reading, and family time.",
+      "heroIntro": "स्कूल, होमवर्क, खेल, पढ़ना, रचनात्मक गतिविधियाँ, पारिवारिक समय और दिनचर्या के साथ बच्चों की एक सरल समय सारिणी बनाएं।",
+      "intro": "स्कूल, होमवर्क, खेल, पढ़ना, रचनात्मक गतिविधियाँ, पारिवारिक समय और दिनचर्या के साथ बच्चों की एक सरल समय सारिणी बनाएं। स्कूल, होमवर्क, खेल, पढ़ने और परिवार के साथ समय बिताने के लिए बच्चों के अनुकूल साप्ताहिक कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "स्कूल, होमवर्क, खेल, पढ़ने और परिवार के साथ समय बिताने के लिए बच्चों के अनुकूल साप्ताहिक कार्यक्रम बनाएं।",
       "steps": [
-        "Choose the child’s days and time blocks.",
-        "Set simple activity names.",
-        "Add a cheerful note or reminder.",
-        "Generate and print the schedule."
+        "बच्चे के दिन और समय ब्लॉक चुनें।",
+        "सरल गतिविधि नाम सेट करें.",
+        "एक हर्षित नोट या अनुस्मारक जोड़ें.",
+        "शेड्यूल बनाएं और प्रिंट करें."
       ],
       "useCases": [
-        "Kids school routines",
-        "Homework schedules",
-        "After-school planning"
+        "बच्चों के स्कूल की दिनचर्या",
+        "होमवर्क शेड्यूल",
+        "स्कूल के बाद की योजना"
       ],
       "tips": [
-        "Keep activity names simple and include play time."
+        "गतिविधि के नाम सरल रखें और खेलने का समय भी शामिल करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is किड्स टाइम टेबल मेकर used for?",
-          "a": "Make a simple kids timetable with school, homework, play, reading, creative activities, family time, and routines. Make a child-friendly weekly schedule for school, homework, play, reading, and family time."
+          "q": "किड्स टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "स्कूल, होमवर्क, खेल, पढ़ना, रचनात्मक गतिविधियाँ, पारिवारिक समय और दिनचर्या के साथ बच्चों की एक सरल समय सारिणी बनाएं। स्कूल, होमवर्क, खेल, पढ़ने और परिवार के साथ समय बिताने के लिए बच्चों के अनुकूल साप्ताहिक कार्यक्रम बनाएं।"
         },
         {
-          "q": "Is this designed for kids?",
-          "a": "Yes. The layout uses a child-friendly visual theme while keeping the schedule easy to edit."
+          "q": "क्या यह बच्चों के लिए बनाया गया है?",
+          "a": "हाँ. शेड्यूल को संपादित करना आसान रखते हुए लेआउट बच्चों के अनुकूल दृश्य थीम का उपयोग करता है।"
         },
         {
-          "q": "Can I personalize किड्स टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं किड्स टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download किड्स टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं किड्स टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "kids-daily-routine-planner": {
-      "heroIntro": "Create a kid-friendly daily routine planner for wake-up, school, homework, play, reading, meals, and bedtime.",
-      "intro": "Create a kid-friendly daily routine planner for wake-up, school, homework, play, reading, meals, and bedtime. Create a simple daily routine for children using actual clock times for wake-up, school, homework, play, meals, and bedtime. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a simple daily routine for children using actual clock times for wake-up, school, homework, play, meals, and bedtime.",
+      "heroIntro": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं।",
+      "intro": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।",
       "steps": [
-        "Choose the daily time blocks.",
-        "Set the start time and duration.",
-        "Enter routine activities.",
-        "Add a positive note or quote and print it."
+        "दैनिक समय ब्लॉक चुनें.",
+        "प्रारंभ समय और अवधि निर्धारित करें.",
+        "नियमित गतिविधियाँ दर्ज करें.",
+        "एक सकारात्मक नोट या उद्धरण जोड़ें और उसे प्रिंट करें।"
       ],
       "useCases": [
-        "Morning routines",
-        "School-day routines",
-        "Bedtime planning"
+        "सुबह की दिनचर्या",
+        "स्कूल-दिन की दिनचर्या",
+        "सोने के समय की योजना"
       ],
       "tips": [
-        "Keep transitions realistic and leave space between major activities."
+        "बदलावों को यथार्थवादी रखें और प्रमुख गतिविधियों के बीच जगह छोड़ें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is बच्चों का डेली रूटीन प्लानर used for?",
-          "a": "Create a kid-friendly daily routine planner for wake-up, school, homework, play, reading, meals, and bedtime. Create a simple daily routine for children using actual clock times for wake-up, school, homework, play, meals, and bedtime."
+          "q": "बच्चों का डेली रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।"
         },
         {
-          "q": "Does it use Monday as the only day?",
-          "a": "No. This one-day routine uses Today and focuses on clock times and activities."
+          "q": "क्या यह सोमवार को ही एकमात्र दिन के रूप में उपयोग करता है?",
+          "a": "नहीं, यह एक दिवसीय दिनचर्या आज का उपयोग करती है और घड़ी के समय और गतिविधियों पर ध्यान केंद्रित करती है।"
         },
         {
-          "q": "Can I personalize बच्चों का डेली रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं बच्चों का डेली रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download बच्चों का डेली रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं बच्चों का डेली रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "girls-daily-routine-planner": {
-      "heroIntro": "Create an editable daily and weekly routine planner for girls with study, school, exercise, self-care, family, and free time.",
-      "intro": "Create an editable daily and weekly routine planner for girls with study, school, exercise, self-care, family, and free time. Create a personalized daily or weekly routine with study, work, exercise, self-care, family, and free-time blocks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a personalized daily or weekly routine with study, work, exercise, self-care, family, and free-time blocks.",
+      "heroIntro": "पढ़ाई, स्कूल, व्यायाम, आत्म-देखभाल, परिवार और खाली समय वाली लड़कियों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं।",
+      "intro": "पढ़ाई, स्कूल, व्यायाम, आत्म-देखभाल, परिवार और खाली समय वाली लड़कियों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। अध्ययन, कार्य, व्यायाम, आत्म-देखभाल, परिवार और खाली समय के ब्लॉक के साथ एक व्यक्तिगत दैनिक या साप्ताहिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "अध्ययन, कार्य, व्यायाम, आत्म-देखभाल, परिवार और खाली समय के ब्लॉक के साथ एक व्यक्तिगत दैनिक या साप्ताहिक दिनचर्या बनाएं।",
       "steps": [
-        "Choose the days and time blocks.",
-        "Set your start time.",
-        "Add routine activities.",
-        "Personalize the title, note, and quote."
+        "दिन और समय ब्लॉक चुनें.",
+        "अपना प्रारंभ समय निर्धारित करें.",
+        "नियमित गतिविधियाँ जोड़ें.",
+        "शीर्षक, नोट और उद्धरण को वैयक्तिकृत करें।"
       ],
       "useCases": [
-        "Student routines",
-        "Self-care planning",
-        "Weekly personal organization"
+        "विद्यार्थी दिनचर्या",
+        "स्व-देखभाल योजना",
+        "साप्ताहिक व्यक्तिगत संगठन"
       ],
       "tips": [
-        "Balance responsibilities with rest and personal time."
+        "आराम और व्यक्तिगत समय के साथ जिम्मेदारियों को संतुलित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is गर्ल्स डेली रूटीन प्लानर used for?",
-          "a": "Create an editable daily and weekly routine planner for girls with study, school, exercise, self-care, family, and free time. Create a personalized daily or weekly routine with study, work, exercise, self-care, family, and free-time blocks."
+          "q": "गर्ल्स डेली रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "पढ़ाई, स्कूल, व्यायाम, आत्म-देखभाल, परिवार और खाली समय वाली लड़कियों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। अध्ययन, कार्य, व्यायाम, आत्म-देखभाल, परिवार और खाली समय के ब्लॉक के साथ एक व्यक्तिगत दैनिक या साप्ताहिक दिनचर्या बनाएं।"
         },
         {
-          "q": "Can I personalize the routine?",
-          "a": "Yes. You can edit every cell and add your own note and quote."
+          "q": "क्या मैं दिनचर्या को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. आप प्रत्येक सेल को संपादित कर सकते हैं और अपना स्वयं का नोट और उद्धरण जोड़ सकते हैं।"
         },
         {
-          "q": "Can I personalize गर्ल्स डेली रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं गर्ल्स डेली रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download गर्ल्स डेली रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं गर्ल्स डेली रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "boys-daily-routine-planner": {
-      "heroIntro": "Create an editable daily and weekly routine planner for boys with study, school, exercise, hobbies, family, and free time.",
-      "intro": "Create an editable daily and weekly routine planner for boys with study, school, exercise, hobbies, family, and free time. Create a practical weekly routine for school, work, exercise, hobbies, family, and free time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a practical weekly routine for school, work, exercise, hobbies, family, and free time.",
+      "heroIntro": "पढ़ाई, स्कूल, व्यायाम, शौक, परिवार और खाली समय वाले लड़कों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं।",
+      "intro": "पढ़ाई, स्कूल, व्यायाम, शौक, परिवार और खाली समय वाले लड़कों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। स्कूल, काम, व्यायाम, शौक, परिवार और खाली समय के लिए एक व्यावहारिक साप्ताहिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "स्कूल, काम, व्यायाम, शौक, परिवार और खाली समय के लिए एक व्यावहारिक साप्ताहिक दिनचर्या बनाएं।",
       "steps": [
-        "Choose days and time blocks.",
-        "Set realistic durations.",
-        "Add activities and hobbies.",
-        "Generate and personalize the plan."
+        "दिन और समय ब्लॉक चुनें.",
+        "यथार्थवादी अवधि निर्धारित करें.",
+        "गतिविधियाँ और शौक जोड़ें.",
+        "योजना बनाएं और वैयक्तिकृत करें."
       ],
       "useCases": [
-        "Student routines",
-        "Fitness and hobbies",
-        "Weekly organization"
+        "विद्यार्थी दिनचर्या",
+        "फिटनेस और शौक",
+        "साप्ताहिक संगठन"
       ],
       "tips": [
-        "Keep exercise and recovery realistic."
+        "व्यायाम और पुनर्प्राप्ति को यथार्थवादी रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is बॉयज़ डेली रूटीन प्लानर used for?",
-          "a": "Create an editable daily and weekly routine planner for boys with study, school, exercise, hobbies, family, and free time. Create a practical weekly routine for school, work, exercise, hobbies, family, and free time."
+          "q": "बॉयज़ डेली रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "पढ़ाई, स्कूल, व्यायाम, शौक, परिवार और खाली समय वाले लड़कों के लिए एक संपादन योग्य दैनिक और साप्ताहिक दिनचर्या योजना बनाएं। स्कूल, काम, व्यायाम, शौक, परिवार और खाली समय के लिए एक व्यावहारिक साप्ताहिक दिनचर्या बनाएं।"
         },
         {
-          "q": "Can hobbies be included?",
-          "a": "Yes. Any activity can be entered into a schedule cell."
+          "q": "क्या शौक शामिल किये जा सकते हैं?",
+          "a": "हाँ. किसी भी गतिविधि को शेड्यूल सेल में दर्ज किया जा सकता है।"
         },
         {
-          "q": "Can I personalize बॉयज़ डेली रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं बॉयज़ डेली रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download बॉयज़ डेली रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं बॉयज़ डेली रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "employee-work-timetable": {
-      "heroIntro": "Create an employee work timetable for focus work, meetings, projects, planning, breaks, team tasks, and review blocks.",
-      "intro": "Create an employee work timetable for focus work, meetings, projects, planning, breaks, team tasks, and review blocks. Plan focused work, meetings, email, projects, team time, lunch, and review blocks across the workweek. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Plan focused work, meetings, email, projects, team time, lunch, and review blocks across the workweek.",
+      "heroIntro": "फोकस कार्य, बैठकों, परियोजनाओं, योजना, ब्रेक, टीम कार्यों और समीक्षा ब्लॉकों के लिए एक कर्मचारी कार्य समय सारिणी बनाएं।",
+      "intro": "फोकस कार्य, बैठकों, परियोजनाओं, योजना, ब्रेक, टीम कार्यों और समीक्षा ब्लॉकों के लिए एक कर्मचारी कार्य समय सारिणी बनाएं। पूरे कार्य सप्ताह में केंद्रित कार्य, बैठकें, ईमेल, प्रोजेक्ट, टीम समय, दोपहर का भोजन और समीक्षा ब्लॉक की योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पूरे कार्य सप्ताह में केंद्रित कार्य, बैठकें, ईमेल, प्रोजेक्ट, टीम समय, दोपहर का भोजन और समीक्षा ब्लॉक की योजना बनाएं।",
       "steps": [
-        "Choose workdays and time blocks.",
-        "Set working hours and duration.",
-        "Add work activities.",
-        "Generate and edit the final work plan."
+        "कार्यदिवस और समय ब्लॉक चुनें.",
+        "काम के घंटे और अवधि निर्धारित करें.",
+        "कार्य गतिविधियाँ जोड़ें.",
+        "अंतिम कार्य योजना तैयार करें और संपादित करें।"
       ],
       "useCases": [
-        "Employee planning",
-        "Focus-time schedules",
-        "Team workweeks"
+        "कर्मचारी नियोजन",
+        "फोकस-समय कार्यक्रम",
+        "टीम कार्य सप्ताह"
       ],
       "tips": [
-        "Protect focus blocks and keep meeting time visible."
+        "फोकस ब्लॉकों को सुरक्षित रखें और मीटिंग का समय दृश्यमान रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is एम्प्लॉयी वर्क टाइम टेबल used for?",
-          "a": "Create an employee work timetable for focus work, meetings, projects, planning, breaks, team tasks, and review blocks. Plan focused work, meetings, email, projects, team time, lunch, and review blocks across the workweek."
+          "q": "एम्प्लॉयी वर्क टाइम टेबल का उपयोग किसके लिए किया जाता है?",
+          "a": "फोकस कार्य, बैठकों, परियोजनाओं, योजना, ब्रेक, टीम कार्यों और समीक्षा ब्लॉकों के लिए एक कर्मचारी कार्य समय सारिणी बनाएं। पूरे कार्य सप्ताह में केंद्रित कार्य, बैठकें, ईमेल, प्रोजेक्ट, टीम समय, दोपहर का भोजन और समीक्षा ब्लॉक की योजना बनाएं।"
         },
         {
-          "q": "Can I use it for office work?",
-          "a": "Yes. It is designed for work blocks, meetings, planning, and review."
+          "q": "क्या मैं इसे कार्यालय के काम के लिए उपयोग कर सकता हूँ?",
+          "a": "हाँ. इसे कार्य ब्लॉकों, बैठकों, योजना और समीक्षा के लिए डिज़ाइन किया गया है।"
         },
         {
-          "q": "Can I personalize एम्प्लॉयी वर्क टाइम टेबल?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं एम्प्लॉयी वर्क टाइम टेबल को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download एम्प्लॉयी वर्क टाइम टेबल?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं एम्प्लॉयी वर्क टाइम टेबल को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "work-shift-schedule-maker": {
-      "heroIntro": "Make a work shift schedule for morning, evening, night, rotating, or custom shifts across a weekly grid.",
-      "intro": "Make a work shift schedule for morning, evening, night, rotating, or custom shifts across a weekly grid. Create a shift-oriented schedule for morning, evening, night, or custom work shifts. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a shift-oriented schedule for morning, evening, night, or custom work shifts.",
+      "heroIntro": "साप्ताहिक ग्रिड में सुबह, शाम, रात, घूमने वाली या कस्टम शिफ्ट के लिए कार्य शिफ्ट शेड्यूल बनाएं।",
+      "intro": "साप्ताहिक ग्रिड में सुबह, शाम, रात, घूमने वाली या कस्टम शिफ्ट के लिए कार्य शिफ्ट शेड्यूल बनाएं। सुबह, शाम, रात या कस्टम कार्य शिफ्ट के लिए शिफ्ट-उन्मुख शेड्यूल बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "सुबह, शाम, रात या कस्टम कार्य शिफ्ट के लिए शिफ्ट-उन्मुख शेड्यूल बनाएं।",
       "steps": [
-        "Choose the days and shift slots.",
-        "Set shift timing.",
-        "Enter shift names or duties.",
-        "Generate and review the rota."
+        "दिन चुनें और स्लॉट बदलें.",
+        "शिफ्ट टाइमिंग सेट करें.",
+        "शिफ्ट नाम या कर्तव्य दर्ज करें.",
+        "रोटा उत्पन्न करें और समीक्षा करें।"
       ],
       "useCases": [
-        "Shift workers",
-        "Weekly rota planning",
-        "Team coverage drafts"
+        "श्रमिकों को शिफ्ट करें",
+        "साप्ताहिक रोटा योजना",
+        "टीम कवरेज ड्राफ्ट"
       ],
       "tips": [
-        "Verify staffing and labor requirements separately."
+        "स्टाफिंग और श्रमिक आवश्यकताओं को अलग से सत्यापित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is वर्क शिफ्ट शेड्यूल मेकर used for?",
-          "a": "Make a work shift schedule for morning, evening, night, rotating, or custom shifts across a weekly grid. Create a shift-oriented schedule for morning, evening, night, or custom work shifts."
+          "q": "वर्क शिफ्ट शेड्यूल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "साप्ताहिक ग्रिड में सुबह, शाम, रात, घूमने वाली या कस्टम शिफ्ट के लिए कार्य शिफ्ट शेड्यूल बनाएं। सुबह, शाम, रात या कस्टम कार्य शिफ्ट के लिए शिफ्ट-उन्मुख शेड्यूल बनाएं।"
         },
         {
-          "q": "Does it calculate staffing automatically?",
-          "a": "No. It creates a schedule grid; staffing decisions remain with the user."
+          "q": "क्या यह स्वचालित रूप से स्टाफिंग की गणना करता है?",
+          "a": "नहीं, यह एक शेड्यूल ग्रिड बनाता है; स्टाफिंग संबंधी निर्णय उपयोगकर्ता के पास रहते हैं।"
         },
         {
-          "q": "Can I personalize वर्क शिफ्ट शेड्यूल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं वर्क शिफ्ट शेड्यूल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download वर्क शिफ्ट शेड्यूल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं वर्क शिफ्ट शेड्यूल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "teacher-timetable-maker": {
-      "heroIntro": "Build a teacher timetable with classes, planning, meetings, preparation, assessments, labs, and free periods.",
-      "intro": "Build a teacher timetable with classes, planning, meetings, preparation, assessments, labs, and free periods. Create a teacher timetable that separates classes, preparation, meetings, assessment, labs, and free periods. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a teacher timetable that separates classes, preparation, meetings, assessment, labs, and free periods.",
+      "heroIntro": "कक्षाओं, योजना, बैठकों, तैयारी, मूल्यांकन, प्रयोगशालाओं और निःशुल्क अवधियों के साथ एक शिक्षक समय सारिणी बनाएं।",
+      "intro": "कक्षाओं, योजना, बैठकों, तैयारी, मूल्यांकन, प्रयोगशालाओं और निःशुल्क अवधियों के साथ एक शिक्षक समय सारिणी बनाएं। एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो।",
       "steps": [
-        "Choose teaching days and slots.",
-        "Set school hours.",
-        "Enter classes and teacher tasks.",
-        "Generate and check the final timetable."
+        "शिक्षण दिवस और स्लॉट चुनें।",
+        "स्कूल का समय निर्धारित करें.",
+        "कक्षाएँ और शिक्षक कार्य दर्ज करें।",
+        "अंतिम समय सारिणी बनाएं और जांचें।"
       ],
       "useCases": [
-        "Teacher schedules",
-        "Lesson planning",
-        "Preparation blocks"
+        "शिक्षक कार्यक्रम",
+        "पाठ योजना",
+        "तैयारी ब्लॉक"
       ],
       "tips": [
-        "Leave visible preparation and transition time."
+        "दृश्यमान तैयारी और परिवर्तन का समय छोड़ दें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is टीचर टाइम टेबल मेकर used for?",
-          "a": "Build a teacher timetable with classes, planning, meetings, preparation, assessments, labs, and free periods. Create a teacher timetable that separates classes, preparation, meetings, assessment, labs, and free periods."
+          "q": "टीचर टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "कक्षाओं, योजना, बैठकों, तैयारी, मूल्यांकन, प्रयोगशालाओं और निःशुल्क अवधियों के साथ एक शिक्षक समय सारिणी बनाएं। एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो।"
         },
         {
-          "q": "Can preparation periods be included?",
-          "a": "Yes. Every cell can contain classes or teacher tasks."
+          "q": "क्या तैयारी की अवधि शामिल की जा सकती है?",
+          "a": "हाँ. प्रत्येक कक्ष में कक्षाएँ या शिक्षक कार्य हो सकते हैं।"
         },
         {
-          "q": "Can I personalize टीचर टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं टीचर टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download टीचर टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं टीचर टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "class-schedule-maker": {
-      "heroIntro": "Create an editable class schedule with periods, subjects, activities, breaks, and a printable weekly timetable.",
-      "intro": "Create an editable class schedule with periods, subjects, activities, breaks, and a printable weekly timetable. Build a simple class schedule with named classes and real clock-time blocks. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Build a simple class schedule with named classes and real clock-time blocks.",
+      "heroIntro": "अवधियों, विषयों, गतिविधियों, अवकाशों और एक मुद्रण योग्य साप्ताहिक समय सारिणी के साथ एक संपादन योग्य कक्षा कार्यक्रम बनाएं।",
+      "intro": "अवधियों, विषयों, गतिविधियों, अवकाशों और एक मुद्रण योग्य साप्ताहिक समय सारिणी के साथ एक संपादन योग्य कक्षा कार्यक्रम बनाएं। नामित कक्षाओं और वास्तविक घड़ी-समय ब्लॉकों के साथ एक सरल कक्षा अनुसूची बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "नामित कक्षाओं और वास्तविक घड़ी-समय ब्लॉकों के साथ एक सरल कक्षा अनुसूची बनाएं।",
       "steps": [
-        "Choose class days and slots.",
-        "Set start time and duration.",
-        "Enter class names.",
-        "Generate and edit the schedule."
+        "कक्षा के दिन और स्लॉट चुनें.",
+        "आरंभ समय और अवधि निर्धारित करें.",
+        "कक्षा के नाम दर्ज करें.",
+        "शेड्यूल बनाएं और संपादित करें."
       ],
       "useCases": [
-        "Class groups",
-        "Course schedules",
-        "Training sessions"
+        "कक्षा समूह",
+        "पाठ्यक्रम कार्यक्रम",
+        "प्रशिक्षण सत्र"
       ],
       "tips": [
-        "Use one clear class name per cell."
+        "प्रति कक्ष एक स्पष्ट वर्ग नाम का उपयोग करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is क्लास शेड्यूल मेकर used for?",
-          "a": "Create an editable class schedule with periods, subjects, activities, breaks, and a printable weekly timetable. Build a simple class schedule with named classes and real clock-time blocks."
+          "q": "क्लास शेड्यूल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "अवधियों, विषयों, गतिविधियों, अवकाशों और एक मुद्रण योग्य साप्ताहिक समय सारिणी के साथ एक संपादन योग्य कक्षा कार्यक्रम बनाएं। नामित कक्षाओं और वास्तविक घड़ी-समय ब्लॉकों के साथ एक सरल कक्षा अनुसूची बनाएं।"
         },
         {
-          "q": "Can I use custom class names?",
-          "a": "Yes. Replace every generated cell with your own class or activity."
+          "q": "क्या मैं कस्टम क्लास नामों का उपयोग कर सकता हूँ?",
+          "a": "हाँ. प्रत्येक जेनरेटेड सेल को अपनी कक्षा या गतिविधि से बदलें।"
         },
         {
-          "q": "Can I personalize क्लास शेड्यूल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं क्लास शेड्यूल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download क्लास शेड्यूल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं क्लास शेड्यूल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "personal-timetable-maker": {
-      "heroIntro": "Create a personal timetable for work, study, exercise, errands, family time, hobbies, and personal goals.",
-      "intro": "Create a personal timetable for work, study, exercise, errands, family time, hobbies, and personal goals. Create a personal schedule combining work, study, exercise, errands, family, and personal time. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a personal schedule combining work, study, exercise, errands, family, and personal time.",
+      "heroIntro": "काम, अध्ययन, व्यायाम, कामकाज, पारिवारिक समय, शौक और व्यक्तिगत लक्ष्यों के लिए एक व्यक्तिगत समय सारिणी बनाएं।",
+      "intro": "काम, अध्ययन, व्यायाम, कामकाज, पारिवारिक समय, शौक और व्यक्तिगत लक्ष्यों के लिए एक व्यक्तिगत समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, कामकाज, परिवार और व्यक्तिगत समय को मिलाकर एक व्यक्तिगत कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "काम, अध्ययन, व्यायाम, कामकाज, परिवार और व्यक्तिगत समय को मिलाकर एक व्यक्तिगत कार्यक्रम बनाएं।",
       "steps": [
-        "Choose days and time blocks.",
-        "Set your normal start time.",
-        "Add activities.",
-        "Add a personal note or quote and generate."
+        "दिन और समय ब्लॉक चुनें.",
+        "अपना सामान्य प्रारंभ समय निर्धारित करें.",
+        "गतिविधियाँ जोड़ें.",
+        "एक व्यक्तिगत नोट या उद्धरण जोड़ें और जनरेट करें।"
       ],
       "useCases": [
-        "Personal productivity",
-        "Life planning",
-        "Weekly routines"
+        "व्यक्तिगत उत्पादकता",
+        "जीवन नियोजन",
+        "साप्ताहिक दिनचर्या"
       ],
       "tips": [
-        "Keep at least one flexible block."
+        "कम से कम एक लचीला ब्लॉक रखें."
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is पर्सनल टाइम टेबल मेकर used for?",
-          "a": "Create a personal timetable for work, study, exercise, errands, family time, hobbies, and personal goals. Create a personal schedule combining work, study, exercise, errands, family, and personal time."
+          "q": "पर्सनल टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "काम, अध्ययन, व्यायाम, कामकाज, पारिवारिक समय, शौक और व्यक्तिगत लक्ष्यों के लिए एक व्यक्तिगत समय सारिणी बनाएं। काम, अध्ययन, व्यायाम, कामकाज, परिवार और व्यक्तिगत समय को मिलाकर एक व्यक्तिगत कार्यक्रम बनाएं।"
         },
         {
-          "q": "Can I combine work and personal tasks?",
-          "a": "Yes. The generator accepts any mix of activities."
+          "q": "क्या मैं काम और व्यक्तिगत कार्यों को जोड़ सकता हूँ?",
+          "a": "हाँ. जनरेटर गतिविधियों के किसी भी मिश्रण को स्वीकार करता है।"
         },
         {
-          "q": "Can I personalize पर्सनल टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं पर्सनल टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download पर्सनल टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं पर्सनल टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "home-routine-planner": {
-      "heroIntro": "Make a home routine planner for cleaning, meals, family activities, errands, rest, and recurring household tasks.",
-      "intro": "Make a home routine planner for cleaning, meals, family activities, errands, rest, and recurring household tasks. Organize household routines such as cleaning, meals, family time, and rest across the week. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Organize household routines such as cleaning, meals, family time, and rest across the week.",
+      "heroIntro": "सफ़ाई, भोजन, पारिवारिक गतिविधियाँ, कामकाज, आराम और बार-बार होने वाले घरेलू कार्यों के लिए एक घरेलू दिनचर्या योजना बनाएं।",
+      "intro": "सफ़ाई, भोजन, पारिवारिक गतिविधियाँ, कामकाज, आराम और बार-बार होने वाले घरेलू कार्यों के लिए एक घरेलू दिनचर्या योजना बनाएं। पूरे सप्ताह घरेलू दिनचर्या जैसे सफाई, भोजन, पारिवारिक समय और आराम को व्यवस्थित करें। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पूरे सप्ताह घरेलू दिनचर्या जैसे सफाई, भोजन, पारिवारिक समय और आराम को व्यवस्थित करें।",
       "steps": [
-        "Choose household days and time blocks.",
-        "Set the daily start time.",
-        "Add routine tasks.",
-        "Generate and print the family plan."
+        "घरेलू दिन और समय ब्लॉक चुनें।",
+        "दैनिक प्रारंभ समय निर्धारित करें.",
+        "नियमित कार्य जोड़ें.",
+        "परिवार योजना बनाएं और प्रिंट करें."
       ],
       "useCases": [
-        "Home routines",
-        "Family schedules",
-        "Cleaning plans"
+        "घरेलू दिनचर्या",
+        "पारिवारिक कार्यक्रम",
+        "सफ़ाई योजना"
       ],
       "tips": [
-        "Keep routine blocks realistic and repeatable."
+        "नियमित ब्लॉकों को यथार्थवादी और दोहराने योग्य रखें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is होम रूटीन प्लानर used for?",
-          "a": "Make a home routine planner for cleaning, meals, family activities, errands, rest, and recurring household tasks. Organize household routines such as cleaning, meals, family time, and rest across the week."
+          "q": "होम रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "सफ़ाई, भोजन, पारिवारिक गतिविधियाँ, कामकाज, आराम और बार-बार होने वाले घरेलू कार्यों के लिए एक घरेलू दिनचर्या योजना बनाएं। पूरे सप्ताह घरेलू दिनचर्या जैसे सफाई, भोजन, पारिवारिक समय और आराम को व्यवस्थित करें।"
         },
         {
-          "q": "Can the plan be printed?",
-          "a": "Yes. The generated home routine is printable."
+          "q": "क्या योजना मुद्रित की जा सकती है?",
+          "a": "हाँ. उत्पन्न होम रूटीन मुद्रण योग्य है।"
         },
         {
-          "q": "Can I personalize होम रूटीन प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं होम रूटीन प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download होम रूटीन प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं होम रूटीन प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "workout-timetable-maker": {
-      "heroIntro": "Create a weekly workout timetable for strength, cardio, mobility, rest days, and repeatable training routines.",
-      "intro": "Create a weekly workout timetable for strength, cardio, mobility, rest days, and repeatable training routines. Create a weekly workout schedule for strength, cardio, mobility, and recovery sessions. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a weekly workout schedule for strength, cardio, mobility, and recovery sessions.",
+      "heroIntro": "ताकत, कार्डियो, गतिशीलता, आराम के दिनों और दोहराने योग्य प्रशिक्षण दिनचर्या के लिए साप्ताहिक कसरत समय सारिणी बनाएं।",
+      "intro": "ताकत, कार्डियो, गतिशीलता, आराम के दिनों और दोहराने योग्य प्रशिक्षण दिनचर्या के लिए साप्ताहिक कसरत समय सारिणी बनाएं। शक्ति, कार्डियो, गतिशीलता और पुनर्प्राप्ति सत्रों के लिए साप्ताहिक कसरत कार्यक्रम बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "शक्ति, कार्डियो, गतिशीलता और पुनर्प्राप्ति सत्रों के लिए साप्ताहिक कसरत कार्यक्रम बनाएं।",
       "steps": [
-        "Choose workout days.",
-        "Set session times.",
-        "Enter workout types.",
-        "Add a recovery reminder and generate."
+        "कसरत के दिन चुनें.",
+        "सत्र का समय निर्धारित करें.",
+        "कसरत के प्रकार दर्ज करें.",
+        "एक पुनर्प्राप्ति अनुस्मारक जोड़ें और जनरेट करें।"
       ],
       "useCases": [
-        "Gym planning",
-        "Home workouts",
-        "Weekly fitness routines"
+        "जिम योजना",
+        "घरेलू कसरत",
+        "साप्ताहिक फिटनेस दिनचर्या"
       ],
       "tips": [
-        "Include rest and recovery rather than scheduling every day as hard training."
+        "हर दिन को कठिन प्रशिक्षण के रूप में निर्धारित करने के बजाय आराम और रिकवरी को शामिल करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is वर्कआउट टाइम टेबल मेकर used for?",
-          "a": "Create a weekly workout timetable for strength, cardio, mobility, rest days, and repeatable training routines. Create a weekly workout schedule for strength, cardio, mobility, and recovery sessions."
+          "q": "वर्कआउट टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "ताकत, कार्डियो, गतिशीलता, आराम के दिनों और दोहराने योग्य प्रशिक्षण दिनचर्या के लिए साप्ताहिक कसरत समय सारिणी बनाएं। शक्ति, कार्डियो, गतिशीलता और पुनर्प्राप्ति सत्रों के लिए साप्ताहिक कसरत कार्यक्रम बनाएं।"
         },
         {
-          "q": "Can I schedule rest days?",
-          "a": "Yes. Rest can be entered as its own schedule activity."
+          "q": "क्या मैं आराम के दिन निर्धारित कर सकता हूँ?",
+          "a": "हाँ. बाकी को अपनी स्वयं की शेड्यूल गतिविधि के रूप में दर्ज किया जा सकता है।"
         },
         {
-          "q": "Can I personalize वर्कआउट टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं वर्कआउट टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download वर्कआउट टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं वर्कआउट टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "meal-timetable-planner": {
-      "heroIntro": "Build a weekly meal timetable for breakfast, snacks, lunch, dinner, and simple meal-planning routines.",
-      "intro": "Build a weekly meal timetable for breakfast, snacks, lunch, dinner, and simple meal-planning routines. Plan breakfast, snacks, lunch, and dinner using actual meal times rather than generic school periods. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Plan breakfast, snacks, lunch, and dinner using actual meal times rather than generic school periods.",
+      "heroIntro": "नाश्ते, नाश्ते, दोपहर के भोजन, रात के खाने और सरल भोजन-योजना दिनचर्या के लिए साप्ताहिक भोजन समय सारिणी बनाएं।",
+      "intro": "नाश्ते, नाश्ते, दोपहर के भोजन, रात के खाने और सरल भोजन-योजना दिनचर्या के लिए साप्ताहिक भोजन समय सारिणी बनाएं। सामान्य स्कूल अवधि के बजाय वास्तविक भोजन समय का उपयोग करके नाश्ते, नाश्ते, दोपहर के भोजन और रात के खाने की योजना बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "सामान्य स्कूल अवधि के बजाय वास्तविक भोजन समय का उपयोग करके नाश्ते, नाश्ते, दोपहर के भोजन और रात के खाने की योजना बनाएं।",
       "steps": [
-        "Choose the days.",
-        "Set meal times and duration.",
-        "Enter meals or meal types.",
-        "Generate and personalize the weekly meal plan."
+        "दिन चुनें.",
+        "भोजन का समय और अवधि निर्धारित करें।",
+        "भोजन या भोजन के प्रकार दर्ज करें.",
+        "साप्ताहिक भोजन योजना बनाएं और वैयक्तिकृत करें।"
       ],
       "useCases": [
-        "Weekly meal planning",
-        "Family meal schedules",
-        "Routine planning"
+        "साप्ताहिक भोजन योजना",
+        "पारिवारिक भोजन कार्यक्रम",
+        "नियमित योजना"
       ],
       "tips": [
-        "Use the plan as an organizer, not as medical or nutritional advice."
+        "योजना का उपयोग एक आयोजक के रूप में करें, न कि चिकित्सीय या पोषण संबंधी सलाह के रूप में।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is मील टाइम टेबल प्लानर used for?",
-          "a": "Build a weekly meal timetable for breakfast, snacks, lunch, dinner, and simple meal-planning routines. Plan breakfast, snacks, lunch, and dinner using actual meal times rather than generic school periods."
+          "q": "मील टाइम टेबल प्लानर का उपयोग किसके लिए किया जाता है?",
+          "a": "नाश्ते, नाश्ते, दोपहर के भोजन, रात के खाने और सरल भोजन-योजना दिनचर्या के लिए साप्ताहिक भोजन समय सारिणी बनाएं। सामान्य स्कूल अवधि के बजाय वास्तविक भोजन समय का उपयोग करके नाश्ते, नाश्ते, दोपहर के भोजन और रात के खाने की योजना बनाएं।"
         },
         {
-          "q": "Does it create a nutrition plan?",
-          "a": "No. It organizes meal timing and labels; nutritional decisions remain with the user."
+          "q": "क्या यह कोई पोषण योजना बनाता है?",
+          "a": "नहीं, यह भोजन के समय और लेबल को व्यवस्थित करता है; पोषण संबंधी निर्णय उपयोगकर्ता पर निर्भर रहता है।"
         },
         {
-          "q": "Can I personalize मील टाइम टेबल प्लानर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं मील टाइम टेबल प्लानर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download मील टाइम टेबल प्लानर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं मील टाइम टेबल प्लानर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "printable-timetable-maker": {
-      "heroIntro": "Generate a clean printable timetable with editable periods and subjects for school, study, work, or personal planning.",
-      "intro": "Generate a clean printable timetable with editable periods and subjects for school, study, work, or personal planning. Create a clean print-first timetable with readable clock times, editable cells, and personal notes. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Create a clean print-first timetable with readable clock times, editable cells, and personal notes.",
+      "heroIntro": "स्कूल, अध्ययन, कार्य या व्यक्तिगत योजना के लिए संपादन योग्य अवधियों और विषयों के साथ एक साफ मुद्रण योग्य समय सारिणी तैयार करें।",
+      "intro": "स्कूल, अध्ययन, कार्य या व्यक्तिगत योजना के लिए संपादन योग्य अवधियों और विषयों के साथ एक साफ मुद्रण योग्य समय सारिणी तैयार करें। पढ़ने योग्य घड़ी के समय, संपादन योग्य सेल और व्यक्तिगत नोट्स के साथ एक साफ प्रिंट-प्रथम समय सारिणी बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "पढ़ने योग्य घड़ी के समय, संपादन योग्य सेल और व्यक्तिगत नोट्स के साथ एक साफ प्रिंट-प्रथम समय सारिणी बनाएं।",
       "steps": [
-        "Choose days and time blocks.",
-        "Set the start time and duration.",
-        "Enter your schedule.",
-        "Add a note or quote and print."
+        "दिन और समय ब्लॉक चुनें.",
+        "प्रारंभ समय और अवधि निर्धारित करें.",
+        "अपना शेड्यूल दर्ज करें.",
+        "एक नोट या उद्धरण जोड़ें और प्रिंट करें।"
       ],
       "useCases": [
-        "Wall timetables",
-        "Desk planners",
-        "School printouts"
+        "दीवार समय सारिणी",
+        "डेस्क योजनाकार",
+        "स्कूल प्रिंटआउट"
       ],
       "tips": [
-        "Preview the page before printing."
+        "मुद्रण से पहले पृष्ठ का पूर्वावलोकन करें."
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is प्रिंटेबल टाइम टेबल मेकर used for?",
-          "a": "Generate a clean printable timetable with editable periods and subjects for school, study, work, or personal planning. Create a clean print-first timetable with readable clock times, editable cells, and personal notes."
+          "q": "प्रिंटेबल टाइम टेबल मेकर का उपयोग किसके लिए किया जाता है?",
+          "a": "स्कूल, अध्ययन, कार्य या व्यक्तिगत योजना के लिए संपादन योग्य अवधियों और विषयों के साथ एक साफ मुद्रण योग्य समय सारिणी तैयार करें। पढ़ने योग्य घड़ी के समय, संपादन योग्य सेल और व्यक्तिगत नोट्स के साथ एक साफ प्रिंट-प्रथम समय सारिणी बनाएं।"
         },
         {
-          "q": "Is it designed for printing?",
-          "a": "Yes. The layout is optimized for a clean printable schedule."
+          "q": "क्या इसे मुद्रण के लिए डिज़ाइन किया गया है?",
+          "a": "हाँ. लेआउट को साफ़ मुद्रण योग्य शेड्यूल के लिए अनुकूलित किया गया है।"
         },
         {
-          "q": "Can I personalize प्रिंटेबल टाइम टेबल मेकर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं प्रिंटेबल टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download प्रिंटेबल टाइम टेबल मेकर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं प्रिंटेबल टाइम टेबल मेकर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "smart-timetable-generator": {
-      "heroIntro": "Generate a smart editable timetable automatically from your chosen days, periods, subjects, and routine preferences without an external AI service.",
-      "intro": "Generate a smart editable timetable automatically from your chosen days, periods, subjects, and routine preferences without an external AI service. Generate a balanced schedule from your priorities using local deterministic rules without an external AI service. Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.",
-      "why": "Generate a balanced schedule from your priorities using local deterministic rules without an external AI service.",
+      "heroIntro": "बाहरी एआई सेवा के बिना अपने चुने हुए दिनों, अवधियों, विषयों और नियमित प्राथमिकताओं से स्वचालित रूप से एक स्मार्ट संपादन योग्य समय सारिणी बनाएं।",
+      "intro": "बाहरी एआई सेवा के बिना अपने चुने हुए दिनों, अवधियों, विषयों और नियमित प्राथमिकताओं से स्वचालित रूप से एक स्मार्ट संपादन योग्य समय सारिणी बनाएं। बाहरी एआई सेवा के बिना स्थानीय नियतात्मक नियमों का उपयोग करके अपनी प्राथमिकताओं से एक संतुलित शेड्यूल तैयार करें। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "बाहरी एआई सेवा के बिना स्थानीय नियतात्मक नियमों का उपयोग करके अपनी प्राथमिकताओं से एक संतुलित शेड्यूल तैयार करें।",
       "steps": [
-        "Choose days and time blocks.",
-        "Enter priorities or activities.",
-        "Generate the first draft.",
-        "Edit conflicts and add a personal goal or note."
+        "दिन और समय ब्लॉक चुनें.",
+        "प्राथमिकताएँ या गतिविधियाँ दर्ज करें।",
+        "पहला ड्राफ्ट जनरेट करें.",
+        "विरोधों को संपादित करें और एक व्यक्तिगत लक्ष्य या नोट जोड़ें।"
       ],
       "useCases": [
-        "Priority planning",
-        "Study and work balancing",
-        "Personal scheduling"
+        "प्राथमिकता योजना",
+        "पढ़ाई और काम में संतुलन",
+        "व्यक्तिगत शेड्यूलिंग"
       ],
       "tips": [
-        "Treat the generated plan as a draft and adjust it to real constraints."
+        "उत्पन्न योजना को एक मसौदे के रूप में मानें और इसे वास्तविक बाधाओं के अनुसार समायोजित करें।"
       ],
       "limitations": [
-        "This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.",
-        "Review the generated schedule before relying on it in real life."
+        "यह एक नियोजन टेम्पलेट है और वास्तविक शिक्षक, कक्ष, स्टाफिंग, परीक्षा, चिकित्सा, या कार्यस्थल की बाधाओं को नहीं जानता है।",
+        "वास्तविक जीवन में इस पर भरोसा करने से पहले उत्पन्न शेड्यूल की समीक्षा करें।"
       ],
       "faq": [
         {
-          "q": "What is स्मार्ट टाइम टेबल जनरेटर used for?",
-          "a": "Generate a smart editable timetable automatically from your chosen days, periods, subjects, and routine preferences without an external AI service. Generate a balanced schedule from your priorities using local deterministic rules without an external AI service."
+          "q": "स्मार्ट टाइम टेबल जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "बाहरी एआई सेवा के बिना अपने चुने हुए दिनों, अवधियों, विषयों और नियमित प्राथमिकताओं से स्वचालित रूप से एक स्मार्ट संपादन योग्य समय सारिणी बनाएं। बाहरी एआई सेवा के बिना स्थानीय नियतात्मक नियमों का उपयोग करके अपनी प्राथमिकताओं से एक संतुलित शेड्यूल तैयार करें।"
         },
         {
-          "q": "Is this powered by an external AI API?",
-          "a": "No. It uses local deterministic scheduling rules in the browser."
+          "q": "क्या यह बाहरी AI API द्वारा संचालित है?",
+          "a": "नहीं, यह ब्राउज़र में स्थानीय नियतात्मक शेड्यूलिंग नियमों का उपयोग करता है।"
         },
         {
-          "q": "Can I personalize स्मार्ट टाइम टेबल जनरेटर?",
-          "a": "Yes. Add a schedule title, personal note, and quote, then edit individual cells."
+          "q": "क्या मैं स्मार्ट टाइम टेबल जनरेटर को वैयक्तिकृत कर सकता हूँ?",
+          "a": "हाँ. एक शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर अलग-अलग सेल संपादित करें।"
         },
         {
-          "q": "Can I print or download स्मार्ट टाइम टेबल जनरेटर?",
-          "a": "Yes. The generated schedule can be printed or exported as CSV."
+          "q": "क्या मैं स्मार्ट टाइम टेबल जनरेटर को प्रिंट या डाउनलोड कर सकता हूँ?",
+          "a": "हाँ. उत्पन्न शेड्यूल को सीएसवी के रूप में मुद्रित या निर्यात किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "navratri-colors-2026": {
-      "heroIntro": "नवरात्रि के 9 रंग 2026: 9-day color calendar, dates, today’s Navratri color, Navratri colours, color of the day and traditional significance.",
-      "intro": "Check the Sharad Navratri 2026 color calendar from October 11–19, including today’s Navratri color, Navratri color of the day and commonly associated meanings. This page is useful for searches such as Navratri colors 2026, Navratri 9 colors 2026, Navratri colours 2026, Navratri color of the day, today Navratri color, Navratri dress color 2026, Navratri colour list and 9 days 9 colors of Navratri.",
-      "why": "Plan Navratri outfits, Navratri dress colors, accessories, Garba outfits, Dandiya outfits and nine-day festive looks from one calendar. Color significance is presented as a traditional or commonly associated interpretation, not a universal religious rule.",
+      "heroIntro": "नवरात्रि के 9 रंग 2026: 9-दिवसीय रंगीन कैलेंडर, तिथियां, आज का नवरात्रि रंग, नवरात्रि रंग, दिन का रंग और पारंपरिक महत्व।",
+      "intro": "11-19 अक्टूबर तक शरद नवरात्रि 2026 का रंग कैलेंडर देखें, जिसमें आज का नवरात्रि रंग, दिन का नवरात्रि रंग और आम तौर पर जुड़े अर्थ शामिल हैं। यह पेज नवरात्रि के रंग 2026, नवरात्रि के 9 रंग 2026, नवरात्रि के रंग 2026, आज के नवरात्रि के रंग, आज के नवरात्रि के रंग, नवरात्रि के पोशाक के रंग 2026, नवरात्रि के रंग सूची और नवरात्रि के 9 दिन के 9 रंग जैसी खोजों के लिए उपयोगी है।",
+      "why": "एक कैलेंडर से नवरात्रि पोशाक, पोशाक के रंग, सहायक उपकरण, गरबा पोशाक, डांडिया पोशाक और नौ दिन के उत्सव के लुक की योजना बनाएं। रंग महत्व को एक पारंपरिक या आम तौर पर जुड़ी व्याख्या के रूप में प्रस्तुत किया जाता है, न कि एक सार्वभौमिक धार्मिक नियम के रूप में।",
       "steps": [
-        "Check the date and today’s color during October 11–19.",
-        "Find the required day in the nine-day list.",
-        "Read the commonly associated significance.",
-        "Use it as a festive outfit and preparation reference."
+        "11-19 अक्टूबर के दौरान तारीख और आज का रंग जांचें।",
+        "नौ-दिवसीय सूची में आवश्यक दिन खोजें।",
+        "सामान्यतः जुड़े महत्व को पढ़ें.",
+        "इसे उत्सव की पोशाक और तैयारी के संदर्भ के रूप में उपयोग करें।"
       ],
       "useCases": [
-        "Today Navratri color",
-        "Navratri 9 colors 2026",
-        "Nine-day outfit planning",
-        "Garba and Dandiya outfit planning"
+        "आज नवरात्रि का रंग",
+        "नवरात्रि 9 रंग 2026",
+        "नौ दिवसीय पोशाक योजना",
+        "गरबा और डांडिया पोशाक की योजना"
       ],
       "tips": [
-        "Regional and family traditions can differ.",
-        "Use your family or community convention when it differs.",
-        "Save the calendar before Navratri begins."
+        "क्षेत्रीय और पारिवारिक परंपराएँ भिन्न हो सकती हैं।",
+        "मतभेद होने पर अपने परिवार या सामुदायिक सम्मेलन का उपयोग करें।",
+        "नवरात्रि शुरू होने से पहले कैलेंडर सेव कर लें."
       ],
       "limitations": [
-        "Color traditions vary by region and calendar source.",
-        "Meanings are cultural associations, not scientific claims.",
-        "Dates shown are for Sharad Navratri 2026."
+        "रंग परंपराएं क्षेत्र और कैलेंडर स्रोत के अनुसार भिन्न होती हैं।",
+        "अर्थ सांस्कृतिक जुड़ाव हैं, वैज्ञानिक दावे नहीं।",
+        "दिखाई गई तारीखें शरद नवरात्रि 2026 के लिए हैं।"
       ],
       "faq": [
         {
-          "q": "What are the Navratri colors for 2026?",
-          "a": "Orange, White, Red, Royal Blue, Yellow, Green, Grey, Purple and Peacock Green from October 11 through October 19."
+          "q": "2026 के लिए नवरात्रि के रंग क्या हैं?",
+          "a": "11 अक्टूबर से 19 अक्टूबर तक नारंगी, सफेद, लाल, रॉयल ब्लू, पीला, हरा, ग्रे, बैंगनी और पीकॉक हरा।"
         },
         {
-          "q": "What is today’s Navratri color?",
-          "a": "During October 11–19, 2026, the page identifies the date-based color automatically."
+          "q": "आज के नवरात्रि का रंग क्या है?",
+          "a": "11-19 अक्टूबर, 2026 के दौरान, पृष्ठ स्वचालित रूप से दिनांक-आधारित रंग की पहचान करता है।"
         },
         {
-          "q": "Why does the color change each day?",
-          "a": "The commonly followed sequence assigns a color to each day, with the first color determined by the weekday on which Navratri begins."
+          "q": "हर दिन रंग क्यों बदलता है?",
+          "a": "आमतौर पर अपनाया जाने वाला क्रम प्रत्येक दिन को एक रंग प्रदान करता है, जिसमें पहला रंग उस सप्ताह के दिन से निर्धारित होता है जिस दिन से नवरात्रि शुरू होती है।"
         },
         {
-          "q": "Are Navratri colors the same everywhere?",
-          "a": "Not necessarily; regional and family traditions can differ."
+          "q": "क्या नवरात्रि के रंग हर जगह एक जैसे होते हैं?",
+          "a": "जरूरी नहीं; क्षेत्रीय और पारिवारिक परंपराएँ भिन्न हो सकती हैं।"
         }
       ],
       "visual": "workflow"
     },
     "diwali-mithai-faral-calculator": {
-      "heroIntro": "दिवाली मिठाई और फराल मात्रा कैलकुलेटर for family serving, guests, gifting and Diwali sweet shopping.",
-      "intro": "Estimate Diwali sweets and faral quantities before shopping or cooking. Adjust adults, children, guests, gifting recipients and the number of varieties. This is useful for searches such as Diwali mithai quantity calculator, how much mithai for Diwali, Diwali sweets quantity, Diwali faral quantity calculator, how much faral to make, Maharashtrian Diwali faral and Diwali sweet box quantity. The output is a planning estimate rather than a universal serving rule.",
-      "why": "Useful for Diwali shopping lists, Diwali sweets planning, Diwali faral preparation, Maharashtra faral planning and mixed sweet gift boxes.",
+      "heroIntro": "दिवाली मिठाई और फराल मात्रा कैलकुलेटर परिवार की सेवा, मेहमानों, उपहार देने और दिवाली मिठाई की खरीदारी के लिए।",
+      "intro": "खरीदारी या खाना पकाने से पहले दिवाली की मिठाइयों और फराल की मात्रा का अनुमान लगाएं। वयस्कों, बच्चों, मेहमानों, उपहार देने वालों और किस्मों की संख्या को समायोजित करें। यह दिवाली मिठाई मात्रा कैलकुलेटर, दिवाली के लिए कितनी मिठाई, दिवाली मिठाई मात्रा, दिवाली फरल मात्रा कैलकुलेटर, कितना फरल बनाना है, महाराष्ट्रीयन दिवाली फरल और दिवाली मिठाई बॉक्स मात्रा जैसी खोजों के लिए उपयोगी है। आउटपुट एक सार्वभौमिक सेवा नियम के बजाय एक नियोजन अनुमान है।",
+      "why": "दिवाली खरीदारी सूची, दिवाली मिठाई योजना, दिवाली फरल तैयारी, महाराष्ट्र फरल योजना और मिश्रित मिठाई उपहार बक्से के लिए उपयोगी।",
       "steps": [
-        "Enter household members and guests.",
-        "Add gifting recipients or boxes.",
-        "Choose sweet and faral varieties.",
-        "Use the estimated quantity as a shopping or cooking starting point."
+        "घर के सदस्यों और मेहमानों का प्रवेश करें।",
+        "उपहार देने वाले प्राप्तकर्ता या बक्से जोड़ें.",
+        "मीठी और फराल किस्म चुनें।",
+        "अनुमानित मात्रा का उपयोग खरीदारी या खाना पकाने के शुरुआती बिंदु के रूप में करें।"
       ],
       "useCases": [
-        "Diwali mithai quantity",
-        "Diwali faral quantity",
-        "Maharashtra faral planning",
-        "Sweet gift box planning"
+        "दिवाली मिठाई की मात्रा",
+        "दिवाली फरल मात्रा",
+        "महाराष्ट्र फरल योजना",
+        "मीठे उपहार बॉक्स की योजना"
       ],
       "tips": [
-        "Adjust portions to your family.",
-        "Keep a small buffer for unexpected guests.",
-        "Consider other foods served alongside sweets."
+        "अपने परिवार के लिए अंश समायोजित करें.",
+        "अप्रत्याशित मेहमानों के लिए एक छोटा सा बफर रखें।",
+        "मिठाइयों के साथ परोसे जाने वाले अन्य खाद्य पदार्थों पर भी विचार करें।"
       ],
       "limitations": [
-        "Serving sizes and recipes vary.",
-        "Homemade batch yields differ.",
-        "The estimate is not a fixed dietary or catering standard."
+        "परोसने के आकार और व्यंजन अलग-अलग होते हैं।",
+        "घर पर बने बैच की पैदावार अलग-अलग होती है।",
+        "अनुमान कोई निश्चित आहार या खानपान मानक नहीं है।"
       ],
       "faq": [
         {
-          "q": "How much mithai is needed per person?",
-          "a": "There is no single correct amount. This calculator uses an adjustable planning assumption."
+          "q": "प्रति व्यक्ति कितनी मिठाई आवश्यक है?",
+          "a": "कोई एक सही राशि नहीं है. यह कैलकुलेटर एक समायोज्य नियोजन धारणा का उपयोग करता है।"
         },
         {
-          "q": "Which faral items can I plan?",
-          "a": "Common options include chakli, chivda, shankarpali, karanji, anarse, ladoo, shev, bhakarwadi and chirote."
+          "q": "मैं किन फ़ारल आइटमों की योजना बना सकता हूँ?",
+          "a": "सामान्य विकल्पों में चकली, चिवड़ा, शंकरपाली, करंजी, अनरसे, लड्डू, शेव, भाकरवड़ी और चिरोटे शामिल हैं।"
         },
         {
-          "q": "Can I use it for Diwali gift boxes?",
-          "a": "Yes. Add gift recipients and sweet varieties."
+          "q": "क्या मैं इसे दिवाली उपहार बक्सों के लिए उपयोग कर सकता हूँ?",
+          "a": "हाँ. उपहार प्राप्तकर्ताओं और मीठी किस्मों को जोड़ें।"
         },
         {
-          "q": "Is it for Maharashtra faral?",
-          "a": "It includes popular Maharashtra faral items but can be adapted for other selections."
+          "q": "क्या यह महाराष्ट्र के लिए है?",
+          "a": "इसमें लोकप्रिय महाराष्ट्र फ़रल आइटम शामिल हैं लेकिन इसे अन्य चयनों के लिए अनुकूलित किया जा सकता है।"
         }
       ],
       "visual": "finance"
     },
     "diwali-puja-samagri-checklist": {
-      "heroIntro": "Interactive Diwali Puja Samagri List and Lakshmi Puja Checklist with printable items, checkboxes and share options.",
-      "intro": "Use this interactive Diwali puja checklist for commonly prepared Lakshmi-Ganesha Puja items including Lakshmi Ganesh idols, chowki, kalash, coconut, roli, kumkum, haldi, akshat, flowers, diyas, cotton wicks, oil or ghee, agarbatti, dhoop, camphor, fruits, sweets and puja thali. It targets practical searches such as Diwali puja samagri list, Diwali puja items list, Lakshmi Puja samagri, Diwali pooja items, Diwali pooja checklist, Lakshmi Ganesh puja samagri and Diwali puja saman list.",
-      "why": "Useful for Diwali pooja shopping, Lakshmi Puja preparation, printable puja lists and a last-minute Diwali puja checklist.",
+      "heroIntro": "मुद्रण योग्य वस्तुओं, चेकबॉक्स और शेयर विकल्पों के साथ इंटरैक्टिव दिवाली पूजा सामग्री सूची और लक्ष्मी पूजा चेकलिस्ट।",
+      "intro": "लक्ष्मी गणेश की मूर्तियाँ, चौकी, कलश, नारियल, रोली, कुमकुम, हल्दी, अक्षत, फूल, दीये, कपास की बत्ती, तेल या घी, अगरबत्ती, धूप, कपूर, फल, मिठाई और पूजा की थाली सहित सामान्य रूप से तैयार लक्ष्मी-गणेश पूजा वस्तुओं के लिए इस इंटरैक्टिव दिवाली पूजा चेकलिस्ट का उपयोग करें। यह दिवाली पूजा सामग्री सूची, दिवाली पूजा सामग्री सूची, लक्ष्मी पूजा सामग्री, दिवाली पूजा आइटम, दिवाली पूजा चेकलिस्ट, लक्ष्मी गणेश पूजा सामग्री और दिवाली पूजा सामान सूची जैसी व्यावहारिक खोजों को लक्षित करता है।",
+      "why": "दिवाली पूजा की खरीदारी, लक्ष्मी पूजा की तैयारी, प्रिंट करने योग्य पूजा सूचियां और आखिरी मिनट की दिवाली पूजा चेकलिस्ट के लिए उपयोगी।",
       "steps": [
-        "Review the common items.",
-        "Check items as you buy or prepare them.",
-        "Clear or select all when needed.",
-        "Print or share the current checklist."
+        "सामान्य वस्तुओं की समीक्षा करें.",
+        "वस्तुओं को खरीदते या तैयार करते समय उनकी जाँच करें।",
+        "जरूरत पड़ने पर सभी को साफ़ करें या चुनें।",
+        "वर्तमान चेकलिस्ट प्रिंट करें या साझा करें."
       ],
       "useCases": [
-        "Diwali puja shopping",
-        "Lakshmi Puja preparation",
-        "Family shopping coordination",
-        "Printable puja saman list"
+        "दिवाली पूजा की खरीदारी",
+        "लक्ष्मी पूजा की तैयारी",
+        "पारिवारिक खरीदारी समन्वय",
+        "मुद्रण योग्य पूजा सामान सूची"
       ],
       "tips": [
-        "Follow your family or priest’s tradition.",
-        "Buy perishables closer to the puja when practical.",
-        "Keep diyas, wicks and fuel together."
+        "अपने परिवार या पुजारी की परंपरा का पालन करें।",
+        "व्यावहारिक होने पर पूजा के करीब खराब होने वाली वस्तुएं खरीदें।",
+        "दीया, बाती और ईंधन एक साथ रखें।"
       ],
       "limitations": [
-        "Puja customs vary by region and family.",
-        "This is a general checklist, not ritual authority.",
-        "Add or remove items for your own practice."
+        "पूजा के रीति-रिवाज क्षेत्र और परिवार के अनुसार अलग-अलग होते हैं।",
+        "यह एक सामान्य जाँच सूची है, कोई अनुष्ठानिक प्राधिकारी नहीं।",
+        "अपने स्वयं के अभ्यास के लिए आइटम जोड़ें या हटाएँ।"
       ],
       "faq": [
         {
-          "q": "What is included?",
-          "a": "Common items include Lakshmi and Ganesha idols, kalash, coconut, roli/kumkum, akshat, flowers, diyas, wicks, oil or ghee, incense, camphor, fruits and sweets."
+          "q": "क्या शामिल है?",
+          "a": "सामान्य वस्तुओं में लक्ष्मी और गणेश की मूर्तियाँ, कलश, नारियल, रोली/कुमकुम, अक्षत, फूल, दीये, बाती, तेल या घी, धूप, कपूर, फल और मिठाइयाँ शामिल हैं।"
         },
         {
-          "q": "Can I print it?",
-          "a": "Yes, use Print."
+          "q": "क्या मैं इसे प्रिंट कर सकता हूँ?",
+          "a": "हां, प्रिंट का उपयोग करें।"
         },
         {
-          "q": "Can I share it?",
-          "a": "Yes, supported devices can use the system share sheet; otherwise clipboard is used when available."
+          "q": "क्या मैं इसे साझा कर सकता हूँ?",
+          "a": "हां, समर्थित डिवाइस सिस्टम शेयर शीट का उपयोग कर सकते हैं; अन्यथा उपलब्ध होने पर क्लिपबोर्ड का उपयोग किया जाता है।"
         },
         {
-          "q": "Is it complete for every family?",
-          "a": "No. Customs differ, so add family-specific items."
+          "q": "क्या यह प्रत्येक परिवार के लिए पूर्ण है?",
+          "a": "नहीं, रीति-रिवाज अलग-अलग हैं, इसलिए परिवार-विशिष्ट आइटम जोड़ें।"
         }
       ],
       "visual": "workflow"
     },
     "diwali-budget-calculator": {
-      "heroIntro": "दिवाली बजट कैलकुलेटर and Diwali Shopping Budget Planner for gifts, clothes, mithai, decoration, puja, travel and food.",
-      "intro": "Plan Diwali spending by entering amounts for gifts, clothes, mithai and faral, decoration, diyas and lights, puja, travel, food and other expenses. Useful searches include Diwali budget calculator, Diwali budget planner, Diwali shopping budget, Diwali expense calculator, Diwali spending planner and festival budget planner.",
-      "why": "Useful for Diwali shopping budget, Diwali budget planner and festival expense planning.",
+      "heroIntro": "दिवाली बजट कैलकुलेटर और उपहार, कपड़े, मिठाई, सजावट, पूजा, यात्रा और भोजन के लिए दिवाली शॉपिंग बजट प्लानर।",
+      "intro": "उपहार, कपड़े, मिठाई और फराल, सजावट, दीये और रोशनी, पूजा, यात्रा, भोजन और अन्य खर्चों के लिए राशि दर्ज करके दिवाली खर्च की योजना बनाएं। उपयोगी खोजों में दिवाली बजट कैलकुलेटर, दिवाली बजट प्लानर, दिवाली शॉपिंग बजट, दिवाली खर्च कैलकुलेटर, दिवाली खर्च प्लानर और त्योहार बजट प्लानर शामिल हैं।",
+      "why": "दिवाली खरीदारी बजट, दिवाली बजट योजनाकार और त्योहार व्यय योजना के लिए उपयोगी।",
       "steps": [
-        "Enter planned amounts by category.",
-        "Leave unused categories blank or zero.",
-        "Review the total before shopping.",
-        "Update amounts as spending changes."
+        "श्रेणी के अनुसार नियोजित राशियाँ दर्ज करें।",
+        "अप्रयुक्त श्रेणियों को खाली या शून्य छोड़ दें।",
+        "खरीदारी से पहले कुल की समीक्षा करें.",
+        "व्यय में परिवर्तन होने पर राशियाँ अद्यतन करें।"
       ],
       "useCases": [
-        "Diwali shopping budget",
-        "Family expense planning",
-        "Gift and decoration budget",
-        "Planned vs actual spending"
+        "दिवाली शॉपिंग बजट",
+        "पारिवारिक व्यय योजना",
+        "उपहार और सजावट का बजट",
+        "नियोजित बनाम वास्तविक व्यय"
       ],
       "tips": [
-        "Set an overall limit first.",
-        "Keep a buffer for unexpected expenses.",
-        "Record actual spending for next year."
+        "पहले एक समग्र सीमा निर्धारित करें.",
+        "अप्रत्याशित खर्चों के लिए एक बफर रखें।",
+        "अगले वर्ष के लिए वास्तविक खर्च रिकॉर्ड करें।"
       ],
       "limitations": [
-        "It only adds amounts you enter.",
-        "It does not predict prices.",
-        "Delivery charges and taxes must be entered separately."
+        "यह केवल आपके द्वारा दर्ज की गई मात्राएँ जोड़ता है।",
+        "यह कीमतों की भविष्यवाणी नहीं करता.",
+        "डिलीवरी शुल्क और कर अलग से दर्ज किए जाने चाहिए।"
       ],
       "faq": [
         {
-          "q": "What should I include?",
-          "a": "Gifts, clothes, mithai/faral, decoration, diyas/lights, puja, travel, food and other expenses."
+          "q": "मुझे क्या शामिल करना चाहिए?",
+          "a": "उपहार, कपड़े, मिठाई/फराल, सजावट, दीये/रोशनी, पूजा, यात्रा, भोजन और अन्य खर्च।"
         },
         {
-          "q": "Is it a shopping budget planner?",
-          "a": "Yes, enter category budgets and use the total as your reference."
+          "q": "क्या यह शॉपिंग बजट प्लानर है?",
+          "a": "हां, श्रेणी बजट दर्ज करें और कुल को अपने संदर्भ के रूप में उपयोग करें।"
         },
         {
-          "q": "Does it track expenses?",
-          "a": "You can update the entered values, but it is a simple calculator rather than a transaction tracker."
+          "q": "क्या यह खर्चों पर नज़र रखता है?",
+          "a": "आप दर्ज किए गए मानों को अपडेट कर सकते हैं, लेकिन यह लेनदेन ट्रैकर के बजाय एक सरल कैलकुलेटर है।"
         },
         {
-          "q": "Does it know current prices?",
-          "a": "No. Enter current prices or estimates yourself."
+          "q": "क्या यह मौजूदा कीमतें जानता है?",
+          "a": "नहीं, वर्तमान कीमतें या अनुमान स्वयं दर्ज करें।"
         }
       ],
       "visual": "finance"
     },
     "diya-requirement-calculator": {
-      "heroIntro": "दीया आवश्यकता कैलकुलेटर and Diwali Diya Calculator for rooms, doors, windows, puja and decorative diyas.",
-      "intro": "Estimate how many diyas you may need for Diwali and an approximate oil or ghee planning quantity. Useful searches include diya calculator, diya requirement calculator, Diwali diya calculator, how many diyas for Diwali, number of diyas for Diwali, diya oil calculator and Diwali lighting calculator.",
-      "why": "Useful for searches such as diya calculator, diya requirement calculator, how many diyas for Diwali and diya oil calculator.",
+      "heroIntro": "दीया आवश्यकता कैलकुलेटर और कमरे, दरवाजे, खिड़कियां, पूजा और सजावटी दीयों के लिए दिवाली दीया कैलकुलेटर।",
+      "intro": "अनुमान लगाएं कि आपको दिवाली के लिए कितने दीयों की आवश्यकता हो सकती है और अनुमानित मात्रा में तेल या घी की आवश्यकता हो सकती है। उपयोगी खोजों में दीया कैलकुलेटर, दीया आवश्यकता कैलकुलेटर, दिवाली दीया कैलकुलेटर, दिवाली के लिए कितने दीये, दिवाली के लिए दीयों की संख्या, दीया तेल कैलकुलेटर और दिवाली प्रकाश कैलकुलेटर शामिल हैं।",
+      "why": "दीया कैलकुलेटर, दीया आवश्यकता कैलकुलेटर, दिवाली के लिए कितने दीये और दीया तेल कैलकुलेटर जैसी खोजों के लिए उपयोगी।",
       "steps": [
-        "Enter rooms, doors and windows or balconies.",
-        "Add puja and decorative diyas.",
-        "Choose approximate burning hours.",
-        "Review the diya and fuel estimates."
+        "कमरों, दरवाज़ों और खिड़कियों या बालकनियों में प्रवेश करें।",
+        "पूजा और सजावटी दीये जोड़ें।",
+        "अनुमानित जलने के घंटे चुनें.",
+        "दीया और ईंधन अनुमान की समीक्षा करें।"
       ],
       "useCases": [
-        "Diwali diya planning",
-        "Diya shopping quantity",
-        "Oil or ghee planning",
-        "Home lighting preparation"
+        "दिवाली दीया योजना",
+        "दीया खरीदारी की मात्रा",
+        "तेल या घी की योजना",
+        "घर में रोशनी की तैयारी"
       ],
       "tips": [
-        "Keep spare wicks and diyas.",
-        "Use stable heat-safe surfaces.",
-        "Keep flames attended and away from combustible materials."
+        "अतिरिक्त बातियाँ और दीये रखें।",
+        "स्थिर ताप-सुरक्षित सतहों का उपयोग करें।",
+        "आग की लपटों को नियंत्रित रखें और ज्वलनशील पदार्थों से दूर रखें।"
       ],
       "limitations": [
-        "Fuel use varies by diya size and wick.",
-        "The output is an estimate, not a fire-safety guarantee.",
-        "Follow local fire-safety guidance."
+        "ईंधन का उपयोग दीये और बाती के आकार के अनुसार अलग-अलग होता है।",
+        "आउटपुट एक अनुमान है, अग्नि-सुरक्षा की गारंटी नहीं।",
+        "स्थानीय अग्नि-सुरक्षा मार्गदर्शन का पालन करें।"
       ],
       "faq": [
         {
-          "q": "How many diyas are needed?",
-          "a": "It depends on the areas you want to light; the calculator gives a starting estimate."
+          "q": "कितने दीये चाहिए?",
+          "a": "यह उन क्षेत्रों पर निर्भर करता है जिन पर आप प्रकाश डालना चाहते हैं; कैलकुलेटर एक प्रारंभिक अनुमान देता है."
         },
         {
-          "q": "Can it estimate oil?",
-          "a": "Yes, it provides an approximate planning quantity."
+          "q": "क्या यह तेल का अनुमान लगा सकता है?",
+          "a": "हाँ, यह एक अनुमानित नियोजन मात्रा प्रदान करता है।"
         },
         {
-          "q": "Does diya size matter?",
-          "a": "Yes, size and wick affect fuel use."
+          "q": "क्या दीये का आकार मायने रखता है?",
+          "a": "हाँ, आकार और बाती ईंधन के उपयोग को प्रभावित करते हैं।"
         },
         {
-          "q": "Can diyas be left unattended?",
-          "a": "No. Keep open flames attended and away from combustible materials."
+          "q": "क्या दीयों को अप्राप्य छोड़ा जा सकता है?",
+          "a": "नहीं, खुली लपटों को नियंत्रित रखें और ज्वलनशील पदार्थों से दूर रखें।"
         }
       ],
       "visual": "finance"
     },
     "diwali-cleaning-planner": {
-      "heroIntro": "दिवाली सफाई प्लानर and Diwali Safai Checklist with a practical home-cleaning sequence based on the days you have left.",
-      "intro": "Turn a Diwali safai checklist into a manageable sequence covering decluttering, kitchen cleaning, windows, furnishings, puja area, wardrobes, entrance and final cleaning. Useful searches include Diwali cleaning checklist, Diwali cleaning list, Diwali home cleaning checklist, Diwali safai checklist, Diwali cleaning schedule, Diwali deep cleaning checklist and Diwali cleaning plan.",
-      "why": "Useful for searches such as Diwali cleaning checklist, Diwali cleaning list, Diwali home cleaning checklist and Diwali safai checklist.",
+      "heroIntro": "दिवाली सफाई प्लानर और आपके बचे हुए दिनों के आधार पर व्यावहारिक घर-सफाई अनुक्रम के साथ दिवाली सफाई चेकलिस्ट।",
+      "intro": "दिवाली सफ़ाई चेकलिस्ट को एक प्रबंधनीय क्रम में बदलें, जिसमें अव्यवस्था, रसोई की सफ़ाई, खिड़कियाँ, साज-सामान, पूजा क्षेत्र, अलमारी, प्रवेश द्वार और अंतिम सफ़ाई को शामिल किया जाए। उपयोगी खोजों में दिवाली सफाई चेकलिस्ट, दिवाली सफाई सूची, दिवाली घर की सफाई चेकलिस्ट, दिवाली सफाई चेकलिस्ट, दिवाली सफाई कार्यक्रम, दिवाली गहन सफाई चेकलिस्ट और दिवाली सफाई योजना शामिल हैं।",
+      "why": "दिवाली सफाई चेकलिस्ट, दिवाली सफाई सूची, दिवाली घर की सफाई चेकलिस्ट और दिवाली सफाई चेकलिस्ट जैसी खोजों के लिए उपयोगी।",
       "steps": [
-        "Enter the days available.",
-        "Start with decluttering and deep cleaning.",
-        "Move tasks around your own schedule.",
-        "Keep final dusting and mopping near Diwali."
+        "उपलब्ध दिन दर्ज करें.",
+        "अव्यवस्था दूर करने और गहरी सफाई से शुरुआत करें।",
+        "कार्यों को अपने शेड्यूल के अनुसार स्थानांतरित करें।",
+        "दीवाली के निकट अंतिम धूल-मिट्टी और पोछा लगाते रहें।"
       ],
       "useCases": [
-        "Diwali home cleaning",
-        "Room-by-room safai",
-        "Family cleaning coordination",
-        "Last-minute cleaning plan"
+        "दिवाली घर की सफ़ाई",
+        "कमरे-दर-कमरे की सफ़ाई",
+        "पारिवारिक सफ़ाई समन्वय",
+        "अंतिम समय में सफाई योजना"
       ],
       "tips": [
-        "Declutter before deep cleaning.",
-        "Finish dusty tasks before floors.",
-        "Reserve a final-cleaning day."
+        "गहरी सफाई से पहले अव्यवस्था।",
+        "फर्श से पहले धूल भरे काम निपटा लें।",
+        "अंतिम सफाई का दिन आरक्षित रखें।"
       ],
       "limitations": [
-        "Homes differ in size and surfaces.",
-        "The order is a starting plan.",
-        "Some tasks may need specialist services."
+        "घर आकार और सतह में भिन्न होते हैं।",
+        "आदेश एक प्रारंभिक योजना है.",
+        "कुछ कार्यों के लिए विशेषज्ञ सेवाओं की आवश्यकता हो सकती है."
       ],
       "faq": [
         {
-          "q": "When should I start?",
-          "a": "Earlier is easier; enter the days you have and use the generated sequence."
+          "q": "मुझे कब शुरू करना चाहिए?",
+          "a": "पहले आसान है; आपके पास जो दिन हैं उन्हें दर्ज करें और उत्पन्न अनुक्रम का उपयोग करें।"
         },
         {
-          "q": "What is included?",
-          "a": "Decluttering, kitchen, windows/doors, furnishings, puja area, wardrobes, entrance and final cleaning."
+          "q": "क्या शामिल है?",
+          "a": "साफ़-सफ़ाई, रसोईघर, खिड़कियाँ/दरवाज़े, साज-सामान, पूजा क्षेत्र, अलमारी, प्रवेश द्वार और अंतिम सफ़ाई।"
         },
         {
-          "q": "Can I customize it?",
-          "a": "Yes, move tasks around your schedule."
+          "q": "क्या मैं इसे अनुकूलित कर सकता हूँ?",
+          "a": "हां, कार्यों को अपने शेड्यूल के अनुसार स्थानांतरित करें।"
         },
         {
-          "q": "Is it room-by-room?",
-          "a": "It covers home areas and can be assigned room by room."
+          "q": "क्या यह कमरा दर कमरा है?",
+          "a": "इसमें घरेलू क्षेत्र शामिल हैं और इसे एक-एक कमरा आवंटित किया जा सकता है।"
         }
       ],
       "visual": "workflow"
     },
     "diwali-countdown-preparation-planner": {
-      "heroIntro": "Diwali Countdown 2026, Days Until Diwali and Diwali Preparation Planner for your complete festival preparation.",
-      "intro": "Track the calendar days until Diwali 2026 and connect the countdown to cleaning, shopping, gifts, clothes, mithai/faral, decoration, puja supplies and final preparation. Useful searches include Diwali countdown 2026, days until Diwali 2026, how many days until Diwali, Diwali preparation checklist, Diwali planning checklist and Diwali shopping checklist.",
-      "why": "Useful for searches such as Diwali countdown 2026, days until Diwali and Diwali preparation checklist.",
+      "heroIntro": "दिवाली काउंटडाउन 2026, दिवाली तक के दिन और आपके संपूर्ण त्योहार की तैयारी के लिए दिवाली तैयारी योजना।",
+      "intro": "दिवाली 2026 तक के कैलेंडर दिनों को ट्रैक करें और उलटी गिनती को सफाई, खरीदारी, उपहार, कपड़े, मिठाई/फरल, सजावट, पूजा की आपूर्ति और अंतिम तैयारी से जोड़ें। उपयोगी खोजों में दिवाली उलटी गिनती 2026, दिवाली 2026 तक दिन, दिवाली तक कितने दिन, दिवाली तैयारी चेकलिस्ट, दिवाली योजना चेकलिस्ट और दिवाली खरीदारी चेकलिस्ट शामिल हैं।",
+      "why": "दिवाली काउंटडाउन 2026, दिवाली तक के दिन और दिवाली की तैयारी चेकलिस्ट जैसी खोजों के लिए उपयोगी।",
       "steps": [
-        "Check the days remaining until November 8, 2026.",
-        "Use the timeline to choose what to do first.",
-        "Adjust tasks for your family and travel schedule.",
-        "Refresh the page to recalculate the countdown."
+        "8 नवंबर, 2026 तक शेष दिनों की जाँच करें।",
+        "पहले क्या करना है यह चुनने के लिए समयरेखा का उपयोग करें।",
+        "अपने परिवार और यात्रा कार्यक्रम के लिए कार्यों को समायोजित करें।",
+        "उलटी गिनती की पुनर्गणना करने के लिए पृष्ठ को ताज़ा करें।"
       ],
       "useCases": [
-        "Diwali countdown 2026",
-        "Preparation checklist",
-        "Shopping timeline",
-        "Cleaning and puja planning"
+        "दिवाली उलटी गिनती 2026",
+        "तैयारी चेकलिस्ट",
+        "खरीदारी की समयरेखा",
+        "सफ़ाई और पूजा की योजना"
       ],
       "tips": [
-        "Avoid leaving everything to the final day.",
-        "Buy non-perishables early.",
-        "Use the final days for perishables and final cleaning."
+        "सब कुछ अंतिम दिन पर छोड़ने से बचें।",
+        "जल्दी खराब न होने वाली वस्तुएं खरीदें।",
+        "अंतिम दिनों का उपयोग खराब होने वाली वस्तुओं और अंतिम सफाई के लिए करें।"
       ],
       "limitations": [
-        "The target date is November 8, 2026.",
-        "Preparation varies by family and region.",
-        "The countdown is not a personalized reminder."
+        "लक्ष्य तिथि 8 नवंबर, 2026 है।",
+        "तैयारी परिवार और क्षेत्र के अनुसार अलग-अलग होती है।",
+        "उलटी गिनती कोई वैयक्तिकृत अनुस्मारक नहीं है."
       ],
       "faq": [
         {
-          "q": "When is Diwali in 2026?",
-          "a": "Diwali / Lakshmi Puja is on Sunday, November 8, 2026."
+          "q": "2026 में दिवाली कब है?",
+          "a": "दिवाली / लक्ष्मी पूजा रविवार, 8 नवंबर 2026 को है।"
         },
         {
-          "q": "How many days are left?",
-          "a": "The page calculates the remaining calendar days dynamically."
+          "q": "कितने दिन बचे हैं?",
+          "a": "पृष्ठ शेष कैलेंडर दिनों की गतिशील रूप से गणना करता है।"
         },
         {
-          "q": "What should I prepare?",
-          "a": "Cleaning, shopping, gifts, clothes, decoration, mithai/faral and puja supplies are common preparations."
+          "q": "मुझे क्या तैयारी करनी चाहिए?",
+          "a": "सफाई, खरीदारी, उपहार, कपड़े, सजावट, मिठाई/फराल और पूजा सामग्री आम तैयारियां हैं।"
         },
         {
-          "q": "Can I use it on mobile?",
-          "a": "Yes, the page is responsive."
+          "q": "क्या मैं इसे मोबाइल पर उपयोग कर सकता हूँ?",
+          "a": "हां, पेज प्रतिक्रियाशील है."
         }
       ],
       "visual": "workflow"
     },
     "youtube-thumbnail-downloader": {
-      "heroIntro": "Retrieve available thumbnail image resolutions for public YouTube videos using their video IDs or URLs.",
-      "intro": "Retrieve available thumbnail image resolutions for public YouTube videos using their video IDs or URLs. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This creator workflow supports public YouTube information, content planning, or estimation. It is designed to make repetitive creator tasks faster while keeping assumptions visible.",
+      "heroIntro": "सार्वजनिक YouTube वीडियो के लिए उनके वीडियो आईडी या यूआरएल का उपयोग करके उपलब्ध थंबनेल छवि रिज़ॉल्यूशन पुनर्प्राप्त करें।",
+      "intro": "सार्वजनिक YouTube वीडियो के लिए उनके वीडियो आईडी या यूआरएल का उपयोग करके उपलब्ध थंबनेल छवि रिज़ॉल्यूशन पुनर्प्राप्त करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह निर्माता वर्कफ़्लो सार्वजनिक YouTube जानकारी, सामग्री योजना या अनुमान का समर्थन करता है। इसे मान्यताओं को दृश्यमान रखते हुए दोहराए जाने वाले निर्माता कार्यों को तेज़ बनाने के लिए डिज़ाइन किया गया है।",
       "steps": [
-        "Open YouTube Thumbnail and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "YouTube Thumbnail खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off youtube thumbnail downloader tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Retrieve a public video thumbnail for a design reference.",
-        "Check available thumbnail resolutions.",
-        "Prepare a thumbnail image for an authorized content workflow."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूट्यूब थंबनेल डाउनलोडर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "डिज़ाइन संदर्भ के लिए सार्वजनिक वीडियो थंबनेल पुनर्प्राप्त करें।",
+        "उपलब्ध थंबनेल रिज़ॉल्यूशन की जाँच करें।",
+        "अधिकृत सामग्री वर्कफ़्लो के लिए एक थंबनेल छवि तैयार करें।"
       ],
       "tips": [
-        "Use results as planning aids rather than performance guarantees.",
-        "Check public video details before publishing decisions.",
-        "Never enter private account credentials.",
-        "Avoid: Using content without permission.",
-        "Avoid: Assuming every video has every resolution.",
-        "Avoid: Ignoring the original creator’s rights and platform terms."
+        "परिणामों को प्रदर्शन गारंटी के बजाय नियोजन सहायता के रूप में उपयोग करें।",
+        "निर्णय प्रकाशित करने से पहले सार्वजनिक वीडियो विवरण जांचें।",
+        "कभी भी निजी खाता क्रेडेंशियल दर्ज न करें.",
+        "बचें: बिना अनुमति के सामग्री का उपयोग करना।",
+        "बचें: मान लें कि हर वीडियो का हर रिज़ॉल्यूशन है।",
+        "बचें: मूल निर्माता के अधिकारों और प्लेटफ़ॉर्म शर्तों को अनदेखा करना।"
       ],
       "limitations": [
-        "Public video information and platform behavior can change.",
-        "Revenue estimates vary with audience, geography, monetization, ad inventory, and other factors.",
-        "No tool can guarantee rankings, views, revenue, or channel growth."
+        "सार्वजनिक वीडियो जानकारी और प्लेटफ़ॉर्म व्यवहार बदल सकते हैं।",
+        "राजस्व का अनुमान दर्शकों, भूगोल, मुद्रीकरण, विज्ञापन सूची और अन्य कारकों के आधार पर भिन्न होता है।",
+        "कोई भी टूल रैंकिंग, व्यू, राजस्व या चैनल की वृद्धि की गारंटी नहीं दे सकता।"
       ],
       "faq": [
         {
-          "q": "What is YouTube Thumbnail used for?",
-          "a": "Retrieve available thumbnail image resolutions for public YouTube videos using their video IDs or URLs. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "YouTube Thumbnail का उपयोग किसके लिए किया जाता है?",
+          "a": "सार्वजनिक YouTube वीडियो के लिए उनके वीडियो आईडी या यूआरएल का उपयोग करके उपलब्ध थंबनेल छवि रिज़ॉल्यूशन पुनर्प्राप्त करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does YouTube Thumbnail work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "YouTube Thumbnail कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use YouTube Thumbnail for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं YouTube Thumbnail का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does YouTube Thumbnail require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या YouTube Thumbnail को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from YouTube Thumbnail?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "YouTube Thumbnail से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Can I download any YouTube thumbnail?",
-          "a": "The tool can retrieve available public thumbnail images, but downloading does not grant permission to reuse copyrighted material. Check the rights and intended use."
+          "q": "क्या मैं कोई YouTube थंबनेल डाउनलोड कर सकता हूँ?",
+          "a": "उपकरण उपलब्ध सार्वजनिक थंबनेल छवियों को पुनः प्राप्त कर सकता है, लेकिन डाउनलोड करने से कॉपीराइट सामग्री का पुन: उपयोग करने की अनुमति नहीं मिलती है। अधिकारों और इच्छित उपयोग की जाँच करें।"
         }
       ],
       "visual": "youtube"
     },
     "youtube-tag-generator": {
-      "heroIntro": "Generate relevant YouTube tags and keyword ideas to help organize and optimize video metadata.",
-      "intro": "Generate relevant YouTube tags and keyword ideas to help organize and optimize video metadata. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This creator workflow supports public YouTube information, content planning, or estimation. It is designed to make repetitive creator tasks faster while keeping assumptions visible.",
+      "heroIntro": "वीडियो मेटाडेटा को व्यवस्थित और अनुकूलित करने में सहायता के लिए प्रासंगिक YouTube टैग और कीवर्ड विचार उत्पन्न करें।",
+      "intro": "वीडियो मेटाडेटा को व्यवस्थित और अनुकूलित करने में सहायता के लिए प्रासंगिक YouTube टैग और कीवर्ड विचार उत्पन्न करें। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह निर्माता वर्कफ़्लो सार्वजनिक YouTube जानकारी, सामग्री योजना या अनुमान का समर्थन करता है। इसे धारणाओं को दृश्यमान रखते हुए दोहराए जाने वाले निर्माता कार्यों को तेज़ बनाने के लिए डिज़ाइन किया गया है।",
       "steps": [
-        "Open YouTube Tag जनरेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "YouTube Tag जनरेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off youtube tag generator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Generate related keyword ideas for a video topic.",
-        "Create a starting list of metadata terms.",
-        "Group topic variations for content planning."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूट्यूब टैग जेनरेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "किसी वीडियो विषय के लिए संबंधित कीवर्ड विचार उत्पन्न करें।",
+        "मेटाडेटा शब्दों की एक आरंभिक सूची बनाएं.",
+        "सामग्री नियोजन के लिए समूह विषय विविधताएँ।"
       ],
       "tips": [
-        "Use results as planning aids rather than performance guarantees.",
-        "Check public video details before publishing decisions.",
-        "Never enter private account credentials.",
-        "Avoid: Stuffing irrelevant keywords.",
-        "Avoid: Treating tags as a guarantee of rankings.",
-        "Avoid: Ignoring title, thumbnail, content quality, and viewer intent."
+        "परिणामों को प्रदर्शन गारंटी के बजाय नियोजन सहायता के रूप में उपयोग करें।",
+        "निर्णय प्रकाशित करने से पहले सार्वजनिक वीडियो विवरण जांचें।",
+        "कभी भी निजी खाता क्रेडेंशियल दर्ज न करें.",
+        "बचें: अप्रासंगिक कीवर्ड भरना।",
+        "बचें: टैग को रैंकिंग की गारंटी मानने से बचें।",
+        "बचें: शीर्षक, थंबनेल, सामग्री की गुणवत्ता और दर्शक के इरादे को अनदेखा करना।"
       ],
       "limitations": [
-        "Public video information and platform behavior can change.",
-        "Revenue estimates vary with audience, geography, monetization, ad inventory, and other factors.",
-        "No tool can guarantee rankings, views, revenue, or channel growth."
+        "सार्वजनिक वीडियो जानकारी और प्लेटफ़ॉर्म व्यवहार बदल सकते हैं।",
+        "राजस्व का अनुमान दर्शकों, भूगोल, मुद्रीकरण, विज्ञापन सूची और अन्य कारकों के आधार पर भिन्न होता है।",
+        "कोई भी टूल रैंकिंग, व्यू, राजस्व या चैनल की वृद्धि की गारंटी नहीं दे सकता।"
       ],
       "faq": [
         {
-          "q": "What is YouTube Tag जनरेटर used for?",
-          "a": "Generate relevant YouTube tags and keyword ideas to help organize and optimize video metadata. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "YouTube Tag जनरेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "वीडियो मेटाडेटा को व्यवस्थित और अनुकूलित करने में सहायता के लिए प्रासंगिक YouTube टैग और कीवर्ड विचार उत्पन्न करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does YouTube Tag जनरेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "YouTube Tag जनरेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use YouTube Tag जनरेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं YouTube Tag जनरेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does YouTube Tag जनरेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या YouTube Tag जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from YouTube Tag जनरेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "YouTube Tag जनरेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Do YouTube tags guarantee higher rankings?",
-          "a": "No. Tags are only one metadata element and do not guarantee rankings, views, or recommendations. Use relevant terms that accurately describe the video."
+          "q": "क्या YouTube टैग उच्च रैंकिंग की गारंटी देते हैं?",
+          "a": "नहीं, टैग केवल एक मेटाडेटा तत्व हैं और रैंकिंग, दृश्य या अनुशंसाओं की गारंटी नहीं देते हैं। प्रासंगिक शब्दों का उपयोग करें जो वीडियो का सटीक वर्णन करें।"
         }
       ],
       "visual": "youtube"
     },
     "youtube-money-calculator": {
-      "heroIntro": "Estimate potential YouTube ad revenue from views and RPM assumptions; actual earnings vary by channel and audience.",
-      "intro": "Estimate potential YouTube ad revenue from views and RPM assumptions; actual earnings vary by channel and audience. This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.",
-      "why": "This creator workflow supports public YouTube information, content planning, or estimation. It is designed to make repetitive creator tasks faster while keeping assumptions visible.",
+      "heroIntro": "दृश्यों और आरपीएम अनुमानों से संभावित YouTube विज्ञापन राजस्व का अनुमान लगाएं; वास्तविक कमाई चैनल और दर्शकों के अनुसार अलग-अलग होती है।",
+      "intro": "दृश्यों और आरपीएम अनुमानों से संभावित YouTube विज्ञापन राजस्व का अनुमान लगाएं; वास्तविक कमाई चैनल और दर्शकों के अनुसार अलग-अलग होती है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "यह निर्माता वर्कफ़्लो सार्वजनिक YouTube जानकारी, सामग्री योजना या अनुमान का समर्थन करता है। इसे मान्यताओं को दृश्यमान रखते हुए दोहराए जाने वाले निर्माता कार्यों को तेज़ बनाने के लिए डिज़ाइन किया गया है।",
       "steps": [
-        "Open YouTube Money कैलकुलेटर and identify the required input format or values.",
-        "Enter or select the input and review every available option before running the operation.",
-        "Run the tool and inspect the result rather than assuming the first output is correct.",
-        "Download, copy, or reuse the result only after checking it against your original requirement."
+        "YouTube Money कैलकुलेटर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
+        "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
+        "टूल चलाएं और पहले आउटपुट को सही मानने के बजाय परिणाम का निरीक्षण करें।",
+        "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "Quick one-off youtube money calculator tasks without installing a separate utility.",
-        "Repeatable preparation work for documents, media, text, code, data, or creator workflows.",
-        "Checking an intermediate result during a larger project.",
-        "Preparing an output for another application or workflow.",
-        "Model revenue at different view counts.",
-        "Compare RPM assumptions.",
-        "Separate gross ad-revenue estimates from actual channel income."
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त यूट्यूब मनी कैलकुलेटर कार्य।",
+        "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
+        "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
+        "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
+        "विभिन्न दृश्य गणनाओं पर मॉडल राजस्व।",
+        "RPM मान्यताओं की तुलना करें.",
+        "सकल विज्ञापन-राजस्व अनुमान को वास्तविक चैनल आय से अलग करें।"
       ],
       "tips": [
-        "Use results as planning aids rather than performance guarantees.",
-        "Check public video details before publishing decisions.",
-        "Never enter private account credentials.",
-        "Avoid: Treating RPM as fixed.",
-        "Avoid: Ignoring geography, monetization eligibility, ad inventory, and revenue sources.",
-        "Avoid: Presenting an estimate as guaranteed earnings."
+        "परिणामों को प्रदर्शन गारंटी के बजाय नियोजन सहायता के रूप में उपयोग करें।",
+        "निर्णय प्रकाशित करने से पहले सार्वजनिक वीडियो विवरण जांचें।",
+        "कभी भी निजी खाता क्रेडेंशियल दर्ज न करें.",
+        "बचें: आरपीएम को निश्चित मानने से।",
+        "बचें: भूगोल, मुद्रीकरण पात्रता, विज्ञापन सूची और राजस्व स्रोतों की अनदेखी।",
+        "बचें: किसी अनुमान को गारंटीशुदा आय के रूप में प्रस्तुत करना।"
       ],
       "limitations": [
-        "Public video information and platform behavior can change.",
-        "Revenue estimates vary with audience, geography, monetization, ad inventory, and other factors.",
-        "No tool can guarantee rankings, views, revenue, or channel growth."
+        "सार्वजनिक वीडियो जानकारी और प्लेटफ़ॉर्म व्यवहार बदल सकते हैं।",
+        "राजस्व का अनुमान दर्शकों, भूगोल, मुद्रीकरण, विज्ञापन सूची और अन्य कारकों के आधार पर भिन्न होता है।",
+        "कोई भी टूल रैंकिंग, व्यू, राजस्व या चैनल की वृद्धि की गारंटी नहीं दे सकता।"
       ],
       "faq": [
         {
-          "q": "What is YouTube Money कैलकुलेटर used for?",
-          "a": "Estimate potential YouTube ad revenue from views and RPM assumptions; actual earnings vary by channel and audience. It is designed for a focused workflow so you can complete the task without installing a separate desktop utility. The exact output depends on the values, files, or code you provide."
+          "q": "YouTube Money कैलकुलेटर का उपयोग किसके लिए किया जाता है?",
+          "a": "दृश्यों और आरपीएम अनुमानों से संभावित YouTube विज्ञापन राजस्व का अनुमान लगाएं; वास्तविक कमाई चैनल और दर्शकों के अनुसार अलग-अलग होती है। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
-          "q": "How does YouTube Money कैलकुलेटर work?",
-          "a": "Enter the required input in the workspace, review the available options, run the operation, and inspect the result. Where browser-side processing is supported, the work is performed in the browser; execution or external-runtime requirements are indicated by the tool."
+          "q": "YouTube Money कैलकुलेटर कैसे काम करता है?",
+          "a": "कार्यक्षेत्र में आवश्यक इनपुट दर्ज करें, उपलब्ध विकल्पों की समीक्षा करें, ऑपरेशन चलाएं और परिणाम का निरीक्षण करें। जहां ब्राउज़र-साइड प्रोसेसिंग समर्थित है, वहां कार्य ब्राउज़र में किया जाता है; निष्पादन या बाह्य-रनटाइम आवश्यकताएँ उपकरण द्वारा इंगित की जाती हैं।"
         },
         {
-          "q": "What can I use YouTube Money कैलकुलेटर for?",
-          "a": "Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result."
+          "q": "मैं YouTube Money कैलकुलेटर का उपयोग किस लिए कर सकता हूँ?",
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
-          "q": "Does YouTube Money कैलकुलेटर require an account or installation?",
-          "a": "The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations."
+          "q": "क्या YouTube Money कैलकुलेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
+          "a": "पेज को अलग डेस्कटॉप इंस्टालेशन के बिना सीधे आधुनिक ब्राउज़र में उपयोग करने योग्य बनाया गया है। मुख्य वर्कफ़्लो के लिए किसी खाते की आवश्यकता नहीं है. ब्राउज़र क्षमताएं, इनपुट आकार, डिवाइस संसाधन और कोई भी बाहरी रनटाइम अभी भी व्यक्तिगत संचालन को प्रभावित कर सकता है।"
         },
         {
-          "q": "What should I check before using the output from YouTube Money कैलकुलेटर?",
-          "a": "Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow."
+          "q": "YouTube Money कैलकुलेटर से आउटपुट का उपयोग करने से पहले मुझे क्या जांचना चाहिए?",
+          "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "Why can actual YouTube earnings differ from a calculator?",
-          "a": "Actual earnings can vary with RPM, audience geography, monetized views, ad demand, content type, seasonality, platform revenue sharing, taxes, and other factors."
+          "q": "वास्तविक YouTube आय कैलकुलेटर से भिन्न क्यों हो सकती है?",
+          "a": "वास्तविक कमाई आरपीएम, दर्शक भूगोल, मुद्रीकृत दृश्य, विज्ञापन मांग, सामग्री प्रकार, मौसमी, प्लेटफ़ॉर्म राजस्व साझाकरण, कर और अन्य कारकों के साथ भिन्न हो सकती है।"
         }
       ],
       "visual": "youtube"
