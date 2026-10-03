@@ -133,8 +133,12 @@ export default function FestivalAffiliateLinks({ tool, locale = 'en' }: { tool: 
     ? HI[tool.slug] || { heading: 'फेस्टिवल शॉपिंग', intro: 'तैयारी के लिए संबंधित Amazon प्रोडक्ट देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' }
     : EN;
 
-  const curated = CURATED_FESTIVAL_PRODUCTS[tool.slug] || [];
-  const displayProducts = products.length > 0 ? products : curated;
+  const curated: AmazonProduct[] = (CURATED_FESTIVAL_PRODUCTS[tool.slug] || []).map((product) => ({
+    asin: product.asin,
+    title: product.title,
+    url: product.url,
+  }));
+  const displayProducts: AmazonProduct[] = products.length > 0 ? products : curated;
 
   return (
     <section className="mt-8 max-w-5xl mx-auto rounded-3xl border border-amber-200/80 dark:border-amber-400/10 bg-gradient-to-br from-amber-50/70 via-white to-orange-50/50 dark:from-zinc-900 dark:via-zinc-900 dark:to-amber-950/10 p-6 sm:p-7">
