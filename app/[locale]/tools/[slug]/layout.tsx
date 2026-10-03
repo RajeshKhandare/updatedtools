@@ -7,9 +7,8 @@ import { SITE_NAME, SITE_URL } from '@/config/site';
 import { getLocalizedToolSeoContent } from '@/data/toolSeo';
 
 export function generateStaticParams() {
-  return LOCALES.flatMap((locale) =>
-    TOOLS_REGISTRY.map((tool) => ({ locale: locale.code, slug: tool.slug }))
-  );
+  return LOCALES.flatMap((locale) => TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' || locale.code === 'hi').map((tool) => ({ locale: locale.code, slug: tool.slug })));
+
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
@@ -23,14 +22,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const seo = getLocalizedToolSeoContent(tool, locale.code);
   const title = name === tool.name ? `${name} Online` : name;
   const description = seo.heroIntro || seo.intro;
+  const keywords = [tool.targetKeyword, ...seo.useCases].filter(Boolean) as string[];
   const url = SITE_URL + localizedToolPath(locale.code, tool.slug);
 
   return {
     title,
     description,
+    keywords,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
+      languages: Object.fromEntries((tool.category === 'Festival' ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi') : LOCALES).map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
     },
     openGraph: { title, description, url, siteName: SITE_NAME, type: 'website', locale: locale.hreflang },
     twitter: { card: 'summary_large_image', title, description },

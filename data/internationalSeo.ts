@@ -21,7 +21,9 @@ export const LOCALES: readonly LocaleConfig[] = [
   { code:'ru', hreflang:'ru', languageName:'Русский', market:'Russian-speaking markets', status:'source' },
   { code:'ar', hreflang:'ar', languageName:'العربية', market:'Arabic-speaking markets', status:'source' },
   { code:'hi', hreflang:'hi', languageName:'हिन्दी', market:'India', status:'source' },
+
 ];
+
 
 export const INDEXABLE_LOCALES = LOCALES.filter((locale) => locale.status === 'source');
 

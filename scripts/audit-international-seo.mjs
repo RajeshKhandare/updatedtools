@@ -9,9 +9,12 @@ const localizationSource = fs.readFileSync('data/internationalLocalization.ts', 
 const localizedLayoutSource = fs.readFileSync('app/[locale]/tools/[slug]/layout.tsx', 'utf8');
 const marketEvidenceSource = fs.readFileSync('data/internationalMarketEvidence.ts', 'utf8');
 
-const localeMatches = [...localeSource.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
+const coreLocaleBlock = localeSource.split('export const LOCALES')[1]?.split('];')[0] ?? '';
+const localeMatches = [...coreLocaleBlock.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
 const seedMatches = [...seedSource.matchAll(/locale:'([^']+)'/g)].map((m) => m[1]);
-const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
+const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'[\s\S]*?category:\s*'([^']+)'/g)]
+  .filter(([, , category]) => category !== 'Festival')
+  .map(([ , slug]) => slug);
 
 if (new Set(toolMatches).size !== 112) throw new Error(`Expected 112 tools, found ${new Set(toolMatches).size}`);
 if (localeMatches.length !== 12) throw new Error(`Expected 12 locales, found ${localeMatches.length}`);
@@ -32,7 +35,7 @@ const marketEvidenceSourceCount = [...marketEvidenceSource.matchAll(/sourceUrls:
 if (marketEvidenceSourceCount !== marketEvidenceLocales.length) throw new Error('Every market evidence entry must include source URLs');
 const hasCoverageGenerator = /LOCALES\.flatMap\(\(locale\)\s*=>\s*\n?\s*TOOLS_REGISTRY\.map\(\(tool\)/s.test(localizationSource);
 if (!hasCoverageGenerator) throw new Error('International localization coverage is not generated from every locale × tool');
-if (!/LOCALES\.flatMap/.test(localizedLayoutSource) || !/TOOLS_REGISTRY\.map/.test(localizedLayoutSource)) throw new Error('Localized route is not statically generated for every locale × tool');
+if (!/LOCALES\.flatMap/.test(localizedLayoutSource) || !/TOOLS_REGISTRY\.filter\(\(tool\) => tool\.category !== 'Festival' \|\| locale\.code === 'hi'\)/.test(localizedLayoutSource)) throw new Error('Localized route is not statically generated for every core locale × tool, with Festival tools limited to Hindi');
 const validationLocales = [...validationSource.matchAll(/locale: '([^']+)'/g)].map((m) => m[1]);
 const validationSourceCount = [...validationSource.matchAll(/sourceUrls: \[/g)].length;
 if (validationLocales.length !== validationSourceCount) throw new Error('Localized keyword validation entries must each include source URLs');

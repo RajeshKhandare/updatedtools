@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_NAME, SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 import { getToolSeoContent } from '@/data/toolSeo';
-import { getLocalizedAlternates } from '@/data/internationalSeo';
+import { LOCALES, localizedToolPath } from '@/data/internationalSeo';
 
 export function generateStaticParams() {
   return TOOLS_REGISTRY.map((tool) => ({ slug: tool.slug }));
@@ -26,7 +26,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     alternates: {
       canonical: `${SITE_URL}/tools/${tool.slug}`,
       languages: Object.fromEntries(
-        Object.entries(getLocalizedAlternates(tool.slug)).map(([hreflang, path]) => [hreflang, SITE_URL + path])
+        (tool.category === 'Festival' ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi') : LOCALES)
+          .map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])
       ),
     },
     openGraph: { title, description, url: `${SITE_URL}/tools/${tool.slug}`, siteName: SITE_NAME, type: 'website' },

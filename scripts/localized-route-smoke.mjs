@@ -12,36 +12,11 @@ const LOCALES = [
 
 // English is the default site locale and intentionally uses /tools/*. Other locales use /<locale>/tools/*.
 
-const TOOL_SLUGS = [
-  'merge-pdf','split-pdf','pdf-to-jpg','jpg-to-pdf','protect-pdf-password',
-  'unlock-pdf-password','rotate-pdf','compress-pdf','add-page-numbers-pdf',
-  'pdf-to-word','word-to-pdf','delete-pdf-pages','reorder-pdf-pages','pdf-grayscale-converter',
-  'compress-image','crop-image-online','image-resizer','webp-to-png-converter',
-  'webp-to-jpg-converter','png-to-jpg-converter','jpg-to-png-converter',
-  'svg-to-png-converter','black-and-white-image-filter','invert-image-colors',
-  'flip-rotate-image','instant-qr-code-generator','image-blur-filter',
-  'image-color-palette-extractor','online-python-compiler',
-  'online-javascript-compiler','online-html-editor','online-cpp-compiler',
-  'online-java-compiler','online-csharp-compiler','online-php-runner',
-  'online-sql-runner','json-formatter-validator','base64-encoder-decoder',
-  'clean-url-slug-generator','html-entity-encoder','css-minifier-cleaner',
-  'unix-timestamp-converter','hex-to-rgb-hsl-converter',
-  'url-component-encoder-decoder','jwt-token-inspector','uuid-guid-v4-generator',
-  'strong-password-generator','user-agent-string-parser','word-character-counter',
-  'text-case-converter','remove-duplicate-lines','lorem-ipsum-generator',
-  'markdown-to-html-converter','reverse-text-mirror-tool','text-diff-checker',
-  'alphabetical-line-sorter','strip-html-tags','find-replace-text',
-  'unit-length-converter','weight-mass-converter','temperature-converter',
-  'data-size-converter','speed-velocity-converter','time-duration-converter',
-  'area-land-converter','pressure-unit-converter','energy-work-converter',
-  'power-wattage-converter','sip-wealth-calculator','emi-calculator',
-  'lumpsum-calculator','gst-calculator','salary-calculator','fd-calculator',
-  'rd-calculator','retirement-calculator','compound-interest-calculator',
-  'simple-interest-calculator','percentage-calculator','age-calculator',
-  'bmi-calculator','scientific-calculator','discount-calculator',
-  'tip-calculator','youtube-thumbnail-downloader','youtube-tag-generator',
-  'youtube-money-calculator',
-];
+const fs = await import('node:fs');
+const registrySource = fs.readFileSync('data/toolsRegistry.ts', 'utf8');
+const TOOL_SLUGS = [...registrySource.matchAll(/slug:\s*'([^']+)'[\s\\S]*?category:\s*'([^']+)'/g)]
+  .filter(([, , category]) => category !== 'Festival')
+  .map(([, slug]) => slug);
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -86,7 +61,7 @@ async function check(url, locale) {
 
 async function main() {
   const expected = LOCALES.length * TOOL_SLUGS.length;
-  assert(TOOL_SLUGS.length === 87, `Expected 87 tools, found ${TOOL_SLUGS.length}`);
+  assert(TOOL_SLUGS.length === 112, `Expected 112 localized tools, found ${TOOL_SLUGS.length}`);
 
   console.log(`Checking ${expected} localized tool routes (${LOCALES.length} locales × ${TOOL_SLUGS.length} tools) on ${BASE_URL}`);
 

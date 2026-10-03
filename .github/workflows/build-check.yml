@@ -1,5 +1,5 @@
 name: Build Check
-# Cloudflare branch build verification
+# Cloudflare production is deployed from cloudflare-test; main is source/build validation.
 
 on:
   push:
@@ -31,21 +31,8 @@ jobs:
       - name: Build
         run: npm run build
       - name: Install Chromium
+        if: github.ref == 'refs/heads/cloudflare-test'
         run: npx playwright install --with-deps chromium
-      - name: Wait for Vercel deployment to match this commit
-        if: github.ref == 'refs/heads/main'
-        env:
-          EXPECTED_COMMIT: ${{ github.sha }}
-          SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
-        run: |
-          for i in {1..30}; do
-            ACTUAL_COMMIT="$(curl -fsS --max-time 10 "$SMOKE_BASE_URL/api/build-version" | node -e "let s=''; process.stdin.on('data',d=>s+=d).on('end',()=>{try{console.log(JSON.parse(s).commit)}catch{console.log('')}})")"
-            echo "Deployment commit: $ACTUAL_COMMIT"
-            if [ "$ACTUAL_COMMIT" = "$EXPECTED_COMMIT" ]; then exit 0; fi
-            sleep 10
-          done
-          echo "Timed out waiting for Vercel deployment $EXPECTED_COMMIT"
-          exit 1
       - name: Wait for stable Cloudflare deployment
         if: github.ref == 'refs/heads/cloudflare-test'
         env:
@@ -80,9 +67,4 @@ jobs:
         if: github.ref == 'refs/heads/cloudflare-test'
         env:
           SMOKE_BASE_URL: https://toolployee.com
-        run: node scripts/browser-smoke.mjs
-      - name: Browser smoke test all 112 tools (Vercel)
-        if: github.ref == 'refs/heads/main'
-        env:
-          SMOKE_BASE_URL: https://updatedtools-8kbg.vercel.app
         run: node scripts/browser-smoke.mjs

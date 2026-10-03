@@ -1,9 +1,15 @@
+import { searchAmazonProducts } from './lib/amazonCreators';
+
 interface Env {
   ASSETS: {
     fetch(request: Request): Promise<Response>;
   };
   CODE_EXECUTION_API_URL?: string;
   BUILD_SHA?: string;
+  AMAZON_CREATORS_CLIENT_ID?: string;
+  AMAZON_CREATORS_CLIENT_SECRET?: string;
+  AMAZON_CREATORS_CREDENTIAL_VERSION?: string;
+  AMAZON_ASSOCIATE_TAG?: string;
 }
 
 const MAX_CODE_BYTES = 100_000;
@@ -204,6 +210,38 @@ async function executeCode(request: Request, env: Env) {
   }
 }
 
+async function amazonProducts(request: Request, env: Env) {
+  const url = new URL(request.url);
+  const query = (url.searchParams.get('q') || '').trim();
+
+  if (!query || query.length > 200) {
+    return json({ error: 'A valid Amazon product search query is required.' }, 400, {
+      'Cache-Control': 'no-store',
+    });
+  }
+
+  try {
+    const products = await searchAmazonProducts(env, query, 6);
+    return json(
+      { products },
+      200,
+      {
+        'Cache-Control': 'public, s-maxage=900, max-age=300',
+        'Vary': 'Accept',
+      },
+    );
+  } catch (error) {
+    return json(
+      {
+        products: [],
+        error: error instanceof Error ? error.message : 'Amazon product search failed.',
+      },
+      502,
+      { 'Cache-Control': 'no-store' },
+    );
+  }
+}
+
 async function youtubeThumbnail(request: Request) {
   const url = new URL(request.url);
   const videoId = url.searchParams.get('videoId') || '';
@@ -263,6 +301,13 @@ export default {
         return new Response('Method Not Allowed', { status: 405 });
       }
       return executeCode(request, env);
+    }
+
+    if (url.pathname === '/api/amazon-products') {
+      if (request.method !== 'GET') {
+        return new Response('Method Not Allowed', { status: 405 });
+      }
+      return amazonProducts(request, env);
     }
 
     if (url.pathname === '/api/youtube-thumbnail') {

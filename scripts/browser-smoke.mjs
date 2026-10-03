@@ -1117,10 +1117,11 @@ async function main() {
       BASE_URL
   );
 
+  const smokeTools = tools.filter((tool) => tool.category !== 'Festival');
+
   assert(
-    tools.length === 112,
-    'Registry expected 112 tools, found ' +
-      tools.length
+    smokeTools.length === 112,
+    'Core registry expected 112 non-festival tools, found ' + smokeTools.length
   );
 
   const browser =
@@ -1166,7 +1167,7 @@ async function main() {
   const pdfWarnings = [];
 
   for (
-    const tool of tools
+    const tool of smokeTools
   ) {
     const label =
       tool.category +
@@ -1335,13 +1336,13 @@ async function main() {
   console.log(
     JSON.stringify(
       {
-        totalTools: tools.length,
+        totalTools: smokeTools.length,
         skippedPdf:
-          tools.filter((tool) => tool.category === 'PDF').length,
+          smokeTools.filter((tool) => tool.category === 'PDF').length,
         tested:
-          tools.filter((tool) => tool.category !== 'PDF').length,
+          smokeTools.filter((tool) => tool.category !== 'PDF').length,
         passed:
-          tools.filter((tool) => tool.category !== 'PDF').length -
+          smokeTools.filter((tool) => tool.category !== 'PDF').length -
           failures.length,
         failed:
           failures.length,
