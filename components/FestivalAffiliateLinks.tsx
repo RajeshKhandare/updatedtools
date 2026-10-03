@@ -21,11 +21,6 @@ type AmazonProduct = {
 };
 
 const ITEMS: Record<string, AffiliateItem[]> = {
-  'navratri-colors-2026': [
-    { title: 'Navratri ethnic wear', query: 'Navratri ethnic wear women saree kurta', icon: <Shirt className="h-5 w-5" /> },
-    { title: 'Garba & Dandiya outfits', query: 'Garba Dandiya outfit chaniya choli kurta', icon: <Sparkles className="h-5 w-5" /> },
-    { title: 'Festive jewellery & accessories', query: 'Navratri festive jewellery accessories', icon: <Gift className="h-5 w-5" /> },
-  ],
   'diwali-mithai-faral-calculator': [
     { title: 'Sweet & snack storage', query: 'airtight sweet snack storage containers', icon: <ShoppingBag className="h-5 w-5" /> },
     { title: 'Kitchen weighing scale', query: 'digital kitchen weighing scale', icon: <Sparkles className="h-5 w-5" /> },
@@ -60,7 +55,6 @@ const ITEMS: Record<string, AffiliateItem[]> = {
 };
 
 const HI: Record<string, { heading: string; intro: string; disclosure: string; cta: string }> = {
-  'navratri-colors-2026': { heading: 'नवरात्रि की खरीदारी', intro: 'रंग और उत्सव की तैयारी के लिए संबंधित Amazon प्रोडक्ट देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' },
   'diwali-mithai-faral-calculator': { heading: 'दिवाली मिठाई और फराल की खरीदारी', intro: 'मिठाई, फराल और गिफ्टिंग की तैयारी के लिए उपयोगी चीजें देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' },
   'diwali-puja-samagri-checklist': { heading: 'पूजा सामग्री की खरीदारी', intro: 'चेकलिस्ट के साथ पूजा थाली, दीये और जरूरी सामान देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' },
   'diwali-budget-calculator': { heading: 'दिवाली खरीदारी आइडिया', intro: 'अपने बजट के अनुसार गिफ्ट, कपड़े और सजावट की चीजें देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' },
@@ -127,7 +121,7 @@ export default function FestivalAffiliateLinks({ tool, locale = 'en' }: { tool: 
     return () => { cancelled = true; };
   }, [tool.category, tool.slug]);
 
-  if (tool.category !== 'Festival' || !items?.length) return null;
+  if (tool.slug === 'navratri-colors-2026' || tool.category !== 'Festival' || !items?.length) return null;
 
   const copy = locale === 'hi'
     ? HI[tool.slug] || { heading: 'फेस्टिवल शॉपिंग', intro: 'तैयारी के लिए संबंधित Amazon प्रोडक्ट देखें।', disclosure: 'Amazon पर जाने वाला लिंक (paid link)', cta: 'Amazon पर देखें' }
