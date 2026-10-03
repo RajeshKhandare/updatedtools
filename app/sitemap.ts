@@ -3,6 +3,8 @@ import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { SITE_URL, SITE_URL_CONFIGURED } from '@/config/site';
 import { INDEXABLE_LOCALES, localizedToolPath } from '@/data/internationalSeo';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   if (!SITE_URL_CONFIGURED) return [];
 
@@ -23,12 +25,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // Planned locales are intentionally excluded until localized routes contain
-  // genuinely localized content and are marked indexable.
+  const localizedStaticRoutes: MetadataRoute.Sitemap = INDEXABLE_LOCALES
+    .filter((locale) => locale.code !== 'en')
+    .flatMap((locale) => [
+      { url: SITE_URL + '/' + locale.code, lastModified: now, changeFrequency: 'daily' as const, priority: 0.9 },
+      { url: SITE_URL + '/' + locale.code + '/tools', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 },
+      { url: SITE_URL + '/' + locale.code + '/about', lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+      { url: SITE_URL + '/' + locale.code + '/contact', lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
+      { url: SITE_URL + '/' + locale.code + '/privacy-policy', lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
+      { url: SITE_URL + '/' + locale.code + '/terms', lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
+    ]);
+
+  const navratriDayRoutes: MetadataRoute.Sitemap = [
+    ...Array.from({ length: 9 }, (_, i) => SITE_URL + '/tools/navratri-colors-2026/day-' + (i + 1)),
+    ...['hi'].flatMap((locale) => Array.from({ length: 9 }, (_, i) => SITE_URL + '/' + locale + '/tools/navratri-colors-2026/day-' + (i + 1))),
+  ].map((url) => ({ url, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.78 }));
+
   const localizedRoutes: MetadataRoute.Sitemap = INDEXABLE_LOCALES
     .filter((locale) => locale.code !== 'en')
     .flatMap((locale) =>
-      TOOLS_REGISTRY.map((tool) => ({
+      TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival').map((tool) => ({
         url: SITE_URL + localizedToolPath(locale.code, tool.slug),
         lastModified: now,
         changeFrequency: 'weekly' as const,
@@ -36,5 +52,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }))
     );
 
-  return [...staticRoutes, ...toolRoutes, ...localizedRoutes];
+  return [...staticRoutes, ...toolRoutes, ...localizedStaticRoutes, ...localizedRoutes, ...navratriDayRoutes];
 }

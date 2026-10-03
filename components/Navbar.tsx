@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { Sun, Moon, ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
 import BrandMark from '@/components/BrandMark';
 import LanguageSelector from '@/components/LanguageSelector';
@@ -16,6 +16,7 @@ const CATEGORIES_CONFIG = [
   { label: 'Compiler', query: 'Compiler' },
   { label: 'Finance', query: 'Finance' },
   { label: 'YouTube', query: 'YouTube' },
+  { label: 'Time Table', query: 'Time Table' },
 ];
 
 export default function Navbar() {
@@ -23,13 +24,12 @@ export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [currentLocale, setCurrentLocale] = useState<LocaleCode>('en');
+  const pathname = usePathname();
+  const currentLocale = ((pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/)?.[1] as LocaleCode | undefined) || 'en');
   const ui = getLocalizedUi(currentLocale);
 
   useEffect(() => {
     setIsDark(document.documentElement.classList.contains('dark'));
-    const localeMatch = window.location.pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
-    setCurrentLocale((localeMatch?.[1] as LocaleCode | undefined) || 'en');
   }, []);
 
   const toggleTheme = () => {
@@ -137,7 +137,7 @@ export default function Navbar() {
         <div className="lg:hidden border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 px-4 py-4 space-y-3">
           <div className="grid grid-cols-2 gap-2 text-xs font-semibold text-zinc-700 dark:text-zinc-300">
             <button onClick={() => { setMobileMenuOpen(false); router.push(currentLocale === 'en' ? '/tools' : `/${currentLocale}/tools`); }} className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900">
-              {ui.toolsLabel} (87)
+              {ui.toolsLabel} (112)
             </button>
             {CATEGORIES_CONFIG.map((cat) => (
               <button key={cat.label} onClick={() => handleCategoryNavigate(cat.query)} className="p-2 text-left rounded-lg bg-zinc-50 dark:bg-zinc-900">

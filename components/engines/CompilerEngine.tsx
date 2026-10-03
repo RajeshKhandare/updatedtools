@@ -33,19 +33,35 @@ SELECT * FROM users;`,
 };
 
 
+const COMPILER_UI: Record<LocaleCode, any> = {
+  en:{editor:'Editor',runtimeReady:'Runtime ready. Click "Run Code" to execute.',runCode:'Run Code',htmlRendered:'HTML rendered in a sandboxed preview.',runningSql:'Running SQL locally...',sqlSuccess:'SQL executed successfully.',sqlError:'SQL Error',submitting:'Submitting code to the configured execution runtime...',executionFailed:'Execution failed',finished:'Program finished successfully with no output.',executionError:'Execution Error',clipboardBlocked:'Clipboard access was blocked by the browser.',sourceFile:'Source File',consoleOutput:'Console Output',htmlPreview:'HTML sandbox preview'},
+  pt:{editor:'Editor',runtimeReady:'Runtime pronto. Clique em "Executar código" para executar.',runCode:'Executar código',htmlRendered:'HTML renderizado em uma pré-visualização isolada.',runningSql:'Executando SQL localmente...',sqlSuccess:'SQL executado com sucesso.',sqlError:'Erro de SQL',submitting:'Enviando código para o ambiente de execução configurado...',executionFailed:'Falha na execução',finished:'Programa concluído com sucesso sem saída.',executionError:'Erro de execução',clipboardBlocked:'O acesso à área de transferência foi bloqueado pelo navegador.',sourceFile:'Arquivo-fonte',consoleOutput:'Saída do console',htmlPreview:'Pré-visualização HTML isolada'},
+  es:{editor:'Editor',runtimeReady:'Entorno listo. Haz clic en "Ejecutar código" para ejecutar.',runCode:'Ejecutar código',htmlRendered:'HTML renderizado en una vista previa aislada.',runningSql:'Ejecutando SQL localmente...',sqlSuccess:'SQL ejecutado correctamente.',sqlError:'Error de SQL',submitting:'Enviando el código al entorno de ejecución configurado...',executionFailed:'Error de ejecución',finished:'El programa terminó correctamente sin salida.',executionError:'Error de ejecución',clipboardBlocked:'El navegador bloqueó el acceso al portapapeles.',sourceFile:'Archivo fuente',consoleOutput:'Salida de consola',htmlPreview:'Vista previa HTML aislada'},
+  de:{editor:'Editor',runtimeReady:'Laufzeit bereit. Klicke auf "Code ausführen", um den Code auszuführen.',runCode:'Code ausführen',htmlRendered:'HTML wird in einer isolierten Vorschau dargestellt.',runningSql:'SQL wird lokal ausgeführt...',sqlSuccess:'SQL wurde erfolgreich ausgeführt.',sqlError:'SQL-Fehler',submitting:'Code wird an die konfigurierte Laufzeit gesendet...',executionFailed:'Ausführung fehlgeschlagen',finished:'Programm erfolgreich ohne Ausgabe beendet.',executionError:'Ausführungsfehler',clipboardBlocked:'Der Browser hat den Zugriff auf die Zwischenablage blockiert.',sourceFile:'Quelldatei',consoleOutput:'Konsolenausgabe',htmlPreview:'Isolierte HTML-Vorschau'},
+  fr:{editor:'Éditeur',runtimeReady:'Environnement prêt. Cliquez sur "Exécuter le code" pour lancer le code.',runCode:'Exécuter le code',htmlRendered:'HTML rendu dans un aperçu isolé.',runningSql:'Exécution de SQL localement...',sqlSuccess:'SQL exécuté avec succès.',sqlError:'Erreur SQL',submitting:'Envoi du code vers l’environnement d’exécution configuré...',executionFailed:'Échec de l’exécution',finished:'Programme terminé avec succès sans sortie.',executionError:'Erreur d’exécution',clipboardBlocked:'L’accès au presse-papiers a été bloqué par le navigateur.',sourceFile:'Fichier source',consoleOutput:'Sortie de la console',htmlPreview:'Aperçu HTML isolé'},
+  it:{editor:'Editor',runtimeReady:'Ambiente pronto. Fai clic su "Esegui codice" per eseguire.',runCode:'Esegui codice',htmlRendered:'HTML visualizzato in un’anteprima isolata.',runningSql:'Esecuzione SQL locale...',sqlSuccess:'SQL eseguito correttamente.',sqlError:'Errore SQL',submitting:'Invio del codice all’ambiente di esecuzione configurato...',executionFailed:'Esecuzione non riuscita',finished:'Programma terminato correttamente senza output.',executionError:'Errore di esecuzione',clipboardBlocked:'Il browser ha bloccato l’accesso agli appunti.',sourceFile:'File sorgente',consoleOutput:'Output della console',htmlPreview:'Anteprima HTML isolata'},
+  ja:{editor:'エディター',runtimeReady:'実行環境の準備ができました。「コードを実行」をクリックしてください。',runCode:'コードを実行',htmlRendered:'HTMLを分離されたプレビューで表示しました。',runningSql:'SQLをローカルで実行中...',sqlSuccess:'SQLを正常に実行しました。',sqlError:'SQLエラー',submitting:'設定された実行環境にコードを送信中...',executionFailed:'実行に失敗しました',finished:'プログラムは出力なしで正常に終了しました。',executionError:'実行エラー',clipboardBlocked:'ブラウザーによってクリップボードへのアクセスがブロックされました。',sourceFile:'ソースファイル',consoleOutput:'コンソール出力',htmlPreview:'HTML分離プレビュー'},
+  ko:{editor:'에디터',runtimeReady:'실행 환경이 준비되었습니다. "코드 실행"을 클릭하세요.',runCode:'코드 실행',htmlRendered:'HTML을 격리된 미리보기에서 렌더링했습니다.',runningSql:'SQL을 로컬에서 실행하는 중...',sqlSuccess:'SQL이 성공적으로 실행되었습니다.',sqlError:'SQL 오류',submitting:'구성된 실행 환경으로 코드를 전송하는 중...',executionFailed:'실행 실패',finished:'프로그램이 출력 없이 성공적으로 종료되었습니다.',executionError:'실행 오류',clipboardBlocked:'브라우저에서 클립보드 접근을 차단했습니다.',sourceFile:'소스 파일',consoleOutput:'콘솔 출력',htmlPreview:'격리된 HTML 미리보기'},
+  zh:{editor:'编辑器',runtimeReady:'运行环境已就绪。点击“运行代码”执行。',runCode:'运行代码',htmlRendered:'HTML 已在隔离预览中渲染。',runningSql:'正在本地运行 SQL...',sqlSuccess:'SQL 执行成功。',sqlError:'SQL 错误',submitting:'正在将代码提交到配置的运行环境...',executionFailed:'执行失败',finished:'程序已成功完成且没有输出。',executionError:'执行错误',clipboardBlocked:'浏览器阻止了剪贴板访问。',sourceFile:'源文件',consoleOutput:'控制台输出',htmlPreview:'HTML 隔离预览'},
+  ru:{editor:'Редактор',runtimeReady:'Среда готова. Нажмите «Запустить код» для выполнения.',runCode:'Запустить код',htmlRendered:'HTML отображается в изолированном предпросмотре.',runningSql:'Локальное выполнение SQL...',sqlSuccess:'SQL успешно выполнен.',sqlError:'Ошибка SQL',submitting:'Отправка кода в настроенную среду выполнения...',executionFailed:'Ошибка выполнения',finished:'Программа успешно завершена без вывода.',executionError:'Ошибка выполнения',clipboardBlocked:'Браузер заблокировал доступ к буферу обмена.',sourceFile:'Исходный файл',consoleOutput:'Вывод консоли',htmlPreview:'Изолированный предпросмотр HTML'},
+  ar:{editor:'المحرر',runtimeReady:'بيئة التشغيل جاهزة. انقر على "تشغيل الكود" للتنفيذ.',runCode:'تشغيل الكود',htmlRendered:'تم عرض HTML في معاينة معزولة.',runningSql:'جارٍ تشغيل SQL محليًا...',sqlSuccess:'تم تنفيذ SQL بنجاح.',sqlError:'خطأ SQL',submitting:'جارٍ إرسال الكود إلى بيئة التشغيل المُهيأة...',executionFailed:'فشل التنفيذ',finished:'اكتمل البرنامج بنجاح دون مخرجات.',executionError:'خطأ في التنفيذ',clipboardBlocked:'حظر المتصفح الوصول إلى الحافظة.',sourceFile:'الملف المصدر',consoleOutput:'مخرجات وحدة التحكم',htmlPreview:'معاينة HTML معزولة'},
+  hi:{editor:'एडिटर',runtimeReady:'रनटाइम तैयार है। चलाने के लिए "कोड चलाएँ" पर क्लिक करें।',runCode:'कोड चलाएँ',htmlRendered:'HTML को सैंडबॉक्स प्रीव्यू में रेंडर किया गया है।',runningSql:'SQL स्थानीय रूप से चल रहा है...',sqlSuccess:'SQL सफलतापूर्वक चलाया गया।',sqlError:'SQL त्रुटि',submitting:'कोड को कॉन्फ़िगर किए गए रनटाइम पर भेजा जा रहा है...',executionFailed:'निष्पादन विफल',finished:'प्रोग्राम बिना आउटपुट के सफलतापूर्वक पूरा हुआ।',executionError:'निष्पादन त्रुटि',clipboardBlocked:'ब्राउज़र ने क्लिपबोर्ड एक्सेस को ब्लॉक कर दिया।',sourceFile:'सोर्स फ़ाइल',consoleOutput:'कंसोल आउटपुट',htmlPreview:'HTML सैंडबॉक्स प्रीव्यू'}
+};
+
 export default function CompilerEngine({ toolSlug, toolName, locale = 'en' }: { toolSlug: string; toolName: string; locale?: LocaleCode }) {
   const ui = getEngineUi(locale);
+  const cui = COMPILER_UI[locale] ?? COMPILER_UI.en;
   const langKey = toolSlug.includes('python') ? 'python' : toolSlug.includes('javascript') ? 'javascript' : toolSlug.includes('java') && !toolSlug.includes('javascript') ? 'java' : toolSlug.includes('cpp') ? 'cpp' : toolSlug.includes('csharp') ? 'csharp' : toolSlug.includes('php') ? 'php' : toolSlug.includes('sql') ? 'sql' : 'html';
   const [code, setCode] = useState(DEFAULT_CODES[langKey]);
-  const [output, setOutput] = useState('Runtime ready. Click "Run Code" to execute.');
+  const [output, setOutput] = useState(cui.runtimeReady);
   const [copied, setCopied] = useState(false);
   const [isRunning, setIsRunning] = useState(false);
   const [preview, setPreview] = useState(false);
 
   const runCode = async () => {
-    if (langKey === 'html') { setPreview(true); setOutput('HTML rendered in a sandboxed preview.'); return; }
+    if (langKey === 'html') { setPreview(true); setOutput(cui.htmlRendered); return; }
     if (langKey === 'sql') {
-      setIsRunning(true); setOutput('Running SQL locally...');
+      setIsRunning(true); setOutput(cui.runningSql);
       try {
         const initSqlJs =
           (await import('sql.js')).default;
@@ -86,19 +102,19 @@ export default function CompilerEngine({ toolSlug, toolName, locale = 'en' }: { 
           const result = db.exec(statement);
           for (const r of result) rows.push(JSON.stringify({ columns:r.columns, values:r.values }));
         }
-        setOutput(rows.join('\n') || 'SQL executed successfully.');
-      } catch (err) { setOutput(`SQL Error:\n${err instanceof Error ? err.message : 'Unknown error'}`); }
+        setOutput(rows.join('\n') || cui.sqlSuccess);
+      } catch (err) { setOutput(`${cui.sqlError}:\n${err instanceof Error ? err.message : 'Unknown error'}`); }
       finally { setIsRunning(false); }
       return;
     }
-    setIsRunning(true); setOutput('Submitting code to the configured execution runtime...');
+    setIsRunning(true); setOutput(cui.submitting);
     try {
       const response = await fetch('/api/execute-code', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({language:langKey,code}) });
       const data = await response.json().catch(()=>({}));
-      if (!response.ok) throw new Error(data.error || `Execution failed (${response.status})`);
+      if (!response.ok) throw new Error(data.error || `${cui.executionFailed} (${response.status})`);
       const parts=[data.stdout,data.stderr,data.compileOutput].filter(Boolean);
-      setOutput(parts.join('\n') || 'Program finished successfully with no output.');
-    } catch (err) { setOutput(`Execution Error:\n${err instanceof Error ? err.message : 'Unknown error'}`); }
+      setOutput(parts.join('\n') || cui.finished);
+    } catch (err) { setOutput(`${cui.executionError}:\n${err instanceof Error ? err.message : 'Unknown error'}`); }
     finally { setIsRunning(false); }
   };
 
@@ -109,7 +125,7 @@ export default function CompilerEngine({ toolSlug, toolName, locale = 'en' }: { 
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      setOutput('Clipboard access was blocked by the browser.');
+      setOutput(cui.clipboardBlocked);
     }
   };
 
@@ -224,19 +240,19 @@ export default function CompilerEngine({ toolSlug, toolName, locale = 'en' }: { 
       <div className="flex items-center justify-between bg-zinc-900 text-white px-5 py-3 rounded-2xl border border-zinc-800 shadow-md">
         <div className="flex items-center gap-2">
           <Code2 className="h-4 w-4 text-violet-400" />
-          <span className="text-xs font-bold uppercase tracking-wider">{toolName} Editor</span>
+          <span className="text-xs font-bold uppercase tracking-wider">{toolName} {cui.editor}</span>
         </div>
         <div className="flex items-center gap-2">
           <button onClick={copyCode} className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-xs font-semibold transition">
             {copied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Copy className="h-3.5 w-3.5" />}
             <span>{copied ? ui.copied : ui.copy}</span>
           </button>
-          <button onClick={() => { setCode(DEFAULT_CODES[langKey]); setPreview(false); setOutput('Runtime ready. Click "Run Code" to execute.'); }} className="p-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 transition" title={ui.reset}>
+          <button onClick={() => { setCode(DEFAULT_CODES[langKey]); setPreview(false); setOutput(cui.runtimeReady); }} className="p-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 transition" title={ui.reset}>
             <RotateCcw className="h-3.5 w-3.5" />
           </button>
           <button onClick={runCode} disabled={isRunning} className="flex items-center gap-1.5 px-5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition disabled:opacity-50">
             {isRunning ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Play className="h-3.5 w-3.5 fill-white" />}
-            <span>{langKey === 'html' ? ui.preview : ui.runCode}</span>
+            <span>{langKey === 'html' ? ui.preview : cui.runCode}</span>
           </button>
         </div>
       </div>
@@ -244,7 +260,7 @@ export default function CompilerEngine({ toolSlug, toolName, locale = 'en' }: { 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-4 font-mono text-xs shadow-inner">
           <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-widest pb-2 border-b border-zinc-800 mb-2">
-            Source File (main.{langKey === 'python' ? 'py' : langKey === 'html' ? 'html' : 'js'})
+            {cui.sourceFile} (main.{langKey === 'python' ? 'py' : langKey === 'html' ? 'html' : 'js'})
           </div>
           <div className="flex min-h-[420px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-950">
             <div aria-hidden="true" className="w-10 shrink-0 select-none overflow-hidden border-r border-zinc-800 bg-zinc-900/60 py-3 text-right font-mono text-xs leading-relaxed text-zinc-600">
@@ -280,12 +296,12 @@ export default function CompilerEngine({ toolSlug, toolName, locale = 'en' }: { 
         </div>
 
         {langKey === 'html' && preview ? (
-          <iframe title="HTML sandbox preview" sandbox="allow-scripts" srcDoc={code} className="w-full min-h-[420px] rounded-2xl border border-zinc-800 bg-white" />
+          <iframe title={cui.htmlPreview} sandbox="allow-scripts" srcDoc={code} className="w-full min-h-[420px] rounded-2xl border border-zinc-800 bg-white" />
         ) : (
           <div className="rounded-2xl border border-zinc-800 bg-black p-4 font-mono text-xs shadow-inner flex flex-col min-h-[420px]">
             <div className="flex items-center gap-2 pb-2 border-b border-zinc-800 mb-2">
               <Terminal className="h-3.5 w-3.5 text-zinc-500" />
-              <span className="text-[11px] font-bold text-zinc-500 uppercase tracking-widest">{locale === 'en' ? 'Console Output' : locale === 'pt' ? 'Saída do console' : locale === 'es' ? 'Salida de consola' : locale === 'de' ? 'Konsolenausgabe' : locale === 'fr' ? 'Sortie de la console' : locale === 'it' ? 'Output della console' : locale === 'ja' ? 'コンソール出力' : locale === 'ko' ? '콘솔 출력' : locale === 'zh' ? '控制台输出' : locale === 'ru' ? 'Вывод консоли' : locale === 'ar' ? 'مخرجات وحدة التحكم' : 'कंसोल आउटपुट'}</span>
+              <span className="text-[11px] font-bold text-zinc-500 uppercase tracking-widest">{cui.consoleOutput}</span>
             </div>
             <pre className="flex-1 text-emerald-400 whitespace-pre-wrap overflow-auto leading-relaxed">{output}</pre>
           </div>
