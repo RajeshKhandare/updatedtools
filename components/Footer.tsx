@@ -1,18 +1,15 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import BrandMark from '@/components/BrandMark';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
 import { type LocaleCode } from '@/data/internationalSeo';
 
 export default function Footer() {
-  const [currentLocale, setCurrentLocale] = useState<LocaleCode>('en');
-
-  useEffect(() => {
-    const match = window.location.pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/);
-    setCurrentLocale((match?.[1] as LocaleCode | undefined) || 'en');
-  }, []);
+  const pathname = usePathname();
+  const currentLocale = ((pathname.match(/^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/)?.[1] as LocaleCode | undefined) || 'en');
 
   const ui = getLocalizedUi(currentLocale);
   const localized = (path: string) => currentLocale === 'en' ? path : `/${currentLocale}${path}`;

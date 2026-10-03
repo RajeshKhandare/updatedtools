@@ -24,6 +24,7 @@ export async function generateMetadata({
     description: 'Learn how Toolployee handles tool inputs, browser processing, analytics, advertising, and contact submissions.',
     alternates: {
       canonical: '/' + locale.code + '/privacy-policy',
+      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, '/' + item.code + '/privacy-policy'])),
     },
   };
 }

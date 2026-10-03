@@ -1,7 +1,7 @@
-# TheToolGenie — Development Status
+# Toolployee — Development Status
 
 ## Current source of truth
-This checkpoint summarizes the current 87-tool registry and production configuration. The public site name/domain remain configurable through environment variables.
+This checkpoint reflects the current 112-tool production site served on Cloudflare at https://toolployee.com.
 
 ## Tool coverage
 - PDF: 14
@@ -13,26 +13,37 @@ This checkpoint summarizes the current 87-tool registry and production configura
 - Finance: 7
 - Calculators: 9
 - YouTube: 3
-- **Total: 87 unique tools / 87 unique slugs**
+- Time Table: 25
+- **Total: 112 unique tools / 112 unique slugs**
+
+## Localization
+- 12 locales: en, pt, es, de, fr, it, ja, ko, zh, ru, ar, hi.
+- Localized tool routes are generated under the corresponding locale prefixes.
+- International SEO coverage includes canonical URLs, reciprocal hreflang alternates, localized metadata, sitemap coverage, and locale-specific tool content.
 
 ## Implemented paths
 - PDF and image operations use browser-side processing where supported.
-- Python, JavaScript, Java, C++, C#, and PHP use the `/api/execute-code` runtime adapter; the external execution service must be reachable/configured in production.
+- Python, JavaScript, Java, C++, C#, and PHP use the /api/execute-code runtime adapter.
 - HTML uses a sandboxed iframe preview.
 - SQL uses SQLite/WASM in the browser.
-- Developer, Text, Converter, Calculator, Finance, and YouTube tools have tool-specific operations.
-- Finance tools use dedicated formulas and INR output where applicable.
+- Developer, Text, Converter, Calculator, Finance, YouTube, and Time Table tools have tool-specific operations.
+- Time Table tools provide purpose-aware layouts, localized labels, editable schedules, notes/quotes, CSV export, and print support.
 
 ## Verification
-- Registry verification covers all 87 tools and unique slugs.
-- Dynamic JavaScript execution scan checks for `eval()` / `new Function()` patterns.
-- Tool metadata and category-count validation are part of the repository verification script.
-- Vercel reports a successful deployment for the latest SEO/metadata cleanup commit.
+- Registry verification covers all 112 tools and unique slugs.
+- International SEO audit covers 112 tools × 11 non-English seed markets and 12 locales.
+- Cloudflare browser smoke testing covers all 112 tools.
+- Localized-route smoke testing covers 1,344 locale × tool routes.
+- Production Search Console sitemap is submitted at https://toolployee.com/sitemap.xml.
+- Google Analytics 4 is configured for the Toolployee Website stream.
 
 ## Production configuration
-- Set `NEXT_PUBLIC_SITE_NAME` and `NEXT_PUBLIC_SITE_URL` when the final brand/domain is decided.
-- Set `NEXT_PUBLIC_ADSENSE_CLIENT_ID` only after receiving the real Google AdSense publisher/client ID.
-- Confirm the execution API endpoint/service is reachable for compiler tools.
-- Confirm SQL WASM assets are available in the deployed public path.
-- Test representative PDF/Image/QR processing in the target browsers.
-- Run the 87-tool browser smoke suite against the production deployment.
+- Production domain: https://toolployee.com
+- Production hosting: Cloudflare Worker with custom domain.
+- Public workers.dev production URL is disabled in Wrangler configuration.
+- Set NEXT_PUBLIC_SITE_URL=https://toolployee.com in the Cloudflare build environment.
+- NEXT_PUBLIC_GA_MEASUREMENT_ID is configured for the production GA4 property.
+- Set NEXT_PUBLIC_ADSENSE_CLIENT_ID only after receiving the real Google AdSense publisher/client ID.
+- Keep the compiler execution runtime reachable/configured in production.
+- Keep SQL WASM and PDF worker assets available in the deployed public path.
+- Run the production smoke suite after material production changes.
