@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
@@ -10,6 +11,7 @@ import ToolSeoContent from '@/components/ToolSeoContent';
 import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SITE_NAME, SITE_URL } from '@/config/site';
 
 export const dynamicParams = false;
 
@@ -17,6 +19,49 @@ export function generateStaticParams() {
   return LOCALES.filter((locale) => locale.code !== 'en').flatMap((locale) =>
     TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' || locale.code === 'hi').map((tool) => ({ locale: locale.code, slug: tool.slug }))
   );
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale: localeCode, slug } = await params;
+  const locale = getLocale(localeCode);
+  const tool = TOOLS_REGISTRY.find((item) => item.slug === slug);
+  if (!locale || !tool || locale.code === 'en') return {};
+
+  const seo = getLocalizedToolSeoContent(tool, locale.code);
+  const name = getLocalizedToolName(tool, locale.code);
+  const description = seo.heroIntro || seo.intro || tool.description;
+  const languages = tool.category === 'Festival'
+    ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi')
+    : LOCALES;
+
+  return {
+    title: name,
+    description,
+    keywords: seo.useCases.filter(Boolean),
+    alternates: {
+      canonical: SITE_URL + localizedToolPath(locale.code, tool.slug),
+      languages: Object.fromEntries(
+        languages.map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])
+      ),
+    },
+    openGraph: {
+      title: name,
+      description,
+      url: SITE_URL + localizedToolPath(locale.code, tool.slug),
+      siteName: SITE_NAME,
+      type: 'website',
+      locale: locale.hreflang.replace('-', '_'),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: name,
+      description,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 }
 
 export default async function LocalizedToolPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
