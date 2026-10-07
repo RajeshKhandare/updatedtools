@@ -17,6 +17,12 @@ const COUNTRY_TO_LOCALE: Record<string, string> = {
   PT: 'pt',
 };
 
+const LEGACY_ENGLISH_REDIRECTS: Record<string, string> = {
+  '/en/about': '/about',
+  '/en/privacy-policy': '/privacy-policy',
+  '/en/terms': '/terms',
+};
+
 function isLocalizedPath(pathname: string) {
   return /^\/(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi)(?:\/|$)/.test(pathname);
 }
@@ -28,6 +34,14 @@ function isSearchCrawler(request: NextRequest) {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  const legacyEnglishPath = pathname.replace(/\/$/, '');
+  const legacyTarget = LEGACY_ENGLISH_REDIRECTS[legacyEnglishPath];
+  if (legacyTarget) {
+    const url = request.nextUrl.clone();
+    url.pathname = legacyTarget;
+    return NextResponse.redirect(url, 301);
+  }
 
   if (isLocalizedPath(pathname)) return NextResponse.next();
   if (pathname !== '/' && !pathname.startsWith('/tools')) return NextResponse.next();
