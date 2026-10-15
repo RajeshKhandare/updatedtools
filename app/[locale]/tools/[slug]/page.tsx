@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/config/site';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
@@ -42,12 +43,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     return { title: 'Tool Not Found', robots: { index: false, follow: false } };
   }
 
+  const availableLocales = tool.category === 'Festival'
+    ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi')
+    : LOCALES;
+  const languageAlternates = Object.fromEntries(
+    availableLocales.map((item) => [
+      item.hreflang,
+      SITE_URL + localizedToolPath(item.code, tool.slug),
+    ])
+  );
+
   if (tool.slug === 'merge-pdf') {
     const copy = MERGE_PDF_LOCALIZED_COPY[locale.code];
     return {
       title: copy?.title || 'Merge PDF Files Online Free',
       description: copy?.description || 'Combine multiple PDF files into one document in your chosen order.',
-      alternates: { canonical: localizedToolPath(locale.code, tool.slug) },
+      alternates: { canonical: SITE_URL + localizedToolPath(locale.code, tool.slug), languages: languageAlternates },
       openGraph: {
         title: copy?.title || 'Merge PDF Files Online Free',
         description: copy?.description || 'Combine multiple PDF files into one document in your chosen order.',
