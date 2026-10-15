@@ -513,6 +513,12 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       { q: 'What should I check before using the output from ' + tool.name + '?', a: 'Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow.' },
       ...focus.faq,
     ]),
+    articleSections: [
+      { heading: 'What ' + tool.name + ' does', paragraphs: [focus.focus, 'Use this page when you need to complete this specific task in a focused workflow. Choose the relevant inputs, review the available options, run the operation, and check the result before relying on it.'] },
+      { heading: 'Common ways to use ' + tool.name, paragraphs: ['The right workflow depends on your input, intended output, and where the result will be used. These examples describe common starting points rather than guarantees for every file or situation.'], bullets: focus.examples.length ? focus.examples : ['Complete a quick one-off task without installing a separate desktop utility.', 'Prepare an output for another application or workflow.', 'Check an intermediate result before continuing a larger project.'] },
+      { heading: 'Best practices and common mistakes', paragraphs: ['Keep a copy of important source material, use clear inputs, review settings before processing, and inspect the final output. Avoid the issues below when they apply to your task.'], bullets: [...profile.tips.slice(0, 3), ...focus.mistakes.slice(0, 3).map((item) => 'Avoid: ' + item)] },
+      { heading: 'Limitations and final checks', paragraphs: ['Results depend on input quality, the options available in this tool, and the capabilities of your browser and device. For important work, verify the output independently and keep the original until you know the result is correct.'], bullets: profile.limitations.slice(0, 4) },
+    ],
     visual: profile.visual,
   };
 }
