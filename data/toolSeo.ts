@@ -3,6 +3,7 @@ import { GENERATED_LOCALIZED_TOOL_SEO } from './generatedLocalizedToolSeo';
 import { getTimeTableSeoContent } from './timeTableSeo';
 import { getFestivalSeoContent } from './festivalSeo';
 import { getFestivalLocalizedSeoContent } from './festivalLocalizedSeo';
+import { getMergePdfLocalizedSeoContent } from './mergePdfLocalizedGuide';
 
 export type ToolFaq = { q: string; a: string };
 export type ToolSeoArticleSection = { heading: string; paragraphs: string[]; bullets?: string[] };
@@ -610,6 +611,10 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
 export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): ToolSeoContent {
   if (tool.category === 'Time Table') return withStructuredGuide(tool, getTimeTableSeoContent(tool, locale), locale);
   if (tool.category === 'Festival') return withStructuredGuide(tool, getFestivalLocalizedSeoContent(locale, tool.slug) || getFestivalSeoContent(tool), locale);
+  if (tool.slug === 'merge-pdf' && locale !== 'en') {
+    const localizedMergeGuide = getMergePdfLocalizedSeoContent(tool, locale);
+    if (localizedMergeGuide) return localizedMergeGuide;
+  }
   const base = getToolSeoContent(tool);
   if (locale === 'en') return base;
 
