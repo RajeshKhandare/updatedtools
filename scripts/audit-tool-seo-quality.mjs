@@ -10,10 +10,17 @@ const generatedSource = fs.readFileSync('data/generatedLocalizedToolSeo.ts', 'ut
 const mergeGuide = fs.readFileSync('data/mergePdfLocalizedGuide.ts', 'utf8');
 
 const localeBlock = localeSource.split('export const LOCALES')[1]?.split('];')[0] ?? '';
-const locales = [...localeBlock.matchAll(/code:'([^']+)'/g)].map((match) => match[1]);
-const entries = [...registry.matchAll(/\{\s*name:\s*'([^']+)'\s*,\s*slug:\s*'([^']+)'\s*,\s*category:\s*'([^']+)'\s*,\s*description:\s*'([^']*)'\s*,\s*targetKeyword:\s*'([^']+)'\s*,?\s*\}/g)]
-  .map(([, name, slug, category, description, keyword]) => ({ name, slug, category, description, keyword }))
-  .filter((tool) => tool.category !== 'Festival');
+const locales = [...localeBlock.matchAll(/code\\s*:\\s*'([^']+)'/g)].map((match) => match[1]);
+const entries = [...registry.matchAll(/\\{\\s*name\\s*:\\s*'([^']+)'[\\s\\S]*?\\}/g)]
+  .map(([block, name]) => {
+    const slug = block.match(/\\bslug\\s*:\\s*'([^']+)'/)?.[1];
+    const category = block.match(/\\bcategory\\s*:\\s*'([^']+)'/)?.[1];
+    const description = block.match(/\\bdescription\\s*:\\s*'((?:\\\\'|[^'])*)'/)?.[1]?.replace(/\\\\'/g, "'");
+    const keyword = block.match(/\\btargetKeyword\\s*:\\s*'([^']+)'/)?.[1];
+    return { name, slug, category, description, keyword };
+  })
+  .filter((tool) => tool.category && tool.category !== 'Festival' && tool.slug);
+
 
 const errors = [];
 const warnings = [];
