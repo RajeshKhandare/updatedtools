@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/copy-sql-wasm.mjs && npm run verify:tool-seo-quality && npm run verify:international-seo && npm run verify:festival-seo && next build && node scripts/write-build-version.mjs",
+    "build": "node scripts/copy-sql-wasm.mjs && npm run verify:tool-seo-quality && npm run verify:international-seo && next build && npm run verify:festival-seo && node scripts/write-build-version.mjs",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "node scripts/copy-sql-wasm.mjs",
