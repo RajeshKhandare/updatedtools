@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const keyword = tool.targetKeyword || tool.name;
   const title = isMergePdf
     ? 'Merge PDF Files Online Free – Combine PDFs in Order | Toolployee'
-    : `${keyword.replace(/\\s+online$/i, '')} Online | Toolployee`;
+    : `${keyword.replace(/\s+online$/i, '')} Online | Toolployee`;
   const rawDescription = isMergePdf
     ? 'Merge multiple PDF files into one document online for free. Arrange files in the right order, combine reports or scanned pages, and download one PDF.'
     : `${tool.description} Use this free online ${keyword.toLowerCase()} tool to complete the task and review your result.`;
