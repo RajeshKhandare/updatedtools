@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     : `${keyword} Online | Toolployee`;
   const rawDescription = isMergePdf
     ? 'Merge multiple PDF files into one document online for free. Arrange files in the right order, combine reports or scanned pages, and download one PDF.'
-    : seo.heroIntro || seo.intro || tool.description;
+    : `${tool.description} Use this free online ${keyword.toLowerCase()} tool to complete the task and review your result.`;
   const description = rawDescription.length > 158 ? `${rawDescription.slice(0, 155).trimEnd()}…` : rawDescription;
   const languages = tool.category === 'Festival'
     ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi')
