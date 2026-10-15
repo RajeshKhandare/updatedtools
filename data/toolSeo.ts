@@ -577,5 +577,14 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   // fields for every supported locale. If generation has not completed yet,
   // the canonical English content is retained rather than showing unrelated
   // generic/category filler.
-  return GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug] || base;
+  const localized = GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug] || base;
+
+  // Keep the Merge PDF long-form guide available on every localized route,
+  // even when the generated translation dataset does not yet contain articleSections.
+  // Other tools continue to use their existing localized content unchanged.
+  if (tool.slug === 'merge-pdf' && !localized.articleSections?.length && base.articleSections?.length) {
+    return { ...localized, articleSections: base.articleSections };
+  }
+
+  return localized;
 }
