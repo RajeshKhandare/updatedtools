@@ -614,12 +614,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   if (locale === 'en') return base;
 
   const generated = GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug];
-  if (generated) {
-    if (tool.slug === 'merge-pdf' && !generated.articleSections?.length && base.articleSections?.length) {
-      return { ...generated, articleSections: base.articleSections };
-    }
-    return generated;
-  }
+  if (generated) return withStructuredGuide(tool, generated, locale);
 
   const localName = getLocalizedToolName(tool, locale);
   const categoryCopy = LOCALIZED_SEO[locale]?.[tool.category] || LOCALIZED_GENERIC[locale];
