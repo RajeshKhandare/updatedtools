@@ -284,8 +284,8 @@ const getToolFocus = (tool: ToolMeta): { focus: string; examples: string[]; mist
 };
 
 export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
-  if (tool.category === 'Time Table') return getTimeTableSeoContent(tool, 'en');
-  if (tool.category === 'Festival') return getFestivalSeoContent(tool);
+  if (tool.category === 'Time Table') return withStructuredGuide(tool, getTimeTableSeoContent(tool, 'en'), 'en');
+  if (tool.category === 'Festival') return withStructuredGuide(tool, getFestivalSeoContent(tool), 'en');
   if (tool.slug === 'merge-pdf') {
     return {
       heroIntro: 'Merge PDF files online into one organized document. Combine reports, scanned pages, invoices, forms, certificates, and other PDFs in the order you choose.',
@@ -586,9 +586,30 @@ const LOCALIZED_GUIDE_HEADINGS: Record<Exclude<LocaleCode, 'en'>, { what: string
   hi: { what: 'यह टूल क्या करता है', uses: 'इस्तेमाल के सामान्य तरीके', practices: 'बेहतर तरीके और आम गलतियाँ', limits: 'सीमाएँ और अंतिम जाँच' },
 };
 
+function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: LocaleCode): ToolSeoContent {
+  if (seo.articleSections?.length) return seo;
+  const isEnglish = locale === 'en';
+  const headings = isEnglish
+    ? { what: 'What ' + tool.name + ' does', uses: 'Common ways to use ' + tool.name, practices: 'Best practices and common mistakes', limits: 'Limitations and final checks' }
+    : LOCALIZED_GUIDE_HEADINGS[locale];
+  const intro = seo.heroIntro || seo.intro || tool.description;
+  const examples = seo.useCases || [];
+  const tips = seo.tips || [];
+  const limits = seo.limitations || [];
+  return {
+    ...seo,
+    articleSections: [
+      { heading: headings.what, paragraphs: [intro, seo.why || intro] },
+      { heading: headings.uses, paragraphs: [isEnglish ? 'Choose the workflow that matches your input and intended output. Examples are common starting points; review the result for your specific task.' : examples.join(' ')], bullets: examples },
+      { heading: headings.practices, paragraphs: [isEnglish ? 'Use clear inputs, review settings before processing, and inspect the output before relying on it.' : tips.join(' ')], bullets: tips },
+      { heading: headings.limits, paragraphs: [isEnglish ? 'Results depend on input quality, tool capabilities, and the browser or device. Keep the original and independently verify important outputs.' : limits.join(' ')], bullets: limits },
+    ],
+  };
+}
+
 export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): ToolSeoContent {
-  if (tool.category === 'Time Table') return getTimeTableSeoContent(tool, locale);
-  if (tool.category === 'Festival') return getFestivalLocalizedSeoContent(locale, tool.slug) || getFestivalSeoContent(tool);
+  if (tool.category === 'Time Table') return withStructuredGuide(tool, getTimeTableSeoContent(tool, locale), locale);
+  if (tool.category === 'Festival') return withStructuredGuide(tool, getFestivalLocalizedSeoContent(locale, tool.slug) || getFestivalSeoContent(tool), locale);
   const base = getToolSeoContent(tool);
   if (locale === 'en') return base;
 
