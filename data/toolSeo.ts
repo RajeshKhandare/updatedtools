@@ -572,25 +572,59 @@ const LOCALIZED_FAQ_COMMON: Record<Exclude<LocaleCode,'en'>, ToolFaq[]> = {
   hi:[{q:'क्या यह टूल मुफ्त है?',a:'हाँ। इसे paid account के बिना इस्तेमाल किया जा सकता है। Practical limits browser, device, input size या external runtime पर निर्भर हो सकती हैं।'},{q:'क्या इसे मोबाइल पर इस्तेमाल कर सकते हैं?',a:'हाँ। पेज आधुनिक browsers के लिए responsive है, लेकिन बड़ी files और heavy operations device पर निर्भर करते हैं।'},{q:'क्या कोई app install करना जरूरी है?',a:'मुख्य browser workflow के लिए नहीं। कुछ tools external execution runtime का उपयोग कर सकते हैं।'},{q:'परिणाम इस्तेमाल करने से पहले क्या जाँचें?',a:'परिणाम को original input से मिलाएँ और publish, send या production में इस्तेमाल करने से पहले महत्वपूर्ण details verify करें।'}]
 };
 
+const LOCALIZED_GUIDE_HEADINGS: Record<Exclude<LocaleCode, 'en'>, { what: string; uses: string; practices: string; limits: string }> = {
+  pt: { what: 'O que esta ferramenta faz', uses: 'Formas comuns de utilizar', practices: 'Boas práticas e erros comuns', limits: 'Limitações e verificações finais' },
+  es: { what: 'Qué hace esta herramienta', uses: 'Formas habituales de utilizarla', practices: 'Buenas prácticas y errores comunes', limits: 'Limitaciones y comprobaciones finales' },
+  de: { what: 'Was dieses Tool macht', uses: 'Häufige Anwendungsmöglichkeiten', practices: 'Bewährte Vorgehensweisen und häufige Fehler', limits: 'Einschränkungen und abschließende Prüfungen' },
+  fr: { what: 'Fonctionnement de cet outil', uses: 'Utilisations courantes', practices: 'Bonnes pratiques et erreurs fréquentes', limits: 'Limites et vérifications finales' },
+  it: { what: 'Cosa fa questo strumento', uses: 'Usi comuni', practices: 'Buone pratiche ed errori comuni', limits: 'Limiti e controlli finali' },
+  ja: { what: 'このツールでできること', uses: '一般的な使用方法', practices: '推奨事項とよくある間違い', limits: '制限事項と最終確認' },
+  ko: { what: '이 도구의 기능', uses: '일반적인 사용 방법', practices: '권장 사항과 흔한 실수', limits: '제한 사항 및 최종 확인' },
+  zh: { what: '此工具的功能', uses: '常见使用方式', practices: '最佳实践与常见错误', limits: '限制与最终检查' },
+  ru: { what: 'Что делает этот инструмент', uses: 'Распространённые способы использования', practices: 'Рекомендации и частые ошибки', limits: 'Ограничения и итоговая проверка' },
+  ar: { what: 'وظيفة هذه الأداة', uses: 'طرق الاستخدام الشائعة', practices: 'أفضل الممارسات والأخطاء الشائعة', limits: 'القيود والفحوصات النهائية' },
+  hi: { what: 'यह टूल क्या करता है', uses: 'इस्तेमाल के सामान्य तरीके', practices: 'बेहतर तरीके और आम गलतियाँ', limits: 'सीमाएँ और अंतिम जाँच' },
+};
+
 export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): ToolSeoContent {
   if (tool.category === 'Time Table') return getTimeTableSeoContent(tool, locale);
   if (tool.category === 'Festival') return getFestivalLocalizedSeoContent(locale, tool.slug) || getFestivalSeoContent(tool);
   const base = getToolSeoContent(tool);
   if (locale === 'en') return base;
 
-  // Every localized page uses the same canonical English source fields.
-  // The generated static dataset contains a translation of each of those
-  // fields for every supported locale. If generation has not completed yet,
-  // the canonical English content is retained rather than showing unrelated
-  // generic/category filler.
-  const localized = GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug] || base;
-
-  // Keep the Merge PDF long-form guide available on every localized route,
-  // even when the generated translation dataset does not yet contain articleSections.
-  // Other tools continue to use their existing localized content unchanged.
-  if (tool.slug === 'merge-pdf' && !localized.articleSections?.length && base.articleSections?.length) {
-    return { ...localized, articleSections: base.articleSections };
+  const generated = GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug];
+  if (generated) {
+    if (tool.slug === 'merge-pdf' && !generated.articleSections?.length && base.articleSections?.length) {
+      return { ...generated, articleSections: base.articleSections };
+    }
+    return generated;
   }
 
-  return localized;
+  const localName = getLocalizedToolName(tool, locale);
+  const categoryCopy = LOCALIZED_SEO[locale]?.[tool.category] || LOCALIZED_GENERIC[locale];
+  const labels = LOCALIZED_GUIDE_HEADINGS[locale];
+  const faqPairs: ToolFaq[] = [];
+  for (let index = 0; index + 1 < categoryCopy.faq.length; index += 2) {
+    faqPairs.push({ q: categoryCopy.faq[index], a: categoryCopy.faq[index + 1] });
+  }
+  const localizedFaq = [...LOCALIZED_FAQ_COMMON[locale], ...faqPairs].slice(0, 8);
+  const localIntro = localName + ': ' + categoryCopy.why;
+
+  return {
+    heroIntro: localIntro,
+    intro: localIntro + ' ' + categoryCopy.useCases.join(' '),
+    why: categoryCopy.why,
+    steps: categoryCopy.steps,
+    useCases: categoryCopy.useCases,
+    tips: categoryCopy.tips,
+    limitations: categoryCopy.limitations,
+    faq: localizedFaq,
+    visual: base.visual,
+    articleSections: [
+      { heading: labels.what, paragraphs: [localIntro, categoryCopy.why] },
+      { heading: labels.uses, paragraphs: [categoryCopy.useCases.join(' ')], bullets: categoryCopy.useCases },
+      { heading: labels.practices, paragraphs: [categoryCopy.tips.join(' ')], bullets: categoryCopy.tips },
+      { heading: labels.limits, paragraphs: [categoryCopy.limitations.join(' ')], bullets: categoryCopy.limitations },
+    ],
+  };
 }
