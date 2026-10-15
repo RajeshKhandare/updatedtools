@@ -5,7 +5,9 @@ import { getFestivalSeoContent } from './festivalSeo';
 import { getFestivalLocalizedSeoContent } from './festivalLocalizedSeo';
 
 export type ToolFaq = { q: string; a: string };
+export type ToolSeoArticleSection = { heading: string; paragraphs: string[]; bullets?: string[] };
 export type ToolSeoContent = {
+  articleSections?: ToolSeoArticleSection[];
   /** Short hero description matching the English tool page's tool.description. */
   heroIntro?: string;
   intro: string;
@@ -353,6 +355,118 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         { q: 'Is it safe to merge confidential PDF documents online?', a: 'Only process files you are authorized to handle and review the service’s privacy and file-handling information before using sensitive documents. For highly confidential or regulated material, follow your organization’s approved document-processing policy.' },
         { q: 'What should I do if the merged PDF will not open?', a: 'Download the file again, confirm that the download completed, and try opening it in an up-to-date PDF reader. If it still fails, test the source PDFs individually and retry with valid, uncorrupted files. Very large or unusually structured documents may require another compatible PDF application.' },
         { q: 'How can I check that every page was included after merging?', a: 'Compare the output page count with the expected total, inspect the start and end of each source document, and check any critical pages individually. For important submissions, verify the complete combined PDF before uploading it.' },
+      ],
+      articleSections: [
+        {
+          heading: 'What does it mean to merge PDF files?',
+          paragraphs: [
+            'Merging PDF files means combining pages from two or more existing PDF documents into one continuous PDF. The source documents remain separate files unless you choose to remove them yourself; the merged document is a new, convenient copy containing their pages in a sequence you choose. This is useful when information that belongs together has been saved, scanned, exported, or downloaded separately.',
+            'For example, a job applicant may have a resume, cover letter, and certificates saved as individual PDFs. A student may have an assignment, bibliography, and supporting pages. An office may receive invoices from different systems. A PDF merger brings the relevant material together so the recipient can review one organized document instead of opening multiple attachments.'
+          ],
+          bullets: [
+            'Merge PDF files into one document for sharing or submission.',
+            'Combine scanned PDFs while keeping their pages together.',
+            'Join reports, forms, receipts, invoices, certificates, or appendices.',
+            'Create a single reference copy without manually recreating each page.'
+          ]
+        },
+        {
+          heading: 'How to combine PDF files for a job application',
+          paragraphs: [
+            'When an employer asks for one PDF attachment, start by checking the application instructions. Some employers request a resume only, while others ask for a cover letter, education certificates, experience letters, or identification documents in a specific order. Do not include extra personal information that was not requested.',
+            'Prepare readable PDFs, arrange them in the required sequence, and merge them into a single file. Open the finished document and confirm that every page is upright, legible, and included. Use a professional filename that is easy to identify, and check the portal’s maximum upload size before submitting.'
+          ],
+          bullets: [
+            'Follow the employer’s required document order rather than assuming one order fits every application.',
+            'Check that names, dates, certificate details, and scanned text are readable.',
+            'Keep the original files in case the employer later requests a separate document.',
+            'If the portal requires separate uploads, submit separate files instead of forcing them into one PDF.'
+          ]
+        },
+        {
+          heading: 'How to merge scanned PDF files and documents',
+          paragraphs: [
+            'Scanned documents are often saved as separate PDFs because pages were scanned in batches or on different occasions. A PDF merger can bring those files together in the intended sequence. Before combining them, rotate pages that are sideways if your workflow supports it, and check whether any page is missing, duplicated, cropped, or too faint to read.',
+            'A scanned PDF usually stores each page as an image. Joining scanned files does not automatically recognize the words inside those images. If you need to search for a name, copy text, or make the scan accessible to text-search workflows, use optical character recognition (OCR) as a separate step and review the recognized text for mistakes.'
+          ],
+          bullets: [
+            'Compare the page count with the number of pages you expect.',
+            'Check the first and last page of each scanned batch.',
+            'Use OCR separately when searchable text is required.',
+            'Retain high-quality source scans for official records.'
+          ]
+        },
+        {
+          heading: 'Merge PDF vs. compress, split, convert, or edit a PDF',
+          paragraphs: [
+            'Different PDF tasks solve different problems. Merge PDF combines multiple PDF documents into one. Compress PDF aims to reduce the file size of a PDF. Split PDF separates one document into multiple files or extracts selected pages. PDF conversion changes a document from one format to another, while editing changes content or page elements. Choosing the right operation helps avoid unnecessary quality loss or extra work.',
+            'If the merged document is too large for an email or upload portal, merging again will not necessarily help. Check the size limit first and consider a compression tool if appropriate. If only a few pages are needed, splitting or extracting pages may be a better fit than combining every source file.'
+          ],
+          bullets: [
+            'Use Merge PDF to join separate PDFs.',
+            'Use Compress PDF when the main goal is a smaller file.',
+            'Use Split PDF to separate pages or extract a section.',
+            'Use image-to-PDF conversion when your source files are JPG or PNG images.',
+            'Use OCR when scanned pages need searchable text.'
+          ]
+        },
+        {
+          heading: 'How to keep the merged PDF organized and easy to read',
+          paragraphs: [
+            'A useful merged PDF is not just a collection of pages; it should have a logical reading order. Put introductory material before the main content and supporting material after it when that matches the recipient’s expectations. For recurring business records, use a consistent sequence so files are easier to compare and retrieve later.',
+            'Mixed page sizes and orientations can be valid in one PDF, but they may look inconsistent when printed. Review portrait and landscape pages, check margins and cropping, and verify that charts, tables, stamps, and signatures remain readable. If the output is intended for printing, inspect the print preview as well as the on-screen document.'
+          ],
+          bullets: [
+            'Use a clear filename that identifies the document and date or project where appropriate.',
+            'Review the transitions between source files for missing or duplicated pages.',
+            'Check page orientation, page dimensions, and readability.',
+            'Keep a verified copy of the final file and retain originals according to your record-keeping needs.'
+          ]
+        },
+        {
+          heading: 'Troubleshooting common PDF merging problems',
+          paragraphs: [
+            'If a PDF does not merge, first confirm that the source file opens normally in a PDF reader and that its download is complete. A damaged file, access restrictions, encryption, unusual embedded content, or a very large document can interfere with processing. Try identifying the problematic source by testing files individually, then retry with valid files you are authorized to use.',
+            'If the merged file opens but looks wrong, inspect the page order, orientation, and page boundaries. If text in a scan cannot be selected, that may be expected because the source contains images rather than recognized text. If the output exceeds an upload limit, compression may be needed as a separate step. Always check the final PDF rather than relying solely on a successful download.'
+          ],
+          bullets: [
+            'File will not open: download it again and test the source PDF in a reader.',
+            'Wrong page order: arrange source files deliberately and review the output sequence.',
+            'Text is not searchable: consider OCR for scanned pages.',
+            'File is too large: check the destination limit and consider PDF compression.',
+            'Forms or signatures behave differently: verify the original and follow the relevant signing requirements.',
+            'Processing is slow: try fewer or smaller files and use a device with sufficient available memory.'
+          ]
+        },
+        {
+          heading: 'Privacy and document handling when merging PDFs',
+          paragraphs: [
+            'PDFs can contain sensitive information such as addresses, account details, signatures, employee records, or confidential business information. Before using any online document tool, consider whether you are authorized to process the files and review the service’s stated file-handling practices. Follow your employer’s or organization’s approved workflow for regulated or highly confidential documents.',
+            'Avoid sharing the merged file through public links or untrusted channels. Store it in an appropriate location, use access controls where needed, and keep only the copies required for your purpose. This is general document-handling guidance, not a guarantee about any particular service or a substitute for your organization’s security policy.'
+          ],
+          bullets: [
+            'Process only documents you are authorized to handle.',
+            'Review the service’s privacy and file-handling information before uploading sensitive material.',
+            'Use approved internal tools for confidential or regulated documents.',
+            'Check the recipient and destination before sending the combined PDF.'
+          ]
+        },
+        {
+          heading: 'Final checklist before you download or submit a merged PDF',
+          paragraphs: [
+            'Before sending or uploading the combined document, take a moment to verify it from beginning to end. A quick review can catch missing pages, incorrect ordering, unreadable scans, and file-size issues before they delay a submission. For important documents, compare the output with the source files and the receiving organization’s instructions.'
+          ],
+          bullets: [
+            'All required source PDFs are included.',
+            'Pages appear in the correct reading order.',
+            'No pages are missing, duplicated, upside down, or unexpectedly cropped.',
+            'Text, images, tables, and essential annotations are readable.',
+            'The file opens in a PDF reader and has the expected page count.',
+            'The file size and filename meet the destination requirements.',
+            'Original files are retained until the combined copy is verified.',
+            'Sensitive information is being shared only with the intended recipient.'
+          ]
+        }
       ],
       visual: 'workflow',
     };
