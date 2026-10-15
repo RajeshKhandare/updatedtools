@@ -27,7 +27,24 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
   if (tool.category === 'Festival' && locale.code !== 'hi') notFound();
 
   const ui = getLocalizedUi(locale.code);
-  const name = getLocalizedToolName(tool, locale.code);
+  const isMergePdf = tool.slug === 'merge-pdf';
+  const mergePdfCopy: Record<string, { title: string; description: string }> = {
+    pt: { title: 'Juntar ficheiros PDF online grátis', description: 'Combine vários ficheiros PDF num único documento pela ordem escolhida. Junte relatórios, páginas digitalizadas, faturas ou documentos de candidatura e reveja o PDF final antes de o descarregar.' },
+    es: { title: 'Unir archivos PDF online gratis', description: 'Combina varios archivos PDF en un solo documento en el orden que elijas. Une informes, páginas escaneadas, facturas o documentos de solicitud y revisa el PDF final antes de descargarlo.' },
+    de: { title: 'PDF-Dateien kostenlos online zusammenfügen', description: 'Füge mehrere PDF-Dateien in der gewünschten Reihenfolge zu einem Dokument zusammen. Kombiniere Berichte, Scans, Rechnungen oder Bewerbungsunterlagen und prüfe die fertige PDF-Datei vor dem Download.' },
+    fr: { title: 'Fusionner des fichiers PDF gratuitement en ligne', description: 'Regroupez plusieurs fichiers PDF en un seul document dans l’ordre souhaité. Assemblez des rapports, des pages numérisées, des factures ou des dossiers de candidature, puis vérifiez le PDF final avant de le télécharger.' },
+    it: { title: 'Unire file PDF online gratis', description: 'Unisci più file PDF in un unico documento nell’ordine che preferisci. Combina report, pagine scansionate, fatture o documenti per candidature e controlla il PDF finale prima di scaricarlo.' },
+    ja: { title: 'PDFファイルを無料でオンライン結合', description: '複数のPDFファイルを好きな順番で1つの文書にまとめます。レポート、スキャンしたページ、請求書、応募書類などを結合し、ダウンロード前に完成したPDFを確認できます。' },
+    ko: { title: 'PDF 파일 온라인 무료로 합치기', description: '여러 PDF 파일을 원하는 순서대로 하나의 문서로 합치세요. 보고서, 스캔 페이지, 청구서 또는 지원 서류를 결합한 뒤 다운로드 전에 완성된 PDF를 확인할 수 있습니다.' },
+    zh: { title: '免费在线合并 PDF 文件', description: '按所需顺序将多个 PDF 文件合并为一个文档。合并报告、扫描页面、发票或申请材料，并在下载前检查最终 PDF。' },
+    ru: { title: 'Бесплатно объединить PDF-файлы онлайн', description: 'Объедините несколько PDF-файлов в один документ в нужном порядке. Соединяйте отчёты, отсканированные страницы, счета или документы для заявлений и проверьте итоговый PDF перед скачиванием.' },
+    ar: { title: 'دمج ملفات PDF مجانًا عبر الإنترنت', description: 'اجمع عدة ملفات PDF في مستند واحد بالترتيب الذي تختاره. ادمج التقارير والصفحات الممسوحة ضوئيًا والفواتير أو مستندات التقديم، ثم راجع ملف PDF النهائي قبل تنزيله.' },
+    hi: { title: 'PDF फ़ाइलें ऑनलाइन मुफ़्त में मर्ज करें', description: 'कई PDF फ़ाइलों को अपनी पसंद के क्रम में एक दस्तावेज़ में जोड़ें। रिपोर्ट, स्कैन किए गए पेज, इनवॉइस या आवेदन के दस्तावेज़ मर्ज करें और डाउनलोड करने से पहले अंतिम PDF जाँचें।' },
+  };
+  const name = isMergePdf ? (mergePdfCopy[locale.code]?.title || 'Merge PDF Files Online Free') : getLocalizedToolName(tool, locale.code);
+  const pageDescription = isMergePdf
+    ? (mergePdfCopy[locale.code]?.description || getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro)
+    : getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro;
   const categoryLabel = getLocalizedCategoryLabel(tool.category, locale.code);
   const isFestival = tool.category === 'Festival';
 
@@ -61,7 +78,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
             </h1>
             {isFestival && <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700/80 dark:text-amber-300/80">{tool.slug === 'navratri-colors-2026' ? '🌸 Celebrate • Pray • Prepare' : '🪔 Celebrate • Light • Prepare • 🎆'}</p>}
             <p className="mt-3 text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7">
-              {getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro}
+              {pageDescription}
             </p>
           </div>
         </div>
