@@ -31,7 +31,7 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
   const pageTitle = isMergePdf ? 'Merge PDF Files Online Free' : (tool.targetKeyword || tool.name);
   const pageDescription = isMergePdf
     ? 'Combine multiple PDF files into one document in your chosen order. Merge reports, scanned pages, invoices, or application documents, then review and download your single PDF.'
-    : (seoContent.heroIntro || seoContent.intro || tool.description);
+    : `${tool.description} Use this free online ${(tool.targetKeyword || tool.name).toLowerCase()} tool, then review your result before using it.`;
 
   const companionTools = TOOLS_REGISTRY
     .filter((candidate) => candidate.category === tool.category && candidate.slug !== tool.slug)
