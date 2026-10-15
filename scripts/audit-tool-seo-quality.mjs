@@ -57,6 +57,27 @@ if (!/LOCALIZED_GENERIC/.test(seoSource) || !/GENERATED_LOCALIZED_TOOL_SEO\[loca
 const emptyLocaleMaps = [...seoSource.matchAll(/\b(es|de|fr|it|ja|ko|zh|ru|ar|hi):\s*\{\s*\}/g)].map((match) => match[1]);
 if (emptyLocaleMaps.length) warnings.push(`No category-specific translation overrides currently defined for: ${emptyLocaleMaps.join(', ')}. These locales use translated generic fallback for many tools.`);
 
+const localizedMapStart = seoSource.indexOf('const LOCALIZED_SEO');
+const localizedMapEnd = seoSource.indexOf('const LOCALIZED_GENERIC');
+const localizedMapSource = seoSource.slice(localizedMapStart, localizedMapEnd);
+const localizedMapHeaders = [...localizedMapSource.matchAll(/^  (pt|es|de|fr|it|ja|ko|zh|ru|ar|hi): \\{/gm)]
+  .map((match) => ({ locale: match[1], index: match.index }));
+const expectedCategories = ['PDF', 'Image', 'Compiler', 'Developer', 'Text', 'Converters', 'Finance', 'Calculators', 'YouTube'];
+const categoryCoverage = {};
+for (let index = 0; index < localizedMapHeaders.length; index += 1) {
+  const current = localizedMapHeaders[index];
+  const end = localizedMapHeaders[index + 1]?.index ?? localizedMapSource.length;
+  const localeText = localizedMapSource.slice(current.index, end);
+  const present = expectedCategories.filter((category) => new RegExp('\\\\b' + category + ':\\\\s*\\\\{').test(localeText));
+  categoryCoverage[current.locale] = present;
+  const missing = expectedCategories.filter((category) => !present.includes(category));
+  if (missing.length) warnings.push(`Category-specific localized guide coverage incomplete for ${current.locale}: missing ${missing.join(', ')}`);
+}
+const expectedLocalizedMapLocales = ['pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar', 'hi'];
+for (const locale of expectedLocalizedMapLocales) {
+  if (!categoryCoverage[locale]) warnings.push(`No category-specific localized guide map found for ${locale}; pages may use generic localized fallback.`);
+}
+
 const generatedEntries = (generatedSource.match(/\b(?:merge-pdf|[a-z0-9]+(?:-[a-z0-9]+)*)\s*:/g) || []).length;
 if (generatedEntries < 10) warnings.push('Per-tool localized override dataset is small; localized pages rely on category-specific guides where available and generic localized fallback elsewhere.');
 const localizedMergeLocales = [...mergeGuide.matchAll(/^\s{2}(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi):\s*\{/gm)].map((match) => match[1]);
