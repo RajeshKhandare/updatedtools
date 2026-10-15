@@ -60,7 +60,7 @@ if (emptyLocaleMaps.length) warnings.push(`No category-specific translation over
 const localizedMapStart = seoSource.indexOf('const LOCALIZED_SEO');
 const localizedMapEnd = seoSource.indexOf('const LOCALIZED_GENERIC');
 const localizedMapSource = seoSource.slice(localizedMapStart, localizedMapEnd);
-const localizedMapHeaders = [...localizedMapSource.matchAll(/^  (pt|es|de|fr|it|ja|ko|zh|ru|ar|hi): \\{/gm)]
+const localizedMapHeaders = [...localizedMapSource.matchAll(/^  (pt|es|de|fr|it|ja|ko|zh|ru|ar|hi): \{/gm)]
   .map((match) => ({ locale: match[1], index: match.index }));
 const expectedCategories = ['PDF', 'Image', 'Compiler', 'Developer', 'Text', 'Converters', 'Finance', 'Calculators', 'YouTube'];
 const categoryCoverage = {};
@@ -68,7 +68,7 @@ for (let index = 0; index < localizedMapHeaders.length; index += 1) {
   const current = localizedMapHeaders[index];
   const end = localizedMapHeaders[index + 1]?.index ?? localizedMapSource.length;
   const localeText = localizedMapSource.slice(current.index, end);
-  const present = expectedCategories.filter((category) => new RegExp('\\\\b' + category + ':\\\\s*\\\\{').test(localeText));
+  const present = expectedCategories.filter((category) => new RegExp('\\b' + category + ':\\s*\\{').test(localeText));
   categoryCoverage[current.locale] = present;
   const missing = expectedCategories.filter((category) => !present.includes(category));
   if (missing.length) warnings.push(`Category-specific localized guide coverage incomplete for ${current.locale}: missing ${missing.join(', ')}`);
