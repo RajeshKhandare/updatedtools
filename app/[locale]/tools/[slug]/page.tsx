@@ -62,10 +62,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 
   const seo = getLocalizedToolSeoContent(tool, locale.code);
+  const localizedName = getLocalizedToolName(tool, locale.code);
+  const rawDescription = seo.heroIntro || seo.intro || tool.description;
+  const description = rawDescription.length > 158 ? `${rawDescription.slice(0, 155).trimEnd()}…` : rawDescription;
+  const title = `${localizedName} | Toolployee`;
   return {
-    title: getLocalizedToolName(tool, locale.code),
-    description: seo.heroIntro || seo.intro || tool.description,
+    title,
+    description,
     alternates: { canonical: localizedToolPath(locale.code, tool.slug) },
+    openGraph: {
+      title,
+      description,
+      url: localizedToolPath(locale.code, tool.slug),
+      siteName: 'Toolployee',
+      type: 'website',
+      locale: locale.hreflang,
+    },
+    twitter: { card: 'summary_large_image', title, description },
+    robots: { index: true, follow: true },
   };
 }
 
