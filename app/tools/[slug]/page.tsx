@@ -19,10 +19,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!tool) return { title: 'Tool Not Found', robots: { index: false, follow: false } };
   const seo = getToolSeoContent(tool);
   const isMergePdf = tool.slug === 'merge-pdf';
-  const title = isMergePdf ? 'Merge PDF Files Online Free – Combine PDFs in Order | Toolployee' : tool.name;
-  const description = isMergePdf
+  const keyword = tool.targetKeyword || tool.name;
+  const title = isMergePdf
+    ? 'Merge PDF Files Online Free – Combine PDFs in Order | Toolployee'
+    : `${keyword} Online | Toolployee`;
+  const rawDescription = isMergePdf
     ? 'Merge multiple PDF files into one document online for free. Arrange files in the right order, combine reports or scanned pages, and download one PDF.'
     : seo.heroIntro || seo.intro || tool.description;
+  const description = rawDescription.length > 158 ? `${rawDescription.slice(0, 155).trimEnd()}…` : rawDescription;
   const languages = tool.category === 'Festival'
     ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi')
     : LOCALES;
