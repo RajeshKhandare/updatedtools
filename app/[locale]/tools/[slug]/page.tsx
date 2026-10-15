@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description,
-    alternates: { canonical: localizedToolPath(locale.code, tool.slug) },
+    alternates: { canonical: SITE_URL + localizedToolPath(locale.code, tool.slug), languages: languageAlternates },
     openGraph: {
       title,
       description,
