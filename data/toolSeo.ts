@@ -284,6 +284,52 @@ const getToolFocus = (tool: ToolMeta): { focus: string; examples: string[]; mist
 export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
   if (tool.category === 'Time Table') return getTimeTableSeoContent(tool, 'en');
   if (tool.category === 'Festival') return getFestivalSeoContent(tool);
+  if (tool.slug === 'merge-pdf') {
+    return {
+      heroIntro: 'Merge PDF files online to combine reports, scanned pages, invoices, forms, or certificates into one document in the order you choose.',
+      intro: 'Use this online PDF merger to combine multiple PDF files into one organized document without manually copying pages between files. It is useful when a submission needs a resume and certificates together, when invoices belong in one archive, or when several scanned sections should be shared as a single file. Add the PDFs, arrange their order, merge them, and review the result before downloading. The best order depends on the person or system receiving the document, so check the page sequence rather than relying only on the order files were selected.',
+      why: 'Combining PDFs keeps related pages together, reduces the number of attachments you need to send, and makes documents easier to store or upload. A merge generally joins existing PDF pages instead of converting every page into an image, which helps preserve searchable text and vector content. The exact result can still depend on the source files, including encryption, forms, annotations, embedded media, and unusual document structures.',
+      steps: [
+        'Choose every PDF you want to combine. Keep the original files available until you have checked the merged document.',
+        'Arrange the files in the required reading order—for example, cover page, main report, appendices, then supporting certificates.',
+        'Start the merge and wait for processing to finish. Large or complex files may take longer depending on your device and browser memory.',
+        'Download and open the combined PDF. Check the first and last pages, page order, orientation, text, and any important forms before sharing or submitting it.',
+      ],
+      useCases: [
+        'Combine a resume, cover letter, and certificates into one PDF for a job application.',
+        'Merge invoices, receipts, or statements into one file for bookkeeping or record keeping.',
+        'Join scanned pages or chapters into a single report that is easier to email or archive.',
+        'Combine signed forms and supporting documents before uploading them to a portal.',
+        'Organize research papers, meeting notes, or project appendices into a single reading copy.',
+        'Prepare one ordered PDF from separate files without retyping or recreating their content.',
+      ],
+      tips: [
+        'Name files clearly before selecting them, then confirm the final sequence in the merged PDF.',
+        'Keep a separate copy of the originals, especially when the documents are legal, financial, academic, or work-related.',
+        'Open the output in a PDF reader and check page count, orientation, searchable text, and page boundaries.',
+        'If the output is unexpectedly large, inspect the source files first; merging alone does not necessarily compress images already inside them.',
+        'Avoid uploading confidential documents to any online service unless you understand how that service processes and handles files.',
+      ],
+      limitations: [
+        'Different source PDFs can contain mixed page sizes, orientations, forms, bookmarks, annotations, or encryption; not every special feature is guaranteed to behave identically after merging.',
+        'A merge is not the same as PDF compression, editing, OCR, or password removal. Use the relevant workflow for those separate tasks.',
+        'Very large files can run into browser memory or device-performance limits.',
+        'Always inspect the exported file before using it as an official submission or permanent record.',
+      ],
+      faq: [
+        { q: 'How do I merge multiple PDF files into one document?', a: 'Select the PDF files, arrange them in the order they should appear, run the merge, and open the downloaded file to verify the page sequence. Keep the original files until the combined PDF has been checked.' },
+        { q: 'Can I combine PDF files in a specific order?', a: 'Yes. Arrange the source files before merging. For a submission, a practical order is often cover page, main document, then supporting material, but follow the receiving organization’s instructions.' },
+        { q: 'Will merging PDFs reduce their quality?', a: 'Merging normally combines PDF pages rather than rasterizing every page, so text and vector content can remain intact. Source-file features and the particular PDF structure can affect the result, so inspect the output.' },
+        { q: 'Can I merge scanned PDFs?', a: 'Yes, scanned PDFs can generally be combined as pages. The merge does not automatically make scanned text searchable; that requires OCR when text recognition is needed.' },
+        { q: 'Does merging PDFs also compress the file?', a: 'Not necessarily. A merged file may be larger because it contains the pages and embedded resources from all source files. Use a PDF compression workflow if reducing file size is your goal.' },
+        { q: 'Can I merge PDF files on a phone?', a: 'You can use the tool in a modern mobile browser, but processing large files depends on available memory, storage, and device performance. For very large documents, a desktop browser may be more reliable.' },
+        { q: 'Why might a merged PDF look different from the source files?', a: 'PDFs can include forms, annotations, bookmarks, encryption, or unusual embedded content. Open the merged result and check important pages and features before sending it to someone else.' },
+        { q: 'Should I delete the original PDFs after merging?', a: 'No—not until you have verified the combined file and are sure you no longer need the separate originals. Keeping originals is especially important for official or sensitive records.' },
+      ],
+      visual: 'workflow',
+    };
+  }
+
   const detail = financeDetails[tool.slug];
   const focus = getToolFocus(tool);
   if (detail) {
