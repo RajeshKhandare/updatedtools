@@ -81,7 +81,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
 
   const name = isMergePdf ? (MERGE_PDF_LOCALIZED_COPY[locale.code]?.title || 'Merge PDF Files Online Free') : getLocalizedToolName(tool, locale.code);
   const pageDescription = isMergePdf
-    ? (mergePdfCopy[locale.code]?.description || getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro)
+    ? (MERGE_PDF_LOCALIZED_COPY[locale.code]?.description || getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro)
     : getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro;
   const categoryLabel = getLocalizedCategoryLabel(tool.category, locale.code);
   const isFestival = tool.category === 'Festival';
