@@ -25,6 +25,11 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
   }, [tool.slug, tool.name, tool.category]);
 
   const isFestival = tool.category === 'Festival';
+  const isMergePdf = tool.slug === 'merge-pdf';
+  const pageTitle = isMergePdf ? 'Merge PDF Files Online Free' : tool.name;
+  const pageDescription = isMergePdf
+    ? 'Combine multiple PDF files into one document in your chosen order. Merge reports, scanned pages, invoices, or application documents, then review and download your single PDF.'
+    : tool.description;
 
   const companionTools = TOOLS_REGISTRY
     .filter((candidate) => candidate.category === tool.category && candidate.slug !== tool.slug)
@@ -61,11 +66,11 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
               {isFestival ? '🪔 Festival Tool' : `${tool.category} Tool`}
             </div>
             <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black tracking-[-0.03em] text-zinc-950 dark:text-white">
-              {tool.name}
+              {pageTitle}
             </h1>
             {isFestival && <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700/80 dark:text-amber-300/80">{tool.slug === 'navratri-colors-2026' ? '🌸 Celebrate • Pray • Prepare' : '🪔 Celebrate • Light • Prepare • 🎆'}</p>}
             <p className={`${isFestival ? 'mt-2' : 'mt-3'} text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7`}>
-              {tool.description}
+              {pageDescription}
             </p>
           </div>
         </div>
