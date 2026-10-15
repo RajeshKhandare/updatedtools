@@ -58,7 +58,7 @@ const emptyLocaleMaps = [...seoSource.matchAll(/\b(es|de|fr|it|ja|ko|zh|ru|ar|hi
 if (emptyLocaleMaps.length) warnings.push(`No category-specific translation overrides currently defined for: ${emptyLocaleMaps.join(', ')}. These locales use translated generic fallback for many tools.`);
 
 const generatedEntries = (generatedSource.match(/\b(?:merge-pdf|[a-z0-9]+(?:-[a-z0-9]+)*)\s*:/g) || []).length;
-if (generatedEntries < 10) warnings.push('Generated localized SEO dataset is empty or very small; most tools use fallback copy.');
+if (generatedEntries < 10) warnings.push('Per-tool localized override dataset is small; localized pages rely on category-specific guides where available and generic localized fallback elsewhere.');
 const localizedMergeLocales = [...mergeGuide.matchAll(/^\s{2}(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi):\s*\{/gm)].map((match) => match[1]);
 if (localizedMergeLocales.length !== 11) errors.push(`Merge PDF guide should have 11 non-English translations; found ${localizedMergeLocales.length}`);
 
