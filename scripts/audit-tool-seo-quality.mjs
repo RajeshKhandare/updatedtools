@@ -71,11 +71,11 @@ for (let index = 0; index < localizedMapHeaders.length; index += 1) {
   const present = expectedCategories.filter((category) => new RegExp('\\b' + category + ':\\s*\\{').test(localeText));
   categoryCoverage[current.locale] = present;
   const missing = expectedCategories.filter((category) => !present.includes(category));
-  if (missing.length) warnings.push(`Category-specific localized guide coverage incomplete for ${current.locale}: missing ${missing.join(', ')}`);
+  if (missing.length) errors.push(`Category-specific localized guide coverage incomplete for ${current.locale}: missing ${missing.join(', ')}`);
 }
 const expectedLocalizedMapLocales = ['pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar', 'hi'];
 for (const locale of expectedLocalizedMapLocales) {
-  if (!categoryCoverage[locale]) warnings.push(`No category-specific localized guide map found for ${locale}; pages may use generic localized fallback.`);
+  if (!categoryCoverage[locale]) errors.push(`No category-specific localized guide map found for ${locale}; localized category coverage is required.`);
 }
 
 const generatedEntries = (generatedSource.match(/\b(?:merge-pdf|[a-z0-9]+(?:-[a-z0-9]+)*)\s*:/g) || []).length;
@@ -89,7 +89,7 @@ const genericSignals = [
   'The right workflow depends on your input',
 ];
 for (const signal of genericSignals) {
-  if (seoSource.includes(signal)) warnings.push(`Generic/repeated copy detected in SEO source: "${signal}"`);
+  if (seoSource.includes(signal)) errors.push(`Generic/repeated copy detected in SEO source: "${signal}"`);
 }
 
 if (errors.length) {
