@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: read
+  issues: read
 
 jobs:
   build:
@@ -37,6 +38,57 @@ jobs:
 
       - name: Verify festival SEO, hreflang and affiliate placement
         run: npm run verify:festival-seo
+
+      - name: Wait for the matching Cloudflare preview deployment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const expected = context.sha.slice(0, 7);
+            const deadline = Date.now() + 15 * 60 * 1000;
+            while (Date.now() < deadline) {
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: 23,
+                per_page: 100,
+              });
+              const previewComment = comments
+                .filter((comment) => (comment.body || '').includes('Preview URL'))
+                .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())[0];
+              const body = previewComment?.body || '';
+              const rows = [...body.matchAll(/<tr>([\\s\\S]*?)<\\/tr>/g)].map((match) => match[1]);
+              const row = rows.find((candidate) => candidate.includes('>' + expected + '<'));
+              if (row && row.includes('Build:</b> Success') && row.includes('Deployment:</b> Success')) {
+                core.info('Cloudflare preview build and deployment succeeded for ' + expected);
+                return;
+              }
+              if (row && row.includes('Build:</b> Failed')) {
+                core.setFailed('Cloudflare preview build failed for ' + expected);
+                return;
+              }
+              const lastSuccessful = rows.find((candidate) =>
+                candidate.includes('Build:</b> Success') && candidate.includes('Deployment:</b> Success'));
+              const deployedCommit = lastSuccessful?.match(/<td>([0-9a-f]{7})<\\/td>/)?.[1];
+              if (deployedCommit && deployedCommit !== expected) {
+                const comparison = await github.rest.repos.compareCommits({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  base: deployedCommit,
+                  head: context.sha,
+                });
+                const changedFiles = comparison.data.files || [];
+                const onlyTestOrWorkflowChanges = changedFiles.length > 0 && changedFiles.every((file) =>
+                  file.filename.startsWith('.github/workflows/') ||
+                  file.filename === 'scripts/localized-route-smoke.mjs');
+                if (onlyTestOrWorkflowChanges) {
+                  core.info('No application files changed since the successful Cloudflare preview ' + deployedCommit);
+                  return;
+                }
+              }
+              core.info('Waiting for Cloudflare preview deployment of ' + expected);
+              await new Promise((resolve) => setTimeout(resolve, 15000));
+            }
+            core.setFailed('Timed out waiting for Cloudflare preview deployment of ' + expected);
 
       - name: Smoke-test all 1,344 localized tool routes on Cloudflare
         env:
