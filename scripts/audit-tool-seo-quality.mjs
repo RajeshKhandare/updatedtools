@@ -79,11 +79,11 @@ for (const locale of expectedLocalizedMapLocales) {
   if (!categoryCoverage[locale]) errors.push(`No category-specific localized guide map found for ${locale}; localized category coverage is required.`);
 }
 
-const generatedEntries = (generatedSource.match(/\\b(?:merge-pdf|[a-z0-9]+(?:-[a-z0-9]+)*)\\s*:/g) || []).length;
+const generatedEntries = (generatedSource.match(/\b(?:merge-pdf|[a-z0-9]+(?:-[a-z0-9]+)*)\s*:/g) || []).length;
 const focusStart = seoSource.indexOf('const profiles: Record');
-const focusEnd = seoSource.indexOf('\\n  };', focusStart);
+const focusEnd = seoSource.indexOf('\n  };', focusStart);
 const explicitToolProfiles = focusStart >= 0 && focusEnd > focusStart
-  ? [...seoSource.slice(focusStart, focusEnd).matchAll(/^\\s{4}'([^']+)':\\s*\\{/gm)].map((match) => match[1])
+  ? [...seoSource.slice(focusStart, focusEnd).matchAll(/^\s{4}'([^']+)':\s*\\{/gm)].map((match) => match[1])
   : [];
 const regularTools = entries.filter((tool) => tool.category !== 'Time Table');
 const profileSlugs = new Set(explicitToolProfiles);
