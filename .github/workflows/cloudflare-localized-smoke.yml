@@ -23,7 +23,7 @@ jobs:
       - name: Checkout the commit being tested
         uses: actions/checkout@v5
         with:
-          ref: \${{ github.sha }}
+          ref: ${{ github.sha }}
 
       - uses: actions/setup-node@v5
         with:
@@ -71,5 +71,5 @@ jobs:
 
       - name: Test all 12 locales × 112 tools
         env:
-          SMOKE_BASE_URL: \${{ github.event.inputs.base_url || 'https://seo-merge-pdf-content-pilot-updatedtools.rajeshkhandare788.workers.dev' }}
+          SMOKE_BASE_URL: ${{ github.event.inputs.base_url || 'https://seo-merge-pdf-content-pilot-updatedtools.rajeshkhandare788.workers.dev' }}
         run: npm run verify:localized-routes
