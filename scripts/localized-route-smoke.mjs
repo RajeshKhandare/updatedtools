@@ -57,7 +57,10 @@ async function check(url, locale) {
       assert(title && title.length >= 8, url + ': missing or too-short <title>');
 
       const tags = [...html.matchAll(/<(?:meta|link)\b[^>]*>/gi)].map(([tag]) => tag);
-      const attribute = (tag, name) => tag.match(new RegExp('\\b' + name + '=["\\']([^"\\']*)["\\']', 'i'))?.[1];
+      const attribute = (tag, name) => {
+        const match = tag.match(new RegExp("\\b" + name + "=(?:\\"([^\\"]*)\\"|\'([^\']*)\')", "i"));
+        return match?.[1] ?? match?.[2];
+      };
       const descriptionTag = tags.find((tag) =>
         tag.startsWith('<meta') && (attribute(tag, 'name') || '').toLowerCase() === 'description');
       const description = descriptionTag ? attribute(descriptionTag, 'content') : '';
