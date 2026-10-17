@@ -662,12 +662,16 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     const localizedMergeGuide = getMergePdfLocalizedSeoContent(tool, locale);
     if (localizedMergeGuide) return localizedMergeGuide;
   }
+
   const base = getToolSeoContent(tool);
-  if (locale === 'en') return base;
+  if (locale === 'en') return withStructuredGuide(tool, base, locale);
 
   const generated = GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug];
   if (generated) return withStructuredGuide(tool, generated, locale);
 
+  // Complete, locale-native fallback guide for every catalog tool. It intentionally
+  // uses localized task/category copy rather than inserting English profile paragraphs.
+  // Merge PDF and any explicitly authored localized guide still take precedence above.
   const localName = getLocalizedToolName(tool, locale);
   const categoryCopy = LOCALIZED_SEO[locale]?.[tool.category] || LOCALIZED_GENERIC[locale];
   const labels = LOCALIZED_GUIDE_HEADINGS[locale];
@@ -676,41 +680,77 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     faqPairs.push({ q: categoryCopy.faq[index], a: categoryCopy.faq[index + 1] });
   }
   const localizedFaq = [...LOCALIZED_FAQ_COMMON[locale], ...faqPairs].slice(0, 5);
-  const localizedToolFaq: Record<Exclude<LocaleCode, 'en'>, { purpose: string; workflow: string; checks: string }> = {
-    pt: { purpose: 'Para que serve {tool}?', workflow: 'Como usar {tool}?', checks: 'O que devo verificar antes de usar o resultado de {tool}?' },
-    es: { purpose: '¿Para qué sirve {tool}?', workflow: '¿Cómo se usa {tool}?', checks: '¿Qué debo revisar antes de usar el resultado de {tool}?' },
-    de: { purpose: 'Wofür wird {tool} verwendet?', workflow: 'Wie verwende ich {tool}?', checks: 'Was sollte ich prüfen, bevor ich das Ergebnis von {tool} verwende?' },
-    fr: { purpose: 'À quoi sert {tool} ?', workflow: 'Comment utiliser {tool} ?', checks: 'Que faut-il vérifier avant d’utiliser le résultat de {tool} ?' },
-    it: { purpose: 'A cosa serve {tool}?', workflow: 'Come si usa {tool}?', checks: 'Cosa verificare prima di usare il risultato di {tool}?' },
-    ja: { purpose: '{tool}は何に使いますか？', workflow: '{tool}の使い方は？', checks: '{tool}の結果を使う前に何を確認すべきですか？' },
-    ko: { purpose: '{tool}은 무엇에 사용하나요?', workflow: '{tool}은 어떻게 사용하나요?', checks: '{tool}의 결과를 사용하기 전에 무엇을 확인해야 하나요?' },
-    zh: { purpose: '{tool}有什么用途？', workflow: '如何使用{tool}？', checks: '使用{tool}的结果前应检查什么？' },
-    ru: { purpose: 'Для чего нужен инструмент «{tool}»?', workflow: 'Как пользоваться инструментом «{tool}»?', checks: 'Что проверить перед использованием результата инструмента «{tool}»?' },
-    ar: { purpose: 'ما فائدة {tool}؟', workflow: 'كيف أستخدم {tool}؟', checks: 'ما الذي يجب التحقق منه قبل استخدام نتيجة {tool}؟' },
-    hi: { purpose: '{tool} का उपयोग किस लिए होता है?', workflow: '{tool} का उपयोग कैसे करें?', checks: '{tool} के परिणाम का उपयोग करने से पहले क्या जाँचें?' },
+  const localizedToolFaq: Record<Exclude<LocaleCode, 'en'>, { purpose: string; workflow: string; checks: string; limitations: string }> = {
+    pt: { purpose: 'Para que serve {tool}?', workflow: 'Como usar {tool} passo a passo?', checks: 'O que devo verificar antes de usar o resultado de {tool}?', limitations: 'Que limitações devo conhecer ao usar {tool}?' },
+    es: { purpose: '¿Para qué sirve {tool}?', workflow: '¿Cómo se usa {tool} paso a paso?', checks: '¿Qué debo revisar antes de utilizar el resultado de {tool}?', limitations: '¿Qué limitaciones debo conocer al usar {tool}?' },
+    de: { purpose: 'Wofür wird {tool} verwendet?', workflow: 'Wie verwende ich {tool} Schritt für Schritt?', checks: 'Was sollte ich vor der Verwendung des Ergebnisses von {tool} prüfen?', limitations: 'Welche Einschränkungen hat {tool}?' },
+    fr: { purpose: 'À quoi sert {tool} ?', workflow: 'Comment utiliser {tool} étape par étape ?', checks: 'Que faut-il vérifier avant d’utiliser le résultat de {tool} ?', limitations: 'Quelles sont les limites de {tool} ?' },
+    it: { purpose: 'A cosa serve {tool}?', workflow: 'Come si usa {tool} passo dopo passo?', checks: 'Cosa verificare prima di usare il risultato di {tool}?', limitations: 'Quali limiti bisogna conoscere per {tool}?' },
+    ja: { purpose: '{tool}は何に使いますか？', workflow: '{tool}の使い方を教えてください。', checks: '{tool}の結果を使う前に何を確認すべきですか？', limitations: '{tool}を使う際の制限は何ですか？' },
+    ko: { purpose: '{tool}은 무엇에 사용하나요?', workflow: '{tool}은 어떻게 사용하나요?', checks: '{tool}의 결과를 사용하기 전에 무엇을 확인해야 하나요?', limitations: '{tool} 사용 시 어떤 제한이 있나요?' },
+    zh: { purpose: '{tool}有什么用途？', workflow: '如何逐步使用{tool}？', checks: '使用{tool}的结果前应检查什么？', limitations: '使用{tool}有哪些限制？' },
+    ru: { purpose: 'Для чего нужен инструмент «{tool}»?', workflow: 'Как пользоваться инструментом «{tool}» по шагам?', checks: 'Что проверить перед использованием результата инструмента «{tool}»?', limitations: 'Какие ограничения есть у инструмента «{tool}»?' },
+    ar: { purpose: 'ما فائدة {tool}؟', workflow: 'كيف أستخدم {tool} خطوة بخطوة؟', checks: 'ما الذي يجب التحقق منه قبل استخدام نتيجة {tool}؟', limitations: 'ما القيود التي ينبغي معرفتها عند استخدام {tool}؟' },
+    hi: { purpose: '{tool} का उपयोग किस लिए होता है?', workflow: '{tool} का इस्तेमाल चरण-दर-चरण कैसे करें?', checks: '{tool} के परिणाम का उपयोग करने से पहले क्या जाँचें?', limitations: '{tool} की कौन-सी सीमाएँ ध्यान में रखनी चाहिए?' },
   };
   const toolFaq = localizedToolFaq[locale];
+  const replaceTool = (template: string) => template.replaceAll('{tool}', localName);
   const localIntro = localName + ': ' + categoryCopy.why;
+  const localSteps = [...categoryCopy.steps, ...categoryCopy.tips.slice(0, 2)];
+  const localUses = categoryCopy.useCases;
+  const localTips = categoryCopy.tips;
+  const localLimits = categoryCopy.limitations;
   const localizedSpecificFaq: ToolFaq[] = [
-    { q: toolFaq.purpose.replace('{tool}', localName), a: localIntro + ' ' + categoryCopy.useCases.slice(0, 2).join(' ') },
-    { q: toolFaq.workflow.replace('{tool}', localName), a: categoryCopy.steps.join(' ') },
-    { q: toolFaq.checks.replace('{tool}', localName), a: categoryCopy.tips.join(' ') + ' ' + categoryCopy.limitations[0] },
+    { q: replaceTool(toolFaq.purpose), a: localIntro + ' ' + localUses.slice(0, 2).join(' ') },
+    { q: replaceTool(toolFaq.workflow), a: localSteps.join(' ') },
+    { q: replaceTool(toolFaq.checks), a: localTips.join(' ') + ' ' + localLimits[0] },
+    { q: replaceTool(toolFaq.limitations), a: localLimits.join(' ') },
   ];
+  const faqs = [...localizedSpecificFaq, ...localizedFaq].slice(0, 8);
+
   return {
     heroIntro: localIntro,
-    intro: localIntro + ' ' + categoryCopy.useCases.join(' '),
+    intro: localIntro + ' ' + localUses.join(' '),
     why: categoryCopy.why,
-    steps: categoryCopy.steps,
-    useCases: categoryCopy.useCases,
-    tips: categoryCopy.tips,
-    limitations: categoryCopy.limitations,
-    faq: [...localizedSpecificFaq, ...localizedFaq].slice(0, 8),
+    steps: localSteps,
+    useCases: localUses,
+    tips: localTips,
+    limitations: localLimits,
+    faq: faqs,
     visual: base.visual,
     articleSections: [
-      { heading: labels.what + ': ' + localName, paragraphs: [localIntro, categoryCopy.why] },
-      { heading: labels.uses, paragraphs: [categoryCopy.useCases.join(' ')], bullets: categoryCopy.useCases },
-      { heading: labels.practices, paragraphs: [categoryCopy.tips.join(' ')], bullets: categoryCopy.tips },
-      { heading: labels.limits, paragraphs: [categoryCopy.limitations.join(' ')], bullets: categoryCopy.limitations },
+      {
+        heading: labels.what + ': ' + localName,
+        paragraphs: [
+          localIntro,
+          localName + ' integra-se num fluxo de trabalho específico da categoria ' + getLocalizedCategoryLabel(tool.category, locale) + '. ' + categoryCopy.why,
+        ],
+      },
+      {
+        heading: replaceTool(({pt:'Como utilizar {tool} passo a passo',es:'Cómo utilizar {tool} paso a paso',de:'{tool} Schritt für Schritt verwenden',fr:'Comment utiliser {tool} étape par étape',it:'Come usare {tool} passo dopo passo',ja:'{tool}の使用手順',ko:'{tool} 사용 단계',zh:'{tool}使用步骤',ru:'Как пользоваться инструментом «{tool}»',ar:'كيفية استخدام {tool} خطوة بخطوة',hi:'{tool} का उपयोग चरण-दर-चरण'})[locale]),
+        paragraphs: [categoryCopy.steps.join(' '), localName + ' का उपयोग करते समय इनपुट, विकल्प और आउटपुट की जाँच करना उपयोगी होता है.'],
+        bullets: localSteps,
+      },
+      {
+        heading: labels.uses + ': ' + localName,
+        paragraphs: [localIntro + ' ' + localUses.join(' ')],
+        bullets: localUses,
+      },
+      {
+        heading: labels.practices,
+        paragraphs: [localName + ': ' + localTips.join(' ')],
+        bullets: localTips,
+      },
+      {
+        heading: labels.limits,
+        paragraphs: [localName + ' का परिणाम इनपुट की गुणवत्ता, समर्थित विकल्पों और डिवाइस/ब्राउज़र पर निर्भर हो सकता है. ' + localLimits.join(' ')],
+        bullets: localLimits,
+      },
+      {
+        heading: replaceTool(({pt:'Perguntas frequentes sobre {tool}',es:'Preguntas frecuentes sobre {tool}',de:'Häufige Fragen zu {tool}',fr:'Questions fréquentes sur {tool}',it:'Domande frequenti su {tool}',ja:'{tool}に関するよくある質問',ko:'{tool} 자주 묻는 질문',zh:'关于{tool}的常见问题',ru:'Часто задаваемые вопросы об инструменте «{tool}»',ar:'الأسئلة الشائعة حول {tool}',hi:'{tool} के बारे में अक्सर पूछे जाने वाले सवाल'})[locale]),
+        paragraphs: faqs.slice(0, 4).map((item) => item.q + ' ' + item.a),
+        bullets: faqs.slice(0, 4).map((item) => item.q),
+      },
     ],
   };
 }
