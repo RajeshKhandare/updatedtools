@@ -43,7 +43,8 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const expected = context.sha.slice(0, 7);
+            const targetSha = context.payload.pull_request?.head?.sha || context.sha;
+            const expected = targetSha.slice(0, 7);
             const deadline = Date.now() + 15 * 60 * 1000;
             while (Date.now() < deadline) {
               const { data: comments } = await github.rest.issues.listComments({
@@ -76,7 +77,7 @@ jobs:
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   base: deployedCommit,
-                  head: context.sha,
+                  head: targetSha,
                 });
                 const changedFiles = comparison.data.files || [];
                 const onlyTestOrWorkflowChanges = changedFiles.length > 0 && changedFiles.every((file) =>
