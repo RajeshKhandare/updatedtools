@@ -695,6 +695,32 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   };
   const toolFaq = localizedToolFaq[locale];
   const replaceTool = (template: string) => template.replaceAll('{tool}', localName);
+  const workflowNotes: Record<Exclude<LocaleCode, 'en'>, string> = {
+    pt: 'Antes de concluir, confirme se os dados de entrada estão corretos e se o resultado corresponde ao objetivo.',
+    es: 'Antes de terminar, confirma que los datos de entrada son correctos y que el resultado cumple el objetivo.',
+    de: 'Prüfe vor dem Abschluss, ob die Eingaben stimmen und das Ergebnis dem gewünschten Zweck entspricht.',
+    fr: 'Avant de terminer, vérifiez les données saisies et assurez-vous que le résultat répond à votre objectif.',
+    it: 'Prima di concludere, verifica che i dati inseriti siano corretti e che il risultato corrisponda allo scopo.',
+    ja: '完了する前に、入力内容が正しいことと、結果が目的に合っていることを確認してください。',
+    ko: '완료하기 전에 입력값이 올바른지, 결과가 목적에 맞는지 확인하세요.',
+    zh: '完成前，请确认输入内容正确，并检查结果是否符合预期。',
+    ru: 'Перед завершением проверьте правильность входных данных и соответствие результата вашей цели.',
+    ar: 'قبل الانتهاء، تحقق من صحة المدخلات ومن أن النتيجة تحقق الغرض المطلوب.',
+    hi: 'काम पूरा करने से पहले इनपुट सही होने और परिणाम उद्देश्य के अनुसार होने की जाँच करें。',
+  };
+  const limitationIntros: Record<Exclude<LocaleCode, 'en'>, string> = {
+    pt: 'O resultado de {tool} pode depender da qualidade dos dados, das opções disponíveis e do navegador ou dispositivo.',
+    es: 'El resultado de {tool} puede depender de la calidad de los datos, las opciones disponibles y el navegador o dispositivo.',
+    de: 'Das Ergebnis von {tool} kann von der Eingabequalität, den verfügbaren Optionen und dem Browser oder Gerät abhängen.',
+    fr: 'Le résultat de {tool} peut dépendre de la qualité des données, des options disponibles et du navigateur ou de l’appareil.',
+    it: 'Il risultato di {tool} può dipendere dalla qualità dei dati, dalle opzioni disponibili e dal browser o dispositivo.',
+    ja: '{tool}の結果は、入力データの品質、利用できる設定、ブラウザーや端末によって異なる場合があります。',
+    ko: '{tool}의 결과는 입력 데이터의 품질, 사용 가능한 옵션, 브라우저 또는 기기에 따라 달라질 수 있습니다.',
+    zh: '{tool}的结果可能受到输入质量、可用选项以及浏览器或设备的影响。',
+    ru: 'Результат инструмента «{tool}» может зависеть от качества входных данных, доступных параметров, браузера или устройства.',
+    ar: 'قد تعتمد نتيجة {tool} على جودة البيانات والخيارات المتاحة والمتصفح أو الجهاز المستخدم.',
+    hi: '{tool} का परिणाम इनपुट की गुणवत्ता, उपलब्ध विकल्पों और ब्राउज़र या डिवाइस पर निर्भर हो सकता है।',
+  };
   const localIntro = localName + ': ' + categoryCopy.why;
   const localSteps = [...categoryCopy.steps, ...categoryCopy.tips.slice(0, 2)];
   const localUses = categoryCopy.useCases;
@@ -723,12 +749,12 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
         heading: labels.what + ': ' + localName,
         paragraphs: [
           localIntro,
-          localName + ' integra-se num fluxo de trabalho específico da categoria ' + getLocalizedCategoryLabel(tool.category, locale) + '. ' + categoryCopy.why,
+          localName + ': ' + categoryCopy.why,
         ],
       },
       {
         heading: replaceTool(({pt:'Como utilizar {tool} passo a passo',es:'Cómo utilizar {tool} paso a paso',de:'{tool} Schritt für Schritt verwenden',fr:'Comment utiliser {tool} étape par étape',it:'Come usare {tool} passo dopo passo',ja:'{tool}の使用手順',ko:'{tool} 사용 단계',zh:'{tool}使用步骤',ru:'Как пользоваться инструментом «{tool}»',ar:'كيفية استخدام {tool} خطوة بخطوة',hi:'{tool} का उपयोग चरण-दर-चरण'})[locale]),
-        paragraphs: [categoryCopy.steps.join(' '), localName + ' का उपयोग करते समय इनपुट, विकल्प और आउटपुट की जाँच करना उपयोगी होता है.'],
+        paragraphs: [categoryCopy.steps.join(' '), workflowNotes[locale]],
         bullets: localSteps,
       },
       {
@@ -743,7 +769,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
       },
       {
         heading: labels.limits,
-        paragraphs: [localName + ' का परिणाम इनपुट की गुणवत्ता, समर्थित विकल्पों और डिवाइस/ब्राउज़र पर निर्भर हो सकता है. ' + localLimits.join(' ')],
+        paragraphs: [replaceTool(limitationIntros[locale]) + ' ' + localLimits.join(' ')],
         bullets: localLimits,
       },
       {
