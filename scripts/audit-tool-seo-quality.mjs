@@ -118,11 +118,11 @@ if (taskMapStart < 0 || taskMapEnd < 0) {
   errors.push('Tool-specific localized task-purpose map is missing');
 } else {
   const taskMapSource = seoSource.slice(taskMapStart, taskMapEnd);
-  const mappedSlugs = new Set([...taskMapSource.matchAll(/^\\s*'([^']+)':\\s*'/gm)].map((match) => match[1]));
+  const mappedSlugs = new Set([...taskMapSource.matchAll(/'([^']+)':\\s*'([^']+)'/g)].map((match) => match[1]));
   const taskMappedTools = entries.filter((tool) => tool.category !== 'Time Table');
   const missingTaskPurpose = taskMappedTools.filter((tool) => !mappedSlugs.has(tool.slug));
   if (missingTaskPurpose.length) errors.push(`Localized task-purpose mapping missing for: ${missingTaskPurpose.map((tool) => tool.slug).join(', ')}`);
-  const taskKeys = new Set([...taskMapSource.matchAll(/^\\s*'[^']+':\\s*'([^']+)'/gm)].map((match) => match[1]));
+  const taskKeys = new Set([...taskMapSource.matchAll(/'([^']+)':\\s*'([^']+)'/g)].map((match) => match[2]));
   const purposeStart = seoSource.indexOf('const LOCALIZED_TASK_PURPOSE');
   const purposeSource = seoSource.slice(purposeStart);
   const localeHeaders = [...purposeSource.matchAll(/^  (pt|es|de|fr|it|ja|ko|zh|ru|ar|hi): \\{/gm)];
