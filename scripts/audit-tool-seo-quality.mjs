@@ -83,7 +83,7 @@ const generatedEntries = (generatedSource.match(/\b(?:merge-pdf|[a-z0-9]+(?:-[a-
 const focusStart = seoSource.indexOf('const profiles: Record');
 const focusEnd = seoSource.indexOf('\n  };', focusStart);
 const explicitToolProfiles = focusStart >= 0 && focusEnd > focusStart
-  ? [...seoSource.slice(focusStart, focusEnd).matchAll(/^\s{4}'([^']+)':\s*\\{/gm)].map((match) => match[1])
+  ? [...seoSource.slice(focusStart, focusEnd).matchAll(/^\s{4}'([^']+)':\s*\{/gm)].map((match) => match[1])
   : [];
 const regularTools = entries.filter((tool) => tool.category !== 'Time Table');
 const profileSlugs = new Set(explicitToolProfiles);
