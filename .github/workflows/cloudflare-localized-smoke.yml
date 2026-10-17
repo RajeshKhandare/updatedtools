@@ -12,7 +12,7 @@ on:
 
 permissions:
   contents: read
-  issues: read
+  issues: write
   pull-requests: read
 
 jobs:
@@ -89,3 +89,19 @@ jobs:
         env:
           SMOKE_BASE_URL: ${{ github.event.inputs.base_url || 'https://seo-merge-pdf-content-pilot-updatedtools.rajeshkhandare788.workers.dev' }}
         run: npm run verify:localized-routes
+      - name: Report localized route smoke result on the PR
+        if: always()
+        uses: actions/github-script@v7
+        env:
+          JOB_STATUS: \${{ job.status }}
+        with:
+          script: |
+            const status = process.env.JOB_STATUS || 'unknown';
+            const sha = context.sha.slice(0, 7);
+            const verdict = status === 'success' ? 'GREEN' : 'FAILED';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: 23,
+              body: 'Cloudflare localized route smoke: ' + verdict + ' for commit ' + sha + '. Matrix target: 12 locales × 112 tools (1,344 routes).',
+            });
