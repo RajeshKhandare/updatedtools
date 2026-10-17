@@ -983,7 +983,6 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   if (locale === 'en') return withStructuredGuide(tool, base, locale);
 
   const generated = GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug];
-  if (generated) return withStructuredGuide(tool, generated, locale);
 
   // Complete, locale-native fallback guide for every catalog tool. It intentionally
   // uses localized task/category copy rather than inserting English profile paragraphs.
@@ -1040,6 +1039,15 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   const taskKey = TASK_BY_SLUG[tool.slug] || 'generic';
   const localizedPurpose = LOCALIZED_TASK_PURPOSE[locale][taskKey];
   const localIntro = localName + ': ' + localizedPurpose + '.';
+
+  if (generated) {
+    return withStructuredGuide(tool, {
+      ...generated,
+      heroIntro: localIntro,
+      intro: [localIntro, generated.intro].filter(Boolean).join(' '),
+      why: localIntro,
+    }, locale);
+  }
 
   const localSteps = [...categoryCopy.steps, ...categoryCopy.tips.slice(0, 2)];
   const localUses = categoryCopy.useCases;
