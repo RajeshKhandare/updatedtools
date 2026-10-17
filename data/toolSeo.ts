@@ -657,7 +657,7 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
 
 type LocalizedTaskKey =
   | 'merge' | 'split' | 'pdf-image' | 'image-pdf' | 'protect' | 'unlock' | 'rotate' | 'compress'
-  | 'pages' | 'pdf-word' | 'delete-pages' | 'reorder-pages' | 'grayscale' | 'crop' | 'resize'
+  | 'pages' | 'pdf-word' | 'word-pdf' | 'delete-pages' | 'reorder-pages' | 'grayscale' | 'crop' | 'resize'
   | 'format-convert' | 'filter' | 'qr' | 'palette' | 'blur' | 'compiler' | 'html-editor' | 'sql-editor'
   | 'json' | 'encode' | 'slug' | 'html-entities' | 'minify' | 'timestamp' | 'color' | 'url' | 'jwt'
   | 'uuid' | 'password' | 'user-agent' | 'count' | 'case' | 'deduplicate' | 'placeholder-text'
@@ -669,7 +669,7 @@ type LocalizedTaskKey =
 const TASK_BY_SLUG: Record<string, LocalizedTaskKey> = {
   'merge-pdf':'merge','split-pdf':'split','pdf-to-jpg':'pdf-image','jpg-to-pdf':'image-pdf',
   'protect-pdf-password':'protect','unlock-pdf-password':'unlock','rotate-pdf':'rotate','compress-pdf':'compress',
-  'add-page-numbers-pdf':'pages','pdf-to-word':'pdf-word','word-to-pdf':'image-pdf','delete-pdf-pages':'delete-pages',
+  'add-page-numbers-pdf':'pages','pdf-to-word':'pdf-word','word-to-pdf':'word-pdf','delete-pdf-pages':'delete-pages',
   'reorder-pdf-pages':'reorder-pages','pdf-grayscale-converter':'grayscale','compress-image':'compress',
   'crop-image-online':'crop','image-resizer':'resize','webp-to-png-converter':'format-convert',
   'webp-to-jpg-converter':'format-convert','png-to-jpg-converter':'format-convert','jpg-to-png-converter':'format-convert',
@@ -699,6 +699,7 @@ const TASK_BY_SLUG: Record<string, LocalizedTaskKey> = {
 
 const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<LocalizedTaskKey, string>> = {
   pt: {
+    'word-pdf':'converter documentos Word em arquivos PDF',
     merge:'combinar vários arquivos PDF em um único documento na ordem desejada',split:'separar páginas de um PDF ou extrair intervalos específicos',
     'pdf-image':'exportar páginas de PDF como imagens JPG','image-pdf':'converter imagens em um documento PDF',
     protect:'proteger um PDF com senha','unlock':'remover a proteção por senha de um PDF quando você tem autorização',
@@ -726,6 +727,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-tags':'sugerir tags para um vídeo do YouTube','youtube-earnings':'estimar ganhos de um canal usando as hipóteses informadas',generic:'realizar a tarefa indicada pelas opções do próprio instrumento',
   },
   es: {
+    'word-pdf':'convertir documentos Word en archivos PDF',
     merge:'combinar varios archivos PDF en un solo documento en el orden elegido',split:'separar páginas de un PDF o extraer rangos concretos',
     'pdf-image':'exportar páginas de un PDF como imágenes JPG','image-pdf':'convertir imágenes en un documento PDF',
     protect:'proteger un PDF con contraseña','unlock':'quitar la protección por contraseña de un PDF cuando tienes autorización',
@@ -753,6 +755,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-tags':'sugerir etiquetas para un vídeo de YouTube','youtube-earnings':'estimar ingresos de un canal según las hipótesis indicadas',generic:'realizar la tarea indicada por las opciones de la propia herramienta',
   },
   de: {
+    'word-pdf':'Word-Dokumente in PDF-Dateien umwandeln',
     merge:'mehrere PDF-Dateien in der gewünschten Reihenfolge zu einem Dokument zusammenführen',split:'PDF-Seiten trennen oder bestimmte Seitenbereiche extrahieren',
     'pdf-image':'PDF-Seiten als JPG-Bilder exportieren','image-pdf':'Bilder in ein PDF-Dokument umwandeln','protect':'ein PDF mit einem Passwort schützen',
     unlock:'den Passwortschutz eines PDFs mit entsprechender Berechtigung entfernen','rotate':'PDF-Seiten zur Korrektur der Ausrichtung drehen',
@@ -778,6 +781,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-tags':'Tags für ein YouTube-Video vorschlagen','youtube-earnings':'Kanaleinnahmen anhand der eingegebenen Annahmen schätzen',generic:'die Aufgabe ausführen, die durch die Optionen des jeweiligen Werkzeugs beschrieben wird',
   },
   fr: {
+    'word-pdf':'convertir des documents Word en fichiers PDF',
     merge:'assembler plusieurs fichiers PDF en un seul document dans l’ordre choisi',split:'séparer les pages d’un PDF ou extraire des plages précises',
     'pdf-image':'exporter les pages d’un PDF en images JPG','image-pdf':'convertir des images en document PDF','protect:'protéger un PDF avec un mot de passe',
     unlock:'retirer la protection par mot de passe d’un PDF lorsque vous y êtes autorisé','rotate':'faire pivoter les pages d’un PDF pour corriger leur orientation',
@@ -803,6 +807,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-tags':'suggérer des tags pour une vidéo YouTube','youtube-earnings':'estimer les revenus d’une chaîne selon les hypothèses saisies',generic:'effectuer la tâche décrite par les options de l’outil',
   },
   it: {
+    'word-pdf':'convertire documenti Word in file PDF',
     merge:'unire più file PDF in un unico documento nell’ordine scelto',split:'separare le pagine di un PDF o estrarre intervalli specifici','pdf-image':'esportare le pagine PDF come immagini JPG',
     'image-pdf':'convertire immagini in un documento PDF','protect':'proteggere un PDF con una password','unlock':'rimuovere la protezione con password da un PDF quando si è autorizzati',
     rotate:'ruotare le pagine PDF per correggere l’orientamento','compress':'ridurre le dimensioni dei file tenendo conto della qualità','pages':'aggiungere numeri di pagina a un PDF',
@@ -827,6 +832,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-earnings':'stimare i guadagni di un canale in base alle ipotesi inserite',generic:'eseguire l’attività descritta dalle opzioni dello strumento',
   },
   ja: {
+    'word-pdf':'Word文書をPDFファイルに変換する',
     merge:'複数のPDFを指定した順序で1つの文書にまとめる',split:'PDFのページを分割したり、指定範囲のページを抽出したりする',
     'pdf-image':'PDFの各ページをJPG画像として書き出す','image-pdf':'画像をPDF文書に変換する','protect':'PDFにパスワード保護を設定する',
     unlock:'権限があるPDFからパスワード保護を解除する','rotate':'PDFページを回転して向きを整える','compress':'品質に配慮しながらファイルサイズを小さくする',
@@ -851,6 +857,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-earnings':'入力した前提条件からチャンネル収益を試算する',generic:'ツール内のオプションで指定された作業を行う',
   },
   ko: {
+    'word-pdf':'Word 문서를 PDF 파일로 변환하기',
     merge:'여러 PDF 파일을 원하는 순서대로 하나의 문서로 합치기',split:'PDF 페이지를 분리하거나 특정 페이지 범위를 추출하기',
     'pdf-image':'PDF 페이지를 JPG 이미지로 내보내기','image-pdf':'이미지를 PDF 문서로 변환하기','protect':'PDF에 비밀번호 보호 설정하기',
     unlock:'권한이 있는 PDF의 비밀번호 보호 해제하기','rotate':'PDF 페이지를 회전해 방향 바로잡기','compress':'품질을 고려하면서 파일 크기 줄이기',
@@ -874,6 +881,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-tags':'YouTube 동영상 태그 제안하기','youtube-earnings':'입력한 가정에 따라 채널 수익 추정하기',generic:'도구 옵션에 지정된 작업 수행하기',
   },
   zh: {
+    'word-pdf':'将 Word 文档转换为 PDF 文件',
     merge:'按指定顺序将多个 PDF 文件合并为一个文档',split:'拆分 PDF 页面或提取指定页码范围','pdf-image':'将 PDF 页面导出为 JPG 图片','image-pdf':'将图片转换为 PDF 文档',
     protect:'为 PDF 设置密码保护','unlock':'在获得授权的情况下移除 PDF 密码保护','rotate':'旋转 PDF 页面以校正方向','compress':'在兼顾质量的同时减小文件大小',
     pages:'为 PDF 添加页码','pdf-word':'将 PDF 内容转换为可编辑的 Word 文档','delete-pages':'删除 PDF 中选定的页面','reorder-pages':'调整 PDF 页面的顺序',
@@ -893,6 +901,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-earnings':'根据输入假设估算频道收入',generic:'执行工具选项所描述的任务',
   },
   ru: {
+    'word-pdf':'преобразовать документы Word в файлы PDF',
     merge:'объединить несколько PDF-файлов в один документ в выбранном порядке','split':'разделить страницы PDF или извлечь заданные диапазоны','pdf-image':'экспортировать страницы PDF в изображения JPG',
     'image-pdf':'преобразовать изображения в документ PDF','protect':'защитить PDF паролем','unlock':'снять парольную защиту PDF при наличии разрешения',
     rotate:'повернуть страницы PDF, чтобы исправить ориентацию','compress':'уменьшить размер файлов с учетом качества','pages':'добавить номера страниц в PDF',
@@ -915,6 +924,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-tags':'предложить теги для видео YouTube','youtube-earnings':'оценить доход канала по заданным предположениям',generic:'выполнить задачу, указанную в параметрах инструмента',
   },
   ar: {
+    'word-pdf':'تحويل مستندات Word إلى ملفات PDF',
     merge:'دمج عدة ملفات PDF في مستند واحد بالترتيب المطلوب','split':'تقسيم صفحات PDF أو استخراج نطاقات محددة','pdf-image':'تصدير صفحات PDF كصور JPG','image-pdf':'تحويل الصور إلى مستند PDF',
     protect:'حماية ملف PDF بكلمة مرور','unlock':'إزالة حماية كلمة المرور من ملف PDF عند امتلاك الصلاحية','rotate':'تدوير صفحات PDF لتصحيح الاتجاه','compress':'تقليل حجم الملفات مع مراعاة الجودة',
     pages:'إضافة أرقام الصفحات إلى PDF','pdf-word':'تحويل محتوى PDF إلى مستند Word قابل للتحرير','delete-pages':'حذف صفحات محددة من PDF','reorder-pages':'إعادة ترتيب صفحات PDF',
@@ -936,6 +946,7 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
     'youtube-earnings':'تقدير أرباح القناة وفق الافتراضات المدخلة',generic:'تنفيذ المهمة التي تحددها خيارات الأداة',
   },
   hi: {
+    'word-pdf':'Word दस्तावेज़ों को PDF फ़ाइलों में बदलना',
     merge:'कई PDF फ़ाइलों को चुने हुए क्रम में एक दस्तावेज़ में जोड़ना','split':'PDF के पेज अलग करना या चुने हुए पेज रेंज निकालना','pdf-image':'PDF पेजों को JPG इमेज के रूप में एक्सपोर्ट करना',
     'image-pdf':'इमेज को PDF दस्तावेज़ में बदलना','protect':'PDF पर पासवर्ड सुरक्षा लगाना','unlock':'अनुमति होने पर PDF की पासवर्ड सुरक्षा हटाना',
     rotate:'PDF पेजों को घुमाकर उनका ओरिएंटेशन ठीक करना','compress':'गुणवत्ता का ध्यान रखते हुए फ़ाइल का आकार कम करना','pages':'PDF में पेज नंबर जोड़ना',
