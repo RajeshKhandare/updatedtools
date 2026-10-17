@@ -122,22 +122,22 @@ if (taskMapStart < 0 || taskMapEnd < 0) {
   const mappedSlugs = new Set(taskMapEntries.map((match) => match[1]));
   const taskMappedTools = entries.filter((tool) => tool.category !== 'Time Table');
   const missingTaskPurpose = taskMappedTools.filter((tool) => !mappedSlugs.has(tool.slug));
-  if (missingTaskPurpose.length) errors.push(\`Localized task-purpose mapping missing for: \${missingTaskPurpose.map((tool) => tool.slug).join(', ')}\`);
+  if (missingTaskPurpose.length) errors.push('Localized task-purpose mapping missing for: ' + missingTaskPurpose.map((tool) => tool.slug).join(', '));
   const taskKeys = new Set(taskMapEntries.map((match) => match[2]));
   const purposeStart = seoSource.indexOf('const LOCALIZED_TASK_PURPOSE');
   const purposeSource = seoSource.slice(purposeStart);
   const localeHeaders = [...purposeSource.matchAll(/^  (pt|es|de|fr|it|ja|ko|zh|ru|ar|hi): \{/gm)];
   const foundLocales = new Set(localeHeaders.map((match) => match[1]));
   for (const locale of expectedLocalizedMapLocales) {
-    if (!foundLocales.has(locale)) errors.push(\`Localized task-purpose map is missing locale \${locale}\`);
+    if (!foundLocales.has(locale)) errors.push('Localized task-purpose map is missing locale ' + locale);
   }
   for (let index = 0; index < localeHeaders.length; index += 1) {
     const locale = localeHeaders[index][1];
     const blockStart = localeHeaders[index].index + localeHeaders[index][0].length;
     const blockEnd = localeHeaders[index + 1]?.index ?? purposeSource.indexOf('\n};', blockStart);
     const localeBlock = purposeSource.slice(blockStart, blockEnd < 0 ? undefined : blockEnd);
-    const missingKeys = [...taskKeys].filter((key) => !new RegExp("['\\"]?" + key + "['\\"]?\\s*:").test(localeBlock));
-    if (missingKeys.length) errors.push(\`Localized task-purpose copy for \${locale} is missing task keys: \${missingKeys.join(', ')}\`);
+    const missingKeys = [...taskKeys].filter((key) => !localeBlock.includes("'" + key + "':") && !localeBlock.includes(key + ':'));
+    if (missingKeys.length) errors.push('Localized task-purpose copy for ' + locale + ' is missing task keys: ' + missingKeys.join(', '));
   }
 }
 
