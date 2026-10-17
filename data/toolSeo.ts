@@ -1039,11 +1039,28 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   const taskKey = TASK_BY_SLUG[tool.slug] || 'generic';
   const localizedPurpose = LOCALIZED_TASK_PURPOSE[locale][taskKey];
   const localIntro = localName + ': ' + localizedPurpose + '.';
+  const localizedMetaSuffix: Record<Exclude<LocaleCode, 'en'>, string> = {
+    pt: 'Revise as opções e confirme se o resultado corresponde ao que precisa.',
+    es: 'Revisa las opciones y confirma que el resultado responde a lo que necesitas.',
+    de: 'Prüfe die Optionen und kontrolliere, ob das Ergebnis deinem Bedarf entspricht.',
+    fr: 'Vérifiez les options et assurez-vous que le résultat répond à votre besoin.',
+    it: 'Controlla le opzioni e verifica che il risultato corrisponda alle tue esigenze.',
+    ja: '設定を確認し、保存する前に結果の内容をチェックしてください。',
+    ko: '옵션을 확인하고 저장하거나 공유하기 전에 결과를 검토하세요.',
+    zh: '请检查选项，并在保存或分享前确认结果符合需求。',
+    ru: 'Проверьте параметры и убедитесь, что результат соответствует вашей задаче.',
+    ar: 'راجع الخيارات وتأكد من أن النتيجة تلبي حاجتك قبل حفظها أو مشاركتها.',
+    hi: 'विकल्प जाँचें और सेव या शेयर करने से पहले परिणाम की पुष्टि करें।',
+  };
+  const minMetaLength = ['ja', 'ko', 'zh'].includes(locale) ? 20 : 40;
+  const localizedHeroIntro = localIntro.length < minMetaLength
+    ? localIntro + ' ' + localizedMetaSuffix[locale]
+    : localIntro;
 
   if (generated) {
     return withStructuredGuide(tool, {
       ...generated,
-      heroIntro: localIntro,
+      heroIntro: localizedHeroIntro,
       intro: [localIntro, generated.intro].filter(Boolean).join(' '),
       why: localIntro,
     }, locale);
@@ -1062,7 +1079,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   const faqs = [...localizedSpecificFaq, ...localizedFaq].slice(0, 8);
 
   return {
-    heroIntro: localIntro,
+    heroIntro: localizedHeroIntro,
     intro: localIntro + ' ' + localUses.join(' '),
     why: localIntro,
     steps: localSteps,
