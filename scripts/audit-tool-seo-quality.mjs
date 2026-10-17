@@ -112,6 +112,30 @@ if (!localizedBuilder.includes('articleSections: [') || !localizedBuilder.includ
   errors.push('Localized per-tool guide must provide article sections and tool-named FAQs');
 }
 const expectedRuntimeLocalizedGuides = regularTools.length * (locales.length - 1);
+const taskMapStart = seoSource.indexOf('const TASK_BY_SLUG');
+const taskMapEnd = seoSource.indexOf('const LOCALIZED_TASK_PURPOSE', taskMapStart);
+if (taskMapStart < 0 || taskMapEnd < 0) {
+  errors.push('Tool-specific localized task-purpose map is missing');
+} else {
+  const taskMapSource = seoSource.slice(taskMapStart, taskMapEnd);
+  const mappedSlugs = new Set([...taskMapSource.matchAll(/^\\s*'([^']+)':\\s*'/gm)].map((match) => match[1]));
+  const taskMappedTools = entries.filter((tool) => tool.category !== 'Time Table');
+  const missingTaskPurpose = taskMappedTools.filter((tool) => !mappedSlugs.has(tool.slug));
+  if (missingTaskPurpose.length) errors.push(`Localized task-purpose mapping missing for: ${missingTaskPurpose.map((tool) => tool.slug).join(', ')}`);
+  const taskKeys = new Set([...taskMapSource.matchAll(/^\\s*'[^']+':\\s*'([^']+)'/gm)].map((match) => match[1]));
+  const purposeStart = seoSource.indexOf('const LOCALIZED_TASK_PURPOSE');
+  const purposeSource = seoSource.slice(purposeStart);
+  const localeHeaders = [...purposeSource.matchAll(/^  (pt|es|de|fr|it|ja|ko|zh|ru|ar|hi): \\{/gm)];
+  for (let index = 0; index < localeHeaders.length; index += 1) {
+    const locale = localeHeaders[index][1];
+    const blockStart = localeHeaders[index].index + localeHeaders[index][0].length;
+    const blockEnd = localeHeaders[index + 1]?.index ?? purposeSource.indexOf('\\n};', blockStart);
+    const localeBlock = purposeSource.slice(blockStart, blockEnd < 0 ? undefined : blockEnd);
+    const missingKeys = [...taskKeys].filter((key) => !new RegExp(`(?:^|\\\\n)\\\\s*['"]?${key.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\const expectedRuntimeLocalizedGuides = regularTools.length * (locales.length - 1);')}['"]?\\\\s*:`).test(localeBlock));
+    if (missingKeys.length) errors.push(`Localized task-purpose copy for ${locale} is missing task keys: ${missingKeys.join(', ')}`);
+  }
+}
+
 
 const localizedMergeLocales = [...mergeGuide.matchAll(/^\s{2}(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi):\s*\{/gm)].map((match) => match[1]);
 if (localizedMergeLocales.length !== 11) errors.push(`Merge PDF guide should have 11 non-English translations; found ${localizedMergeLocales.length}`);
@@ -133,7 +157,7 @@ if (errors.length) {
 }
 
 console.log(`Tool SEO structure OK: ${entries.length} regular tools × ${locales.length} locales = ${entries.length * locales.length} route/content pairs.`);
-console.log(`Verified: unique source slugs/target keywords, source descriptions, English metadata/H1 templates, localized metadata lookup, ${explicitToolProfiles.length} explicit tool-specific English profiles, 11 explicit Merge PDF translations, and a locale-native detailed guide builder covering ${expectedRuntimeLocalizedGuides} regular-tool × non-English-locale slots.`);
+console.log(`Verified: unique source slugs/target keywords, source descriptions, English metadata/H1 templates, localized metadata lookup, ${explicitToolProfiles.length} explicit tool-specific English profiles, 11 explicit Merge PDF translations, and tool-specific localized task-purpose coverage for all ${regularTools.length} non-timetable tools across 11 non-English locales (${expectedRuntimeLocalizedGuides} slots), with timetable tools handled by their dedicated guide engine.`);
 console.log(`Localized category guide coverage OK: ${Object.keys(categoryCoverage).length} locales × ${expectedCategories.length} categories = ${Object.values(categoryCoverage).reduce((total, categories) => total + categories.length, 0)} locale-category checks.`);
 for (const warning of warnings) console.warn(`SEO QUALITY GAP: ${warning}`);
 console.log('Quality note: the audit verifies structural coverage and locale-specific templates, not human/native-speaker review of every generated paragraph.');
