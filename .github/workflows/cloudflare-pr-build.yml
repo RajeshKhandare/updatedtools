@@ -37,3 +37,8 @@ jobs:
 
       - name: Verify festival SEO, hreflang and affiliate placement
         run: npm run verify:festival-seo
+
+      - name: Smoke-test all 1,344 localized tool routes on Cloudflare
+        env:
+          SMOKE_BASE_URL: https://seo-merge-pdf-content-pilot-updatedtools.rajeshkhandare788.workers.dev
+        run: npm run verify:localized-routes
