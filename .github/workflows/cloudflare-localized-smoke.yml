@@ -44,7 +44,10 @@ jobs:
                 issue_number: prNumber,
                 per_page: 100,
               });
-              const body = comments.map((comment) => comment.body || '').join('\n');
+              const previewComment = comments
+                .filter((comment) => (comment.body || '').includes('Preview URL'))
+                .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())[0];
+              const body = previewComment?.body || '';
               const rows = [...body.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((match) => match[1]);
               const row = rows.find((candidate) => candidate.includes('>' + expected + '<'));
               if (row && row.includes('Build:</b> Success') && row.includes('Deployment:</b> Success')) {
