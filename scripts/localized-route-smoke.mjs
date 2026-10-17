@@ -46,10 +46,45 @@ async function check(url, locale) {
 
       const dir = html.match(/<html[^>]*\bdir=["']([^"']+)["']/i)?.[1]?.toLowerCase();
       if (locale === 'ar') {
-        assert(dir === 'rtl', `${url}: Arabic page is not RTL`);
+        assert(dir === 'rtl', url + ': Arabic page is not RTL');
       } else if (dir) {
-        assert(dir === 'ltr', `${url}: unexpected dir=${dir}`);
+        assert(dir === 'ltr', url + ': unexpected dir=' + dir);
       }
+
+      // Check indexable SEO output, not only HTTP reachability.
+      const title = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]
+        ?.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').trim();
+      assert(title && title.length >= 8, url + ': missing or too-short <title>');
+
+      const tags = [...html.matchAll(/<(?:meta|link)\b[^>]*>/gi)].map(([tag]) => tag);
+      const attribute = (tag, name) => tag.match(new RegExp('\\b' + name + '=["\\']([^"\\']*)["\\']', 'i'))?.[1];
+      const descriptionTag = tags.find((tag) =>
+        tag.startsWith('<meta') && (attribute(tag, 'name') || '').toLowerCase() === 'description');
+      const description = descriptionTag ? attribute(descriptionTag, 'content') : '';
+      assert(description && description.trim().length >= 40 && description.trim().length <= 330,
+        url + ': missing, too-short, or too-long meta description');
+
+      const canonicalTag = tags.find((tag) =>
+        tag.startsWith('<link') && (attribute(tag, 'rel') || '').toLowerCase() === 'canonical');
+      const canonicalHref = canonicalTag ? attribute(canonicalTag, 'href') : '';
+      assert(canonicalHref, url + ': canonical link is missing');
+      const canonicalUrl = new URL(canonicalHref, BASE_URL);
+      assert(canonicalUrl.pathname.replace(/\/$/, '') === new URL(url).pathname.replace(/\/$/, ''),
+        url + ': canonical path points to ' + canonicalUrl.pathname);
+
+      const hreflangTags = tags.filter((tag) =>
+        tag.startsWith('<link') && attribute(tag, 'hreflang'));
+      assert(hreflangTags.length >= LOCALES.length,
+        url + ': expected at least ' + LOCALES.length + ' hreflang alternates, found ' + hreflangTags.length);
+
+      const h1 = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1]
+        ?.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').trim();
+      assert(h1 && h1.length >= 3, url + ': visible H1 is missing or too short');
+
+      const jsonLdBlocks = [...html.matchAll(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+      assert(jsonLdBlocks.length >= 3, url + ': expected breadcrumb, WebApplication, and FAQ JSON-LD blocks');
+      assert(jsonLdBlocks.some(([, json]) => json.includes('FAQPage')),
+        url + ': FAQPage structured data is missing');
 
       return;
     } catch (error) {
