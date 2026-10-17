@@ -55,6 +55,22 @@ jobs:
                 core.setFailed('Cloudflare preview build failed for ' + expected);
                 return;
               }
+              const lastSuccessful = rows.find((candidate) =>
+                candidate.includes('Build:</b> Success') && candidate.includes('Deployment:</b> Success'));
+              const deployedCommit = lastSuccessful?.match(/<td>([0-9a-f]{7})<\/td>/)?.[1];
+              if (deployedCommit && deployedCommit !== expected) {
+                const comparison = await github.rest.repos.compareCommits({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  base: deployedCommit,
+                  head: context.sha,
+                });
+                const changedFiles = comparison.data.files || [];
+                if (changedFiles.length > 0 && changedFiles.every((file) => file.filename.startsWith('.github/workflows/'))) {
+                  core.info('Only workflow files changed; using the last successful app preview ' + deployedCommit);
+                  return;
+                }
+              }
               core.info('Waiting for Cloudflare preview deployment of ' + expected);
               await new Promise((resolve) => setTimeout(resolve, 15000));
             }
