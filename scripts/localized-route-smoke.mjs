@@ -58,8 +58,9 @@ async function check(url, locale) {
 
       const tags = [...html.matchAll(/<(?:meta|link)\b[^>]*>/gi)].map(([tag]) => tag);
       const attribute = (tag, name) => {
-        const match = tag.match(new RegExp("\\b" + name + "=(?:\\"([^\\"]*)\\"|\'([^\']*)\')", "i"));
-        return match?.[1] ?? match?.[2];
+        const item = tag.match(/\b[a-z-]+\s*=\s*(?:"[^"]*"|'[^']*')/gi)
+          ?.find((candidate) => candidate.match(/^([a-z-]+)/i)?.[1]?.toLowerCase() === name.toLowerCase());
+        return item?.match(/=\s*(?:"([^"]*)"|'([^']*)')/)?.slice(1).find(Boolean);
       };
       const descriptionTag = tags.find((tag) =>
         tag.startsWith('<meta') && (attribute(tag, 'name') || '').toLowerCase() === 'description');
