@@ -783,11 +783,11 @@ const LOCALIZED_TASK_PURPOSE: Record<Exclude<LocaleCode, 'en'>, Record<Localized
   fr: {
     'word-pdf':'convertir des documents Word en fichiers PDF',
     merge:'assembler plusieurs fichiers PDF en un seul document dans l’ordre choisi',split:'séparer les pages d’un PDF ou extraire des plages précises',
-    'pdf-image':'exporter les pages d’un PDF en images JPG','image-pdf':'convertir des images en document PDF','protect:'protéger un PDF avec un mot de passe',
+    'pdf-image':'exporter les pages d’un PDF en images JPG','image-pdf':'convertir des images en document PDF','protect':'protéger un PDF avec un mot de passe',
     unlock:'retirer la protection par mot de passe d’un PDF lorsque vous y êtes autorisé','rotate':'faire pivoter les pages d’un PDF pour corriger leur orientation',
     compress:'réduire la taille des fichiers tout en tenant compte de la qualité','pages':'ajouter une numérotation aux pages d’un PDF','pdf-word':'convertir le contenu d’un PDF en document Word modifiable',
     'delete-pages':'supprimer certaines pages d’un PDF','reorder-pages':'réorganiser les pages d’un PDF','grayscale':'convertir un PDF en niveaux de gris',
-    crop:'recadrer une image','resize:'modifier les dimensions d’une image','format-convert':'convertir une image entre formats pris en charge',
+    crop:'recadrer une image','resize':'modifier les dimensions d’une image','format-convert':'convertir une image entre formats pris en charge',
     filter:'appliquer un effet visuel à une image','qr':'générer un code QR à partir des informations fournies','palette':'repérer les couleurs principales d’une image',
     blur:'flouter une image','compiler':'écrire, exécuter ou tester du code dans le navigateur lorsque l’environnement le permet','html-editor':'modifier et prévisualiser du code HTML',
     'sql-editor':'écrire et tester des requêtes SQL dans l’éditeur disponible','json':'formater et valider des données JSON','encode':'encoder ou décoder du texte en Base64',
