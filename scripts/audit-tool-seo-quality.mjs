@@ -62,7 +62,6 @@ const localizedMapEnd = seoSource.indexOf('const LOCALIZED_GENERIC');
 const localizedMapSource = seoSource.slice(localizedMapStart, localizedMapEnd);
 const localizedMapHeaders = [...localizedMapSource.matchAll(/(?:^|[,\n])\s*(pt|es|de|fr|it|ja|ko|zh|ru|ar|hi):\s*\{/gm)]
   .map((match) => ({ locale: match[1], index: match.index + match[0].lastIndexOf(match[1]) }));
-  .map((match) => ({ locale: match[1], index: match.index }));
 const expectedCategories = ['PDF', 'Image', 'Compiler', 'Developer', 'Text', 'Converters', 'Finance', 'Calculators', 'YouTube'];
 const categoryCoverage = {};
 for (let index = 0; index < localizedMapHeaders.length; index += 1) {
