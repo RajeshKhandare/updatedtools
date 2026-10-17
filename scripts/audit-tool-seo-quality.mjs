@@ -68,7 +68,8 @@ for (let index = 0; index < localizedMapHeaders.length; index += 1) {
   const current = localizedMapHeaders[index];
   const end = localizedMapHeaders[index + 1]?.index ?? localizedMapSource.length;
   const localeText = localizedMapSource.slice(current.index, end);
-  const present = expectedCategories.filter((category) => new RegExp('\\b' + category + ':\\s*\\{').test(localeText));
+  const normalizedLocaleText = localeText.replace(/[\"']/g, '');
+  const present = expectedCategories.filter((category) => new RegExp('\\b' + category + ':\\s*\\{').test(normalizedLocaleText));
   categoryCoverage[current.locale] = present;
   const missing = expectedCategories.filter((category) => !present.includes(category));
   if (missing.length) errors.push(`Category-specific localized guide coverage incomplete for ${current.locale}: missing ${missing.join(', ')}`);
