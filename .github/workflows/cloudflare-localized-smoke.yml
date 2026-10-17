@@ -1,26 +1,64 @@
-name: Cloudflare Live Localization Matrix
+name: Cloudflare Preview Localization Matrix
 
 on:
+  push:
+    branches: [seo/merge-pdf-content-pilot]
   workflow_dispatch:
     inputs:
       base_url:
-        description: "Cloudflare Worker URL"
+        description: "Cloudflare Worker URL to smoke-test"
         required: true
-        default: "https://updatedtools.rajeshkhandare788.workers.dev"
+        default: "https://seo-merge-pdf-content-pilot-updatedtools.rajeshkhandare788.workers.dev"
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
 
 jobs:
   localized-route-smoke:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
-      - name: Checkout Cloudflare test branch
+      - name: Checkout the commit being tested
         uses: actions/checkout@v5
         with:
-          ref: cloudflare-test
+          ref: \${{ github.sha }}
 
       - uses: actions/setup-node@v5
         with:
           node-version: 24
+
+      - name: Wait for this commit's Cloudflare preview deployment
+        if: github.event_name == 'push'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const expected = context.sha.slice(0, 7);
+            const prNumber = 23;
+            const deadline = Date.now() + 15 * 60 * 1000;
+            while (Date.now() < deadline) {
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                per_page: 100,
+              });
+              const body = comments.map((comment) => comment.body || '').join('\n');
+              const rows = [...body.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((match) => match[1]);
+              const row = rows.find((candidate) => candidate.includes('>' + expected + '<'));
+              if (row && row.includes('Build:</b> Success') && row.includes('Deployment:</b> Success')) {
+                core.info('Cloudflare preview build and deployment succeeded for ' + expected);
+                return;
+              }
+              if (row && row.includes('Build:</b> Failed')) {
+                core.setFailed('Cloudflare preview build failed for ' + expected);
+                return;
+              }
+              core.info('Waiting for Cloudflare preview deployment of ' + expected);
+              await new Promise((resolve) => setTimeout(resolve, 15000));
+            }
+            core.setFailed('Timed out waiting for Cloudflare preview deployment of ' + expected);
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund
@@ -29,8 +67,9 @@ jobs:
         run: |
           npm run verify:tools
           npm run verify:international-seo
+          npm run verify:tool-seo-quality
 
       - name: Test all 12 locales × 112 tools
         env:
-          SMOKE_BASE_URL: ${{ inputs.base_url }}
+          SMOKE_BASE_URL: \${{ inputs.base_url || 'https://seo-merge-pdf-content-pilot-updatedtools.rajeshkhandare788.workers.dev' }}
         run: npm run verify:localized-routes
