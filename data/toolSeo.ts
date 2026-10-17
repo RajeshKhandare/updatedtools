@@ -1056,7 +1056,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   return {
     heroIntro: localIntro,
     intro: localIntro + ' ' + localUses.join(' '),
-    why: categoryCopy.why,
+    why: localIntro,
     steps: localSteps,
     useCases: localUses,
     tips: localTips,
@@ -1068,7 +1068,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
         heading: labels.what + ': ' + localName,
         paragraphs: [
           localIntro,
-          localName + ': ' + categoryCopy.why,
+          localIntro + ' ' + categoryCopy.useCases.slice(0, 2).join(' '),
         ],
       },
       {
