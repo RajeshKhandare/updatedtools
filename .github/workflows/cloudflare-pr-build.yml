@@ -29,6 +29,9 @@ jobs:
       - name: Verify international SEO foundation
         run: npm run verify:international-seo
 
+      - name: Validate localized route smoke test syntax
+        run: node --check scripts/localized-route-smoke.mjs
+
       - name: Build
         run: npm run build
 
