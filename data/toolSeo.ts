@@ -675,7 +675,26 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   for (let index = 0; index + 1 < categoryCopy.faq.length; index += 2) {
     faqPairs.push({ q: categoryCopy.faq[index], a: categoryCopy.faq[index + 1] });
   }
-  const localizedFaq = [...LOCALIZED_FAQ_COMMON[locale], ...faqPairs].slice(0, 8);
+  const localizedFaq = [...LOCALIZED_FAQ_COMMON[locale], ...faqPairs].slice(0, 5);
+  const localizedToolFaq: Record<Exclude<LocaleCode, 'en'>, { purpose: string; workflow: string; checks: string }> = {
+    pt: { purpose: 'Para que serve {tool}?', workflow: 'Como usar {tool}?', checks: 'O que devo verificar antes de usar o resultado de {tool}?' },
+    es: { purpose: '¿Para qué sirve {tool}?', workflow: '¿Cómo se usa {tool}?', checks: '¿Qué debo revisar antes de usar el resultado de {tool}?' },
+    de: { purpose: 'Wofür wird {tool} verwendet?', workflow: 'Wie verwende ich {tool}?', checks: 'Was sollte ich prüfen, bevor ich das Ergebnis von {tool} verwende?' },
+    fr: { purpose: 'À quoi sert {tool} ?', workflow: 'Comment utiliser {tool} ?', checks: 'Que faut-il vérifier avant d’utiliser le résultat de {tool} ?' },
+    it: { purpose: 'A cosa serve {tool}?', workflow: 'Come si usa {tool}?', checks: 'Cosa verificare prima di usare il risultato di {tool}?' },
+    ja: { purpose: '{tool}は何に使いますか？', workflow: '{tool}の使い方は？', checks: '{tool}の結果を使う前に何を確認すべきですか？' },
+    ko: { purpose: '{tool}은 무엇에 사용하나요?', workflow: '{tool}은 어떻게 사용하나요?', checks: '{tool}의 결과를 사용하기 전에 무엇을 확인해야 하나요?' },
+    zh: { purpose: '{tool}有什么用途？', workflow: '如何使用{tool}？', checks: '使用{tool}的结果前应检查什么？' },
+    ru: { purpose: 'Для чего нужен инструмент «{tool}»?', workflow: 'Как пользоваться инструментом «{tool}»?', checks: 'Что проверить перед использованием результата инструмента «{tool}»?' },
+    ar: { purpose: 'ما فائدة {tool}؟', workflow: 'كيف أستخدم {tool}؟', checks: 'ما الذي يجب التحقق منه قبل استخدام نتيجة {tool}؟' },
+    hi: { purpose: '{tool} का उपयोग किस लिए होता है?', workflow: '{tool} का उपयोग कैसे करें?', checks: '{tool} के परिणाम का उपयोग करने से पहले क्या जाँचें?' },
+  };
+  const toolFaq = localizedToolFaq[locale];
+  const localizedSpecificFaq: ToolFaq[] = [
+    { q: toolFaq.purpose.replace('{tool}', localName), a: localIntro + ' ' + categoryCopy.useCases.slice(0, 2).join(' ') },
+    { q: toolFaq.workflow.replace('{tool}', localName), a: categoryCopy.steps.join(' ') },
+    { q: toolFaq.checks.replace('{tool}', localName), a: categoryCopy.tips.join(' ') + ' ' + categoryCopy.limitations[0] },
+  ];
   const localIntro = localName + ': ' + categoryCopy.why;
 
   return {
@@ -686,10 +705,10 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     useCases: categoryCopy.useCases,
     tips: categoryCopy.tips,
     limitations: categoryCopy.limitations,
-    faq: localizedFaq,
+    faq: [...localizedSpecificFaq, ...localizedFaq].slice(0, 8),
     visual: base.visual,
     articleSections: [
-      { heading: labels.what, paragraphs: [localIntro, categoryCopy.why] },
+      { heading: labels.what + ': ' + localName, paragraphs: [localIntro, categoryCopy.why] },
       { heading: labels.uses, paragraphs: [categoryCopy.useCases.join(' ')], bullets: categoryCopy.useCases },
       { heading: labels.practices, paragraphs: [categoryCopy.tips.join(' ')], bullets: categoryCopy.tips },
       { heading: labels.limits, paragraphs: [categoryCopy.limitations.join(' ')], bullets: categoryCopy.limitations },
