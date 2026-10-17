@@ -65,8 +65,10 @@ async function check(url, locale) {
       const descriptionTag = tags.find((tag) =>
         tag.startsWith('<meta') && (attribute(tag, 'name') || '').toLowerCase() === 'description');
       const description = descriptionTag ? attribute(descriptionTag, 'content') : '';
-      assert(description && description.trim().length >= 40 && description.trim().length <= 330,
-        url + ': missing, too-short, or too-long meta description');
+      // CJK languages express the same useful intent in fewer characters than Latin-script languages.
+      const minDescriptionLength = ['ja', 'ko', 'zh'].includes(locale) ? 15 : 40;
+      assert(description && description.trim().length >= minDescriptionLength && description.trim().length <= 330,
+        url + ': missing, too-short, or too-long meta description (' + (description?.trim().length || 0) + ' chars; minimum ' + minDescriptionLength + ')');
 
       const canonicalTag = tags.find((tag) =>
         tag.startsWith('<link') && (attribute(tag, 'rel') || '').toLowerCase() === 'canonical');
