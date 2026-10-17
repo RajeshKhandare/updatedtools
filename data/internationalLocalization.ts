@@ -157,6 +157,27 @@ function generateLocalizedName(tool: ToolMeta, locale: Exclude<LocaleCode, 'en'>
     return templates[locale];
   }
 
+  // Unit converters such as "Length Converter" need a localized converter noun;
+  // translating only "Length" creates a vague one- or two-character H1 in CJK locales.
+  const simpleConverter = tool.name.match(/^(.+) Converter$/);
+  if (simpleConverter) {
+    const subject = terms[simpleConverter[1]] || simpleConverter[1];
+    const templates: Record<string, string> = {
+      pt: `Conversor de ${subject}`,
+      es: `Convertidor de ${subject}`,
+      de: `${subject}-Umrechner`,
+      fr: `Convertisseur de ${subject}`,
+      it: `Convertitore di ${subject}`,
+      ja: `${subject}変換ツール`,
+      ko: `${subject} 변환기`,
+      zh: `${subject}转换器`,
+      ru: `Конвертер ${subject}`,
+      ar: `محول ${subject}`,
+      hi: `${subject} कन्वर्टर`,
+    };
+    return templates[locale];
+  }
+
   const onlineCompiler = tool.name.match(/^Online (.+) Compiler$/);
   if (onlineCompiler) {
     const language = onlineCompiler[1];
