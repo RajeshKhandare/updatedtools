@@ -102,5 +102,6 @@ if (errors.length) {
 
 console.log(`Tool SEO structure OK: ${entries.length} regular tools × ${locales.length} locales = ${entries.length * locales.length} route/content pairs.`);
 console.log('Verified: unique source slugs/target keywords, source descriptions, English metadata/H1 templates, localized metadata lookup, and 11 explicit Merge PDF translations.');
+console.log(`Localized category guide coverage OK: ${Object.keys(categoryCoverage).length} locales × ${expectedCategories.length} categories = ${Object.values(categoryCoverage).reduce((total, categories) => total + categories.length, 0)} locale-category checks.`);
 for (const warning of warnings) console.warn(`SEO QUALITY GAP: ${warning}`);
 console.log('Note: structural checks do not certify native-speaker quality. Warnings must be resolved before claiming every localized guide is bespoke.');
