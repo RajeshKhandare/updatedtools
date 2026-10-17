@@ -690,13 +690,12 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     hi: { purpose: '{tool} का उपयोग किस लिए होता है?', workflow: '{tool} का उपयोग कैसे करें?', checks: '{tool} के परिणाम का उपयोग करने से पहले क्या जाँचें?' },
   };
   const toolFaq = localizedToolFaq[locale];
+  const localIntro = localName + ': ' + categoryCopy.why;
   const localizedSpecificFaq: ToolFaq[] = [
     { q: toolFaq.purpose.replace('{tool}', localName), a: localIntro + ' ' + categoryCopy.useCases.slice(0, 2).join(' ') },
     { q: toolFaq.workflow.replace('{tool}', localName), a: categoryCopy.steps.join(' ') },
     { q: toolFaq.checks.replace('{tool}', localName), a: categoryCopy.tips.join(' ') + ' ' + categoryCopy.limitations[0] },
   ];
-  const localIntro = localName + ': ' + categoryCopy.why;
-
   return {
     heroIntro: localIntro,
     intro: localIntro + ' ' + categoryCopy.useCases.join(' '),
