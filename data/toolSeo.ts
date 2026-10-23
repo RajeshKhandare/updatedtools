@@ -862,32 +862,29 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
     {
       heading: 'How to use ' + tool.name + ' step by step',
       paragraphs: [
-        'Use the following workflow for ' + tool.name + ': start with the correct source input, choose only the options relevant to the intended result, run the operation, and inspect the output before downloading or reusing it.',
-        steps.join(' '),
+        tool.name + ' workflow: ' + steps.slice(0, 3).join(' '),
+        'Before using the generated result, check it against the real schedule or task constraints that apply to ' + tool.name + '.',
       ].filter(Boolean),
       bullets: steps,
     },
     {
       heading: headings.uses,
       paragraphs: [
-        'Common situations for ' + tool.name + ' include the following. Choose the example that matches your actual input and destination; requirements can differ between websites, apps, workplaces, and personal projects.',
-        examples.join(' '),
+        'Use ' + tool.name + ' for scenarios such as ' + examples.slice(0, 2).map((item) => item.charAt(0).toLocaleLowerCase() + item.slice(1).replace(/[.!?]+$/g, '')).join(' and ') + '.',
       ].filter(Boolean),
       bullets: examples,
     },
     {
       heading: headings.practices,
       paragraphs: [
-        'For reliable results, check the input before processing, keep a recoverable original when the operation changes or converts data, and compare the output with the intended task. The checks below are tailored to this tool.',
-        tips.join(' '),
+        tool.name + ' benefits from these checks: ' + tips.slice(0, 3).join(' '),
       ].filter(Boolean),
       bullets: tips,
     },
     {
       heading: headings.limits,
       paragraphs: [
-        'The result from ' + tool.name + ' depends on the source input, the supported features, and the selected settings. Do not assume that a successful operation guarantees acceptance by another service or suitability for a high-stakes decision.',
-        limits.join(' '),
+        'Before relying on ' + tool.name + ', consider these constraints: ' + limits.slice(0, 2).join(' '),
       ].filter(Boolean),
       bullets: limits,
     },
@@ -902,7 +899,7 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
   if (seo.formula) {
     sections.push({
       heading: 'Formula, assumptions, or output interpretation',
-      paragraphs: [seo.formula, 'Use the stated assumptions consistently and independently verify the result when it affects a financial, technical, legal, or other important decision.'],
+      paragraphs: [seo.formula, 'For ' + tool.name + ', apply the stated assumptions consistently and independently verify the result when it affects an important decision. ' + (seo.why || '')],
     });
   }
   return { ...seo, articleSections: sections };
