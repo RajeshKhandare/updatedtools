@@ -76,9 +76,7 @@ jobs:
               }
               const lastSuccessful = rows.find((candidate) =>
                 candidate.includes('Build:</b> Success') && candidate.includes('Deployment:</b> Success'));
-              const deployedCommit = (lastSuccessful?.split('<td>').slice(1) || [])
-                .map((cell) => cell.split('</td>')[0])
-                .find((value) => /^[0-9a-f]{7}$/.test(value));
+              const deployedCommit = lastSuccessful?.match(/<tt>([0-9a-f]{7})<\\/tt>/)?.[1];
               if (deployedCommit && deployedCommit !== expected) {
                 const comparison = await github.rest.repos.compareCommits({
                   owner: context.repo.owner,
