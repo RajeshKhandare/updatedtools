@@ -524,18 +524,67 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
     ],
     tips: [...profile.tips, ...focus.mistakes.map((mistake) => 'Avoid: ' + mistake)],
     limitations: profile.limitations,
-    faq: makeFaqs(tool, [
-      { q: 'What can I use ' + tool.name + ' for?', a: 'Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result.' },
-      { q: 'Does ' + tool.name + ' require an account or installation?', a: 'The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations.' },
-      { q: 'What should I check before using the output from ' + tool.name + '?', a: 'Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow.' },
-      ...focus.faq,
-    ]),
+    faq: toolFaq,
     articleSections: [
-      { heading: 'What ' + tool.name + ' does', paragraphs: [focus.focus, tool.description + ' The workflow is most useful when the input is ready and the expected output is clear; check the result against the task you intended to complete.'] },
-      { heading: 'Common ways to use ' + tool.name, paragraphs: [tool.name + ' is commonly used for the following tasks. Choose the example closest to your goal and confirm that the available options match your input.'], bullets: focus.examples.length ? focus.examples : ['Complete a quick one-off task without installing a separate desktop utility.', 'Prepare an output for another application or workflow.', 'Check an intermediate result before continuing a larger project.'] },
-      { heading: 'Best practices and common mistakes', paragraphs: ['For reliable results with ' + tool.name + ', prepare the input first, confirm the settings that affect the output, and inspect the result before using it. Avoid the following mistakes when they apply to your workflow.'], bullets: [...profile.tips.slice(0, 3), ...focus.mistakes.slice(0, 3).map((item) => 'Avoid: ' + item)] },
-      { heading: 'Limitations and final checks', paragraphs: ['The output from ' + tool.name + ' can vary with input quality, supported options, and browser or device limits. Keep the original and independently verify important results before sharing or relying on them.'], bullets: profile.limitations.slice(0, 4) },
-    ],
+      {
+        heading: 'What ' + tool.name + ' does',
+        paragraphs: [
+          focus.focus,
+          tool.description + ' This guide covers the workflow, practical uses, quality checks, and limitations relevant to this task.'
+        ],
+        bullets: [tool.description, tool.targetKeyword ? 'Primary search intent: ' + tool.targetKeyword : 'Primary task: ' + tool.name]
+      },
+      {
+        heading: 'How to use ' + tool.name + ' step by step',
+        paragraphs: [
+          'Start with a valid input, choose the options that match your goal, run the operation, and inspect the output before you reuse or download it.',
+          'The exact choices depend on the input and destination. Follow any requirements shown by the tool and verify the result in the application where it will be used.'
+        ],
+        bullets: [
+          'Open ' + tool.name + ' and identify the required input format or values.',
+          'Enter or select the input and review every available option.',
+          'Run the operation and inspect the result.',
+          'Download, copy, or reuse the output only after checking it against the original requirement.'
+        ]
+      },
+      {
+        heading: 'Practical use cases for ' + tool.name,
+        paragraphs: [
+          tool.name + ' can support focused, repeatable tasks in everyday and professional workflows. Choose the example that matches your actual input and destination; requirements can differ between tools and receiving services.'
+        ],
+        bullets: focus.examples.length ? focus.examples : [
+          'Complete a focused one-off ' + tool.name.toLowerCase() + ' task.',
+          'Prepare an output for another application or workflow.',
+          'Check an intermediate result before continuing a larger project.'
+        ]
+      },
+      {
+        heading: 'Best practices and common mistakes',
+        paragraphs: [
+          'For reliable results with ' + tool.name + ', prepare the input first, confirm the settings that affect the output, and inspect the result before using it. The checks below combine category guidance with mistakes specific to this tool.'
+        ],
+        bullets: [
+          ...profile.tips.slice(0, 3),
+          ...focus.mistakes.slice(0, 3).map((item) => 'Avoid: ' + item)
+        ]
+      },
+      {
+        heading: 'Limitations and final quality checks',
+        paragraphs: [
+          'The output from ' + tool.name + ' can vary with input quality, supported features, and browser or device limits. A successful operation does not guarantee that another application or service will accept the result; verify important outputs before sharing or relying on them.'
+        ],
+        bullets: [
+          ...profile.limitations.slice(0, 4),
+          'Keep a recoverable original when the operation changes or converts data.',
+          'Check the final output against the intended task and destination requirements.'
+        ]
+      },
+      {
+        heading: 'Frequently asked questions about ' + tool.name,
+        paragraphs: toolFaq.map((item) => item.q + ' ' + item.a),
+        bullets: toolFaq.map((item) => item.q)
+      }
+    ]
     visual: profile.visual,
   };
 }
