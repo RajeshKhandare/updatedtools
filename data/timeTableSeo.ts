@@ -60,6 +60,20 @@ const LOCAL_LIMITATIONS:Record<Exclude<LocaleCode,'en'>,string[]> = {
  hi:['यह planning template है; इस्तेमाल से पहले वास्तविक समय, कमरा, शिफ्ट और दूसरी practical constraints जरूर जाँचें।','प्रिंट करने या final schedule की तरह इस्तेमाल करने से पहले generated timetable review करें.']
 };
 
+const LOCALIZED_TIMETABLE_FAQ:Record<Exclude<LocaleCode,'en'>,{personalizeQuestion:string;personalizeAnswer:string;downloadQuestion:string;downloadAnswer:string}> = {
+ pt:{personalizeQuestion:'posso personalizar o horário?',personalizeAnswer:'Sim. Edite as células e adicione o seu próprio título, nota ou frase.',downloadQuestion:'Posso imprimir ou exportar o horário?',downloadAnswer:'Sim. Reveja o horário e use as opções de impressão ou exportação disponíveis na ferramenta.'},
+ es:{personalizeQuestion:'¿puedo personalizar el horario?',personalizeAnswer:'Sí. Edita las celdas y añade tu propio título, nota o frase.',downloadQuestion:'¿Puedo imprimir o exportar el horario?',downloadAnswer:'Sí. Revisa el horario y utiliza las opciones de impresión o exportación disponibles en la herramienta.'},
+ de:{personalizeQuestion:'Kann ich den Stundenplan personalisieren?',personalizeAnswer:'Ja. Bearbeite die Zellen und füge einen eigenen Titel, eine Notiz oder einen Spruch hinzu.',downloadQuestion:'Kann ich den Stundenplan drucken oder exportieren?',downloadAnswer:'Ja. Prüfe den Plan und nutze die verfügbaren Druck- oder Exportoptionen des Tools.'},
+ fr:{personalizeQuestion:'Puis-je personnaliser le planning ?',personalizeAnswer:'Oui. Modifiez les cellules et ajoutez votre titre, votre note ou votre citation.',downloadQuestion:'Puis-je imprimer ou exporter le planning ?',downloadAnswer:'Oui. Vérifiez le planning et utilisez les options d’impression ou d’export proposées par l’outil.'},
+ it:{personalizeQuestion:'Posso personalizzare l’orario?',personalizeAnswer:'Sì. Modifica le celle e aggiungi un titolo, una nota o una frase personale.',downloadQuestion:'Posso stampare o esportare l’orario?',downloadAnswer:'Sì. Controlla l’orario e usa le opzioni di stampa o esportazione disponibili nello strumento.'},
+ ja:{personalizeQuestion:'時間割をカスタマイズできますか？',personalizeAnswer:'はい。各セルを編集し、独自のタイトル、メモ、メッセージを追加できます。',downloadQuestion:'時間割を印刷または書き出せますか？',downloadAnswer:'はい。内容を確認してから、ツールで利用できる印刷または書き出し機能を使用してください。'},
+ ko:{personalizeQuestion:'시간표를 맞춤 설정할 수 있나요?',personalizeAnswer:'네. 셀을 수정하고 원하는 제목, 메모 또는 문구를 추가할 수 있습니다.',downloadQuestion:'시간표를 인쇄하거나 내보낼 수 있나요?',downloadAnswer:'네. 내용을 확인한 다음 도구에서 제공하는 인쇄 또는 내보내기 옵션을 사용하세요.'},
+ zh:{personalizeQuestion:'可以自定义时间表吗？',personalizeAnswer:'可以。您可以编辑单元格，并添加自己的标题、备注或短句。',downloadQuestion:'可以打印或导出时间表吗？',downloadAnswer:'可以。请先检查内容，再使用工具提供的打印或导出选项。'},
+ ru:{personalizeQuestion:'Можно ли настроить расписание?',personalizeAnswer:'Да. Изменяйте ячейки и добавляйте собственный заголовок, заметку или фразу.',downloadQuestion:'Можно ли распечатать или экспортировать расписание?',downloadAnswer:'Да. Проверьте расписание и воспользуйтесь доступными в инструменте параметрами печати или экспорта.'},
+ ar:{personalizeQuestion:'هل يمكنني تخصيص الجدول؟',personalizeAnswer:'نعم. يمكنك تعديل الخلايا وإضافة عنوان أو ملاحظة أو عبارة من اختيارك.',downloadQuestion:'هل يمكن طباعة الجدول أو تصديره؟',downloadAnswer:'نعم. راجع الجدول ثم استخدم خيارات الطباعة أو التصدير المتاحة في الأداة.'},
+ hi:{personalizeQuestion:'क्या मैं टाइम टेबल को अपनी जरूरत के अनुसार बदल सकता हूँ?',personalizeAnswer:'हाँ। सेल एडिट करें और अपना शीर्षक, नोट या संदेश जोड़ें।',downloadQuestion:'क्या टाइम टेबल प्रिंट या एक्सपोर्ट कर सकते हैं?',downloadAnswer:'हाँ। पहले टाइम टेबल जाँचें, फिर टूल में उपलब्ध प्रिंट या एक्सपोर्ट विकल्प इस्तेमाल करें।'}
+};
+
 export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoContent{
  const d=TT_DETAILS[tool.slug]||TT_DETAILS['timetable-maker'];
  const name=locale==='en'?tool.name:(getTimeTableLocalizedName(tool.slug,locale)||tool.name);
@@ -90,8 +104,8 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    limitations:LOCAL_LIMITATIONS[locale],
    faq:[
      ...c!.faq.map(([q,a])=>({q,a})),
-     ...d.faq.map(([q,a])=>({q:q+' — '+name,a})),
-     {q:name+': ¿puedo personalizar el horario?',a:'Sí. Puedes editar las celdas y añadir una nota o frase personal.'}
+     {q:name+': '+LOCALIZED_TIMETABLE_FAQ[locale].personalizeQuestion,a:LOCALIZED_TIMETABLE_FAQ[locale].personalizeAnswer},
+     {q:LOCALIZED_TIMETABLE_FAQ[locale].downloadQuestion,a:LOCALIZED_TIMETABLE_FAQ[locale].downloadAnswer}
    ].slice(0,6),
    visual:'workflow'
  };
