@@ -654,21 +654,89 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
   if (seo.articleSections?.length) return seo;
   const isEnglish = locale === 'en';
   const headings = isEnglish
-    ? { what: 'What ' + tool.name + ' does', uses: 'Common ways to use ' + tool.name, practices: 'Best practices and common mistakes', limits: 'Limitations and final checks' }
+    ? {
+        what: 'What ' + tool.name + ' does',
+        workflow: 'How to use ' + tool.name + ' step by step',
+        uses: 'Practical use cases for ' + tool.name,
+        practices: 'Best practices and common mistakes',
+        limits: 'Limitations and final quality checks',
+        faq: 'Frequently asked questions about ' + tool.name,
+      }
     : LOCALIZED_GUIDE_HEADINGS[locale];
   const intro = seo.heroIntro || seo.intro || tool.description;
   const examples = seo.useCases || [];
+  const steps = seo.steps || [];
   const tips = seo.tips || [];
   const limits = seo.limitations || [];
-  return {
-    ...seo,
-    articleSections: [
-      { heading: headings.what, paragraphs: [intro, seo.why || intro] },
-      { heading: headings.uses, paragraphs: [isEnglish ? 'Choose the workflow that matches your input and intended output. Examples are common starting points; review the result for your specific task.' : examples.join(' ')], bullets: examples },
-      { heading: headings.practices, paragraphs: [isEnglish ? 'Use clear inputs, review settings before processing, and inspect the output before relying on it.' : tips.join(' ')], bullets: tips },
-      { heading: headings.limits, paragraphs: [isEnglish ? 'Results depend on input quality, tool capabilities, and the browser or device. Keep the original and independently verify important outputs.' : limits.join(' ')], bullets: limits },
-    ],
-  };
+  const faq = seo.faq || [];
+  if (!isEnglish) {
+    return {
+      ...seo,
+      articleSections: [
+        { heading: headings.what, paragraphs: [intro, seo.why || intro] },
+        { heading: headings.uses, paragraphs: [examples.join(' ')], bullets: examples },
+        { heading: headings.practices, paragraphs: [tips.join(' ')], bullets: tips },
+        { heading: headings.limits, paragraphs: [limits.join(' ')], bullets: limits },
+      ],
+    };
+  }
+
+  // Build the English long-form guide from each tool's own profile. This keeps
+  // the article specific to the tool rather than filling pages with generic SEO copy.
+  const faqParagraphs = faq.map((item) => item.q + ' ' + item.a);
+  const sections: ToolSeoArticleSection[] = [
+    {
+      heading: headings.what,
+      paragraphs: [intro, seo.why || intro],
+      bullets: [tool.description, tool.targetKeyword ? 'Primary search intent: ' + tool.targetKeyword : 'Primary search intent: ' + tool.name],
+    },
+    {
+      heading: headings.workflow,
+      paragraphs: [
+        'Use the following workflow for ' + tool.name + ': start with the correct source input, choose only the options relevant to the intended result, run the operation, and inspect the output before downloading or reusing it.',
+        steps.join(' '),
+      ].filter(Boolean),
+      bullets: steps,
+    },
+    {
+      heading: headings.uses,
+      paragraphs: [
+        'Common situations for ' + tool.name + ' include the following. Choose the example that matches your actual input and destination; requirements can differ between websites, apps, workplaces, and personal projects.',
+        examples.join(' '),
+      ].filter(Boolean),
+      bullets: examples,
+    },
+    {
+      heading: headings.practices,
+      paragraphs: [
+        'For reliable results, check the input before processing, keep a recoverable original when the operation changes or converts data, and compare the output with the intended task. The checks below are tailored to this tool.',
+        tips.join(' '),
+      ].filter(Boolean),
+      bullets: tips,
+    },
+    {
+      heading: headings.limits,
+      paragraphs: [
+        'The result from ' + tool.name + ' depends on the source input, the supported features, and the selected settings. Do not assume that a successful operation guarantees acceptance by another service or suitability for a high-stakes decision.',
+        limits.join(' '),
+      ].filter(Boolean),
+      bullets: limits,
+    },
+    {
+      heading: headings.faq,
+      paragraphs: faqParagraphs.length
+        ? faqParagraphs
+        : ['For ' + tool.name + ', check the input requirements, supported options, and output before relying on the result.'],
+      bullets: faq.map((item) => item.q),
+    },
+  ];
+  if (seo.formula) {
+    sections.push({
+      heading: 'Formula, assumptions, or output interpretation',
+      paragraphs: [seo.formula, 'Use the stated assumptions consistently and independently verify the result when it affects a financial, technical, legal, or other important decision.'],
+    });
+  }
+  return { ...seo, articleSections: sections };
 }
 
 type LocalizedTaskKey =
