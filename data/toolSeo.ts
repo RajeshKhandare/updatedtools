@@ -584,7 +584,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         paragraphs: toolFaq.map((item) => item.q + ' ' + item.a),
         bullets: toolFaq.map((item) => item.q)
       }
-    ]
+    ],
     visual: profile.visual,
   };
 }
