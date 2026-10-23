@@ -122,9 +122,9 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
  };
  const localizedLead=name+': '+localizedFocus;
  return {
-   heroIntro:localizedLead+' '+c!.intro,
-   intro:localizedLead+' '+c!.intro+' '+c!.why,
-   why:localizedLead+' '+c!.why,
+   heroIntro:localizedLead,
+   intro:localizedLead,
+   why:localizedLead,
    steps:c!.steps,
    useCases:c!.useCases,
    tips,
