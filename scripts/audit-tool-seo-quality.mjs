@@ -115,7 +115,7 @@ for (let index = 0; index < profileHeaders.length; index += 1) {
   };
   const exampleCount = countArrayStrings('examples');
   const mistakeCount = countArrayStrings('mistakes');
-  const faqCount = (block.match(/\\{\\s*q:/g) || []).length;
+  const faqCount = (block.match(/\{\s*q:/g) || []).length;
   if (exampleCount < 3) errors.push(`${current.slug}: expected at least 3 tool-specific examples; found ${exampleCount}`);
   if (mistakeCount < 3) errors.push(`${current.slug}: expected at least 3 tool-specific common mistakes; found ${mistakeCount}`);
   if (faqCount < 1) errors.push(`${current.slug}: at least 1 tool-specific FAQ is required`);
