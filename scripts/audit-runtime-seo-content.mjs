@@ -186,7 +186,9 @@ if (warnings.length) {
   for (const warning of warnings.slice(0, 30)) console.warn(JSON.stringify(warning));
 }
 if (errors.length) {
-  console.error('Runtime SEO content audit FAILED (' + errors.length + ' errors); first 80:');
+  const errorCounts = {};
+  for (const error of errors) errorCounts[error.type] = (errorCounts[error.type] ?? 0) + 1;
+  console.error('Runtime SEO content audit FAILED (' + errors.length + ' errors). Error counts: ' + JSON.stringify(errorCounts) + '; first 80:');
   for (const error of errors.slice(0, 80)) console.error(JSON.stringify(error));
   process.exit(1);
 }
