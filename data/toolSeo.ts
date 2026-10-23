@@ -708,7 +708,7 @@ const LOCALIZED_GUIDE_HEADINGS: Record<Exclude<LocaleCode, 'en'>, { what: string
 function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: LocaleCode): ToolSeoContent {
   // Preserve long-form authored guides (Merge PDF, festival guides, and fully structured profiles),
   // but fill the complete benchmark section set when a generated/localized guide is incomplete.
-  if (seo.articleSections && seo.articleSections.length >= 6) return seo;
+  if (seo.articleSections && seo.articleSections.length >= 6 && seo.articleSections.every((section) => String(section.heading ?? '').trim())) return seo;
   const isEnglish = locale === 'en';
   const headings = isEnglish
     ? {
