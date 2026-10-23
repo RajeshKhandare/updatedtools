@@ -124,8 +124,8 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    heroIntro:c!.intro+' '+localizedFocus,
    intro:c!.intro+' '+localizedFocus+' '+c!.why,
    why:c!.why+' '+localizedFocus,
-   steps:[...c!.steps,localizedFocus],
-   useCases:[...c!.useCases,localizedFocus],
+   steps:c!.steps,
+   useCases:c!.useCases,
    tips,
    limitations:LOCAL_LIMITATIONS[locale],
    faq:[
