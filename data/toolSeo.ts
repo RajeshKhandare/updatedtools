@@ -515,6 +515,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
   }
 
   const profile = categoryProfiles[tool.category] || categoryProfiles.Developer;
+  const phrase = (value: string) => value.trim().replace(/[.!?]+$/g, '').replace(/^([A-Z])/, (letter) => letter.toLocaleLowerCase());
   const toolFaq = makeFaqs(tool, [
     { q: 'What can I use ' + tool.name + ' for?', a: 'Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result.' },
     { q: 'Does ' + tool.name + ' require an account or installation?', a: 'The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations.' },
@@ -545,15 +546,14 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         heading: 'What ' + tool.name + ' does',
         paragraphs: [
           focus.focus,
-          tool.description + ' This guide covers the workflow, practical uses, quality checks, and limitations relevant to this task.'
+          'Use ' + tool.name + ' when you need to ' + phrase(focus.examples[0] || tool.description) + '. Review the output against the intended task before sharing or reusing it.'
         ],
         bullets: [tool.description, tool.targetKeyword ? 'Primary search intent: ' + tool.targetKeyword : 'Primary task: ' + tool.name]
       },
       {
         heading: 'How to use ' + tool.name + ' step by step',
         paragraphs: [
-          'Start with a valid input, choose the options that match your goal, run the operation, and inspect the output before you reuse or download it.',
-          'The exact choices depend on the input and destination. Follow any requirements shown by the tool and verify the result in the application where it will be used.'
+          'A practical workflow for ' + tool.name + ' includes ' + phrase(focus.examples[1] || focus.examples[0] || tool.description) + '. Before finalizing, check for issues such as ' + phrase(focus.mistakes[1] || focus.mistakes[0] || 'skipping the final review') + ' and verify that the output suits its destination.'
         ],
         bullets: [
           'Open ' + tool.name + ' and identify the required input format or values.',
@@ -748,23 +748,22 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
           heading: headings.workflow,
           paragraphs: [
             'Follow these steps for ' + getLocalizedToolName(tool, locale) + ': prepare the input, choose the relevant options, run the operation, and review the output before using it.',
-            steps.join(' '),
           ].filter(Boolean),
           bullets: steps,
         },
         {
           heading: headings.uses,
-          paragraphs: [examples.join(' ')].filter(Boolean),
+          paragraphs: ['Examples for ' + getLocalizedToolName(tool, locale) + ': ' + examples.slice(0, 2).join(' ')].filter(Boolean),
           bullets: examples,
         },
         {
           heading: headings.practices,
-          paragraphs: [tips.join(' ')].filter(Boolean),
+          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + tips.slice(0, 2).join(' ')].filter(Boolean),
           bullets: tips,
         },
         {
           heading: headings.limits,
-          paragraphs: [limits.join(' ')].filter(Boolean),
+          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + limits.slice(0, 2).join(' ')].filter(Boolean),
           bullets: limits,
         },
         {
