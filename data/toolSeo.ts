@@ -580,10 +580,9 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         {
           heading: 'Formula, assumptions, or output interpretation',
           paragraphs: [
-            detail.formula,
             'For ' + tool.name + ', change one assumption at a time and independently verify the result when it affects a financial or other important decision. ' + detail.why
           ],
-          bullets: [detail.formula, 'Record the inputs, units, and assumptions used for the estimate.']
+          bullets: ['Record the inputs, units, and assumptions used for the estimate.']
         }
       ],
       visual: 'finance',
