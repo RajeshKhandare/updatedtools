@@ -64,6 +64,14 @@ for (const locale of ['pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar'
 if (!/minUsefulLength/.test(localizedPage)) errors.push('Localized metadata does not expand short search snippets');
 
 if (!/LOCALIZED_GENERIC/.test(seoSource) || !/GENERATED_LOCALIZED_TOOL_SEO\[locale\]\?\.\[tool\.slug\]/.test(seoSource)) errors.push('Localized fallback/translation lookup is missing');
+if (!/const LOCALIZED_GUIDE_LEADS/.test(seoSource)) errors.push('Localized guide lead-in translations are missing.');
+if (seoSource.includes("'Follow these steps for ' + getLocalizedToolName") || seoSource.includes("'Examples for ' + getLocalizedToolName")) errors.push('English workflow/use-case lead-ins leak into localized SEO guides.');
+if (!/bullets: \[seo\.heroIntro \|\| seo\.intro \|\| tool\.description\]/.test(seoSource)) errors.push('Localized guide still uses the English registry description as its first explanatory bullet.');
+const timetableSource = fs.readFileSync('data/timeTableSeo.ts', 'utf8');
+if (!/intro:c!\.intro\+' '\+c!\.why/.test(timetableSource) || !/why:c!\.why/.test(timetableSource) || !/steps:c!\.steps/.test(timetableSource) || !/useCases:c!\.useCases/.test(timetableSource)) {
+  errors.push('Localized timetable guides must use the selected locale for intro, explanation, steps, and use cases.');
+}
+
 
 const emptyLocaleMaps = [...seoSource.matchAll(/\b(es|de|fr|it|ja|ko|zh|ru|ar|hi):\s*\{\s*\}/g)].map((match) => match[1]);
 if (emptyLocaleMaps.length) warnings.push(`No category-specific translation overrides currently defined for: ${emptyLocaleMaps.join(', ')}. These locales use translated generic fallback for many tools.`);
