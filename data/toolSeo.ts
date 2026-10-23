@@ -291,7 +291,16 @@ const getToolFocus = (tool: ToolMeta): { focus: string; examples: string[]; mist
     'youtube-money-calculator': { examples: ['Model revenue at different view counts.', 'Compare RPM assumptions.', 'Separate gross ad-revenue estimates from actual channel income.'], mistakes: ['Treating RPM as fixed.', 'Ignoring geography, monetization eligibility, ad inventory, and revenue sources.', 'Presenting an estimate as guaranteed earnings.'], faq: [{ q: 'Why can actual YouTube earnings differ from a calculator?', a: 'Actual earnings can vary with RPM, audience geography, monetized views, ad demand, content type, seasonality, platform revenue sharing, taxes, and other factors.' }] },
   };
 
-  if (profiles[s]) return { focus: base.focus, ...profiles[s] };
+  if (profiles[s]) {
+    const profile = profiles[s];
+    const phrase = (value: string) => value.trim().replace(/[.!?]+$/g, '').replace(/^([A-Z])/, (letter) => letter.toLocaleLowerCase());
+    const specificFocus = [
+      base.focus,
+      profile.examples[0] ? 'For example, use it to ' + phrase(profile.examples[0]) + '.' : '',
+      profile.examples[1] ? 'It can also help you ' + phrase(profile.examples[1]) + '.' : '',
+    ].filter(Boolean).join(' ');
+    return { focus: specificFocus, ...profile };
+  }
   return {
     ...base,
     examples: ['Use the tool for the specific workflow described on this page.', 'Compare at least one alternative input or output before finalizing the result.'],
@@ -556,7 +565,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       {
         heading: 'Practical use cases for ' + tool.name,
         paragraphs: [
-          tool.name + ' can support focused, repeatable tasks in everyday and professional workflows. Choose the example that matches your actual input and destination; requirements can differ between tools and receiving services.'
+          'Examples for ' + tool.name + ': ' + (focus.examples.length ? focus.examples.slice(0, 2).join(' ') : tool.description)
         ],
         bullets: focus.examples.length ? focus.examples : [
           'Complete a focused one-off ' + tool.name.toLowerCase() + ' task.',
@@ -567,7 +576,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       {
         heading: 'Best practices and common mistakes',
         paragraphs: [
-          'For reliable results with ' + tool.name + ', prepare the input first, confirm the settings that affect the output, and inspect the result before using it. The checks below combine category guidance with mistakes specific to this tool.'
+          'Common mistakes for ' + tool.name + ' include: ' + focus.mistakes.slice(0, 2).join(' ') + ' Check the relevant settings and review the result before saving or sharing it.'
         ],
         bullets: [
           ...profile.tips.slice(0, 3),
@@ -577,7 +586,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       {
         heading: 'Limitations and final quality checks',
         paragraphs: [
-          'The output from ' + tool.name + ' can vary with input quality, supported features, and browser or device limits. A successful operation does not guarantee that another application or service will accept the result; verify important outputs before sharing or relying on them.'
+          tool.name + ' should be checked for task-specific issues before the result is used. ' + (focus.mistakes[2] || 'Review the output against the original input.') + ' ' + profile.limitations[0]
         ],
         bullets: [
           ...profile.limitations.slice(0, 4),
