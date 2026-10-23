@@ -5,6 +5,7 @@ const seoSource = fs.readFileSync('data/toolSeo.ts', 'utf8');
 const localizedPage = fs.readFileSync('app/[locale]/tools/[slug]/page.tsx', 'utf8');
 const englishPage = fs.readFileSync('app/tools/[slug]/page.tsx', 'utf8');
 const englishClient = fs.readFileSync('components/EnglishToolPageClient.tsx', 'utf8');
+const seoComponent = fs.readFileSync('components/ToolSeoContent.tsx', 'utf8');
 const localeSource = fs.readFileSync('data/internationalSeo.ts', 'utf8');
 const generatedSource = fs.readFileSync('data/generatedLocalizedToolSeo.ts', 'utf8');
 const mergeGuide = fs.readFileSync('data/mergePdfLocalizedGuide.ts', 'utf8');
@@ -53,6 +54,8 @@ if (!englishPage.includes('targetKeyword') || !englishPage.includes('Toolployee'
 if (!englishClient.includes('tool.targetKeyword') || !englishClient.includes('tool.name')) errors.push('Visible English H1 is not derived from each tool target keyword/name');
 if (!/generateMetadata/.test(localizedPage) || !/getLocalizedToolSeoContent\(tool, locale\.code\)/.test(localizedPage)) errors.push('Localized metadata is not derived from localized SEO content');
 if (!/export function fitSeoMetaDescription/.test(seoSource)) errors.push('Readable meta description length helper is missing');
+if (!seoComponent.includes('const introLead = seo.intro.trim().match') || !seoComponent.includes('value.toLocaleLowerCase().startsWith(introLead.toLocaleLowerCase())')) errors.push('SEO article rendering must remove a repeated opening sentence already shown in the guide intro');
+if (!seoComponent.includes('const seenParagraphs = new Set<string>()')) errors.push('SEO article rendering must suppress duplicate paragraphs within each section');
 if (!/fitSeoMetaDescription\(rawDescription\)/.test(englishPage)) errors.push('English metadata does not use the readable description helper');
 if (!/fitSeoMetaDescription\(expandedDescription\)/.test(localizedPage)) errors.push('Localized metadata does not use the readable description helper');
 for (const locale of ['pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar', 'hi']) {
