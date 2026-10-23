@@ -40,6 +40,25 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
   const labels = SEO_LABELS[locale];
   const name = getLocalizedToolName(tool, locale);
   const category = getLocalizedCategoryLabel(tool.category, locale);
+  // Avoid repeating the hero/intro sentence when a generated article section starts
+  // with the same copy. Keep the section's remaining useful explanation intact.
+  const introLead = seo.intro.trim().match(/^.*?[.!?](?=\s|$)/)?.[0]?.trim();
+  const articleSections = seo.articleSections?.map((section) => {
+    const seenParagraphs = new Set<string>();
+    const paragraphs = section.paragraphs.map((paragraph) => {
+      let value = paragraph.trim();
+      if (introLead && value.toLocaleLowerCase().startsWith(introLead.toLocaleLowerCase())) {
+        value = value.slice(introLead.length).replace(/^\s+/, '').trim();
+      }
+      return value;
+    }).filter((paragraph) => {
+      const key = paragraph.replace(/\s+/g, ' ').toLocaleLowerCase();
+      if (!paragraph || seenParagraphs.has(key)) return false;
+      seenParagraphs.add(key);
+      return true;
+    });
+    return { ...section, paragraphs };
+  });
   return <section className="mt-14 border-t border-zinc-200/80 dark:border-zinc-800 pt-12">
     <div className="max-w-5xl mx-auto">
       <div className="mb-8">
@@ -63,8 +82,8 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
         <div className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6"><h3 className="text-lg font-bold">{labels.best}</h3><ul className="mt-4 space-y-3">{seo.tips.map(x=><li key={x} className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">• {x}</li>)}</ul></div>
         <div className="rounded-3xl border border-amber-200/80 dark:border-amber-900/40 bg-amber-50/50 dark:bg-amber-950/10 p-6"><div className="flex items-center gap-2"><ShieldCheck aria-hidden="true" className="h-5 w-5 text-amber-600"/><h3 className="text-lg font-bold">{labels.limitations}</h3></div><ul className="mt-4 space-y-3">{seo.limitations.map(x=><li key={x} className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">• {x}</li>)}</ul></div>
       </div>
-      {seo.articleSections?.length ? <div className="mt-8 space-y-6">
-        {seo.articleSections.map((section, index) => <article key={section.heading} className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8">
+      {articleSections?.length ? <div className="mt-8 space-y-6">
+        {articleSections.map((section, index) => <article key={section.heading} className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8">
           <h3 className="text-xl sm:text-2xl font-bold tracking-tight">{section.heading}</h3>
           <div className="mt-4 space-y-4">{section.paragraphs.map(paragraph => <p key={paragraph} className="text-sm sm:text-base leading-7 text-zinc-600 dark:text-zinc-400">{paragraph}</p>)}</div>
           {section.bullets?.length ? <ul className="mt-4 space-y-3">{section.bullets.map(item => <li key={item} className="flex gap-3 text-sm sm:text-base leading-7 text-zinc-600 dark:text-zinc-400"><CheckCircle2 aria-hidden="true" className="h-4 w-4 mt-1 shrink-0 text-violet-500"/><span>{item}</span></li>)}</ul> : null}
