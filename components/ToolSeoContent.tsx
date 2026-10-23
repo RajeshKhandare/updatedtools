@@ -58,7 +58,9 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
       return true;
     });
     return { ...section, paragraphs };
-  });
+  }).filter((section) => !/\\bfaq\\b|frequently asked questions|preguntas frecuentes|perguntas frequentes|häufige fragen|questions fréquentes|domande frequenti|よくある質問|자주 묻는 질문|常见问题|常见问答|часто задаваемые вопросы|الأسئلة الشائعة|अक्सर पूछे जाने वाले सवाल/i.test(section.heading));
+  // FAQs already render as accessible disclosure cards below; keep them out of the article list
+  // so the same question/answer is not printed twice on the same page.
   return <section className="mt-14 border-t border-zinc-200/80 dark:border-zinc-800 pt-12">
     <div className="max-w-5xl mx-auto">
       <div className="mb-8">
