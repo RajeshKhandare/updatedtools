@@ -814,7 +814,7 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
       articleSections: [
         {
           heading: headings.what,
-          paragraphs: [intro, seo.why || intro],
+          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (seo.why || intro)],
           bullets: [tool.description],
         },
         {
