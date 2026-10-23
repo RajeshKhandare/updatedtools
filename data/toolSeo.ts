@@ -787,6 +787,21 @@ const LOCALIZED_GUIDE_HEADINGS: Record<Exclude<LocaleCode, 'en'>, { what: string
   hi: { what: 'यह टूल क्या करता है', workflow: 'इस्तेमाल करने के चरण', uses: 'इस्तेमाल के सामान्य तरीके', practices: 'बेहतर तरीके और आम गलतियाँ', limits: 'सीमाएँ और अंतिम जाँच', faq: 'अक्सर पूछे जाने वाले सवाल' },
 };
 
+
+const LOCALIZED_GUIDE_LEADS: Record<Exclude<LocaleCode, 'en'>, { workflow: string; examples: string }> = {
+  pt: { workflow: 'Para utilizar {tool}, prepare os dados de entrada, escolha as opções adequadas, execute a operação e confira o resultado antes de usá-lo.', examples: 'Exemplos de utilização de {tool}: ' },
+  es: { workflow: 'Para utilizar {tool}, prepara los datos de entrada, elige las opciones adecuadas, ejecuta la operación y revisa el resultado antes de usarlo.', examples: 'Ejemplos de uso de {tool}: ' },
+  de: { workflow: 'Für die Verwendung von {tool} bereitest du die Eingabe vor, wählst passende Optionen, führst den Vorgang aus und prüfst das Ergebnis vor der Verwendung.', examples: 'Beispiele für die Verwendung von {tool}: ' },
+  fr: { workflow: 'Pour utiliser {tool}, préparez les données d’entrée, choisissez les options adaptées, lancez l’opération et vérifiez le résultat avant de l’utiliser.', examples: 'Exemples d’utilisation de {tool} : ' },
+  it: { workflow: 'Per usare {tool}, prepara i dati in ingresso, scegli le opzioni adatte, esegui l’operazione e controlla il risultato prima di utilizzarlo.', examples: 'Esempi di utilizzo di {tool}: ' },
+  ja: { workflow: '{tool}を使うには、入力を準備し、適切なオプションを選び、処理を実行してから、結果を使用する前に確認してください。', examples: '{tool}の使用例：' },
+  ko: { workflow: '{tool}을 사용하려면 입력을 준비하고 적절한 옵션을 선택한 다음 작업을 실행하고 결과를 사용하기 전에 확인하세요.', examples: '{tool} 사용 예시: ' },
+  zh: { workflow: '使用{tool}时，请先准备输入内容，选择合适的选项，执行操作，并在使用结果前进行检查。', examples: '{tool}的使用示例：' },
+  ru: { workflow: 'Чтобы использовать «{tool}», подготовьте входные данные, выберите подходящие параметры, выполните операцию и проверьте результат перед использованием.', examples: 'Примеры использования «{tool}»: ' },
+  ar: { workflow: 'لاستخدام {tool}، جهّز المدخلات واختر الخيارات المناسبة ونفّذ العملية ثم راجع النتيجة قبل استخدامها.', examples: 'أمثلة على استخدام {tool}: ' },
+  hi: { workflow: '{tool} इस्तेमाल करने के लिए इनपुट तैयार करें, सही विकल्प चुनें, प्रोसेस चलाएँ और परिणाम इस्तेमाल करने से पहले उसे जाँचें।', examples: '{tool} के इस्तेमाल के उदाहरण: ' },
+};
+
 function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: LocaleCode): ToolSeoContent {
   // Preserve long-form authored guides (Merge PDF, festival guides, and fully structured profiles),
   // but fill the complete benchmark section set when a generated/localized guide is incomplete.
@@ -815,18 +830,18 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
         {
           heading: headings.what,
           paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (seo.why || intro)],
-          bullets: [tool.description],
+          bullets: [seo.heroIntro || seo.intro || tool.description],
         },
         {
           heading: headings.workflow,
           paragraphs: [
-            'Follow these steps for ' + getLocalizedToolName(tool, locale) + ': prepare the input, choose the relevant options, run the operation, and review the output before using it.',
+            LOCALIZED_GUIDE_LEADS[locale].workflow.replace('{tool}', getLocalizedToolName(tool, locale)),
           ].filter(Boolean),
           bullets: steps,
         },
         {
           heading: headings.uses,
-          paragraphs: ['Examples for ' + getLocalizedToolName(tool, locale) + ': ' + examples.slice(0, 2).join(' ')].filter(Boolean),
+          paragraphs: [LOCALIZED_GUIDE_LEADS[locale].examples.replace('{tool}', getLocalizedToolName(tool, locale)) + examples.slice(0, 2).join(' ')].filter(Boolean),
           bullets: examples,
         },
         {
