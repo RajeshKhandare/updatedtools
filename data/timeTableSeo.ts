@@ -98,10 +98,10 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
  };
  return {
    heroIntro:c!.intro,
-   intro:c!.intro+' '+d.why+' '+name+' can be personalized with editable cells, a note, and a personal quote.',
-   why:d.why,
-   steps:d.steps,
-   useCases:d.useCases,
+   intro:c!.intro+' '+c!.why,
+   why:c!.why,
+   steps:c!.steps,
+   useCases:c!.useCases,
    tips,
    limitations:LOCAL_LIMITATIONS[locale],
    faq:[
