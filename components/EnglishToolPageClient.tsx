@@ -9,7 +9,15 @@ import ToolSeoContent from '@/components/ToolSeoContent';
 import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY, type ToolMeta } from '@/data/toolsRegistry';
-import { fitSeoMetaDescription } from '@/data/toolSeo';
+
+function fitVisibleDescription(value: string, maxLength = 158): string {
+  const normalized = value.replace(/\s+/g, ' ').trim();
+  if (normalized.length <= maxLength) return normalized;
+  const clipped = normalized.slice(0, maxLength - 1);
+  const lastSpace = clipped.lastIndexOf(' ');
+  const readable = lastSpace >= Math.floor(maxLength * 0.65) ? clipped.slice(0, lastSpace) : clipped;
+  return readable.replace(/[.,;:!?-]+$/g, '').trimEnd() + '…';
+}
 
 export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
   useEffect(() => {
@@ -33,7 +41,7 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
     : tool.description.length < 112
       ? `${tool.description} Use this free online tool and review the result before downloading.`
       : tool.description;
-  const pageDescription = fitSeoMetaDescription(rawPageDescription);
+  const pageDescription = fitVisibleDescription(rawPageDescription);
 
   const companionTools = TOOLS_REGISTRY
     .filter((candidate) => candidate.category === tool.category && candidate.slug !== tool.slug)
