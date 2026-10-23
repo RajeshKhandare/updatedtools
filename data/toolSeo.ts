@@ -831,12 +831,12 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
         },
         {
           heading: headings.practices,
-          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (examples[2] || examples[0] || seo.why || intro) + ' ' + tips.slice(0, 2).join(' ')].filter(Boolean),
+          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (seo.why || intro) + ' ' + (tips[tips.length - 1] || tips[0] || '')].filter(Boolean),
           bullets: tips,
         },
         {
           heading: headings.limits,
-          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (examples[1] || examples[0] || seo.why || intro) + ' ' + limits.slice(0, 2).join(' ')].filter(Boolean),
+          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (seo.why || intro) + ' ' + (limits[limits.length - 1] || limits[0] || '')].filter(Boolean),
           bullets: limits,
         },
         {
