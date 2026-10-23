@@ -40,6 +40,13 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
   const labels = SEO_LABELS[locale];
   const name = getLocalizedToolName(tool, locale);
   const category = getLocalizedCategoryLabel(tool.category, locale);
+  const normalizeCopy = (value: string) => value.normalize('NFKC').replace(/\\s+/g, ' ').trim().toLocaleLowerCase();
+  const topLevelBullets = new Set([
+    ...seo.steps,
+    ...seo.useCases,
+    ...seo.tips,
+    ...seo.limitations,
+  ].map(normalizeCopy));
   // Avoid repeating the hero/intro sentence when a generated article section starts
   // with the same copy. Keep the section's remaining useful explanation intact.
   const introLead = seo.intro.trim().match(/^.*?[.!?](?=\s|$)/)?.[0]?.trim();
@@ -57,7 +64,8 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
       seenParagraphs.add(key);
       return true;
     });
-    return { ...section, paragraphs };
+    const bullets = section.bullets?.filter((item) => !topLevelBullets.has(normalizeCopy(item)));
+    return { ...section, paragraphs, bullets };
   }).filter((section) => !/\\bfaq\\b|frequently asked questions|preguntas frecuentes|perguntas frequentes|häufige fragen|questions fréquentes|domande frequenti|よくある質問|자주 묻는 질문|常见问题|常见问答|часто задаваемые вопросы|الأسئلة الشائعة|अक्सर पूछे जाने वाले सवाल/i.test(section.heading));
   // FAQs already render as accessible disclosure cards below; keep them out of the article list
   // so the same question/answer is not printed twice on the same page.
