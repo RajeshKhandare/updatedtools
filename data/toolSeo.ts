@@ -510,7 +510,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
     ];
     const financeUseCases = [
       'Compare different ' + tool.name.toLowerCase() + ' scenarios.',
-      'Estimate how a change in ' + (focus.examples[0] ? phrase(focus.examples[0]) : 'the main input') + ' affects the result.',
+      'A useful scenario to test is: ' + (focus.examples[0] || 'Compare two realistic input scenarios.'),
       'Record assumptions so the calculation can be repeated and checked later.',
       ...focus.examples,
     ];
@@ -547,7 +547,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         {
           heading: 'How to use ' + tool.name + ' step by step',
           paragraphs: [
-            'For ' + tool.name + ', start with ' + phrase(focus.examples[0] || tool.description) + '. Then review ' + phrase(focus.mistakes[0] || 'the assumptions') + ' before accepting the estimate.'
+            'For ' + tool.name + ', a useful first scenario is to ' + phrase(focus.examples[0] || tool.description) + '. Then review ' + phrase(focus.mistakes[0] || 'the assumptions') + ' before accepting the estimate.'
           ],
           bullets: financeSteps
         },
@@ -561,14 +561,14 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         {
           heading: 'Best practices and common mistakes',
           paragraphs: [
-            'For ' + tool.name + ', ' + detail.tips[0] + ' Also avoid ' + phrase(focus.mistakes[0] || 'skipping the final review') + '.'
+            'A key check for ' + tool.name + ': ' + detail.tips[0] + ' Also avoid ' + phrase(focus.mistakes[0] || 'skipping the final review') + '.'
           ],
           bullets: financeTips.slice(0, 6)
         },
         {
           heading: 'Limitations and final quality checks',
           paragraphs: [
-            tool.name + ' is an estimate based on selected assumptions. ' + detail.why + ' Check official records or provider terms if a small difference would affect your decision.'
+            'The result from ' + tool.name + ' is an estimate based on selected assumptions. ' + detail.why + ' Check official records or provider terms if a small difference would affect your decision.'
           ],
           bullets: financeLimitations
         },
