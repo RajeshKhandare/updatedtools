@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
-import { getLocalizedToolSeoContent, getToolSeoContent } from '@/data/toolSeo';
+import { fitSeoMetaDescription, getLocalizedToolSeoContent, getToolSeoContent } from '@/data/toolSeo';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
 import ToolSeoContent from '@/components/ToolSeoContent';
 import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
@@ -74,8 +74,25 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   const seo = getLocalizedToolSeoContent(tool, locale.code);
   const localizedName = getLocalizedToolName(tool, locale.code);
+  const localizedMetaSuffix: Record<string, string> = {
+    pt: ' Revise as opções e confira o resultado antes de guardar ou partilhar.',
+    es: ' Revisa las opciones y comprueba el resultado antes de guardarlo o compartirlo.',
+    de: ' Prüfe die Optionen und kontrolliere das Ergebnis, bevor du es speicherst oder teilst.',
+    fr: ' Vérifiez les options et le résultat avant de l’enregistrer ou de le partager.',
+    it: ' Controlla le opzioni e il risultato prima di salvarlo o condividerlo.',
+    ja: ' 保存や共有の前に設定と結果を確認できます。',
+    ko: ' 저장하거나 공유하기 전에 옵션과 결과를 확인하세요.',
+    zh: ' 保存或分享前，请检查选项和结果。',
+    ru: ' Проверьте параметры и результат перед сохранением или отправкой.',
+    ar: ' راجع الخيارات والنتيجة قبل الحفظ أو المشاركة.',
+    hi: ' सेव या शेयर करने से पहले विकल्प और परिणाम जाँचें।',
+  };
   const rawDescription = seo.heroIntro || seo.intro || tool.description;
-  const description = rawDescription.length > 158 ? `${rawDescription.slice(0, 155).trimEnd()}…` : rawDescription;
+  const minUsefulLength = ['ja', 'ko', 'zh'].includes(locale.code) ? 65 : 112;
+  const expandedDescription = rawDescription.length < minUsefulLength
+    ? rawDescription + localizedMetaSuffix[locale.code]
+    : rawDescription;
+  const description = fitSeoMetaDescription(expandedDescription);
   const title = `${localizedName} | Toolployee`;
   return {
     title,
