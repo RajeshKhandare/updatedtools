@@ -67,7 +67,7 @@ for (const locale of locales) {
   const localizedNames = new Map();
   for (const tool of tools) {
     const localizedName = getLocalizedToolName(tool, locale);
-    const nameKey = normalize(localizedName);
+    const nameKey = String(localizedName).normalize('NFKC').toLocaleLowerCase().replace(/[’‘]/g, "'").replace(/\\s+/g, ' ').trim();
     const priorName = localizedNames.get(nameKey);
     if (priorName && priorName.slug !== tool.slug) {
       errors.push({ type: 'duplicate-localized-tool-name', locale, slugA: priorName.slug, slugB: tool.slug, name: localizedName });
