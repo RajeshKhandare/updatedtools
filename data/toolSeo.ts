@@ -691,7 +691,7 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
       bullets: [tool.description, tool.targetKeyword ? 'Primary search intent: ' + tool.targetKeyword : 'Primary search intent: ' + tool.name],
     },
     {
-      heading: headings.workflow || ('How to use ' + tool.name + ' step by step'),
+      heading: 'How to use ' + tool.name + ' step by step',
       paragraphs: [
         'Use the following workflow for ' + tool.name + ': start with the correct source input, choose only the options relevant to the intended result, run the operation, and inspect the output before downloading or reusing it.',
         steps.join(' '),
@@ -723,7 +723,7 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
       bullets: limits,
     },
     {
-      heading: headings.faq || ('Frequently asked questions about ' + tool.name),
+      heading: 'Frequently asked questions about ' + tool.name,
       paragraphs: faqParagraphs.length
         ? faqParagraphs
         : ['For ' + tool.name + ', check the input requirements, supported options, and output before relying on the result.'],
