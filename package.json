@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/copy-sql-wasm.mjs && npm run verify:tool-seo-quality && npm run verify:rendered-seo-strategy && npm run verify:international-seo && next build && npm run verify:festival-seo && node scripts/write-build-version.mjs",
+    "build": "node scripts/copy-sql-wasm.mjs && npm run verify:tool-seo-quality && npm run verify:rendered-seo-strategy && npm run verify:runtime-seo-content && npm run verify:international-seo && next build && npm run verify:festival-seo && node scripts/write-build-version.mjs",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "node scripts/copy-sql-wasm.mjs",
@@ -12,6 +12,7 @@
     "verify:international-seo": "node scripts/audit-international-seo.mjs",
     "verify:tool-seo-quality": "node scripts/audit-tool-seo-quality.mjs",
     "verify:rendered-seo-strategy": "node scripts/audit-rendered-seo-strategy.mjs",
+    "verify:runtime-seo-content": "node scripts/audit-runtime-seo-content.mjs",
     "preview": "npm run build && wrangler dev",
     "deploy": "npm run build && wrangler deploy",
     "verify:localized-routes": "node scripts/localized-route-smoke.mjs",
