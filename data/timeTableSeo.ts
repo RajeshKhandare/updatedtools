@@ -120,6 +120,7 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    ].slice(0,6),
    visual:'workflow'
  };
+ // Keep the localized lead task-focused; appending the same broad template intro here creates near-duplicate paragraphs across timetable variants.
  const localizedLead=name+': '+localizedFocus;
  return {
    heroIntro:localizedLead,
