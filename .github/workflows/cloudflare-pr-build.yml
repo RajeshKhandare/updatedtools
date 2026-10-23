@@ -36,8 +36,7 @@ jobs:
       # Run content analysis in CI without adding its cost to the Cloudflare app build.
       - name: Audit SEO content across all tool locales
         run: |
-          npm run verify:rendered-seo-strategy
-          npm run verify:runtime-seo-content
+          npm run verify:seo-content-quality
 
       - name: Build
         run: npm run build
