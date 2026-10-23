@@ -5,7 +5,7 @@ import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import EnglishToolPageClient from '@/components/EnglishToolPageClient';
 import { LOCALES, localizedToolPath } from '@/data/internationalSeo';
 import { SITE_NAME, SITE_URL } from '@/config/site';
-import { getToolSeoContent } from '@/data/toolSeo';
+import { fitSeoMetaDescription, getToolSeoContent } from '@/data/toolSeo';
 
 export const dynamicParams = false;
 
@@ -25,8 +25,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     : `${keyword.replace(/\s+online$/i, '')} Online | Toolployee`;
   const rawDescription = isMergePdf
     ? 'Merge multiple PDF files into one document online for free. Arrange files in the right order, combine reports or scanned pages, and download one PDF.'
-    : `${tool.description} Use this free online ${keyword.toLowerCase()} tool to complete the task and review your result.`;
-  const description = rawDescription.length > 158 ? `${rawDescription.slice(0, 155).trimEnd()}…` : rawDescription;
+    : tool.description.length < 112
+      ? `${tool.description} Use this free online tool and review the result before downloading.`
+      : tool.description;
+  const description = fitSeoMetaDescription(rawDescription);
   const languages = tool.category === 'Festival'
     ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi')
     : LOCALES;
