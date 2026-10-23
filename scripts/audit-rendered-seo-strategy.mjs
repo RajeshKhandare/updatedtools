@@ -40,13 +40,13 @@ const profileBySlug = new Map(profileBlocks.map((profile) => [profile.slug, prof
 
 function stringArray(block, key) {
   const match = block.match(new RegExp('\\b' + key + ':\\s*\\[([\\s\\S]*?)\\]'));
-  return match ? [...match[1].matchAll(/'((?:\\\\'|[^'])*)'/g)].map((item) => item[1].replace(/\\\\'/g, "'")) : [];
+  return match ? [...match[1].matchAll(/'((?:\\'|[^'])*)'/g)].map((item) => item[1].replace(/\\'/g, "'")) : [];
 }
 function faqPairs(block) {
   const match = block.match(/\bfaq:\s*\[([\s\S]*?)\]\s*\}/);
   if (!match) return [];
-  return [...match[1].matchAll(/\{\s*q:\s*'((?:\\\\'|[^'])*)'\s*,\s*a:\s*'((?:\\\\'|[^'])*)'\s*\}/g)]
-    .map((item) => ({ q: item[1].replace(/\\\\'/g, "'"), a: item[2].replace(/\\\\'/g, "'") }));
+  return [...match[1].matchAll(/\{\s*q:\s*'((?:\\'|[^'])*)'\s*,\s*a:\s*'((?:\\'|[^'])*)'\s*\}/g)]
+    .map((item) => ({ q: item[1].replace(/\\'/g, "'"), a: item[2].replace(/\\'/g, "'") }));
 }
 function checkUniqueWithin(slug, label, values) {
   const seen = new Set();
