@@ -29,6 +29,7 @@ require.extensions['.ts'] = (module, filename) => {
 
 const { TOOLS_REGISTRY } = require(path.join(process.cwd(), 'data/toolsRegistry.ts'));
 const { getLocalizedToolSeoContent } = require(path.join(process.cwd(), 'data/toolSeo.ts'));
+const { getLocalizedToolName } = require(path.join(process.cwd(), 'data/internationalLocalization.ts'));
 const locales = ['en', 'pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar', 'hi'];
 const tools = TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival');
 const errors = [];
@@ -63,7 +64,16 @@ function jaccardSets(left, right) {
 const isFaqHeading = (heading) => /\bfaq\b|frequently asked questions|preguntas frecuentes|perguntas frequentes|häufige fragen|questions fréquentes|domande frequenti|よくある質問|자주 묻는 질문|常见问题|常见问答|часто задаваемые вопросы|الأسئلة الشائعة|अक्सर पूछे जाने वाले सवाल/i.test(heading);
 
 for (const locale of locales) {
+  const localizedNames = new Map();
   for (const tool of tools) {
+    const localizedName = getLocalizedToolName(tool, locale);
+    const nameKey = normalize(localizedName);
+    const priorName = localizedNames.get(nameKey);
+    if (priorName && priorName.slug !== tool.slug) {
+      errors.push({ type: 'duplicate-localized-tool-name', locale, slugA: priorName.slug, slugB: tool.slug, name: localizedName });
+    } else if (!priorName) {
+      localizedNames.set(nameKey, { slug: tool.slug, name: localizedName });
+    }
     let seo;
     try {
       seo = getLocalizedToolSeoContent(tool, locale);
