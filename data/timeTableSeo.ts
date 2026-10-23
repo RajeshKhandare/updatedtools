@@ -120,10 +120,11 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    ].slice(0,6),
    visual:'workflow'
  };
+ const localizedLead=name+': '+localizedFocus;
  return {
-   heroIntro:c!.intro+' '+localizedFocus,
-   intro:c!.intro+' '+localizedFocus+' '+c!.why,
-   why:c!.why+' '+localizedFocus,
+   heroIntro:localizedLead+' '+c!.intro,
+   intro:localizedLead+' '+c!.intro+' '+c!.why,
+   why:localizedLead+' '+c!.why,
    steps:c!.steps,
    useCases:c!.useCases,
    tips,
