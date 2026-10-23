@@ -54,9 +54,7 @@ function shingles(text, size = 5) {
   if (words.length < size) return new Set();
   return new Set(Array.from({ length: words.length - size + 1 }, (_, i) => words.slice(i, i + size).join(' ')));
 }
-function jaccard(leftText, rightText) {
-  const left = shingles(leftText);
-  const right = shingles(rightText);
+function jaccardSets(left, right) {
   if (!left.size || !right.size) return 0;
   let overlap = 0;
   for (const token of left) if (right.has(token)) overlap += 1;
@@ -118,6 +116,7 @@ for (const locale of locales) {
 }
 
 const nearDuplicatePairs = [];
+let nearDuplicateCount = 0;
 const exactDuplicatePairs = [];
 for (const [locale, items] of crossPageParagraphs) {
   const byText = new Map();
@@ -131,20 +130,26 @@ for (const [locale, items] of crossPageParagraphs) {
   }
   // Compare only substantive paragraphs; the per-locale cap keeps CI cost predictable.
   const substantive = items.filter((item) => item.key.split(' ').length >= 14);
-  const candidates = substantive.slice(0, 900);
+  // Exact copies are reported separately. Deduplicate them before similarity work and
+  // precompute shingles once per paragraph to keep all-locale CI runtime predictable.
+  const uniqueSubstantive = [...new Map(substantive.map((item) => [item.key, item])).values()];
+  const candidates = uniqueSubstantive.slice(0, 900).map((item) => ({ ...item, shingles: shingles(item.paragraph) }));
   for (let i = 0; i < candidates.length; i += 1) {
     for (let j = i + 1; j < candidates.length; j += 1) {
       if (candidates[i].slug === candidates[j].slug) continue;
-      const score = jaccard(candidates[i].paragraph, candidates[j].paragraph);
-      if (score >= 0.88 && normalize(candidates[i].paragraph) !== normalize(candidates[j].paragraph)) {
-        nearDuplicatePairs.push({
-          locale,
-          slugA: candidates[i].slug,
-          slugB: candidates[j].slug,
-          score: Number(score.toFixed(3)),
-          sampleA: candidates[i].paragraph.slice(0, 140),
-          sampleB: candidates[j].paragraph.slice(0, 140),
-        });
+      const score = jaccardSets(candidates[i].shingles, candidates[j].shingles);
+      if (score >= 0.88) {
+        nearDuplicateCount += 1;
+        if (nearDuplicatePairs.length < 5000) {
+          nearDuplicatePairs.push({
+            locale,
+            slugA: candidates[i].slug,
+            slugB: candidates[j].slug,
+            score: Number(score.toFixed(3)),
+            sampleA: candidates[i].paragraph.slice(0, 140),
+            sampleB: candidates[j].paragraph.slice(0, 140),
+          });
+        }
       }
     }
   }
@@ -164,7 +169,7 @@ const report = {
   inspectedPages: pages.length,
   totalArticleParagraphs: pages.reduce((sum, page) => sum + page.paragraphCount, 0),
   exactCrossToolDuplicatePairs: exactDuplicatePairs.length,
-  nearDuplicatePairs: nearDuplicatePairs.length,
+  nearDuplicatePairs: nearDuplicateCount,
   errors,
   warnings: warnings.slice(0, 500),
   pages,
