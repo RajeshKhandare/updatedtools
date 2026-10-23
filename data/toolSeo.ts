@@ -706,7 +706,9 @@ const LOCALIZED_GUIDE_HEADINGS: Record<Exclude<LocaleCode, 'en'>, { what: string
 };
 
 function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: LocaleCode): ToolSeoContent {
-  if (seo.articleSections?.length) return seo;
+  // Preserve long-form authored guides (Merge PDF, festival guides, and fully structured profiles),
+  // but fill the complete benchmark section set when a generated/localized guide is incomplete.
+  if (seo.articleSections && seo.articleSections.length >= 6) return seo;
   const isEnglish = locale === 'en';
   const headings = isEnglish
     ? {
@@ -728,10 +730,39 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
     return {
       ...seo,
       articleSections: [
-        { heading: headings.what, paragraphs: [intro, seo.why || intro] },
-        { heading: headings.uses, paragraphs: [examples.join(' ')], bullets: examples },
-        { heading: headings.practices, paragraphs: [tips.join(' ')], bullets: tips },
-        { heading: headings.limits, paragraphs: [limits.join(' ')], bullets: limits },
+        {
+          heading: headings.what,
+          paragraphs: [intro, seo.why || intro],
+          bullets: [tool.description],
+        },
+        {
+          heading: headings.workflow,
+          paragraphs: [
+            'Follow these steps for ' + getLocalizedToolName(tool, locale) + ': prepare the input, choose the relevant options, run the operation, and review the output before using it.',
+            steps.join(' '),
+          ].filter(Boolean),
+          bullets: steps,
+        },
+        {
+          heading: headings.uses,
+          paragraphs: [examples.join(' ')].filter(Boolean),
+          bullets: examples,
+        },
+        {
+          heading: headings.practices,
+          paragraphs: [tips.join(' ')].filter(Boolean),
+          bullets: tips,
+        },
+        {
+          heading: headings.limits,
+          paragraphs: [limits.join(' ')].filter(Boolean),
+          bullets: limits,
+        },
+        {
+          heading: headings.faq,
+          paragraphs: faq.map((item) => item.q + ' ' + item.a),
+          bullets: faq.map((item) => item.q),
+        },
       ],
     };
   }
