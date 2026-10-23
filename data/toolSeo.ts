@@ -553,7 +553,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       {
         heading: 'How to use ' + tool.name + ' step by step',
         paragraphs: [
-          'A practical workflow for ' + tool.name + ' includes ' + phrase(focus.examples[1] || focus.examples[0] || tool.description) + '. Before finalizing, check for issues such as ' + phrase(focus.mistakes[1] || focus.mistakes[0] || 'skipping the final review') + ' and verify that the output suits its destination.'
+          'A practical workflow for ' + tool.name + ': ' + (focus.examples[1] || focus.examples[0] || tool.description) + ' Before finalizing, avoid ' + phrase(focus.mistakes[1] || focus.mistakes[0] || 'skipping the final review') + '. Verify that the output suits its destination.'
         ],
         bullets: [
           'Open ' + tool.name + ' and identify the required input format or values.',
@@ -586,7 +586,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
       {
         heading: 'Limitations and final quality checks',
         paragraphs: [
-          tool.name + ' should be checked for task-specific issues before the result is used. ' + (focus.mistakes[2] || 'Review the output against the original input.') + ' ' + profile.limitations[0]
+          tool.name + ' should be checked for task-specific issues before the result is used. Avoid ' + phrase(focus.mistakes[2] || 'skipping a final review') + '. ' + profile.limitations[0]
         ],
         bullets: [
           ...profile.limitations.slice(0, 4),
