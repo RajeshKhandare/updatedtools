@@ -539,22 +539,21 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
           heading: 'What ' + tool.name + ' calculates',
           paragraphs: [
             focus.focus,
-            detail.why,
-            'Use ' + tool.name + ' to ' + phrase(focus.examples[0] || tool.description) + '. Compare the estimate with the inputs and assumptions you selected.'
+            detail.why
           ],
           bullets: [tool.description, detail.why]
         },
         {
           heading: 'How to use ' + tool.name + ' step by step',
           paragraphs: [
-            'For ' + tool.name + ', a useful first scenario is to ' + phrase(focus.examples[0] || tool.description) + '. Then review ' + phrase(focus.mistakes[0] || 'the assumptions') + ' before accepting the estimate.'
+            'For ' + tool.name + ', enter the relevant values and units, check ' + phrase(focus.mistakes[1] || focus.mistakes[0] || 'the assumptions') + ', and compare the estimate with one alternative scenario.'
           ],
           bullets: financeSteps
         },
         {
           heading: 'Practical use cases for ' + tool.name,
           paragraphs: [
-            'Examples for ' + tool.name + ': ' + focus.examples.slice(0, 2).join(' ')
+            'Examples for ' + tool.name + ': ' + (focus.examples[2] || focus.examples[0] || tool.description)
           ],
           bullets: financeUseCases
         },
@@ -568,7 +567,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         {
           heading: 'Limitations and final quality checks',
           paragraphs: [
-            'The result from ' + tool.name + ' is an estimate based on selected assumptions. ' + detail.why + ' Check official records or provider terms if a small difference would affect your decision.'
+            financeLimitations[0] + ' ' + financeLimitations[1] + ' Check official records or provider terms if a small difference would affect your decision.'
           ],
           bullets: financeLimitations
         },
@@ -580,7 +579,7 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
         {
           heading: 'Formula, assumptions, or output interpretation',
           paragraphs: [
-            'For ' + tool.name + ', change one assumption at a time and independently verify the result when it affects a financial or other important decision. ' + detail.why
+            'For ' + tool.name + ', change one assumption at a time, record the units, and compare the estimate with official records or provider terms before making an important decision.'
           ],
           bullets: ['Record the inputs, units, and assumptions used for the estimate.']
         }
