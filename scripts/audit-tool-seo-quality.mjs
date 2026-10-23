@@ -109,9 +109,17 @@ for (let index = 0; index < profileHeaders.length; index += 1) {
   const current = profileHeaders[index];
   const end = profileHeaders[index + 1]?.index ?? profileSource.length;
   const block = profileSource.slice(current.index, end);
-  if (!block.includes('examples:')) errors.push(`${current.slug}: tool-specific SEO examples are missing`);
-  if (!block.includes('mistakes:')) errors.push(`${current.slug}: tool-specific common mistakes are missing`);
-  if (!block.includes('faq:')) errors.push(`${current.slug}: tool-specific FAQ coverage is missing`);
+  const countArrayStrings = (property) => {
+    const match = block.match(new RegExp(property + ':\\s*\\[([\\s\\S]*?)\\]'));
+    return match ? (match[1].match(/'[^']*'/g) || []).length : 0;
+  };
+  const exampleCount = countArrayStrings('examples');
+  const mistakeCount = countArrayStrings('mistakes');
+  const faqCount = (block.match(/\\{\\s*q:/g) || []).length;
+  if (exampleCount < 3) errors.push(`${current.slug}: expected at least 3 tool-specific examples; found ${exampleCount}`);
+  if (mistakeCount < 3) errors.push(`${current.slug}: expected at least 3 tool-specific common mistakes; found ${mistakeCount}`);
+  if (faqCount < 1) errors.push(`${current.slug}: at least 1 tool-specific FAQ is required`);
+  if (!/focus:/.test(block) && !/examples:/.test(block)) errors.push(`${current.slug}: SEO profile has no tool-specific focus or examples`);
 }
 const guideBuilderStart = seoSource.indexOf('function withStructuredGuide');
 const guideBuilder = seoSource.slice(guideBuilderStart, seoSource.indexOf('type LocalizedTaskKey', guideBuilderStart));
