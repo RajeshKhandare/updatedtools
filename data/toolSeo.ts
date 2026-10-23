@@ -1362,7 +1362,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
       },
       {
         heading: replaceTool(({pt:'Como utilizar {tool} passo a passo',es:'Cómo utilizar {tool} paso a paso',de:'{tool} Schritt für Schritt verwenden',fr:'Comment utiliser {tool} étape par étape',it:'Come usare {tool} passo dopo passo',ja:'{tool}の使用手順',ko:'{tool} 사용 단계',zh:'{tool}使用步骤',ru:'Как пользоваться инструментом «{tool}»',ar:'كيفية استخدام {tool} خطوة بخطوة',hi:'{tool} का उपयोग चरण-दर-चरण'})[locale]),
-        paragraphs: [categoryCopy.steps.join(' '), workflowNotes[locale]],
+        paragraphs: [localIntro + ' ' + categoryCopy.steps.join(' '), workflowNotes[locale]],
         bullets: localSteps,
       },
       {
@@ -1372,12 +1372,12 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
       },
       {
         heading: labels.practices,
-        paragraphs: [localName + ': ' + localTips.join(' ')],
+        paragraphs: [localIntro + ' ' + localTips.join(' ')],
         bullets: localTips,
       },
       {
         heading: labels.limits,
-        paragraphs: [replaceTool(limitationIntros[locale]) + ' ' + localLimits.join(' ')],
+        paragraphs: [localIntro + ' ' + replaceTool(limitationIntros[locale]) + ' ' + localLimits.join(' ')],
         bullets: localLimits,
       },
       {
