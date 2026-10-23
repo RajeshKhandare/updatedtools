@@ -9,6 +9,7 @@ import ToolSeoContent from '@/components/ToolSeoContent';
 import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY, type ToolMeta } from '@/data/toolsRegistry';
+import { fitSeoMetaDescription } from '@/data/toolSeo';
 
 export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
   useEffect(() => {
@@ -27,9 +28,12 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
   const isFestival = tool.category === 'Festival';
   const isMergePdf = tool.slug === 'merge-pdf';
   const pageTitle = isMergePdf ? 'Merge PDF Files Online Free' : (tool.targetKeyword || tool.name);
-  const pageDescription = isMergePdf
+  const rawPageDescription = isMergePdf
     ? 'Combine multiple PDF files into one document in your chosen order. Merge reports, scanned pages, invoices, or application documents, then review and download your single PDF.'
-    : `${tool.description} Use this free online ${(tool.targetKeyword || tool.name).toLowerCase()} tool, then review your result before using it.`;
+    : tool.description.length < 112
+      ? `${tool.description} Use this free online tool and review the result before downloading.`
+      : tool.description;
+  const pageDescription = fitSeoMetaDescription(rawPageDescription);
 
   const companionTools = TOOLS_REGISTRY
     .filter((candidate) => candidate.category === tool.category && candidate.slug !== tool.slug)
