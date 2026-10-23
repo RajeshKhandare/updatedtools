@@ -52,6 +52,14 @@ for (const tool of entries) {
 if (!englishPage.includes('targetKeyword') || !englishPage.includes('Toolployee')) errors.push('English metadata title template is missing');
 if (!englishClient.includes('tool.targetKeyword') || !englishClient.includes('tool.name')) errors.push('Visible English H1 is not derived from each tool target keyword/name');
 if (!/generateMetadata/.test(localizedPage) || !/getLocalizedToolSeoContent\(tool, locale\.code\)/.test(localizedPage)) errors.push('Localized metadata is not derived from localized SEO content');
+if (!/export function fitSeoMetaDescription/.test(seoSource)) errors.push('Readable meta description length helper is missing');
+if (!/fitSeoMetaDescription\(rawDescription\)/.test(englishPage)) errors.push('English metadata does not use the readable description helper');
+if (!/fitSeoMetaDescription\(expandedDescription\)/.test(localizedPage)) errors.push('Localized metadata does not use the readable description helper');
+for (const locale of expectedLocalizedMapLocales) {
+  if (!new RegExp(locale + ": ' ").test(localizedPage)) errors.push('Localized meta-description suffix is missing for ' + locale);
+}
+if (!/minUsefulLength/.test(localizedPage)) errors.push('Localized metadata does not expand short search snippets');
+
 if (!/LOCALIZED_GENERIC/.test(seoSource) || !/GENERATED_LOCALIZED_TOOL_SEO\[locale\]\?\.\[tool\.slug\]/.test(seoSource)) errors.push('Localized fallback/translation lookup is missing');
 
 const emptyLocaleMaps = [...seoSource.matchAll(/\b(es|de|fr|it|ja|ko|zh|ru|ar|hi):\s*\{\s*\}/g)].map((match) => match[1]);
