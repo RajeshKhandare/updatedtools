@@ -13,7 +13,7 @@
     "verify:tool-seo-quality": "node scripts/audit-tool-seo-quality.mjs",
     "verify:rendered-seo-strategy": "node scripts/audit-rendered-seo-strategy.mjs",
     "verify:runtime-seo-content": "node scripts/audit-runtime-seo-content.mjs",
-    "verify:seo-content-quality": "npm run verify:rendered-seo-strategy && npm run verify:runtime-seo-content",
+    "verify:seo-content-quality": "node --check scripts/audit-runtime-seo-content.mjs && npm run verify:rendered-seo-strategy && npm run verify:runtime-seo-content",
     "preview": "npm run build && wrangler dev",
     "deploy": "npm run build && wrangler deploy",
     "verify:localized-routes": "node scripts/localized-route-smoke.mjs",
