@@ -103,7 +103,7 @@ if (missingEnglishProfiles.length) {
 const profileSource = focusStart >= 0 && focusEnd > focusStart
   ? seoSource.slice(focusStart, focusEnd)
   : '';
-const profileHeaders = [...profileSource.matchAll(/^\\s{4}'([^']+)':\\s*\\{/gm)]
+const profileHeaders = [...profileSource.matchAll(/^\\s{4}'([^']+)':\\s*\\{/gm)]]
   .map((match) => ({ slug: match[1], index: match.index }));
 for (let index = 0; index < profileHeaders.length; index += 1) {
   const current = profileHeaders[index];
