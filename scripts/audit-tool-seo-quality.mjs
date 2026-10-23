@@ -99,6 +99,32 @@ const missingEnglishProfiles = regularTools.filter((tool) => !profileSlugs.has(t
 if (missingEnglishProfiles.length) {
   errors.push(`Tool-specific English SEO profiles missing for: ${missingEnglishProfiles.map((tool) => tool.slug).join(', ')}`);
 }
+
+const profileSource = focusStart >= 0 && focusEnd > focusStart
+  ? seoSource.slice(focusStart, focusEnd)
+  : '';
+const profileHeaders = [...profileSource.matchAll(/^\\s{4}'([^']+)':\\s*\\{/gm)]
+  .map((match) => ({ slug: match[1], index: match.index }));
+for (let index = 0; index < profileHeaders.length; index += 1) {
+  const current = profileHeaders[index];
+  const end = profileHeaders[index + 1]?.index ?? profileSource.length;
+  const block = profileSource.slice(current.index, end);
+  if (!block.includes('examples:')) errors.push(`${current.slug}: tool-specific SEO examples are missing`);
+  if (!block.includes('mistakes:')) errors.push(`${current.slug}: tool-specific common mistakes are missing`);
+  if (!block.includes('faq:')) errors.push(`${current.slug}: tool-specific FAQ coverage is missing`);
+}
+const guideBuilderStart = seoSource.indexOf('function withStructuredGuide');
+const guideBuilder = seoSource.slice(guideBuilderStart, seoSource.indexOf('type LocalizedTaskKey', guideBuilderStart));
+for (const marker of [
+  'How to use ',
+  'Practical use cases for ',
+  'Best practices and common mistakes',
+  'Limitations and final quality checks',
+  'Frequently asked questions about ',
+  'faqParagraphs',
+]) {
+  if (!guideBuilder.includes(marker)) errors.push(`English detailed SEO guide is missing required content marker: ${marker}`);
+}
 const localizedBuilderStart = seoSource.indexOf('export function getLocalizedToolSeoContent');
 const localizedBuilder = seoSource.slice(localizedBuilderStart);
 const requiredLocalizedSections = [
