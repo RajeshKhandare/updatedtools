@@ -33,6 +33,11 @@ jobs:
       - name: Validate localized route smoke test syntax
         run: node --check scripts/localized-route-smoke.mjs
 
+      - name: Audit SEO content across all tool locales
+        run: |
+          npm run verify:rendered-seo-strategy
+          npm run verify:runtime-seo-content
+
       - name: Build
         run: npm run build
 
