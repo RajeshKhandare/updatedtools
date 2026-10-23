@@ -506,6 +506,12 @@ export function getToolSeoContent(tool: ToolMeta): ToolSeoContent {
   }
 
   const profile = categoryProfiles[tool.category] || categoryProfiles.Developer;
+  const toolFaq = makeFaqs(tool, [
+    { q: 'What can I use ' + tool.name + ' for?', a: 'Common uses include the workflow described above, quick one-off tasks, repeatable preparation work, and checking an output before moving it into another application. Clean input and a final review usually produce the most reliable result.' },
+    { q: 'Does ' + tool.name + ' require an account or installation?', a: 'The page is designed to be usable directly in a modern browser without a separate desktop installation. No account is required for the core workflow. Browser capabilities, input size, device resources, and any external runtime can still affect individual operations.' },
+    { q: 'What should I check before using the output from ' + tool.name + '?', a: 'Check the output against the original input, confirm that the intended transformation occurred, and verify important details before publishing, submitting, sending, or using the result in a production workflow.' },
+    ...focus.faq,
+  ]);
   return {
     intro: focus.focus + ' This guide explains what the tool does, when it is useful, how to use it effectively, and the practical limitations that matter in real-world workflows.',
     why: profile.why,
