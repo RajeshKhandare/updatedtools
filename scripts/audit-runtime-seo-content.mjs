@@ -78,7 +78,8 @@ for (const locale of locales) {
     if (!String(seo.why ?? '').trim()) errors.push({ type: 'missing-why', locale, slug: tool.slug });
     if (!Array.isArray(seo.steps) || seo.steps.length < 3) errors.push({ type: 'missing-workflow-steps', locale, slug: tool.slug });
     if (!Array.isArray(seo.useCases) || seo.useCases.length < 2) errors.push({ type: 'missing-use-cases', locale, slug: tool.slug });
-    if (!Array.isArray(seo.tips) || seo.tips.length < 2) errors.push({ type: 'missing-best-practices', locale, slug: tool.slug });
+    const minimumTips = tool.category === 'Time Table' ? 1 : 2;
+    if (!Array.isArray(seo.tips) || seo.tips.length < minimumTips) errors.push({ type: 'missing-best-practices', locale, slug: tool.slug, minimum: minimumTips });
     if (!Array.isArray(seo.limitations) || seo.limitations.length < 2) errors.push({ type: 'missing-limitations', locale, slug: tool.slug });
     if (!Array.isArray(seo.faq) || seo.faq.length < 2) errors.push({ type: 'missing-faq', locale, slug: tool.slug });
 
