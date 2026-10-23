@@ -1068,7 +1068,8 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     ar: 'راجع الخيارات وتأكد من أن النتيجة تلبي حاجتك قبل حفظها أو مشاركتها.',
     hi: 'विकल्प जाँचें और सेव या शेयर करने से पहले परिणाम की पुष्टि करें।',
   };
-  const minMetaLength = ['ja', 'ko', 'zh'].includes(locale) ? 20 : 40;
+  // Ensure the hero copy itself is useful even when a metadata parent or cache is involved.
+  const minMetaLength = ['ja', 'ko', 'zh'].includes(locale) ? 45 : 80;
   const localizedHeroIntro = localIntro.length < minMetaLength
     ? localIntro + ' ' + localizedMetaSuffix[locale]
     : localIntro;
