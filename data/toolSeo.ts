@@ -7,6 +7,22 @@ import { getMergePdfLocalizedSeoContent } from './mergePdfLocalizedGuide';
 
 export type ToolFaq = { q: string; a: string };
 export type ToolSeoArticleSection = { heading: string; paragraphs: string[]; bullets?: string[] };
+/**
+ * Keep search snippets readable: never cut an English word in half, and avoid
+ * appending an ellipsis after trailing punctuation. CJK descriptions without
+ * spaces are safely clipped by character count.
+ */
+export function fitSeoMetaDescription(value: string, maxLength = 158): string {
+  const normalized = value.replace(/\\s+/g, ' ').trim();
+  if (normalized.length <= maxLength) return normalized;
+  const clipped = normalized.slice(0, Math.max(1, maxLength - 1));
+  const lastSpace = clipped.lastIndexOf(' ');
+  const readable = lastSpace >= Math.floor(maxLength * 0.65)
+    ? clipped.slice(0, lastSpace)
+    : clipped;
+  return readable.replace(/[.,;:!?-]+$/g, '').trimEnd() + '…';
+}
+
 export type ToolSeoContent = {
   articleSections?: ToolSeoArticleSection[];
   /** Short hero description matching the English tool page's tool.description. */
