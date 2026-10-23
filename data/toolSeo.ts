@@ -13,7 +13,7 @@ export type ToolSeoArticleSection = { heading: string; paragraphs: string[]; bul
  * spaces are safely clipped by character count.
  */
 export function fitSeoMetaDescription(value: string, maxLength = 158): string {
-  const normalized = value.replace(/\\s+/g, ' ').trim();
+  const normalized = value.replace(/\s+/g, ' ').trim();
   if (normalized.length <= maxLength) return normalized;
   const clipped = normalized.slice(0, Math.max(1, maxLength - 1));
   const lastSpace = clipped.lastIndexOf(' ');
