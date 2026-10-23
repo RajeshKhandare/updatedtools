@@ -55,7 +55,7 @@ if (!/generateMetadata/.test(localizedPage) || !/getLocalizedToolSeoContent\(too
 if (!/export function fitSeoMetaDescription/.test(seoSource)) errors.push('Readable meta description length helper is missing');
 if (!/fitSeoMetaDescription\(rawDescription\)/.test(englishPage)) errors.push('English metadata does not use the readable description helper');
 if (!/fitSeoMetaDescription\(expandedDescription\)/.test(localizedPage)) errors.push('Localized metadata does not use the readable description helper');
-for (const locale of expectedLocalizedMapLocales) {
+for (const locale of ['pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar', 'hi']) {
   if (!new RegExp(locale + ": ' ").test(localizedPage)) errors.push('Localized meta-description suffix is missing for ' + locale);
 }
 if (!/minUsefulLength/.test(localizedPage)) errors.push('Localized metadata does not expand short search snippets');
