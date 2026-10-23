@@ -78,13 +78,15 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
  const d=TT_DETAILS[tool.slug]||TT_DETAILS['timetable-maker'];
  const name=locale==='en'?tool.name:(getTimeTableLocalizedName(tool.slug,locale)||tool.name);
  const c=locale==='en'?null:L[locale];
+ const tips=(locale==='en'?d.tips:c!.tips).slice();
+ if(tips.length<2) tips.push('Include realistic breaks and transition time between activities.','Check every slot against actual commitments before printing or sharing.');
  if(locale==='en') return {
    heroIntro:tool.description,
    intro:tool.description+' '+d.why+' Add your own schedule title, personal note, and quote, then edit every generated cell before downloading or printing.',
    why:d.why,
    steps:d.steps,
    useCases:d.useCases,
-   tips:d.tips,
+   tips,
    limitations:['This is a planning template and does not know real teacher, room, staffing, exam, medical, or workplace constraints.','Review the generated schedule before relying on it in real life.'],
    faq:[
      {q:'What is '+tool.name+' used for?',a:tool.description+' '+d.why},
