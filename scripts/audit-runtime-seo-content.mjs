@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import Module from 'node:module';
+import Module, { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
 import ts from 'typescript';
 
 // Load the real TypeScript SEO builders so this audit inspects their runtime output,
