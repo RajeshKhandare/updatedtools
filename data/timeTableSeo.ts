@@ -102,7 +102,7 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    why:d.why,
    steps:d.steps,
    useCases:d.useCases,
-   tips:d.tips,
+   tips,
    limitations:LOCAL_LIMITATIONS[locale],
    faq:[
      ...c!.faq.map(([q,a])=>({q,a})),
