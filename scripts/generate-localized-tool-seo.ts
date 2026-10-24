@@ -20,7 +20,7 @@ const GOOGLE_CODES: Record<string, string> = {
 };
 
 const MAX_CHARS = 4200;
-const CONCURRENCY = 4; // bounded to keep translation generation stable
+const CONCURRENCY = 1; // Google Translate throttles bulk requests; serialize tool batches to avoid HTTP 429
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -37,10 +37,26 @@ async function translateText(text: string, locale: string, toolName: string, loc
   url.searchParams.set('dt', 't');
   url.searchParams.set('q', protectedText);
 
-  for (let attempt = 1; attempt <= 4; attempt++) {
+  const maxAttempts = 7;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
+      // Pace requests even when the provider has not started returning 429 responses.
+      await sleep(350);
       const response = await fetch(url);
-      if (!response.ok) throw new Error('HTTP ' + response.status);
+      if (!response.ok) {
+        const retryAfter = Number(response.headers.get('retry-after'));
+        const error = new Error('HTTP ' + response.status);
+        if (response.status === 429 || response.status >= 500) {
+          if (attempt === maxAttempts) throw error;
+          const backoffMs = Number.isFinite(retryAfter) && retryAfter > 0
+            ? Math.min(retryAfter * 1000, 60_000)
+            : Math.min(2_000 * 2 ** (attempt - 1), 60_000);
+          console.warn(`Translation service returned HTTP ${response.status}; retrying in ${backoffMs}ms (attempt ${attempt}/${maxAttempts})`);
+          await sleep(backoffMs);
+          continue;
+        }
+        throw error;
+      }
       const data = await response.json() as any[];
       const translated = Array.isArray(data?.[0])
         ? data[0].map((part: any[]) => String(part?.[0] ?? '')).join('')
@@ -49,12 +65,14 @@ async function translateText(text: string, locale: string, toolName: string, loc
       const restored = translated.split(marker).join(localizedToolName);
       return restored.replace(new RegExp(escapeRegExp(toolName), 'gi'), () => localizedToolName);
     } catch (error) {
-      if (attempt === 4) {
+      if (attempt === maxAttempts) {
         throw new Error(
           `Translation failed after ${attempt} attempts for locale "${locale}" and tool "${toolName}". Refusing to silently publish English fallback content. Cause: ${String(error)}`,
         );
       }
-      await sleep(500 * attempt);
+      // Network/temporary failures use exponential backoff. Never replace a failed translation with English.
+      const backoffMs = Math.min(1_000 * 2 ** (attempt - 1), 30_000);
+      await sleep(backoffMs);
     }
   }
   return text;

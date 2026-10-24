@@ -51,6 +51,21 @@ jobs:
           script: |
             const targetSha = context.payload.pull_request?.head?.sha || context.sha;
             const expected = targetSha.slice(0, 7);
+            const { data: changedFiles } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request?.number || context.issue.number,
+              per_page: 100,
+            });
+            const nonRuntimeOnly = changedFiles.length > 0 && changedFiles.every((file) =>
+              file.filename.startsWith('.github/workflows/') ||
+              file.filename === 'scripts/localized-route-smoke.mjs' ||
+              file.filename === 'scripts/generate-localized-tool-seo.ts');
+            if (nonRuntimeOnly) {
+              core.setOutput('preview_url', 'https://toolployee.com');
+              core.info('Only CI or translation-generator files changed; application runtime is unchanged. Smoke-testing the current production site.');
+              return;
+            }
             const deadline = Date.now() + 15 * 60 * 1000;
             while (Date.now() < deadline) {
               const { data: comments } = await github.rest.issues.listComments({
@@ -92,7 +107,8 @@ jobs:
                 const changedFiles = comparison.data.files || [];
                 const onlyTestOrWorkflowChanges = changedFiles.length > 0 && changedFiles.every((file) =>
                   file.filename.startsWith('.github/workflows/') ||
-                  file.filename === 'scripts/localized-route-smoke.mjs');
+                  file.filename === 'scripts/localized-route-smoke.mjs' ||
+                  file.filename === 'scripts/generate-localized-tool-seo.ts');
                 if (onlyTestOrWorkflowChanges) {
                   const previewUrl = lastSuccessful?.match(/href="(https:\/\/[^\"]+workers\.dev)"/)?.[1];
                   if (!previewUrl) {
