@@ -41,7 +41,7 @@ async function translateText(text: string, locale: string, toolName: string, loc
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       // Pace requests even when the provider has not started returning 429 responses.
-      await sleep(350);
+      await sleep(1_200);
       const response = await fetch(url);
       if (!response.ok) {
         const retryAfter = Number(response.headers.get('retry-after'));
@@ -49,8 +49,8 @@ async function translateText(text: string, locale: string, toolName: string, loc
         if (response.status === 429 || response.status >= 500) {
           if (attempt === maxAttempts) throw error;
           const backoffMs = Number.isFinite(retryAfter) && retryAfter > 0
-            ? Math.min(retryAfter * 1000, 60_000)
-            : Math.min(2_000 * 2 ** (attempt - 1), 60_000);
+            ? Math.min(retryAfter * 1000, 90_000)
+            : Math.min(15_000 * 2 ** (attempt - 1), 90_000);
           console.warn(`Translation service returned HTTP ${response.status}; retrying in ${backoffMs}ms (attempt ${attempt}/${maxAttempts})`);
           await sleep(backoffMs);
           continue;
