@@ -40,6 +40,8 @@ async function translateText(text: string, locale: string, toolName: string, loc
   const maxAttempts = 7;
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
+      // Pace requests even when the provider has not started returning 429 responses.
+      await sleep(350);
       const response = await fetch(url);
       if (!response.ok) {
         const retryAfter = Number(response.headers.get('retry-after'));
