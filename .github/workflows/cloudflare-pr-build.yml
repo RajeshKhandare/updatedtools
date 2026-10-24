@@ -129,3 +129,8 @@ jobs:
         env:
           SMOKE_BASE_URL: ${{ steps.cloudflare-preview.outputs.preview_url }}
         run: npm run verify:localized-routes
+
+      - name: Browser smoke test all 112 tools on Cloudflare preview
+        env:
+          SMOKE_BASE_URL: ${{ steps.cloudflare-preview.outputs.preview_url }}
+        run: node scripts/browser-smoke.mjs
