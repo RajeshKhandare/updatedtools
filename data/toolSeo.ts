@@ -1322,12 +1322,34 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     : localIntro;
 
   if (generated) {
-    return withStructuredGuide(tool, {
+    // Older generated files could contain English source text after the former
+    // silent-fallback behavior. Keep a localized safety fallback for those exact
+    // source matches, but otherwise preserve the translated, tool-specific copy.
+    const isEnglishFallback = (value: string | undefined, source: string | undefined) => {
+      if (!value?.trim()) return true;
+      if (!source?.trim()) return false;
+      return value.trim() === source.split(tool.name).join(localName).trim();
+    };
+    const heroIntro = isEnglishFallback(generated.heroIntro, base.heroIntro || tool.description)
+      ? localizedHeroIntro
+      : generated.heroIntro!;
+    const intro = isEnglishFallback(generated.intro, base.intro)
+      ? localIntro + ' ' + localUses.slice(0, 2).join(' ')
+      : generated.intro;
+    const why = isEnglishFallback(generated.why, base.why)
+      ? localIntro
+      : generated.why;
+    // The localized page already renders the translated intro, why, steps,
+    // use cases, tips, limitations and FAQs above. Synthetic article sections
+    // made from those same fields duplicated content; reserve long-form sections
+    // for authored guides and translate them explicitly when source sections exist.
+    return {
       ...generated,
-      heroIntro: localizedHeroIntro,
-      intro: [localIntro, generated.intro].filter(Boolean).join(' '),
-      why: localIntro,
-    }, locale);
+      heroIntro,
+      intro,
+      why,
+      articleSections: undefined,
+    };
   }
 
   const localSteps = [...categoryCopy.steps, ...categoryCopy.tips.slice(0, 2)];
