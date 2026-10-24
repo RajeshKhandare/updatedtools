@@ -40,6 +40,46 @@ if (entries.length !== 112) errors.push(`Expected 112 non-festival tools; parsed
 if (new Set(entries.map((tool) => tool.slug)).size !== entries.length) errors.push('Duplicate tool slugs found');
 if (locales.length !== 12) errors.push(`Expected 12 locales; parsed ${locales.length}`);
 
+const generatedAssignment = generatedSource.indexOf('= ');
+const generatedTerminator = generatedSource.lastIndexOf(';\\n');
+if (generatedAssignment < 0 || generatedTerminator <= generatedAssignment) {
+  errors.push('Generated localized SEO data is not a parseable exported object');
+} else {
+  try {
+    const generatedMap = JSON.parse(generatedSource.slice(generatedAssignment + 2, generatedTerminator));
+    const generatedLocales = locales.filter((locale) => locale !== 'en');
+    for (const locale of generatedLocales) {
+      const localeEntries = generatedMap[locale];
+      if (!localeEntries || typeof localeEntries !== 'object') {
+        errors.push('Generated localized SEO is missing locale ' + locale);
+        continue;
+      }
+      for (const tool of entries) {
+        const item = localeEntries[tool.slug];
+        if (!item || typeof item !== 'object') {
+          errors.push('Generated localized SEO is missing ' + locale + '/' + tool.slug);
+          continue;
+        }
+        for (const field of ['heroIntro', 'intro', 'why']) {
+          if (typeof item[field] !== 'string' || item[field].trim().length < 25) {
+            errors.push('Generated localized SEO has missing/short ' + field + ' for ' + locale + '/' + tool.slug);
+          }
+        }
+        if (typeof item.heroIntro === 'string' && item.heroIntro.trim() === (tool.description || '').trim()) {
+          errors.push('Generated localized SEO contains an English hero-description fallback for ' + locale + '/' + tool.slug);
+        }
+        for (const field of ['steps', 'useCases', 'tips', 'limitations', 'faq']) {
+          if (!Array.isArray(item[field]) || item[field].length === 0) {
+            errors.push('Generated localized SEO has missing ' + field + ' for ' + locale + '/' + tool.slug);
+          }
+        }
+      }
+    }
+  } catch (error) {
+    errors.push('Generated localized SEO data could not be parsed: ' + String(error));
+  }
+}
+
 const duplicateKeywords = duplicates(entries.map((tool) => tool.keyword));
 if (duplicateKeywords.length) errors.push(`Duplicate target keywords: ${duplicateKeywords.join(', ')}`);
 const duplicateDescriptions = duplicates(entries.map((tool) => tool.description));
@@ -167,6 +207,14 @@ for (const locale of expectedLocalizedMapLocales) {
 }
 if (!localizedBuilder.includes('articleSections: [') || !localizedBuilder.includes('const localizedSpecificFaq')) {
   errors.push('Localized per-tool guide must provide article sections and tool-named FAQs');
+}
+const generatedBranchStart = localizedBuilder.indexOf('if (generated) {');
+const generatedBranchEnd = localizedBuilder.indexOf('\\n  const localSteps', generatedBranchStart);
+const generatedBranch = generatedBranchStart >= 0 && generatedBranchEnd > generatedBranchStart
+  ? localizedBuilder.slice(generatedBranchStart, generatedBranchEnd)
+  : '';
+if (!generatedBranch.includes('const isEnglishFallback') || !generatedBranch.includes('articleSections: undefined')) {
+  errors.push('Generated localized SEO must preserve translated copy, reject exact English fallbacks, and avoid synthetic duplicate article sections');
 }
 const expectedRuntimeLocalizedGuides = regularTools.length * (locales.length - 1);
 const taskMapStart = seoSource.indexOf('const TASK_BY_SLUG');
