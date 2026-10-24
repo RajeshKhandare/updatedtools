@@ -58,6 +58,7 @@ if (!seoComponent.includes('const introLead = seo.intro.trim().match') || !seoCo
 if (!seoComponent.includes("replace(/\\s+/g, ' ')")) errors.push('SEO guide copy normalization must collapse whitespace correctly.');
 if (!seoComponent.includes('const faqItems = seo.faq.filter') || !seoComponent.includes('articleCopy.has(normalizeCopy(item.a))')) errors.push('Visible FAQs must not repeat the same question and answer already present in the article.');
 if (!seoComponent.includes('stripLeadingBullet')) errors.push('SEO guide lists must strip existing bullet glyphs before rendering list markers.');
+if (!/intro:\s*guide\.intro,\s*\n\s*why:\s*guide\.why/.test(mergeGuide)) errors.push('Localized Merge PDF guide intro must not repeat the separate why section.');
 if (!seoComponent.includes('const seenParagraphs = new Set<string>()')) errors.push('SEO article rendering must suppress duplicate paragraphs within each section');
 if (!/fitSeoMetaDescription\(rawDescription\)/.test(englishPage)) errors.push('English metadata does not use the readable description helper');
 if (!/fitSeoMetaDescription\(expandedDescription\)/.test(localizedPage)) errors.push('Localized metadata does not use the readable description helper');
