@@ -7,6 +7,7 @@ on:
     paths-ignore:
       - data/generatedLocalizedToolSeo.ts
       - data/mergePdfLocalizedGuide.ts
+      - data/toolSeo.ts
       - components/**
       - scripts/browser-smoke.mjs
       - scripts/audit-tool-seo-quality.mjs
