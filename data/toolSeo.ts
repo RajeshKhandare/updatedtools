@@ -1334,7 +1334,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
       ? localizedHeroIntro
       : generated.heroIntro!;
     const intro = isEnglishFallback(generated.intro, base.intro)
-      ? localIntro + ' ' + localUses.slice(0, 2).join(' ')
+      ? localIntro + ' ' + (localUses || []).slice(0, 2).join(' ')
       : generated.intro;
     const why = isEnglishFallback(generated.why, base.why)
       ? localIntro
