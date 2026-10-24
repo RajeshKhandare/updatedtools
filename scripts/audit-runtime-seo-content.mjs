@@ -92,6 +92,7 @@ for (const locale of locales) {
     // Generated localized pages render their translated intro, explanation, workflow,
     // use cases, tips, limitations and FAQs as dedicated sections. They intentionally
     // do not receive synthetic article sections that repeat those same fields.
+    // Keep checking real localized prose even when synthetic duplicate article sections are omitted.
     const auditSections = renderedSections.length ? renderedSections : hasGeneratedCopy ? [
       { heading: 'Localized intro', paragraphs: [seo.intro] },
       { heading: 'Localized explanation', paragraphs: [seo.why] },
