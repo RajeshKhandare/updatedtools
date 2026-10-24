@@ -50,8 +50,9 @@ async function translateText(text: string, locale: string, toolName: string, loc
       return restored.replace(new RegExp(escapeRegExp(toolName), 'gi'), () => localizedToolName);
     } catch (error) {
       if (attempt === 4) {
-        console.warn('translation fallback', locale, toolName, error);
-        return text.split(toolName).join(localizedToolName);
+        throw new Error(
+          `Translation failed after ${attempt} attempts for locale "${locale}" and tool "${toolName}". Refusing to silently publish English fallback content. Cause: ${String(error)}`,
+        );
       }
       await sleep(500 * attempt);
     }
