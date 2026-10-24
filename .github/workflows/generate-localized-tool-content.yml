@@ -11,6 +11,7 @@ on:
       - components/**
       - scripts/browser-smoke.mjs
       - scripts/audit-tool-seo-quality.mjs
+      - scripts/audit-runtime-seo-content.mjs
       - .github/workflows/**
   workflow_dispatch:
 
