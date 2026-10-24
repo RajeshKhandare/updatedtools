@@ -1,15 +1,31 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+import { SITE_URL } from '@/config/site';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import { LOCALES, getLocale, localizedToolPath } from '@/data/internationalSeo';
 import { getLocalizedToolName, getLocalizedUi, getLocalizedCategoryLabel } from '@/data/internationalLocalization';
-import { getLocalizedToolSeoContent, getToolSeoContent } from '@/data/toolSeo';
+import { fitSeoMetaDescription, getLocalizedToolSeoContent, getToolSeoContent } from '@/data/toolSeo';
 import ToolEngineRunner from '@/components/ToolEngineRunner';
 import ToolSeoContent from '@/components/ToolSeoContent';
 import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+
+const MERGE_PDF_LOCALIZED_COPY: Record<string, { title: string; description: string }> = {
+    pt: { title: 'Juntar ficheiros PDF online grátis', description: 'Combine vários ficheiros PDF num único documento pela ordem escolhida. Junte relatórios, páginas digitalizadas, faturas ou documentos de candidatura e reveja o PDF final antes de o descarregar.' },
+    es: { title: 'Unir archivos PDF online gratis', description: 'Combina varios archivos PDF en un solo documento en el orden que elijas. Une informes, páginas escaneadas, facturas o documentos de solicitud y revisa el PDF final antes de descargarlo.' },
+    de: { title: 'PDF-Dateien kostenlos online zusammenfügen', description: 'Füge mehrere PDF-Dateien in der gewünschten Reihenfolge zu einem Dokument zusammen. Kombiniere Berichte, Scans, Rechnungen oder Bewerbungsunterlagen und prüfe die fertige PDF-Datei vor dem Download.' },
+    fr: { title: 'Fusionner des fichiers PDF gratuitement en ligne', description: 'Regroupez plusieurs fichiers PDF en un seul document dans l’ordre souhaité. Assemblez des rapports, des pages numérisées, des factures ou des dossiers de candidature, puis vérifiez le PDF final avant de le télécharger.' },
+    it: { title: 'Unire file PDF online gratis', description: 'Unisci più file PDF in un unico documento nell’ordine che preferisci. Combina report, pagine scansionate, fatture o documenti per candidature e controlla il PDF finale prima di scaricarlo.' },
+    ja: { title: 'PDFファイルを無料でオンライン結合', description: '複数のPDFファイルを好きな順番で1つの文書にまとめます。レポート、スキャンしたページ、請求書、応募書類などを結合し、ダウンロード前に完成したPDFを確認できます。' },
+    ko: { title: 'PDF 파일 온라인 무료로 합치기', description: '여러 PDF 파일을 원하는 순서대로 하나의 문서로 합치세요. 보고서, 스캔 페이지, 청구서 또는 지원 서류를 결합한 뒤 다운로드 전에 완성된 PDF를 확인할 수 있습니다.' },
+    zh: { title: '免费在线合并 PDF 文件', description: '按所需顺序将多个 PDF 文件合并为一个文档。合并报告、扫描页面、发票或申请材料，并在下载前检查最终 PDF。' },
+    ru: { title: 'Бесплатно объединить PDF-файлы онлайн', description: 'Объедините несколько PDF-файлов в один документ в нужном порядке. Соединяйте отчёты, отсканированные страницы, счета или документы для заявлений и проверьте итоговый PDF перед скачиванием.' },
+    ar: { title: 'دمج ملفات PDF مجانًا عبر الإنترنت', description: 'اجمع عدة ملفات PDF في مستند واحد بالترتيب الذي تختاره. ادمج التقارير والصفحات الممسوحة ضوئيًا والفواتير أو مستندات التقديم، ثم راجع ملف PDF النهائي قبل تنزيله.' },
+    hi: { title: 'PDF फ़ाइलें ऑनलाइन मुफ़्त में मर्ज करें', description: 'कई PDF फ़ाइलों को अपनी पसंद के क्रम में एक दस्तावेज़ में जोड़ें। रिपोर्ट, स्कैन किए गए पेज, इनवॉइस या आवेदन के दस्तावेज़ मर्ज करें और डाउनलोड करने से पहले अंतिम PDF जाँचें।' },
+  };
 
 export const dynamicParams = false;
 
@@ -17,6 +33,82 @@ export function generateStaticParams() {
   return LOCALES.filter((locale) => locale.code !== 'en').flatMap((locale) =>
     TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival' || locale.code === 'hi').map((tool) => ({ locale: locale.code, slug: tool.slug }))
   );
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale: localeCode, slug } = await params;
+  const locale = getLocale(localeCode);
+  const tool = TOOLS_REGISTRY.find((item) => item.slug === slug);
+  if (!locale || !tool || locale.code === 'en' || (tool.category === 'Festival' && locale.code !== 'hi')) {
+    return { title: 'Tool Not Found', robots: { index: false, follow: false } };
+  }
+
+  const availableLocales = tool.category === 'Festival'
+    ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi')
+    : LOCALES;
+  const languageAlternates = Object.fromEntries(
+    availableLocales.map((item) => [
+      item.hreflang,
+      SITE_URL + localizedToolPath(item.code, tool.slug),
+    ])
+  );
+
+  if (tool.slug === 'merge-pdf') {
+    const copy = MERGE_PDF_LOCALIZED_COPY[locale.code];
+    return {
+      title: copy?.title || 'Merge PDF Files Online Free',
+      description: copy?.description || 'Combine multiple PDF files into one document in your chosen order.',
+      alternates: { canonical: SITE_URL + localizedToolPath(locale.code, tool.slug), languages: languageAlternates },
+      openGraph: {
+        title: copy?.title || 'Merge PDF Files Online Free',
+        description: copy?.description || 'Combine multiple PDF files into one document in your chosen order.',
+        type: 'website',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: copy?.title || 'Merge PDF Files Online Free',
+        description: copy?.description || 'Combine multiple PDF files into one document in your chosen order.',
+      },
+    };
+  }
+
+  const seo = getLocalizedToolSeoContent(tool, locale.code);
+  const localizedName = getLocalizedToolName(tool, locale.code);
+  const localizedMetaSuffix: Record<string, string> = {
+    pt: ' Revise as opções e confira o resultado antes de guardar ou partilhar.',
+    es: ' Revisa las opciones y comprueba el resultado antes de guardarlo o compartirlo.',
+    de: ' Prüfe die Optionen und kontrolliere das Ergebnis, bevor du es speicherst oder teilst.',
+    fr: ' Vérifiez les options et le résultat avant de l’enregistrer ou de le partager.',
+    it: ' Controlla le opzioni e il risultato prima di salvarlo o condividerlo.',
+    ja: ' 保存や共有の前に設定と結果を確認できます。',
+    ko: ' 저장하거나 공유하기 전에 옵션과 결과를 확인하세요.',
+    zh: ' 保存或分享前，请检查选项和结果。',
+    ru: ' Проверьте параметры и результат перед сохранением или отправкой.',
+    ar: ' راجع الخيارات والنتيجة قبل الحفظ أو المشاركة.',
+    hi: ' सेव या शेयर करने से पहले विकल्प और परिणाम जाँचें।',
+  };
+  const rawDescription = seo.heroIntro || seo.intro || tool.description;
+  const minUsefulLength = ['ja', 'ko', 'zh'].includes(locale.code) ? 65 : 112;
+  const expandedDescription = rawDescription.length < minUsefulLength
+    ? rawDescription + localizedMetaSuffix[locale.code]
+    : rawDescription;
+  const description = fitSeoMetaDescription(expandedDescription);
+  const title = `${localizedName} | Toolployee`;
+  return {
+    title,
+    description,
+    alternates: { canonical: SITE_URL + localizedToolPath(locale.code, tool.slug), languages: languageAlternates },
+    openGraph: {
+      title,
+      description,
+      url: localizedToolPath(locale.code, tool.slug),
+      siteName: 'Toolployee',
+      type: 'website',
+      locale: locale.hreflang,
+    },
+    twitter: { card: 'summary_large_image', title, description },
+    robots: { index: true, follow: true },
+  };
 }
 
 export default async function LocalizedToolPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
@@ -27,7 +119,12 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
   if (tool.category === 'Festival' && locale.code !== 'hi') notFound();
 
   const ui = getLocalizedUi(locale.code);
-  const name = getLocalizedToolName(tool, locale.code);
+  const isMergePdf = tool.slug === 'merge-pdf';
+
+  const name = isMergePdf ? (MERGE_PDF_LOCALIZED_COPY[locale.code]?.title || 'Merge PDF Files Online Free') : getLocalizedToolName(tool, locale.code);
+  const pageDescription = isMergePdf
+    ? (MERGE_PDF_LOCALIZED_COPY[locale.code]?.description || getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro)
+    : getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro;
   const categoryLabel = getLocalizedCategoryLabel(tool.category, locale.code);
   const isFestival = tool.category === 'Festival';
 
@@ -61,7 +158,7 @@ export default async function LocalizedToolPage({ params }: { params: Promise<{ 
             </h1>
             {isFestival && <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700/80 dark:text-amber-300/80">{tool.slug === 'navratri-colors-2026' ? '🌸 Celebrate • Pray • Prepare' : '🪔 Celebrate • Light • Prepare • 🎆'}</p>}
             <p className="mt-3 text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7">
-              {getLocalizedToolSeoContent(tool, locale.code).heroIntro || getLocalizedToolSeoContent(tool, locale.code).intro}
+              {pageDescription}
             </p>
           </div>
         </div>

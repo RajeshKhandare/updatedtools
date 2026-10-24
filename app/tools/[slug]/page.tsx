@@ -5,7 +5,7 @@ import { TOOLS_REGISTRY } from '@/data/toolsRegistry';
 import EnglishToolPageClient from '@/components/EnglishToolPageClient';
 import { LOCALES, localizedToolPath } from '@/data/internationalSeo';
 import { SITE_NAME, SITE_URL } from '@/config/site';
-import { getToolSeoContent } from '@/data/toolSeo';
+import { fitSeoMetaDescription, getToolSeoContent } from '@/data/toolSeo';
 
 export const dynamicParams = false;
 
@@ -18,20 +18,30 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const tool = TOOLS_REGISTRY.find((t) => t.slug === slug);
   if (!tool) return { title: 'Tool Not Found', robots: { index: false, follow: false } };
   const seo = getToolSeoContent(tool);
-  const description = seo.heroIntro || seo.intro || tool.description;
+  const isMergePdf = tool.slug === 'merge-pdf';
+  const keyword = tool.targetKeyword || tool.name;
+  const title = isMergePdf
+    ? 'Merge PDF Files Online Free – Combine PDFs in Order | Toolployee'
+    : `${keyword.replace(/\s+online$/i, '')} Online | Toolployee`;
+  const rawDescription = isMergePdf
+    ? 'Merge multiple PDF files into one document online for free. Arrange files in the right order, combine reports or scanned pages, and download one PDF.'
+    : tool.description.length < 112
+      ? `${tool.description} Use this free online tool and review the result before downloading.`
+      : tool.description;
+  const description = fitSeoMetaDescription(rawDescription);
   const languages = tool.category === 'Festival'
     ? LOCALES.filter((item) => item.code === 'en' || item.code === 'hi')
     : LOCALES;
   return {
-    title: tool.name,
+    title,
     description,
     keywords: [tool.targetKeyword, ...seo.useCases].filter(Boolean) as string[],
     alternates: {
       canonical: SITE_URL + localizedToolPath('en', tool.slug),
       languages: Object.fromEntries(languages.map((item) => [item.hreflang, SITE_URL + localizedToolPath(item.code, tool.slug)])),
     },
-    openGraph: { title: tool.name, description, url: SITE_URL + localizedToolPath('en', tool.slug), siteName: SITE_NAME, type: 'website', locale: 'en_US' },
-    twitter: { card: 'summary_large_image', title: tool.name, description },
+    openGraph: { title, description, url: SITE_URL + localizedToolPath('en', tool.slug), siteName: SITE_NAME, type: 'website', locale: 'en_US' },
+    twitter: { card: 'summary_large_image', title, description },
     robots: { index: true, follow: true },
   };
 }

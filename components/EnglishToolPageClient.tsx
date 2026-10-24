@@ -10,6 +10,15 @@ import FestivalAffiliateLinks from '@/components/FestivalAffiliateLinks';
 import { ArrowRight } from 'lucide-react';
 import { TOOLS_REGISTRY, type ToolMeta } from '@/data/toolsRegistry';
 
+function fitVisibleDescription(value: string, maxLength = 158): string {
+  const normalized = value.replace(/\s+/g, ' ').trim();
+  if (normalized.length <= maxLength) return normalized;
+  const clipped = normalized.slice(0, maxLength - 1);
+  const lastSpace = clipped.lastIndexOf(' ');
+  const readable = lastSpace >= Math.floor(maxLength * 0.65) ? clipped.slice(0, lastSpace) : clipped;
+  return readable.replace(/[.,;:!?-]+$/g, '').trimEnd() + '…';
+}
+
 export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
   useEffect(() => {
     if (
@@ -25,6 +34,14 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
   }, [tool.slug, tool.name, tool.category]);
 
   const isFestival = tool.category === 'Festival';
+  const isMergePdf = tool.slug === 'merge-pdf';
+  const pageTitle = isMergePdf ? 'Merge PDF Files Online Free' : (tool.targetKeyword || tool.name);
+  const rawPageDescription = isMergePdf
+    ? 'Combine multiple PDF files into one document in your chosen order. Merge reports, scanned pages, invoices, or application documents, then review and download your single PDF.'
+    : tool.description.length < 112
+      ? `${tool.description} Use this free online tool and review the result before downloading.`
+      : tool.description;
+  const pageDescription = fitVisibleDescription(rawPageDescription);
 
   const companionTools = TOOLS_REGISTRY
     .filter((candidate) => candidate.category === tool.category && candidate.slug !== tool.slug)
@@ -61,11 +78,11 @@ export default function EnglishToolPageClient({ tool }: { tool: ToolMeta }) {
               {isFestival ? '🪔 Festival Tool' : `${tool.category} Tool`}
             </div>
             <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black tracking-[-0.03em] text-zinc-950 dark:text-white">
-              {tool.name}
+              {pageTitle}
             </h1>
             {isFestival && <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-700/80 dark:text-amber-300/80">{tool.slug === 'navratri-colors-2026' ? '🌸 Celebrate • Pray • Prepare' : '🪔 Celebrate • Light • Prepare • 🎆'}</p>}
             <p className={`${isFestival ? 'mt-2' : 'mt-3'} text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-3xl leading-7`}>
-              {tool.description}
+              {pageDescription}
             </p>
           </div>
         </div>
