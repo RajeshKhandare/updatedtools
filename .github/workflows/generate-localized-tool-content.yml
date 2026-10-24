@@ -6,6 +6,7 @@ on:
       - cloudflare-test
     paths-ignore:
       - data/generatedLocalizedToolSeo.ts
+      - scripts/browser-smoke.mjs
       - .github/workflows/**
   workflow_dispatch:
 
