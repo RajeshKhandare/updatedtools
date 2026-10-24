@@ -29,6 +29,7 @@ require.extensions['.ts'] = (module, filename) => {
 
 const { TOOLS_REGISTRY } = require(path.join(process.cwd(), 'data/toolsRegistry.ts'));
 const { getLocalizedToolSeoContent } = require(path.join(process.cwd(), 'data/toolSeo.ts'));
+const { GENERATED_LOCALIZED_TOOL_SEO } = require(path.join(process.cwd(), 'data/generatedLocalizedToolSeo.ts'));
 const { getLocalizedToolName } = require(path.join(process.cwd(), 'data/internationalLocalization.ts'));
 const locales = ['en', 'pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar', 'hi'];
 const tools = TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival');
@@ -86,7 +87,7 @@ for (const locale of locales) {
     }
     const sections = Array.isArray(seo.articleSections) ? seo.articleSections : [];
     const renderedSections = sections.filter((section) => !isFaqHeading(section.heading));
-    const hasGeneratedCopy = locale !== 'en' && tool.category !== 'Time Table' && tool.category !== 'Festival' && tool.slug !== 'merge-pdf';
+    const hasGeneratedCopy = locale !== 'en' && tool.category !== 'Time Table' && tool.category !== 'Festival' && tool.slug !== 'merge-pdf' && Boolean(GENERATED_LOCALIZED_TOOL_SEO[locale]?.[tool.slug]);
     if (sections.length < 6 && !hasGeneratedCopy) errors.push({ type: 'missing-guide-sections', locale, slug: tool.slug, count: sections.length });
     // Generated localized pages render their translated intro, explanation, workflow,
     // use cases, tips, limitations and FAQs as dedicated sections. They intentionally
@@ -210,7 +211,12 @@ if (errors.length) {
   const errorCounts = {};
   for (const error of errors) errorCounts[error.type] = (errorCounts[error.type] ?? 0) + 1;
   console.error('Runtime SEO content audit FAILED (' + errors.length + ' errors). Error counts: ' + JSON.stringify(errorCounts) + '; first 80:');
-  for (const error of errors.slice(0, 80)) console.error(JSON.stringify(error));
+  const builderErrors = errors.filter((error) => error.type === 'builder-exception');
+  const otherErrors = errors.filter((error) => error.type !== 'builder-exception');
+  console.error('Builder exceptions (first 20):');
+  for (const error of builderErrors.slice(0, 20)) console.error(JSON.stringify(error));
+  console.error('Other errors (first 60):');
+  for (const error of otherErrors.slice(0, 60)) console.error(JSON.stringify(error));
   process.exit(1);
 }
 console.log('Runtime SEO content audit passed.');
