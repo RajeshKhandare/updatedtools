@@ -41,7 +41,7 @@ if (new Set(entries.map((tool) => tool.slug)).size !== entries.length) errors.pu
 if (locales.length !== 12) errors.push(`Expected 12 locales; parsed ${locales.length}`);
 
 const generatedAssignment = generatedSource.indexOf('= ');
-const generatedTerminator = generatedSource.lastIndexOf(';\\n');
+const generatedTerminator = generatedSource.lastIndexOf(';\n');
 if (generatedAssignment < 0 || generatedTerminator <= generatedAssignment) {
   errors.push('Generated localized SEO data is not a parseable exported object');
 } else {
@@ -209,7 +209,7 @@ if (!localizedBuilder.includes('articleSections: [') || !localizedBuilder.includ
   errors.push('Localized per-tool guide must provide article sections and tool-named FAQs');
 }
 const generatedBranchStart = localizedBuilder.indexOf('if (generated) {');
-const generatedBranchEnd = localizedBuilder.indexOf('\\n  const localSteps', generatedBranchStart);
+const generatedBranchEnd = localizedBuilder.indexOf('\n  const localSteps', generatedBranchStart);
 const generatedBranch = generatedBranchStart >= 0 && generatedBranchEnd > generatedBranchStart
   ? localizedBuilder.slice(generatedBranchStart, generatedBranchEnd)
   : '';
