@@ -29,6 +29,7 @@ require.extensions['.ts'] = (module, filename) => {
 
 const { TOOLS_REGISTRY } = require(path.join(process.cwd(), 'data/toolsRegistry.ts'));
 const { getLocalizedToolSeoContent } = require(path.join(process.cwd(), 'data/toolSeo.ts'));
+const { GENERATED_LOCALIZED_TOOL_SEO } = require(path.join(process.cwd(), 'data/generatedLocalizedToolSeo.ts'));
 const { getLocalizedToolName } = require(path.join(process.cwd(), 'data/internationalLocalization.ts'));
 const locales = ['en', 'pt', 'es', 'de', 'fr', 'it', 'ja', 'ko', 'zh', 'ru', 'ar', 'hi'];
 const tools = TOOLS_REGISTRY.filter((tool) => tool.category !== 'Festival');
@@ -86,7 +87,15 @@ for (const locale of locales) {
     }
     const sections = Array.isArray(seo.articleSections) ? seo.articleSections : [];
     const renderedSections = sections.filter((section) => !isFaqHeading(section.heading));
-    if (sections.length < 6) errors.push({ type: 'missing-guide-sections', locale, slug: tool.slug, count: sections.length });
+    const hasGeneratedCopy = Boolean(GENERATED_LOCALIZED_TOOL_SEO?.[locale]?.[tool.slug]);
+    if (sections.length < 6 && !hasGeneratedCopy) errors.push({ type: 'missing-guide-sections', locale, slug: tool.slug, count: sections.length });
+    // Generated localized pages render their translated intro, explanation, workflow,
+    // use cases, tips, limitations and FAQs as dedicated sections. They intentionally
+    // do not receive synthetic article sections that repeat those same fields.
+    const auditSections = renderedSections.length ? renderedSections : hasGeneratedCopy ? [
+      { heading: 'Localized intro', paragraphs: [seo.intro] },
+      { heading: 'Localized explanation', paragraphs: [seo.why] },
+    ] : renderedSections;
     if (!String(seo.intro ?? '').trim()) errors.push({ type: 'missing-intro', locale, slug: tool.slug });
     if (!String(seo.why ?? '').trim()) errors.push({ type: 'missing-why', locale, slug: tool.slug });
     if (!Array.isArray(seo.steps) || seo.steps.length < 3) errors.push({ type: 'missing-workflow-steps', locale, slug: tool.slug });
@@ -98,7 +107,7 @@ for (const locale of locales) {
     const lead = introLead(seo.intro);
     const seenOnPage = new Map();
     let paragraphCount = 0;
-    for (const section of renderedSections) {
+    for (const section of auditSections) {
       if (!String(section.heading ?? '').trim()) errors.push({ type: 'empty-section-heading', locale, slug: tool.slug });
       const paragraphs = Array.isArray(section.paragraphs) ? section.paragraphs : [];
       if (!paragraphs.length && !(section.bullets?.length)) errors.push({ type: 'empty-guide-section', locale, slug: tool.slug, heading: section.heading });
