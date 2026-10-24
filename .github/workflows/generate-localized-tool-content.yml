@@ -6,6 +6,10 @@ on:
       - cloudflare-test
     paths-ignore:
       - data/generatedLocalizedToolSeo.ts
+      - data/mergePdfLocalizedGuide.ts
+      - components/**
+      - scripts/browser-smoke.mjs
+      - scripts/audit-tool-seo-quality.mjs
       - .github/workflows/**
   workflow_dispatch:
 
