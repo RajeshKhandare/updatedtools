@@ -835,7 +835,7 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
         {
           heading: headings.workflow,
           paragraphs: [
-            LOCALIZED_GUIDE_LEADS[locale].workflow.replace('{tool}', getLocalizedToolName(tool, locale)),
+            LOCALIZED_GUIDE_LEADS[locale].workflow.replace('{tool}', getLocalizedToolName(tool, locale)) + ' ' + (seo.why || intro),
           ].filter(Boolean),
           bullets: steps,
         },
