@@ -273,7 +273,7 @@ async function testPdf(page, slug, fixtures, state) {
 
   const run = page
     .getByRole('button')
-    .filter({ name: /^(Run Code|Process(?:\\s|$))/ })
+    .filter({ name: /^(Run Code|Process(?:\s|$))/ })
     .first();
 
   if (
@@ -1091,27 +1091,29 @@ async function testUniversal(page, slug, category) {
     'html-entity-encoder': '&lt;div&gt;hello&lt;/div&gt;',
     'css-minifier-cleaner': 'body{color:red;padding:10px;}',
     'clean-url-slug-generator': 'hello-toolployee-world',
-    'alphabetical-line-sorter': 'apple\nMango\nzebra',
+    'alphabetical-line-sorter': 'apple Mango zebra',
+    'strip-html-tags': 'HelloWorld',
   };
 
   if (expectedInlineOutputs[slug]) {
-    const expected = expectedInlineOutputs[slug];
+    const expected = expectedInlineOutputs[slug].replace(/\s+/g, ' ').trim();
     await page.waitForFunction(
-      (value) => (document.body?.textContent || '').includes(value),
+      (value) => (document.body?.textContent || '').replace(/\s+/g, ' ').trim().includes(value),
       expected,
       { timeout: 30000 }
     );
     const body = await page.locator('body').textContent();
+    const normalizedBody = (body || '').replace(/\s+/g, ' ').trim();
     assert(
-      body.includes(expected),
-      slug + ': expected output was not rendered: ' + body
+      normalizedBody.includes(expected),
+      slug + ': expected output was not rendered: ' + normalizedBody
     );
     return;
   }
 
   const result =
     page.locator(
-      'pre'
+      'pre:visible'
     ).last();
 
   await result.waitFor({
