@@ -98,6 +98,13 @@ const TT_LOCALIZED_FOCUS:Record<Exclude<LocaleCode,'en'>,Record<string,string>> 
 
 
 const TT_LOCALIZED_USE_CASES_HI:Record<string,string[]> = {
+ 'timetable-maker':['दिनवार पीरियड और विषयों का संतुलित क्रम','ब्रेक के साथ पूरे सप्ताह की क्लास ग्रिड','स्कूल और घर की पढ़ाई के लिए साझा समय-सारणी'],
+ 'student-timetable-maker':['छात्रों के लेक्चर और स्वाध्याय का संतुलन','असाइनमेंट, रिवीजन और क्लासवर्क के स्लॉट','कॉलेज के बाद पढ़ाई के लिए तय समय'],
+ 'school-timetable-maker':['प्राइमरी या सेकेंडरी कक्षाओं के पीरियड','कक्षा-वार विषय और अवकाश की व्यवस्था','स्कूल स्टाफ द्वारा प्रिंट किया जाने वाला क्लास चार्ट'],
+ 'college-timetable-maker':['लेक्चर, लैब और ट्यूटोरियल का क्रम','सेमेस्टर के विषयों और प्रैक्टिकल की योजना','कैंपस में अलग-अलग कक्षाओं के समय'],
+ 'university-timetable-maker':['सेमिनार, रिसर्च और लेक्चर के ब्लॉक','लैब व स्वतंत्र अध्ययन के लिए साप्ताहिक स्लॉट','विश्वविद्यालय के अकादमिक कामों की योजना'],
+ 'girls-daily-routine-planner':['पढ़ाई, शौक और निजी देखभाल का संतुलन','क्लास, व्यायाम और परिवार के कामों का प्लान','आराम और खाली समय सहित व्यक्तिगत दिनचर्या'],
+ 'boys-daily-routine-planner':['स्कूल, खेल और होमवर्क का समय','फिटनेस, शौक और पढ़ाई के साप्ताहिक ब्लॉक','परिवार और दोस्तों के लिए खाली समय वाला रूटीन'],
  academic:['साप्ताहिक क्लास पीरियड और विषयों का क्रम','लेक्चर, प्रैक्टिकल और खाली पीरियड की योजना','स्कूल या कॉलेज के दिनवार शेड्यूल'],
  teacher:['कक्षा शिक्षण और तैयारी का समय','कॉपी जाँचने, मीटिंग और प्रैक्टिकल की योजना','अलग-अलग कक्षाओं के पीरियड का क्रम'],
  study:['रोज़ाना रिवीजन और अभ्यास के स्लॉट','मॉक टेस्ट, पढ़ने और नोट्स बनाने का समय','परीक्षा से पहले विषयवार तैयारी'],
@@ -145,7 +152,7 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    intro:localizedLead,
    why:localizedLead,
    steps:c!.steps,
-   useCases:locale==='hi'?(TT_LOCALIZED_USE_CASES_HI[taskGroup]||TT_LOCALIZED_USE_CASES_HI.personal):c!.useCases,
+   useCases:locale==='hi'?(TT_LOCALIZED_USE_CASES_HI[tool.slug]||TT_LOCALIZED_USE_CASES_HI[taskGroup]||TT_LOCALIZED_USE_CASES_HI.personal):c!.useCases,
    tips,
    limitations:LOCAL_LIMITATIONS[locale],
    faq:[
