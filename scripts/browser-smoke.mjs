@@ -1092,6 +1092,7 @@ async function testUniversal(page, slug, category) {
     'css-minifier-cleaner': 'body{color:red;padding:10px;}',
     'clean-url-slug-generator': 'hello-toolployee-world',
     'alphabetical-line-sorter': 'apple\nMango\nzebra',
+    'strip-html-tags': 'HelloWorld',
   };
 
   if (expectedInlineOutputs[slug]) {
