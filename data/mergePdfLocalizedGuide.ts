@@ -253,7 +253,7 @@ export function getMergePdfLocalizedSeoContent(tool: ToolMeta, locale: string): 
   }));
   return {
     heroIntro: guide.intro,
-    intro: guide.intro + ' ' + guide.why,
+    intro: guide.intro,
     why: guide.why,
     steps: guide.bullets[1],
     useCases: guide.bullets[2],
