@@ -40,7 +40,8 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
   const labels = SEO_LABELS[locale];
   const name = getLocalizedToolName(tool, locale);
   const category = getLocalizedCategoryLabel(tool.category, locale);
-  const normalizeCopy = (value: string) => value.normalize('NFKC').replace(/\\s+/g, ' ').trim().toLocaleLowerCase();
+  const stripLeadingBullet = (value: string) => value.replace(/^\s*[•·▪◦‣⁃]\s*/, '').trim();
+  const normalizeCopy = (value: string) => stripLeadingBullet(value).normalize('NFKC').replace(/\s+/g, ' ').trim().toLocaleLowerCase();
   const topLevelBullets = new Set([
     ...seo.steps,
     ...seo.useCases,
@@ -50,8 +51,8 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
   // Avoid repeating the hero/intro sentence when a generated article section starts
   // with the same copy. Keep the section's remaining useful explanation intact.
   const introLead = seo.intro.trim().match(/^.*?[.!?](?=\s|$)/)?.[0]?.trim();
+  const seenParagraphs = new Set<string>();
   const articleSections = seo.articleSections?.map((section) => {
-    const seenParagraphs = new Set<string>();
     const paragraphs = section.paragraphs.map((paragraph) => {
       let value = paragraph.trim();
       if (introLead && value.toLocaleLowerCase().startsWith(introLead.toLocaleLowerCase())) {
@@ -66,7 +67,9 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
     });
     const bullets = section.bullets?.filter((item) => !topLevelBullets.has(normalizeCopy(item)));
     return { ...section, paragraphs, bullets };
-  }).filter((section) => !/\\bfaq\\b|frequently asked questions|preguntas frecuentes|perguntas frequentes|häufige fragen|questions fréquentes|domande frequenti|よくある質問|자주 묻는 질문|常见问题|常见问答|часто задаваемые вопросы|الأسئلة الشائعة|अक्सर पूछे जाने वाले सवाल/i.test(section.heading));
+  }).filter((section) => !/\bfaq\b|frequently asked questions|preguntas frecuentes|perguntas frequentes|häufige fragen|questions fréquentes|domande frequenti|よくある質問|자주 묻는 질문|常见问题|常见问答|часто задаваемые вопросы|الأسئلة الشائعة|अक्सर पूछे जाने वाले सवाल/i.test(section.heading));
+  const articleCopy = new Set((articleSections ?? []).flatMap((section) => [section.heading, ...section.paragraphs]).map(normalizeCopy));
+  const faqItems = seo.faq.filter((item) => !(articleCopy.has(normalizeCopy(item.q)) && articleCopy.has(normalizeCopy(item.a))));
   // FAQs already render as accessible disclosure cards below; keep them out of the article list
   // so the same question/answer is not printed twice on the same page.
   return <section className="mt-14 border-t border-zinc-200/80 dark:border-zinc-800 pt-12">
@@ -89,18 +92,18 @@ export default function ToolSeoContent({ tool, locale = 'en' }: { tool: ToolMeta
         <div className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6"><h3 className="text-lg font-bold">{labels.useCases}</h3><ul className="mt-4 space-y-3">{seo.useCases.map(x=><li key={x} className="flex gap-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400"><CheckCircle2 aria-hidden="true" className="h-4 w-4 mt-1 shrink-0 text-emerald-500"/>{x}</li>)}</ul></div>
       </div>
       <div className="mt-6 grid md:grid-cols-2 gap-6">
-        <div className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6"><h3 className="text-lg font-bold">{labels.best}</h3><ul className="mt-4 space-y-3">{seo.tips.map(x=><li key={x} className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">• {x}</li>)}</ul></div>
-        <div className="rounded-3xl border border-amber-200/80 dark:border-amber-900/40 bg-amber-50/50 dark:bg-amber-950/10 p-6"><div className="flex items-center gap-2"><ShieldCheck aria-hidden="true" className="h-5 w-5 text-amber-600"/><h3 className="text-lg font-bold">{labels.limitations}</h3></div><ul className="mt-4 space-y-3">{seo.limitations.map(x=><li key={x} className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">• {x}</li>)}</ul></div>
+        <div className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6"><h3 className="text-lg font-bold">{labels.best}</h3><ul className="mt-4 space-y-3">{seo.tips.map(x=><li key={x} className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">• {stripLeadingBullet(x)}</li>)}</ul></div>
+        <div className="rounded-3xl border border-amber-200/80 dark:border-amber-900/40 bg-amber-50/50 dark:bg-amber-950/10 p-6"><div className="flex items-center gap-2"><ShieldCheck aria-hidden="true" className="h-5 w-5 text-amber-600"/><h3 className="text-lg font-bold">{labels.limitations}</h3></div><ul className="mt-4 space-y-3">{seo.limitations.map(x=><li key={x} className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">• {stripLeadingBullet(x)}</li>)}</ul></div>
       </div>
       {articleSections?.length ? <div className="mt-8 space-y-6">
         {articleSections.map((section, index) => <article key={section.heading} className="rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8">
           <h3 className="text-xl sm:text-2xl font-bold tracking-tight">{section.heading}</h3>
           <div className="mt-4 space-y-4">{section.paragraphs.map(paragraph => <p key={paragraph} className="text-sm sm:text-base leading-7 text-zinc-600 dark:text-zinc-400">{paragraph}</p>)}</div>
-          {section.bullets?.length ? <ul className="mt-4 space-y-3">{section.bullets.map(item => <li key={item} className="flex gap-3 text-sm sm:text-base leading-7 text-zinc-600 dark:text-zinc-400"><CheckCircle2 aria-hidden="true" className="h-4 w-4 mt-1 shrink-0 text-violet-500"/><span>{item}</span></li>)}</ul> : null}
+          {section.bullets?.length ? <ul className="mt-4 space-y-3">{section.bullets.map(item => <li key={item} className="flex gap-3 text-sm sm:text-base leading-7 text-zinc-600 dark:text-zinc-400"><CheckCircle2 aria-hidden="true" className="h-4 w-4 mt-1 shrink-0 text-violet-500"/><span>{stripLeadingBullet(item)}</span></li>)}</ul> : null}
         </article>)}
       </div> : null}
       <div className="mt-6 rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-7"><div className="flex items-center gap-2"><BarChart3 aria-hidden="true" className="h-5 w-5 text-violet-600"/><h3 className="text-lg font-bold">{labels.quick}</h3></div><div className="mt-5 grid sm:grid-cols-3 gap-3"><div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-4"><p className="text-[10px] uppercase tracking-wider text-zinc-400">{labels.category}</p><p className="mt-1 text-sm font-bold">{category}</p></div><div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-4"><p className="text-[10px] uppercase tracking-wider text-zinc-400">{labels.intent}</p><p className="mt-1 text-sm font-bold">{name}</p></div><div className="rounded-2xl bg-zinc-50 dark:bg-zinc-950 p-4"><p className="text-[10px] uppercase tracking-wider text-zinc-400">{labels.access}</p><p className="mt-1 text-sm font-bold">{labels.browser}</p></div></div></div>
-      <div className="mt-6"><h3 className="text-xl font-bold">{labels.faq}</h3><div className="mt-4 grid md:grid-cols-2 gap-4 items-stretch">{seo.faq.map(item=><details key={item.q} className="group flex h-full flex-col rounded-2xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5"><summary className="cursor-pointer list-none pr-6 text-sm font-bold text-zinc-900 dark:text-white">{item.q}</summary><p className="mt-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400">{item.a}</p></details>)}</div></div>
+      {faqItems.length ? <div className="mt-6"><h3 className="text-xl font-bold">{labels.faq}</h3><div className="mt-4 grid md:grid-cols-2 gap-4 items-stretch">{faqItems.map(item=><details key={item.q} className="group flex h-full flex-col rounded-2xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5"><summary className="cursor-pointer list-none pr-6 text-sm font-bold text-zinc-900 dark:text-white">{item.q}</summary><p className="mt-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400">{item.a}</p></details>)}</div></div> : null}
     </div>
   </section>;
 }
