@@ -92,7 +92,8 @@ jobs:
                 const changedFiles = comparison.data.files || [];
                 const onlyTestOrWorkflowChanges = changedFiles.length > 0 && changedFiles.every((file) =>
                   file.filename.startsWith('.github/workflows/') ||
-                  file.filename === 'scripts/localized-route-smoke.mjs');
+                  file.filename === 'scripts/localized-route-smoke.mjs' ||
+                  file.filename === 'scripts/generate-localized-tool-seo.ts');
                 if (onlyTestOrWorkflowChanges) {
                   const previewUrl = lastSuccessful?.match(/href="(https:\/\/[^\"]+workers\.dev)"/)?.[1];
                   if (!previewUrl) {
