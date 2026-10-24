@@ -273,7 +273,7 @@ async function testPdf(page, slug, fixtures, state) {
 
   const run = page
     .getByRole('button')
-    .filter({ name: /^(Run Code|Process(?:\\s|$))/ })
+    .filter({ name: /^(Run Code|Process(?:\s|$))/ })
     .first();
 
   if (
@@ -1096,14 +1096,14 @@ async function testUniversal(page, slug, category) {
   };
 
   if (expectedInlineOutputs[slug]) {
-    const expected = expectedInlineOutputs[slug].replace(/\\s+/g, ' ').trim();
+    const expected = expectedInlineOutputs[slug].replace(/\s+/g, ' ').trim();
     await page.waitForFunction(
-      (value) => (document.body?.textContent || '').replace(/\\s+/g, ' ').trim().includes(value),
+      (value) => (document.body?.textContent || '').replace(/\s+/g, ' ').trim().includes(value),
       expected,
       { timeout: 30000 }
     );
     const body = await page.locator('body').textContent();
-    const normalizedBody = (body || '').replace(/\\s+/g, ' ').trim();
+    const normalizedBody = (body || '').replace(/\s+/g, ' ').trim();
     assert(
       normalizedBody.includes(expected),
       slug + ': expected output was not rendered: ' + normalizedBody
