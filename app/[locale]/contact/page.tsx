@@ -24,6 +24,7 @@ export async function generateMetadata({
     description: 'Contact Toolployee for tool requests, bug reports, feedback, partnership questions, and support.',
     alternates: {
       canonical: '/' + locale.code + '/contact',
+      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, '/' + item.code + '/contact'])),
     },
   };
 }

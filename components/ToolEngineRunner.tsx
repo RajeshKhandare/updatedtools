@@ -5,11 +5,13 @@ import { ToolMeta } from '@/data/toolsRegistry';
 import UniversalToolEngine from './UniversalToolEngine';
 import type { LocaleCode } from '@/data/internationalSeo';
 import { getLocalizedToolName } from '@/data/internationalLocalization';
+import FestivalEngine from './engines/FestivalEngine';
 
 const PdfEngine = dynamic(() => import('./engines/PdfEngine'));
 const ImageEngine = dynamic(() => import('./engines/ImageEngine'));
 const CompilerEngine = dynamic(() => import('./engines/CompilerEngine'));
 const FinanceEngine = dynamic(() => import('./engines/FinanceEngine'));
+const TimeTableEngine = dynamic(() => import('./engines/TimeTableEngine'));
 
 export default function ToolEngineRunner({ tool, locale = 'en' }: { tool: ToolMeta; locale?: LocaleCode }) {
   switch (tool.category) {
@@ -19,6 +21,10 @@ export default function ToolEngineRunner({ tool, locale = 'en' }: { tool: ToolMe
       return <ImageEngine toolSlug={tool.slug} toolName={getLocalizedToolName(tool, locale)} locale={locale} />;
     case 'Compiler':
       return <CompilerEngine toolSlug={tool.slug} toolName={getLocalizedToolName(tool, locale)} locale={locale} />;
+    case 'Time Table':
+      return <TimeTableEngine tool={tool} locale={locale} />;
+    case 'Festival':
+      return <FestivalEngine tool={tool} locale={locale} />;
     case 'Finance':
       return <FinanceEngine toolSlug={tool.slug} toolName={getLocalizedToolName(tool, locale)} locale={locale} />;
     case 'Calculators':

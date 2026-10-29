@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, useEffect, Suspense } from 'react';
+import React, { useState, useMemo, useEffect, useRef, Suspense } from 'react';
 import Link from 'next/link';
 import { SITE_NAME } from '@/config/site';
 import { useSearchParams } from 'next/navigation';
@@ -26,6 +26,8 @@ import {
   HelpCircle,
   Layers,
   ArrowLeftRight,
+  CalendarDays,
+  Flower2, Flame, Gift, ShoppingBag, ListChecks, Lightbulb, Home,
 } from 'lucide-react';
 
 const FAQ_ITEMS = [
@@ -57,6 +59,8 @@ function HomeContent() {
   const [searchQuery, setSearchQuery] = useState(queryParam);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const categoryScrollerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => { categoryScrollerRef.current?.scrollTo({ left: 0, behavior: 'auto' }); }, []);
 
   // Sync category state and scroll cleanly below the sticky navbar
   useEffect(() => {
@@ -103,7 +107,16 @@ function HomeContent() {
     return filteredTools.slice(0, 12);
   }, [filteredTools, searchQuery, selectedCategory]);
 
-  const getToolIcon = (cat: string) => {
+  const getToolIcon = (cat: string, slug?: string) => {
+    if (cat === 'Festival') {
+      if (slug === 'navratri-colors-2026') return <Flower2 className="h-5 w-5 text-orange-500" />;
+      if (slug === 'diwali-mithai-faral-calculator') return <Gift className="h-5 w-5 text-amber-500" />;
+      if (slug === 'diwali-puja-samagri-checklist') return <ListChecks className="h-5 w-5 text-violet-500" />;
+      if (slug === 'diwali-budget-calculator') return <ShoppingBag className="h-5 w-5 text-emerald-500" />;
+      if (slug === 'diya-requirement-calculator') return <Lightbulb className="h-5 w-5 text-amber-500" />;
+      if (slug === 'diwali-cleaning-planner') return <Home className="h-5 w-5 text-sky-500" />;
+      return <Sparkles className="h-5 w-5 text-violet-500" />;
+    }
     switch (cat) {
       case 'PDF': return <FileText className="h-5 w-5 text-violet-600 dark:text-violet-400" />;
       case 'Image':
@@ -114,6 +127,7 @@ function HomeContent() {
       case 'Converters': return <ArrowLeftRight className="h-5 w-5 text-cyan-500 dark:text-cyan-400" />;
       case 'Calculators': return <Calculator className="h-5 w-5 text-amber-500 dark:text-amber-400" />;
       case 'YouTube': return <Video className="h-5 w-5 text-rose-500 dark:text-rose-400" />;
+      case 'Time Table': return <CalendarDays className="h-5 w-5 text-sky-500 dark:text-sky-400" />;
       default: return <Type className="h-5 w-5 text-violet-500" />;
     }
   };
@@ -166,14 +180,14 @@ function HomeContent() {
 
         {/* Category Filter Pills & Tools Grid */}
         <section id="tools" className="mx-auto max-w-7xl px-4 sm:px-6 pt-6 scroll-mt-24">
-          <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-4 no-scrollbar">
+          <div ref={categoryScrollerRef} className="w-full overflow-x-auto pb-4 no-scrollbar scroll-smooth"><div className="flex w-max min-w-full flex-nowrap items-center justify-start gap-2 px-1">
             {CATEGORIES.map((category) => {
               const isActive = selectedCategory === category;
               return (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
+                  className={`shrink-0 whitespace-nowrap rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
                     isActive
                       ? 'bg-violet-600 text-white shadow-md shadow-violet-500/20'
                       : 'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-800 hover:border-violet-300 dark:hover:border-zinc-700'
@@ -183,7 +197,7 @@ function HomeContent() {
                 </button>
               );
             })}
-          </div>
+          </div></div>
 
           <div className="mt-4 mb-2 flex items-center justify-between">
             <p className="text-xs font-bold uppercase tracking-wider text-zinc-400">
@@ -199,7 +213,7 @@ function HomeContent() {
                 className="group flex items-start gap-3.5 rounded-2xl border border-zinc-200/90 dark:border-zinc-800/80 bg-white dark:bg-zinc-900 p-4 transition-all hover:shadow-md hover:border-violet-400 dark:hover:border-violet-500 hover:-translate-y-0.5 cursor-pointer"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-violet-50 dark:bg-zinc-800/80 group-hover:scale-105 transition-transform mt-0.5">
-                  {getToolIcon(tool.category)}
+                  {getToolIcon(tool.category, tool.slug)}
                 </div>
 
                 <div className="flex-1 min-w-0">
@@ -225,7 +239,7 @@ function HomeContent() {
                 href="/tools"
                 className="inline-flex items-center gap-2 rounded-2xl bg-zinc-900 dark:bg-white text-white dark:text-zinc-950 px-8 py-3.5 text-xs font-extrabold hover:bg-violet-600 dark:hover:bg-violet-500 dark:hover:text-white transition-all shadow-md hover:scale-[1.02]"
               >
-                <span>Explore All 87 Tools</span>
+                <span>Explore All 119 Tools</span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -259,7 +273,7 @@ function HomeContent() {
               </div>
               <h3 className="text-base font-bold text-zinc-950 dark:text-white">Select Any Utility</h3>
               <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
-                Pick from our library of 87 specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
+                Pick from our library of 119 specialized tools across PDF manipulation, raster graphics, code compilers, or calculators.
               </p>
             </div>
 
@@ -351,7 +365,7 @@ function HomeContent() {
 
             <div className="mt-8 pt-8 border-t border-zinc-200/60 dark:border-zinc-800/60 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div>
-                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400" >87</p>
+                <p className="text-xl sm:text-2xl font-black text-violet-600 dark:text-violet-400" >119</p>
                 <p className="text-[11px] font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wider mt-0.5">Active Utilities</p>
               </div>
               <div>
@@ -436,7 +450,7 @@ function HomeContent() {
                   href="/tools"
                   className="rounded-2xl bg-violet-600 px-7 py-3 text-xs font-bold text-white hover:bg-violet-500 transition-all shadow-lg shadow-violet-600/30 hover:scale-105"
                 >
-                  Explore All 87 Utilities
+                  Explore All 119 Utilities
                 </Link>
                 <a
                   href="#tools"

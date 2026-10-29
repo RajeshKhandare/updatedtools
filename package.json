@@ -4,12 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/copy-sql-wasm.mjs && next build && node scripts/write-build-version.mjs",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "node scripts/copy-sql-wasm.mjs",
     "verify:tools": "node scripts/verify-tools.mjs",
-    "verify:international-seo": "node scripts/audit-international-seo.mjs"
+    "verify:international-seo": "node scripts/audit-international-seo.mjs",
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "verify:localized-routes": "node scripts/localized-route-smoke.mjs",
+    "verify:festival-seo": "node scripts/verify-festival-seo.mjs"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
@@ -35,6 +39,7 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "typescript": "^5",
-    "playwright": "^1.55.0"
+    "playwright": "^1.55.0",
+    "wrangler": "^4.136.2"
   }
 }

@@ -1,6 +1,6 @@
 # Toolployee
 
-A Next.js web application containing 87 browser-oriented utilities across PDF, Image, Compiler, Developer, Text, Converter, Calculator, Finance, and YouTube categories.
+A Next.js web application containing 112 browser-oriented utilities across PDF, Image, Compiler, Developer, Text, Converter, Calculator, Finance, and YouTube categories.
 
 > **Branding note:** Toolployee is the selected working brand. The final production domain remains configurable and will be connected only after the domain is purchased.
 
@@ -30,7 +30,7 @@ Run the registry and safety checks:
 node scripts/verify-tools.mjs
 ```
 
-The registry is expected to contain exactly 87 unique tool slugs with the configured category distribution.
+The registry is expected to contain exactly 112 unique tool slugs with the configured category distribution.
 
 ## Environment variables
 Copy `.env.example` and configure values as needed:

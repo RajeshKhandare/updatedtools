@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-// Localized platform page build verification.
 import { notFound } from 'next/navigation';
 import { LOCALES, getLocale } from '@/data/internationalSeo';
 import LocalizedPlatformPage from '@/components/LocalizedPlatformPage';
@@ -25,6 +24,7 @@ export async function generateMetadata({
     description: 'Learn about Toolployee, its browser-based architecture, and its free online tools for everyday digital tasks.',
     alternates: {
       canonical: '/' + locale.code + '/about',
+      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, '/' + item.code + '/about'])),
     },
   };
 }

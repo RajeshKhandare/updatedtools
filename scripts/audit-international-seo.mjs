@@ -9,11 +9,14 @@ const localizationSource = fs.readFileSync('data/internationalLocalization.ts', 
 const localizedLayoutSource = fs.readFileSync('app/[locale]/tools/[slug]/layout.tsx', 'utf8');
 const marketEvidenceSource = fs.readFileSync('data/internationalMarketEvidence.ts', 'utf8');
 
-const localeMatches = [...localeSource.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
+const coreLocaleBlock = localeSource.split('export const LOCALES')[1]?.split('];')[0] ?? '';
+const localeMatches = [...coreLocaleBlock.matchAll(/code:'([^']+)'/g)].map((m) => m[1]);
 const seedMatches = [...seedSource.matchAll(/locale:'([^']+)'/g)].map((m) => m[1]);
-const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
+const toolMatches = [...registrySource.matchAll(/slug:\s*'([^']+)'[\s\S]*?category:\s*'([^']+)'/g)]
+  .filter(([, , category]) => category !== 'Festival')
+  .map(([ , slug]) => slug);
 
-if (new Set(toolMatches).size !== 87) throw new Error(`Expected 87 tools, found ${new Set(toolMatches).size}`);
+if (new Set(toolMatches).size !== 112) throw new Error(`Expected 112 tools, found ${new Set(toolMatches).size}`);
 if (localeMatches.length !== 12) throw new Error(`Expected 12 locales, found ${localeMatches.length}`);
 if (seedMatches.length !== 11) throw new Error(`Expected 11 non-English seed markets, found ${seedMatches.length}`);
 const hasMatrixGenerator = /TOOLS_REGISTRY\.flatMap\(\(tool\)\s*=>\s*INTERNATIONAL_KEYWORD_SEEDS\.map\(\(market\)/s.test(matrixSource);
@@ -21,8 +24,8 @@ if (!hasMatrixGenerator) throw new Error('International SEO matrix is not genera
 if (!/getLongTailQueryCandidates/.test(matrixSource) || !/longTailQueryCandidates:/.test(matrixSource)) throw new Error('International SEO matrix must expose long-tail query candidates for every tool × market row');
 if (!/LONG_TAIL_QUERY_PATTERNS/.test(localizationSource) || !/getLongTailQueryCandidates/.test(localizationSource)) throw new Error('Long-tail query candidate generation is missing');
 if (!/toolTerminologyStatus:/.test(matrixSource) || !/'observed' \| 'candidate-only'/.test(matrixSource)) throw new Error('International SEO matrix must distinguish observed tool terminology from candidate-only research');
-const expectedMatrixRows = 87 * 11;
-const expectedLocalizationRows = 87 * 12;
+const expectedMatrixRows = 112 * 11;
+const expectedLocalizationRows = 112 * 12;
 const marketEvidenceLocales = [...marketEvidenceSource.matchAll(/locale: '([^']+)'/g)].map((m) => m[1]);
 const expectedEvidenceLocales = seedMatches;
 if (marketEvidenceLocales.length !== expectedEvidenceLocales.length || expectedEvidenceLocales.some((locale) => !marketEvidenceLocales.includes(locale))) {
@@ -32,7 +35,7 @@ const marketEvidenceSourceCount = [...marketEvidenceSource.matchAll(/sourceUrls:
 if (marketEvidenceSourceCount !== marketEvidenceLocales.length) throw new Error('Every market evidence entry must include source URLs');
 const hasCoverageGenerator = /LOCALES\.flatMap\(\(locale\)\s*=>\s*\n?\s*TOOLS_REGISTRY\.map\(\(tool\)/s.test(localizationSource);
 if (!hasCoverageGenerator) throw new Error('International localization coverage is not generated from every locale × tool');
-if (!/LOCALES\.flatMap/.test(localizedLayoutSource) || !/TOOLS_REGISTRY\.map/.test(localizedLayoutSource)) throw new Error('Localized route is not statically generated for every locale × tool');
+if (!/LOCALES\.flatMap/.test(localizedLayoutSource) || !/TOOLS_REGISTRY\.filter\(\(tool\) => tool\.category !== 'Festival' \|\| locale\.code === 'hi'\)/.test(localizedLayoutSource)) throw new Error('Localized route is not statically generated for every core locale × tool, with Festival tools limited to Hindi');
 const validationLocales = [...validationSource.matchAll(/locale: '([^']+)'/g)].map((m) => m[1]);
 const validationSourceCount = [...validationSource.matchAll(/sourceUrls: \[/g)].length;
 if (validationLocales.length !== validationSourceCount) throw new Error('Localized keyword validation entries must each include source URLs');
@@ -47,6 +50,6 @@ const missingSeeds = localeMatches
   .filter((code) => !seedMatches.includes(code === 'pt' ? 'pt-BR' : code === 'zh' ? 'zh-CN' : code));
 if (missingSeeds.length) throw new Error(`Missing keyword seeds: ${missingSeeds.join(', ')}`);
 
-console.log(`International SEO foundation OK: 87 tools, ${localeMatches.length} locales, ${seedMatches.length} non-English seed markets, ${expectedMatrixRows} research rows, ${expectedLocalizationRows} locale × tool coverage rows, long-tail candidates enabled for every matrix row, ${validatedRowCount} evidence-backed validation rows, ${marketEvidenceLocales.length} market evidence sets.`);
+console.log(`International SEO foundation OK: 112 tools, ${localeMatches.length} locales, ${seedMatches.length} non-English seed markets, ${expectedMatrixRows} research rows, ${expectedLocalizationRows} locale × tool coverage rows, long-tail candidates enabled for every matrix row, ${validatedRowCount} evidence-backed validation rows, ${marketEvidenceLocales.length} market evidence sets.`);
 console.log('Terminology evidence is tracked per matrix row as observed vs candidate-only; this is not a ranking or traffic score.');
 console.log('Market evidence supports observed local terminology only. Search-volume/difficulty/traffic claims remain unset until reliable keyword data is supplied.');
