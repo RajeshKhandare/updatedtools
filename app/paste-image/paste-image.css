@@ -48,7 +48,11 @@
 .paste-benefits strong { color: #e4e4e7; font-size: 11px; font-weight: 700; }
 .paste-benefits small { margin-top: 4px; font-size: 10px; line-height: 1.4; color: #a1a1aa; }
 .paste-guide { width: min(100%, 920px); margin: 0 auto 48px; border: 1px solid #383838; border-radius: 14px; background: #171717; color: #d4d4d8; overflow: hidden; }
-.paste-guide-teaser { display: grid; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: 16px; padding: 22px; }
+.paste-guide-teaser { display: grid; list-style: none; cursor: pointer; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: 16px; padding: 22px; }
+.paste-guide-teaser::-webkit-details-marker { display: none; }
+.paste-guide-teaser::marker { content: ''; }
+.paste-guide[open] .paste-guide-toggle svg { transform: rotate(180deg); }
+.paste-guide-toggle svg { transition: transform .15s ease; }
 .paste-guide-icon { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid #444; border-radius: 10px; color: #f4f4f5; background: #242424; }
 .paste-guide-kicker { margin: 0 0 5px; color: #a1a1aa; font-size: 10px; font-weight: 750; letter-spacing: .14em; }
 .paste-guide-teaser h2 { margin: 0; color: #fafafa; font-size: clamp(16px, 2.5vw, 21px); line-height: 1.35; letter-spacing: -.025em; }
