@@ -38,9 +38,9 @@ export function middleware(request: NextRequest) {
   const hostname = (request.headers.get('host') || request.nextUrl.hostname).split(':')[0].toLowerCase();
 
   // Serve the standalone paste utility at the subdomain root without changing the visible URL.
-  if (hostname === PASTE_TOOL_HOST && pathname === '/') {
+  if (hostname === PASTE_TOOL_HOST && (pathname === '/' || pathname === '/sitemap.xml' || pathname === '/robots.txt')) {
     const url = request.nextUrl.clone();
-    url.pathname = '/paste-image';
+    url.pathname = pathname === '/' ? '/paste-image' : '/paste-image' + pathname;
     return NextResponse.rewrite(url);
   }
 
