@@ -1,4 +1,6 @@
-export async function GET() {
+export const dynamic = 'force-static';
+
+export function GET() {
   const body = 'User-agent: *\nAllow: /\nSitemap: https://paste.toolployee.com/sitemap.xml\n';
   return new Response(body, {
     headers: {
