@@ -147,14 +147,19 @@ export default function PasteImageTool() {
         {!imageUrl ? (
           <div
             className={`paste-dropzone${isDragging ? ' is-dragging' : ''}`}
+            role="button"
+            tabIndex={0}
+            aria-label="Paste or choose an image"
+            onClick={(event) => { if ((event.target as HTMLElement).closest('button')) return; fileInputRef.current?.click(); }}
+            onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); fileInputRef.current?.click(); } }}
             onDragOver={(event) => { event.preventDefault(); setIsDragging(true); }}
             onDragLeave={() => setIsDragging(false)}
             onDrop={onDrop}
           >
             <div className="paste-icon"><ImagePlus size={30} strokeWidth={1.7} /></div>
-            <h2>Paste or drop your image here</h2>
+            <h2>PASTE IMAGE TO DOWNLOAD</h2>
             <p>Use <kbd>Ctrl</kbd> + <kbd>V</kbd> (or <kbd>⌘</kbd> + <kbd>V</kbd> on Mac)</p>
-            <span className="paste-or">or</span>
+            <span className="paste-or">You can also click me</span>
             <button type="button" className="paste-button paste-button-dark" onClick={() => fileInputRef.current?.click()}>
               <Upload size={16} /> Choose an image
             </button>
