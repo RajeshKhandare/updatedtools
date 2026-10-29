@@ -85,3 +85,26 @@
   .paste-guide-panel { padding-inline: 17px; }
   .paste-footer { flex-wrap: wrap; justify-content: center; }
 }
+
+/* Reference-inspired full-width paste canvas: dark, minimal, grayscale. */
+.paste-header { display: none; }
+.paste-main { width: 100%; max-width: none; margin: 20px auto 28px; }
+.paste-eyebrow, .paste-main > h1, .paste-intro { display: none; }
+.paste-dropzone { position: relative; min-height: min(61vh, 570px); padding: 40px 20px 36px; border: 2px dashed #9ca3af; border-radius: 6px; background: #111; box-shadow: none; }
+.paste-dropzone:focus-visible { outline: 2px solid #f4f4f5; outline-offset: 4px; }
+.paste-icon { width: auto; height: auto; margin: 0 0 18px; border-radius: 0; background: transparent; color: #e5e7eb; }
+.paste-dropzone h2 { margin: 0 0 14px; color: #f5f5f5; font-size: clamp(24px, 3vw, 38px); line-height: 1.2; font-weight: 750; letter-spacing: -.04em; }
+.paste-dropzone p { margin-top: auto; padding-top: 28px; color: #e5e7eb; font-size: 14px; }
+.paste-or { margin: 0 0 10px; color: #e5e7eb; font-size: 12px; font-style: italic; font-weight: 650; }
+.paste-dropzone .paste-button { min-height: 30px; padding: 0 8px; border: 0; background: transparent; color: #d4d4d8; text-decoration: underline; font-size: 12px; }
+.paste-file-note { margin-top: 4px; color: #71717a; font-size: 10px; }
+.paste-benefits { margin-top: 20px; }
+.paste-guide { margin-top: 35px; }
+@media (min-width: 1000px) {
+  .paste-dropzone { min-height: 61vh; }
+  .paste-icon svg { width: 48px; height: 48px; }
+}
+@media (max-width: 640px) {
+  .paste-dropzone { min-height: 60vh; padding: 30px 14px 24px; }
+  .paste-dropzone h2 { font-size: clamp(22px, 6vw, 30px); }
+}
