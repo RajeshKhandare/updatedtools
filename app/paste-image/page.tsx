@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import './paste-image.css';
 import PasteImageTool from './PasteImageTool';
 
 const canonical = 'https://paste.toolployee.com/';
