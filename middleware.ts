@@ -2,6 +2,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const LOCALE_COOKIE = 'toolployee-locale';
+const PASTE_TOOL_HOST = 'paste.toolployee.com';
 
 const COUNTRY_TO_LOCALE: Record<string, string> = {
   BR: 'pt',
@@ -34,6 +35,14 @@ function isSearchCrawler(request: NextRequest) {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const hostname = (request.headers.get('host') || request.nextUrl.hostname).split(':')[0].toLowerCase();
+
+  // Serve the standalone paste utility at the subdomain root without changing the visible URL.
+  if (hostname === PASTE_TOOL_HOST && pathname === '/') {
+    const url = request.nextUrl.clone();
+    url.pathname = '/paste-image';
+    return NextResponse.rewrite(url);
+  }
 
   const legacyEnglishPath = pathname.replace(/\/$/, '');
   const legacyTarget = LEGACY_ENGLISH_REDIRECTS[legacyEnglishPath];
