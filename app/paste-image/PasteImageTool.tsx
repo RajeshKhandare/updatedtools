@@ -2,6 +2,7 @@
 
 import { ChangeEvent, DragEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { ClipboardPaste, Download, ImagePlus, RefreshCw, ShieldCheck, Upload, X } from 'lucide-react';
+import ImageGuide from './ImageGuide';
 
 type OutputFormat = 'png' | 'jpeg' | 'webp';
 
@@ -200,16 +201,7 @@ export default function PasteImageTool() {
         </div>
       </section>
 
-      <section className="paste-seo-content" aria-labelledby="paste-how-title">
-        <h2 id="paste-how-title">How to paste and download an image</h2>
-        <ol>
-          <li>Copy an image or screenshot, then return to this page.</li>
-          <li>Press Ctrl + V (or Command + V on Mac), or choose an image file.</li>
-          <li>Select PNG, JPG, or WebP and click Download image.</li>
-        </ol>
-        <h2>Is it safe to use this image downloader?</h2>
-        <p>Image conversion happens locally in your browser. The tool does not need an account or an image upload to a server. Avoid pasting sensitive information on shared devices.</p>
-      </section>
+      <ImageGuide />
 
       <footer className="paste-footer">
         <span>© {new Date().getFullYear()} Toolployee</span>
