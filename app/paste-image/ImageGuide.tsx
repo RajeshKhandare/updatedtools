@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
+import { BookOpen, ChevronDown } from 'lucide-react';
 
 const chapters = [
   {
@@ -172,30 +171,18 @@ const chapters = [
 ];
 
 export default function ImageGuide() {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
-    <section className="paste-guide" aria-labelledby="paste-guide-title">
-      <div className="paste-guide-teaser">
+    <details className="paste-guide" aria-labelledby="paste-guide-title">
+      <summary className="paste-guide-teaser">
         <div className="paste-guide-icon"><BookOpen size={20} /></div>
         <div>
           <p className="paste-guide-kicker">THE COMPLETE GUIDE</p>
           <h2 id="paste-guide-title">Everything to know about pasting and downloading images</h2>
           <p>Format comparisons, clipboard help, privacy notes, quality tips and practical troubleshooting.</p>
         </div>
-        <button
-          className="paste-guide-toggle"
-          type="button"
-          aria-expanded={isOpen}
-          aria-controls="paste-guide-panel"
-          onClick={() => setIsOpen((open) => !open)}
-        >
-          {isOpen ? 'Close guide' : 'Read guide'}
-          {isOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-        </button>
-      </div>
-      {isOpen && (
-        <div className="paste-guide-panel" id="paste-guide-panel">
+        <span className="paste-guide-toggle">Read guide <ChevronDown size={16} /></span>
+      </summary>
+      <div className="paste-guide-panel" id="paste-guide-panel">
           <p className="paste-guide-lead">Use this practical reference to choose a format, solve common paste problems, and understand what happens to your image during conversion. The instructions below focus on common still-image workflows; exact behavior can vary by browser and device.</p>
           <nav className="paste-guide-toc" aria-label="Guide contents">
             <strong>In this guide</strong>
@@ -208,8 +195,7 @@ export default function ImageGuide() {
             </article>
           ))}
           <p className="paste-guide-disclaimer">This guide is general educational information. Browser features, operating-system behavior, and supported image formats may change over time. For important work, verify the downloaded file in the application where you plan to use it.</p>
-        </div>
-      )}
-    </section>
+      </div>
+    </details>
   );
 }
