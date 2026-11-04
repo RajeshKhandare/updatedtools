@@ -60,8 +60,11 @@ if (generatedAssignment < 0 || generatedTerminator <= generatedAssignment) {
           errors.push('Generated localized SEO is missing ' + locale + '/' + tool.slug);
           continue;
         }
+        // CJK translations carry more meaning per character; use a locale-aware floor
+        // instead of rejecting concise, valid Japanese/Chinese sentences.
+        const minLocalizedLength = locale === 'ja' || locale === 'zh' ? 10 : 25;
         for (const field of ['heroIntro', 'intro', 'why']) {
-          if (typeof item[field] !== 'string' || item[field].trim().length < 25) {
+          if (typeof item[field] !== 'string' || item[field].trim().length < minLocalizedLength) {
             errors.push('Generated localized SEO has missing/short ' + field + ' for ' + locale + '/' + tool.slug);
           }
         }
