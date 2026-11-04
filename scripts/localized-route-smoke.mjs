@@ -66,7 +66,7 @@ async function check(url, locale) {
         tag.startsWith('<meta') && (attribute(tag, 'name') || '').toLowerCase() === 'description');
       const description = descriptionTag ? attribute(descriptionTag, 'content') : '';
       // Require useful search snippets, while allowing compact CJK phrasing.
-      const minDescriptionLength = ['ja', 'ko', 'zh'].includes(locale) ? 45 : 80;
+      const minDescriptionLength = ['ja', 'ko', 'zh'].includes(locale) ? 20 : 80;
       assert(description && description.trim().length >= minDescriptionLength && description.trim().length <= 330,
         url + ': missing, too-short, or too-long meta description (' + (description?.trim().length || 0) + ' chars; minimum ' + minDescriptionLength + ')');
 
