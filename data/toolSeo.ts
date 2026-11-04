@@ -1337,9 +1337,10 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     const intro = isEnglishFallback(generated.intro, base.intro)
       ? localIntro + ' ' + (localUses || []).slice(0, 2).join(' ')
       : generated.intro;
-    const why = isEnglishFallback(generated.why, base.why)
-      ? localIntro
-      : generated.why;
+    // Generated guides can contain the same translated category-level explanation
+    // across many tools. Build this section from the localized tool name and its
+    // mapped task purpose so each page explains its own operation.
+    const why = localIntro + ' ' + (localUses || []).slice(0, 2).join(' ');
     // The localized page already renders the translated intro, why, steps,
     // use cases, tips, limitations and FAQs above. Synthetic article sections
     // made from those same fields duplicated content; reserve long-form sections
