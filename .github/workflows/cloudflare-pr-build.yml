@@ -34,10 +34,8 @@ jobs:
       - name: Validate localized route smoke test syntax
         run: node --check scripts/localized-route-smoke.mjs
 
-      # Run content analysis in CI without adding its cost to the Cloudflare app build.
       - name: Audit SEO content across all tool locales
-        run: |
-          npm run verify:seo-content-quality
+        run: npm run verify:seo-content-quality
 
       - name: Build
         run: npm run build
@@ -45,7 +43,7 @@ jobs:
       - name: Verify festival SEO, hreflang and affiliate placement
         run: npm run verify:festival-seo
 
-      - name: Wait for the matching Cloudflare Workers build
+      - name: Wait for the matching Cloudflare Workers preview deployment
         id: cloudflare-preview
         uses: actions/github-script@v7
         with:
@@ -53,33 +51,68 @@ jobs:
             const targetSha = context.payload.pull_request?.head?.sha || context.sha;
             const expected = targetSha.slice(0, 7);
             const deadline = Date.now() + 15 * 60 * 1000;
+
             while (Date.now() < deadline) {
-              const { data } = await github.rest.checks.listForRef({
+              const { data: checks } = await github.rest.checks.listForRef({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 ref: targetSha,
                 per_page: 100,
               });
-              const workerBuild = data.check_runs.find((check) =>
-                check.name === 'Workers Builds: updatedtools' && check.head_sha === targetSha);
-              if (workerBuild?.status === 'completed') {
-                if (workerBuild.conclusion !== 'success') {
-                  core.setFailed('Cloudflare Workers build failed for ' + expected);
-                  return;
-                }
-                // Cloudflare Workers previews do not expose the Pages-style Preview URL
-                // comment in this repository. Use the live site only as a read-only
-                // baseline smoke test; do not represent it as testing the PR preview.
-                core.setOutput('preview_url', 'https://toolployee.com');
-                core.info('Cloudflare Workers build succeeded for ' + expected + '. No isolated workers.dev preview URL is published by the integration; running read-only route smoke tests against the current live site as a baseline, not as PR-preview validation.');
+              const workerBuild = checks.check_runs.find((check) =>
+                check.name === 'Workers Builds: updatedtools' &&
+                check.head_sha === targetSha
+              );
+
+              if (workerBuild?.status === 'completed' &&
+                  workerBuild.conclusion !== 'success') {
+                core.setFailed('Cloudflare Workers build failed for ' + expected);
                 return;
               }
-              core.info('Waiting for matching Cloudflare Workers build check for ' + expected);
+
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                per_page: 100,
+              });
+              const cloudflareComments = comments.filter((comment) =>
+                comment.user?.login === 'cloudflare-workers-and-pages[bot]'
+              );
+
+              let deploymentUrl = null;
+              for (const comment of cloudflareComments) {
+                const rows = (comment.body || '').split(/<tr>/i).slice(1);
+                const matchingRow = rows.find((row) =>
+                  row.includes(expected) &&
+                  /Build:<\\/b>\\s*Success/i.test(row) &&
+                  /Deployment:<\\/b>\\s*Success/i.test(row)
+                );
+                if (matchingRow) {
+                  deploymentUrl = matchingRow.match(/href="(https:\\/\\/[^"]+\\.workers\\.dev)"/i)?.[1] || null;
+                  if (deploymentUrl) break;
+                }
+              }
+
+              if (workerBuild?.status === 'completed' &&
+                  workerBuild.conclusion === 'success' &&
+                  deploymentUrl) {
+                core.setOutput('preview_url', deploymentUrl);
+                core.info('Cloudflare build and deployment succeeded for ' + expected + '. Smoke tests will run against the exact commit preview: ' + deploymentUrl);
+                return;
+              }
+
+              core.info('Waiting for exact-commit Cloudflare preview deployment for ' + expected +
+                '. A successful build check alone is not sufficient.');
               await new Promise((resolve) => setTimeout(resolve, 15000));
             }
-            core.setFailed('Timed out waiting for the matching Cloudflare Workers build check for ' + expected);
 
-      - name: Smoke-test all 1,344 localized tool routes on Cloudflare
+            core.setFailed(
+              'No successful Cloudflare workers.dev preview deployment was found for exact PR commit ' +
+              expected + '. Production URLs are never used as a PR-preview substitute.'
+            );
+
+      - name: Smoke-test all 1,344 localized tool routes on the PR preview
         env:
           SMOKE_BASE_URL: ${{ steps.cloudflare-preview.outputs.preview_url }}
         run: npm run verify:localized-routes
