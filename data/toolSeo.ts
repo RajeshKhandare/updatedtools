@@ -1320,6 +1320,7 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   const localizedHeroIntro = localIntro.length < minMetaLength
     ? localIntro + ' ' + localizedMetaSuffix[locale]
     : localIntro;
+  const localUses = categoryCopy.useCases;
 
   if (generated) {
     // Older generated files could contain English source text after the former
@@ -1353,7 +1354,6 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   }
 
   const localSteps = [...categoryCopy.steps, ...categoryCopy.tips.slice(0, 2)];
-  const localUses = categoryCopy.useCases;
   const localTips = categoryCopy.tips;
   const localLimits = categoryCopy.limitations;
   const localizedSpecificFaq: ToolFaq[] = [
