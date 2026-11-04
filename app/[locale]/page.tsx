@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: 'Toolployee — ' + ui.toolsLabel,
     description: ui.description,
     alternates: {
-      canonical: '/' + locale.code,
-      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, item.code === 'en' ? '/' : '/' + item.code])),
+      canonical: '/' + locale.code + '/',
+      languages: Object.fromEntries(LOCALES.map((item) => [item.hreflang, item.code === 'en' ? '/' : '/' + item.code + '/'])),
     },
   };
 }
