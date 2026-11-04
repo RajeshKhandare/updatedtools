@@ -85,11 +85,11 @@ jobs:
                 const rows = (comment.body || '').split(/<tr>/i).slice(1);
                 const matchingRow = rows.find((row) =>
                   row.includes(expected) &&
-                  /Build:<\\/b>\\s*Success/i.test(row) &&
-                  /Deployment:<\\/b>\\s*Success/i.test(row)
+                  /Build:<\/b>\s*Success/i.test(row) &&
+                  /Deployment:<\/b>\s*Success/i.test(row)
                 );
                 if (matchingRow) {
-                  deploymentUrl = matchingRow.match(/href="(https:\\/\\/[^"]+\\.workers\\.dev)"/i)?.[1] || null;
+                  deploymentUrl = matchingRow.match(/href="(https:\/\/[^"]+\.workers\.dev)"/i)?.[1] || null;
                   if (deploymentUrl) break;
                 }
               }
@@ -114,5 +114,5 @@ jobs:
 
       - name: Smoke-test all 1,344 localized tool routes on the PR preview
         env:
-          SMOKE_BASE_URL: ${{ steps.cloudflare-preview.outputs.preview_url }}
+          SMOKE_BASE_URL: \${{ steps.cloudflare-preview.outputs.preview_url }}
         run: npm run verify:localized-routes
