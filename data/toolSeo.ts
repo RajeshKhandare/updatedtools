@@ -824,34 +824,40 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
   const limits = seo.limitations || [];
   const faq = seo.faq || [];
   if (!isEnglish) {
+    // Generated translations already contain tool-specific intros, examples, tips and
+    // limitations. Build article paragraphs from those fields instead of repeating the
+    // category-level "why" paragraph across every tool in the same category.
+    const specificExamples = examples.slice(-3);
+    const specificTips = tips.slice(-2);
+    const specificLimits = limits.slice(-2);
     return {
       ...seo,
       articleSections: [
         {
           heading: headings.what,
-          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (seo.why || intro)],
+          paragraphs: [intro],
           bullets: [seo.heroIntro || seo.intro || tool.description],
         },
         {
           heading: headings.workflow,
           paragraphs: [
-            LOCALIZED_GUIDE_LEADS[locale].workflow.replace('{tool}', getLocalizedToolName(tool, locale)) + ' ' + (seo.why || intro),
+            LOCALIZED_GUIDE_LEADS[locale].workflow.replace('{tool}', getLocalizedToolName(tool, locale)) + ' ' + intro + ' ' + steps.slice(0, 2).join(' '),
           ].filter(Boolean),
           bullets: steps,
         },
         {
           heading: headings.uses,
-          paragraphs: [LOCALIZED_GUIDE_LEADS[locale].examples.replace('{tool}', getLocalizedToolName(tool, locale)) + examples.slice(0, 2).join(' ')].filter(Boolean),
+          paragraphs: [LOCALIZED_GUIDE_LEADS[locale].examples.replace('{tool}', getLocalizedToolName(tool, locale)) + specificExamples.join(' ')].filter(Boolean),
           bullets: examples,
         },
         {
           heading: headings.practices,
-          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (seo.why || intro) + ' ' + (tips[tips.length - 1] || tips[0] || '')].filter(Boolean),
+          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + specificTips.join(' ')].filter(Boolean),
           bullets: tips,
         },
         {
           heading: headings.limits,
-          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + (seo.why || intro) + ' ' + (limits[limits.length - 1] || limits[0] || '')].filter(Boolean),
+          paragraphs: [getLocalizedToolName(tool, locale) + ': ' + intro + ' ' + specificLimits.join(' ')].filter(Boolean),
           bullets: limits,
         },
         {
