@@ -38,7 +38,15 @@ jobs:
         run: npm run verify:seo-content-quality
 
       - name: Build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://toolployee.com
         run: npm run build
+
+      - name: Verify generated sitemap and robots
+        run: |
+          test -s out/sitemap.xml
+          grep -q 'https://toolployee.com/tools/' out/sitemap.xml
+          grep -q 'https://toolployee.com/sitemap.xml' out/robots.txt
 
       - name: Verify festival SEO, hreflang and affiliate placement
         run: npm run verify:festival-seo
