@@ -36,11 +36,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Confirme o pedido antes de mesclar. A ordem de seleção dos arquivos pode não corresponder à ordem de leitura necessária, portanto, inspecione a lista organizada e o PDF final.",
         "Use nomes de arquivos significativos. Nomes como 01-cover.pdf, 02-report.pdf e 03-appendix.pdf podem facilitar o gerenciamento de um fluxo de trabalho de vários arquivos.",
         "Guarde os originais. Um PDF mesclado é uma cópia combinada conveniente e não um substituto para arquivos de origem que você pode precisar editar ou enviar separadamente posteriormente.",
-        "Verifique todas as páginas em torno dos limites do arquivo. A transição entre a última página de um PDF de origem e a primeira página do próximo é um local fácil para perceber páginas ausentes, duplicadas ou ordenadas incorretamente.",
+        "Verifique todas as páginas em torno dos limites do arquivo. A transição entre a última página de um PDF de origem e a primeira página do próximo é um local fácil para notar páginas ausentes, duplicadas ou ordenadas incorretamente.",
         "Observe tamanhos e orientações de páginas mistos. A4, Carta, retrato, paisagem e páginas digitalizadas podem coexistir em um PDF; confirme se cada página permanece legível e orientada corretamente.",
         "Não confunda mesclagem com compactação. Unir PDFs não garante um arquivo menor. Se um portal tiver um limite de upload rigoroso, verifique o tamanho final e use uma ferramenta de compactação se necessário.",
         "Lembre-se do texto digitalizado. Um PDF digitalizado pode conter imagens de páginas em vez de texto pesquisável. Mesclá-los não executa o OCR automaticamente nem torna as palavras selecionáveis.",
-        "Proteja informações confidenciais. Processe apenas documentos que você está autorizado a manipular. Evite a exposição desnecessária de informações pessoais, financeiras, médicas ou comerciais confidenciais e compreenda as práticas de tratamento de arquivos do serviço antes de usá-lo para documentos confidenciais.",
+        "Proteja informações confidenciais. Processe apenas documentos que você está autorizado a manipular. Evite a exposição desnecessária de informações pessoais, financeiras, médicas ou comerciais confidenciais e entenda as práticas de manuseio de arquivos do serviço antes de usá-lo para documentos confidenciais.",
         "Verifique assinaturas e formulários. Se o PDF contiver assinaturas digitais, formulários interativos, anotações ou marcadores, inspecione esses recursos após a mesclagem, pois o comportamento pode depender do arquivo de origem e do software PDF.",
         "Siga as instruções de envio. Alguns portais exigem uploads separados, um formato de nomenclatura específico, um tamanho máximo de arquivo ou uma ordem prescrita de documentos. Seus requisitos têm prioridade."
       ],
@@ -72,7 +72,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Posso mesclar documentos PDF digitalizados?",
-          "a": "Os PDFs digitalizados geralmente podem ser unidos como páginas em um arquivo. Se precisar pesquisar ou selecionar palavras nas páginas digitalizadas, você também pode precisar do OCR. A mesclagem por si só não converte imagens de páginas em texto reconhecido."
+          "a": "Os PDFs digitalizados geralmente podem ser unidos como páginas em um arquivo. Se precisar pesquisar ou selecionar as palavras nas páginas digitalizadas, você também pode precisar do OCR. A mesclagem por si só não converte imagens de páginas em texto reconhecido."
         },
         {
           "q": "A mesclagem de arquivos PDF reduzirá a qualidade?",
@@ -104,7 +104,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "A mesclagem de PDF preservará assinaturas digitais, formulários, comentários e marcadores?",
-          "a": "Nem todos os recursos especiais do PDF têm garantia de comportamento idêntico após a mesclagem. As assinaturas digitais podem não ser mais validadas após alterações no documento, e formulários, anotações ou marcadores podem depender de como os PDFs de origem foram criados. Inspecione esses recursos e siga os requisitos relevantes de assinatura ou conformidade."
+          "a": "Nem todos os recursos especiais do PDF têm garantia de comportamento idêntico após a mesclagem. As assinaturas digitais podem não ser mais válidas após alterações no documento, e formulários, anotações ou marcadores podem depender de como os PDFs de origem foram criados. Inspecione esses recursos e siga os requisitos relevantes de assinatura ou conformidade."
         },
         {
           "q": "Mesclar PDFs é o mesmo que converter imagens em PDF?",
@@ -112,11 +112,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Posso mesclar arquivos PDF sem perder os documentos originais?",
-          "a": "Mantenha os arquivos de origem em uma pasta separada antes de começar. Baixe o arquivo combinado como um novo documento e verifique-o antes de excluir ou arquivar qualquer coisa. Isso oferece uma alternativa se uma página estiver faltando ou se um recurso especial não se comportar conforme o esperado."
+          "a": "Mantenha os arquivos de origem em uma pasta separada antes de começar. Baixe o arquivo combinado como um novo documento e verifique-o antes de excluir ou arquivar qualquer coisa. Isso oferece uma alternativa caso uma página esteja faltando ou um recurso especial não se comporte conforme o esperado."
         },
         {
           "q": "É seguro mesclar documentos PDF confidenciais online?",
-          "a": "Processe apenas arquivos que você está autorizado a manipular e revise as informações de privacidade e manuseio de arquivos do serviço antes de usar documentos confidenciais. Para materiais altamente confidenciais ou regulamentados, siga a política de processamento de documentos aprovada pela sua organização."
+          "a": "Processe apenas arquivos que você está autorizado a manipular e revise a privacidade do serviço e as informações de manuseio de arquivos antes de usar documentos confidenciais. Para materiais altamente confidenciais ou regulamentados, siga a política de processamento de documentos aprovada pela sua organização."
         },
         {
           "q": "O que devo fazer se o PDF mesclado não abrir?",
@@ -272,7 +272,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Mantenha uma cópia original antes de edições destrutivas.",
         "Revise a ordem das páginas, orientação, nomes de arquivos e qualidade de saída.",
         "Para arquivos confidenciais, prefira o processamento no navegador onde houver suporte explícito e nunca insira segredos desnecessários.",
-        "Evite: enviar imagens na ordem errada.",
+        "Evite: Enviar imagens na ordem errada.",
         "Evite: Ignorar a orientação ou proporção da página.",
         "Evite: Usar imagens de origem muito grandes sem verificar o tamanho do PDF resultante."
       ],
@@ -444,7 +444,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Trabalho de preparação repetível para documentos, mídia, texto, código, dados ou fluxos de trabalho do criador.",
         "Verificando um resultado intermediário durante um projeto maior.",
         "Preparando uma saída para outro aplicativo ou fluxo de trabalho.",
-        "Corrija páginas digitalizadas lateralmente.",
+        "Corrija as páginas digitalizadas lateralmente.",
         "Gire as páginas selecionadas para impressão.",
         "Padronize a orientação da página em um documento misto."
       ],
@@ -551,7 +551,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "add-page-numbers-pdf": {
       "heroIntro": "Insira números de página de cabeçalho ou rodapé em todo o arquivo PDF.",
-      "intro": "Insira números de página de cabeçalho ou rodapé em todo o arquivo PDF. Por exemplo, use-o para numerar um longo relatório ou tese. Também pode ajudá-lo a adicionar números de páginas a um documento preparado para impressão. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
+      "intro": "Insira números de página de cabeçalho ou rodapé em todo o arquivo PDF. Por exemplo, use-o para numerar um longo relatório ou tese. Também pode ajudá-lo a adicionar números de página a um documento preparado para impressão. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este fluxo de trabalho de PDF foi projetado em torno de uma tarefa de documento focada: preparar a fonte, aplicar a operação, revisar a saída e manter o resultado somente se ele atender às suas necessidades.",
       "steps": [
         "Abra Adicionar números de página ao PDF e identifique o formato ou valores de entrada necessários.",
@@ -1713,7 +1713,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Escolha o formato de saída com base na transparência, compactação, compatibilidade e uso pretendido.",
         "Visualize o resultado em seu tamanho real de exibição.",
         "Evite: Tratar amostras de cores como cores de marcas universais.",
-        "Evite: Ignorar as diferenças no gerenciamento de cores.",
+        "Evite: Ignorar as diferenças de gerenciamento de cores.",
         "Evite: Usar uma cor dominante como única decisão de design."
       ],
       "limitations": [
@@ -2050,8 +2050,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "online-csharp-compiler": {
-      "heroIntro": "Execute scripts de código C# no sandbox do cliente com exibição imediata de saída padrão.",
-      "intro": "Execute scripts de código C# no sandbox do cliente com exibição imediata de saída padrão. Por exemplo, use-o para praticar os recursos da linguagem C#. Também pode ajudá-lo a executar um pequeno exemplo de LINQ ou coleção e inspecionar a saída. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
+      "heroIntro": "Execute scripts de código C# na sandbox do cliente com exibição imediata de saída padrão.",
+      "intro": "Execute scripts de código C# na sandbox do cliente com exibição imediata de saída padrão. Por exemplo, use-o para praticar os recursos da linguagem C#. Também pode ajudá-lo a executar um pequeno exemplo de LINQ ou coleção e inspecionar a saída. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este espaço de trabalho de codificação é útil para aprendizado, depuração, verificações de sintaxe e pequenos exemplos reproduzíveis. O modelo de execução varia de acordo com o idioma, portanto deve ser tratado como uma sandbox de desenvolvimento e não como um ambiente de produção.",
       "steps": [
         "Abra Compilador C# online e identifique o formato ou valores de entrada necessários.",
@@ -2084,7 +2084,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Para que é usado Compilador C# online?",
-          "a": "Execute scripts de código C# no sandbox do cliente com exibição imediata de saída padrão. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
+          "a": "Execute scripts de código C# na sandbox do cliente com exibição imediata de saída padrão. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
           "q": "Como funciona Compilador C# online?",
@@ -2194,7 +2194,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Nunca cole chaves de API, senhas, tokens privados ou credenciais de produção.",
         "Evite: Usar credenciais ou dados de produção.",
         "Evite: presumir que cada fornecedor de banco de dados usa sintaxe SQL idêntica.",
-        "Evite: Esquecer suposições de transação ou esquema."
+        "Evite: Esquecer as suposições de transação ou esquema."
       ],
       "limitations": [
         "Um sandbox não reproduz todas as dependências de produção ou recursos do sistema operacional.",
@@ -2230,7 +2230,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "json-formatter-validator": {
-      "heroIntro": "Embeleze, formate, valide e reduza strings de dados JSON confusas com realce de sintaxe.",
+      "heroIntro": "Embeleze, formate, valide e reduza sequências de dados JSON confusas com realce de sintaxe.",
       "intro": "Embeleze, formate, valide e reduza strings de dados JSON confusas com realce de sintaxe. Por exemplo, use-o para imprimir uma resposta da API. Também pode ajudá-lo a validar o JSON antes de enviar um arquivo de configuração. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
       "why": "Este utilitário de desenvolvedor tem como objetivo um fluxo de trabalho repetível que normalmente aparece durante o trabalho de API, depuração, desenvolvimento de front-end ou back-end, teste e preparação de dados.",
       "steps": [
@@ -2264,7 +2264,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Para que é usado Formatador e validador JSON?",
-          "a": "Embeleze, formate, valide e reduza strings de dados JSON confusas com realce de sintaxe. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
+          "a": "Embeleze, formate, valide e reduza sequências de dados JSON confusas com realce de sintaxe. Ele foi projetado para um fluxo de trabalho focado para que você possa concluir a tarefa sem instalar um utilitário de desktop separado. A saída exata depende dos valores, arquivos ou código que você fornece."
         },
         {
           "q": "Como funciona Formatador e validador JSON?",
@@ -2372,7 +2372,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Valide os dados transformados antes de confirmá-los.",
         "Inclui casos extremos e entradas malformadas durante o teste.",
         "Nunca cole segredos de produção ou dados privados de clientes.",
-        "Evite: alterar URLs estabelecidas sem redirecionamentos.",
+        "Evite: Alterar URLs estabelecidas sem redirecionamentos.",
         "Evite: Usar palavras irrelevantes ou pontuação desnecessária.",
         "Evite: Criar slugs duplicados para páginas diferentes."
       ],
@@ -2674,7 +2674,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Nunca cole segredos de produção ou dados privados de clientes.",
         "Evite: Codificar um URL inteiro quando apenas um componente deveria ser codificado.",
         "Evite: valores de codificação dupla.",
-        "Evite: confundir codificação de URL com Base64."
+        "Evite: Confundir codificação de URL com Base64."
       ],
       "limitations": [
         "A saída segue a sintaxe e as regras suportadas pela ferramenta.",
@@ -2733,7 +2733,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Inclui casos extremos e entradas malformadas durante o teste.",
         "Nunca cole segredos de produção ou dados privados de clientes.",
         "Evitar: Tratar declarações decodificadas como declarações verificadas.",
-        "Evite: Colar tokens de produção em ferramentas públicas.",
+        "Evite: colar tokens de produção em ferramentas públicas.",
         "Evite: presumir que a decodificação revela o segredo da assinatura."
       ],
       "limitations": [
@@ -3032,7 +3032,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Mantenha o texto fonte antes de transformações destrutivas.",
         "Verifique espaços em branco, pontuação, caracteres Unicode e finais de linha.",
         "Revise os resultados da publicação em vez de confiar apenas na automação.",
-        "Evite: alterar maiúsculas e minúsculas dentro do código ou identificadores que diferenciam maiúsculas de minúsculas.",
+        "Evite: Alterar maiúsculas e minúsculas dentro do código ou identificadores que diferenciam maiúsculas de minúsculas.",
         "Evite: esperar uma capitalização perfeita com reconhecimento de idioma.",
         "Evite: Aplicar uma transformação sem manter o original."
       ],
@@ -3092,7 +3092,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Mantenha o texto fonte antes de transformações destrutivas.",
         "Verifique espaços em branco, pontuação, caracteres Unicode e finais de linha.",
         "Revise os resultados da publicação em vez de confiar apenas na automação.",
-        "Evite: Remover duplicatas quando linhas repetidas são significativas.",
+        "Evite: Remover duplicatas quando linhas repetidas forem significativas.",
         "Evite: Ignorar a distinção entre maiúsculas e minúsculas.",
         "Evite: Não verificar diferenças de espaços em branco."
       ],
@@ -3552,7 +3552,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "unit-length-converter": {
       "heroIntro": "Converta entre metros, quilômetros, milhas, pés, polegadas e jardas.",
       "intro": "Converta entre metros, quilômetros, milhas, pés, polegadas e jardas. Por exemplo, use-o para converter quilômetros em milhas para viagens. Também pode ajudá-lo a converter pés e polegadas para medidas. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Comprimento e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -3612,7 +3612,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "weight-mass-converter": {
       "heroIntro": "Converta quilogramas, gramas, libras (lbs), onças e toneladas métricas.",
       "intro": "Converta quilogramas, gramas, libras (lbs), onças e toneladas métricas. Por exemplo, use-o para converter quilogramas em libras. Também pode ajudá-lo a converter gramas em onças para receitas. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Peso e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -3672,7 +3672,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "temperature-converter": {
       "heroIntro": "Converta instantaneamente entre Celsius (°C), Fahrenheit (°F) e Kelvin (K).",
       "intro": "Converta instantaneamente entre Celsius (°C), Fahrenheit (°F) e Kelvin (K). Por exemplo, use-o para converter Celsius em Fahrenheit para o clima. Também pode ajudá-lo a converter Fahrenheit em Celsius para cozinhar. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Temperatura e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -3732,7 +3732,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "data-size-converter": {
       "heroIntro": "Calcule bytes digitais binários e decimais (KB, MB, GB, TB, PB).",
       "intro": "Calcule bytes digitais binários e decimais (KB, MB, GB, TB, PB). Por exemplo, use-o para converter MB em GB para planejamento de armazenamento. Também pode ajudá-lo a comparar tamanhos de arquivos entre sistemas. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Tamanho de dados e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -3792,7 +3792,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "speed-velocity-converter": {
       "heroIntro": "Converta km/h, mph, metros por segundo, nós e velocidades Mach.",
       "intro": "Converta km/h, mph, metros por segundo, nós e velocidades Mach. Por exemplo, use-o para converter km/h em mph para viagens. Também pode ajudá-lo a converter nós para contextos marítimos ou de aviação. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Velocidade e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -3852,7 +3852,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "time-duration-converter": {
       "heroIntro": "Converta unidades de tempo comuns, como segundos, minutos, horas, dias, semanas, meses e anos.",
       "intro": "Converta unidades de tempo comuns, como segundos, minutos, horas, dias, semanas, meses e anos. Por exemplo, use-o para converter minutos em horas. Também pode ajudá-lo a converter dias em semanas para planejamento. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Tempo e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -3912,7 +3912,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "area-land-converter": {
       "heroIntro": "Converta unidades de área comum, incluindo pés quadrados, metros quadrados, acres, hectares e Bigha.",
       "intro": "Converta unidades de área comum, incluindo pés quadrados, metros quadrados, acres, hectares e Bigha. Por exemplo, use-o para converter pés quadrados em metros quadrados. Também pode ajudá-lo a converter acres em hectares. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Área e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -3972,7 +3972,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "pressure-unit-converter": {
       "heroIntro": "Converta unidades de pressão, incluindo Pascal (Pa), bar, PSI e atmosfera padrão (atm).",
       "intro": "Converta unidades de pressão, incluindo Pascal (Pa), bar, PSI e atmosfera padrão (atm). Por exemplo, use-o para converter PSI em bar para especificações do equipamento. Também pode ajudá-lo a converter Pascal em kPa para trabalhos de engenharia. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Pressão e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -4032,7 +4032,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "energy-work-converter": {
       "heroIntro": "Converta unidades de energia, incluindo joules, quilojoules, calorias, quilocalorias e quilowatts-hora.",
       "intro": "Converta unidades de energia, incluindo joules, quilojoules, calorias, quilocalorias e quilowatts-hora. Por exemplo, use-o para converter joules em calorias. Também pode ajudá-lo a converter kWh para comparações relacionadas à eletricidade. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Energia e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -4092,7 +4092,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "power-wattage-converter": {
       "heroIntro": "Converta Watts, Quilowatts (kW), Megawatts e Potência Mecânica.",
       "intro": "Converta Watts, Quilowatts (kW), Megawatts e Potência Mecânica. Por exemplo, use-o para converter watts em quilowatts. Também pode ajudá-lo a converter a potência mecânica de acordo com as especificações do equipamento. Este guia explica o que a ferramenta faz, quando é útil, como usá-la de forma eficaz e as limitações práticas que importam nos fluxos de trabalho do mundo real.",
-      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, exercícios físicos e planejamento diário.",
+      "why": "Esse fluxo de trabalho de conversão fornece um relacionamento direto entre unidades definidas e é útil para estudos, viagens, engenharia, compras, ciências, condicionamento físico e planejamento diário.",
       "steps": [
         "Abra Conversor de Potência e identifique o formato ou valores de entrada necessários.",
         "Insira ou selecione a entrada e revise todas as opções disponíveis antes de executar a operação.",
@@ -5287,7 +5287,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Crie um horário universitário para palestras, laboratórios, tutoriais, seminários, blocos de estudo e rotinas semanais do campus. Planeje palestras, laboratórios, tutoriais, projetos e blocos de estudo durante uma semana de faculdade. Adicione seu próprio título de programação, nota pessoal e orçamento e edite cada célula gerada antes de fazer download ou imprimir.",
       "why": "Planeje palestras, laboratórios, tutoriais, projetos e blocos de estudo durante uma semana de faculdade.",
       "steps": [
-        "Selecione os dias de faculdade e os horários das aulas.",
+        "Selecione dias de faculdade e horários de aula.",
         "Defina o tempo da aula.",
         "Participe de palestras, laboratórios, tutoriais ou projetos.",
         "Edite o cronograma gerado e exporte-o."
@@ -5771,14 +5771,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Crie um cronograma de trabalho dos funcionários para trabalho de foco, reuniões, projetos, planejamento, intervalos, tarefas de equipe e blocos de revisão. Planeje trabalho focado, reuniões, e-mail, projetos, tempo de equipe, almoço e blocos de revisão durante a semana de trabalho. Adicione seu próprio título de programação, nota pessoal e orçamento e edite cada célula gerada antes de fazer download ou imprimir.",
       "why": "Planeje trabalho focado, reuniões, e-mail, projetos, tempo de equipe, almoço e blocos de revisão durante a semana de trabalho.",
       "steps": [
-        "Escolha dias úteis e intervalos de tempo.",
+        "Escolha dias úteis e blocos de tempo.",
         "Defina horário de trabalho e duração.",
         "Adicione atividades de trabalho.",
         "Gere e edite o plano de trabalho final."
       ],
       "useCases": [
         "Planejamento de funcionários",
-        "Horários de foco",
+        "Programações de tempo de foco",
         "Semanas de trabalho em equipe"
       ],
       "tips": [
@@ -5972,7 +5972,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Crie um horário pessoal para trabalho, estudo, exercícios, tarefas, tempo para a família, hobbies e objetivos pessoais. Crie uma agenda pessoal combinando trabalho, estudo, exercícios, tarefas, família e tempo pessoal."
         },
         {
-          "q": "Posso combinar tarefas profissionais e pessoais?",
+          "q": "Posso combinar trabalho e tarefas pessoais?",
           "a": "Sim. O gerador aceita qualquer combinação de atividades."
         },
         {
@@ -6061,7 +6061,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Posso agendar dias de descanso?",
-          "a": "Sim. O descanso pode ser inserido como sua própria atividade de agendamento."
+          "a": "Sim. O descanso pode ser inserido como sua própria atividade de programação."
         },
         {
           "q": "Posso personalizar Criador de horários de treino?",
@@ -6220,7 +6220,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Hoje cor Navratri",
         "Navratri 9 cores 2026",
         "Planejamento de roupas de nove dias",
-        "Planejamento de roupa de Garba e Dandiya"
+        "Planejamento de roupas de Garba e Dandiya"
       ],
       "tips": [
         "As tradições regionais e familiares podem ser diferentes.",
@@ -6238,7 +6238,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Laranja, Branco, Vermelho, Azul Royal, Amarelo, Verde, Cinza, Roxo e Verde Pavão de 11 a 19 de outubro."
         },
         {
-          "q": "Qual é a cor do Navratri de hoje?",
+          "q": "Qual é a cor Navratri de hoje?",
           "a": "De 11 a 19 de outubro de 2026, a página identifica automaticamente a cor com base na data."
         },
         {
@@ -6276,7 +6276,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Os tamanhos das porções e as receitas variam.",
         "Os rendimentos dos lotes caseiros diferem.",
-        "A estimativa não é um padrão fixo de alimentação ou alimentação."
+        "A estimativa não é um padrão fixo de dieta ou catering."
       ],
       "faq": [
         {
@@ -6736,7 +6736,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Registros personales y de viaje: organice itinerarios, confirmaciones de reservas y otros documentos en un archivo de referencia conveniente.",
         "Correo electrónico y uso compartido de archivos: reemplace varios archivos adjuntos PDF relacionados con un archivo combinado cuando el destinatario prefiera un solo documento.",
         "Archivo digital: mantenga juntos los registros relacionados utilizando nombres de archivo claros y una estructura de carpetas coherente.",
-        "Preparación de impresión: cree un PDF ordenado para imprimir, luego revise el tamaño y la orientación de las páginas antes de enviarlo a una impresora."
+        "Preparación de impresión: cree un PDF ordenado para imprimir y luego revise el tamaño y la orientación de las páginas antes de enviarlo a la impresora."
       ],
       "tips": [
         "Confirme el pedido antes de fusionar. Es posible que el orden de selección de archivos no coincida con el orden de lectura que necesita, así que inspeccione la lista organizada y el PDF final.",
@@ -6778,7 +6778,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "¿Puedo fusionar documentos PDF escaneados?",
-          "a": "Los archivos PDF escaneados generalmente se pueden unir como páginas en un solo archivo. Si necesita buscar o seleccionar palabras dentro de las páginas escaneadas, es posible que también necesite OCR. La combinación por sí sola no convierte las imágenes de la página en texto reconocido."
+          "a": "Los archivos PDF escaneados generalmente se pueden unir como páginas en un solo archivo. Si necesita buscar o seleccionar palabras dentro de las páginas escaneadas, es posible que también necesite OCR. La fusión por sí sola no convierte las imágenes de la página en texto reconocido."
         },
         {
           "q": "¿La combinación de archivos PDF reducirá la calidad?",
@@ -7026,7 +7026,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Protege tareas de PDF únicas y rápidas sin instalar una utilidad independiente.",
+        "Protege tareas de PDF únicas y rápidas sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -7340,7 +7340,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Para archivos confidenciales, prefiera el procesamiento en el lado del navegador cuando se admita explícitamente y nunca ingrese secretos innecesarios.",
         "Evite: esperar que los diseños complejos se conviertan perfectamente.",
         "Evite: No corregir tablas, columnas, fuentes y saltos de página.",
-        "Evitar: Tratar los resultados tipo OCR como si estuvieran libres de errores."
+        "Evite: Tratar los resultados tipo OCR como si estuvieran libres de errores."
       ],
       "limitations": [
         "Los documentos muy grandes o complejos pueden verse limitados por la memoria del navegador.",
@@ -7926,7 +7926,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas únicas y rápidas de conversión de png a jpg sin instalar una utilidad independiente.",
+        "Tareas rápidas y únicas de conversión de png a jpg sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -7992,7 +7992,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Preparar una salida para otra aplicación o flujo de trabajo.",
         "Prepare una imagen para un flujo de trabajo de diseño basado en PNG.",
         "Cree una copia en formato sin pérdidas para editarla más.",
-        "Estandarizar activos para una tubería que espera PNG."
+        "Estandarizar los activos para una tubería que espera PNG."
       ],
       "tips": [
         "Conserve la imagen original cuando la calidad sea importante.",
@@ -8000,7 +8000,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Obtenga una vista previa del resultado en su tamaño de visualización real.",
         "Evite: Esperar que los artefactos JPG desaparezcan después de la conversión.",
         "Evite: asumir que la conversión hace que la fuente sea de mayor calidad.",
-        "Evite: usar PNG cuando el tamaño del archivo es la prioridad."
+        "Evite: usar PNG cuando el tamaño del archivo sea la prioridad."
       ],
       "limitations": [
         "La memoria del navegador afecta a las imágenes muy grandes.",
@@ -8120,7 +8120,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Obtenga una vista previa del resultado en su tamaño de visualización real.",
         "Evite: Eliminar colores que tengan significado.",
         "Evite: No comprobar el contraste.",
-        "Evitar: Guardar la imagen filtrada sobre el original de un solo color."
+        "Evitar: Guardar la imagen filtrada sobre el original de único color."
       ],
       "limitations": [
         "La memoria del navegador afecta a las imágenes muy grandes.",
@@ -8166,7 +8166,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas de inversión de colores de imágenes sin instalar una utilidad independiente.",
+        "Tareas rápidas y únicas de inversión de colores de imágenes sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -8336,8 +8336,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "formats"
     },
     "image-blur-filter": {
-      "heroIntro": "Aplique efectos de desenfoque gaussiano para ocultar rostros, placas o detalles privados.",
-      "intro": "Aplique efectos de desenfoque gaussiano para ocultar rostros, placas o detalles privados. Úselo, por ejemplo, para difuminar una cara en una captura de pantalla. También puede ayudarle a ocultar una matrícula en una foto. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
+      "heroIntro": "Aplique efectos de desenfoque gaussiano para ocultar caras, placas o detalles privados.",
+      "intro": "Aplique efectos de desenfoque gaussiano para ocultar caras, placas o detalles privados. Úselo, por ejemplo, para difuminar una cara en una captura de pantalla. También puede ayudarle a ocultar una matrícula en una foto. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
         "Abra Desenfocar imagen online e identifique el formato o los valores de entrada requeridos.",
@@ -8346,7 +8346,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas en línea rápidas y únicas de imágenes borrosas sin instalar una utilidad separada.",
+        "Tareas en línea rápidas y únicas de desenfoque de imágenes sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -8396,8 +8396,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "formats"
     },
     "image-color-palette-extractor": {
-      "heroIntro": "Extraiga esquemas de color dominantes HEX y RGB directamente de cualquier foto.",
-      "intro": "Extraiga esquemas de color dominantes HEX y RGB directamente de cualquier foto. Por ejemplo, utilícelo para crear una paleta de diseño a partir de una fotografía. También puede ayudarle a identificar los colores dominantes para la marca. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
+      "heroIntro": "Extraiga esquemas de color HEX y RGB dominantes directamente de cualquier foto.",
+      "intro": "Extraiga esquemas de color HEX y RGB dominantes directamente de cualquier fotografía. Por ejemplo, utilícelo para crear una paleta de diseño a partir de una fotografía. También puede ayudarle a identificar los colores dominantes para la marca. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de imágenes se centra en una transformación para que se pueda completar una tarea rápida sin un editor de gráficos completo. Es útil para trabajos web, documentales, sociales, de desarrollo y de imágenes cotidianos.",
       "steps": [
         "Abra Generador de paleta de colores de imagen e identifique el formato o los valores de entrada requeridos.",
@@ -8406,7 +8406,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas de generación de paletas de colores de imágenes sin instalar una utilidad separada.",
+        "Tareas rápidas y únicas de generación de paletas de colores de imágenes sin instalar una utilidad independiente.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -8430,7 +8430,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "¿Para qué se utiliza Generador de paleta de colores de imagen?",
-          "a": "Extraiga esquemas de color dominantes HEX y RGB directamente de cualquier foto. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
+          "a": "Extraiga esquemas de color HEX y RGB dominantes directamente de cualquier fotografía. Está diseñado para un flujo de trabajo enfocado, de modo que pueda completar la tarea sin instalar una utilidad de escritorio independiente. El resultado exacto depende de los valores, archivos o código que proporcione."
         },
         {
           "q": "¿Cómo funciona Generador de paleta de colores de imagen?",
@@ -8484,7 +8484,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8544,7 +8544,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8604,7 +8604,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8664,7 +8664,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8724,7 +8724,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8766,7 +8766,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas del compilador de C# en línea sin instalar una utilidad separada.",
+        "Tareas rápidas y únicas del compilador de C# en línea sin instalar una utilidad independiente.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -8784,7 +8784,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8844,7 +8844,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8869,7 +8869,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Verifique el resultado con la entrada original, confirme que se produjo la transformación deseada y verifique los detalles importantes antes de publicar, enviar, enviar o utilizar el resultado en un flujo de trabajo de producción."
         },
         {
-          "q": "¿Puedo probar la sintaxis de PHP en línea?",
+          "q": "¿Puedo probar la sintaxis PHP en línea?",
           "a": "Sí. La herramienta está diseñada para fragmentos de PHP compatibles, comprobaciones de sintaxis y pequeños experimentos algorítmicos."
         }
       ],
@@ -8904,7 +8904,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "Un sandbox no reproduce todas las dependencias de producción o características del sistema operativo.",
-        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idioma pueden afectar los resultados.",
+        "El tiempo de ejecución, la memoria, los paquetes y las versiones de idiomas pueden afectar los resultados.",
         "Pruebe el código de trabajo nuevamente en su entorno de implementación previsto."
       ],
       "faq": [
@@ -8958,7 +8958,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Valide los datos transformados antes de confirmarlos.",
         "Incluya casos extremos y entradas con formato incorrecto durante las pruebas.",
         "Nunca pegue secretos de producción o datos privados de clientes.",
-        "Evite: Confundir JSON con la sintaxis de objetos JavaScript.",
+        "Evite: Confundir JSON con la sintaxis de objetos de JavaScript.",
         "Evitar: Perder claves duplicadas sin notar el comportamiento del analizador.",
         "Evite: Pegar respuestas API confidenciales."
       ],
@@ -9019,7 +9019,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Incluya casos extremos y entradas con formato incorrecto durante las pruebas.",
         "Nunca pegue secretos de producción o datos privados de clientes.",
         "Evite: Tratar Base64 como cifrado.",
-        "Evite: Confundir Base64 estándar y segura para URL.",
+        "Evite: Confundir Base64 estándar y seguro para URL.",
         "Evite: Codificar secretos y asumir que el resultado está protegido."
       ],
       "limitations": [
@@ -9066,7 +9066,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas de generación de slugs de URL sin instalar una utilidad separada.",
+        "Tareas rápidas y únicas de generación de slugs de URL sin instalar una utilidad independiente.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -9246,7 +9246,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas de conversión de marcas de tiempo de Unix sin instalar una utilidad independiente.",
+        "Tareas rápidas y únicas de conversión de marcas de tiempo de Unix sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -9486,7 +9486,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas de generación de fluidos sin instalar una utilidad independiente.",
+        "Tareas rápidas y únicas del generador de fluidos sin instalar una utilidad independiente.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -9560,7 +9560,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Nunca pegue secretos de producción o datos privados de clientes.",
         "Evite: Reutilizar contraseñas generadas en todas las cuentas.",
         "Evitar: Guardar la contraseña en texto plano.",
-        "Evite: incluir patrones personalizados predecibles cuando el objetivo es una gran aleatoriedad."
+        "Evite: incluir patrones personalizados predecibles cuando el objetivo es una fuerte aleatoriedad."
       ],
       "limitations": [
         "La salida sigue la sintaxis y las reglas admitidas por la herramienta.",
@@ -9786,7 +9786,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas únicas y rápidas de eliminación de líneas duplicadas sin instalar una utilidad separada.",
+        "Tareas únicas y rápidas de eliminación de líneas duplicadas sin instalar una utilidad independiente.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -10086,7 +10086,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas de la herramienta de orden alfabético sin instalar una utilidad independiente.",
+        "Tareas rápidas y únicas de la herramienta de orden alfabético sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -10317,7 +10317,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "weight-mass-converter": {
       "heroIntro": "Convierta kilogramos, gramos, libras (lbs), onzas y toneladas métricas.",
-      "intro": "Convierta kilogramos, gramos, libras (lbs), onzas y toneladas métricas. Por ejemplo, úselo para convertir kilogramos a libras. También puede ayudarte a convertir gramos a onzas para recetas. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
+      "intro": "Convierta kilogramos, gramos, libras (lbs), onzas y toneladas métricas. Por ejemplo, utilícelo para convertir kilogramos a libras. También puede ayudarte a convertir gramos a onzas para recetas. Esta guía explica qué hace la herramienta, cuándo es útil, cómo usarla de manera efectiva y las limitaciones prácticas que importan en los flujos de trabajo del mundo real.",
       "why": "Este flujo de trabajo de conversión proporciona una relación directa entre unidades definidas y es útil para estudiar, viajar, ingeniería, compras, ciencia, fitness y planificación diaria.",
       "steps": [
         "Abra Convertidor de Peso e identifique el formato o los valores de entrada requeridos.",
@@ -10512,7 +10512,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Preparar una salida para otra aplicación o flujo de trabajo.",
         "Convierta km/h a mph para viajar.",
         "Convierta nudos para contextos marinos o de aviación.",
-        "Convierta metros por segundo para cálculos de física."
+        "Convierte metros por segundo para cálculos de física."
       ],
       "tips": [
         "Confirmar las unidades de origen y de destino.",
@@ -10626,7 +10626,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas de conversión de área sin instalar una utilidad independiente.",
+        "Tareas rápidas y únicas de conversión de área sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -10759,7 +10759,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Utilice cifras significativas apropiadas a la precisión de la fuente.",
         "Para trabajos regulados o de ingeniería, verificar el estándar requerido.",
         "Evite: Confundir energía con poder.",
-        "Evite: Mezclar calorías nutricionales con unidades pequeñas de calorías.",
+        "Evite: Mezclar calorías nutricionales con unidades de calorías pequeñas.",
         "Evite: Redondear la energía convertida antes de aplicar el factor unitario final."
       ],
       "limitations": [
@@ -10875,7 +10875,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "Compare varios montos de contribución.",
-        "Pruebe los supuestos de rentabilidad conservadores y optimistas.",
+        "Pruebe los supuestos de rendimiento conservadores y optimistas.",
         "Trate el resultado como una estimación en lugar de un resultado de inversión garantizado.",
         "Evite: Tratar los rendimientos proyectados como garantizados.",
         "Evite: ignorar tarifas, impuestos, inflación o cambiar las contribuciones.",
@@ -11393,12 +11393,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         }
       ],
       "visual": "finance",
-      "formula": "A = P × (1 + r/n)^(nt), donde P es el capital, r es la tasa anual, n son los períodos compuestos por año y t son los años."
+      "formula": "A = P × (1 + r/n)^(nt), donde P es el principal, r es la tasa anual, n son los períodos compuestos por año y t son los años."
     },
     "simple-interest-calculator": {
       "heroIntro": "Calcule el interés simple básico acumulado sobre los montos de capital con tasas fijas.",
       "intro": "Calcule el interés simple básico acumulado sobre los montos de capital con tasas fijas. Por ejemplo, utilícelo para calcular el interés sobre un capital fijo. También puede ayudarte a comprobar un ejercicio de interés simple. Esta página combina la calculadora interactiva con explicaciones prácticas, ejemplos, suposiciones y errores comunes para que el resultado pueda interpretarse correctamente.",
-      "why": "El interés simple es un modelo en el que el interés se calcula sobre el capital original en lugar de agregarlo repetidamente.",
+      "why": "El interés simple es un modelo en el que el interés se calcula sobre el principal original en lugar de agregarlo repetidamente.",
       "steps": [
         "Ingrese los valores solicitados por Calculadora de Interés simple usando las unidades mostradas.",
         "Elija supuestos realistas para la tasa, plazo, frecuencia, impuesto o programa de contribuciones relevantes para este cálculo.",
@@ -11655,7 +11655,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "Utilice paréntesis para hacer explícita la prioridad.",
-        "Verifique el modo de ángulo trigonométrico previsto.",
+        "Verifique el modo de ángulo trigonométrico deseado.",
         "Validar resultados importantes de forma independiente.",
         "Evite: Usar el modo de ángulo incorrecto.",
         "Evitar: Ignorar la precedencia de los operadores.",
@@ -11817,7 +11817,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "timetable-maker": {
       "heroIntro": "Cree un horario semanal o diario flexible a partir de plantillas escolares, de estudio, de trabajo o personales ya preparadas y edite cada franja horaria usted mismo.",
-      "intro": "Cree un horario semanal o diario flexible a partir de plantillas escolares, de estudio, de trabajo o personales ya preparadas y edite cada franja horaria usted mismo. Cree un horario semanal equilibrado con temas, descansos, horas de inicio y celdas editables. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario semanal o diario flexible a partir de plantillas escolares, de estudio, de trabajo o personales ya preparadas y edite cada franja horaria usted mismo. Cree un horario semanal equilibrado con temas, descansos, horas de inicio y celdas editables. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario semanal equilibrado con temas, descansos, horas de inicio y celdas editables.",
       "steps": [
         "Elija días escolares y horarios de clases.",
@@ -11860,7 +11860,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "cute-timetable-maker": {
       "heroIntro": "Cree un lindo horario personalizable con diseños listos para usar para estudiantes, niños, planes de estudio y rutinas diarias.",
-      "intro": "Cree un lindo horario personalizable con diseños listos para usar para estudiantes, niños, planes de estudio y rutinas diarias. Cree un horario visualmente amigable con un diseño más suave, un mensaje personal y un horario imprimible. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un lindo horario personalizable con diseños listos para usar para estudiantes, niños, planes de estudio y rutinas diarias. Cree un horario visualmente amigable con un diseño más suave, un mensaje personal y un horario imprimible. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario visualmente amigable con un diseño más suave, un mensaje personal y un horario imprimible.",
       "steps": [
         "Elige los días escolares y los horarios de clases.",
@@ -11903,7 +11903,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "student-timetable-maker": {
       "heroIntro": "Cree un horario estudiantil para clases, sesiones de estudio, tareas, revisión, descansos y actividades personales.",
-      "intro": "Cree un horario estudiantil para clases, sesiones de estudio, tareas, revisión, descansos y actividades personales. Cree una clase semanal centrada en los estudiantes y un horario de estudio con bloques de tiempo claros. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario estudiantil para clases, sesiones de estudio, tareas, revisión, descansos y actividades personales. Cree una clase semanal centrada en los estudiantes y un horario de estudio con bloques de tiempo claros. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree una clase semanal centrada en los estudiantes y un horario de estudio con bloques de tiempo claros.",
       "steps": [
         "Elige días y franjas horarias de estudio.",
@@ -11946,7 +11946,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "school-timetable-maker": {
       "heroIntro": "Cree un horario escolar con períodos de clases, materias, descansos y horarios semanales editables ya preparados.",
-      "intro": "Cree un horario escolar con períodos de clases, materias, descansos y horarios semanales editables ya preparados. Cree un horario escolar organizado en torno a horarios de clases, materias, descansos y días escolares. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario escolar con períodos de clases, materias, descansos y horarios semanales editables ya preparados. Cree un horario escolar organizado en torno a horarios de clases, materias, descansos y días escolares. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario escolar organizado en torno a horarios de clases, materias, descansos y días escolares.",
       "steps": [
         "Establecer días lectivos y periodos de clases.",
@@ -11990,7 +11990,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "college-timetable-maker": {
       "heroIntro": "Cree un horario universitario para conferencias, laboratorios, tutorías, seminarios, bloques de estudio y rutinas semanales del campus.",
-      "intro": "Cree un horario universitario para conferencias, laboratorios, tutorías, seminarios, bloques de estudio y rutinas semanales del campus. Planifique conferencias, laboratorios, tutoriales, proyectos y bloques de estudio durante una semana universitaria. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario universitario para conferencias, laboratorios, tutorías, seminarios, bloques de estudio y rutinas semanales del campus. Planifique conferencias, laboratorios, tutoriales, proyectos y bloques de estudio durante una semana universitaria. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Planifique conferencias, laboratorios, tutoriales, proyectos y bloques de estudio durante una semana universitaria.",
       "steps": [
         "Seleccione días universitarios y espacios para clases.",
@@ -12034,7 +12034,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "university-timetable-maker": {
       "heroIntro": "Haga un cronograma universitario para conferencias, laboratorios, tutorías, investigaciones, seminarios y períodos de estudio personal.",
-      "intro": "Haga un cronograma universitario para conferencias, laboratorios, tutorías, investigaciones, seminarios y períodos de estudio personal. Cree un calendario universitario para conferencias, laboratorios, investigaciones, seminarios y estudios independientes. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Haga un cronograma universitario para conferencias, laboratorios, tutorías, investigaciones, seminarios y períodos de estudio personal. Cree un calendario universitario para conferencias, laboratorios, investigaciones, seminarios y estudios independientes. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un calendario universitario para conferencias, laboratorios, investigaciones, seminarios y estudios independientes.",
       "steps": [
         "Elige días y franjas horarias universitarias.",
@@ -12078,7 +12078,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "class-timetable-generator": {
       "heroIntro": "Genere un horario de clases editable con períodos, materias, descansos y una cuadrícula semanal imprimible.",
-      "intro": "Genere un horario de clases editable con períodos, materias, descansos y una cuadrícula semanal imprimible. Genere una cuadrícula lista para la clase para múltiples materias y espacios de enseñanza. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Genere un horario de clases editable con períodos, materias, descansos y una cuadrícula semanal imprimible. Genere una cuadrícula lista para la clase para múltiples materias y espacios de enseñanza. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Genere una cuadrícula lista para la clase para múltiples materias y espacios de enseñanza.",
       "steps": [
         "Elija los días de clase y el número de espacios.",
@@ -12122,7 +12122,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "study-timetable-maker": {
       "heroIntro": "Cree un cronograma de estudio para revisión diaria, bloques de estudio enfocados, práctica, lectura, exámenes simulados y descansos.",
-      "intro": "Cree un cronograma de estudio para revisión diaria, bloques de estudio enfocados, práctica, lectura, exámenes simulados y descansos. Cree un plan de estudio que separe las sesiones de revisión, práctica, lectura y exámenes simulados por tiempo. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un cronograma de estudio para revisión diaria, bloques de estudio enfocados, práctica, lectura, exámenes simulados y descansos. Cree un plan de estudio que separe las sesiones de revisión, práctica, lectura y exámenes simulados por tiempo. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un plan de estudio que separe las sesiones de revisión, práctica, lectura y exámenes simulados por tiempo.",
       "steps": [
         "Elige días y sesiones de estudio.",
@@ -12166,7 +12166,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "exam-timetable-maker": {
       "heroIntro": "Cree un calendario de exámenes con materias de examen, sesiones de revisión, fechas, períodos y un cronograma fácil de editar.",
-      "intro": "Cree un calendario de exámenes con materias de examen, sesiones de revisión, fechas, períodos y un cronograma fácil de editar. Organice fechas de exámenes y bloques de revisión sin forzar cada entrada en una etiqueta genérica de período escolar. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un calendario de exámenes con materias de examen, sesiones de revisión, fechas, períodos y un cronograma fácil de editar. Organice fechas de exámenes y bloques de revisión sin forzar cada entrada en una etiqueta genérica de período escolar. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Organice fechas de exámenes y bloques de revisión sin forzar cada entrada en una etiqueta genérica de período escolar.",
       "steps": [
         "Elige los días o fechas de exámenes que representa tu plan.",
@@ -12210,7 +12210,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "weekly-timetable-maker": {
       "heroIntro": "Genere un horario semanal para la escuela, el trabajo, el estudio, el ejercicio, el tiempo en familia, los pasatiempos y la planificación personal.",
-      "intro": "Genere un horario semanal para la escuela, el trabajo, el estudio, el ejercicio, el tiempo en familia, los pasatiempos y la planificación personal. Cree un plan flexible de siete días para trabajar, estudiar, hacer ejercicio, pasar tiempo en familia y tareas personales. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Genere un horario semanal para la escuela, el trabajo, el estudio, el ejercicio, el tiempo en familia, los pasatiempos y la planificación personal. Cree un plan flexible de siete días para trabajar, estudiar, hacer ejercicio, pasar tiempo en familia y tareas personales. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un plan flexible de siete días para trabajar, estudiar, hacer ejercicio, pasar tiempo en familia y tareas personales.",
       "steps": [
         "Elige el número de días y bloques horarios.",
@@ -12254,7 +12254,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "daily-timetable-maker": {
       "heroIntro": "Crea un horario diario con franjas horarias para rutinas, trabajo, estudio, comidas, ejercicio, familia y descanso.",
-      "intro": "Crea un horario diario con franjas horarias para rutinas, trabajo, estudio, comidas, ejercicio, familia y descanso. Cree un horario de un día utilizando horarios reales en lugar de etiquetas de períodos de estilo escolar. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Crea un horario diario con franjas horarias para rutinas, trabajo, estudio, comidas, ejercicio, familia y descanso. Cree un horario de un día utilizando horarios reales en lugar de etiquetas de períodos de estilo escolar. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario de un día utilizando horarios reales en lugar de etiquetas de períodos de estilo escolar.",
       "steps": [
         "Establece tu hora de inicio y número de actividades.",
@@ -12298,7 +12298,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "kids-timetable-maker": {
       "heroIntro": "Haga un horario sencillo para niños con escuela, tareas, juegos, lectura, actividades creativas, tiempo en familia y rutinas.",
-      "intro": "Haga un horario sencillo para niños con escuela, tareas, juegos, lectura, actividades creativas, tiempo en familia y rutinas. Haga un horario semanal adaptado a los niños para la escuela, las tareas, el juego, la lectura y el tiempo en familia. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Haga un horario sencillo para niños con escuela, tareas, juegos, lectura, actividades creativas, tiempo en familia y rutinas. Haga un horario semanal adaptado a los niños para la escuela, las tareas, el juego, la lectura y el tiempo en familia. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Haga un horario semanal adaptado a los niños para la escuela, las tareas, el juego, la lectura y el tiempo en familia.",
       "steps": [
         "Elija los días y bloques de tiempo del niño.",
@@ -12342,7 +12342,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "kids-daily-routine-planner": {
       "heroIntro": "Cree un planificador de rutina diaria apto para niños para despertarse, ir a la escuela, hacer las tareas, jugar, leer, comer y acostarse.",
-      "intro": "Cree un planificador de rutina diaria apto para niños para despertarse, ir a la escuela, hacer las tareas, jugar, leer, comer y acostarse. Cree una rutina diaria sencilla para los niños utilizando los horarios reales para despertarse, ir a la escuela, hacer las tareas, jugar, comer y acostarse. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un planificador de rutina diaria apto para niños para despertarse, ir a la escuela, hacer las tareas, jugar, leer, comer y acostarse. Cree una rutina diaria sencilla para los niños utilizando los horarios reales para despertarse, ir a la escuela, hacer las tareas, jugar, comer y acostarse. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree una rutina diaria sencilla para los niños utilizando los horarios reales para despertarse, ir a la escuela, hacer las tareas, jugar, comer y acostarse.",
       "steps": [
         "Elige los bloques de tiempo diarios.",
@@ -12386,7 +12386,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "girls-daily-routine-planner": {
       "heroIntro": "Cree un planificador de rutinas diario y semanal editable para niñas con estudio, escuela, ejercicio, cuidado personal, familia y tiempo libre.",
-      "intro": "Cree un planificador de rutinas diario y semanal editable para niñas con estudio, escuela, ejercicio, cuidado personal, familia y tiempo libre. Crea una rutina diaria o semanal personalizada con bloques de estudio, trabajo, ejercicio, autocuidado, familia y tiempo libre. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un planificador de rutinas diario y semanal editable para niñas con estudio, escuela, ejercicio, cuidado personal, familia y tiempo libre. Crea una rutina diaria o semanal personalizada con bloques de estudio, trabajo, ejercicio, autocuidado, familia y tiempo libre. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Crea una rutina diaria o semanal personalizada con bloques de estudio, trabajo, ejercicio, autocuidado, familia y tiempo libre.",
       "steps": [
         "Elige los días y bloques horarios.",
@@ -12430,7 +12430,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "boys-daily-routine-planner": {
       "heroIntro": "Cree un planificador de rutinas diario y semanal editable para niños con estudio, escuela, ejercicio, pasatiempos, familia y tiempo libre.",
-      "intro": "Cree un planificador de rutinas diario y semanal editable para niños con estudio, escuela, ejercicio, pasatiempos, familia y tiempo libre. Cree una rutina semanal práctica para la escuela, el trabajo, el ejercicio, los pasatiempos, la familia y el tiempo libre. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un planificador de rutinas diario y semanal editable para niños con estudio, escuela, ejercicio, pasatiempos, familia y tiempo libre. Cree una rutina semanal práctica para la escuela, el trabajo, el ejercicio, los pasatiempos, la familia y el tiempo libre. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree una rutina semanal práctica para la escuela, el trabajo, el ejercicio, los pasatiempos, la familia y el tiempo libre.",
       "steps": [
         "Elige días y bloques horarios.",
@@ -12474,7 +12474,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "employee-work-timetable": {
       "heroIntro": "Cree un horario de trabajo de los empleados para enfocarse en el trabajo, reuniones, proyectos, planificación, descansos, tareas de equipo y bloques de revisión.",
-      "intro": "Cree un horario de trabajo de los empleados para enfocarse en el trabajo, reuniones, proyectos, planificación, descansos, tareas de equipo y bloques de revisión. Planifique trabajos enfocados, reuniones, correos electrónicos, proyectos, tiempo en equipo, almuerzos y bloques de revisión a lo largo de la semana laboral. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario de trabajo de los empleados para enfocarse en el trabajo, reuniones, proyectos, planificación, descansos, tareas de equipo y bloques de revisión. Planifique trabajos enfocados, reuniones, correos electrónicos, proyectos, tiempo en equipo, almuerzos y bloques de revisión a lo largo de la semana laboral. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Planifique trabajos enfocados, reuniones, correos electrónicos, proyectos, tiempo en equipo, almuerzos y bloques de revisión a lo largo de la semana laboral.",
       "steps": [
         "Elija días laborables y bloques horarios.",
@@ -12518,7 +12518,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "work-shift-schedule-maker": {
       "heroIntro": "Cree un horario de turnos de trabajo para turnos matutinos, vespertinos, nocturnos, rotativos o personalizados en una cuadrícula semanal.",
-      "intro": "Cree un horario de turnos de trabajo para turnos matutinos, vespertinos, nocturnos, rotativos o personalizados en una cuadrícula semanal. Cree un horario orientado a turnos para mañana, tarde, noche o turnos de trabajo personalizados. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario de turnos de trabajo para turnos matutinos, vespertinos, nocturnos, rotativos o personalizados en una cuadrícula semanal. Cree un horario orientado a turnos para mañana, tarde, noche o turnos de trabajo personalizados. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario orientado a turnos para mañana, tarde, noche o turnos de trabajo personalizados.",
       "steps": [
         "Elige los días y franjas horarias.",
@@ -12547,7 +12547,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "¿Calcula la dotación de personal automáticamente?",
-          "a": "No. Crea una cuadrícula de horarios; Las decisiones sobre la dotación de personal quedan en manos del usuario."
+          "a": "No. Crea una cuadrícula de programación; Las decisiones sobre la dotación de personal quedan en manos del usuario."
         },
         {
           "q": "¿Puedo personalizar Creador de turnos de trabajo?",
@@ -12562,7 +12562,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "teacher-timetable-maker": {
       "heroIntro": "Cree un horario docente con clases, planificación, reuniones, preparación, evaluaciones, laboratorios y períodos libres.",
-      "intro": "Cree un horario docente con clases, planificación, reuniones, preparación, evaluaciones, laboratorios y períodos libres. Cree un horario docente que separe clases, preparación, reuniones, evaluaciones, laboratorios y períodos libres. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario docente con clases, planificación, reuniones, preparación, evaluaciones, laboratorios y períodos libres. Cree un horario docente que separe clases, preparación, reuniones, evaluaciones, laboratorios y períodos libres. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario docente que separe clases, preparación, reuniones, evaluaciones, laboratorios y períodos libres.",
       "steps": [
         "Elige días y franjas horarias lectivas.",
@@ -12606,7 +12606,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "class-schedule-maker": {
       "heroIntro": "Cree un horario de clases editable con períodos, materias, actividades, descansos y un horario semanal imprimible.",
-      "intro": "Cree un horario de clases editable con períodos, materias, actividades, descansos y un horario semanal imprimible. Cree un horario de clases simple con clases con nombre y bloques de tiempo reales. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario de clases editable con períodos, materias, actividades, descansos y un horario semanal imprimible. Cree un horario de clases simple con clases con nombre y bloques de tiempo reales. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario de clases simple con clases con nombre y bloques de tiempo reales.",
       "steps": [
         "Elige días y franjas horarias de clase.",
@@ -12616,7 +12616,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "grupos de clase",
-        "Horarios del curso",
+        "Horarios de los cursos",
         "Sesiones de entrenamiento"
       ],
       "tips": [
@@ -12650,7 +12650,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "personal-timetable-maker": {
       "heroIntro": "Cree un horario personal para el trabajo, el estudio, el ejercicio, los recados, el tiempo en familia, los pasatiempos y las metas personales.",
-      "intro": "Cree un horario personal para el trabajo, el estudio, el ejercicio, los recados, el tiempo en familia, los pasatiempos y las metas personales. Cree un horario personal que combine trabajo, estudio, ejercicio, recados, familia y tiempo personal. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario personal para el trabajo, el estudio, el ejercicio, los recados, el tiempo en familia, los pasatiempos y las metas personales. Cree un horario personal que combine trabajo, estudio, ejercicio, recados, familia y tiempo personal. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario personal que combine trabajo, estudio, ejercicio, recados, familia y tiempo personal.",
       "steps": [
         "Elige días y bloques horarios.",
@@ -12660,7 +12660,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Productividad personal",
-        "Planificación de vida",
+        "planificación de vida",
         "rutinas semanales"
       ],
       "tips": [
@@ -12693,8 +12693,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "home-routine-planner": {
-      "heroIntro": "Haga un planificador de rutinas en el hogar para limpieza, comidas, actividades familiares, recados, descanso y tareas domésticas recurrentes.",
-      "intro": "Haga un planificador de rutinas en el hogar para limpieza, comidas, actividades familiares, recados, descanso y tareas domésticas recurrentes. Organice rutinas del hogar como limpieza, comidas, tiempo en familia y descanso a lo largo de la semana. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "heroIntro": "Haga un planificador de rutinas del hogar para limpieza, comidas, actividades familiares, recados, descanso y tareas domésticas recurrentes.",
+      "intro": "Haga un planificador de rutinas del hogar para limpieza, comidas, actividades familiares, recados, descanso y tareas domésticas recurrentes. Organice rutinas del hogar como limpieza, comidas, tiempo en familia y descanso a lo largo de la semana. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Organice rutinas del hogar como limpieza, comidas, tiempo en familia y descanso a lo largo de la semana.",
       "steps": [
         "Elija días de hogar y bloques de tiempo.",
@@ -12719,7 +12719,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "¿Para qué se utiliza Planificador de rutina del hogar?",
-          "a": "Haga un planificador de rutinas en el hogar para limpieza, comidas, actividades familiares, recados, descanso y tareas domésticas recurrentes. Organice rutinas del hogar como limpieza, comidas, tiempo en familia y descanso a lo largo de la semana."
+          "a": "Haga un planificador de rutinas del hogar para limpieza, comidas, actividades familiares, recados, descanso y tareas domésticas recurrentes. Organice rutinas del hogar como limpieza, comidas, tiempo en familia y descanso a lo largo de la semana."
         },
         {
           "q": "¿Se puede imprimir el plano?",
@@ -12738,7 +12738,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "workout-timetable-maker": {
       "heroIntro": "Cree un cronograma de entrenamiento semanal para fuerza, cardio, movilidad, días de descanso y rutinas de entrenamiento repetibles.",
-      "intro": "Cree un cronograma de entrenamiento semanal para fuerza, cardio, movilidad, días de descanso y rutinas de entrenamiento repetibles. Cree un programa de entrenamiento semanal para sesiones de fuerza, cardio, movilidad y recuperación. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un cronograma de entrenamiento semanal para fuerza, cardio, movilidad, días de descanso y rutinas de entrenamiento repetibles. Cree un programa de entrenamiento semanal para sesiones de fuerza, cardio, movilidad y recuperación. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un programa de entrenamiento semanal para sesiones de fuerza, cardio, movilidad y recuperación.",
       "steps": [
         "Elija días de entrenamiento.",
@@ -12782,7 +12782,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "meal-timetable-planner": {
       "heroIntro": "Cree un horario de comidas semanal para el desayuno, los refrigerios, el almuerzo, la cena y rutinas sencillas de planificación de comidas.",
-      "intro": "Cree un horario de comidas semanal para el desayuno, los refrigerios, el almuerzo, la cena y rutinas sencillas de planificación de comidas. Planifique el desayuno, las meriendas, el almuerzo y la cena utilizando horarios de comida reales en lugar de períodos escolares genéricos. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Cree un horario de comidas semanal para el desayuno, los refrigerios, el almuerzo, la cena y rutinas sencillas de planificación de comidas. Planifique el desayuno, las meriendas, el almuerzo y la cena utilizando horarios de comida reales en lugar de períodos escolares genéricos. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Planifique el desayuno, las meriendas, el almuerzo y la cena utilizando horarios de comida reales en lugar de períodos escolares genéricos.",
       "steps": [
         "Elige los días.",
@@ -12826,7 +12826,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "printable-timetable-maker": {
       "heroIntro": "Genere un horario limpio e imprimible con períodos y materias editables para la escuela, el estudio, el trabajo o la planificación personal.",
-      "intro": "Genere un horario limpio e imprimible con períodos y materias editables para la escuela, el estudio, el trabajo o la planificación personal. Cree un horario limpio para imprimir primero con horas de reloj legibles, celdas editables y notas personales. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Genere un horario limpio e imprimible con períodos y materias editables para la escuela, el estudio, el trabajo o la planificación personal. Cree un horario limpio para imprimir primero con horas de reloj legibles, celdas editables y notas personales. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Cree un horario limpio para imprimir primero con horas de reloj legibles, celdas editables y notas personales.",
       "steps": [
         "Elige días y bloques horarios.",
@@ -12870,7 +12870,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "smart-timetable-generator": {
       "heroIntro": "Genere un horario inteligente editable automáticamente a partir de los días, períodos, materias y preferencias de rutina elegidos sin un servicio de inteligencia artificial externo.",
-      "intro": "Genere un horario inteligente editable automáticamente a partir de los días, períodos, materias y preferencias de rutina elegidos sin un servicio de inteligencia artificial externo. Genere un cronograma equilibrado a partir de sus prioridades utilizando reglas deterministas locales sin un servicio de IA externo. Agregue el título de su propio programa, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
+      "intro": "Genere un horario inteligente editable automáticamente a partir de los días, períodos, materias y preferencias de rutina elegidos sin un servicio de inteligencia artificial externo. Genere un cronograma equilibrado a partir de sus prioridades utilizando reglas deterministas locales sin un servicio de IA externo. Agregue el título de su propio cronograma, nota personal y cotización, luego edite cada celda generada antes de descargarla o imprimirla.",
       "why": "Genere un cronograma equilibrado a partir de sus prioridades utilizando reglas deterministas locales sin un servicio de IA externo.",
       "steps": [
         "Elige días y bloques horarios.",
@@ -13052,7 +13052,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "diwali-budget-calculator": {
       "heroIntro": "Calculadora de Diwali Budget y Diwali Shopping Budget Planner para regalos, ropa, mithai, decoración, puja, viajes y comida.",
-      "intro": "Planifique los gastos de Diwali ingresando montos para regalos, ropa, mithai y faral, decoración, diyas y luces, puja, viajes, comida y otros gastos. Las búsquedas útiles incluyen calculadora de presupuesto de Diwali, planificador de presupuesto de Diwali, presupuesto de compras de Diwali, calculadora de gastos de Diwali, planificador de gastos de Diwali y planificador de presupuesto de festivales.",
+      "intro": "Planifique los gastos de Diwali ingresando montos para regalos, ropa, mithai y faral, decoración, diyas y luces, puja, viajes, comida y otros gastos. Las búsquedas útiles incluyen la calculadora de presupuesto de Diwali, el planificador de presupuesto de Diwali, el presupuesto de compras de Diwali, la calculadora de gastos de Diwali, el planificador de gastos de Diwali y el planificador de presupuesto de festivales.",
       "why": "Útil para el presupuesto de compras de Diwali, el planificador de presupuesto de Diwali y la planificación de gastos de festivales.",
       "steps": [
         "Ingrese los montos planificados por categoría.",
@@ -13305,7 +13305,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Descargue, copie o reutilice el resultado solo después de compararlo con su requisito original."
       ],
       "useCases": [
-        "Tareas rápidas y únicas del generador de etiquetas de YouTube sin instalar una utilidad independiente.",
+        "Tareas rápidas y únicas del generador de etiquetas de YouTube sin instalar una utilidad separada.",
         "Trabajo de preparación repetible para documentos, medios, texto, código, datos o flujos de trabajo de creadores.",
         "Comprobación de un resultado intermedio durante un proyecto más grande.",
         "Preparar una salida para otra aplicación o flujo de trabajo.",
@@ -13436,7 +13436,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Rechnungen und Buchhaltung: Führen Sie Rechnungen, Quittungen, Bestellungen oder Kontoauszüge für einen Monat oder ein Projekt in einem einzigen Datensatz zusammen.",
         "Gescannte Unterlagen: Kombinieren Sie separat gescannte Seiten oder Abschnitte in einer Datei, um die Überprüfung und Speicherung zu erleichtern.",
         "Geschäftsberichte: Stellen Sie eine Zusammenfassung, einen Bericht, Diagramme und Anhänge in der richtigen Reihenfolge zusammen.",
-        "Juristischer oder administrativer Papierkram: Stellen Sie zugehörige Formulare und Belege zusammen, befolgen Sie dabei die spezifischen Einreichungsregeln des Empfängers und bewahren Sie die Originale auf.",
+        "Rechtlicher oder administrativer Papierkram: Stellen Sie zugehörige Formulare und Belegdokumente zusammen, befolgen Sie dabei die spezifischen Einreichungsregeln des Empfängers und bewahren Sie die Originale auf.",
         "Recherche und Studium: Kombinieren Sie Lesenotizen, Aufsatzabschnitte und Referenzmaterial in einem persönlichen Studienexemplar, sofern zulässig.",
         "Besprechungen und Projekte: Stellen Sie Tagesordnungen, Protokolle, Spezifikationen und unterstützende Dokumente für eine Teamübergabe zusammen.",
         "Reise- und persönliche Aufzeichnungen: Organisieren Sie Reiserouten, Buchungsbestätigungen und andere Dokumente in einer praktischen Referenzdatei.",
@@ -13448,7 +13448,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Bestätigen Sie die Bestellung vor dem Zusammenführen. Die Reihenfolge der Dateiauswahl stimmt möglicherweise nicht mit der von Ihnen benötigten Lesereihenfolge überein. Überprüfen Sie daher die geordnete Liste und das endgültige PDF.",
         "Verwenden Sie aussagekräftige Dateinamen. Namen wie 01-cover.pdf, 02-report.pdf und 03-appendix.pdf können die Verwaltung eines Workflows mit mehreren Dateien erleichtern.",
         "Originale aufbewahren. Eine zusammengeführte PDF-Datei ist eine praktische kombinierte Kopie und kein Ersatz für Quelldateien, die Sie möglicherweise später bearbeiten oder separat einreichen müssen.",
-        "Überprüfen Sie jede Seite rund um die Dateigrenzen. Der Übergang zwischen der letzten Seite einer Quell-PDF-Datei und der ersten Seite der nächsten ist ein einfacher Ort, um fehlende, duplizierte oder falsch angeordnete Seiten zu erkennen.",
+        "Überprüfen Sie jede Seite rund um die Dateigrenzen. Der Übergang zwischen der letzten Seite einer Quell-PDF-Datei und der ersten Seite der nächsten ist ein einfacher Ort, um fehlende, duplizierte oder falsch angeordnete Seiten zu bemerken.",
         "Achten Sie auf gemischte Seitengrößen und Ausrichtungen. A4-, Letter-, Hoch- und Querformat sowie gescannte Seiten können in einer PDF-Datei nebeneinander vorhanden sein. Stellen Sie sicher, dass jede Seite lesbar und korrekt ausgerichtet bleibt.",
         "Verwechseln Sie das Zusammenführen nicht mit der Komprimierung. Das Zusammenfügen von PDFs garantiert nicht, dass die Datei kleiner wird. Wenn ein Portal ein strenges Upload-Limit hat, überprüfen Sie die endgültige Größe und verwenden Sie gegebenenfalls ein Komprimierungstool.",
         "Merken Sie sich gescannten Text. Ein gescanntes PDF kann Seitenbilder anstelle von durchsuchbarem Text enthalten. Durch das Zusammenführen wird nicht automatisch eine OCR durchgeführt und die Wörter werden nicht auswählbar.",
@@ -13463,7 +13463,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Sehr große PDFs oder viele hochauflösende gescannte Seiten können durch den verfügbaren Browserspeicher, den Gerätespeicher und die Verarbeitungsleistung begrenzt sein.",
         "Unterschiedliche Seitenabmessungen und -ausrichtungen können in der Ausgabe gemischt bleiben. Überprüfen Sie das Dokument, bevor Sie es drucken oder senden.",
         "Durch eine Zusammenführung können Fehler, die bereits in den Quell-PDFs vorhanden sind, wie z. B. verschwommene Scans, fehlende Seiten, falsche Informationen oder unleserlicher Text, nicht korrigiert werden.",
-        "Eine kombinierte Datei garantiert nicht, dass eine empfangende Website sie akzeptiert. Upload-Limits, Dateirichtlinien, Benennungsregeln und die erforderliche Dokumentenreihenfolge werden von der empfangenden Organisation kontrolliert."
+        "Eine kombinierte Datei garantiert nicht, dass eine empfangende Website sie akzeptiert. Upload-Limits, Dateirichtlinien, Benennungsregeln und die erforderliche Dokumentreihenfolge werden von der empfangenden Organisation kontrolliert."
       ],
       "faq": [
         {
@@ -13476,7 +13476,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Kann ich PDF-Dateien kostenlos zusammenführen, ohne Software zu installieren?",
-          "a": "Toolployee bietet einen browserbasierten PDF zusammenfügen-Workflow, sodass Sie die Seite verwenden können, ohne einen separaten Desktop-PDF-Merger zu installieren. Praktische Verarbeitungsgrenzen können immer noch von Ihrem Browser, Ihrem Gerät und der Dateigröße abhängen."
+          "a": "Toolployee bietet einen browserbasierten PDF zusammenfügen-Workflow, sodass Sie die Seite verwenden können, ohne einen separaten Desktop-PDF-Merger installieren zu müssen. Praktische Verarbeitungsgrenzen können immer noch von Ihrem Browser, Ihrem Gerät und der Dateigröße abhängen."
         },
         {
           "q": "Kann ich PDF-Dateien unter Windows, Mac, Android oder iPhone zusammenführen?",
@@ -13500,7 +13500,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Kann ich ein PDF mit Seiten im Hoch- und Querformat zusammenführen?",
-          "a": "Ein kombiniertes PDF kann Seiten mit unterschiedlichen Ausrichtungen enthalten. Überprüfen Sie das endgültige Dokument Seite für Seite, insbesondere, ob es gedruckt, eingereicht oder präsentiert wird."
+          "a": "Ein kombiniertes PDF kann Seiten mit unterschiedlichen Ausrichtungen enthalten. Überprüfen Sie das endgültige Dokument Seite für Seite, insbesondere, ob es gedruckt, eingereicht oder präsentiert werden soll."
         },
         {
           "q": "Warum ist meine zusammengeführte PDF-Datei zu groß, um sie hochzuladen oder per E-Mail zu versenden?",
@@ -13516,7 +13516,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Bleiben beim Zusammenführen von PDF-Dateien digitale Signaturen, Formulare, Kommentare und Lesezeichen erhalten?",
-          "a": "Nicht jede spezielle PDF-Funktion verhält sich nach dem Zusammenführen garantiert identisch. Digitale Signaturen sind nach Dokumentänderungen möglicherweise nicht mehr gültig, und Formulare, Anmerkungen oder Lesezeichen können davon abhängen, wie die Quell-PDFs erstellt wurden. Überprüfen Sie diese Funktionen und befolgen Sie die entsprechenden Signatur- oder Compliance-Anforderungen."
+          "a": "Nicht jede spezielle PDF-Funktion verhält sich nach dem Zusammenführen garantiert gleich. Digitale Signaturen sind nach Dokumentänderungen möglicherweise nicht mehr gültig, und Formulare, Anmerkungen oder Lesezeichen können davon abhängen, wie die Quell-PDFs erstellt wurden. Überprüfen Sie diese Funktionen und befolgen Sie die entsprechenden Signatur- oder Compliance-Anforderungen."
         },
         {
           "q": "Ist das Zusammenführen von PDFs dasselbe wie das Konvertieren von Bildern in PDF?",
@@ -13543,7 +13543,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "split-pdf": {
       "heroIntro": "Trennen Sie einzelne Seiten oder extrahieren Sie bestimmte Seitenbereiche aus PDF-Dateien.",
-      "intro": "Trennen Sie einzelne Seiten oder extrahieren Sie bestimmte Seitenbereiche aus PDF-Dateien. Verwenden Sie es beispielsweise, um ausgewählte Seiten aus einem langen Bericht zu extrahieren. Es kann Ihnen auch dabei helfen, aus einem Kapitel oder Abschnitt ein kleineres Dokument zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Trennen Sie einzelne Seiten oder extrahieren Sie bestimmte Seitenbereiche aus PDF-Dateien. Verwenden Sie es beispielsweise, um ausgewählte Seiten aus einem langen Bericht zu extrahieren. Es kann Ihnen auch dabei helfen, aus einem Kapitel oder Abschnitt ein kleineres Dokument zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF teilen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13571,7 +13571,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -13580,7 +13580,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF teilen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF teilen verwenden?",
@@ -13603,7 +13603,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "pdf-to-jpg": {
       "heroIntro": "Extrahieren Sie Seiten aus Ihrem PDF-Dokument und exportieren Sie sie als hochwertige JPG-Bilder.",
-      "intro": "Extrahieren Sie Seiten aus Ihrem PDF-Dokument und exportieren Sie sie als hochwertige JPG-Bilder. Verwenden Sie es beispielsweise, um eine PDF-Seite in ein Bild für eine Präsentation umzuwandeln. Es kann Ihnen auch dabei helfen, JPG-Vorschauen gescannter Dokumente zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Extrahieren Sie Seiten aus Ihrem PDF-Dokument und exportieren Sie sie als hochwertige JPG-Bilder. Verwenden Sie es beispielsweise, um eine PDF-Seite in ein Bild für eine Präsentation umzuwandeln. Es kann Ihnen auch dabei helfen, JPG-Vorschauen gescannter Dokumente zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF-zu-JPG-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13626,12 +13626,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Bevorzugen Sie bei vertraulichen Dateien die browserseitige Verarbeitung, sofern dies ausdrücklich unterstützt wird, und geben Sie niemals unnötige Geheimnisse ein.",
         "Vermeiden: Erwarten Sie, dass Vektortext weiterhin als Text bearbeitet werden kann.",
         "Vermeiden Sie Folgendes: Wählen Sie eine Ausgabeauflösung, ohne die endgültige Anzeigegröße zu berücksichtigen.",
-        "Vermeiden Sie: Die Verwendung von JPG für Grafiken, die Transparenz erfordern."
+        "Vermeiden: Die Verwendung von JPG für Grafiken, die Transparenz erfordern."
       ],
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -13640,7 +13640,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF-zu-JPG-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF-zu-JPG-Konverter verwenden?",
@@ -13663,7 +13663,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "jpg-to-pdf": {
       "heroIntro": "Konvertieren Sie JPG-, JPEG- und PNG-Bilder in eine saubere, standardisierte PDF-Datei.",
-      "intro": "Konvertieren Sie JPG-, JPEG- und PNG-Bilder in eine saubere, standardisierte PDF-Datei. Nutzen Sie es beispielsweise, um gescannte Belege in einem PDF zusammenzufassen. Es kann Ihnen auch dabei helfen, Fotos oder Dokumentenscans für die Einreichung vorzubereiten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie JPG-, JPEG- und PNG-Bilder in eine saubere, standardisierte PDF-Datei. Nutzen Sie es beispielsweise, um gescannte Belege in einem PDF zusammenzufassen. Es kann Ihnen auch dabei helfen, Fotos oder Dokumentenscans für die Einreichung vorzubereiten. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie JPG-zu-PDF-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13691,7 +13691,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -13700,7 +13700,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert JPG-zu-PDF-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich JPG-zu-PDF-Konverter verwenden?",
@@ -13723,7 +13723,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "protect-pdf-password": {
       "heroIntro": "Fügen Sie unterstützten PDF-Dokumenten mithilfe der PDF-Verschlüsselungsfunktionen einen Passwortschutz hinzu.",
-      "intro": "Fügen Sie unterstützten PDF-Dokumenten mithilfe der PDF-Verschlüsselungsfunktionen einen Passwortschutz hinzu. Verwenden Sie es beispielsweise, um ein Dokument zu schützen, bevor Sie es mit einem Empfänger teilen. Es kann Ihnen auch dabei helfen, einer Kopie einer PDF-Datei ein Zugangskennwort hinzuzufügen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Fügen Sie unterstützten PDF-Dokumenten mithilfe der PDF-Verschlüsselungsfunktionen einen Passwortschutz hinzu. Verwenden Sie es beispielsweise, um ein Dokument zu schützen, bevor Sie es mit einem Empfänger teilen. Es kann Ihnen auch dabei helfen, einer Kopie einer PDF-Datei ein Zugangskennwort hinzuzufügen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF schützen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13751,7 +13751,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -13760,7 +13760,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF schützen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF schützen verwenden?",
@@ -13783,7 +13783,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "unlock-pdf-password": {
       "heroIntro": "Entfernen Sie Passwörter und Berechtigungen lokal aus verschlüsselten PDF-Dokumenten.",
-      "intro": "Entfernen Sie Passwörter und Berechtigungen lokal aus verschlüsselten PDF-Dokumenten. Verwenden Sie es beispielsweise, um ein Passwort aus einem Dokument zu entfernen, auf das Sie zugreifen dürfen. Es kann Ihnen auch dabei helfen, eine zugängliche Arbeitskopie zu erstellen, nachdem Sie die erforderlichen Anmeldeinformationen erhalten haben. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Entfernen Sie Passwörter und Berechtigungen lokal aus verschlüsselten PDF-Dokumenten. Verwenden Sie es beispielsweise, um ein Passwort aus einem Dokument zu entfernen, auf das Sie zugreifen dürfen. Es kann Ihnen auch dabei helfen, eine zugängliche Arbeitskopie zu erstellen, nachdem Sie die erforderlichen Anmeldeinformationen erhalten haben. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF entsperren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13811,7 +13811,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -13820,7 +13820,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF entsperren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF entsperren verwenden?",
@@ -13843,7 +13843,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "rotate-pdf": {
       "heroIntro": "Drehen Sie einzelne oder alle Seiten in einem PDF-Dokument um 90, 180 oder 270 Grad.",
-      "intro": "Drehen Sie einzelne oder alle Seiten in einem PDF-Dokument um 90, 180 oder 270 Grad. Verwenden Sie es beispielsweise, um seitwärts gescannte Seiten zu korrigieren. Es kann Ihnen auch dabei helfen, ausgewählte Seiten zum Drucken zu drehen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Drehen Sie einzelne oder alle Seiten in einem PDF-Dokument um 90, 180 oder 270 Grad. Verwenden Sie es beispielsweise, um seitwärts gescannte Seiten zu korrigieren. Es kann Ihnen auch dabei helfen, ausgewählte Seiten zum Drucken zu drehen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF drehen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13871,7 +13871,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -13880,7 +13880,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF drehen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF drehen verwenden?",
@@ -13902,8 +13902,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "compress-pdf": {
-      "heroIntro": "Reduzieren Sie den Platzbedarf von PDF-Dokumentdateien und behalten Sie gleichzeitig eine saubere Textauflösung bei.",
-      "intro": "Reduzieren Sie den Platzbedarf von PDF-Dokumentdateien und behalten Sie gleichzeitig eine saubere Textauflösung bei. Verwenden Sie es beispielsweise, um ein Dokument vor dem E-Mail-Upload zu verkleinern. Es kann Ihnen auch dabei helfen, ein PDF für ein Portal mit einer Dateigrößenbeschränkung vorzubereiten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "heroIntro": "Reduzieren Sie den Platzbedarf von PDF-Dokumentdateien und sorgen Sie gleichzeitig für eine saubere Textauflösung.",
+      "intro": "Reduzieren Sie den Platzbedarf von PDF-Dokumentdateien und sorgen Sie gleichzeitig für eine saubere Textauflösung. Verwenden Sie es beispielsweise, um ein Dokument vor dem E-Mail-Upload zu verkleinern. Es kann Ihnen auch dabei helfen, ein PDF für ein Portal mit einer Dateigrößenbeschränkung vorzubereiten. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF komprimieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13931,16 +13931,16 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
           "q": "Wofür wird PDF komprimieren verwendet?",
-          "a": "Reduzieren Sie den Platzbedarf von PDF-Dokumentdateien und behalten Sie gleichzeitig eine saubere Textauflösung bei. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Reduzieren Sie den Platzbedarf von PDF-Dokumentdateien und sorgen Sie gleichzeitig für eine saubere Textauflösung. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert PDF komprimieren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF komprimieren verwenden?",
@@ -13963,7 +13963,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "add-page-numbers-pdf": {
       "heroIntro": "Fügen Sie Seitenzahlen für Kopf- und Fußzeilen in Ihre gesamte PDF-Datei ein.",
-      "intro": "Fügen Sie Seitenzahlen für Kopf- und Fußzeilen in Ihre gesamte PDF-Datei ein. Verwenden Sie es beispielsweise, um einen langen Bericht oder eine Abschlussarbeit zu nummerieren. Es kann Ihnen auch dabei helfen, Seitenzahlen zu einem zum Drucken vorbereiteten Dokument hinzuzufügen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Fügen Sie Seitenzahlen für Kopf- und Fußzeilen in Ihre gesamte PDF-Datei ein. Verwenden Sie es beispielsweise, um einen langen Bericht oder eine Abschlussarbeit zu nummerieren. Es kann Ihnen auch dabei helfen, Seitenzahlen zu einem zum Drucken vorbereiteten Dokument hinzuzufügen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie Seitenzahlen zu PDF hinzufügen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -13991,7 +13991,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -14000,7 +14000,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Seitenzahlen zu PDF hinzufügen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Seitenzahlen zu PDF hinzufügen verwenden?",
@@ -14022,8 +14022,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "pdf-to-word": {
-      "heroIntro": "Konvertieren Sie PDF-Dateien in das bearbeitbare DOCX-Word-Format, wo der Quellinhalt unterstützt wird.",
-      "intro": "Konvertieren Sie PDF-Dateien in das bearbeitbare DOCX-Word-Format, wo der Quellinhalt unterstützt wird. Verwenden Sie es beispielsweise, um eine textlastige PDF-Datei in einen bearbeitbaren DOCX-Entwurf umzuwandeln. Es kann Ihnen auch dabei helfen, Berichtsinhalte in einem Word-Workflow wiederzuverwenden. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "heroIntro": "Konvertieren Sie PDF-Dateien in das bearbeitbare DOCX-Word-Format, in dem der Quellinhalt unterstützt wird.",
+      "intro": "Konvertieren Sie PDF-Dateien in das bearbeitbare DOCX-Word-Format, in dem der Quellinhalt unterstützt wird. Verwenden Sie es beispielsweise, um eine textlastige PDF-Datei in einen bearbeitbaren DOCX-Entwurf umzuwandeln. Es kann Ihnen auch dabei helfen, Berichtsinhalte in einem Word-Workflow wiederzuverwenden. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF-zu-Word-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14032,7 +14032,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
       ],
       "useCases": [
-        "Schnelle einmalige PDF-zu-Word-Konvertierungsaufgaben ohne Installation eines separaten Dienstprogramms.",
+        "Schnelle einmalige PDF-zu-Word-Konverteraufgaben ohne Installation eines separaten Dienstprogramms.",
         "Wiederholbare Vorbereitungsarbeiten für Dokumente, Medien, Text, Code, Daten oder Ersteller-Workflows.",
         "Überprüfung eines Zwischenergebnisses während eines größeren Projekts.",
         "Vorbereiten einer Ausgabe für eine andere Anwendung oder einen anderen Workflow.",
@@ -14051,16 +14051,16 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
           "q": "Wofür wird PDF-zu-Word-Konverter verwendet?",
-          "a": "Konvertieren Sie PDF-Dateien in das bearbeitbare DOCX-Word-Format, wo der Quellinhalt unterstützt wird. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Konvertieren Sie PDF-Dateien in das bearbeitbare DOCX-Word-Format, in dem der Quellinhalt unterstützt wird. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert PDF-zu-Word-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF-zu-Word-Konverter verwenden?",
@@ -14083,7 +14083,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "word-to-pdf": {
       "heroIntro": "Konvertieren Sie Microsoft Word-Dokumente (DOCX, DOC) in Standard-PDF-Dateien.",
-      "intro": "Konvertieren Sie Microsoft Word-Dokumente (DOCX, DOC) in Standard-PDF-Dateien. Verwenden Sie es beispielsweise, um ein Dokument mit festem Layout zum Teilen zu erstellen. Es kann Ihnen auch dabei helfen, ein DOCX für die Einreichung oder den Druck vorzubereiten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Microsoft Word-Dokumente (DOCX, DOC) in Standard-PDF-Dateien. Verwenden Sie es beispielsweise, um ein Dokument mit festem Layout zum Teilen zu erstellen. Es kann Ihnen auch dabei helfen, ein DOCX für die Einreichung oder den Druck vorzubereiten. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie Word-zu-PDF-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14111,7 +14111,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -14120,7 +14120,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Word-zu-PDF-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Word-zu-PDF-Konverter verwenden?",
@@ -14143,7 +14143,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "delete-pdf-pages": {
       "heroIntro": "Wählen Sie unerwünschte Seiten aus jeder PDF-Datei aus und entfernen Sie sie mit sofortigem Download.",
-      "intro": "Wählen Sie unerwünschte Seiten aus jeder PDF-Datei aus und entfernen Sie sie mit sofortigem Download. Verwenden Sie es beispielsweise, um leere Seiten aus einem Bericht zu entfernen. Es kann Ihnen auch dabei helfen, doppelte oder unerwünschte Seiten vor der Übermittlung zu löschen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Wählen Sie unerwünschte Seiten aus jeder PDF-Datei aus und entfernen Sie sie mit sofortigem Download. Verwenden Sie es beispielsweise, um leere Seiten aus einem Bericht zu entfernen. Es kann Ihnen auch dabei helfen, doppelte oder unerwünschte Seiten vor der Übermittlung zu löschen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF-Seiten löschen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14171,7 +14171,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -14180,7 +14180,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF-Seiten löschen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF-Seiten löschen verwenden?",
@@ -14203,7 +14203,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "reorder-pdf-pages": {
       "heroIntro": "Ziehen Sie die Seitenreihenfolge Ihres PDF-Dokuments per Drag-and-Drop und ordnen Sie sie neu an.",
-      "intro": "Ziehen Sie die Seitenreihenfolge Ihres PDF-Dokuments per Drag-and-Drop und ordnen Sie sie neu an. Verwenden Sie es beispielsweise, um ein gescanntes Dokument zu reparieren, dessen Seiten nicht in der richtigen Reihenfolge sind. Es kann Ihnen auch dabei helfen, Anhänge nach dem Hauptbericht einzufügen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Ziehen Sie die Seitenreihenfolge Ihres PDF-Dokuments per Drag-and-Drop und ordnen Sie sie neu an. Verwenden Sie es beispielsweise, um ein gescanntes Dokument zu reparieren, dessen Seiten nicht in der richtigen Reihenfolge sind. Es kann Ihnen auch dabei helfen, Anhänge nach dem Hauptbericht einzufügen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF-Seiten neu anordnen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14231,7 +14231,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -14240,7 +14240,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF-Seiten neu anordnen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF-Seiten neu anordnen verwenden?",
@@ -14255,7 +14255,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
-          "q": "Ändert eine Neuordnung den Seiteninhalt?",
+          "q": "Ändert eine Neuanordnung den Seiteninhalt?",
           "a": "Der beabsichtigte Vorgang ändert die Seitenreihenfolge, anstatt den Seiteninhalt neu zu schreiben. Überprüfen Sie die Ausgabe auf Drehung, Anmerkungen und andere PDF-Funktionen."
         }
       ],
@@ -14263,7 +14263,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "pdf-grayscale-converter": {
       "heroIntro": "Konvertieren Sie PDF-Seiten in Graustufen, um Farbinformationen zu reduzieren und Dokumente für den Schwarzweißdruck vorzubereiten.",
-      "intro": "Konvertieren Sie PDF-Seiten in Graustufen, um Farbinformationen zu reduzieren und Dokumente für den Schwarzweißdruck vorzubereiten. Nutzen Sie es beispielsweise, um Dokumente für den Schwarzweißdruck vorzubereiten. Es kann Ihnen auch dabei helfen, Farbinformationen in gescannten Dokumenten zu reduzieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie PDF-Seiten in Graustufen, um Farbinformationen zu reduzieren und Dokumente für den Schwarzweißdruck vorzubereiten. Nutzen Sie es beispielsweise, um Dokumente für den Schwarzweißdruck vorzubereiten. Es kann Ihnen auch dabei helfen, Farbinformationen in gescannten Dokumenten zu reduzieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser PDF-Workflow basiert auf einer fokussierten Dokumentaufgabe: Bereiten Sie die Quelle vor, wenden Sie den Vorgang an, überprüfen Sie die Ausgabe und behalten Sie das Ergebnis nur dann, wenn es Ihren Anforderungen entspricht.",
       "steps": [
         "Öffnen Sie PDF-zu-Graustufen-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14285,13 +14285,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Überprüfen Sie die Seitenreihenfolge, Ausrichtung, Dateinamen und Ausgabequalität.",
         "Bevorzugen Sie bei vertraulichen Dateien die browserseitige Verarbeitung, sofern dies ausdrücklich unterstützt wird, und geben Sie niemals unnötige Geheimnisse ein.",
         "Vermeiden Sie Folgendes: Konvertieren von Dokumenten, bei denen Farbe wichtige Informationen vermittelt.",
-        "Vermeiden: Den Kontrast bei Scans nicht überprüfen.",
+        "Vermeiden: Den Kontrast bei Scans nicht prüfen.",
         "Vermeiden Sie: Ersetzen Sie die einzige vollfarbige Quell-PDF-Datei durch eine Graustufenkopie."
       ],
       "limitations": [
         "Sehr große oder komplexe Dokumente können durch den Browserspeicher begrenzt sein.",
         "PDF-Verschlüsselung, Schriftarten, Anmerkungen und eingebettete Objekte können je nach PDF-Engine variieren.",
-        "Überprüfen Sie die generierten Dateien, bevor Sie sie als offizielle Dokumente verwenden."
+        "Überprüfen Sie generierte Dateien, bevor Sie sie als offizielle Dokumente verwenden."
       ],
       "faq": [
         {
@@ -14300,7 +14300,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PDF-zu-Graustufen-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PDF-zu-Graustufen-Konverter verwenden?",
@@ -14323,7 +14323,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "compress-image": {
       "heroIntro": "Komprimieren Sie PNG-, JPEG- und WebP-Dateien, um die Dateigröße zu reduzieren und gleichzeitig die Ausgabequalität auszugleichen.",
-      "intro": "Komprimieren Sie PNG-, JPEG- und WebP-Dateien, um die Dateigröße zu reduzieren und gleichzeitig die Ausgabequalität auszugleichen. Verwenden Sie es beispielsweise, um ein Bild zu verkleinern, bevor Sie es auf eine Website hochladen. Es kann Ihnen auch dabei helfen, Fotos für E-Mails oder Nachrichten vorzubereiten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Komprimieren Sie PNG-, JPEG- und WebP-Dateien, um die Dateigröße zu reduzieren und gleichzeitig die Ausgabequalität auszugleichen. Verwenden Sie es beispielsweise, um ein Bild zu verkleinern, bevor Sie es auf eine Website hochladen. Es kann Ihnen auch dabei helfen, Fotos für E-Mails oder Nachrichten vorzubereiten. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Bild online komprimieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14360,7 +14360,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Bild online komprimieren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Bild online komprimieren verwenden?",
@@ -14382,8 +14382,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "formats"
     },
     "crop-image-online": {
-      "heroIntro": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder Freiform-Box-Auswahl.",
-      "intro": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder Freiform-Box-Auswahl. Verwenden Sie es beispielsweise, um ein quadratisches Profilbild zu erstellen. Es kann Ihnen auch dabei helfen, ein Banner auf 16:9 zuzuschneiden. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "heroIntro": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder freier Boxauswahl.",
+      "intro": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder freier Boxauswahl. Verwenden Sie es beispielsweise, um ein quadratisches Profilbild zu erstellen. Es kann Ihnen auch dabei helfen, ein Banner auf 16:9 zuzuschneiden. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Bild online zuschneiden und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14416,11 +14416,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Bild online zuschneiden verwendet?",
-          "a": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder Freiform-Box-Auswahl. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Beschneiden Sie Bilder mit voreingestellten Seitenverhältnissen (16:9, 1:1, 4:3) oder freier Boxauswahl. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert Bild online zuschneiden?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Bild online zuschneiden verwenden?",
@@ -14443,7 +14443,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "image-resizer": {
       "heroIntro": "Passen Sie die Bildabmessungen nach benutzerdefinierter Breite, Höhe oder Prozentsätzen in Pixel und cm an.",
-      "intro": "Passen Sie die Bildabmessungen nach benutzerdefinierter Breite, Höhe oder Prozentsätzen in Pixel und cm an. Verwenden Sie es beispielsweise, um die Größe eines Bildes für den Upload auf eine Website zu ändern. Es kann Ihnen auch dabei helfen, kleinere Kopien für E-Mails zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Passen Sie die Bildabmessungen nach benutzerdefinierter Breite, Höhe oder Prozentsätzen in Pixel und cm an. Verwenden Sie es beispielsweise, um die Größe eines Bildes für den Upload auf eine Website zu ändern. Es kann Ihnen auch dabei helfen, kleinere Kopien für E-Mails zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Bild online skalieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14452,7 +14452,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
       ],
       "useCases": [
-        "Schnelle, einmalige Online-Aufgaben zur Größenänderung von Bildern, ohne dass ein separates Dienstprogramm installiert werden muss.",
+        "Schnelle, einmalige Online-Aufgaben zur Größenänderung von Bildern ohne Installation eines separaten Dienstprogramms.",
         "Wiederholbare Vorbereitungsarbeiten für Dokumente, Medien, Text, Code, Daten oder Ersteller-Workflows.",
         "Überprüfung eines Zwischenergebnisses während eines größeren Projekts.",
         "Vorbereiten einer Ausgabe für eine andere Anwendung oder einen anderen Workflow.",
@@ -14480,7 +14480,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Bild online skalieren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Bild online skalieren verwenden?",
@@ -14503,7 +14503,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "webp-to-png-converter": {
       "heroIntro": "Konvertieren Sie WebP-Bilder im Browserspeicher in das PNG-Format und bewahren Sie dabei die Transparenz, sofern vorhanden.",
-      "intro": "Konvertieren Sie WebP-Bilder im Browserspeicher in das PNG-Format und bewahren Sie dabei die Transparenz, sofern vorhanden. Verwenden Sie es beispielsweise, um WebP-Assets für Software zu konvertieren, die PNG erwartet. Es kann Ihnen auch dabei helfen, die Transparenz für Grafik-Workflows aufrechtzuerhalten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie WebP-Bilder im Browserspeicher in das PNG-Format und bewahren Sie dabei die Transparenz, sofern vorhanden. Verwenden Sie es beispielsweise, um WebP-Assets für Software zu konvertieren, die PNG erwartet. Es kann Ihnen auch dabei helfen, die Transparenz für Grafik-Workflows aufrechtzuerhalten. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie WebP-zu-PNG-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14540,7 +14540,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert WebP-zu-PNG-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich WebP-zu-PNG-Konverter verwenden?",
@@ -14563,7 +14563,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "webp-to-jpg-converter": {
       "heroIntro": "Konvertieren Sie moderne WebP-Bilder in hoher Qualität in das Standard-JPG-Format.",
-      "intro": "Konvertieren Sie moderne WebP-Bilder in hoher Qualität in das Standard-JPG-Format. Verwenden Sie es beispielsweise, um ein WebP-Foto für ältere Software vorzubereiten. Es kann Ihnen auch dabei helfen, eine weitgehend kompatible JPEG-Kopie zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie moderne WebP-Bilder in hoher Qualität in das Standard-JPG-Format. Verwenden Sie es beispielsweise, um ein WebP-Foto für ältere Software vorzubereiten. Es kann Ihnen auch dabei helfen, eine weitgehend kompatible JPEG-Kopie zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie WebP-zu-JPG-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14600,7 +14600,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert WebP-zu-JPG-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich WebP-zu-JPG-Konverter verwenden?",
@@ -14623,7 +14623,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "png-to-jpg-converter": {
       "heroIntro": "Konvertieren Sie große PNG-Bilder schnell in leichte JPG-Bilder.",
-      "intro": "Konvertieren Sie große PNG-Bilder schnell in leichte JPG-Bilder. Verwenden Sie es beispielsweise, um ein großes fotografisches PNG zu verkleinern. Es kann Ihnen auch dabei helfen, ein Bild für ein reines JPG-Upload-Formular vorzubereiten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie große PNG-Bilder schnell in leichte JPG-Bilder. Verwenden Sie es beispielsweise, um ein großes fotografisches PNG zu verkleinern. Es kann Ihnen auch dabei helfen, ein Bild für ein reines JPG-Upload-Formular vorzubereiten. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie PNG-zu-JPG-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14660,7 +14660,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert PNG-zu-JPG-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich PNG-zu-JPG-Konverter verwenden?",
@@ -14683,7 +14683,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "jpg-to-png-converter": {
       "heroIntro": "Konvertieren Sie JPEG/JPG-Bilder in das PNG-Format für Arbeitsabläufe, die ein verlustfreies Ausgabeformat benötigen.",
-      "intro": "Konvertieren Sie JPEG/JPG-Bilder in das PNG-Format für Arbeitsabläufe, die ein verlustfreies Ausgabeformat benötigen. Verwenden Sie es beispielsweise, um ein Bild für einen PNG-basierten Design-Workflow vorzubereiten. Es kann Ihnen auch dabei helfen, eine Kopie im verlustfreien Format für die weitere Bearbeitung zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie JPEG/JPG-Bilder in das PNG-Format für Arbeitsabläufe, die ein verlustfreies Ausgabeformat benötigen. Verwenden Sie es beispielsweise, um ein Bild für einen PNG-basierten Design-Workflow vorzubereiten. Es kann Ihnen auch dabei helfen, eine Kopie im verlustfreien Format für die weitere Bearbeitung zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie JPG-zu-PNG-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14720,7 +14720,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert JPG-zu-PNG-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich JPG-zu-PNG-Konverter verwenden?",
@@ -14743,7 +14743,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "svg-to-png-converter": {
       "heroIntro": "Konvertieren Sie SVG-Vektordateien in PNG-Rasterbilder in einer ausgewählten Ausgabegröße.",
-      "intro": "Konvertieren Sie SVG-Vektordateien in PNG-Rasterbilder in einer ausgewählten Ausgabegröße. Verwenden Sie es beispielsweise, um PNG-Vorschauen aus einem Vektorlogo zu erstellen. Es kann Ihnen auch dabei helfen, eine SVG-Datei für soziale Medien oder Dokumente zu rastern. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie SVG-Vektordateien in PNG-Rasterbilder in einer ausgewählten Ausgabegröße. Verwenden Sie es beispielsweise, um PNG-Vorschauen aus einem Vektorlogo zu erstellen. Es kann Ihnen auch dabei helfen, eine SVG-Datei für soziale Medien oder Dokumente zu rastern. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie SVG-zu-PNG-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14780,7 +14780,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert SVG-zu-PNG-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich SVG-zu-PNG-Konverter verwenden?",
@@ -14803,7 +14803,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "black-and-white-image-filter": {
       "heroIntro": "Wandeln Sie farbige Fotos in Schwarz-Weiß-Monochrom-Darstellungen um.",
-      "intro": "Wandeln Sie farbige Fotos in Schwarz-Weiß-Monochrom-Darstellungen um. Nutzen Sie es beispielsweise zur Vorbereitung eines monochromen Druckbildes. Es kann Ihnen auch dabei helfen, einen klassischen Schwarz-Weiß-Fotoeffekt zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Wandeln Sie farbige Fotos in Schwarz-Weiß-Monochrom-Darstellungen um. Nutzen Sie es beispielsweise zur Vorbereitung eines monochromen Druckbildes. Es kann Ihnen auch dabei helfen, einen klassischen Schwarz-Weiß-Fotoeffekt zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Schwarz-Weiß-Bildkonverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14840,7 +14840,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Schwarz-Weiß-Bildkonverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Schwarz-Weiß-Bildkonverter verwenden?",
@@ -14863,7 +14863,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "invert-image-colors": {
       "heroIntro": "Invertieren Sie RGB-Pixelwerte, um negative Farbeffekte auf Fotos zu erzeugen.",
-      "intro": "Invertieren Sie RGB-Pixelwerte, um negative Farbeffekte auf Fotos zu erzeugen. Verwenden Sie es beispielsweise, um einen fotografischen Negativeffekt zu erzeugen. Es kann Ihnen auch dabei helfen, invertierte visuelle Informationen zu überprüfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Invertieren Sie RGB-Pixelwerte, um negative Farbeffekte auf Fotos zu erzeugen. Verwenden Sie es beispielsweise, um einen fotografischen Negativeffekt zu erzeugen. Es kann Ihnen auch dabei helfen, invertierte visuelle Informationen zu überprüfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Bildfarben invertieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14885,7 +14885,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Wählen Sie das Ausgabeformat basierend auf Transparenz, Komprimierung, Kompatibilität und beabsichtigter Verwendung.",
         "Zeigen Sie eine Vorschau des Ergebnisses in seiner tatsächlichen Anzeigegröße an.",
         "Vermeiden: Erwarten Sie eine Inversion, um semantische Farben beizubehalten.",
-        "Vermeiden: Verwenden Sie es als Ersatz für die Prüfung des Barrierefreiheitskontrasts.",
+        "Vermeiden: Verwenden Sie es als Ersatz für Barrierefreiheits-Kontrasttests.",
         "Vermeiden: Das Quellbild überschreiben."
       ],
       "limitations": [
@@ -14900,7 +14900,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Bildfarben invertieren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Bildfarben invertieren verwenden?",
@@ -14922,8 +14922,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "formats"
     },
     "flip-rotate-image": {
-      "heroIntro": "Drehen Sie Bilder horizontal, vertikal oder um 90 Grad mit der sofortigen Leinwandvorschau.",
-      "intro": "Drehen Sie Bilder horizontal, vertikal oder um 90 Grad mit der sofortigen Leinwandvorschau. Verwenden Sie es beispielsweise, um ein Foto horizontal zu spiegeln. Es kann Ihnen auch dabei helfen, die Ausrichtung eines Bildes zu korrigieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "heroIntro": "Spiegeln Sie Bilder horizontal, vertikal oder drehen Sie sie um 90 Grad mit der sofortigen Leinwandvorschau.",
+      "intro": "Spiegeln Sie Bilder horizontal, vertikal oder drehen Sie sie um 90 Grad mit der sofortigen Leinwandvorschau. Verwenden Sie es beispielsweise, um ein Foto horizontal zu spiegeln. Es kann Ihnen auch dabei helfen, die Ausrichtung eines Bildes zu korrigieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Bild spiegeln und drehen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -14956,11 +14956,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Bild spiegeln und drehen verwendet?",
-          "a": "Drehen Sie Bilder horizontal, vertikal oder um 90 Grad mit der sofortigen Leinwandvorschau. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Spiegeln Sie Bilder horizontal, vertikal oder drehen Sie sie um 90 Grad mit der sofortigen Leinwandvorschau. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert Bild spiegeln und drehen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Bild spiegeln und drehen verwenden?",
@@ -14983,7 +14983,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "instant-qr-code-generator": {
       "heroIntro": "Generieren Sie scanbare hochauflösende QR-Codes aus Text, Links oder Kontaktkarten.",
-      "intro": "Generieren Sie scanbare hochauflösende QR-Codes aus Text, Links oder Kontaktkarten. Verwenden Sie es beispielsweise, um einen QR-Code für eine Website-URL zu erstellen. Es kann Ihnen auch dabei helfen, Kontakt- oder Veranstaltungsinformationen weiterzugeben. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Generieren Sie scanbare hochauflösende QR-Codes aus Text, Links oder Kontaktkarten. Verwenden Sie es beispielsweise, um einen QR-Code für eine Website-URL zu erstellen. Es kann Ihnen auch dabei helfen, Kontakt- oder Veranstaltungsinformationen weiterzugeben. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie QR-Code-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15020,7 +15020,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert QR-Code-Generator?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich QR-Code-Generator verwenden?",
@@ -15043,7 +15043,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "image-blur-filter": {
       "heroIntro": "Wenden Sie Gaußsche Unschärfeeffekte an, um Gesichter, Teller oder private Details auszublenden.",
-      "intro": "Wenden Sie Gaußsche Unschärfeeffekte an, um Gesichter, Teller oder private Details auszublenden. Verwenden Sie es beispielsweise, um ein Gesicht in einem Screenshot unkenntlich zu machen. Es kann Ihnen auch dabei helfen, ein Nummernschild auf einem Foto zu verbergen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Wenden Sie Gaußsche Unschärfeeffekte an, um Gesichter, Teller oder private Details auszublenden. Verwenden Sie es beispielsweise, um ein Gesicht in einem Screenshot unkenntlich zu machen. Es kann Ihnen auch dabei helfen, ein Nummernschild auf einem Foto zu verbergen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Bild online weichzeichnen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15080,7 +15080,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Bild online weichzeichnen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Bild online weichzeichnen verwenden?",
@@ -15103,7 +15103,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "image-color-palette-extractor": {
       "heroIntro": "Extrahieren Sie dominante HEX- und RGB-Farbschemata direkt aus jedem Foto.",
-      "intro": "Extrahieren Sie dominante HEX- und RGB-Farbschemata direkt aus jedem Foto. Verwenden Sie es beispielsweise, um eine Designpalette aus einem Foto zu erstellen. Es kann Ihnen auch dabei helfen, dominante Farben für das Branding zu identifizieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Extrahieren Sie dominante HEX- und RGB-Farbschemata direkt aus jedem Foto. Verwenden Sie es beispielsweise, um eine Designpalette aus einem Foto zu erstellen. Es kann Ihnen auch dabei helfen, dominante Farben für das Branding zu identifizieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Bildworkflow konzentriert sich auf eine Transformation, sodass eine schnelle Aufgabe ohne einen vollständigen Grafikeditor erledigt werden kann. Es ist nützlich für Web-, Dokument-, soziale, Entwicklungs- und alltägliche Bildarbeiten.",
       "steps": [
         "Öffnen Sie Farbpaletten-Generator für Bilder und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15140,7 +15140,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Farbpaletten-Generator für Bilder?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Farbpaletten-Generator für Bilder verwenden?",
@@ -15163,7 +15163,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-python-compiler": {
       "heroIntro": "Führen Sie Python 3-Skripte in der Browser-Sandbox mit Echtzeit-Terminalausgabe aus.",
-      "intro": "Führen Sie Python 3-Skripte in der Browser-Sandbox mit Echtzeit-Terminalausgabe aus. Verwenden Sie es beispielsweise, um einen kurzen Python-Algorithmus zu testen. Es kann Ihnen auch dabei helfen, Schleifen, Funktionen und Datenstrukturen zu üben. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Führen Sie Python 3-Skripte in der Browser-Sandbox mit Echtzeit-Terminalausgabe aus. Verwenden Sie es beispielsweise, um einen kurzen Python-Algorithmus zu testen. Es kann Ihnen auch dabei helfen, Schleifen, Funktionen und Datenstrukturen zu üben. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-Python-Compiler und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15200,7 +15200,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-Python-Compiler?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-Python-Compiler verwenden?",
@@ -15223,7 +15223,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-javascript-compiler": {
       "heroIntro": "Führen Sie moderne ES6+-JavaScript-Codefragmente in der Browserumgebung aus.",
-      "intro": "Führen Sie moderne ES6+-JavaScript-Codefragmente in der Browserumgebung aus. Verwenden Sie es beispielsweise zum Testen von JavaScript-Funktionen. Es kann Ihnen auch dabei helfen, moderne Syntax zu üben. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Führen Sie moderne ES6+-JavaScript-Codefragmente in der Browserumgebung aus. Verwenden Sie es beispielsweise zum Testen von JavaScript-Funktionen. Es kann Ihnen auch dabei helfen, moderne Syntax zu üben. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-JavaScript-Compiler und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15260,7 +15260,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-JavaScript-Compiler?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-JavaScript-Compiler verwenden?",
@@ -15276,14 +15276,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Kann ich modernes JavaScript ausführen?",
-          "a": "Der Compiler ist für moderne JavaScript-Syntax vorgesehen, die von seiner konfigurierten Laufzeit unterstützt wird. Für reine Browser-APIs ist möglicherweise stattdessen der HTML-Editor-Workflow erforderlich."
+          "a": "Der Compiler ist für moderne JavaScript-Syntax gedacht, die von seiner konfigurierten Laufzeit unterstützt wird. Für reine Browser-APIs ist möglicherweise stattdessen der HTML-Editor-Workflow erforderlich."
         }
       ],
       "visual": "code"
     },
     "online-html-editor": {
       "heroIntro": "Interaktiver Live-HTML-, CSS- und JavaScript-Editor mit DOM-Vorschau auf geteiltem Bildschirm.",
-      "intro": "Interaktiver Live-HTML-, CSS- und JavaScript-Editor mit DOM-Vorschau auf geteiltem Bildschirm. Verwenden Sie es beispielsweise, um einen Prototyp einer Landingpage-Komponente zu erstellen. Es kann Ihnen auch dabei helfen, CSS-Layoutänderungen zu testen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Interaktiver Live-HTML-, CSS- und JavaScript-Editor mit DOM-Vorschau auf geteiltem Bildschirm. Verwenden Sie es beispielsweise zum Prototypen einer Landingpage-Komponente. Es kann Ihnen auch dabei helfen, CSS-Layoutänderungen zu testen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-HTML-Editor und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15320,7 +15320,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-HTML-Editor?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-HTML-Editor verwenden?",
@@ -15343,7 +15343,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-cpp-compiler": {
       "heroIntro": "Kompilieren und testen Sie C++-Programme online im Browserspeicher mit sofortigen Konsolenprotokollen.",
-      "intro": "Kompilieren und testen Sie C++-Programme online im Browserspeicher mit sofortigen Konsolenprotokollen. Verwenden Sie es beispielsweise zum Üben der C++-Syntax und STL-Beispiele. Es kann Ihnen auch dabei helfen, Algorithmen mit kleinen Eingaben zu testen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Kompilieren und testen Sie C++-Programme online im Browserspeicher mit sofortigen Konsolenprotokollen. Verwenden Sie es beispielsweise zum Üben der C++-Syntax und STL-Beispiele. Es kann Ihnen auch dabei helfen, Algorithmen mit kleinen Eingaben zu testen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-C++-Compiler und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15380,7 +15380,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-C++-Compiler?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-C++-Compiler verwenden?",
@@ -15395,7 +15395,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
-          "q": "Ist ein Online-C++-Compiler für die Vorstellungsgesprächspraxis geeignet?",
+          "q": "Eignet sich ein Online-C++-Compiler für die Vorstellungsgesprächspraxis?",
           "a": "Dies kann für kurze Codierungsübungen und das Üben von Algorithmen nützlich sein, während die genaue Compilerversion und -umgebung überprüft werden sollte, wenn eine Aufgabe von einem bestimmten Standard abhängt."
         }
       ],
@@ -15403,7 +15403,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-java-compiler": {
       "heroIntro": "Schreiben, debuggen und führen Sie Standard-Java-Codefragmente direkt in Ihrem Webbrowser aus.",
-      "intro": "Schreiben, debuggen und führen Sie Standard-Java-Codefragmente direkt in Ihrem Webbrowser aus. Verwenden Sie es beispielsweise zum Üben der Java-Syntax und -Sammlungen. Es kann Ihnen auch dabei helfen, einen kleinen Algorithmus auszuführen und seine Ausgabe zu überprüfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Schreiben, debuggen und führen Sie Standard-Java-Codefragmente direkt in Ihrem Webbrowser aus. Verwenden Sie es beispielsweise zum Üben der Java-Syntax und -Sammlungen. Es kann Ihnen auch dabei helfen, einen kleinen Algorithmus auszuführen und seine Ausgabe zu überprüfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-Java-Compiler und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15440,7 +15440,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-Java-Compiler?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-Java-Compiler verwenden?",
@@ -15463,7 +15463,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-csharp-compiler": {
       "heroIntro": "Führen Sie C#-Codeskripte in der Client-Sandbox mit sofortiger Standardausgabeanzeige aus.",
-      "intro": "Führen Sie C#-Codeskripte in der Client-Sandbox mit sofortiger Standardausgabeanzeige aus. Verwenden Sie es beispielsweise, um C#-Sprachfunktionen zu üben. Es kann Ihnen auch dabei helfen, ein kleines LINQ- oder Sammlungsbeispiel auszuführen und die Ausgabe zu überprüfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Führen Sie C#-Codeskripte in der Client-Sandbox mit sofortiger Standardausgabeanzeige aus. Verwenden Sie es beispielsweise, um C#-Sprachfunktionen zu üben. Es kann Ihnen auch dabei helfen, ein kleines LINQ- oder Sammlungsbeispiel auszuführen und die Ausgabe zu überprüfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-C#-Compiler und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15500,7 +15500,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-C#-Compiler?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-C#-Compiler verwenden?",
@@ -15523,7 +15523,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-php-runner": {
       "heroIntro": "Testen Sie die PHP-Codesyntax und -Algorithmen direkt im Browserspeicher.",
-      "intro": "Testen Sie die PHP-Codesyntax und -Algorithmen direkt im Browserspeicher. Verwenden Sie es beispielsweise, um die PHP-Syntax mit einem kleinen, reproduzierbaren Codeausschnitt zu überprüfen. Es kann Ihnen auch beim Üben von Funktionen und Arrays helfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Testen Sie die PHP-Codesyntax und -Algorithmen direkt im Browserspeicher. Verwenden Sie es beispielsweise, um die PHP-Syntax mit einem kleinen, reproduzierbaren Codeausschnitt zu überprüfen. Es kann Ihnen auch beim Üben von Funktionen und Arrays helfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-PHP-Compiler und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15560,7 +15560,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-PHP-Compiler?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-PHP-Compiler verwenden?",
@@ -15583,7 +15583,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-sql-runner": {
       "heroIntro": "Führen Sie SQL-Abfragen aus, testen Sie Datenbanktabellen und überprüfen Sie relationale Befehle.",
-      "intro": "Führen Sie SQL-Abfragen aus, testen Sie Datenbanktabellen und überprüfen Sie relationale Befehle. Verwenden Sie es beispielsweise, um eine kleine Tabelle zu erstellen und SELECT-Abfragen zu testen. Es kann Ihnen auch beim Üben von Verknüpfungen und Filtern helfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Führen Sie SQL-Abfragen aus, testen Sie Datenbanktabellen und überprüfen Sie relationale Befehle. Verwenden Sie es beispielsweise, um eine kleine Tabelle zu erstellen und SELECT-Abfragen zu testen. Es kann Ihnen auch beim Üben von Verknüpfungen und Filtern helfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Codierungsarbeitsbereich eignet sich zum Lernen, Debuggen, für Syntaxprüfungen und für kleine reproduzierbare Beispiele. Das Ausführungsmodell variiert je nach Sprache, daher sollte es als Entwicklungs-Sandbox und nicht als Produktionsumgebung behandelt werden.",
       "steps": [
         "Öffnen Sie Online-SQL-Editor und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15604,7 +15604,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Beginnen Sie mit einem kleinen reproduzierbaren Beispiel.",
         "Lesen Sie den ersten Compiler- oder Laufzeitfehler sorgfältig durch.",
         "Fügen Sie niemals API-Schlüssel, Passwörter, private Token oder Produktionsanmeldeinformationen ein.",
-        "Vermeiden Sie Folgendes: Verwendung von Produktionsanmeldeinformationen oder -daten.",
+        "Vermeiden Sie: Verwendung von Produktionsanmeldeinformationen oder -daten.",
         "Vermeiden: Angenommen, jeder Datenbankanbieter verwendet die gleiche SQL-Syntax.",
         "Vermeiden Sie: Transaktions- oder Schemaannahmen vergessen."
       ],
@@ -15620,7 +15620,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Online-SQL-Editor?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Online-SQL-Editor verwenden?",
@@ -15643,7 +15643,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "json-formatter-validator": {
       "heroIntro": "Verschönern, formatieren, validieren und minimieren Sie unübersichtliche JSON-Datenzeichenfolgen mit Syntaxhervorhebung.",
-      "intro": "Verschönern, formatieren, validieren und minimieren Sie unübersichtliche JSON-Datenzeichenfolgen mit Syntaxhervorhebung. Verwenden Sie es beispielsweise, um eine API-Antwort hübsch zu drucken. Es kann Ihnen auch dabei helfen, JSON zu validieren, bevor Sie eine Konfigurationsdatei festschreiben. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Verschönern, formatieren, validieren und minimieren Sie unübersichtliche JSON-Datenzeichenfolgen mit Syntaxhervorhebung. Verwenden Sie es beispielsweise, um eine API-Antwort hübsch zu drucken. Es kann Ihnen auch dabei helfen, JSON zu validieren, bevor Sie eine Konfigurationsdatei festschreiben. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie JSON-Formatter und Validator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15680,7 +15680,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert JSON-Formatter und Validator?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich JSON-Formatter und Validator verwenden?",
@@ -15703,7 +15703,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "base64-encoder-decoder": {
       "heroIntro": "Kodieren und dekodieren Sie UTF-8-Klartext oder binäre Assets in und von Base64.",
-      "intro": "Kodieren und dekodieren Sie UTF-8-Klartext oder binäre Assets in und von Base64. Verwenden Sie es beispielsweise, um Text für ein Protokoll zu kodieren, das Base64 erfordert. Es kann Ihnen auch dabei helfen, eine Base64-Nutzlast während des Debuggens zu dekodieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Kodieren und dekodieren Sie UTF-8-Klartext oder binäre Assets in und von Base64. Verwenden Sie es beispielsweise, um Text für ein Protokoll zu kodieren, das Base64 erfordert. Es kann Ihnen auch dabei helfen, eine Base64-Nutzlast während des Debuggens zu dekodieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie Base64 kodieren und dekodieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15740,7 +15740,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Base64 kodieren und dekodieren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Base64 kodieren und dekodieren verwenden?",
@@ -15763,7 +15763,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "clean-url-slug-generator": {
       "heroIntro": "Konvertieren Sie Artikeltitel und Rohstrings in SEO-freundliche URL-Slugs.",
-      "intro": "Konvertieren Sie Artikeltitel und Rohstrings in SEO-freundliche URL-Slugs. Verwenden Sie es beispielsweise, um einen Artikeltitel in einen lesbaren URL-Pfad umzuwandeln. Es kann Ihnen auch dabei helfen, einen Produktnamen für einen Seiten-Slug zu normalisieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Artikeltitel und Rohstrings in SEO-freundliche URL-Slugs. Verwenden Sie es beispielsweise, um einen Artikeltitel in einen lesbaren URL-Pfad umzuwandeln. Es kann Ihnen auch dabei helfen, einen Produktnamen für einen Seiten-Slug zu normalisieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie URL Slug-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15800,7 +15800,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert URL Slug-Generator?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich URL Slug-Generator verwenden?",
@@ -15823,7 +15823,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "html-entity-encoder": {
       "heroIntro": "Konvertieren Sie Sonderzeichen und reservierte Zeichen in die entsprechenden HTML-Entitäten.",
-      "intro": "Konvertieren Sie Sonderzeichen und reservierte Zeichen in die entsprechenden HTML-Entitäten. Verwenden Sie es beispielsweise, um reservierte HTML-Zeichen zu kodieren. Es kann Ihnen auch dabei helfen, Text mit kaufmännischen Und-Zeichen oder spitzen Klammern für das Markup vorzubereiten. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Sonderzeichen und reservierte Zeichen in die entsprechenden HTML-Entitäten. Verwenden Sie es beispielsweise, um reservierte HTML-Zeichen zu kodieren. Es kann Ihnen auch dabei helfen, Text mit kaufmännischen Und-Zeichen oder spitzen Klammern für das Markup vorzubereiten. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie HTML Entity Encoder und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15860,7 +15860,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert HTML Entity Encoder?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich HTML Entity Encoder verwenden?",
@@ -15883,7 +15883,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "css-minifier-cleaner": {
       "heroIntro": "Komprimieren Sie Stylesheet-Regeln, indem Sie Leerzeichen und Kommentare entfernen.",
-      "intro": "Komprimieren Sie Stylesheet-Regeln, indem Sie Leerzeichen und Kommentare entfernen. Verwenden Sie es beispielsweise, um die Größe der Stylesheet-Übertragung zu reduzieren. Es kann Ihnen auch dabei helfen, generiertes CSS für die Bereitstellung zu bereinigen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Komprimieren Sie Stylesheet-Regeln, indem Sie Leerzeichen und Kommentare entfernen. Verwenden Sie es beispielsweise, um die Größe der Stylesheet-Übertragung zu reduzieren. Es kann Ihnen auch dabei helfen, generiertes CSS für die Bereitstellung zu bereinigen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie CSS Minifier und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15920,7 +15920,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert CSS Minifier?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich CSS Minifier verwenden?",
@@ -15943,7 +15943,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "unix-timestamp-converter": {
       "heroIntro": "Konvertieren Sie Epochenzeitstempel in für Menschen lesbare Daten und zurück.",
-      "intro": "Konvertieren Sie Epochenzeitstempel in für Menschen lesbare Daten und zurück. Verwenden Sie es beispielsweise, um einen API-Zeitstempel in ein lesbares Datum umzuwandeln. Es kann Ihnen auch dabei helfen, einen Epochenwert für einen Testfall zu generieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Epochenzeitstempel in für Menschen lesbare Daten und zurück. Verwenden Sie es beispielsweise, um einen API-Zeitstempel in ein lesbares Datum umzuwandeln. Es kann Ihnen auch dabei helfen, einen Epochenwert für einen Testfall zu generieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie Unix Timestamp-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -15980,7 +15980,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Unix Timestamp-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Unix Timestamp-Umrechner verwenden?",
@@ -16003,7 +16003,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "hex-to-rgb-hsl-converter": {
       "heroIntro": "Konvertieren Sie HEX-Farbcodes in die Formate CSS RGB, RGBA und HSL.",
-      "intro": "Konvertieren Sie HEX-Farbcodes in die Formate CSS RGB, RGBA und HSL. Verwenden Sie es beispielsweise, um eine Design-HEX-Farbe in CSS-RGB zu konvertieren. Es kann Ihnen auch dabei helfen, einen RGBA-Wert mit Transparenz zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie HEX-Farbcodes in die Formate CSS RGB, RGBA und HSL. Verwenden Sie es beispielsweise, um eine Design-HEX-Farbe in CSS-RGB zu konvertieren. Es kann Ihnen auch dabei helfen, einen RGBA-Wert mit Transparenz zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie HEX-zu-RGB-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16040,7 +16040,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert HEX-zu-RGB-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich HEX-zu-RGB-Konverter verwenden?",
@@ -16062,8 +16062,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "url-component-encoder-decoder": {
-      "heroIntro": "URL-Abfragezeichenfolgen und URI-Parameter sicher kodieren oder dekodieren.",
-      "intro": "URL-Abfragezeichenfolgen und URI-Parameter sicher kodieren oder dekodieren. Verwenden Sie es beispielsweise, um einen Abfrageparameter sicher zu kodieren. Es kann Ihnen auch dabei helfen, prozentual codierten Text während des Debuggens zu dekodieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "heroIntro": "Verschlüsseln oder dekodieren Sie URL-Abfragezeichenfolgen und URI-Parameter sicher.",
+      "intro": "Verschlüsseln oder dekodieren Sie URL-Abfragezeichenfolgen und URI-Parameter sicher. Verwenden Sie es beispielsweise, um einen Abfrageparameter sicher zu kodieren. Es kann Ihnen auch dabei helfen, prozentual codierten Text während des Debuggens zu dekodieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie URL kodieren und dekodieren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16096,11 +16096,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird URL kodieren und dekodieren verwendet?",
-          "a": "URL-Abfragezeichenfolgen und URI-Parameter sicher kodieren oder dekodieren. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Verschlüsseln oder dekodieren Sie URL-Abfragezeichenfolgen und URI-Parameter sicher. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert URL kodieren und dekodieren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich URL kodieren und dekodieren verwenden?",
@@ -16123,7 +16123,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "jwt-token-inspector": {
       "heroIntro": "Dekodieren Sie JSON-Web-Tokens und zeigen Sie Payload-Ansprüche lokal an.",
-      "intro": "Dekodieren Sie JSON-Web-Tokens und zeigen Sie Payload-Ansprüche lokal an. Verwenden Sie es beispielsweise, um Ansprüche in einem Entwicklungs-JWT zu überprüfen. Es kann Ihnen auch dabei helfen, ein Token während des API-Debuggings zu dekodieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Dekodieren Sie JSON-Web-Tokens und zeigen Sie Payload-Ansprüche lokal an. Verwenden Sie es beispielsweise, um Ansprüche in einem Entwicklungs-JWT zu überprüfen. Es kann Ihnen auch dabei helfen, ein Token während des API-Debuggings zu dekodieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie JWT Decoder und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16160,7 +16160,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert JWT Decoder?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich JWT Decoder verwenden?",
@@ -16175,7 +16175,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Vergleichen Sie die Ausgabe mit der ursprünglichen Eingabe, bestätigen Sie, dass die beabsichtigte Transformation stattgefunden hat, und überprüfen Sie wichtige Details, bevor Sie das Ergebnis veröffentlichen, übermitteln, senden oder in einem Produktionsworkflow verwenden."
         },
         {
-          "q": "Verifiziert ein JWT-Decoder eine Token-Signatur?",
+          "q": "Verifiziert ein JWT-Decoder eine Tokensignatur?",
           "a": "Durch die Dekodierung eines JWT werden sein codierter Header und seine Nutzdaten angezeigt. Es allein beweist nicht, dass das Token authentisch ist. Für die Signaturüberprüfung sind entsprechende Schlüssel- und Validierungsregeln erforderlich."
         }
       ],
@@ -16183,7 +16183,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "uuid-guid-v4-generator": {
       "heroIntro": "Generieren Sie zufällige UUID v4-Identifikatoren in großen Mengen für Entwicklung und Tests.",
-      "intro": "Generieren Sie zufällige UUID v4-Identifikatoren in großen Mengen für Entwicklung und Tests. Verwenden Sie es beispielsweise, um IDs für Datenbanktestdaten zu generieren. Es kann Ihnen auch dabei helfen, eindeutige Kennungen für Entwicklungsvorrichtungen zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Generieren Sie zufällige UUID v4-Identifikatoren in großen Mengen für Entwicklung und Tests. Verwenden Sie es beispielsweise, um IDs für Datenbanktestdaten zu generieren. Es kann Ihnen auch dabei helfen, eindeutige Kennungen für Entwicklungsvorrichtungen zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie UUID-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16220,7 +16220,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert UUID-Generator?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich UUID-Generator verwenden?",
@@ -16243,7 +16243,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "strong-password-generator": {
       "heroIntro": "Generieren Sie anpassbare, zufällige Passwörter mit hoher Entropie.",
-      "intro": "Generieren Sie anpassbare, zufällige Passwörter mit hoher Entropie. Verwenden Sie es beispielsweise, um ein zufälliges Passwort für ein neues Konto zu erstellen. Es kann Ihnen auch dabei helfen, separate Anmeldeinformationen für Testumgebungen zu generieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Generieren Sie anpassbare, zufällige Passwörter mit hoher Entropie. Verwenden Sie es beispielsweise, um ein zufälliges Passwort für ein neues Konto zu erstellen. Es kann Ihnen auch dabei helfen, separate Anmeldeinformationen für Testumgebungen zu generieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie Passwort-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16280,7 +16280,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Passwort-Generator?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Passwort-Generator verwenden?",
@@ -16303,7 +16303,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "user-agent-string-parser": {
       "heroIntro": "Analysieren Sie Benutzeragentenzeichenfolgen, um gemeldete Browser-, Rendering-Engine-, Betriebssystem- und Gerätedetails zu identifizieren.",
-      "intro": "Analysieren Sie Benutzeragentenzeichenfolgen, um gemeldete Browser-, Rendering-Engine-, Betriebssystem- und Gerätedetails zu identifizieren. Verwenden Sie es beispielsweise, um einen Browser-Benutzeragenten während des Debuggens zu überprüfen. Es kann Ihnen auch dabei helfen, gemeldete Betriebssystem- und Browser-Tokens zu verstehen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Analysieren Sie Benutzeragentenzeichenfolgen, um gemeldete Browser-, Rendering-Engine-, Betriebssystem- und Gerätedetails zu identifizieren. Verwenden Sie es beispielsweise, um einen Browser-Benutzeragenten während des Debuggens zu überprüfen. Es kann Ihnen auch dabei helfen, gemeldete Betriebssystem- und Browser-Tokens zu verstehen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Entwicklerdienstprogramm zielt auf einen wiederholbaren Arbeitsablauf ab, der häufig bei der API-Arbeit, beim Debuggen, bei der Frontend- oder Backend-Entwicklung, beim Testen und bei der Datenvorbereitung auftritt.",
       "steps": [
         "Öffnen Sie User-Agent-Parser und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16340,7 +16340,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert User-Agent-Parser?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich User-Agent-Parser verwenden?",
@@ -16363,7 +16363,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "word-character-counter": {
       "heroIntro": "Zählen Sie Wörter, Zeichen, Sätze, Absätze und Lesedauer in Echtzeit.",
-      "intro": "Zählen Sie Wörter, Zeichen, Sätze, Absätze und Lesedauer in Echtzeit. Verwenden Sie es beispielsweise, um die Länge eines Aufsatzes oder einer Hausaufgabe zu überprüfen. Es kann Ihnen auch dabei helfen, den Text anhand einer Zeichenbeschränkung zu messen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Zählen Sie Wörter, Zeichen, Sätze, Absätze und Lesedauer in Echtzeit. Verwenden Sie es beispielsweise, um die Länge eines Aufsatzes oder einer Hausaufgabe zu überprüfen. Es kann Ihnen auch dabei helfen, den Text anhand einer Zeichenbeschränkung zu messen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Wörterzähler und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16386,7 +16386,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Lesen Sie die Veröffentlichungsausgabe Korrektur, anstatt sich nur auf die Automatisierung zu verlassen.",
         "Vermeiden: Angenommen, jede Plattform zählt Wörter gleich.",
         "Vermeiden: Ignorieren von Leerzeichen oder Unicode-Verhalten.",
-        "Vermeiden: Verwendung einer Zeichenanzahl, bei der eine Bytebegrenzung erforderlich ist."
+        "Vermeiden: Verwendung einer Zeichenanzahl, bei der eine Byte-Grenze erforderlich ist."
       ],
       "limitations": [
         "Sehr große Eingaben können durch den Browserspeicher eingeschränkt werden.",
@@ -16400,7 +16400,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Wörterzähler?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Wörterzähler verwenden?",
@@ -16423,7 +16423,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "text-case-converter": {
       "heroIntro": "Wandeln Sie Text sofort in GROSSBUCHSTABEN, Kleinbuchstaben, Titelbuchstaben und Kamelbuchstaben um.",
-      "intro": "Wandeln Sie Text sofort in GROSSBUCHSTABEN, Kleinbuchstaben, Titelbuchstaben und Kamelbuchstaben um. Verwenden Sie es beispielsweise, um Überschriften in die Groß-/Kleinschreibung von Titeln umzuwandeln. Es kann Ihnen auch dabei helfen, importierten Text in Kleinbuchstaben zu normalisieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Wandeln Sie Text sofort in GROSSBUCHSTABEN, Kleinbuchstaben, Titelbuchstaben und Kamelbuchstaben um. Verwenden Sie es beispielsweise, um Überschriften in die Groß-/Kleinschreibung von Titeln umzuwandeln. Es kann Ihnen auch dabei helfen, importierten Text in Kleinbuchstaben zu normalisieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Text-Groß-/Kleinschreibungs-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16445,7 +16445,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Überprüfen Sie Leerzeichen, Satzzeichen, Unicode-Zeichen und Zeilenenden.",
         "Lesen Sie die Veröffentlichungsausgabe Korrektur, anstatt sich nur auf die Automatisierung zu verlassen.",
         "Vermeiden: Ändern der Groß-/Kleinschreibung im Code oder bei Bezeichnern, bei denen die Groß-/Kleinschreibung beachtet wird.",
-        "Vermeiden: Erwarten Sie eine perfekte sprachbewusste Groß- und Kleinschreibung.",
+        "Vermeiden: Erwarten Sie eine perfekte sprachbewusste Großschreibung.",
         "Vermeiden Sie: Eine Transformation anwenden, ohne das Original beizubehalten."
       ],
       "limitations": [
@@ -16460,7 +16460,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Text-Groß-/Kleinschreibungs-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Text-Groß-/Kleinschreibungs-Konverter verwenden?",
@@ -16483,7 +16483,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "remove-duplicate-lines": {
       "heroIntro": "Bereinigen Sie Listen und Datenarrays, indem Sie sich wiederholende Textzeilen sofort entfernen.",
-      "intro": "Bereinigen Sie Listen und Datenarrays, indem Sie sich wiederholende Textzeilen sofort entfernen. Verwenden Sie es beispielsweise, um eine Liste mit E-Mails oder IDs zu bereinigen. Es kann Ihnen auch dabei helfen, importierte Textdaten zu deduplizieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Bereinigen Sie Listen und Datenarrays, indem Sie sich wiederholende Textzeilen sofort entfernen. Verwenden Sie es beispielsweise, um eine Liste mit E-Mails oder IDs zu bereinigen. Es kann Ihnen auch dabei helfen, importierte Textdaten zu deduplizieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Doppelte Zeilen entfernen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16492,7 +16492,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
       ],
       "useCases": [
-        "Schnelle, einmalige Aufgaben zum Entfernen doppelter Zeilen, ohne ein separates Dienstprogramm installieren zu müssen.",
+        "Schnelle, einmalige Entfernung doppelter Zeilen, ohne ein separates Dienstprogramm installieren zu müssen.",
         "Wiederholbare Vorbereitungsarbeiten für Dokumente, Medien, Text, Code, Daten oder Ersteller-Workflows.",
         "Überprüfung eines Zwischenergebnisses während eines größeren Projekts.",
         "Vorbereiten einer Ausgabe für eine andere Anwendung oder einen anderen Workflow.",
@@ -16520,7 +16520,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Doppelte Zeilen entfernen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Doppelte Zeilen entfernen verwenden?",
@@ -16543,7 +16543,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "lorem-ipsum-generator": {
       "heroIntro": "Generieren Sie anpassbare Platzhaltertextabsätze und -sätze für Modelle.",
-      "intro": "Generieren Sie anpassbare Platzhaltertextabsätze und -sätze für Modelle. Verwenden Sie es beispielsweise, um ein UI-Mockup mit realistischen Textblöcken zu füllen. Es kann Ihnen auch dabei helfen, Typografie und responsive Layouts zu testen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Generieren Sie anpassbare Platzhaltertextabsätze und -sätze für Modelle. Verwenden Sie es beispielsweise, um ein UI-Mockup mit realistischen Textblöcken zu füllen. Es kann Ihnen auch dabei helfen, Typografie und responsive Layouts zu testen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Lorem-Ipsum-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16564,7 +16564,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Bewahren Sie den Quelltext vor destruktiven Transformationen auf.",
         "Überprüfen Sie Leerzeichen, Satzzeichen, Unicode-Zeichen und Zeilenenden.",
         "Lesen Sie die Veröffentlichungsausgabe Korrektur, anstatt sich nur auf die Automatisierung zu verlassen.",
-        "Vermeiden: Versehentliches Veröffentlichen von Platzhaltertext.",
+        "Vermeiden Sie: versehentliches Veröffentlichen von Platzhaltertext.",
         "Vermeiden: Platzhalterkopie zum Testen der Semantik verwenden.",
         "Vermeiden Sie: Vergessen Sie, es vor dem Start auszutauschen."
       ],
@@ -16580,7 +16580,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Lorem-Ipsum-Generator?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Lorem-Ipsum-Generator verwenden?",
@@ -16603,7 +16603,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "markdown-to-html-converter": {
       "heroIntro": "Schreiben Sie Markdown-Syntax und zeigen Sie in Echtzeit eine Vorschau der bereinigten HTML-Ausgabe an.",
-      "intro": "Schreiben Sie Markdown-Syntax und zeigen Sie in Echtzeit eine Vorschau der bereinigten HTML-Ausgabe an. Verwenden Sie es beispielsweise, um eine Vorschau von Markdown als HTML anzuzeigen. Es kann Ihnen auch bei der Vorbereitung des Dokumentations-Markups helfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Schreiben Sie Markdown-Syntax und zeigen Sie in Echtzeit eine Vorschau der bereinigten HTML-Ausgabe an. Verwenden Sie es beispielsweise, um eine Vorschau von Markdown als HTML anzuzeigen. Es kann Ihnen auch bei der Vorbereitung des Dokumentations-Markups helfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Markdown-zu-HTML-Konverter und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16640,7 +16640,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Markdown-zu-HTML-Konverter?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Markdown-zu-HTML-Konverter verwenden?",
@@ -16663,7 +16663,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "reverse-text-mirror-tool": {
       "heroIntro": "Kehren Sie Zeichenfolgenzeichen oder Wortreihenfolge mit umgekehrten Texteffekten um.",
-      "intro": "Kehren Sie Zeichenfolgenzeichen oder Wortreihenfolge mit umgekehrten Texteffekten um. Verwenden Sie es beispielsweise, um eine Zeichenfolge zum Testen umzukehren. Es kann Ihnen auch dabei helfen, die Wortreihenfolge in einem Textexperiment umzukehren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Kehren Sie Zeichenfolgenzeichen oder Wortreihenfolge mit umgekehrten Texteffekten um. Verwenden Sie es beispielsweise, um eine Zeichenfolge zum Testen umzukehren. Es kann Ihnen auch dabei helfen, die Wortreihenfolge in einem Textexperiment umzukehren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Text umkehren und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16700,7 +16700,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Text umkehren?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Text umkehren verwenden?",
@@ -16723,7 +16723,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "text-diff-checker": {
       "heroIntro": "Vergleichen Sie zwei Textblöcke nebeneinander, um hinzugefügten und entfernten Text hervorzuheben.",
-      "intro": "Vergleichen Sie zwei Textblöcke nebeneinander, um hinzugefügten und entfernten Text hervorzuheben. Nutzen Sie es beispielsweise, um zwei Dokumentversionen zu vergleichen. Es kann Ihnen auch dabei helfen, eine Code- oder Konfigurationsänderung zu überprüfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Vergleichen Sie zwei Textblöcke nebeneinander, um hinzugefügten und entfernten Text hervorzuheben. Nutzen Sie es beispielsweise, um zwei Dokumentversionen zu vergleichen. Es kann Ihnen auch dabei helfen, eine Code- oder Konfigurationsänderung zu überprüfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Text-Diff-Prüfer und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16760,7 +16760,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Text-Diff-Prüfer?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Text-Diff-Prüfer verwenden?",
@@ -16783,7 +16783,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "alphabetical-line-sorter": {
       "heroIntro": "Sortieren Sie Listen und Zeilen alphabetisch (A-Z, Z-A) oder nach Zeichenfolgenlänge.",
-      "intro": "Sortieren Sie Listen und Zeilen alphabetisch (A-Z, Z-A) oder nach Zeichenfolgenlänge. Verwenden Sie es beispielsweise, um eine Liste mit Namen zu sortieren. Es kann Ihnen auch dabei helfen, Textzeilen für eine Datenbereinigungsaufgabe zu bestellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Sortieren Sie Listen und Zeilen alphabetisch (A-Z, Z-A) oder nach Zeichenfolgenlänge. Verwenden Sie es beispielsweise, um eine Liste mit Namen zu sortieren. Es kann Ihnen auch dabei helfen, Textzeilen für eine Datenbereinigungsaufgabe zu bestellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Alphabetische Sortierung und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16820,7 +16820,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Alphabetische Sortierung?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Alphabetische Sortierung verwenden?",
@@ -16843,7 +16843,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "strip-html-tags": {
       "heroIntro": "Bereinigen Sie rohen HTML-Quellcode bis hin zu klar lesbaren Textzeichenfolgen.",
-      "intro": "Bereinigen Sie rohen HTML-Quellcode bis hin zu klar lesbaren Textzeichenfolgen. Verwenden Sie es beispielsweise, um lesbaren Text aus HTML-Schnipseln zu extrahieren. Es kann Ihnen auch dabei helfen, aus einer Webquelle kopiertes Markup zu bereinigen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Bereinigen Sie rohen HTML-Quellcode bis hin zu klar lesbaren Textzeichenfolgen. Verwenden Sie es beispielsweise, um lesbaren Text aus HTML-Schnipseln zu extrahieren. Es kann Ihnen auch dabei helfen, aus einer Webquelle kopiertes Markup zu bereinigen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie HTML-Tags entfernen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16880,7 +16880,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert HTML-Tags entfernen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich HTML-Tags entfernen verwenden?",
@@ -16903,7 +16903,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "find-replace-text": {
       "heroIntro": "Suchen und ersetzen Sie Wörter oder Muster in Langtextdokumenten.",
-      "intro": "Suchen und ersetzen Sie Wörter oder Muster in Langtextdokumenten. Verwenden Sie es beispielsweise, um wiederholte Begriffe in einem Dokument umzubenennen. Es kann Ihnen auch dabei helfen, einen konsistenten Tippfehler in einem langen Text zu korrigieren. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Suchen und ersetzen Sie Wörter oder Muster in Langtextdokumenten. Verwenden Sie es beispielsweise, um wiederholte Begriffe in einem Dokument umzubenennen. Es kann Ihnen auch helfen, einen konsistenten Tippfehler in einem langen Text zu korrigieren. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieses Textdienstprogramm ist für sich wiederholende Bereinigungs-, Vergleichs-, Transformations- oder Generierungsaufgaben gedacht, bei denen die manuelle Bearbeitung langsamer oder fehleranfälliger ist.",
       "steps": [
         "Öffnen Sie Suchen und Ersetzen und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16940,7 +16940,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Suchen und Ersetzen?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Suchen und Ersetzen verwenden?",
@@ -16963,7 +16963,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "unit-length-converter": {
       "heroIntro": "Konvertieren Sie zwischen Metern, Kilometern, Meilen, Fuß, Zoll und Yards.",
-      "intro": "Konvertieren Sie zwischen Metern, Kilometern, Meilen, Fuß, Zoll und Yards. Verwenden Sie es beispielsweise, um Kilometer für Reisen in Meilen umzurechnen. Es kann Ihnen auch dabei helfen, Fuß und Zoll in Maßeinheiten umzurechnen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie zwischen Metern, Kilometern, Meilen, Fuß, Zoll und Yards. Verwenden Sie es beispielsweise, um Kilometer für Reisen in Meilen umzurechnen. Es kann Ihnen auch dabei helfen, Fuß und Zoll in Maßeinheiten umzurechnen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Länge-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -16972,7 +16972,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
       ],
       "useCases": [
-        "Schnelle einmalige Längenkonvertierungsaufgaben ohne Installation eines separaten Dienstprogramms.",
+        "Schnelle, einmalige Längenkonvertierungsaufgaben ohne Installation eines separaten Dienstprogramms.",
         "Wiederholbare Vorbereitungsarbeiten für Dokumente, Medien, Text, Code, Daten oder Ersteller-Workflows.",
         "Überprüfung eines Zwischenergebnisses während eines größeren Projekts.",
         "Vorbereiten einer Ausgabe für eine andere Anwendung oder einen anderen Workflow.",
@@ -17000,7 +17000,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Länge-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Länge-Umrechner verwenden?",
@@ -17023,7 +17023,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "weight-mass-converter": {
       "heroIntro": "Konvertieren Sie Kilogramm, Gramm, Pfund (lbs), Unzen und metrische Tonnen.",
-      "intro": "Konvertieren Sie Kilogramm, Gramm, Pfund (lbs), Unzen und metrische Tonnen. Verwenden Sie es beispielsweise, um Kilogramm in Pfund umzurechnen. Es kann Ihnen auch dabei helfen, für Rezepte Gramm in Unzen umzurechnen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Kilogramm, Gramm, Pfund (lbs), Unzen und metrische Tonnen. Verwenden Sie es beispielsweise, um Kilogramm in Pfund umzurechnen. Es kann Ihnen auch dabei helfen, für Rezepte Gramm in Unzen umzurechnen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Gewicht-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17060,7 +17060,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Gewicht-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Gewicht-Umrechner verwenden?",
@@ -17083,7 +17083,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "temperature-converter": {
       "heroIntro": "Konvertieren Sie sofort zwischen Celsius (°C), Fahrenheit (°F) und Kelvin (K).",
-      "intro": "Konvertieren Sie sofort zwischen Celsius (°C), Fahrenheit (°F) und Kelvin (K). Verwenden Sie es beispielsweise, um für das Wetter Celsius in Fahrenheit umzurechnen. Es kann Ihnen auch dabei helfen, Fahrenheit zum Kochen in Celsius umzurechnen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie sofort zwischen Celsius (°C), Fahrenheit (°F) und Kelvin (K). Verwenden Sie es beispielsweise, um für das Wetter Celsius in Fahrenheit umzurechnen. Es kann Ihnen auch dabei helfen, Fahrenheit zum Kochen in Celsius umzurechnen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Temperatur-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17120,7 +17120,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Temperatur-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Temperatur-Umrechner verwenden?",
@@ -17143,7 +17143,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "data-size-converter": {
       "heroIntro": "Berechnen Sie digitale Binär- und Dezimalbytes (KB, MB, GB, TB, PB).",
-      "intro": "Berechnen Sie digitale Binär- und Dezimalbytes (KB, MB, GB, TB, PB). Verwenden Sie es beispielsweise, um für die Speicherplanung MB in GB umzuwandeln. Es kann Ihnen auch dabei helfen, Dateigrößen systemübergreifend zu vergleichen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Berechnen Sie digitale Binär- und Dezimalbytes (KB, MB, GB, TB, PB). Verwenden Sie es beispielsweise, um für die Speicherplanung MB in GB umzuwandeln. Es kann Ihnen auch dabei helfen, Dateigrößen systemübergreifend zu vergleichen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Datengröße-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17180,7 +17180,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Datengröße-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Datengröße-Umrechner verwenden?",
@@ -17203,7 +17203,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "speed-velocity-converter": {
       "heroIntro": "Konvertieren Sie km/h, mph, Meter pro Sekunde, Knoten und Mach-Geschwindigkeit.",
-      "intro": "Konvertieren Sie km/h, mph, Meter pro Sekunde, Knoten und Mach-Geschwindigkeit. Verwenden Sie es beispielsweise, um für die Fahrt km/h in mph umzurechnen. Es kann Ihnen auch dabei helfen, Knoten für Marine- oder Luftfahrtkontexte umzuwandeln. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie km/h, mph, Meter pro Sekunde, Knoten und Mach-Geschwindigkeit. Verwenden Sie es beispielsweise, um für die Fahrt km/h in mph umzurechnen. Es kann Ihnen auch dabei helfen, Knoten für Marine- oder Luftfahrtkontexte umzuwandeln. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Geschwindigkeit-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17240,7 +17240,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Geschwindigkeit-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Geschwindigkeit-Umrechner verwenden?",
@@ -17263,7 +17263,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "time-duration-converter": {
       "heroIntro": "Konvertieren Sie gängige Zeiteinheiten wie Sekunden, Minuten, Stunden, Tage, Wochen, Monate und Jahre.",
-      "intro": "Konvertieren Sie gängige Zeiteinheiten wie Sekunden, Minuten, Stunden, Tage, Wochen, Monate und Jahre. Verwenden Sie es beispielsweise, um Minuten in Stunden umzuwandeln. Es kann Ihnen auch dabei helfen, Tage für die Planung in Wochen umzuwandeln. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie gängige Zeiteinheiten wie Sekunden, Minuten, Stunden, Tage, Wochen, Monate und Jahre. Verwenden Sie es beispielsweise, um Minuten in Stunden umzuwandeln. Es kann Ihnen auch dabei helfen, Tage für die Planung in Wochen umzuwandeln. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Zeit-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17300,7 +17300,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Zeit-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Zeit-Umrechner verwenden?",
@@ -17323,7 +17323,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "area-land-converter": {
       "heroIntro": "Konvertieren Sie Gemeinschaftsflächeneinheiten, einschließlich Quadratfuß, Quadratmeter, Acres, Hektar und Bigha.",
-      "intro": "Konvertieren Sie Gemeinschaftsflächeneinheiten, einschließlich Quadratfuß, Quadratmeter, Acres, Hektar und Bigha. Verwenden Sie es beispielsweise, um Quadratfuß in Quadratmeter umzurechnen. Es kann Ihnen auch dabei helfen, Acres in Hektar umzurechnen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Gemeinschaftsflächeneinheiten, einschließlich Quadratfuß, Quadratmeter, Acres, Hektar und Bigha. Verwenden Sie es beispielsweise, um Quadratfuß in Quadratmeter umzurechnen. Es kann Ihnen auch dabei helfen, Acres in Hektar umzurechnen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Fläche-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17360,7 +17360,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Fläche-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Fläche-Umrechner verwenden?",
@@ -17383,7 +17383,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "pressure-unit-converter": {
       "heroIntro": "Konvertieren Sie Druckeinheiten einschließlich Pascal (Pa), Bar, PSI und Standardatmosphäre (atm).",
-      "intro": "Konvertieren Sie Druckeinheiten einschließlich Pascal (Pa), Bar, PSI und Standardatmosphäre (atm). Verwenden Sie es beispielsweise, um für Gerätespezifikationen PSI in Bar umzurechnen. Es kann Ihnen auch bei der Umrechnung von Pascal in kPa für technische Arbeiten helfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Druckeinheiten einschließlich Pascal (Pa), Bar, PSI und Standardatmosphäre (atm). Verwenden Sie es beispielsweise, um für Gerätespezifikationen PSI in Bar umzurechnen. Es kann Ihnen auch bei der Umrechnung von Pascal in kPa für technische Arbeiten helfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Druck-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17397,7 +17397,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Überprüfung eines Zwischenergebnisses während eines größeren Projekts.",
         "Vorbereiten einer Ausgabe für eine andere Anwendung oder einen anderen Workflow.",
         "Konvertieren Sie PSI in bar, um Gerätespezifikationen zu erhalten.",
-        "Konvertieren Sie Pascal für technische Arbeiten in kPa.",
+        "Konvertieren Sie Pascal in kPa für technische Arbeiten.",
         "Konvertieren Sie atmosphärische Druckeinheiten."
       ],
       "tips": [
@@ -17420,7 +17420,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Druck-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Druck-Umrechner verwenden?",
@@ -17443,7 +17443,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "energy-work-converter": {
       "heroIntro": "Konvertieren Sie Energieeinheiten wie Joule, Kilojoule, Kalorien, Kilokalorien und Kilowattstunden.",
-      "intro": "Konvertieren Sie Energieeinheiten wie Joule, Kilojoule, Kalorien, Kilokalorien und Kilowattstunden. Verwenden Sie es beispielsweise, um Joule in Kalorien umzurechnen. Es kann Ihnen auch dabei helfen, kWh für strombezogene Vergleiche umzurechnen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Konvertieren Sie Energieeinheiten wie Joule, Kilojoule, Kalorien, Kilokalorien und Kilowattstunden. Verwenden Sie es beispielsweise, um Joule in Kalorien umzurechnen. Es kann Ihnen auch dabei helfen, kWh für strombezogene Vergleiche umzurechnen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Energie-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17456,7 +17456,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Wiederholbare Vorbereitungsarbeiten für Dokumente, Medien, Text, Code, Daten oder Ersteller-Workflows.",
         "Überprüfung eines Zwischenergebnisses während eines größeren Projekts.",
         "Vorbereiten einer Ausgabe für eine andere Anwendung oder einen anderen Workflow.",
-        "Konvertieren Sie Joule in Kalorien.",
+        "Joule in Kalorien umrechnen.",
         "Konvertieren Sie kWh für strombezogene Vergleiche.",
         "Konvertieren Sie Energieeinheiten in Physikübungen."
       ],
@@ -17480,7 +17480,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Energie-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Energie-Umrechner verwenden?",
@@ -17502,8 +17502,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "converter"
     },
     "power-wattage-converter": {
-      "heroIntro": "Konvertieren Sie Watt, Kilowatt (kW), Megawatt und mechanische Pferdestärke.",
-      "intro": "Konvertieren Sie Watt, Kilowatt (kW), Megawatt und mechanische Pferdestärke. Verwenden Sie es beispielsweise, um Watt in Kilowatt umzurechnen. Es kann Ihnen auch dabei helfen, mechanische Leistung in Gerätespezifikationen umzuwandeln. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "heroIntro": "Konvertieren Sie Watt, Kilowatt (kW), Megawatt und mechanische Pferdestärken.",
+      "intro": "Konvertieren Sie Watt, Kilowatt (kW), Megawatt und mechanische Pferdestärken. Verwenden Sie es beispielsweise, um Watt in Kilowatt umzurechnen. Es kann Ihnen auch dabei helfen, mechanische Leistung in Gerätespezifikationen umzuwandeln. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Konvertierungsworkflow stellt eine direkte Beziehung zwischen definierten Einheiten her und ist nützlich für Studium, Reisen, Technik, Einkaufen, Wissenschaft, Fitness und Alltagsplanung.",
       "steps": [
         "Öffnen Sie Leistung-Umrechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -17524,9 +17524,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Bestätigen Sie Quell- und Zieleinheiten.",
         "Verwenden Sie signifikante Zahlen, die der Genauigkeit der Quelle entsprechen.",
         "Überprüfen Sie bei regulierten oder technischen Arbeiten die erforderliche Norm.",
-        "Vermeiden Sie: Macht mit Energie zu verwechseln.",
+        "Vermeiden Sie: Verwechseln Sie Kraft mit Energie.",
         "Vermeiden: PS-Definitionen verwenden, ohne die Konvention zu überprüfen.",
-        "Vermeiden: Anwenden einer nominalen Umrechnung auf ein sicherheitskritisches System ohne Überprüfung."
+        "Vermeiden Sie: Eine nominale Konvertierung ohne Überprüfung auf ein sicherheitskritisches System anwenden."
       ],
       "limitations": [
         "Die Genauigkeit hängt von den implementierten Einheitendefinitionen ab.",
@@ -17536,11 +17536,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Leistung-Umrechner verwendet?",
-          "a": "Konvertieren Sie Watt, Kilowatt (kW), Megawatt und mechanische Pferdestärke. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Konvertieren Sie Watt, Kilowatt (kW), Megawatt und mechanische Pferdestärken. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert Leistung-Umrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich Leistung-Umrechner verwenden?",
@@ -17556,7 +17556,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie hängen Watt und Kilowatt zusammen?",
-          "a": "Ein Kilowatt entspricht 1.000 Watt. Leistungswandler können die gleiche Leistung auch mit Einheiten wie mechanischer Pferdestärke ausdrücken."
+          "a": "Ein Kilowatt entspricht 1.000 Watt. Leistungswandler können die gleiche Leistung auch in Einheiten wie mechanischer Pferdestärke ausdrücken."
         }
       ],
       "visual": "converter"
@@ -17583,7 +17583,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Vergleichen Sie mehrere Beitragsbeträge.",
         "Testen Sie konservative und optimistische Renditeannahmen.",
         "Betrachten Sie das Ergebnis als Schätzung und nicht als garantiertes Anlageergebnis.",
-        "Vermeiden: Die prognostizierten Renditen als garantiert zu betrachten.",
+        "Vermeiden: Prognostizierte Renditen als garantiert zu betrachten.",
         "Vermeiden Sie: Gebühren, Steuern, Inflation oder sich ändernde Beiträge zu ignorieren.",
         "Vermeiden: Vergleichen von Szenarien mit inkonsistenten Annahmen."
       ],
@@ -17599,7 +17599,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert SIP-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt SIP-Rechner?",
@@ -17645,7 +17645,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Verwenden Sie das Angebot des Kreditgebers für den endgültigen Betrag und die Gebühren.",
         "Vermeiden: Nur EMI vergleichen und das Gesamtinteresse ignorieren.",
         "Vermeiden: Bearbeitungsgebühren und andere Gebühren ignorieren.",
-        "Vermeiden Sie: Verwenden Sie einen angegebenen Jahreszins, ohne die Berechnungskonvention des Kreditgebers zu überprüfen."
+        "Vermeiden Sie: Die Verwendung eines angegebenen Jahreszinssatzes, ohne die Berechnungskonvention des Kreditgebers zu überprüfen."
       ],
       "limitations": [
         "Die Schätzung hängt von den Annahmen und Eingaben ab, die von EMI-Rechner verwendet werden.",
@@ -17659,7 +17659,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert EMI-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt EMI-Rechner?",
@@ -17719,7 +17719,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Lumpsum-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Lumpsum-Rechner?",
@@ -17765,7 +17765,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Benutzen Sie zum Rechnen den Taschenrechner; es bestimmt nicht die rechtliche steuerliche Anwendbarkeit.",
         "Vermeiden Sie: Verwenden Sie den falschen GST-Satz.",
         "Vermeiden Sie: Verwirrende Inklusiv- und Exklusivpreise.",
-        "Vermeiden: Die arithmetische Ausgabe als Bestimmung der Steueranwendbarkeit zu behandeln."
+        "Vermeiden Sie: Die arithmetische Ausgabe als Bestimmung der Steueranwendbarkeit zu behandeln."
       ],
       "limitations": [
         "Die Schätzung hängt von den Annahmen und Eingaben ab, die von GST-Rechner verwendet werden.",
@@ -17779,7 +17779,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert GST-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt GST-Rechner?",
@@ -17802,8 +17802,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "GST-Betrag = steuerpflichtiger Wert × GST-Satz. Für einen Inklusivpreis kann der Steueranteil als Inklusivpreis × Satz / (100 + Satz) abgeleitet werden."
     },
     "salary-calculator": {
-      "heroIntro": "Schätzen Sie das monatliche Nettogehalt anhand des monatlichen Bruttogehalts und der von Ihnen eingegebenen Abzüge.",
-      "intro": "Schätzen Sie das monatliche Nettogehalt anhand des monatlichen Bruttogehalts und der von Ihnen eingegebenen Abzüge. Verwenden Sie es beispielsweise, um den monatlichen Nettogewinn vom Bruttogehalt zu schätzen. Es kann Ihnen auch dabei helfen, zwei Vergütungsstrukturen zu vergleichen. Diese Seite kombiniert den interaktiven Rechner mit praktischen Erklärungen, Beispielen, Annahmen und häufigen Fehlern, damit das Ergebnis richtig interpretiert werden kann.",
+      "heroIntro": "Schätzen Sie das monatliche Nettogehalt anhand des Bruttomonatslohns und der von Ihnen eingegebenen Abzüge.",
+      "intro": "Schätzen Sie das monatliche Nettogehalt anhand des Bruttomonatslohns und der von Ihnen eingegebenen Abzüge. Verwenden Sie es beispielsweise, um den monatlichen Nettogewinn vom Bruttogehalt zu schätzen. Es kann Ihnen auch dabei helfen, zwei Vergütungsstrukturen zu vergleichen. Diese Seite kombiniert den interaktiven Rechner mit praktischen Erklärungen, Beispielen, Annahmen und häufigen Fehlern, damit das Ergebnis richtig interpretiert werden kann.",
       "why": "Ein Gehaltsrechner übersetzt die Bruttovergütung in eine Planungsschätzung des monatlichen Nettolohns.",
       "steps": [
         "Geben Sie die von Gehalt-Rechner angeforderten Werte in den angezeigten Einheiten ein.",
@@ -17835,11 +17835,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Gehalt-Rechner verwendet?",
-          "a": "Schätzen Sie das monatliche Nettogehalt anhand des monatlichen Bruttogehalts und der von Ihnen eingegebenen Abzüge. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Schätzen Sie das monatliche Nettogehalt anhand des Bruttomonatslohns und der von Ihnen eingegebenen Abzüge. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert Gehalt-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Gehalt-Rechner?",
@@ -17850,7 +17850,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Nutzen Sie es zur Planung und Szenarioanalyse. Offizielle Abrechnungen, Kostenvoranschläge von Kreditgebern, Gehaltsabrechnungen, Produktbedingungen, Steuern und Gebühren können Regeln enthalten, die ein allgemeiner Rechner nicht kennen kann."
         },
         {
-          "q": "Entspricht die Ausgabe des Gehaltsrechners der meiner Gehaltsabrechnung?",
+          "q": "Entspricht die Ausgabe des Gehaltsrechners meiner Gehaltsabrechnung?",
           "a": "Nicht unbedingt. Die Gehaltsabrechnung kann arbeitgeberspezifische Leistungen, gesetzliche Abzüge, Steuern, Erstattungen und variable Komponenten umfassen, die ein allgemeiner Rechner möglicherweise nicht kennt."
         },
         {
@@ -17877,14 +17877,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Notieren Sie Annahmen, damit die Berechnung später wiederholt und überprüft werden kann.",
         "Vergleichen Sie die FD-Reife für verschiedene Amtszeiten.",
         "Schätzen Sie die Zinsen aus Kapital und Zinssatz.",
-        "Vergleichen Sie die Annahmen zur Aufzinsung."
+        "Vergleichen Sie die zusammengesetzten Annahmen."
       ],
       "tips": [
         "Überprüfen Sie die tatsächliche Aufzinsungshäufigkeit der Bank.",
-        "Überprüfen Sie die Steuerbedingungen und die Bedingungen für vorzeitige Abhebungen.",
+        "Überprüfen Sie die Steuer- und vorzeitigen Auszahlungsbedingungen.",
         "Vergleichen Sie Fälligkeitswert und Liquidität, nicht nur den notierten Zinssatz.",
         "Vermeiden Sie: Verwenden Sie einen Aufzinsungsplan, der von den Einzahlungsbedingungen der Bank abweicht.",
-        "Vermeiden: Ignorieren der steuerlichen Behandlung oder der Regeln zur vorzeitigen Schließung.",
+        "Vermeiden: Ignorieren der steuerlichen Behandlung oder der Vorschriften zur vorzeitigen Schließung.",
         "Vermeiden Sie: Den angezeigten Kurs als garantierte Endrendite zu behandeln, ohne die Bankbedingungen zu prüfen."
       ],
       "limitations": [
@@ -17899,7 +17899,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert FD-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt FD-Rechner?",
@@ -17959,7 +17959,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert RD-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt RD-Rechner?",
@@ -18019,7 +18019,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Rente-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Rente-Rechner?",
@@ -18042,8 +18042,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "Rentenprognosen kombinieren aktuelle Ausgaben, Inflation, Anlagerendite, Rentenalter und erwartete Rentendauer, um einen zukünftigen Finanzierungsbedarf abzuschätzen."
     },
     "compound-interest-calculator": {
-      "heroIntro": "Berechnen Sie das jährliche, monatliche und tägliche Zinseszinswachstum auf Ersparnisse.",
-      "intro": "Berechnen Sie das jährliche, monatliche und tägliche Zinseszinswachstum auf Ersparnisse. Verwenden Sie es beispielsweise, um die jährliche, monatliche und tägliche Aufzinsung zu vergleichen. Es kann Ihnen auch dabei helfen, das Sparwachstum über mehrere Jahre abzuschätzen. Diese Seite kombiniert den interaktiven Rechner mit praktischen Erklärungen, Beispielen, Annahmen und häufigen Fehlern, damit das Ergebnis richtig interpretiert werden kann.",
+      "heroIntro": "Berechnen Sie das jährliche, monatliche und tägliche Zinseszinswachstum der Ersparnisse.",
+      "intro": "Berechnen Sie das jährliche, monatliche und tägliche Zinseszinswachstum für Ersparnisse. Verwenden Sie es beispielsweise, um die jährliche, monatliche und tägliche Aufzinsung zu vergleichen. Es kann Ihnen auch dabei helfen, das Sparwachstum über mehrere Jahre abzuschätzen. Diese Seite kombiniert den interaktiven Rechner mit praktischen Erklärungen, Beispielen, Annahmen und häufigen Fehlern, damit das Ergebnis richtig interpretiert werden kann.",
       "why": "Zinseszinsberechnungen zeigen, wie bisher erwirtschaftete Zinsen am zukünftigen Wachstum partizipieren können.",
       "steps": [
         "Geben Sie die von Zinseszins-Rechner angeforderten Werte in den angezeigten Einheiten ein.",
@@ -18075,11 +18075,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Zinseszins-Rechner verwendet?",
-          "a": "Berechnen Sie das jährliche, monatliche und tägliche Zinseszinswachstum auf Ersparnisse. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Berechnen Sie das jährliche, monatliche und tägliche Zinseszinswachstum der Ersparnisse. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert Zinseszins-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Zinseszins-Rechner?",
@@ -18104,7 +18104,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "simple-interest-calculator": {
       "heroIntro": "Berechnen Sie die einfachen Grundzinsen auf Kapitalbeträge mit festen Zinssätzen.",
       "intro": "Berechnen Sie die einfachen Grundzinsen auf Kapitalbeträge mit festen Zinssätzen. Verwenden Sie es beispielsweise, um die Zinsen für einen festen Kapitalbetrag zu berechnen. Es kann Ihnen auch dabei helfen, eine Übung mit einfachem Interesse zu überprüfen. Diese Seite kombiniert den interaktiven Rechner mit praktischen Erklärungen, Beispielen, Annahmen und häufigen Fehlern, damit das Ergebnis richtig interpretiert werden kann.",
-      "why": "Einfache Zinsen sind ein Modell, bei dem Zinsen auf den ursprünglichen Kapitalbetrag berechnet und nicht wiederholt zum Kapitalbetrag addiert werden.",
+      "why": "Einfache Zinsen sind ein Modell, bei dem Zinsen auf den ursprünglichen Kapitalbetrag berechnet werden und nicht wiederholt zum Kapitalbetrag addiert werden.",
       "steps": [
         "Geben Sie die von Zins-Rechner angeforderten Werte in den angezeigten Einheiten ein.",
         "Wählen Sie realistische Annahmen für den für diese Berechnung relevanten Satz, die Laufzeit, die Häufigkeit, die Steuer oder den Beitragsplan.",
@@ -18125,7 +18125,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Verwenden Sie das Ergebnis als arithmetische Berechnung.",
         "Vermeiden: Verwendung der falschen Zeiteinheit.",
         "Vermeiden: Einfaches Interesse an einem Produkt wecken, das tatsächlich Verbindungen herstellt.",
-        "Vermeiden: Verwechslung des Zinsprozentsatzes mit dem Dezimalsatz."
+        "Vermeiden: Verwechslung des Zinssatzes mit dem Dezimalsatz."
       ],
       "limitations": [
         "Die Schätzung hängt von den Annahmen und Eingaben ab, die von Zins-Rechner verwendet werden.",
@@ -18139,7 +18139,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Zins-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Zins-Rechner?",
@@ -18151,7 +18151,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Was ist die einfache Zinsformel?",
-          "a": "Eine gängige Formel ist I = P × R × T / 100, wobei P der Kapitalbetrag, R die jährliche Rate in Prozent und T die Zeit in Jahren ist."
+          "a": "Eine gängige Formel ist I = P × R × T / 100, wobei P der Kapitalbetrag, R die Jahresrate in Prozent und T die Zeit in Jahren ist."
         },
         {
           "q": "Ist die Nutzung von Zins-Rechner kostenlos?",
@@ -18199,7 +18199,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Prozentrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Prozentrechner?",
@@ -18259,7 +18259,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Altersrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Altersrechner?",
@@ -18297,7 +18297,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Notieren Sie Annahmen, damit die Berechnung später wiederholt und überprüft werden kann.",
         "Berechnen Sie den BMI aus Größe und Gewicht.",
         "Verstehen Sie die häufig verwendeten BMI-Kategoriebereiche.",
-        "Verfolgen Sie einen BMI-Wert im Zeitverlauf als eine Screening-Metrik."
+        "Verfolgen Sie einen BMI-Wert im Laufe der Zeit als eine Screening-Metrik."
       ],
       "tips": [
         "Geben Sie Größe und Gewicht in den richtigen Einheiten ein.",
@@ -18319,7 +18319,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert BMI-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt BMI-Rechner?",
@@ -18379,7 +18379,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Wissenschaftlicher Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Wissenschaftlicher Rechner?",
@@ -18439,7 +18439,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Rabattrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Rabattrechner?",
@@ -18499,7 +18499,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert Trinkgeldrechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Welche Eingaben benötigt Trinkgeldrechner?",
@@ -18594,7 +18594,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Kann ich ein persönliches Angebot hinzufügen?",
-          "a": "Ja. Fügen Sie ein Angebot oder eine Erinnerung hinzu und diese wird mit dem generierten Zeitplan angezeigt."
+          "a": "Ja. Fügen Sie ein Angebot oder eine Erinnerung hinzu und es erscheint mit dem generierten Zeitplan."
         },
         {
           "q": "Kann ich Niedlicher Stundenplan-Ersteller personalisieren?",
@@ -18960,8 +18960,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "daily-timetable-maker": {
       "heroIntro": "Erstellen Sie einen Tagesplan mit Zeitfenstern für Routine, Arbeit, Lernen, Mahlzeiten, Bewegung, Familie und Ruhe.",
-      "intro": "Erstellen Sie einen Tagesplan mit Zeitfenstern für Routine, Arbeit, Lernen, Mahlzeiten, Bewegung, Familie und Ruhe. Erstellen Sie einen Tagesplan mit echten Uhrzeiten anstelle von schulähnlichen Zeitangaben. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
-      "why": "Erstellen Sie einen Tagesplan mit echten Uhrzeiten anstelle von schulähnlichen Zeitangaben.",
+      "intro": "Erstellen Sie einen Tagesplan mit Zeitfenstern für Routine, Arbeit, Lernen, Mahlzeiten, Bewegung, Familie und Ruhe. Erstellen Sie einen Tagesplan unter Verwendung echter Uhrzeiten anstelle von schulähnlichen Zeitangaben. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
+      "why": "Erstellen Sie einen Tagesplan unter Verwendung echter Uhrzeiten anstelle von schulähnlichen Zeitangaben.",
       "steps": [
         "Legen Sie Ihre Startzeit und Anzahl der Aktivitäten fest.",
         "Wählen Sie die Aktivitätsdauer.",
@@ -18985,7 +18985,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Tagesplan-Ersteller verwendet?",
-          "a": "Erstellen Sie einen Tagesplan mit Zeitfenstern für Routine, Arbeit, Lernen, Mahlzeiten, Bewegung, Familie und Ruhe. Erstellen Sie einen Tagesplan mit echten Uhrzeiten anstelle von schulähnlichen Zeitangaben."
+          "a": "Erstellen Sie einen Tagesplan mit Zeitfenstern für Routine, Arbeit, Lernen, Mahlzeiten, Bewegung, Familie und Ruhe. Erstellen Sie einen Tagesplan unter Verwendung echter Uhrzeiten anstelle von schulähnlichen Zeitangaben."
         },
         {
           "q": "Zeigt der Tagesplaner echte Zeiten an?",
@@ -19091,8 +19091,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "girls-daily-routine-planner": {
-      "heroIntro": "Erstellen Sie einen bearbeitbaren Tages- und Wochenplaner für Mädchen mit den Themen Lernen, Schule, Sport, Selbstfürsorge, Familie und Freizeit.",
-      "intro": "Erstellen Sie einen bearbeitbaren Tages- und Wochenplaner für Mädchen mit den Themen Lernen, Schule, Sport, Selbstfürsorge, Familie und Freizeit. Erstellen Sie einen personalisierten Tages- oder Wochenablauf mit Lern-, Arbeits-, Sport-, Selbstfürsorge-, Familien- und Freizeitblöcken. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
+      "heroIntro": "Erstellen Sie einen bearbeitbaren Tages- und Wochenplaner für Mädchen mit den Themen Lernen, Schule, Bewegung, Selbstfürsorge, Familie und Freizeit.",
+      "intro": "Erstellen Sie einen bearbeitbaren Tages- und Wochenplaner für Mädchen mit den Themen Lernen, Schule, Bewegung, Selbstfürsorge, Familie und Freizeit. Erstellen Sie einen personalisierten Tages- oder Wochenablauf mit Lern-, Arbeits-, Sport-, Selbstfürsorge-, Familien- und Freizeitblöcken. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
       "why": "Erstellen Sie einen personalisierten Tages- oder Wochenablauf mit Lern-, Arbeits-, Sport-, Selbstfürsorge-, Familien- und Freizeitblöcken.",
       "steps": [
         "Wählen Sie die Tage und Zeitblöcke.",
@@ -19117,7 +19117,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Tagesroutine-Planer für Mädchen verwendet?",
-          "a": "Erstellen Sie einen bearbeitbaren Tages- und Wochenplaner für Mädchen mit den Themen Lernen, Schule, Sport, Selbstfürsorge, Familie und Freizeit. Erstellen Sie einen personalisierten Tages- oder Wochenablauf mit Lern-, Arbeits-, Sport-, Selbstfürsorge-, Familien- und Freizeitblöcken."
+          "a": "Erstellen Sie einen bearbeitbaren Tages- und Wochenplaner für Mädchen mit den Themen Lernen, Schule, Bewegung, Selbstfürsorge, Familie und Freizeit. Erstellen Sie einen personalisierten Tages- oder Wochenablauf mit Lern-, Arbeits-, Sport-, Selbstfürsorge-, Familien- und Freizeitblöcken."
         },
         {
           "q": "Kann ich die Routine personalisieren?",
@@ -19224,8 +19224,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "work-shift-schedule-maker": {
       "heroIntro": "Erstellen Sie einen Arbeitsschichtplan für Morgen-, Abend-, Nacht-, Wechsel- oder benutzerdefinierte Schichten in einem wöchentlichen Raster.",
-      "intro": "Erstellen Sie einen Arbeitsschichtplan für Morgen-, Abend-, Nacht-, Wechsel- oder benutzerdefinierte Schichten in einem wöchentlichen Raster. Erstellen Sie einen schichtorientierten Zeitplan für Morgen-, Abend-, Nachtschichten oder individuelle Arbeitsschichten. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
-      "why": "Erstellen Sie einen schichtorientierten Zeitplan für Morgen-, Abend-, Nachtschichten oder individuelle Arbeitsschichten.",
+      "intro": "Erstellen Sie einen Arbeitsschichtplan für Morgen-, Abend-, Nacht-, Wechsel- oder benutzerdefinierte Schichten in einem wöchentlichen Raster. Erstellen Sie einen schichtorientierten Zeitplan für Morgen-, Abend-, Nacht- oder individuelle Arbeitsschichten. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
+      "why": "Erstellen Sie einen schichtorientierten Zeitplan für Morgen-, Abend-, Nacht- oder individuelle Arbeitsschichten.",
       "steps": [
         "Wählen Sie die Tage und Schichtslots.",
         "Legen Sie den Schaltzeitpunkt fest.",
@@ -19249,7 +19249,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Schichtplan-Ersteller verwendet?",
-          "a": "Erstellen Sie einen Arbeitsschichtplan für Morgen-, Abend-, Nacht-, Wechsel- oder benutzerdefinierte Schichten in einem wöchentlichen Raster. Erstellen Sie einen schichtorientierten Zeitplan für Morgen-, Abend-, Nachtschichten oder individuelle Arbeitsschichten."
+          "a": "Erstellen Sie einen Arbeitsschichtplan für Morgen-, Abend-, Nacht-, Wechsel- oder benutzerdefinierte Schichten in einem wöchentlichen Raster. Erstellen Sie einen schichtorientierten Zeitplan für Morgen-, Abend-, Nacht- oder individuelle Arbeitsschichten."
         },
         {
           "q": "Berechnet es die Personalbesetzung automatisch?",
@@ -19268,8 +19268,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "teacher-timetable-maker": {
       "heroIntro": "Erstellen Sie einen Stundenplan für Lehrer mit Unterricht, Planung, Besprechungen, Vorbereitung, Beurteilungen, Laboren und Freistunden.",
-      "intro": "Erstellen Sie einen Stundenplan für Lehrer mit Unterricht, Planung, Besprechungen, Vorbereitung, Beurteilungen, Laboren und Freistunden. Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden unterteilt. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
-      "why": "Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden unterteilt.",
+      "intro": "Erstellen Sie einen Stundenplan für Lehrer mit Unterricht, Planung, Besprechungen, Vorbereitung, Beurteilungen, Laboren und Freistunden. Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden trennt. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
+      "why": "Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden trennt.",
       "steps": [
         "Wählen Sie Unterrichtstage und -slots.",
         "Legen Sie die Schulzeiten fest.",
@@ -19293,7 +19293,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Stundenplan für Lehrer verwendet?",
-          "a": "Erstellen Sie einen Stundenplan für Lehrer mit Unterricht, Planung, Besprechungen, Vorbereitung, Beurteilungen, Laboren und Freistunden. Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden unterteilt."
+          "a": "Erstellen Sie einen Stundenplan für Lehrer mit Unterricht, Planung, Besprechungen, Vorbereitung, Beurteilungen, Laboren und Freistunden. Erstellen Sie einen Stundenplan für Lehrer, der Unterricht, Vorbereitung, Besprechungen, Beurteilungen, Labore und freie Stunden trennt."
         },
         {
           "q": "Können Vorbereitungszeiten eingerechnet werden?",
@@ -19532,8 +19532,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "printable-timetable-maker": {
       "heroIntro": "Erstellen Sie einen sauberen, druckbaren Stundenplan mit bearbeitbaren Zeiträumen und Themen für Schule, Studium, Arbeit oder persönliche Planung.",
-      "intro": "Erstellen Sie einen sauberen, druckbaren Stundenplan mit bearbeitbaren Zeiträumen und Themen für Schule, Studium, Arbeit oder persönliche Planung. Erstellen Sie einen übersichtlichen Stundenplan mit lesbaren Uhrzeiten, bearbeitbaren Zellen und persönlichen Notizen. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
-      "why": "Erstellen Sie einen übersichtlichen Stundenplan mit lesbaren Uhrzeiten, bearbeitbaren Zellen und persönlichen Notizen.",
+      "intro": "Erstellen Sie einen sauberen, druckbaren Stundenplan mit bearbeitbaren Zeiträumen und Themen für Schule, Studium, Arbeit oder persönliche Planung. Erstellen Sie einen übersichtlichen, druckfertigen Stundenplan mit lesbaren Uhrzeiten, bearbeitbaren Zellen und persönlichen Notizen. Fügen Sie Ihren eigenen Zeitplantitel, Ihre persönliche Notiz und Ihr Zitat hinzu und bearbeiten Sie dann jede generierte Zelle, bevor Sie sie herunterladen oder drucken.",
+      "why": "Erstellen Sie einen übersichtlichen, druckfertigen Stundenplan mit lesbaren Uhrzeiten, bearbeitbaren Zellen und persönlichen Notizen.",
       "steps": [
         "Wählen Sie Tage und Zeitblöcke.",
         "Legen Sie die Startzeit und -dauer fest.",
@@ -19557,7 +19557,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird Druckbarer Stundenplan-Ersteller verwendet?",
-          "a": "Erstellen Sie einen sauberen, druckbaren Stundenplan mit bearbeitbaren Zeiträumen und Themen für Schule, Studium, Arbeit oder persönliche Planung. Erstellen Sie einen übersichtlichen Stundenplan mit lesbaren Uhrzeiten, bearbeitbaren Zellen und persönlichen Notizen."
+          "a": "Erstellen Sie einen sauberen, druckbaren Stundenplan mit bearbeitbaren Zeiträumen und Themen für Schule, Studium, Arbeit oder persönliche Planung. Erstellen Sie einen übersichtlichen, druckfertigen Stundenplan mit lesbaren Uhrzeiten, bearbeitbaren Zellen und persönlichen Notizen."
         },
         {
           "q": "Ist es für den Druck konzipiert?",
@@ -19705,7 +19705,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Ist es für Maharashtra Faral?",
-          "a": "Es enthält beliebte Faral-Gerichte aus Maharashtra, kann aber auch für andere Gerichte angepasst werden."
+          "a": "Es enthält beliebte Faral-Artikel aus Maharashtra, kann aber auch für andere Gerichte angepasst werden."
         }
       ],
       "visual": "finance"
@@ -19804,7 +19804,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "diya-requirement-calculator": {
       "heroIntro": "Diya Requirement-Rechner und Diwali Diya-Rechner für Räume, Türen, Fenster, Puja und dekorative Diyas.",
-      "intro": "Schätzen Sie ab, wie viele Diyas Sie für Diwali benötigen und welche ungefähre Öl- oder Ghee-Menge Sie planen. Zu den nützlichen Suchfunktionen gehören der Diya-Rechner, der Diya-Anforderungsrechner, der Diwali-Diya-Rechner, die Anzahl der Diyas für Diwali, die Anzahl der Diyas für Diwali, der Diya-Ölrechner und der Diwali-Beleuchtungsrechner.",
+      "intro": "Schätzen Sie, wie viele Diyas Sie für Diwali benötigen und welche ungefähre Öl- oder Ghee-Menge Sie planen. Zu den nützlichen Suchfunktionen gehören der Diya-Rechner, der Diya-Anforderungsrechner, der Diwali-Diya-Rechner, die Anzahl der Diyas für Diwali, die Anzahl der Diyas für Diwali, der Diya-Ölrechner und der Diwali-Beleuchtungsrechner.",
       "why": "Nützlich für Suchanfragen wie den Diya-Rechner, den Diya-Anforderungsrechner, die Anzahl der Diyas für Diwali und den Diya-Ölrechner.",
       "steps": [
         "Betreten Sie Räume, Türen und Fenster oder Balkone.",
@@ -19897,7 +19897,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "diwali-countdown-preparation-planner": {
       "heroIntro": "Diwali-Countdown 2026, Tage bis Diwali und Diwali-Vorbereitungsplaner für Ihre komplette Festivalvorbereitung.",
       "intro": "Verfolgen Sie die Kalendertage bis Diwali 2026 und verknüpfen Sie den Countdown mit Reinigung, Einkaufen, Geschenken, Kleidung, Mithai/Faral, Dekoration, Puja-Zubehör und letzten Vorbereitungen. Zu den nützlichen Suchanfragen gehören „Diwali-Countdown 2026“, „Tage bis Diwali 2026“, „Wie viele Tage bis Diwali“, „Diwali-Vorbereitungscheckliste“, „Diwali-Planungscheckliste“ und „Diwali-Einkaufscheckliste“.",
-      "why": "Nützlich für Suchanfragen wie Diwali-Countdown 2026, Tage bis Diwali und Checkliste für die Diwali-Vorbereitung.",
+      "why": "Nützlich für Suchanfragen wie Diwali-Countdown 2026, Tage bis Diwali und Checkliste zur Vorbereitung auf Diwali.",
       "steps": [
         "Überprüfen Sie die verbleibenden Tage bis zum 8. November 2026.",
         "Verwenden Sie die Zeitleiste, um auszuwählen, was zuerst getan werden soll.",
@@ -19942,7 +19942,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "youtube-thumbnail-downloader": {
       "heroIntro": "Rufen Sie verfügbare Miniaturbildauflösungen für öffentliche YouTube-Videos mithilfe ihrer Video-IDs oder URLs ab.",
-      "intro": "Rufen Sie verfügbare Miniaturbildauflösungen für öffentliche YouTube-Videos mithilfe ihrer Video-IDs oder URLs ab. Verwenden Sie es beispielsweise, um eine öffentliche Video-Miniaturansicht als Designreferenz abzurufen. Es kann Ihnen auch dabei helfen, die verfügbaren Miniaturbildauflösungen zu überprüfen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Rufen Sie verfügbare Miniaturbildauflösungen für öffentliche YouTube-Videos mithilfe ihrer Video-IDs oder URLs ab. Verwenden Sie es beispielsweise, um eine öffentliche Video-Miniaturansicht als Designreferenz abzurufen. Es kann Ihnen auch dabei helfen, die verfügbaren Miniaturbildauflösungen zu überprüfen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Ersteller-Workflow unterstützt öffentliche YouTube-Informationen, Inhaltsplanung oder -schätzung. Es wurde entwickelt, um sich wiederholende Erstelleraufgaben zu beschleunigen und gleichzeitig die Annahmen sichtbar zu halten.",
       "steps": [
         "Öffnen Sie YouTube Thumbnail und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -19951,7 +19951,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Laden Sie das Ergebnis herunter, kopieren Sie es oder verwenden Sie es erneut, nachdem Sie es mit Ihren ursprünglichen Anforderungen verglichen haben."
       ],
       "useCases": [
-        "Schnelle einmalige YouTube-Thumbnail-Downloader-Aufgaben ohne Installation eines separaten Dienstprogramms.",
+        "Schnelle, einmalige YouTube-Thumbnail-Downloader-Aufgaben ohne Installation eines separaten Dienstprogramms.",
         "Wiederholbare Vorbereitungsarbeiten für Dokumente, Medien, Text, Code, Daten oder Ersteller-Workflows.",
         "Überprüfung eines Zwischenergebnisses während eines größeren Projekts.",
         "Vorbereiten einer Ausgabe für eine andere Anwendung oder einen anderen Workflow.",
@@ -19979,7 +19979,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert YouTube Thumbnail?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich YouTube Thumbnail verwenden?",
@@ -20001,8 +20001,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "youtube"
     },
     "youtube-tag-generator": {
-      "heroIntro": "Generieren Sie relevante YouTube-Tags und Keyword-Ideen, um Video-Metadaten zu organisieren und zu optimieren.",
-      "intro": "Generieren Sie relevante YouTube-Tags und Keyword-Ideen, um Video-Metadaten zu organisieren und zu optimieren. Verwenden Sie es beispielsweise, um verwandte Keyword-Ideen für ein Videothema zu generieren. Es kann Ihnen auch dabei helfen, eine Startliste mit Metadatenbegriffen zu erstellen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "heroIntro": "Generieren Sie relevante YouTube-Tags und Keyword-Ideen, um die Organisation und Optimierung von Videometadaten zu unterstützen.",
+      "intro": "Generieren Sie relevante YouTube-Tags und Keyword-Ideen, um die Organisation und Optimierung von Videometadaten zu unterstützen. Verwenden Sie es beispielsweise, um verwandte Keyword-Ideen für ein Videothema zu generieren. Es kann Ihnen auch dabei helfen, eine Startliste mit Metadatenbegriffen zu erstellen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Ersteller-Workflow unterstützt öffentliche YouTube-Informationen, Inhaltsplanung oder -schätzung. Es wurde entwickelt, um sich wiederholende Erstelleraufgaben zu beschleunigen und gleichzeitig die Annahmen sichtbar zu halten.",
       "steps": [
         "Öffnen Sie YouTube Tag-Generator und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -20035,11 +20035,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Wofür wird YouTube Tag-Generator verwendet?",
-          "a": "Generieren Sie relevante YouTube-Tags und Keyword-Ideen, um Video-Metadaten zu organisieren und zu optimieren. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
+          "a": "Generieren Sie relevante YouTube-Tags und Keyword-Ideen, um die Organisation und Optimierung von Videometadaten zu unterstützen. Es ist für einen fokussierten Arbeitsablauf konzipiert, sodass Sie die Aufgabe erledigen können, ohne ein separates Desktop-Dienstprogramm installieren zu müssen. Die genaue Ausgabe hängt von den Werten, Dateien oder dem Code ab, die Sie bereitstellen."
         },
         {
           "q": "Wie funktioniert YouTube Tag-Generator?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich YouTube Tag-Generator verwenden?",
@@ -20062,7 +20062,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "youtube-money-calculator": {
       "heroIntro": "Schätzen Sie potenzielle YouTube-Werbeeinnahmen anhand von Aufrufen und RPM-Annahmen. Die tatsächlichen Einnahmen variieren je nach Kanal und Zielgruppe.",
-      "intro": "Schätzen Sie potenzielle YouTube-Werbeeinnahmen anhand von Aufrufen und RPM-Annahmen. Die tatsächlichen Einnahmen variieren je nach Kanal und Zielgruppe. Verwenden Sie es beispielsweise, um den Umsatz bei unterschiedlichen Aufrufzahlen zu modellieren. Es kann Ihnen auch dabei helfen, RPM-Annahmen zu vergleichen. Dieser Leitfaden erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
+      "intro": "Schätzen Sie potenzielle YouTube-Werbeeinnahmen anhand von Aufrufen und RPM-Annahmen. Die tatsächlichen Einnahmen variieren je nach Kanal und Zielgruppe. Verwenden Sie es beispielsweise, um den Umsatz bei unterschiedlichen Aufrufzahlen zu modellieren. Es kann Ihnen auch dabei helfen, RPM-Annahmen zu vergleichen. In diesem Leitfaden wird erklärt, was das Tool tut, wann es nützlich ist, wie man es effektiv nutzt und welche praktischen Einschränkungen in realen Arbeitsabläufen von Bedeutung sind.",
       "why": "Dieser Ersteller-Workflow unterstützt öffentliche YouTube-Informationen, Inhaltsplanung oder -schätzung. Es wurde entwickelt, um sich wiederholende Erstelleraufgaben zu beschleunigen und gleichzeitig die Annahmen sichtbar zu halten.",
       "steps": [
         "Öffnen Sie YouTube Money-Rechner und identifizieren Sie das erforderliche Eingabeformat oder die erforderlichen Werte.",
@@ -20099,7 +20099,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Wie funktioniert YouTube Money-Rechner?",
-          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und prüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
+          "a": "Geben Sie die erforderlichen Eingaben in den Arbeitsbereich ein, überprüfen Sie die verfügbaren Optionen, führen Sie den Vorgang aus und überprüfen Sie das Ergebnis. Sofern die browserseitige Verarbeitung unterstützt wird, erfolgt die Arbeit im Browser; Ausführungs- oder externe Laufzeitanforderungen werden vom Tool angezeigt."
         },
         {
           "q": "Wofür kann ich YouTube Money-Rechner verwenden?",
@@ -20124,7 +20124,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
   "fr": {
     "merge-pdf": {
       "heroIntro": "Fusionner PDF fichiers en ligne dans un seul document organisé. Combinez des rapports, des pages numérisées, des factures, des formulaires, des certificats et d'autres fichiers PDF dans l'ordre de votre choix.",
-      "intro": "Besoin de combiner des fichiers PDF en un seul document sans copier-coller de pages ? L'outil en ligne Fusionner PDF de Toolployee vous aide à joindre des PDF séparés en un seul fichier ordonné pour le partage, le téléchargement, l'impression ou l'archivage. Il est utile pour les candidatures à un emploi, les soumissions aux écoles et aux collèges, les documents commerciaux, les factures, la recherche et la gestion quotidienne des documents. Sélectionnez les PDF que vous souhaitez combiner, placez-les dans le bon ordre, fusionnez-les et examinez le fichier final avant de l'utiliser. Ce guide explique comment fusionner des fichiers PDF, préparer des documents pour un résultat net, résoudre les problèmes courants et décider quand vous pourriez avoir besoin d'un autre outil PDF.",
+      "intro": "Besoin de combiner des fichiers PDF en un seul document sans copier-coller de pages ? L'outil en ligne Fusionner PDF de Toolployee vous aide à joindre des PDF séparés en un seul fichier ordonné pour le partage, le téléchargement, l'impression ou l'archivage. Il est utile pour les candidatures à un emploi, les soumissions aux écoles et collèges, les documents commerciaux, les factures, la recherche et la gestion quotidienne des documents. Sélectionnez les PDF que vous souhaitez combiner, placez-les dans le bon ordre, fusionnez-les et examinez le fichier final avant de l'utiliser. Ce guide explique comment fusionner des fichiers PDF, préparer des documents pour un résultat net, résoudre les problèmes courants et décider quand vous pourriez avoir besoin d'un autre outil PDF.",
       "why": "Une fusion PDF fiable facilite la gestion d’un ensemble de documents associés. Au lieu d'envoyer plusieurs pièces jointes, vous pouvez créer un PDF combiné qui est plus facile à ouvrir, réviser, télécharger, imprimer et stocker pour un destinataire. Un dossier bien organisé peut également aider à conserver les preuves à l’appui à côté du document principal et à réduire le risque qu’une pièce jointe soit oubliée. La fusion est différente de la prise de captures d'écran ou de la conversion de chaque page en image : une fusion typique combine les pages et les ressources des PDF sources. Cependant, les documents sources peuvent contenir des formulaires, des annotations, des signets, du cryptage ou du contenu intégré inhabituel. Vérifiez donc toujours le fichier final plutôt que de supposer que chaque fonctionnalité spéciale se comportera de manière identique.",
       "steps": [
         "Préparez les fichiers sources. Recherchez les documents PDF que vous souhaitez joindre et assurez-vous que chacun s'ouvre correctement. Si les fichiers sont importants, conservez une copie intacte de chaque original.",
@@ -20391,7 +20391,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Vérifiez l'ordre des pages, l'orientation, les noms de fichiers et la qualité de sortie.",
         "Pour les fichiers confidentiels, préférez le traitement côté navigateur là où il est explicitement pris en charge et ne saisissez jamais de secrets inutiles.",
         "À éviter : télécharger des images dans le mauvais ordre.",
-        "Évitez : Ignorer l’orientation de la page ou le rapport hauteur/largeur.",
+        "Évitez : Ignorer l’orientation ou le rapport hauteur/largeur de la page.",
         "À éviter : utiliser des images sources très volumineuses sans vérifier la taille du PDF résultant."
       ],
       "limitations": [
@@ -20512,7 +20512,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Pour les fichiers confidentiels, préférez le traitement côté navigateur là où il est explicitement pris en charge et ne saisissez jamais de secrets inutiles.",
         "À éviter : tenter de contourner l'accès à un document sans autorisation.",
         "À éviter : en supposant que chaque système de cryptage PDF puisse être supprimé.",
-        "A éviter : Perdre l'original protégé."
+        "Eviter : Perdre l'original protégé."
       ],
       "limitations": [
         "Les documents très volumineux ou complexes peuvent être limités par la mémoire du navigateur.",
@@ -20662,7 +20662,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "La compression PDF affecte-t-elle la qualité ?",
-          "a": "C’est possible, en fonction de ce qui est optimisé dans le document. Comparez toujours le fichier compressé avec l'original lorsque la qualité de l'image ou de l'impression est importante."
+          "a": "C’est possible, en fonction de ce qui est optimisé à l’intérieur du document. Comparez toujours le fichier compressé avec l'original lorsque la qualité de l'image ou de l'impression est importante."
         }
       ],
       "visual": "workflow"
@@ -21350,7 +21350,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Conservez l’image originale lorsque la qualité compte.",
         "Choisissez le format de sortie en fonction de la transparence, de la compression, de la compatibilité et de l'utilisation prévue.",
         "Prévisualisez le résultat à sa taille d'affichage réelle.",
-        "À éviter : Utiliser JPG lorsque la transparence est requise.",
+        "À éviter : utiliser JPG lorsque la transparence est requise.",
         "À éviter : convertir des dessins au trait à plusieurs reprises.",
         "À éviter : Ne pas vérifier l'arrière-plan une fois la transparence supprimée."
       ],
@@ -21449,7 +21449,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "svg-to-png-converter": {
       "heroIntro": "Convertissez les fichiers vectoriels SVG en images raster PNG à une taille de sortie sélectionnée.",
-      "intro": "Convertissez les fichiers vectoriels SVG en images raster PNG à une taille de sortie sélectionnée. Par exemple, utilisez-le pour créer des aperçus PNG à partir d'un logo vectoriel. Il peut également vous aider à rastériser un SVG pour les réseaux sociaux ou les documents. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
+      "intro": "Convertissez les fichiers vectoriels SVG en images raster PNG à une taille de sortie sélectionnée. Par exemple, utilisez-le pour créer des aperçus PNG à partir d'un logo vectoriel. Il peut également vous aider à pixelliser un SVG pour les réseaux sociaux ou les documents. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Ce flux de travail d'image se concentre sur une transformation afin qu'une tâche rapide puisse être réalisée sans éditeur graphique complet. Il est utile pour le travail sur le Web, les documents, les réseaux sociaux, le développement et l'image au quotidien.",
       "steps": [
         "Ouvrez Convertisseur SVG en PNG et identifiez le format ou les valeurs d'entrée requises.",
@@ -21802,7 +21802,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Le flou est-il un moyen sécurisé de supprimer des informations sensibles ?",
-          "a": "Le flou peut masquer des détails visuels, mais il ne doit pas être considéré comme une méthode de rédaction de sécurité garantie. Pour les documents sensibles, utilisez un véritable workflow de rédaction, le cas échéant."
+          "a": "Le flou peut masquer les détails visuels, mais il ne doit pas être traité comme une méthode de rédaction de sécurité garantie. Pour les documents sensibles, utilisez un véritable workflow de rédaction, le cas échéant."
         }
       ],
       "visual": "formats"
@@ -21818,7 +21818,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
       ],
       "useCases": [
-        "Tâches rapides et ponctuelles de génération de palette de couleurs d'image sans installer d'utilitaire séparé.",
+        "Tâches uniques et rapides de génération de palette de couleurs d'image sans installer d'utilitaire séparé.",
         "Travail de préparation reproductible pour les documents, les médias, le texte, le code, les données ou les flux de travail des créateurs.",
         "Vérification d'un résultat intermédiaire lors d'un projet plus important.",
         "Préparation d'une sortie pour une autre application ou un autre flux de travail.",
@@ -22178,7 +22178,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
       ],
       "useCases": [
-        "Tâches rapides et ponctuelles du compilateur C# en ligne sans installer d'utilitaire séparé.",
+        "Tâches ponctuelles et rapides du compilateur C# en ligne sans installer d'utilitaire séparé.",
         "Travail de préparation reproductible pour les documents, les médias, le texte, le code, les données ou les flux de travail des créateurs.",
         "Vérification d'un résultat intermédiaire lors d'un projet plus important.",
         "Préparation d'une sortie pour une autre application ou un autre flux de travail.",
@@ -22228,8 +22228,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "online-php-runner": {
-      "heroIntro": "Testez la syntaxe du code PHP et les algorithmes directement dans la mémoire du navigateur.",
-      "intro": "Testez la syntaxe du code PHP et les algorithmes directement dans la mémoire du navigateur. Par exemple, utilisez-le pour vérifier la syntaxe PHP avec un petit extrait de code reproductible. Cela peut également vous aider à pratiquer les fonctions et les tableaux. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
+      "heroIntro": "Testez la syntaxe et les algorithmes du code PHP directement dans la mémoire du navigateur.",
+      "intro": "Testez la syntaxe et les algorithmes du code PHP directement dans la mémoire du navigateur. Par exemple, utilisez-le pour vérifier la syntaxe PHP avec un petit extrait de code reproductible. Cela peut également vous aider à pratiquer les fonctions et les tableaux. Ce guide explique ce que fait l'outil, quand il est utile, comment l'utiliser efficacement et les limitations pratiques qui comptent dans les flux de travail du monde réel.",
       "why": "Cet espace de travail de codage est utile pour l'apprentissage, le débogage, les vérifications de syntaxe et les petits exemples reproductibles. Le modèle d'exécution varie selon le langage, il doit donc être traité comme un bac à sable de développement plutôt que comme un environnement de production.",
       "steps": [
         "Ouvrez Compilateur PHP en ligne et identifiez le format ou les valeurs d'entrée requises.",
@@ -22262,7 +22262,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "À quoi sert Compilateur PHP en ligne ?",
-          "a": "Testez la syntaxe du code PHP et les algorithmes directement dans la mémoire du navigateur. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
+          "a": "Testez la syntaxe et les algorithmes du code PHP directement dans la mémoire du navigateur. Il est conçu pour un flux de travail ciblé afin que vous puissiez effectuer la tâche sans installer un utilitaire de bureau distinct. Le résultat exact dépend des valeurs, des fichiers ou du code que vous fournissez."
         },
         {
           "q": "Comment fonctionne Compilateur PHP en ligne ?",
@@ -22432,7 +22432,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Ne collez jamais de secrets de production ou de données privées de clients.",
         "À éviter : traiter Base64 comme un cryptage.",
         "À éviter : Confondre URL-safe et Base64 standard.",
-        "À éviter : Encoder des secrets et supposer que le résultat est protégé."
+        "À éviter : encoder des secrets et supposer que le résultat est protégé."
       ],
       "limitations": [
         "La sortie suit la syntaxe et les règles prises en charge par l'outil.",
@@ -23032,7 +23032,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Ne collez jamais de secrets de production ou de données privées de clients.",
         "Évitez : traiter la détection de l'agent utilisateur comme une identité faisant autorité.",
         "À éviter : supposer qu'un agent utilisateur identifie de manière unique un appareil.",
-        "À éviter : l’utiliser comme seul contrôle de sécurité."
+        "À éviter : l’utiliser comme seul contrôle de sécurité."
       ],
       "limitations": [
         "La sortie suit la syntaxe et les règles prises en charge par l'outil.",
@@ -23078,7 +23078,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
       ],
       "useCases": [
-        "Tâches ponctuelles et rapides de compteur de mots sans installer d'utilitaire séparé.",
+        "Tâches rapides et ponctuelles de compteur de mots sans installer d'utilitaire séparé.",
         "Travail de préparation reproductible pour les documents, les médias, le texte, le code, les données ou les flux de travail des créateurs.",
         "Vérification d'un résultat intermédiaire lors d'un projet plus important.",
         "Préparation d'une sortie pour une autre application ou un autre flux de travail.",
@@ -23089,7 +23089,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "À éviter : en supposant que chaque plateforme compte les mots de la même manière.",
         "À éviter : ignorer les espaces ou le comportement Unicode.",
         "Évitez : Utiliser un nombre de caractères lorsqu'une limite d'octets est requise."
@@ -23149,7 +23149,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "Évitez : Changer la casse dans le code ou les identifiants sensibles à la casse.",
         "À éviter : s'attendre à une capitalisation parfaite tenant compte du langage.",
         "A éviter : Appliquer une transformation sans conserver l'original."
@@ -23209,7 +23209,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "À éviter : supprimer les doublons lorsque les lignes répétées sont significatives.",
         "À éviter : ignorer la sensibilité à la casse.",
         "À éviter : Ne pas vérifier les différences d'espaces."
@@ -23269,7 +23269,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "À éviter : publier accidentellement du texte d'espace réservé.",
         "À éviter : utiliser une copie d'espace réservé pour tester la sémantique.",
         "A éviter : Oublier de le remplacer avant le lancement."
@@ -23329,7 +23329,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "À éviter : en supposant que la sortie Markdown soit automatiquement sûre pour chaque contexte.",
         "À éviter : mélanger des dialectes Markdown incompatibles.",
         "À éviter : ignorer une révision du résultat rendu."
@@ -23389,8 +23389,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
-        "À éviter : utiliser du texte inversé là où les clusters de graphèmes Unicode sont importants.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
+        "Évitez : utiliser du texte inversé là où les clusters de graphèmes Unicode sont importants.",
         "À éviter : s'attendre à un renversement sensible au langage.",
         "Évitez : Écraser le texte source."
       ],
@@ -23449,7 +23449,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "À éviter : comparer des espaces normalisés différemment.",
         "À éviter : supposer qu'une différence visuelle prouve l'équivalence sémantique.",
         "À éviter : coller du contenu confidentiel."
@@ -23509,7 +23509,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "À éviter : ignorer les règles de casse et de paramètres régionaux.",
         "Évitez : trier les chaînes numériques de manière lexicographique lorsque l'ordre numérique est prévu.",
         "À éviter : modifier l'ordre d'origine significatif."
@@ -23569,7 +23569,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "À éviter : s'attendre à ce que des scripts ou du contenu caché deviennent un texte significatif.",
         "À éviter : supprimer le balisage sans conserver les liens ou la structure requis.",
         "À éviter : utiliser du texte supprimé comme désinfectant sécurisé sans valider le contexte de destination."
@@ -23629,7 +23629,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Conservez le texte source avant les transformations destructrices.",
         "Vérifiez les espaces, la ponctuation, les caractères Unicode et les fins de ligne.",
-        "Relisez les résultats de la publication au lieu de vous fier uniquement à l’automatisation.",
+        "Relisez les résultats de publication au lieu de vous fier uniquement à l’automatisation.",
         "Évitez : Remplacer involontairement des mots intérieurs.",
         "À éviter : Utiliser des règles sensibles à la casse sans vérifier.",
         "À éviter : exécuter un remplacement destructif sans copie source."
@@ -23782,7 +23782,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Quelle est la différence entre la masse et le poids ?",
-          "a": "La masse mesure la quantité de matière, tandis que le poids est une force affectée par la gravité. Les outils de conversion quotidiens qualifient souvent les unités de masse courantes d'unités de poids."
+          "a": "La masse mesure la quantité de matière, tandis que le poids est une force affectée par la gravité. Les outils de conversion quotidiens qualifient souvent les unités de masse courantes d’unités de poids."
         }
       ],
       "visual": "converter"
@@ -24376,7 +24376,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Utilisez-le pour la planification et l’analyse de scénarios. Les relevés officiels, les devis des prêteurs, les registres de paie, les conditions des produits, les taxes et les frais peuvent inclure des règles qu'une calculatrice générale ne peut pas connaître."
         },
         {
-          "q": "L’EMI est-il le même pour chaque mois ?",
+          "q": "L’EMI est-il le même pour chaque mois ?",
           "a": "Pour un prêt amortissable à taux fixe standard, l’EMI prévu peut rester constant tandis que les parts d’intérêt et de principal changent au fil du temps. Les produits de prêt réels peuvent utiliser différentes structures."
         },
         {
@@ -24985,7 +24985,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         }
       ],
       "visual": "finance",
-      "formula": "L'âge est dérivé de la différence calendaire entre une date de naissance et une date de référence sélectionnée."
+      "formula": "L'âge est dérivé de la différence, tenant compte du calendrier, entre une date de naissance et une date de référence sélectionnée."
     },
     "bmi-calculator": {
       "heroIntro": "Calculez l'indice de masse corporelle (IMC) à partir de la taille et du poids et affichez les catégories d'IMC couramment utilisées.",
@@ -25271,8 +25271,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "cute-timetable-maker": {
-      "heroIntro": "Créez un joli emploi du temps personnalisable avec des mises en page prêtes à l'emploi pour les étudiants, les enfants, les plans d'études et les routines quotidiennes.",
-      "intro": "Créez un joli emploi du temps personnalisable avec des mises en page prêtes à l'emploi pour les étudiants, les enfants, les plans d'études et les routines quotidiennes. Créez un emploi du temps visuellement convivial avec une mise en page plus douce, un message personnel et un emploi du temps imprimable. Ajoutez votre propre titre d'horaire, note personnelle et devis, puis modifiez chaque cellule générée avant de la télécharger ou de l'imprimer.",
+      "heroIntro": "Créez un joli emploi du temps personnalisable avec des mises en page prêtes à l'emploi pour les étudiants, les enfants, les plans d'étude et les routines quotidiennes.",
+      "intro": "Créez un joli emploi du temps personnalisable avec des mises en page prêtes à l'emploi pour les étudiants, les enfants, les plans d'étude et les routines quotidiennes. Créez un emploi du temps visuellement convivial avec une mise en page plus douce, un message personnel et un emploi du temps imprimable. Ajoutez votre propre titre d'horaire, note personnelle et devis, puis modifiez chaque cellule générée avant de la télécharger ou de l'imprimer.",
       "why": "Créez un emploi du temps visuellement convivial avec une mise en page plus douce, un message personnel et un emploi du temps imprimable.",
       "steps": [
         "Choisissez les jours d'école et les créneaux horaires des cours.",
@@ -25296,7 +25296,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "À quoi sert Créateur d’emploi du temps mignon ?",
-          "a": "Créez un joli emploi du temps personnalisable avec des mises en page prêtes à l'emploi pour les étudiants, les enfants, les plans d'études et les routines quotidiennes. Créez un emploi du temps visuellement convivial avec une mise en page plus douce, un message personnel et un emploi du temps imprimable."
+          "a": "Créez un joli emploi du temps personnalisable avec des mises en page prêtes à l'emploi pour les étudiants, les enfants, les plans d'étude et les routines quotidiennes. Créez un emploi du temps visuellement convivial avec une mise en page plus douce, un message personnel et un emploi du temps imprimable."
         },
         {
           "q": "Puis-je ajouter une citation personnelle ?",
@@ -25944,7 +25944,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Brouillons de couverture d’équipe"
       ],
       "tips": [
-        "Vérifiez séparément les besoins en personnel et en main-d'œuvre.",
+        "Vérifiez séparément les exigences en matière de personnel et de main-d'œuvre.",
         "Prévoyez des pauses réalistes et des temps de transition entre les activités.",
         "Vérifiez chaque emplacement par rapport aux engagements réels avant d'imprimer ou de partager."
       ],
@@ -26179,7 +26179,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Puis-je programmer des jours de repos ?",
-          "a": "Oui. Le repos peut être saisi comme une activité programmée à part entière."
+          "a": "Oui. Le repos peut être saisi comme activité planifiée à part entière."
         },
         {
           "q": "Puis-je personnaliser Créateur de planning d’entraînement ?",
@@ -26417,9 +26417,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "finance"
     },
     "diwali-puja-samagri-checklist": {
-      "heroIntro": "Liste interactive Diwali Puja Samagri et liste de contrôle Lakshmi Puja avec éléments imprimables, cases à cocher et options de partage.",
+      "heroIntro": "Interactive Diwali Puja Samagri List and Lakshmi Puja Checklist with printable items, checkboxes and share options.",
       "intro": "Utilisez cette liste de contrôle interactive de Diwali puja pour les articles Lakshmi-Ganesha Puja couramment préparés, notamment les idoles de Lakshmi Ganesh, le chowki, le kalash, la noix de coco, le roli, le kumkum, le haldi, l'akshat, les fleurs, les diyas, les mèches de coton, l'huile ou le ghee, l'agarbatti, le dhoop, le camphre, les fruits, les bonbons et le puja thali. Il cible les recherches pratiques telles que la liste Diwali puja samagri, la liste d'articles Diwali puja, Lakshmi Puja samagri, les articles Diwali pooja, la liste de contrôle Diwali pooja, la liste Lakshmi Ganesh puja samagri et la liste Diwali puja saman.",
-      "why": "Utile pour les achats de Diwali pooja, la préparation de Lakshmi Puja, les listes de puja imprimables et une liste de contrôle de dernière minute pour Diwali puja.",
+      "why": "Useful for Diwali pooja shopping, Lakshmi Puja preparation, printable puja lists and a last-minute Diwali puja checklist.",
       "steps": [
         "Passez en revue les éléments courants.",
         "Vérifiez les articles au fur et à mesure que vous les achetez ou les préparez.",
@@ -26434,12 +26434,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "Suivez la tradition de votre famille ou de votre prêtre.",
-        "Achetez des denrées périssables plus près de la puja lorsque cela est possible.",
+        "Buy perishables closer to the puja when practical.",
         "Gardez les diyas, les mèches et le carburant ensemble."
       ],
       "limitations": [
         "Les coutumes Puja varient selon la région et la famille.",
-        "Il s’agit d’une liste de contrôle générale et non d’une autorité rituelle.",
+        "This is a general checklist, not ritual authority.",
         "Ajoutez ou supprimez des éléments pour votre propre pratique."
       ],
       "faq": [
@@ -26453,11 +26453,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Puis-je le partager ?",
-          "a": "Oui, les appareils pris en charge peuvent utiliser la feuille de partage système ; sinon, le presse-papiers est utilisé lorsqu'il est disponible."
+          "a": "Yes, supported devices can use the system share sheet; sinon, le presse-papiers est utilisé lorsqu'il est disponible."
         },
         {
           "q": "Est-ce complet pour chaque famille ?",
-          "a": "Non. Les coutumes diffèrent, alors ajoutez des éléments spécifiques à la famille."
+          "a": "No. Customs differ, so add family-specific items."
         }
       ],
       "visual": "workflow"
@@ -26486,7 +26486,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Il ajoute uniquement les montants que vous saisissez.",
         "Il ne prédit pas les prix.",
-        "Les frais de livraison et les taxes doivent être entrés séparément."
+        "Les frais de livraison et les taxes doivent être saisis séparément."
       ],
       "faq": [
         {
@@ -26510,7 +26510,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "diya-requirement-calculator": {
       "heroIntro": "Calculateur de Diya Requirement et Diwali Diya Calculator pour les pièces, les portes, les fenêtres, les puja et les diyas décoratifs.",
-      "intro": "Estimez le nombre de diyas dont vous pourriez avoir besoin pour Diwali et une quantité approximative d’huile ou de ghee. Les recherches utiles incluent le calculateur de diya, le calculateur d'exigences de diya, le calculateur de diya Diwali, le nombre de diyas pour Diwali, le nombre de diyas pour Diwali, le calculateur d'huile de diya et le calculateur d'éclairage de Diwali.",
+      "intro": "Estimez le nombre de diyas dont vous pourriez avoir besoin pour Diwali et une quantité approximative d'huile ou de ghee. Les recherches utiles incluent le calculateur de diya, le calculateur d'exigences de diya, le calculateur de diya Diwali, le nombre de diyas pour Diwali, le nombre de diyas pour Diwali, le calculateur d'huile de diya et le calculateur d'éclairage de Diwali.",
       "why": "Utile pour les recherches telles que le calculateur de diya, le calculateur d'exigences de diya, le nombre de diyas pour Diwali et le calculateur d'huile de diya.",
       "steps": [
         "Entrez dans les pièces, les portes et fenêtres ou les balcons.",
@@ -26601,7 +26601,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "diwali-countdown-preparation-planner": {
-      "heroIntro": "Diwali Countdown 2026, Days Until Diwali et Diwali Preparation Planner pour votre préparation complète du festival.",
+      "heroIntro": "Diwali Countdown 2026, Days Until Diwali et Diwali Preparation Planner pour la préparation complète de votre festival.",
       "intro": "Suivez les jours calendaires jusqu'à Diwali 2026 et connectez le compte à rebours au nettoyage, aux achats, aux cadeaux, aux vêtements, au mithai/faral, à la décoration, aux fournitures de puja et à la préparation finale. Les recherches utiles incluent le compte à rebours de Diwali 2026, les jours jusqu'à Diwali 2026, le nombre de jours avant Diwali, la liste de contrôle de préparation de Diwali, la liste de contrôle de planification de Diwali et la liste de contrôle d'achat de Diwali.",
       "why": "Utile pour les recherches telles que le compte à rebours de Diwali 2026, les jours jusqu'à Diwali et la liste de contrôle de préparation de Diwali.",
       "steps": [
@@ -26657,7 +26657,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Téléchargez, copiez ou réutilisez le résultat uniquement après l'avoir vérifié par rapport à vos exigences d'origine."
       ],
       "useCases": [
-        "Tâches rapides et uniques de téléchargement de vignettes YouTube sans installer d'utilitaire séparé.",
+        "Tâches rapides et ponctuelles de téléchargement de vignettes YouTube sans installer d'utilitaire séparé.",
         "Travail de préparation reproductible pour les documents, les médias, le texte, le code, les données ou les flux de travail des créateurs.",
         "Vérification d'un résultat intermédiaire lors d'un projet plus important.",
         "Préparation d'une sortie pour une autre application ou un autre flux de travail.",
@@ -26932,7 +26932,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Unire i PDF equivale a convertire le immagini in PDF?",
-          "a": "No. L'unione combina i documenti PDF esistenti. La conversione di immagini in PDF crea pagine PDF da file di immagine. Se disponi di file JPG o PNG anziché PDF, utilizza prima un flusso di lavoro da immagine a PDF."
+          "a": "No. L'unione combina documenti PDF esistenti. La conversione di immagini in PDF crea pagine PDF da file di immagine. Se disponi di file JPG o PNG anziché PDF, utilizza prima un flusso di lavoro da immagine a PDF."
         },
         {
           "q": "Posso unire file PDF senza perdere i documenti originali?",
@@ -27075,7 +27075,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "jpg-to-pdf": {
       "heroIntro": "Converti immagini JPG, JPEG e PNG in un file PDF standardizzato e pulito.",
-      "intro": "Converti immagini JPG, JPEG e PNG in un file PDF standardizzato e pulito. Utilizzalo, ad esempio, per combinare le ricevute scansionate in un unico PDF. Può anche aiutarti a preparare fotografie o scansioni di documenti per l'invio. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
+      "intro": "Converti immagini JPG, JPEG e PNG in un file PDF standardizzato e pulito. Ad esempio, usalo per combinare le ricevute scansionate in un unico PDF. Può anche aiutarti a preparare fotografie o scansioni di documenti per l'invio. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro PDF è progettato attorno a un'attività mirata sul documento: preparare l'origine, applicare l'operazione, rivedere l'output e conservare il risultato solo se soddisfa i tuoi requisiti.",
       "steps": [
         "Apri Convertitore JPG in PDF e identifica il formato o i valori di input richiesti.",
@@ -27315,7 +27315,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "compress-pdf": {
       "heroIntro": "Riduci l'ingombro dei file di documenti PDF mantenendo una risoluzione del testo pulita.",
-      "intro": "Riduci l'ingombro dei file di documenti PDF mantenendo una risoluzione del testo pulita. Ad esempio, utilizzalo per ridurre un documento prima del caricamento tramite posta elettronica. Può anche aiutarti a preparare un PDF per un portale con un limite di dimensioni del file. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
+      "intro": "Riduci l'ingombro dei file di documenti PDF mantenendo una risoluzione del testo pulita. Ad esempio, utilizzalo per ridurre un documento prima del caricamento tramite posta elettronica. Può anche aiutarti a preparare un PDF per un portale con un limite di dimensione del file. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro PDF è progettato attorno a un'attività mirata sul documento: preparare l'origine, applicare l'operazione, rivedere l'output e conservare il risultato solo se soddisfa i tuoi requisiti.",
       "steps": [
         "Apri Comprimere PDF e identifica il formato o i valori di input richiesti.",
@@ -27487,7 +27487,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Confronta l'output con l'input originale, conferma che si è verificata la trasformazione prevista e verifica i dettagli importanti prima di pubblicare, inviare, inviare o utilizzare il risultato in un flusso di lavoro di produzione."
         },
         {
-          "q": "Il formato PDF in Word conserverà il layout esatto?",
+          "q": "PDF in Word manterrà il layout esatto?",
           "a": "Non sempre. La conversione dipende dalla struttura del PDF di origine, dai caratteri, dalle tabelle, dalle immagini e da altri elementi incorporati. Esamina il DOCX prima di pubblicarlo o inviarlo."
         }
       ],
@@ -27735,7 +27735,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "compress-image": {
       "heroIntro": "Comprimi file PNG, JPEG e WebP per ridurre le dimensioni del file bilanciando la qualità dell'output.",
-      "intro": "Comprimi file PNG, JPEG e WebP per ridurre le dimensioni del file bilanciando la qualità dell'output. Ad esempio, usalo per ridurre un'immagine prima di caricarla su un sito web. Può anche aiutarti a preparare le foto per e-mail o messaggi. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
+      "intro": "Comprimi file PNG, JPEG e WebP per ridurre le dimensioni del file bilanciando la qualità dell'output. Ad esempio, utilizzalo per ridurre un'immagine prima di caricarla su un sito Web. Può anche aiutarti a preparare le foto per e-mail o messaggi. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro delle immagini si concentra su una trasformazione in modo che un'attività rapida possa essere completata senza un editor grafico completo. È utile per il web, i documenti, i social, lo sviluppo e il lavoro quotidiano sulle immagini.",
       "steps": [
         "Apri Comprimere immagini online e identifica il formato o i valori di input richiesti.",
@@ -28601,7 +28601,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Da evitare: presupporre che il comportamento del sandbox corrisponda alla produzione."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -28661,7 +28661,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Evita: incollare i segreti negli snippet."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -28688,7 +28688,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Posso eseguire JavaScript moderno?",
-          "a": "Il compilatore è destinato alla moderna sintassi JavaScript supportata dal suo runtime configurato. Le API solo browser potrebbero invece richiedere il flusso di lavoro dell'editor HTML."
+          "a": "Il compilatore è destinato alla moderna sintassi JavaScript supportata dal runtime configurato. Le API solo browser potrebbero invece richiedere il flusso di lavoro dell'editor HTML."
         }
       ],
       "visual": "code"
@@ -28721,7 +28721,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Evitare: trattare un prototipo come codice pronto per la produzione."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -28768,7 +28768,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Lavoro di preparazione ripetibile per flussi di lavoro di documenti, contenuti multimediali, testo, codice, dati o creatori.",
         "Controllo di un risultato intermedio durante un progetto più ampio.",
         "Preparazione di un output per un'altra applicazione o flusso di lavoro.",
-        "Esercitati sulla sintassi C++ e sugli esempi STL.",
+        "Esercitati sulla sintassi C++ ed esempi STL.",
         "Testare algoritmi con piccoli input.",
         "Riprodurre un errore in fase di compilazione."
       ],
@@ -28781,7 +28781,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Da evitare: utilizzare codice non sicuro con presupposti provenienti dai sistemi di produzione."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -28841,7 +28841,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Evitare: incollare il codice o le credenziali dell'applicazione privata."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -28901,7 +28901,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Da evitare: utilizzare i segreti di produzione nel codice di esempio."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -28961,7 +28961,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Da evitare: incollare le password del database o le chiavi API."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -29008,7 +29008,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Lavoro di preparazione ripetibile per flussi di lavoro di documenti, contenuti multimediali, testo, codice, dati o creatori.",
         "Controllo di un risultato intermedio durante un progetto più ampio.",
         "Preparazione di un output per un'altra applicazione o flusso di lavoro.",
-        "Crea una piccola tabella e testa le query SELECT.",
+        "Crea una piccola tabella e prova le query SELECT.",
         "Fai pratica con join e filtri.",
         "Verificare le trasformazioni SQL sui dati di esempio."
       ],
@@ -29021,7 +29021,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Evitare: dimenticare i presupposti relativi a transazioni o schemi."
       ],
       "limitations": [
-        "Una sandbox non riproduce ogni dipendenza di produzione o funzionalità del sistema operativo.",
+        "Una sandbox non riproduce tutte le dipendenze di produzione o le funzionalità del sistema operativo.",
         "Il tempo di esecuzione, la memoria, i pacchetti e le versioni linguistiche possono influire sui risultati.",
         "Testare nuovamente il codice funzionante nell'ambiente di distribuzione previsto."
       ],
@@ -29128,7 +29128,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Lavoro di preparazione ripetibile per flussi di lavoro di documenti, contenuti multimediali, testo, codice, dati o creatori.",
         "Controllo di un risultato intermedio durante un progetto più ampio.",
         "Preparazione di un output per un'altra applicazione o flusso di lavoro.",
-        "Codifica il testo per un protocollo che richiede Base64.",
+        "Codificare il testo per un protocollo che richiede Base64.",
         "Decodifica un payload Base64 durante il debug.",
         "Ispezionare un dispositivo di prova codificato."
       ],
@@ -29364,7 +29364,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Scarica, copia o riutilizza il risultato solo dopo averlo confrontato con i requisiti originali."
       ],
       "useCases": [
-        "Attività di conversione di timestamp unix rapide e una tantum senza installare un'utilità separata.",
+        "Attività rapide e una tantum di conversione del timestamp unix senza installare un'utilità separata.",
         "Lavoro di preparazione ripetibile per flussi di lavoro di documenti, contenuti multimediali, testo, codice, dati o creatori.",
         "Controllo di un risultato intermedio durante un progetto più ampio.",
         "Preparazione di un output per un'altra applicazione o flusso di lavoro.",
@@ -29588,7 +29588,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Un decodificatore JWT verifica la firma di un token?",
-          "a": "La decodifica di un JWT ne rivela l'intestazione e il payload codificati; di per sé non dimostra che il token sia autentico. La verifica della firma richiede la chiave appropriata e le regole di convalida."
+          "a": "La decodifica di un JWT ne rivela l'intestazione e il carico utile codificati; di per sé non dimostra che il token sia autentico. La verifica della firma richiede la chiave appropriata e le regole di convalida."
         }
       ],
       "visual": "code"
@@ -29768,14 +29768,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Una stringa user-agent può identificare un utente?",
-          "a": "No. Riporta informazioni dichiarate dal cliente e può essere modificato o falsificato. Non deve essere trattato come un'identità affidabile o una credenziale di sicurezza."
+          "a": "No. Riporta informazioni dichiarate dal cliente e può essere modificato o falsificato. Non deve essere trattata come un'identità affidabile o una credenziale di sicurezza."
         }
       ],
       "visual": "code"
     },
     "word-character-counter": {
       "heroIntro": "Conta parole, caratteri, frasi, paragrafi e durata della lettura in tempo reale.",
-      "intro": "Conta parole, caratteri, frasi, paragrafi e durata della lettura in tempo reale. Ad esempio, usalo per controllare la durata di un saggio o di un compito. Può anche aiutarti a misurare la copia rispetto a un limite di caratteri. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
+      "intro": "Conta parole, caratteri, frasi, paragrafi e durata della lettura in tempo reale. Ad esempio, usalo per controllare la lunghezza di un saggio o di un compito. Può anche aiutarti a misurare la copia rispetto a un limite di caratteri. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questa utilità di testo è destinata ad attività ripetitive di pulizia, confronto, trasformazione o generazione in cui la modifica manuale è più lenta o più soggetta a errori.",
       "steps": [
         "Apri Contatore di parole e identifica il formato o i valori di input richiesti.",
@@ -29803,7 +29803,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -29834,8 +29834,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "text"
     },
     "text-case-converter": {
-      "heroIntro": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscole e minuscole e camelCase.",
-      "intro": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscole e minuscole e camelCase. Ad esempio, usalo per convertire i titoli in maiuscole e minuscole. Può anche aiutarti a normalizzare il testo importato in minuscolo. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
+      "heroIntro": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscolo e camelCase.",
+      "intro": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscolo e camelCase. Ad esempio, usalo per convertire i titoli in maiuscole e minuscole. Può anche aiutarti a normalizzare il testo importato in minuscolo. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questa utilità di testo è destinata ad attività ripetitive di pulizia, confronto, trasformazione o generazione in cui la modifica manuale è più lenta o più soggetta a errori.",
       "steps": [
         "Apri Convertitore maiuscole/minuscole e identifica il formato o i valori di input richiesti.",
@@ -29856,19 +29856,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Conserva il testo sorgente prima delle trasformazioni distruttive.",
         "Controlla gli spazi bianchi, la punteggiatura, i caratteri Unicode e le terminazioni di riga.",
         "Correggi l'output editoriale invece di fare affidamento solo sull'automazione.",
-        "Evita: modificare maiuscole e minuscole all'interno del codice o identificatori con distinzione tra maiuscole e minuscole.",
+        "Evitare: modificare maiuscole e minuscole all'interno del codice o identificatori con distinzione tra maiuscole e minuscole.",
         "Da evitare: aspettarsi una capitalizzazione perfetta in base alla lingua.",
         "Evitare: applicare una trasformazione senza mantenere l'originale."
       ],
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
           "q": "A cosa serve Convertitore maiuscole/minuscole?",
-          "a": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscole e minuscole e camelCase. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
+          "a": "Trasforma istantaneamente il testo in MAIUSCOLO, minuscolo, maiuscolo e camelCase. È progettato per un flusso di lavoro mirato in modo da poter completare l'attività senza installare un'utilità desktop separata. L'output esatto dipende dai valori, dai file o dal codice forniti."
         },
         {
           "q": "Come funziona Convertitore maiuscole/minuscole?",
@@ -29923,7 +29923,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -29983,7 +29983,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -30038,12 +30038,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Correggi l'output editoriale invece di fare affidamento solo sull'automazione.",
         "Da evitare: presupporre che l'output di Markdown sia automaticamente sicuro per ogni contesto.",
         "Da evitare: mescolare dialetti Markdown incompatibili.",
-        "Da evitare: saltare una revisione dell'output renderizzato."
+        "Evita: saltare una revisione dell'output renderizzato."
       ],
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -30096,14 +30096,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Conserva il testo sorgente prima delle trasformazioni distruttive.",
         "Controlla gli spazi bianchi, la punteggiatura, i caratteri Unicode e le terminazioni di riga.",
         "Correggi l'output editoriale invece di fare affidamento solo sull'automazione.",
-        "Evitare: utilizzare testo invertito dove i cluster di grafemi Unicode sono importanti.",
+        "Evitare: utilizzare testo invertito dove i cluster di grafemi Unicode contano.",
         "Da evitare: aspettarsi un'inversione consapevole del linguaggio.",
         "Evitare: sovrascrivere il testo di origine."
       ],
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -30135,7 +30135,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "text-diff-checker": {
       "heroIntro": "Confronta due blocchi di testo affiancati per evidenziare il testo aggiunto e quello rimosso.",
-      "intro": "Confronta due blocchi di testo affiancati per evidenziare il testo aggiunto e quello rimosso. Utilizzalo, ad esempio, per confrontare due versioni di documenti. Può anche aiutarti a rivedere un codice o una modifica alla configurazione. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
+      "intro": "Confronta due blocchi di testo affiancati per evidenziare il testo aggiunto e quello rimosso. Utilizzatelo, ad esempio, per confrontare due versioni di documenti. Può anche aiutarti a rivedere un codice o una modifica alla configurazione. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questa utilità di testo è destinata ad attività ripetitive di pulizia, confronto, trasformazione o generazione in cui la modifica manuale è più lenta o più soggetta a errori.",
       "steps": [
         "Apri Controllo differenze di testo e identifica il formato o i valori di input richiesti.",
@@ -30156,14 +30156,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Conserva il testo sorgente prima delle trasformazioni distruttive.",
         "Controlla gli spazi bianchi, la punteggiatura, i caratteri Unicode e le terminazioni di riga.",
         "Correggi l'output editoriale invece di fare affidamento solo sull'automazione.",
-        "Evitare: confrontare spazi bianchi normalizzati in modo diverso.",
+        "Da evitare: confrontare spazi bianchi normalizzati in modo diverso.",
         "Evitare: assumere che una differenza visiva dimostri l'equivalenza semantica.",
         "Evita: incollare contenuti riservati."
       ],
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -30223,7 +30223,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -30277,13 +30277,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Controlla gli spazi bianchi, la punteggiatura, i caratteri Unicode e le terminazioni di riga.",
         "Correggi l'output editoriale invece di fare affidamento solo sull'automazione.",
         "Da evitare: aspettarsi che script o contenuti nascosti diventino testo significativo.",
-        "Da evitare: rimuovere il markup senza preservare i collegamenti o la struttura richiesti.",
+        "Evitare: rimuovere il markup senza preservare i collegamenti o la struttura richiesti.",
         "Evitare: utilizzare testo rimosso come disinfettante sicuro senza convalidare il contesto di destinazione."
       ],
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -30343,7 +30343,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "Input molto grandi possono essere vincolati dalla memoria del browser.",
         "La trasformazione automatizzata del testo non comprende ogni contesto semantico.",
-        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo semplice."
+        "La formattazione RTF potrebbe non sopravvivere ai flussi di lavoro in testo normale."
       ],
       "faq": [
         {
@@ -30615,7 +30615,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "speed-velocity-converter": {
       "heroIntro": "Converti velocità in km/h, mph, metri al secondo, nodi e Mach.",
-      "intro": "Converti velocità in km/h, mph, metri al secondo, nodi e Mach. Ad esempio, utilizzalo per convertire km/h in mph per i viaggi. Può anche aiutarti a convertire i nodi per contesti marini o aeronautici. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
+      "intro": "Converti velocità in km/h, mph, metri al secondo, nodi e Mach. Ad esempio, usalo per convertire km/h in mph per i viaggi. Può anche aiutarti a convertire i nodi per contesti marini o aeronautici. Questa guida spiega cosa fa lo strumento, quando è utile, come utilizzarlo in modo efficace e le limitazioni pratiche che contano nei flussi di lavoro del mondo reale.",
       "why": "Questo flusso di lavoro di conversione fornisce una relazione diretta tra le unità definite ed è utile per lo studio, i viaggi, l'ingegneria, lo shopping, la scienza, il fitness e la pianificazione quotidiana.",
       "steps": [
         "Apri Convertitore di Velocità e identifica il formato o i valori di input richiesti.",
@@ -31095,7 +31095,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "lumpsum-calculator": {
       "heroIntro": "Stima dei rendimenti totali a scadenza sugli investimenti una tantum in fondi comuni di investimento.",
-      "intro": "Stima dei rendimenti totali a scadenza sugli investimenti una tantum in fondi comuni di investimento. Utilizzalo, ad esempio, per confrontare investimenti una tantum su diversi orizzonti. Può anche aiutarti a testare diversi tassi di rendimento presunti. Questa pagina combina la calcolatrice interattiva con spiegazioni pratiche, esempi, ipotesi ed errori comuni in modo che il risultato possa essere interpretato correttamente.",
+      "intro": "Stima dei rendimenti totali a scadenza sugli investimenti una tantum in fondi comuni di investimento. Ad esempio, usalo per confrontare investimenti una tantum su diversi orizzonti. Può anche aiutarti a testare diversi tassi di rendimento presunti. Questa pagina combina la calcolatrice interattiva con spiegazioni pratiche, esempi, ipotesi ed errori comuni in modo che il risultato possa essere interpretato correttamente.",
       "why": "Un calcolatore forfettario illustra come un investimento una tantum può cambiare nel tempo in base a un modello di rendimento e capitalizzazione presunto.",
       "steps": [
         "Inserisci i valori richiesti da Calcolatore Lumpsum utilizzando le unità visualizzate.",
@@ -31216,7 +31216,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "salary-calculator": {
       "heroIntro": "Stima lo stipendio mensile da portare a casa dalla retribuzione mensile lorda e dalle detrazioni inserite.",
       "intro": "Stima lo stipendio mensile da portare a casa dalla retribuzione mensile lorda e dalle detrazioni inserite. Ad esempio, utilizzalo per stimare il guadagno mensile dallo stipendio lordo. Può anche aiutarti a confrontare due strutture di compensazione. Questa pagina combina la calcolatrice interattiva con spiegazioni pratiche, esempi, ipotesi ed errori comuni in modo che il risultato possa essere interpretato correttamente.",
-      "why": "Un calcolatore salariale traduce il compenso lordo in una stima di pianificazione della retribuzione mensile da portare a casa.",
+      "why": "Un calcolatore dello stipendio traduce il compenso lordo in una stima di pianificazione della retribuzione mensile da portare a casa.",
       "steps": [
         "Inserisci i valori richiesti da Calcolatore Stipendio utilizzando le unità visualizzate.",
         "Scegli ipotesi realistiche per l'aliquota, la durata, la frequenza, l'imposta o il programma di contribuzione rilevanti per questo calcolo.",
@@ -31815,7 +31815,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "discount-calculator": {
       "heroIntro": "Calcola l'importo dello sconto e il prezzo finale a partire dal prezzo originale e dal tasso di sconto.",
-      "intro": "Calcola l'importo dello sconto e il prezzo finale a partire dal prezzo originale e dal tasso di sconto. Ad esempio, utilizzalo per calcolare i risparmi sulle vendite. Può anche aiutarti a confrontare diverse percentuali di sconto. Questa pagina combina la calcolatrice interattiva con spiegazioni pratiche, esempi, ipotesi ed errori comuni in modo che il risultato possa essere interpretato correttamente.",
+      "intro": "Calcola l'importo dello sconto e il prezzo finale a partire dal prezzo originale e dal tasso di sconto. Utilizzalo, ad esempio, per calcolare i risparmi sulle vendite. Può anche aiutarti a confrontare diverse percentuali di sconto. Questa pagina combina la calcolatrice interattiva con spiegazioni pratiche, esempi, ipotesi ed errori comuni in modo che il risultato possa essere interpretato correttamente.",
       "why": "Un calcolatore di sconto separa la percentuale pubblicizzata dall'importo risparmiato e dal prezzo finale.",
       "steps": [
         "Inserisci i valori richiesti da Calcolatore di sconti utilizzando le unità visualizzate.",
@@ -31832,7 +31832,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Trova il prezzo finale prima di tasse o commissioni aggiuntive."
       ],
       "tips": [
-        "Controlla se gli sconti multipli sono sequenziali.",
+        "Controlla se più sconti sono sequenziali.",
         "Includi tasse o commissioni separatamente.",
         "Non confondere lo sconto percentuale con la variazione in punti percentuali.",
         "Evitare: applicare sconti multipli come semplice aggiunta.",
@@ -31894,7 +31894,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Decidi se la mancia viene calcolata prima o dopo le tasse.",
         "Controlla l'arrotondamento quando dividi una fattura.",
-        "Trattare le regole locali relative ai costi di servizio separatamente dalle mance volontarie.",
+        "Trattare le regole locali sui costi di servizio separatamente dalle mance volontarie.",
         "Evitare: calcolare la mancia sulla base sbagliata.",
         "Evita: ignorare un costo di servizio già aggiunto.",
         "Evitare: arrotondamenti non uniformi durante la divisione del totale."
@@ -31992,7 +31992,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Orari della camera da letto o della scrivania"
       ],
       "tips": [
-        "Utilizza nomi di soggetto brevi e una citazione preferita.",
+        "Usa nomi di soggetti brevi e una citazione preferita.",
         "Stampalo per una scrivania o un muro."
       ],
       "limitations": [
@@ -32036,7 +32036,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "Prenota alcuni blocchi per la revisione.",
-        "Utilizza nomi di soggetti coerenti."
+        "Utilizza nomi di soggetto coerenti."
       ],
       "limitations": [
         "Questo è un modello di pianificazione e non conosce i vincoli reali dell'insegnante, dell'aula, del personale, degli esami, dei medici o del posto di lavoro.",
@@ -32419,7 +32419,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Crea un semplice orario per i bambini con la scuola, i compiti, il gioco, la lettura, le attività creative, il tempo in famiglia e la routine. Crea un programma settimanale a misura di bambino per la scuola, i compiti, il gioco, la lettura e il tempo in famiglia. Aggiungi il titolo del tuo programma, una nota personale e una citazione, quindi modifica ogni cella generata prima di scaricarla o stamparla.",
       "why": "Crea un programma settimanale a misura di bambino per la scuola, i compiti, il gioco, la lettura e il tempo in famiglia.",
       "steps": [
-        "Scegli i giorni e i periodi di tempo del bambino.",
+        "Scegli i giorni e i periodi orari del bambino.",
         "Imposta nomi semplici per le attività.",
         "Aggiungi una nota allegra o un promemoria.",
         "Genera e stampa il programma."
@@ -33544,15 +33544,15 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "ファイルを読み取り順に並べます。最初に表紙または序文を配置し、次に主要文書、次に付録または裏付けとなる証拠を配置します。正しい順序は、PDF を受け取る個人または組織からの指示によって異なります。",
         "PDF 結合 オペレーションを開始します。選択したファイルとその順序を確認した後、マージを実行します。処理時間は、ページ数、埋め込み画像、ファイル サイズ、ブラウザのメモリ、デバイスのパフォーマンスによって異なります。",
         "結合された PDF をダウンロードします。結合したファイルを、application-documents.pdf やmonthly-invoices.pdf など、目的を説明したわかりやすい名前で保存します。",
-        "PDF リーダーで出力を開きます。ダウンロードが完了することだけを信頼しないでください。最初のページ、最後のページ、ページ数、順序、方向、および特に重要なページを確認してください。",
-        "テキストとドキュメントの機能を確認します。テキストが予想どおりに読みやすく選択可能であること、画像が正しく表示されること、重要な注釈、署名、フォーム、またはブックマークが存在することを確認します。",
+        "PDF リーダーで出力を開きます。ダウンロードが完了することだけを信頼しないでください。最初のページ、最後のページ、ページ数、順序、向き、特に重要なページを確認してください。",
+        "テキストとドキュメントの機能を確認します。テキストが読みやすく、期待どおりに選択できること、画像が正しく表示されること、重要な注釈、署名、フォーム、またはブックマークが存在することを確認します。",
         "検証されたファイルを共有または送信します。受信側ポータルのファイル サイズ、名前、ページ順序、ドキュメント形式の要件に従ってください。結合されたファイルが承認され、不要になったことがわかるまで、元の PDF を保管してください。"
       ],
       "useCases": [
         "求人応募書: 雇用主が 1 つの添付ファイルを要求した場合、履歴書、カバーレター、経験レター、教育証明書を 1 つの PDF に結合します。",
         "大学および学校の提出物: 課題、表紙、参考文献、補足ページを 1 つの整理された文書に結合します。",
-        "請求書と会計: 月またはプロジェクトの請求書、領収書、注文書、明細書を 1 つのレコードに結合します。",
-        "スキャンされた書類: 個別にスキャンしたページまたはセクションを 1 つのファイルに結合して、確認と保管を容易にします。",
+        "請求書と会計: 月またはプロジェクトの請求書、領収書、注文書、または明細書を 1 つのレコードに結合します。",
+        "スキャンされた書類: 個別にスキャンしたページまたはセクションを 1 つのファイルに結合して、レビューと保管を容易にします。",
         "ビジネスレポート: エグゼクティブサマリー、レポート、グラフ、付録を正しい順序でまとめます。",
         "法的または行政上の事務処理: 受信者の特定の提出ルールに従い、原本を保存しながら、関連するフォームと補足文書をまとめます。",
         "調査と研究: 許可されている場合は、読書ノート、論文セクション、および参考資料を個人用の研究用コピーに結合します。",
@@ -33576,9 +33576,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "結合された PDF には、選択したすべてのドキュメントのコンテンツが含まれるため、個々のソース ファイルよりも大きくなる可能性があります。マージは保証された圧縮方法ではありません。",
-        "暗号化、権限、デジタル署名、インタラクティブなフォーム、ブックマーク、注釈、または特殊な埋め込みメディアが含まれる PDF ファイルでは、すべての機能がまったく同じ方法で保持されるわけではない可能性があります。",
+        "暗号化、権限、デジタル署名、インタラクティブ フォーム、ブックマーク、注釈、または特殊な埋め込みメディアが含まれる PDF ファイルでは、すべての機能がまったく同じ方法で保持されるわけではない可能性があります。",
         "スキャンした PDF を結合しても、スキャン内のテキストは自動的に認識されません。 OCR は別のプロセスであり、検索可能なテキストに必要になる場合があります。",
-        "非常に大きな PDF やスキャンされた高解像度のページが多数ある場合は、使用可能なブラウザーのメモリ、デバイスのストレージ、処理パフォーマンスによって制限される可能性があります。",
+        "非常に大きな PDF や高解像度でスキャンされたページが多数ある場合は、使用可能なブラウザーのメモリ、デバイスのストレージ、処理パフォーマンスによって制限される可能性があります。",
         "異なるページの寸法と方向が出力に混在したままになる場合があります。文書を印刷または送信する前に確認してください。",
         "マージでは、不鮮明なスキャン、ページの欠落、誤った情報、読めないテキストなど、ソース PDF にすでに存在する間違いを修正することはできません。",
         "結合されたファイルは、受信側 Web サイトがそれを受け入れることを保証しません。アップロード制限、ファイル ポリシー、命名規則、および必要なドキュメントの順序は、受信側の組織によって制御されます。"
@@ -33593,7 +33593,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "はい。結合を開始する前に、選択した PDF を配置します。一般的な順序は、表紙、メイン文書、サポート資料ですが、特定のアプリケーション、レポート、またはアップロード ポータルの指示に従ってください。"
         },
         {
-          "q": "ソフトウェアをインストールせずに PDF ファイルを無料で結合できますか?",
+          "q": "ソフトウェアをインストールせずに無料で PDF ファイルを結合できますか?",
           "a": "Toolployee はブラウザベースの PDF 結合 ワークフローを提供するため、別のデスクトップ PDF マージをインストールしなくてもページを使用できます。実際の処理制限は、ブラウザ、デバイス、ファイル サイズによって異なります。"
         },
         {
@@ -33610,11 +33610,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFを結合するとファイルサイズは小さくなりますか?",
-          "a": "必ずしもそうとは限りません。結合された PDF には、選択したファイルのコンテンツが含まれており、1 つのソース ファイルよりも大きい場合があります。より小さい添付ファイルが必要な場合は、PDF 圧縮ワークフローを使用し、後で出力品質を確認してください。"
+          "a": "必ずしもそうとは限りません。結合された PDF には、選択したファイルのコンテンツが含まれており、1 つのソース ファイルよりも大きくなる場合があります。より小さい添付ファイルが必要な場合は、PDF 圧縮ワークフローを使用し、後で出力品質を確認してください。"
         },
         {
           "q": "A4 とレターなど、異なるページ サイズの PDF を結合できますか?",
-          "a": "通常、ページ寸法が異なる PDF は結合でき、結果として得られるドキュメントにはサイズが混在する場合があります。ドキュメントが特定の用紙サイズに従う必要がある場合は、ページと印刷設定を確認してください。"
+          "a": "通常、ページサイズが異なる PDF は結合でき、結果として得られるドキュメントにはサイズが混在する場合があります。ドキュメントが特定の用紙サイズに従う必要がある場合は、ページと印刷設定を確認してください。"
         },
         {
           "q": "PDF を縦向きおよび横向きのページと結合できますか?",
@@ -33646,7 +33646,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "機密 PDF ドキュメントをオンラインで結合しても安全ですか?",
-          "a": "機密文書を使用する前に、処理を許可されているファイルのみを処理し、サービスのプライバシーとファイル処理情報を確認してください。機密性の高い資料や規制されている資料については、組織の承認された文書処理ポリシーに従ってください。"
+          "a": "機密文書を使用する前に、処理を許可されているファイルのみを処理し、サービスのプライバシーおよびファイル処理情報を確認してください。機密性の高い資料や規制されている資料については、組織の承認された文書処理ポリシーに従ってください。"
         },
         {
           "q": "結合された PDF が開かない場合はどうすればよいですか?",
@@ -33702,7 +33702,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 分割 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDF 分割 にはアカウントやインストールが必要ですか?",
@@ -33762,7 +33762,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFからJPGへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDFからJPGへの変換 にはアカウントやインストールが必要ですか?",
@@ -33804,7 +33804,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "機密ファイルの場合は、明示的にサポートされているブラウザ側の処理を優先し、不必要なシークレットを入力しないでください。",
         "避けてください: 画像を間違った順序でアップロードします。",
         "避けてください: ページの向きや縦横比を無視します。",
-        "避けてください: 結果の PDF サイズを確認せずに、非常に大きなソース画像を使用すること。"
+        "避けてください: 結果の PDF サイズを確認せずに非常に大きなソース画像を使用すること。"
       ],
       "limitations": [
         "非常に大きいドキュメントや複雑なドキュメントは、ブラウザのメモリによって制限される可能性があります。",
@@ -33822,7 +33822,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JPGからPDFへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "JPGからPDFへの変換 にはアカウントやインストールが必要ですか?",
@@ -33882,7 +33882,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF保護 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDF保護 にはアカウントやインストールが必要ですか?",
@@ -33942,7 +33942,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFロック解除 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDFロック解除 にはアカウントやインストールが必要ですか?",
@@ -33970,7 +33970,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールせずに、一回限りの PDF 回転タスクをすばやく実行します。",
+        "別のユーティリティをインストールせずに、1 回限りの PDF 回転タスクをすばやく実行します。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -34002,7 +34002,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF回転 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDF回転 にはアカウントやインストールが必要ですか?",
@@ -34062,7 +34062,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 圧縮 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDF 圧縮 にはアカウントやインストールが必要ですか?",
@@ -34122,7 +34122,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFにページ番号を追加 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDFにページ番号を追加 にはアカウントやインストールが必要ですか?",
@@ -34182,7 +34182,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFからWordへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDFからWordへの変換 にはアカウントやインストールが必要ですか?",
@@ -34200,8 +34200,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "word-to-pdf": {
-      "heroIntro": "Microsoft Word 文書 (DOCX、DOC) を標準の PDF ファイルに変換します。",
-      "intro": "Microsoft Word 文書 (DOCX、DOC) を標準の PDF ファイルに変換します。たとえば、共有用の固定レイアウトのドキュメントを作成するために使用します。また、提出または印刷のために DOCX を準備するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
+      "heroIntro": "Microsoft Word ドキュメント (DOCX、DOC) を標準の PDF ファイルに変換します。",
+      "intro": "Microsoft Word ドキュメント (DOCX、DOC) を標準の PDF ファイルに変換します。たとえば、共有用の固定レイアウトのドキュメントを作成するために使用します。また、提出または印刷のために DOCX を準備するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この PDF ワークフローは、ソースを準備し、操作を適用し、出力を確認し、要件を満たしている場合にのみ結果を保存するという、ドキュメント タスクに焦点を当てて設計されています。",
       "steps": [
         "WordからPDFへの変換 を開き、必要な入力形式または値を特定します。",
@@ -34210,7 +34210,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、1 回限りの Word から PDF へのコンバータータスクを素早く実行できます。",
+        "別のユーティリティをインストールせずに、1 回限りの Word から PDF へのコンバータータスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -34234,7 +34234,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "WordからPDFへの変換 は何に使用されますか?",
-          "a": "Microsoft Word 文書 (DOCX、DOC) を標準の PDF ファイルに変換します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
+          "a": "Microsoft Word ドキュメント (DOCX、DOC) を標準の PDF ファイルに変換します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
           "q": "WordからPDFへの変換 はどのように機能しますか?",
@@ -34242,7 +34242,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "WordからPDFへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "WordからPDFへの変換 にはアカウントやインストールが必要ですか?",
@@ -34302,7 +34302,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFのページを削除 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDFのページを削除 にはアカウントやインストールが必要ですか?",
@@ -34330,7 +34330,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、PDF ページの並べ替えタスクを 1 回限りで簡単に実行できます。",
+        "別のユーティリティをインストールせずに、PDF ページの並べ替えタスクを 1 回限りで簡単に実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -34362,7 +34362,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFのページを並べ替え は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDFのページを並べ替え にはアカウントやインストールが必要ですか?",
@@ -34374,7 +34374,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "並べ替えるとページの内容は変わりますか?",
-          "a": "意図した操作は、ページの内容を書き換えるのではなく、ページの順序を変更します。出力の回転、注釈、その他の PDF 機能を確認します。"
+          "a": "意図された操作は、ページの内容を書き換えるのではなく、ページの順序を変更します。出力の回転、注釈、その他の PDF 機能を確認します。"
         }
       ],
       "visual": "workflow"
@@ -34422,7 +34422,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDFをグレースケールに変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PDFをグレースケールに変換 にはアカウントやインストールが必要ですか?",
@@ -34434,7 +34434,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF をグレースケールに変換する理由は何ですか?",
-          "a": "グレースケールは、モノクロ印刷やカラーが不要なワークフローのドキュメントを簡素化できますが、色ベースの区別を取り除くことができます。"
+          "a": "Grayscale can simplify documents for monochrome printing or workflows where color is unnecessary, but it can remove color-based distinctions."
         }
       ],
       "visual": "workflow"
@@ -34482,7 +34482,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像をオンラインで圧縮 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像をオンラインで圧縮 にはアカウントやインストールが必要ですか?",
@@ -34510,7 +34510,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、オンラインで 1 回限りの画像トリミング タスクをすばやく実行できます。",
+        "別のユーティリティをインストールすることなく、オンラインで簡単に 1 回限りの画像切り抜きタスクを実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -34542,7 +34542,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像をオンラインでトリミング は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像をオンラインでトリミング にはアカウントやインストールが必要ですか?",
@@ -34570,7 +34570,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールせずに、オンラインで画像のサイズを変更する 1 回限りのタスクをすばやく実行できます。",
+        "別のユーティリティをインストールすることなく、オンラインで画像のサイズ変更を一度限り簡単に実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -34602,7 +34602,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像をオンラインでリサイズ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像をオンラインでリサイズ にはアカウントやインストールが必要ですか?",
@@ -34630,7 +34630,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、WebP から PNG への 1 回限りのコンバーター タスクをすばやく実行できます。",
+        "別のユーティリティをインストールすることなく、WebP から PNG への 1 回限りのコンバータ タスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -34662,7 +34662,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "WebPからPNGへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "WebPからPNGへの変換 にはアカウントやインストールが必要ですか?",
@@ -34673,7 +34673,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
-          "q": "WebP から PNG への変換は透明性を維持しますか?",
+          "q": "WebP から PNG への変換は透明度を維持しますか?",
           "a": "ソースにサポートされている透明度が含まれている場合、変換はそれを PNG で保存するように設計されています。"
         }
       ],
@@ -34722,7 +34722,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "WebPからJPGへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "WebPからJPGへの変換 にはアカウントやインストールが必要ですか?",
@@ -34733,7 +34733,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "元の入力と出力を比較し、意図した変換が行われたことを確認し、実稼働ワークフローで結果を公開、送信、送信、または使用する前に重要な詳細を確認します。"
         },
         {
-          "q": "WebP から JPG への変換は透明性を維持しますか?",
+          "q": "WebPからJPGへ変換すると透明性が保たれますか?",
           "a": "JPG は透明度をサポートしていません。したがって、透明な領域は、変換中に背景に対して表現する必要があります。"
         }
       ],
@@ -34750,7 +34750,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、png から jpg への 1 回限りのコンバーター タスクをすばやく実行できます。",
+        "別のユーティリティをインストールせずに、1 回限りの png から jpg へのコンバータータスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -34782,7 +34782,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PNGからJPGへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "PNGからJPGへの変換 にはアカウントやインストールが必要ですか?",
@@ -34823,7 +34823,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "透明度、圧縮、互換性、および使用目的に基づいて出力形式を選択します。",
         "実際の表示サイズで結果をプレビューします。",
         "避けてください: 変換後に JPG アーティファクトが消えることが予想されます。",
-        "避けてください: 変換によりソースの品質が向上すると想定します。",
+        "避けてください: 変換によりソースの品質が高くなるものと想定します。",
         "避けてください: ファイル サイズを優先する場合は PNG を使用してください。"
       ],
       "limitations": [
@@ -34842,7 +34842,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JPGからPNGへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "JPGからPNGへの変換 にはアカウントやインストールが必要ですか?",
@@ -34902,7 +34902,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "SVGからPNGへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "SVGからPNGへの変換 にはアカウントやインストールが必要ですか?",
@@ -34962,7 +34962,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像を白黒に変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像を白黒に変換 にはアカウントやインストールが必要ですか?",
@@ -35022,7 +35022,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像の色を反転 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像の色を反転 にはアカウントやインストールが必要ですか?",
@@ -35050,7 +35050,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、画像の一回限りの反転および回転タスクをすばやく実行できます。",
+        "別のユーティリティをインストールせずに、画像の 1 回限りの反転および回転タスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -35082,7 +35082,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像を反転・回転 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像を反転・回転 にはアカウントやインストールが必要ですか?",
@@ -35142,7 +35142,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "QRコードジェネレーター は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "QRコードジェネレーター にはアカウントやインストールが必要ですか?",
@@ -35170,7 +35170,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、1 回限りのぼかし画像オンライン タスクをすばやく実行できます。",
+        "別のユーティリティをインストールせずに、1 回限りのぼかし画像オンライン タスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -35202,7 +35202,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像をオンラインでぼかす は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像をオンラインでぼかす にはアカウントやインストールが必要ですか?",
@@ -35262,7 +35262,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "画像カラーパレット生成 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "画像カラーパレット生成 にはアカウントやインストールが必要ですか?",
@@ -35290,7 +35290,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、1 回限りのオンライン Python コンパイラ タスクを迅速に実行できます。",
+        "別のユーティリティをインストールせずに、1 回限りのオンライン Python コンパイラ タスクを迅速に実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -35301,7 +35301,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "避けてください: すべてのサードパーティ パッケージが利用可能であることを期待します。",
         "回避: 資格情報をコードに貼り付ける。",
         "避けてください: サンドボックスの動作が本番環境と一致すると仮定します。"
@@ -35322,7 +35322,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインPythonコンパイラ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインPythonコンパイラ にはアカウントやインストールが必要ですか?",
@@ -35361,7 +35361,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "避けてください: ブラウザー API がすべての実行コンテキストに存在すると仮定します。",
         "避けてください: サーバー専用コードとブラウザ専用コードを混在させてください。",
         "避けてください: シークレットをスニペットに貼り付けること。"
@@ -35382,7 +35382,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインJavaScriptコンパイラ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインJavaScriptコンパイラ にはアカウントやインストールが必要ですか?",
@@ -35400,8 +35400,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "online-html-editor": {
-      "heroIntro": "分割画面 DOM プレビューを備えたライブインタラクティブな HTML、CSS、JavaScript エディター。",
-      "intro": "分割画面 DOM プレビューを備えたライブインタラクティブな HTML、CSS、JavaScript エディター。たとえば、ランディング ページ コンポーネントのプロトタイプを作成するために使用します。 CSS レイアウトの変更をテストするのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
+      "heroIntro": "分割画面の DOM プレビューを備えたライブインタラクティブな HTML、CSS、JavaScript エディター。",
+      "intro": "分割画面の DOM プレビューを備えたライブインタラクティブな HTML、CSS、JavaScript エディター。たとえば、ランディング ページ コンポーネントのプロトタイプを作成するために使用します。 CSS レイアウトの変更をテストするのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "このコーディング ワークスペースは、学習、デバッグ、構文チェック、再現可能な小さな例に役立ちます。実行モデルは言語によって異なるため、運用環境ではなく開発サンドボックスとして扱う必要があります。",
       "steps": [
         "オンラインHTMLエディタ を開き、必要な入力形式または値を特定します。",
@@ -35421,7 +35421,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "避けてください: プレビューで使用できない外部アセットの使用。",
         "避けてください: 応答的な動作を忘れます。",
         "避けてください: プロトタイプを運用準備ができたコードとして扱うこと。"
@@ -35434,7 +35434,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "オンラインHTMLエディタ は何に使用されますか?",
-          "a": "分割画面 DOM プレビューを備えたライブインタラクティブな HTML、CSS、JavaScript エディター。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
+          "a": "分割画面の DOM プレビューを備えたライブインタラクティブな HTML、CSS、JavaScript エディター。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
           "q": "オンラインHTMLエディタ はどのように機能しますか?",
@@ -35442,7 +35442,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインHTMLエディタ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインHTMLエディタ にはアカウントやインストールが必要ですか?",
@@ -35481,7 +35481,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "避けてください: 利用できないライブラリに依存すること。",
         "避けてください: コンパイラのバージョンの違いを無視します。",
         "避けてください: 運用システムからの仮定を使用した安全でないコードの使用。"
@@ -35502,7 +35502,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインC++コンパイラ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインC++コンパイラ にはアカウントやインストールが必要ですか?",
@@ -35514,7 +35514,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンライン C++ コンパイラーは面接の練習に適していますか?",
-          "a": "これは、短いコーディングの練習やアルゴリズムの練習に役立ちますが、タスクが特定の標準に依存する場合は、正確なコンパイラーのバージョンと環境を確認する必要があります。"
+          "a": "これは、短いコーディングの練習やアルゴリズムの練習に役立ちますが、タスクが特定の標準に依存する場合は、正確なコンパイラのバージョンと環境を確認する必要があります。"
         }
       ],
       "visual": "code"
@@ -35530,7 +35530,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、1 回限りのオンライン Java コンパイラ タスクを迅速に実行できます。",
+        "別のユーティリティをインストールすることなく、簡単な 1 回限りのオンライン Java コンパイラ タスクを実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -35541,7 +35541,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "回避: すべての Maven 依存関係が存在すると仮定します。",
         "回避: 構成された Java バージョンを無視します。",
         "避けてください: プライベート アプリケーション コードまたは資格情報を貼り付けること。"
@@ -35562,7 +35562,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインJavaコンパイラ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインJavaコンパイラ にはアカウントやインストールが必要ですか?",
@@ -35601,7 +35601,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "回避: すべての .NET パッケージが利用可能であると仮定します。",
         "避けてください: ランタイム/バージョンの違いを無視します。",
         "避けてください: サンプル コードで本番環境のシークレットを使用すること。"
@@ -35622,7 +35622,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインC#コンパイラ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインC#コンパイラ にはアカウントやインストールが必要ですか?",
@@ -35661,7 +35661,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "避けてください: 完全な Web サーバー環境が期待されます。",
         "回避: 拡張機能がインストールされていると仮定します。",
         "避けてください: データベースのパスワードまたは API キーを貼り付けます。"
@@ -35682,7 +35682,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインPHPコンパイラ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインPHPコンパイラ にはアカウントやインストールが必要ですか?",
@@ -35716,12 +35716,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
         "小さなテーブルを作成し、SELECT クエリをテストします。",
         "結合とフィルターを練習します。",
-        "サンプル データの SQL 変換を検証します。"
+        "サンプル データの SQL 変換を確認します。"
       ],
       "tips": [
         "再現可能な小さな例から始めます。",
         "最初のコンパイラまたはランタイム エラーを注意深く読んでください。",
-        "API キー、パスワード、プライベート トークン、実稼働認証情報は決して貼り付けないでください。",
+        "API キー、パスワード、プライベート トークン、実稼働認証情報を決して貼り付けないでください。",
         "避けてください: 運用環境の認証情報またはデータの使用。",
         "避けてください: すべてのデータベース ベンダーが同一の SQL 構文を使用していると仮定します。",
         "避けてください: トランザクションまたはスキーマの前提条件を忘れます。"
@@ -35742,7 +35742,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "オンラインSQLエディタ は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "オンラインSQLエディタ にはアカウントやインストールが必要ですか?",
@@ -35760,8 +35760,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "json-formatter-validator": {
-      "heroIntro": "構文の強調表示を使用して、乱雑な JSON データ文字列を整形、フォーマット、検証、および縮小します。",
-      "intro": "構文の強調表示を使用して、乱雑な JSON データ文字列を整形、フォーマット、検証、および縮小します。たとえば、API 応答を整形して表示するために使用します。構成ファイルをコミットする前に JSON を検証するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
+      "heroIntro": "構文の強調表示を使用して、乱雑な JSON データ文字列を整形、フォーマット、検証、縮小します。",
+      "intro": "構文の強調表示を使用して、乱雑な JSON データ文字列を整形、フォーマット、検証、縮小します。たとえば、API 応答を整形して表示するために使用します。構成ファイルをコミットする前に JSON を検証するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この開発者ユーティリティは、API 作業、デバッグ、フロントエンドまたはバックエンドの開発、テスト、データ準備中によく現れる反復可能なワークフローを対象としています。",
       "steps": [
         "JSONフォーマッター・バリデーター を開き、必要な入力形式または値を特定します。",
@@ -35770,7 +35770,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、1 回限りの JSON フォーマッタおよびバリデータのタスクを迅速に実行できます。",
+        "別のユーティリティをインストールすることなく、1 回限りの JSON フォーマッタとバリデータのタスクを迅速に実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -35794,7 +35794,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "JSONフォーマッター・バリデーター は何に使用されますか?",
-          "a": "構文の強調表示を使用して、乱雑な JSON データ文字列を整形、フォーマット、検証、および縮小します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
+          "a": "構文の強調表示を使用して、乱雑な JSON データ文字列を整形、フォーマット、検証、縮小します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
           "q": "JSONフォーマッター・バリデーター はどのように機能しますか?",
@@ -35802,7 +35802,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JSONフォーマッター・バリデーター は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "JSONフォーマッター・バリデーター にはアカウントやインストールが必要ですか?",
@@ -35844,7 +35844,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "本番環境の秘密や顧客の個人データは決して貼り付けないでください。",
         "避けてください: Base64 を暗号化として扱うこと。",
         "回避: URL セーフと標準 Base64 の混同。",
-        "避けてください: シークレットをエンコードし、結果が保護されていると想定すること。"
+        "避けてください: シークレットをエンコードし、その結果が保護されていると想定すること。"
       ],
       "limitations": [
         "出力は、ツールでサポートされている構文とルールに従います。",
@@ -35862,7 +35862,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Base64 エンコード・デコード は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "Base64 エンコード・デコード にはアカウントやインストールが必要ですか?",
@@ -35922,7 +35922,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "URL Slug生成 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "URL Slug生成 にはアカウントやインストールが必要ですか?",
@@ -35941,7 +35941,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "html-entity-encoder": {
       "heroIntro": "特殊記号と予約文字を、対応する HTML エンティティに変換します。",
-      "intro": "特殊記号と予約文字を、対応する HTML エンティティに変換します。たとえば、予約された HTML 文字をエンコードするために使用します。また、マークアップ用にアンパサンドや山括弧を含むテキストを準備するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
+      "intro": "特殊記号と予約文字を、対応する HTML エンティティに変換します。たとえば、予約された HTML 文字をエンコードするために使用します。また、マークアップ用にアンパサンドや山かっこを含むテキストを準備するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この開発者ユーティリティは、API 作業、デバッグ、フロントエンドまたはバックエンドの開発、テスト、データ準備中によく現れる反復可能なワークフローを対象としています。",
       "steps": [
         "HTML Entity Encoder を開き、必要な入力形式または値を特定します。",
@@ -35982,7 +35982,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "HTML Entity Encoder は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "HTML Entity Encoder にはアカウントやインストールが必要ですか?",
@@ -36010,7 +36010,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールせずに、1 回限りの CSS ミニファイアー タスクをすばやく実行できます。",
+        "別のユーティリティをインストールすることなく、1 回限りの CSS ミニファイアー タスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -36023,7 +36023,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "テスト中にエッジケースや不正な入力を含めます。",
         "本番環境の秘密や顧客の個人データは決して貼り付けないでください。",
         "避けてください: 読み取り可能なオリジナルを保持せずにソース コードを縮小します。",
-        "避けてください: 縮小すると無効な CSS が修正されると想定します。",
+        "回避: 縮小すると無効な CSS が修正されると想定します。",
         "避けてください: 開発ワークフローでソース マップを無視します。"
       ],
       "limitations": [
@@ -36042,7 +36042,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "CSS Minifier は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "CSS Minifier にはアカウントやインストールが必要ですか?",
@@ -36102,7 +36102,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Unix Timestamp変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "Unix Timestamp変換ツール にはアカウントやインストールが必要ですか?",
@@ -36162,7 +36162,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "HEXからRGBへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "HEXからRGBへの変換 にはアカウントやインストールが必要ですか?",
@@ -36181,7 +36181,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "url-component-encoder-decoder": {
       "heroIntro": "URL クエリ文字列と URI パラメータを安全にエンコードまたはデコードします。",
-      "intro": "URL クエリ文字列と URI パラメータを安全にエンコードまたはデコードします。たとえば、クエリ パラメーターを安全にエンコードするために使用します。また、デバッグ中にパーセントでエンコードされたテキストをデコードするのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
+      "intro": "URL クエリ文字列と URI パラメータを安全にエンコードまたはデコードします。たとえば、クエリ パラメータを安全にエンコードするために使用します。また、デバッグ中にパーセントでエンコードされたテキストをデコードするのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この開発者ユーティリティは、API 作業、デバッグ、フロントエンドまたはバックエンドの開発、テスト、データ準備中によく現れる反復可能なワークフローを対象としています。",
       "steps": [
         "URLエンコード・デコード を開き、必要な入力形式または値を特定します。",
@@ -36222,7 +36222,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "URLエンコード・デコード は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "URLエンコード・デコード にはアカウントやインストールが必要ですか?",
@@ -36250,7 +36250,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、1 回限りの jwt デコーダ タスクを迅速に実行できます。",
+        "別のユーティリティをインストールせずに、1 回限りの jwt デコーダ タスクを迅速に実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -36282,7 +36282,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JWT Decoder は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "JWT Decoder にはアカウントやインストールが必要ですか?",
@@ -36342,7 +36342,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "UUIDジェネレーター は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "UUIDジェネレーター にはアカウントやインストールが必要ですか?",
@@ -36402,7 +36402,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "ランダムパスワード生成ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "ランダムパスワード生成ツール にはアカウントやインストールが必要ですか?",
@@ -36462,7 +36462,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "User Agent解析 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "User Agent解析 にはアカウントやインストールが必要ですか?",
@@ -36522,7 +36522,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "文字数・単語数カウンター は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "文字数・単語数カウンター にはアカウントやインストールが必要ですか?",
@@ -36582,7 +36582,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "文字の大文字・小文字変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "文字の大文字・小文字変換 にはアカウントやインストールが必要ですか?",
@@ -36642,7 +36642,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "重複行を削除 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "重複行を削除 にはアカウントやインストールが必要ですか?",
@@ -36702,7 +36702,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Lorem Ipsum生成 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "Lorem Ipsum生成 にはアカウントやインストールが必要ですか?",
@@ -36762,7 +36762,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "MarkdownからHTMLへの変換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "MarkdownからHTMLへの変換 にはアカウントやインストールが必要ですか?",
@@ -36780,7 +36780,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "text"
     },
     "reverse-text-mirror-tool": {
-      "heroIntro": "逆方向のテキスト効果を使用して、文字列の文字または語順を反転します。",
+      "heroIntro": "逆向きのテキスト効果を使用して、文字列文字または語順を反転します。",
       "intro": "逆方向のテキスト効果を使用して、文字列の文字または語順を反転します。たとえば、テストのために文字列を反転するために使用します。また、テキスト実験で語順を逆にするのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "このテキスト ユーティリティは、手動編集では時間がかかる、またはエラーが発生しやすい、クリーンアップ、比較、変換、または生成タスクを繰り返すことを目的としています。",
       "steps": [
@@ -36803,7 +36803,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "空白、句読点、Unicode 文字、行末を確認してください。",
         "自動化だけに頼るのではなく、公開出力を校正します。",
         "避けてください: Unicode 書記素クラスタが重要な場合は、反転テキストを使用します。",
-        "回避: 言語を意識した逆転が予想されます。",
+        "回避: 言語を意識した逆転が期待されます。",
         "避けてください: ソース テキストの上書き。"
       ],
       "limitations": [
@@ -36822,7 +36822,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "テキスト反転生成 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "テキスト反転生成 にはアカウントやインストールが必要ですか?",
@@ -36882,7 +36882,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "テキスト差分チェッカー は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "テキスト差分チェッカー にはアカウントやインストールが必要ですか?",
@@ -36942,7 +36942,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "アルファベット順ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "アルファベット順ツール にはアカウントやインストールが必要ですか?",
@@ -37002,7 +37002,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "HTMLタグを削除 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "HTMLタグを削除 にはアカウントやインストールが必要ですか?",
@@ -37030,7 +37030,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、テキストの検索と置換の 1 回限りのタスクをすばやく実行できます。",
+        "別のユーティリティをインストールすることなく、1 回限りのテキストの検索と置換タスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -37062,7 +37062,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "検索と置換 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "検索と置換 にはアカウントやインストールが必要ですか?",
@@ -37104,7 +37104,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "規制された作業またはエンジニアリング作業の場合は、必要な規格を確認してください。",
         "避けてください: 1 回の計算で単位を混合する。",
         "避けてください: 最終的な単位スケールを適用する前に、変換された長さを丸めます。",
-        "避けてください: 検証せずにコンテキスト固有の調査またはエンジニアリング標準に変換を使用することは避けてください。"
+        "避けてください: 検証せずに、コンテキスト固有の調査またはエンジニアリング標準に変換を使用することは避けてください。"
       ],
       "limitations": [
         "精度は実装されたユニット定義によって異なります。",
@@ -37122,7 +37122,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "長さ変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "長さ変換ツール にはアカウントやインストールが必要ですか?",
@@ -37156,7 +37156,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
         "キログラムをポンドに変換します。",
         "レシピではグラムをオンスに変換してください。",
-        "物流見積もりのためにメートルトンを換算します。"
+        "物流の見積もりのためにメートルトンを換算します。"
       ],
       "tips": [
         "ソースユニットとターゲットユニットを確認します。",
@@ -37182,7 +37182,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "重量変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "重量変換ツール にはアカウントやインストールが必要ですか?",
@@ -37242,7 +37242,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "温度変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "温度変換ツール にはアカウントやインストールが必要ですか?",
@@ -37254,7 +37254,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "摂氏と華氏はどのように変換されますか?",
-          "a": "変換ではスケール係数とオフセットの両方が使用されます。たとえば、°F = °C × 9/5 + 32 となります。"
+          "a": "変換ではスケール係数とオフセットの両方が使用されます。たとえば、°F = °C × 9/5 + 32。"
         }
       ],
       "visual": "converter"
@@ -37302,7 +37302,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "データサイズ変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "データサイズ変換ツール にはアカウントやインストールが必要ですか?",
@@ -37334,7 +37334,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
-        "走行距離をkm/hに変換します。",
+        "移動のために km/h を mph に変換します。",
         "ノットを海洋または航空のコンテキストに変換します。",
         "物理計算のためにメートル/秒を変換します。"
       ],
@@ -37344,7 +37344,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "規制された作業またはエンジニアリング作業の場合は、必要な規格を確認してください。",
         "避けてください: 速度と加速度を混同すること。",
         "避けてください: 距離と時間の両方の単位を変換する前に速度を丸めます。",
-        "避けてください: 関連する音速条件を指定せずにマッハを使用すること。"
+        "避けてください: 関連する音速条件を指定せずに Mach を使用すること。"
       ],
       "limitations": [
         "精度は実装されたユニット定義によって異なります。",
@@ -37362,7 +37362,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "速度変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "速度変換ツール にはアカウントやインストールが必要ですか?",
@@ -37422,7 +37422,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "時間変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "時間変換ツール にはアカウントやインストールが必要ですか?",
@@ -37434,7 +37434,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "1 か月は常に同じ日数ですか?",
-          "a": "いいえ、暦上の月の長さはさまざまです。月と年を含む期間の変換は、使用される規則または基準日によって異なります。"
+          "a": "いいえ、暦月の長さはさまざまです。月と年を含む期間の変換は、使用される規則または基準日によって異なります。"
         }
       ],
       "visual": "converter"
@@ -37463,7 +37463,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "ソースの精度に適した有効数字を使用してください。",
         "規制された作業またはエンジニアリング作業の場合は、必要な規格を確認してください。",
         "避けてください: 面積に線形変換係数を使用します。",
-        "避けてください: Bigha などの地域の土地単位には 1 つの普遍的な価値があると仮定します。",
+        "避けてください: Bigha などの地域の土地単位には 1 つの普遍的価値があると仮定します。",
         "避けてください: 最終的な単位スケールを適用する前に面積変換を丸めます。"
       ],
       "limitations": [
@@ -37482,7 +37482,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "面積変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "面積変換ツール にはアカウントやインストールが必要ですか?",
@@ -37542,7 +37542,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "圧力変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "圧力変換ツール にはアカウントやインストールが必要ですか?",
@@ -37561,7 +37561,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "energy-work-converter": {
       "heroIntro": "ジュール、キロジュール、カロリー、キロカロリー、キロワット時などのエネルギー単位を変換します。",
-      "intro": "ジュール、キロジュール、カロリー、キロカロリー、キロワット時などのエネルギー単位を変換します。たとえば、ジュールをカロリーに変換するために使用します。また、電力関連の比較のためにkWhを変換するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
+      "intro": "ジュール、キロジュール、カロリー、キロカロリー、キロワット時などのエネルギー単位を変換します。たとえば、ジュールをカロリーに変換するために使用します。また、電力関連の比較のために kWh を変換するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
       "why": "この変換ワークフローは、定義された単位間の直接的な関係を提供し、学習、旅行、エンジニアリング、ショッピング、科学、フィットネス、日常の計画に役立ちます。",
       "steps": [
         "エネルギー変換ツール を開き、必要な入力形式または値を特定します。",
@@ -37584,7 +37584,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "規制された作業またはエンジニアリング作業の場合は、必要な規格を確認してください。",
         "避けてください: エネルギーと電力を混同してください。",
         "避けてください: 栄養カロリーと低カロリー単位の混合。",
-        "避けてください: 最終的な単位係数を適用する前に、変換されたエネルギーを丸めます。"
+        "避けてください: 最終的な単位係数を適用する前に、変換されたエネルギーを四捨五入します。"
       ],
       "limitations": [
         "精度は実装されたユニット定義によって異なります。",
@@ -37602,7 +37602,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "エネルギー変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "エネルギー変換ツール にはアカウントやインストールが必要ですか?",
@@ -37662,7 +37662,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "電力変換ツール は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "電力変換ツール にはアカウントやインストールが必要ですか?",
@@ -37701,7 +37701,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "いくつかの拠出額を比較してみましょう。",
         "保守的なリターンの仮定と楽観的なリターンの仮定をテストします。",
         "この結果は、投資結果を保証するものではなく、推定値として扱ってください。",
-        "避けてください: 予測収益を保証されたものとして扱うこと。",
+        "避けてください: 予測収益を保証されたものとして扱います。",
         "避けてください: 手数料、税金、インフレ、拠出金の変更を無視すること。",
         "避けてください: 一貫性のない前提条件でシナリオを比較します。"
       ],
@@ -37789,7 +37789,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "EMIは毎月同じですか?",
-          "a": "標準的な固定金利の償却ローンの場合、予定 EMI は一定のままですが、利息と元本の部分は時間の経過とともに変化します。実際のローン商品では異なる構造が使用される場合があります。"
+          "a": "標準的な固定金利の償却ローンの場合、利息部分と元本部分が時間の経過とともに変化する一方で、予定された EMI は一定のままにすることができます。実際のローン商品では異なる構造が使用される場合があります。"
         },
         {
           "q": "EMI計算機 は無料で使用できますか?",
@@ -37797,7 +37797,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         }
       ],
       "visual": "finance",
-      "formula": "EMI = P × r × (1 + r)^n / [(1 + r)^n − 1]、ここで、P は元本、r は月利、n は月々の支払い回数です。"
+      "formula": "EMI = P × r × (1 + r)^n / [(1 + r)^n − 1]、ここで、P は元本、r は月々の金利、n は月々の支払い回数です。"
     },
     "lumpsum-calculator": {
       "heroIntro": "1 回限りの投資信託投資の満期利益の合計を見積もります。",
@@ -37862,7 +37862,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "gst-calculator": {
       "heroIntro": "請求書の税込および外税の物品サービス税 (GST) を計算します。",
       "intro": "請求書の税込および外税の物品サービス税 (GST) を計算します。たとえば、課税対象の請求額に GST を追加するために使用します。また、税込価格から GST を抽出するのにも役立ちます。このページでは、結果を正しく解釈できるように、インタラクティブな計算ツールと実際的な説明、例、仮定、およびよくある間違いを組み合わせています。",
-      "why": "GST 計算ツールを使用すると、税金の構成要素とその結果の包括額または除外額が表示されるため、請求書の計算が簡単になります。",
+      "why": "GST 計算ツールを使用すると、税金の構成要素とその結果の包括的または除外された金額が表示されるため、請求書の計算が簡単になります。",
       "steps": [
         "表示された単位を使用して、GST計算機 によって要求された値を入力します。",
         "この計算に関連する税率、期間、頻度、税金、または拠出スケジュールについて現実的な仮定を選択してください。",
@@ -37909,7 +37909,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "税込価格から GST を計算するにはどうすればよいですか?",
-          "a": "単純な包括的な計算の場合、GST コンポーネントは包括的な金額と適用率から導き出すことができます。実際の取引に適用される税金処理および税率を確認してください。"
+          "a": "単純な包括的な計算の場合、GST コンポーネントは包括的な金額と適用される税率から導き出すことができます。実際の取引に適用される税金処理および税率を確認してください。"
         },
         {
           "q": "GST計算機 は無料で使用できますか?",
@@ -38029,7 +38029,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "FD の利息はどの銀行でも同じように計算されますか?",
-          "a": "必ずしもそうとは限りません。銀行は、特定の複利、支払い、税金、早期閉鎖のルールを適用できます。最終的な金額については、機関の規約を使用してください。"
+          "a": "必ずしもそうとは限りません。銀行は、特定の複利計算、支払い、税金、早期閉鎖ルールを適用できます。最終的な金額については、機関の規約を使用してください。"
         },
         {
           "q": "FD計算機 は無料で使用できますか?",
@@ -38097,7 +38097,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         }
       ],
       "visual": "finance",
-      "formula": "定期預金の満期は、定期預金、金利、保有期間、および金融機関の複利計算規則によって異なります。"
+      "formula": "定期預金の満期は、定期預金、金利、保有期間、および金融機関の複利慣行によって異なります。"
     },
     "retirement-calculator": {
       "heroIntro": "退職後の計画のための収益とインフレの仮定を使用して、将来の毎月の生活費を見積もります。",
@@ -38121,7 +38121,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "いくつかのインフレとリターンのシナリオを実行します。",
         "必要に応じて、医療費や不規則な出費も含めます。",
         "収入、貯蓄、タイミングが変化した場合は、予測を再検討します。",
-        "避けてください: 1 つの楽観的な収益仮定を使用します。",
+        "避けてください: 1 つの楽観的なリターン仮定を使用します。",
         "避けてください: インフレと医療費を無視すること。",
         "避けてください: 退職後の支出が何十年も変わらないと仮定します。"
       ],
@@ -38337,7 +38337,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         }
       ],
       "visual": "finance",
-      "formula": "パーセンテージ = (部分 ÷ 全体) × 100。 パーセンテージの変化 = ((新 - 古い) ÷ 古い) × 100。"
+      "formula": "パーセンテージ = (部分 ÷ 全体) × 100。 パーセンテージの変化 = ((新しい − 古い) ÷ 古い) × 100。"
     },
     "age-calculator": {
       "heroIntro": "正確な実年齢を年、月、週、日単位で計算します。",
@@ -38363,7 +38363,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "対象の基準日を選択します。",
         "避けてください: 間違った生年月日を入力します。",
         "避けてください: 基準日を無視します。",
-        "避けてください: 法的資格を得るためにおおよその年の差を使用しないでください。"
+        "避けてください: 法的資格におおよその年の差を使用します。"
       ],
       "limitations": [
         "推定値は、年齢計算機 で使用される仮定と入力によって異なります。",
@@ -38470,7 +38470,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果的な決定を下す前に、公式記録、製品条件、または資格のある情報源と照らし合わせて結果を検証してください。"
       ],
       "useCases": [
-        "さまざまな関数電卓のシナリオを比較します。",
+        "関数電卓のさまざまなシナリオを比較します。",
         "テストに役立つシナリオは次のとおりです。 三角関数の式を評価します。",
         "計算を繰り返して後で確認できるように、仮定を記録します。",
         "三角関数の式を評価します。",
@@ -38483,7 +38483,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "重要な結果を独立して検証します。",
         "避けてください: 間違った角度モードの使用。",
         "回避: 演算子の優先順位を無視します。",
-        "避けてください: 式をチェックせずに結果をコピーすること。"
+        "避けてください: 式をチェックせずに結果をコピーします。"
       ],
       "limitations": [
         "推定値は、関数電卓 で使用される仮定と入力によって異なります。",
@@ -38580,9 +38580,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "割引額 = 元の価格 × 割引率 / 100;最終価格 = 元の価格 − 割引額。"
     },
     "tip-calculator": {
-      "heroIntro": "レストランのディナー代を分割し、サービスチップの割合を均等に計算します。",
-      "intro": "レストランのディナー代を分割し、サービスチップの割合を均等に計算します。たとえば、レストランのチップを計算するために使用します。複数の人の間で請求書を分割するのにも役立ちます。このページでは、結果を正しく解釈できるように、インタラクティブな計算ツールと実際的な説明、例、仮定、およびよくある間違いを組み合わせています。",
-      "why": "チップ計算機を使用すると、サービス料の計算が簡単になり、最終的な金額を複数人で分割できます。",
+      "heroIntro": "レストランのディナー代を分割し、サービス チップの割合を均等に計算します。",
+      "intro": "レストランのディナー代を分割し、サービス チップの割合を均等に計算します。たとえば、レストランのチップを計算するために使用します。複数の人の間で請求書を分割するのにも役立ちます。このページでは、結果を正しく解釈できるように、インタラクティブな計算ツールと実際的な説明、例、仮定、およびよくある間違いを組み合わせています。",
+      "why": "チップ計算機を使用すると、サービス料の計算が簡単になり、最終的な金額を複数人で分けることができます。",
       "steps": [
         "表示された単位を使用して、チップ計算機 によって要求された値を入力します。",
         "この計算に関連する税率、期間、頻度、税金、または拠出スケジュールについて現実的な仮定を選択してください。",
@@ -38613,7 +38613,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "チップ計算機 は何に使用されますか?",
-          "a": "レストランのディナー代を分割し、サービスチップの割合を均等に計算します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
+          "a": "レストランのディナー代を分割し、サービス チップの割合を均等に計算します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
           "q": "チップ計算機 はどのように機能しますか?",
@@ -38684,8 +38684,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "cute-timetable-maker": {
       "heroIntro": "学生、子供、学習計画、毎日の日課向けに既製のレイアウトを使用して、かわいいカスタマイズ可能な時間割を作成します。",
-      "intro": "学生、子供、学習計画、毎日の日課向けに既製のレイアウトを使用して、かわいいカスタマイズ可能な時間割を作成します。よりソフトなレイアウト、個人的なメッセージ、印刷可能なスケジュールを備えた、視覚的にわかりやすいタイムテーブルを作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
-      "why": "よりソフトなレイアウト、個人的なメッセージ、印刷可能なスケジュールを備えた、視覚的にわかりやすいタイムテーブルを作成します。",
+      "intro": "学生、子供、学習計画、毎日の日課向けに既製のレイアウトを使用して、かわいいカスタマイズ可能な時間割を作成します。よりソフトなレイアウト、個人的なメッセージ、印刷可能なスケジュールを備えた、視覚的にわかりやすいスケジュールを作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
+      "why": "よりソフトなレイアウト、個人的なメッセージ、印刷可能なスケジュールを備えた、視覚的にわかりやすいスケジュールを作成します。",
       "steps": [
         "授業日と授業枠を選択してください。",
         "時間と科目を設定します。",
@@ -38708,7 +38708,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "かわいい時間割メーカー は何に使用されますか?",
-          "a": "学生、子供、学習計画、毎日の日課向けに既製のレイアウトを使用して、かわいいカスタマイズ可能な時間割を作成します。よりソフトなレイアウト、個人的なメッセージ、印刷可能なスケジュールを備えた、視覚的にわかりやすいタイムテーブルを作成します。"
+          "a": "学生、子供、学習計画、毎日の日課向けに既製のレイアウトを使用して、かわいいカスタマイズ可能な時間割を作成します。よりソフトなレイアウト、個人的なメッセージ、印刷可能なスケジュールを備えた、視覚的にわかりやすいスケジュールを作成します。"
         },
         {
           "q": "個人的な見積もりを追加できますか?",
@@ -38726,8 +38726,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "student-timetable-maker": {
-      "heroIntro": "授業、勉強会、宿題、復習、休憩、個人的な活動のための生徒の時間割を作成します。",
-      "intro": "授業、勉強会、宿題、復習、休憩、個人的な活動のための生徒の時間割を作成します。生徒に焦点を当てた毎週のクラスを作成し、明確な時間ブロックを設けた学習時間割を作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
+      "heroIntro": "授業、勉強会、宿題、復習、休憩、個人的な活動などの生徒の時間割を作成します。",
+      "intro": "授業、勉強会、宿題、復習、休憩、個人的な活動などの生徒の時間割を作成します。生徒に焦点を当てた毎週のクラスを作成し、明確な時間ブロックを設けた学習時間割を作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
       "why": "生徒に焦点を当てた毎週のクラスを作成し、明確な時間ブロックを設けた学習時間割を作成します。",
       "steps": [
         "学習日と学習枠を選択します。",
@@ -38751,7 +38751,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "学生向け時間割メーカー は何に使用されますか?",
-          "a": "授業、勉強会、宿題、復習、休憩、個人的な活動のための生徒の時間割を作成します。生徒に焦点を当てた毎週のクラスを作成し、明確な時間ブロックを設けた学習時間割を作成します。"
+          "a": "授業、勉強会、宿題、復習、休憩、個人的な活動などの生徒の時間割を作成します。生徒に焦点を当てた毎週のクラスを作成し、明確な時間ブロックを設けた学習時間割を作成します。"
         },
         {
           "q": "生成後も編集可能ですか?",
@@ -38786,7 +38786,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "使用前に休憩の位置と教師の空き状況を確認してください。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -38830,7 +38830,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "研究室と講義には別の名前を使用します。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -38874,7 +38874,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "授業だけでなく、リサーチや準備の時間も含めてください。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -38918,7 +38918,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "教師と部屋の競合を個別に確認します。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -38962,7 +38962,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "集中して勉強し、休憩を挟みます。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39006,7 +39006,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "生成された計画に頼る前に、公式試験の日程を再確認してください。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39050,7 +39050,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "予期せぬタスクに備えて柔軟なブロックを保持します。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39094,7 +39094,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "実際の時刻を使用すると、計画を理解しやすくなります。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39138,7 +39138,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "アクティビティ名はシンプルにして、プレイ時間を含めてください。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39151,7 +39151,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "これは子供向けに設計されていますか？",
-          "a": "はい。レイアウトには子供向けのビジュアルテーマが使用されており、スケジュールの編集が簡単に保たれています。"
+          "a": "はい。レイアウトには子供向けのビジュアルテーマが使用されており、スケジュールの編集も簡単です。"
         },
         {
           "q": "子ども向け時間割メーカー をカスタマイズできますか?",
@@ -39166,8 +39166,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "kids-daily-routine-planner": {
       "heroIntro": "起床、学校、宿題、遊び、読書、食事、就寝時間などの子供向けの日課プランナーを作成します。",
-      "intro": "起床、学校、宿題、遊び、読書、食事、就寝時間などの子供向けの日課プランナーを作成します。起床、学校、宿題、遊び、食事、就寝時間などの実際の時刻を使用して、子供たちの簡単な日課を作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
-      "why": "起床、学校、宿題、遊び、食事、就寝時間などの実際の時刻を使用して、子供たちの簡単な日課を作成します。",
+      "intro": "起床、学校、宿題、遊び、読書、食事、就寝時間などの子供向けの日課プランナーを作成します。起床、学校、宿題、遊び、食事、就寝時刻などの実際の時刻を使用して、子供たちの簡単な日課を作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
+      "why": "起床、学校、宿題、遊び、食事、就寝時刻などの実際の時刻を使用して、子供たちの簡単な日課を作成します。",
       "steps": [
         "毎日の時間ブロックを選択します。",
         "開始時刻と継続時間を設定します。",
@@ -39182,7 +39182,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "移行を現実的に保ち、主要なアクティビティの間にスペースを空けます。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39191,7 +39191,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "子ども向け毎日のルーティンプランナー は何に使用されますか?",
-          "a": "起床、学校、宿題、遊び、読書、食事、就寝時間などの子供向けの日課プランナーを作成します。起床、学校、宿題、遊び、食事、就寝時間などの実際の時刻を使用して、子供たちの簡単な日課を作成します。"
+          "a": "起床、学校、宿題、遊び、読書、食事、就寝時間などの子供向けの日課プランナーを作成します。起床、学校、宿題、遊び、食事、就寝時刻などの実際の時刻を使用して、子供たちの簡単な日課を作成します。"
         },
         {
           "q": "月曜日だけを曜日として使用しますか?",
@@ -39226,7 +39226,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "責任と休息や個人的な時間のバランスをとってください。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39253,8 +39253,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "boys-daily-routine-planner": {
-      "heroIntro": "勉強、学校、運動、趣味、家族、自由時間を設定した、編集可能な日次および週次の日課プランナーを男の子向けに作成します。",
-      "intro": "勉強、学校、運動、趣味、家族、自由時間を設定した、編集可能な日次および週次の日課プランナーを男の子向けに作成します。学校、仕事、運動、趣味、家族、自由時間などの実用的な週日のルーチンを作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
+      "heroIntro": "勉強、学校、運動、趣味、家族、自由時間を設定した、男の子向けの編集可能な日次および週次のルーチン プランナーを作成します。",
+      "intro": "勉強、学校、運動、趣味、家族、自由時間を設定した、男の子向けの編集可能な日次および週次のルーチン プランナーを作成します。学校、仕事、運動、趣味、家族、自由時間などの実用的な週日のルーチンを作成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
       "why": "学校、仕事、運動、趣味、家族、自由時間などの実用的な週日のルーチンを作成します。",
       "steps": [
         "曜日と時間帯を選択します。",
@@ -39270,7 +39270,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "運動と回復を現実的なものにしてください。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39279,7 +39279,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "男の子向け毎日のルーティンプランナー は何に使用されますか?",
-          "a": "勉強、学校、運動、趣味、家族、自由時間を設定した、編集可能な日次および週次の日課プランナーを男の子向けに作成します。学校、仕事、運動、趣味、家族、自由時間などの実用的な週日のルーチンを作成します。"
+          "a": "勉強、学校、運動、趣味、家族、自由時間を設定した、男の子向けの編集可能な日次および週次のルーチン プランナーを作成します。学校、仕事、運動、趣味、家族、自由時間などの実用的な週日のルーチンを作成します。"
         },
         {
           "q": "趣味を含めることはできますか？",
@@ -39297,8 +39297,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "employee-work-timetable": {
-      "heroIntro": "集中作業、会議、プロジェクト、計画、休憩、チームタスク、およびレビューブロックのための従業員の勤務スケジュールを作成します。",
-      "intro": "集中作業、会議、プロジェクト、計画、休憩、チームタスク、およびレビューブロックのための従業員の勤務スケジュールを作成します。集中的な仕事、会議、電子メール、プロジェクト、チームの時間、昼食を計画し、週の勤務期間全体でブロックを確認します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
+      "heroIntro": "集中的な作業、会議、プロジェクト、計画、休憩、チームタスク、およびレビューブロックのための従業員の勤務スケジュールを作成します。",
+      "intro": "集中的な作業、会議、プロジェクト、計画、休憩、チームタスク、およびレビューブロックのための従業員の勤務スケジュールを作成します。集中的な仕事、会議、電子メール、プロジェクト、チームの時間、昼食を計画し、週の勤務期間全体でブロックを確認します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
       "why": "集中的な仕事、会議、電子メール、プロジェクト、チームの時間、昼食を計画し、週の勤務期間全体でブロックを確認します。",
       "steps": [
         "勤務日と時間帯を選択します。",
@@ -39314,7 +39314,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "フォーカスブロックを保護し、会議時間を常に見えるようにします。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39323,7 +39323,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "社員向け仕事時間割 は何に使用されますか?",
-          "a": "集中作業、会議、プロジェクト、計画、休憩、チームタスク、およびレビューブロックのための従業員の勤務スケジュールを作成します。集中的な仕事、会議、電子メール、プロジェクト、チームの時間、昼食を計画し、週の勤務期間全体でブロックを確認します。"
+          "a": "集中的な作業、会議、プロジェクト、計画、休憩、チームタスク、およびレビューブロックのための従業員の勤務スケジュールを作成します。集中的な仕事、会議、電子メール、プロジェクト、チームの時間、昼食を計画し、週の勤務期間全体でブロックを確認します。"
         },
         {
           "q": "事務作業にも使えますか？",
@@ -39358,7 +39358,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "人員配置と労働要件を個別に確認します。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39402,7 +39402,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "準備と移行時間を目に見える形で残しておきます。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39446,7 +39446,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "セルごとに 1 つの明確なクラス名を使用します。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39490,7 +39490,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "少なくとも 1 つのフレキシブル ブロックを保持します。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39524,7 +39524,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "家事の曜日と時間帯を選択します。",
         "毎日の開始時刻を設定します。",
         "日常的なタスクを追加します。",
-        "家族計画を生成して印刷します。"
+        "家族計画を作成して印刷します。"
       ],
       "useCases": [
         "家庭でのルーティン",
@@ -39534,7 +39534,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "日常的なブロックを現実的かつ再現可能に保ちます。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39578,7 +39578,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "毎日ハードなトレーニングをスケジュールするのではなく、休息と回復を組み込みましょう。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39622,7 +39622,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "この計画は、医学的または栄養学的アドバイスとしてではなく、主催者として使用してください。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39666,7 +39666,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "印刷する前にページをプレビューします。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39694,8 +39694,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "smart-timetable-generator": {
       "heroIntro": "外部 AI サービスを使用せずに、選択した曜日、期間、科目、日常の設定に基づいて、編集可能なスマートな時間割を自動的に生成します。",
-      "intro": "外部 AI サービスを使用せずに、選択した曜日、期間、科目、日常の設定に基づいて、編集可能なスマートな時間割を自動的に生成します。外部 AI サービスを使用せずに、ローカルの決定論的なルールを使用して、優先順位からバランスの取れたスケジュールを生成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
-      "why": "外部 AI サービスを使用せずに、ローカルの決定論的なルールを使用して、優先順位からバランスの取れたスケジュールを生成します。",
+      "intro": "外部 AI サービスを使用せずに、選択した曜日、期間、科目、日常の設定に基づいて、編集可能なスマートな時間割を自動的に生成します。外部 AI サービスを使用せずに、ローカルの決定論的ルールを使用して優先順位からバランスの取れたスケジュールを生成します。独自のスケジュールのタイトル、個人的なメモ、引用を追加し、生成されたすべてのセルをダウンロードまたは印刷する前に編集します。",
+      "why": "外部 AI サービスを使用せずに、ローカルの決定論的ルールを使用して優先順位からバランスの取れたスケジュールを生成します。",
       "steps": [
         "曜日と時間帯を選択します。",
         "優先順位またはアクティビティを入力します。",
@@ -39710,7 +39710,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "生成された計画をドラフトとして扱い、実際の制約に合わせて調整します。",
         "現実的な休憩とアクティビティ間の移行時間を含めます。",
-        "印刷または共有する前に、すべてのスロットを実際のコミットメントと照合して確認してください。"
+        "印刷または共有する前に、実際のコミットメントに対してすべてのスロットを確認してください。"
       ],
       "limitations": [
         "これは計画テンプレートであり、実際の教師、部屋、人員配置、試験、医療、または職場の制約は知りません。",
@@ -39719,7 +39719,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "スマート時間割ジェネレーター は何に使用されますか?",
-          "a": "外部 AI サービスを使用せずに、選択した曜日、期間、科目、日常の設定に基づいて、編集可能なスマートな時間割を自動的に生成します。外部 AI サービスを使用せずに、ローカルの決定論的なルールを使用して、優先順位からバランスの取れたスケジュールを生成します。"
+          "a": "外部 AI サービスを使用せずに、選択した曜日、期間、科目、日常の設定に基づいて、編集可能なスマートな時間割を自動的に生成します。外部 AI サービスを使用せずに、ローカルの決定論的ルールを使用して優先順位からバランスの取れたスケジュールを生成します。"
         },
         {
           "q": "これは外部 AI API を利用していますか?",
@@ -39742,48 +39742,48 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "ナヴラトリの衣装、ナヴラトリのドレスの色、アクセサリー、ガルバの衣装、ダンディヤの衣装、9 日間のお祝いの服装を 1 つのカレンダーから計画します。色の重要性は、普遍的な宗教的規則ではなく、伝統的または一般的に関連付けられている解釈として提示されます。",
       "steps": [
         "10月11日から19日までの日付と今日のカラーをチェックしてください。",
-        "9 日間のリストから必要な日を見つけます。",
-        "一般的に関連付けられている重要性を読んでください。",
+        "Find the required day in the nine-day list.",
+        "Read the commonly associated significance.",
         "お祝いの服装や準備の参考にしてください。"
       ],
       "useCases": [
         "今日のナヴラトリカラー",
         "ナヴラトリ 9 カラー 2026",
         "9日間の服装計画",
-        "ガルバとダンディヤの衣装企画"
+        "Garba and Dandiya outfit planning"
       ],
       "tips": [
-        "地域や家族の伝統は異なる場合があります。",
+        "Regional and family traditions can differ.",
         "家族や地域社会の慣習が異なる場合は、それを使用してください。",
-        "ナヴラートリが始まる前にカレンダーを保存してください。"
+        "Save the calendar before Navratri begins."
       ],
       "limitations": [
         "色の伝統は地域や暦の情報源によって異なります。",
         "意味は文化的な連想であり、科学的な主張ではありません。",
-        "表示されている日付はシャラド ナヴラトリ 2026 のものです。"
+        "Dates shown are for Sharad Navratri 2026."
       ],
       "faq": [
         {
-          "q": "2026 年のナブラトリの色は何ですか?",
+          "q": "What are the Navratri colors for 2026?",
           "a": "10月11日から10月19日までオレンジ、ホワイト、レッド、ロイヤルブルー、イエロー、グリーン、グレー、パープル、ピーコックグリーン。"
         },
         {
-          "q": "今日のナヴラトリの色は何色ですか?",
+          "q": "What is today’s Navratri color?",
           "a": "2026 年 10 月 11 ～ 19 日の間、ページは日付に基づいた色を自動的に識別します。"
         },
         {
-          "q": "なぜ毎日色が変わるのですか？",
+          "q": "Why does the color change each day?",
           "a": "一般的に従う順序では、毎日に色が割り当てられ、最初の色はナヴラトリが始まる曜日によって決まります。"
         },
         {
-          "q": "ナヴラトリの色はどこでも同じですか?",
-          "a": "必ずしもそうではありません。地域や家族の伝統は異なる場合があります。"
+          "q": "Are Navratri colors the same everywhere?",
+          "a": "必ずしもそうではありません。 regional and family traditions can differ."
         }
       ],
       "visual": "workflow"
     },
     "diwali-mithai-faral-calculator": {
-      "heroIntro": "Diwali Mithai & Faral Quantity計算機 家族向け、ゲスト用、ギフト、ディワリのお菓子のショッピングに。",
+      "heroIntro": "Diwali Mithai & Faral Quantity計算機 ご家族、ゲスト、ギフト、ディワリのお菓子のショッピングに。",
       "intro": "買い物や料理をする前に、ディワリ祭のお菓子とファラルの量を見積もってください。大人、子供、ゲスト、贈る相手、種類数などを調整してください。これは、ディワリ祭のミタイ数量計算機、ディワリ祭のミタイの量、ディワリ祭のお菓子の数量、ディワリ祭のファラル数量計算機、どのくらいのファラルを作るか、マハーラーシュトリアのディワリ祭のファラル、ディワリのスイートボックスの数量などの検索に役立ちます。出力は、ユニバーサル サービング ルールではなく、計画推定です。",
       "why": "ディワリの買い物リスト、ディワリのお菓子の計画、ディワリのファラルの準備、マハラシュトラのファラルの計画、ミックススイートのギフトボックスに役立ちます。",
       "steps": [
@@ -39829,7 +39829,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "finance"
     },
     "diwali-puja-samagri-checklist": {
-      "heroIntro": "印刷可能な項目、チェックボックス、共有オプションを備えたインタラクティブなディワリ プジャ サマグリ リストとラクシュミ プジャ チェックリスト。",
+      "heroIntro": "印刷可能な項目、チェックボックス、共有オプションを備えたインタラクティブなディワリ プージャ サマグリ リストとラクシュミ プージャ チェックリスト。",
       "intro": "このインタラクティブなディワリ法会チェックリストを使用して、ラクシュミ・ガネーシャの偶像、チョーキ、カラッシュ、ココナッツ、ロリ、クムクム、ハルディ、アクシャット、花、ディヤ、綿芯、オイルまたはギー、アガルバッティ、ドゥープ、樟脳、果物、お菓子、プージャ・ターリーなど、一般的に準備されるラクシュミ・ガネーシャ・プージャのアイテムを確認してください。ディワリ祭プージャ サマグリ リスト、ディワリ祭プージャ アイテム リスト、ラクシュミ プージャ サマグリ、ディワリ プージャ アイテム、ディワリ プージャ チェックリスト、ラクシュミ ガネーシュ プージャ サマグリ、ディワリ プージャ サマン リストなどの実用的な検索を対象としています。",
       "why": "ディワリ祭プージャのショッピング、ラクシュミプージャの準備、印刷可能なプージャリスト、直前のディワリプージャチェックリストに役立ちます。",
       "steps": [
@@ -39961,13 +39961,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "diyas を放置しておくことはできますか?",
-          "a": "いいえ、裸火を近づけず、可燃物から遠ざけてください。"
+          "a": "いいえ。裸火を近づけず、可燃物から遠ざけてください。"
         }
       ],
       "visual": "finance"
     },
     "diwali-cleaning-planner": {
-      "heroIntro": "Diwali Cleaning Planner とディワリ サファイ チェックリストには、残り日数に基づいた実践的な家の掃除の手順が記載されています。",
+      "heroIntro": "Diwali Cleaning Planner とディワリ サファイ チェックリストには、残りの日数に基づいた実践的な家の掃除の手順が記載されています。",
       "intro": "ディワリ サファイのチェックリストを、整理整頓、キッチンの掃除、窓、家具、礼拝エリア、ワードローブ、玄関、最終清掃を網羅した管理しやすい順序にまとめます。便利な検索には、ディワリ祭清掃チェックリスト、ディワリ清掃リスト、ディワリ自宅清掃チェックリスト、ディワリ サファイ チェックリスト、ディワリ清掃スケジュール、ディワリ徹底清掃チェックリスト、ディワリ清掃計画などがあります。",
       "why": "ディワリ祭清掃チェックリスト、ディワリ清掃リスト、ディワリ自宅清掃チェックリスト、ディワリサファイチェックリストなどの検索に役立ちます。",
       "steps": [
@@ -39995,7 +39995,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "いつから始めればよいですか?",
-          "a": "早い方が簡単です。日数を入力し、生成されたシーケンスを使用します。"
+          "a": "早い方が簡単です。残りの日数を入力し、生成されたシーケンスを使用します。"
         },
         {
           "q": "何が含まれていますか?",
@@ -40059,9 +40059,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "youtube-thumbnail-downloader": {
-      "heroIntro": "ビデオ ID または URL を使用して、公開 YouTube ビデオで利用可能なサムネイル画像の解像度を取得します。",
-      "intro": "ビデオ ID または URL を使用して、公開 YouTube ビデオで利用可能なサムネイル画像の解像度を取得します。たとえば、デザイン参照用の公開ビデオのサムネイルを取得するために使用します。利用可能なサムネイル解像度を確認するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
-      "why": "このクリエイター ワークフローは、YouTube の公開情報、コンテンツの計画、見積りをサポートします。前提条件を可視化しながら、反復的な作成者のタスクを高速化するように設計されています。",
+      "heroIntro": "動画 ID または URL を使用して、公開 YouTube 動画で利用可能なサムネイル画像の解像度を取得します。",
+      "intro": "動画 ID または URL を使用して、公開 YouTube 動画で利用可能なサムネイル画像の解像度を取得します。たとえば、デザイン参照用の公開ビデオのサムネイルを取得するために使用します。利用可能なサムネイル解像度を確認するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
+      "why": "このクリエイター ワークフローは、YouTube の公開情報、コンテンツの計画、または見積もりをサポートします。前提条件を可視化しながら、反復的な作成者のタスクを高速化するように設計されています。",
       "steps": [
         "YouTube Thumbnail を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
@@ -40069,7 +40069,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "結果をダウンロード、コピー、または再利用する場合は、元の要件と照らし合わせて確認してください。"
       ],
       "useCases": [
-        "別のユーティリティをインストールすることなく、1 回限りの YouTube サムネイル ダウンローダー タスクをすばやく実行できます。",
+        "別のユーティリティをインストールせずに、1 回限りの YouTube サムネイル ダウンローダー タスクをすばやく実行できます。",
         "ドキュメント、メディア、テキスト、コード、データ、またはクリエイターのワークフローの反復可能な準備作業。",
         "大規模なプロジェクト中の中間結果を確認する。",
         "別のアプリケーションまたはワークフロー用の出力を準備する。",
@@ -40088,12 +40088,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "公開されているビデオ情報とプラットフォームの動作は変更される可能性があります。",
         "収益の見積もりは、視聴者、地域、収益化、広告在庫、その他の要因によって異なります。",
-        "ランキング、視聴回数、収益、チャンネルの成長を保証できるツールはありません。"
+        "ランキング、視聴数、収益、チャンネルの成長を保証できるツールはありません。"
       ],
       "faq": [
         {
           "q": "YouTube Thumbnail は何に使用されますか?",
-          "a": "ビデオ ID または URL を使用して、公開 YouTube ビデオで利用可能なサムネイル画像の解像度を取得します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
+          "a": "動画 ID または URL を使用して、公開 YouTube 動画で利用可能なサムネイル画像の解像度を取得します。集中的なワークフロー向けに設計されているため、別のデスクトップ ユーティリティをインストールせずにタスクを完了できます。正確な出力は、指定した値、ファイル、またはコードによって異なります。"
         },
         {
           "q": "YouTube Thumbnail はどのように機能しますか?",
@@ -40101,7 +40101,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "YouTube Thumbnail は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "YouTube Thumbnail にはアカウントやインストールが必要ですか?",
@@ -40121,7 +40121,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "youtube-tag-generator": {
       "heroIntro": "関連する YouTube タグとキーワードのアイデアを生成して、ビデオ メタデータの整理と最適化に役立てます。",
       "intro": "関連する YouTube タグとキーワードのアイデアを生成して、ビデオ メタデータの整理と最適化に役立てます。たとえば、ビデオ トピックに関連するキーワードのアイデアを生成するために使用します。また、メタデータ用語の開始リストを作成するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
-      "why": "このクリエイター ワークフローは、YouTube の公開情報、コンテンツの計画、見積りをサポートします。前提条件を可視化しながら、反復的な作成者のタスクを高速化するように設計されています。",
+      "why": "このクリエイター ワークフローは、YouTube の公開情報、コンテンツの計画、または見積もりをサポートします。前提条件を可視化しながら、反復的な作成者のタスクを高速化するように設計されています。",
       "steps": [
         "YouTube Tag生成 を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
@@ -40148,7 +40148,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "公開されているビデオ情報とプラットフォームの動作は変更される可能性があります。",
         "収益の見積もりは、視聴者、地域、収益化、広告在庫、その他の要因によって異なります。",
-        "ランキング、視聴回数、収益、チャンネルの成長を保証できるツールはありません。"
+        "ランキング、視聴数、収益、チャンネルの成長を保証できるツールはありません。"
       ],
       "faq": [
         {
@@ -40161,7 +40161,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "YouTube Tag生成 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "YouTube Tag生成 にはアカウントやインストールが必要ですか?",
@@ -40181,7 +40181,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "youtube-money-calculator": {
       "heroIntro": "再生回数と RPM の仮定から潜在的な YouTube 広告収益を推定します。実際の収益はチャンネルや視聴者によって異なります。",
       "intro": "再生回数と RPM の仮定から潜在的な YouTube 広告収益を推定します。実際の収益はチャンネルや視聴者によって異なります。たとえば、これを使用して、さまざまな視聴数での収益をモデル化します。また、RPM の仮定を比較するのにも役立ちます。このガイドでは、ツールの機能、いつ役立つか、効果的な使用方法、実際のワークフローで重要な実際的な制限について説明します。",
-      "why": "このクリエイター ワークフローは、YouTube の公開情報、コンテンツの計画、見積りをサポートします。前提条件を可視化しながら、反復的な作成者のタスクを高速化するように設計されています。",
+      "why": "このクリエイター ワークフローは、YouTube の公開情報、コンテンツの計画、または見積もりをサポートします。前提条件を可視化しながら、反復的な作成者のタスクを高速化するように設計されています。",
       "steps": [
         "YouTube Money計算機 を開き、必要な入力形式または値を特定します。",
         "操作を実行する前に、入力を入力または選択し、使用可能なすべてのオプションを確認します。",
@@ -40208,7 +40208,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "limitations": [
         "公開されているビデオ情報とプラットフォームの動作は変更される可能性があります。",
         "収益の見積もりは、視聴者、地域、収益化、広告在庫、その他の要因によって異なります。",
-        "ランキング、視聴回数、収益、チャンネルの成長を保証できるツールはありません。"
+        "ランキング、視聴数、収益、チャンネルの成長を保証できるツールはありません。"
       ],
       "faq": [
         {
@@ -40221,7 +40221,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "YouTube Money計算機 は何に使用できますか?",
-          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、別のアプリケーションに移動する前の出力のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
+          "a": "一般的な用途には、上記のワークフロー、簡単な 1 回限りのタスク、反復可能な準備作業、および出力を別のアプリケーションに移動する前のチェックなどがあります。通常、クリーンな入力と最終レビューにより、最も信頼性の高い結果が得られます。"
         },
         {
           "q": "YouTube Money計算機 にはアカウントやインストールが必要ですか?",
@@ -40242,11 +40242,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
   "ko": {
     "merge-pdf": {
       "heroIntro": "PDF 합치기 파일을 온라인으로 하나의 문서로 정리합니다. 보고서, 스캔한 페이지, 송장, 양식, 인증서 및 기타 PDF를 선택한 순서대로 결합합니다.",
-      "intro": "페이지를 복사하여 붙여넣지 않고 PDF 파일을 하나의 문서로 결합해야 합니까? Toolployee의 온라인 PDF 합치기 도구를 사용하면 공유, 업로드, 인쇄 또는 보관을 위해 개별 PDF를 하나의 정렬된 파일로 결합할 수 있습니다. 취업 지원서, 학교 및 대학 제출물, 비즈니스 서류 작업, 송장, 연구 및 일상적인 문서 관리에 유용합니다. 결합하려는 PDF를 선택하고 올바른 순서로 배치한 후 병합하고 최종 파일을 검토한 후 사용하세요. 이 가이드에서는 PDF 파일을 병합하고, 깔끔한 결과를 위해 문서를 준비하고, 일반적인 문제를 해결하고, 다른 PDF 도구가 필요한 시기를 결정하는 방법을 설명합니다.",
+      "intro": "페이지를 복사하여 붙여넣지 않고 PDF 파일을 하나의 문서로 결합해야 합니까? Toolployee의 온라인 PDF 합치기 도구를 사용하면 공유, 업로드, 인쇄 또는 보관을 위해 개별 PDF를 하나의 정렬된 파일로 결합할 수 있습니다. 취업 지원서, 학교 및 대학 제출, 비즈니스 서류 작업, 송장, 연구 및 일상적인 문서 관리에 유용합니다. 결합하려는 PDF를 선택하고 올바른 순서로 배치한 후 병합하고 최종 파일을 검토한 후 사용하세요. 이 가이드에서는 PDF 파일을 병합하고, 깔끔한 결과를 위해 문서를 준비하고, 일반적인 문제를 해결하고, 다른 PDF 도구가 필요한 시기를 결정하는 방법을 설명합니다.",
       "why": "안정적인 PDF 병합 기능을 사용하면 관련 문서 모음을 더 쉽게 관리할 수 있습니다. 여러 개의 첨부 파일을 보내는 대신 수신자가 더 쉽게 열고, 검토하고, 다운로드하고, 인쇄하고, 저장할 수 있는 하나의 결합된 PDF를 만들 수 있습니다. 잘 정리된 파일은 기본 문서 옆에 증거 자료를 계속 보관하고 첨부 파일이 간과될 가능성을 줄이는 데도 도움이 됩니다. 병합은 스크린샷을 찍거나 모든 페이지를 이미지로 변환하는 것과 다릅니다. 일반적인 병합은 소스 PDF의 페이지와 리소스를 결합합니다. 그러나 소스 문서에는 양식, 주석, 책갈피, 암호화 또는 비정상적인 내장 콘텐츠가 포함될 수 있으므로 모든 특수 기능이 동일하게 작동한다고 가정하기보다는 항상 최종 파일을 확인하십시오.",
       "steps": [
         "소스 파일을 준비합니다. 결합하려는 PDF 문서를 찾고 각 문서가 올바르게 열리는지 확인하세요. 파일이 중요한 경우 모든 원본의 복사본을 그대로 유지하십시오.",
-        "결합할 PDF를 선택합니다. 최종 문서에 속하는 모든 파일을 선택합니다. 비슷한 이름의 파일이 여러 개 있는 경우 각 파일을 식별할 수 있도록 먼저 명확하게 이름을 바꾸십시오.",
+        "결합할 PDF를 선택하세요. 최종 문서에 속하는 모든 파일을 선택합니다. 비슷한 이름의 파일이 여러 개 있는 경우 각 파일을 식별할 수 있도록 먼저 명확하게 이름을 바꾸십시오.",
         "파일을 읽기 순서대로 배치합니다. 표지나 서론을 먼저 정리하고, 그 다음 주요 문서, 부록이나 근거 자료 순으로 정리합니다. 올바른 순서는 PDF를 받는 사람이나 조직의 지침에 따라 다릅니다.",
         "PDF 합치기 작업을 시작합니다. 선택한 파일과 순서를 확인한 후 병합을 실행하세요. 처리 시간은 페이지 수, 삽입된 이미지, 파일 크기, 브라우저 메모리 및 장치 성능에 따라 다릅니다.",
         "병합된 PDF를 다운로드하세요. application-documents.pdf 또는 Monthly-invoices.pdf와 같이 목적을 설명하는 명확한 이름으로 결합된 파일을 저장합니다.",
@@ -40258,10 +40258,10 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "입사 지원서: 고용주가 단일 첨부 파일을 요청할 경우 이력서, 자기 소개서, 경력 편지 및 교육 수료증을 하나의 PDF로 결합합니다.",
         "대학 및 학교 제출물: 과제, 표지, 참고 문헌 및 지원 페이지를 하나의 체계적인 문서로 결합합니다.",
         "송장 및 회계: 한 달 또는 프로젝트에 대한 송장, 영수증, 구매 주문서 또는 명세서를 단일 기록으로 병합합니다.",
-        "스캔한 서류: 개별적으로 스캔한 페이지나 섹션을 하나의 파일로 결합하여 검토 및 저장이 더 쉽습니다.",
+        "스캔한 서류: 개별적으로 스캔한 페이지 또는 섹션을 하나의 파일로 결합하여 검토 및 저장이 더 쉽습니다.",
         "사업 보고서: 요약, 보고서, 차트, 부록을 올바른 순서로 정리하세요.",
         "법률 또는 행정 서류 작업: 수신자의 특정 제출 규칙을 따르고 원본을 보존하면서 관련 양식 및 지원 문서를 수집합니다.",
-        "조사 및 학습: 허용되는 경우 읽기 노트, 논문 섹션 및 참고 자료를 개인 학습 사본으로 결합합니다.",
+        "연구 및 연구: 허용되는 경우 읽기 노트, 논문 섹션 및 참고 자료를 개인 학습 사본으로 결합합니다.",
         "회의 및 프로젝트: 팀 핸드오프를 위해 의제, 회의록, 사양 및 지원 문서를 함께 가져옵니다.",
         "여행 및 개인 기록: 여행 일정, 예약 확인서, 기타 문서를 편리한 참조 파일로 정리합니다.",
         "이메일 및 파일 공유: 수신자가 단일 문서를 선호하는 경우 여러 관련 PDF 첨부 파일을 하나의 결합된 파일로 대체합니다.",
@@ -40287,7 +40287,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "매우 큰 PDF 또는 많은 고해상도 스캔 페이지는 사용 가능한 브라우저 메모리, 장치 저장 공간 및 처리 성능에 따라 제한될 수 있습니다.",
         "다양한 페이지 크기와 방향이 출력에 혼합되어 있을 수 있습니다. 문서를 인쇄하거나 제출하기 전에 검토하세요.",
         "병합은 흐릿한 스캔, 누락된 페이지, 잘못된 정보 또는 읽을 수 없는 텍스트 등 원본 PDF에 이미 존재하는 실수를 수정할 수 없습니다.",
-        "결합된 파일은 수신 웹사이트에서 이를 승인한다는 것을 보장하지 않습니다. 업로드 제한, 파일 정책, 명명 규칙, 필수 문서 순서는 수신 기관에서 관리합니다."
+        "결합된 파일은 수신 웹사이트에서 이를 승인한다는 것을 보장하지 않습니다. 업로드 제한, 파일 정책, 명명 규칙, 필수 문서 순서는 수신 기관에서 제어합니다."
       ],
       "faq": [
         {
@@ -40303,7 +40303,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Toolployee는 브라우저 기반의 PDF 합치기 워크플로를 제공하므로 별도의 데스크톱 PDF 병합기를 설치하지 않고도 페이지를 사용할 수 있습니다. 실제 처리 제한은 브라우저, 장치 및 파일 크기에 따라 달라질 수 있습니다."
         },
         {
-          "q": "Windows, Mac, Android 또는 iPhone에서 PDF 파일을 병합할 수 있습니까?",
+          "q": "Windows, Mac, Android 또는 iPhone에서 PDF 파일을 병합할 수 있나요?",
           "a": "최신 데스크톱 및 모바일 장치에서 반응형 브라우저 도구를 열 수 있습니다. 성능은 장치와 처리되는 문서에 따라 다릅니다. 매우 큰 파일에는 데스크탑이 더 적합할 수 있습니다."
         },
         {
@@ -40332,7 +40332,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "병합된 PDF의 페이지 순서가 잘못된 이유는 무엇입니까?",
-          "a": "최종 순서는 파일 선택에서 예상한 순서와 일치하지 않을 수 있습니다. 병합하기 전에 파일을 의도적으로 정렬한 다음 출력을 열고 문서 간 전환을 확인합니다. 도구가 재정렬 컨트롤을 제공하는 경우 병합을 실행하기 전에 이를 사용하세요."
+          "a": "최종 순서는 파일 선택에서 예상한 순서와 일치하지 않을 수 있습니다. 병합하기 전에 파일을 의도적으로 정렬한 다음 출력을 열고 문서 간 전환을 확인합니다. 도구가 재정렬 컨트롤을 제공하는 경우 병합을 실행하기 전에 이를 사용하십시오."
         },
         {
           "q": "비밀번호로 보호된 PDF를 병합할 수 있나요?",
@@ -40352,7 +40352,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "기밀 PDF 문서를 온라인으로 병합하는 것이 안전한가요?",
-          "a": "민감한 문서를 사용하기 전에 서비스의 개인 정보 보호 및 파일 처리 정보를 처리하고 검토할 권한이 있는 파일만 처리하십시오. 매우 기밀이거나 규제 대상인 자료의 경우 조직에서 승인한 문서 처리 정책을 따르십시오."
+          "a": "민감한 문서를 사용하기 전에 서비스의 개인 정보 보호 및 파일 처리 정보를 처리하고 검토할 권한이 있는 파일만 처리하십시오. 매우 기밀이거나 규제 대상인 자료의 경우 조직에서 승인한 문서 처리 정책을 따르세요."
         },
         {
           "q": "병합된 PDF가 열리지 않으면 어떻게 해야 합니까?",
@@ -40360,7 +40360,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "병합 후 모든 페이지가 포함되었는지 어떻게 확인할 수 있나요?",
-          "a": "출력 페이지 수를 예상 총 페이지 수와 비교하고, 각 소스 문서의 시작과 끝을 검사하고, 중요한 페이지를 개별적으로 확인합니다. 중요한 제출물의 경우 업로드하기 전에 전체 결합된 PDF를 확인하세요."
+          "a": "출력 페이지 수를 예상 총 페이지 수와 비교하고, 각 소스 문서의 시작과 끝을 검사하고, 중요한 페이지를 개별적으로 확인합니다. 중요한 제출물의 경우 업로드하기 전에 전체 결합 PDF를 확인하세요."
         }
       ],
       "visual": "workflow"
@@ -40371,7 +40371,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 분할를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40416,7 +40416,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 분할의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "특정 PDF 페이지를 추출할 수 있나요?",
@@ -40431,7 +40431,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF를 JPG로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40476,7 +40476,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF를 JPG로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "PDF를 JPG로 변환하면 모든 페이지가 변환되나요?",
@@ -40491,7 +40491,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "JPG를 PDF로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40536,7 +40536,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JPG를 PDF로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "여러 개의 JPG 이미지를 하나의 PDF로 변환할 수 있나요?",
@@ -40551,7 +40551,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 보호를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40596,7 +40596,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 보호의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "PDF를 보호하면 내용이 암호화됩니까?",
@@ -40611,7 +40611,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 잠금 해제를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40656,7 +40656,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 잠금 해제의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "비밀번호로 보호된 PDF의 잠금을 해제할 수 있나요?",
@@ -40671,7 +40671,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 회전를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40716,7 +40716,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 회전의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "선택한 PDF 페이지만 회전할 수 있나요?",
@@ -40731,7 +40731,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 압축를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40750,7 +40750,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "기밀 파일의 경우 명시적으로 지원되는 브라우저 측 처리를 선호하고 불필요한 비밀을 입력하지 마십시오.",
         "피해야 할 사항: 텍스트 및 이미지 가독성을 확인하지 않고 최적화합니다.",
         "피해야 할 사항: 모든 PDF가 동일한 비율로 축소될 수 있다고 가정합니다.",
-        "피해야 할 사항: 원본 파일을 덮어씁니다."
+        "방지: 원본 파일을 덮어씁니다."
       ],
       "limitations": [
         "매우 크거나 복잡한 문서는 브라우저 메모리로 인해 제한될 수 있습니다.",
@@ -40776,7 +40776,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 압축의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "PDF 압축이 품질에 영향을 미치나요?",
@@ -40791,7 +40791,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF에 페이지 번호 추가를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40836,7 +40836,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF에 페이지 번호 추가의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "모든 PDF 페이지에 페이지 번호를 추가할 수 있나요?",
@@ -40851,7 +40851,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF를 Word로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40870,7 +40870,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "기밀 파일의 경우 명시적으로 지원되는 브라우저 측 처리를 선호하고 불필요한 비밀을 입력하지 마십시오.",
         "피해야 할 사항: 복잡한 레이아웃이 완벽하게 변환될 것으로 기대합니다.",
         "피해야 할 사항: 표, 열, 글꼴 및 페이지 나누기를 교정하지 못합니다.",
-        "피해야 할 사항: OCR과 유사한 결과를 오류 없는 것으로 처리합니다."
+        "피해야 할 사항: OCR과 유사한 결과를 오류가 없는 것으로 취급합니다."
       ],
       "limitations": [
         "매우 크거나 복잡한 문서는 브라우저 메모리로 인해 제한될 수 있습니다.",
@@ -40896,7 +40896,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF를 Word로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "PDF to Word는 정확한 레이아웃을 유지합니까?",
@@ -40911,7 +40911,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "Word를 PDF로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40956,7 +40956,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Word를 PDF로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "Word를 PDF로 변환하는 이유는 무엇입니까?",
@@ -40971,7 +40971,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 페이지 삭제를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -40982,7 +40982,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
         "보고서에서 빈 페이지를 제거합니다.",
         "제출하기 전에 중복되거나 원치 않는 페이지를 삭제하세요.",
-        "문서의 짧은 사본을 만듭니다."
+        "문서의 짧은 복사본을 만듭니다."
       ],
       "tips": [
         "파괴적인 편집을 하기 전에 원본을 보관하세요.",
@@ -41016,7 +41016,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 페이지 삭제의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "여러 PDF 페이지를 삭제할 수 있나요?",
@@ -41031,7 +41031,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 페이지 순서 변경를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41076,7 +41076,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 페이지 순서 변경의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "재정렬하면 페이지 내용이 변경되나요?",
@@ -41091,7 +41091,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 PDF 워크플로우는 소스 준비, 작업 적용, 출력 검토 및 요구 사항을 충족하는 경우에만 결과 유지 등 집중적인 문서 작업을 중심으로 설계되었습니다.",
       "steps": [
         "PDF 그레이스케일 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41136,11 +41136,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PDF 그레이스케일 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "PDF를 회색조로 변환하는 이유는 무엇입니까?",
-          "a": "그레이스케일은 흑백 인쇄 또는 색상이 불필요한 작업 흐름을 위해 문서를 단순화할 수 있지만 색상 기반 구별을 제거할 수 있습니다."
+          "a": "그레이스케일은 흑백 인쇄 또는 컬러가 불필요한 작업 흐름을 위해 문서를 단순화할 수 있지만 컬러 기반 구별을 제거할 수 있습니다."
         }
       ],
       "visual": "workflow"
@@ -41151,12 +41151,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "온라인 이미지 압축를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
       "useCases": [
-        "별도의 유틸리티를 설치하지 않고도 빠른 일회성 이미지 압축 온라인 작업이 가능합니다.",
+        "별도의 유틸리티 설치 없이 빠른 일회성 이미지 압축 온라인 작업이 가능합니다.",
         "문서, 미디어, 텍스트, 코드, 데이터 또는 작성자 워크플로에 대한 반복 가능한 준비 작업입니다.",
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
@@ -41196,7 +41196,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 이미지 압축의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "압축에 가장 적합한 이미지 형식은 무엇입니까?",
@@ -41211,7 +41211,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "온라인 이미지 자르기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41256,7 +41256,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 이미지 자르기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "특정 종횡비로 자를 수 있나요?",
@@ -41271,7 +41271,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "온라인 이미지 크기 조정를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41316,7 +41316,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 이미지 크기 조정의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "크기를 조정하면 이미지 품질이 향상되나요?",
@@ -41327,11 +41327,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "webp-to-png-converter": {
       "heroIntro": "WebP 이미지를 브라우저 메모리에서 PNG 형식으로 변환하여 존재하는 경우 투명도를 유지합니다.",
-      "intro": "WebP 이미지를 브라우저 메모리에서 PNG 형식으로 변환하여 존재하는 경우 투명도를 유지합니다. 예를 들어 PNG가 필요한 소프트웨어용 WebP 자산을 변환하는 데 사용합니다. 또한 그래픽 작업 흐름의 투명성을 유지하는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "intro": "WebP 이미지를 브라우저 메모리에서 PNG 형식으로 변환하여 존재하는 경우 투명도를 유지합니다. 예를 들어 PNG가 필요한 소프트웨어용 WebP 자산을 변환하는 데 사용합니다. 또한 그래픽 작업 흐름의 투명성을 유지하는 데도 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "WebP를 PNG로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41376,11 +41376,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "WebP를 PNG로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "WebP에서 PNG로 투명도가 유지되나요?",
-          "a": "소스에 지원되는 투명도가 포함되어 있는 경우 해당 투명도를 PNG로 유지하도록 변환이 설계됩니다."
+          "a": "소스에 지원되는 투명도가 포함된 경우 해당 투명도를 PNG로 유지하도록 변환이 설계됩니다."
         }
       ],
       "visual": "formats"
@@ -41391,7 +41391,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "WebP를 JPG로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41436,7 +41436,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "WebP를 JPG로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "WebP에서 JPG로 투명성을 유지합니까?",
@@ -41451,7 +41451,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "PNG를 JPG로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41470,7 +41470,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "실제 디스플레이 크기로 결과를 미리 봅니다.",
         "피하십시오: 투명성이 필요할 때 JPG를 사용하십시오.",
         "피해야 할 사항: 라인 아트를 반복적으로 변환합니다.",
-        "피해야 할 사항: 투명도를 제거한 후 배경을 확인하지 않습니다."
+        "방지: 투명도가 제거된 후 배경을 확인하지 않습니다."
       ],
       "limitations": [
         "브라우저 메모리는 매우 큰 이미지에 영향을 미칩니다.",
@@ -41496,7 +41496,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "PNG를 JPG로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "PNG를 JPG로 변환하는 이유는 무엇입니까?",
@@ -41511,7 +41511,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "JPG를 PNG로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41556,7 +41556,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JPG를 PNG로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "JPG에서 PNG로 변환하면 손실된 품질이 복원됩니까?",
@@ -41571,7 +41571,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "SVG를 PNG로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41616,7 +41616,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "SVG를 PNG로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "SVG를 PNG로 변환하는 이유는 무엇입니까?",
@@ -41631,12 +41631,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "흑백 이미지 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
       "useCases": [
-        "별도의 유틸리티 설치 없이 빠르게 일회용 흑백 이미지 변환 작업을 수행할 수 있습니다.",
+        "별도의 유틸리티 설치 없이 빠른 일회성 흑백 이미지 변환 작업을 수행할 수 있습니다.",
         "문서, 미디어, 텍스트, 코드, 데이터 또는 작성자 워크플로에 대한 반복 가능한 준비 작업입니다.",
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
@@ -41676,11 +41676,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "흑백 이미지 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "흑백은 회색조와 동일합니까?",
-          "a": "항상 그런 것은 아닙니다. 흑백 효과는 임계값을 사용할 수 있는 반면 회색조는 검은색과 흰색 사이의 회색 톤 범위를 나타냅니다."
+          "a": "항상 그런 것은 아닙니다. 흑백 효과는 임계값을 사용할 수 있는 반면, 회색조는 검은색과 흰색 사이의 회색 톤 범위를 나타냅니다."
         }
       ],
       "visual": "formats"
@@ -41691,7 +41691,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "이미지 색상 반전를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41709,7 +41709,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "투명성, 압축, 호환성 및 용도에 따라 출력 형식을 선택하십시오.",
         "실제 디스플레이 크기로 결과를 미리 봅니다.",
         "피해야 할 사항: 의미 색상을 보존하기 위해 반전을 기대합니다.",
-        "피하십시오: 접근성 대비 테스트를 대신하여 사용하십시오.",
+        "피해야 할 사항: 접근성 대비 테스트 대신 사용하세요.",
         "방지: 소스 이미지를 덮어씁니다."
       ],
       "limitations": [
@@ -41736,7 +41736,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "이미지 색상 반전의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "이미지 색상 반전은 무엇을 합니까?",
@@ -41751,7 +41751,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "이미지 뒤집기 및 회전를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41796,7 +41796,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "이미지 뒤집기 및 회전의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "이미지를 가로 또는 세로로 뒤집을 수 있나요?",
@@ -41811,7 +41811,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "QR 코드 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41856,7 +41856,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "QR 코드 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "QR 코드에 무엇을 인코딩할 수 있나요?",
@@ -41871,7 +41871,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "온라인 이미지 블러를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41882,7 +41882,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
         "스크린샷에서 얼굴을 흐리게 처리합니다.",
         "사진에서 번호판을 숨깁니다.",
-        "이미지를 공유하기 전에 작은 개인 정보를 가릴 수 있습니다."
+        "이미지를 공유하기 전에 작은 사적인 세부 사항을 가립니다."
       ],
       "tips": [
         "품질이 중요한 경우 원본 이미지를 유지하세요.",
@@ -41916,7 +41916,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 이미지 블러의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "블러는 민감한 정보를 수정하는 안전한 방법입니까?",
@@ -41931,7 +41931,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 이미지 워크플로는 하나의 변환에 중점을 두므로 전체 그래픽 편집기 없이도 빠른 작업을 완료할 수 있습니다. 웹, 문서, 소셜, 개발, 일상적인 이미지 작업에 유용합니다.",
       "steps": [
         "이미지 색상 팔레트 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -41976,7 +41976,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "이미지 색상 팔레트 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "이미지 색상 팔레트 생성기는 무엇을 반환합니까?",
@@ -41991,7 +41991,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 Python 컴파일러를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42036,7 +42036,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 Python 컴파일러의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "학습을 위해 온라인 Python 컴파일러를 사용할 수 있습니까?",
@@ -42051,7 +42051,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 JavaScript 컴파일러를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42062,7 +42062,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
         "JavaScript 기능을 테스트합니다.",
         "현대적인 구문을 연습하세요.",
-        "작은 알고리즘이나 변환을 디버깅합니다."
+        "작은 알고리즘이나 변환을 디버그합니다."
       ],
       "tips": [
         "재현 가능한 작은 예부터 시작하세요.",
@@ -42096,7 +42096,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 JavaScript 컴파일러의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "최신 JavaScript를 실행할 수 있나요?",
@@ -42111,7 +42111,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 HTML 편집기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42156,7 +42156,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 HTML 편집기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "HTML, CSS, JavaScript를 함께 테스트할 수 있나요?",
@@ -42171,7 +42171,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 C++ 컴파일러를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42216,7 +42216,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 C++ 컴파일러의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "온라인 C++ 컴파일러가 인터뷰 연습에 적합합니까?",
@@ -42231,7 +42231,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 Java 컴파일러를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42240,7 +42240,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "문서, 미디어, 텍스트, 코드, 데이터 또는 작성자 워크플로에 대한 반복 가능한 준비 작업입니다.",
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
-        "Java 구문 및 컬렉션을 연습합니다.",
+        "Java 구문과 컬렉션을 연습해 보세요.",
         "작은 알고리즘을 실행하고 출력을 검사합니다.",
         "Java 컴파일러 오류를 재현합니다."
       ],
@@ -42276,7 +42276,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 Java 컴파일러의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "Java 프로그램을 온라인으로 연습할 수 있나요?",
@@ -42291,7 +42291,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 C# 컴파일러를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42336,10 +42336,10 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 C# 컴파일러의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
-          "q": "IDE를 설치하지 않고 C# 코드를 테스트할 수 있나요?",
+          "q": "IDE를 설치하지 않고도 C# 코드를 테스트할 수 있나요?",
           "a": "예, 로컬 IDE를 설치하지 않고도 지원되는 C# 코드 조각 및 학습 연습에 브라우저 샌드박스를 사용할 수 있습니다."
         }
       ],
@@ -42351,7 +42351,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 PHP 컴파일러를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42361,7 +42361,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
         "작고 재현 가능한 코드 조각으로 PHP 구문을 확인하세요.",
-        "함수와 배열을 연습해보세요.",
+        "함수와 배열을 연습해 보세요.",
         "작은 서버측 로직 문제를 재현합니다."
       ],
       "tips": [
@@ -42396,7 +42396,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 PHP 컴파일러의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "PHP 구문을 온라인으로 테스트할 수 있나요?",
@@ -42411,7 +42411,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 코딩 작업 공간은 학습, 디버깅, 구문 확인 및 재현 가능한 작은 예제에 유용합니다. 실행 모델은 언어마다 다르므로 프로덕션 환경이 아닌 개발 샌드박스로 취급해야 합니다.",
       "steps": [
         "온라인 SQL 편집기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42456,7 +42456,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온라인 SQL 편집기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "온라인 SQL 편집기가 내 프로덕션 데이터베이스에 연결됩니까?",
@@ -42466,12 +42466,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "json-formatter-validator": {
-      "heroIntro": "구문 강조를 통해 지저분한 JSON 데이터 문자열을 다듬고, 형식화하고, 검증하고, 축소합니다.",
-      "intro": "구문 강조를 통해 지저분한 JSON 데이터 문자열을 다듬고, 형식화하고, 검증하고, 축소합니다. 예를 들어 API 응답을 예쁘게 인쇄하는 데 사용합니다. 또한 구성 파일을 커밋하기 전에 JSON을 검증하는 데도 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "heroIntro": "구문 강조 기능을 사용하여 지저분한 JSON 데이터 문자열을 다듬고, 형식화하고, 검증하고, 축소합니다.",
+      "intro": "구문 강조 기능을 사용하여 지저분한 JSON 데이터 문자열을 다듬고, 형식화하고, 검증하고, 축소합니다. 예를 들어 API 응답을 예쁘게 인쇄하는 데 사용합니다. 또한 구성 파일을 커밋하기 전에 JSON을 검증하는 데도 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "JSON 포맷터 및 검증기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42486,7 +42486,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: JSON을 JavaScript 개체 구문과 혼동합니다.",
         "피해야 할 사항: 파서 동작을 인지하지 못한 채 중복 키가 손실됩니다.",
@@ -42500,7 +42500,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "JSON 포맷터 및 검증기는 어떤 용도로 사용되나요?",
-          "a": "구문 강조를 통해 지저분한 JSON 데이터 문자열을 다듬고, 형식화하고, 검증하고, 축소합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "구문 강조 기능을 사용하여 지저분한 JSON 데이터 문자열을 다듬고, 형식화하고, 검증하고, 축소합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "JSON 포맷터 및 검증기는 어떻게 작동하나요?",
@@ -42516,7 +42516,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JSON 포맷터 및 검증기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "JSON 포맷터로 잘못된 JSON을 수정할 수 있나요?",
@@ -42531,7 +42531,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "Base64 인코더/디코더를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42546,7 +42546,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: Base64를 암호화로 취급합니다.",
         "피해야 할 사항: URL 안전과 표준 Base64를 혼동합니다.",
@@ -42576,7 +42576,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Base64 인코더/디코더의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "Base64 암호화인가요?",
@@ -42591,7 +42591,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "URL Slug 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42600,13 +42600,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "문서, 미디어, 텍스트, 코드, 데이터 또는 작성자 워크플로에 대한 반복 가능한 준비 작업입니다.",
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
-        "기사 제목을 읽을 수 있는 URL 경로로 바꿉니다.",
+        "기사 제목을 읽을 수 있는 URL 경로로 변환합니다.",
         "페이지 슬러그의 제품 이름을 정규화합니다.",
         "콘텐츠 워크플로우를 위한 일관된 슬러그를 생성합니다."
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 리디렉션 없이 설정된 URL을 변경합니다.",
         "피해야 할 사항: 불필요한 불용어나 구두점을 사용합니다.",
@@ -42636,7 +42636,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "URL Slug 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "URL 슬러그를 SEO 친화적으로 만드는 이유는 무엇입니까?",
@@ -42651,7 +42651,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "HTML Entity Encoder를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42666,11 +42666,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 동일한 텍스트를 반복적으로 인코딩합니다.",
         "피해야 할 사항: HTML 이스케이프와 URL 인코딩을 혼동하세요.",
-        "피해야 할 사항: 원시 텍스트가 필요한 곳에 인코딩된 텍스트를 사용합니다."
+        "피해야 할 사항: 원시 텍스트가 필요한 경우 인코딩된 텍스트를 사용합니다."
       ],
       "limitations": [
         "출력은 도구에서 지원하는 구문과 규칙을 따릅니다.",
@@ -42696,7 +42696,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "HTML Entity Encoder의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "HTML 엔터티를 인코딩하는 이유는 무엇입니까?",
@@ -42711,7 +42711,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "CSS Minifier를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42726,10 +42726,10 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 읽을 수 있는 원본을 유지하지 않고 소스 코드를 축소합니다.",
-        "피해야 할 사항: 축소를 가정하면 잘못된 CSS가 수정됩니다.",
+        "피하십시오: 축소가 잘못된 CSS를 수정한다고 가정합니다.",
         "피해야 할 사항: 개발 작업 흐름에서 소스 맵을 무시합니다."
       ],
       "limitations": [
@@ -42756,7 +42756,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "CSS Minifier의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "CSS 축소가 스타일 작동 방식을 바꾸나요?",
@@ -42767,11 +42767,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "unix-timestamp-converter": {
       "heroIntro": "Epoch 타임스탬프를 사람이 읽을 수 있는 날짜로 변환하거나 그 반대로 변환합니다.",
-      "intro": "Epoch 타임스탬프를 사람이 읽을 수 있는 날짜로 변환하거나 그 반대로 변환합니다. 예를 들어 API 타임스탬프를 읽을 수 있는 날짜로 변환하는 데 사용합니다. 또한 테스트 케이스에 대한 에포크 값을 생성하는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "intro": "Epoch 타임스탬프를 사람이 읽을 수 있는 날짜로 변환하거나 그 반대로 변환합니다. 예를 들어 API 타임스탬프를 읽을 수 있는 날짜로 변환하는 데 사용합니다. 또한 테스트 사례에 대한 획기적인 값을 생성하는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "Unix Timestamp 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42786,7 +42786,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 초를 밀리초와 혼동합니다.",
         "피해야 할 사항: 시간대 표시 규칙을 무시합니다.",
@@ -42816,7 +42816,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Unix Timestamp 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "Unix 타임스탬프는 초 단위인가요, 아니면 밀리초 단위인가요?",
@@ -42831,7 +42831,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "HEX를 RGB로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42846,7 +42846,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 알파 채널을 삭제합니다.",
         "피해야 할 사항: 3자리와 6자리 HEX 약어를 혼동합니다.",
@@ -42876,7 +42876,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "HEX를 RGB로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "HEX를 RGB 및 HSL로 변환할 수 있나요?",
@@ -42891,12 +42891,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "URL 인코더/디코더를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
       "useCases": [
-        "별도의 유틸리티를 설치하지 않고도 일회용 URL 인코더 디코더 작업을 빠르게 수행할 수 있습니다.",
+        "별도의 유틸리티를 설치하지 않고도 빠른 일회용 URL 인코더 디코더 작업을 수행할 수 있습니다.",
         "문서, 미디어, 텍스트, 코드, 데이터 또는 작성자 워크플로에 대한 반복 가능한 준비 작업입니다.",
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
@@ -42906,7 +42906,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 구성 요소만 인코딩해야 하는 경우 전체 URL을 인코딩합니다.",
         "피해야 할 사항: 이중 인코딩 값.",
@@ -42936,11 +42936,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "URL 인코더/디코더의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "URL 인코딩은 무엇에 사용되나요?",
-          "a": "URL 인코딩은 특별한 의미가 있거나 URL 구성 요소에서 안전하지 않아 올바르게 전송될 수 없는 문자를 나타냅니다."
+          "a": "URL 인코딩은 특별한 의미가 있거나 올바르게 전송될 수 있도록 URL 구성 요소에서 안전하지 않은 문자를 나타냅니다."
         }
       ],
       "visual": "code"
@@ -42951,7 +42951,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "JWT Decoder를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -42966,7 +42966,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 디코딩된 주장을 검증된 주장으로 취급합니다.",
         "피해야 할 사항: 생산 토큰을 공개 도구에 붙여넣기.",
@@ -42996,7 +42996,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JWT Decoder의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "JWT 디코더는 토큰 서명을 확인합니까?",
@@ -43011,7 +43011,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "UUID 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43021,12 +43021,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
         "데이터베이스 테스트 데이터에 대한 ID를 생성합니다.",
-        "개발 설비에 대한 고유 식별자를 만듭니다.",
+        "개발 픽스처에 대한 고유 식별자를 만듭니다.",
         "UUID v4 값 배치를 생성합니다."
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "방지: 보안 모델을 고려하지 않고 생성된 UUID를 비밀로 사용합니다.",
         "피하십시오: 고유성을 가정하는 것은 절대적인 수학적 보장입니다.",
@@ -43056,7 +43056,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "UUID 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "UUID v4란 무엇입니까?",
@@ -43071,7 +43071,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "비밀번호 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43086,7 +43086,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 생성된 비밀번호를 여러 계정에 걸쳐 재사용합니다.",
         "피해야 할 사항: 비밀번호를 일반 텍스트로 저장합니다.",
@@ -43116,7 +43116,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "비밀번호 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "생성된 비밀번호를 재사용해야 합니까?",
@@ -43131,7 +43131,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 개발자 유틸리티는 API 작업, 디버깅, 프런트엔드 또는 백엔드 개발, 테스트 및 데이터 준비 중에 일반적으로 나타나는 반복 가능한 워크플로를 대상으로 합니다.",
       "steps": [
         "User Agent 파서를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43146,7 +43146,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "커밋하기 전에 변환된 데이터의 유효성을 검사합니다.",
-        "테스트 중에 극단적인 경우와 잘못된 형식의 입력을 포함합니다.",
+        "테스트 중에 극단적인 사례와 잘못된 형식의 입력을 포함합니다.",
         "생산 비밀이나 개인 고객 데이터를 붙여넣지 마십시오.",
         "피해야 할 사항: 사용자 에이전트 감지를 신뢰할 수 있는 ID로 취급합니다.",
         "피해야 할 사항: 사용자 에이전트가 장치를 고유하게 식별한다고 가정합니다.",
@@ -43176,7 +43176,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "User Agent 파서의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "사용자 에이전트 문자열로 사용자를 식별할 수 있나요?",
@@ -43187,11 +43187,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "word-character-counter": {
       "heroIntro": "실시간 단어, 문자, 문장, 단락 및 독서 시간을 계산합니다.",
-      "intro": "실시간 단어, 문자, 문장, 단락 및 독서 시간을 계산합니다. 예를 들어 에세이나 과제 길이를 확인하는 데 사용합니다. 또한 글자 수 제한에 따라 사본을 측정하는 데도 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "intro": "실시간 단어, 문자, 문장, 단락 및 독서 시간을 계산합니다. 예를 들어 에세이나 과제 길이를 확인하는 데 사용합니다. 또한 글자 수 제한을 기준으로 사본을 측정하는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "단어 수 세기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43201,7 +43201,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
         "에세이나 과제 길이를 확인하세요.",
-        "글자수 제한에 맞춰 사본을 측정하세요.",
+        "글자 수 제한에 맞춰 사본을 측정하세요.",
         "기사 초안을 읽는 데 걸리는 시간을 추정합니다."
       ],
       "tips": [
@@ -43236,7 +43236,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "단어 수 세기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "도구마다 단어 수가 다른 이유는 무엇입니까?",
@@ -43251,7 +43251,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "텍스트 대소문자 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43296,7 +43296,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "텍스트 대소문자 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "대소문자 변환기가 모든 고유 명사의 의미를 보존할 수 있나요?",
@@ -43311,7 +43311,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "중복 줄 제거를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43356,7 +43356,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "중복 줄 제거의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "중복된 줄을 제거하면 대소문자와 공백이 고려되나요?",
@@ -43371,7 +43371,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "Lorem Ipsum 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43416,7 +43416,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Lorem Ipsum 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "Lorem Ipsum은 어떤 용도로 사용되나요?",
@@ -43431,7 +43431,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "Markdown를 HTML로 변환를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43476,7 +43476,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Markdown를 HTML로 변환의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "마크다운을 HTML로 변환할 수 있나요?",
@@ -43487,16 +43487,16 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "reverse-text-mirror-tool": {
       "heroIntro": "역방향 텍스트 효과를 사용하여 문자열 문자나 단어 순서를 반대로 바꿉니다.",
-      "intro": "역방향 텍스트 효과를 사용하여 문자열 문자나 단어 순서를 반대로 바꿉니다. 예를 들어 테스트를 위해 문자열을 뒤집는 데 사용합니다. 또한 텍스트 실험에서 단어 순서를 바꾸는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "intro": "역방향 텍스트 효과를 사용하여 문자열 문자나 단어 순서를 반대로 바꿉니다. 예를 들어 테스트를 위해 문자열을 뒤집는 데 사용합니다. 또한 텍스트 실험에서 단어 순서를 바꾸는 데 도움이 될 수도 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "텍스트 뒤집기 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
       "useCases": [
-        "별도의 유틸리티를 설치하지 않고도 빠른 일회성 역방향 텍스트 생성 작업을 수행할 수 있습니다.",
+        "별도의 유틸리티를 설치하지 않고도 빠른 일회용 역방향 텍스트 생성 작업을 수행할 수 있습니다.",
         "문서, 미디어, 텍스트, 코드, 데이터 또는 작성자 워크플로에 대한 반복 가능한 준비 작업입니다.",
         "대규모 프로젝트 중에 중간 결과를 확인합니다.",
         "다른 애플리케이션이나 작업흐름을 위한 출력을 준비합니다.",
@@ -43536,7 +43536,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "텍스트 뒤집기 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "텍스트를 문자나 단어로 바꿀 수 있나요?",
@@ -43546,12 +43546,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "text"
     },
     "text-diff-checker": {
-      "heroIntro": "두 개의 텍스트 블록을 나란히 비교하여 추가 및 제거된 텍스트를 강조 표시합니다.",
-      "intro": "두 개의 텍스트 블록을 나란히 비교하여 추가 및 제거된 텍스트를 강조 표시합니다. 예를 들어 두 문서 버전을 비교하는 데 사용합니다. 또한 코드 또는 구성 변경을 검토하는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "heroIntro": "두 개의 텍스트 블록을 나란히 비교하여 추가된 텍스트와 제거된 텍스트를 강조표시합니다.",
+      "intro": "두 개의 텍스트 블록을 나란히 비교하여 추가된 텍스트와 제거된 텍스트를 강조표시합니다. 예를 들어 두 문서 버전을 비교하는 데 사용합니다. 또한 코드 또는 구성 변경 사항을 검토하는 데도 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "텍스트 차이 비교기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43570,7 +43570,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "자동화에만 의존하는 대신 출판 결과를 교정하세요.",
         "피해야 할 사항: 다르게 정규화된 공백을 비교합니다.",
         "피하십시오: 시각적 차이를 가정하면 의미론적 동등성이 입증됩니다.",
-        "피해야 할 사항: 기밀 콘텐츠를 붙여넣습니다."
+        "피해야 할 사항: 기밀 콘텐츠 붙여넣기."
       ],
       "limitations": [
         "매우 큰 입력은 브라우저 메모리로 인해 제한될 수 있습니다.",
@@ -43580,7 +43580,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "텍스트 차이 비교기는 어떤 용도로 사용되나요?",
-          "a": "두 개의 텍스트 블록을 나란히 비교하여 추가 및 제거된 텍스트를 강조 표시합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "두 개의 텍스트 블록을 나란히 비교하여 추가된 텍스트와 제거된 텍스트를 강조표시합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "텍스트 차이 비교기는 어떻게 작동하나요?",
@@ -43596,11 +43596,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "텍스트 차이 비교기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "텍스트 비교 검사기는 무엇을 보여줍니까?",
-          "a": "두 개의 텍스트 입력을 비교하고 비교 방법에 따라 추가, 제거, 변경된 섹션 등 차이점을 강조 표시합니다."
+          "a": "두 개의 텍스트 입력을 비교하고 비교 방법에 따라 추가, 제거 또는 변경된 섹션과 같은 차이점을 강조합니다."
         }
       ],
       "visual": "text"
@@ -43611,7 +43611,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "알파벳 순서 도구를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43656,7 +43656,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "알파벳 순서 도구의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "텍스트를 알파벳 역순으로 정렬할 수 있나요?",
@@ -43671,7 +43671,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "HTML 태그 제거를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43716,7 +43716,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "HTML 태그 제거의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "HTML 태그를 제거하면 모든 애플리케이션에서 텍스트가 안전해 집니까?",
@@ -43731,7 +43731,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 텍스트 유틸리티는 수동 편집이 느리거나 오류가 발생하기 쉬운 반복적인 정리, 비교, 변환 또는 생성 작업을 위한 것입니다.",
       "steps": [
         "찾기 및 바꾸기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43776,7 +43776,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "찾기 및 바꾸기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "여러 항목의 변경 사항을 찾아서 바꿀 수 있나요?",
@@ -43791,7 +43791,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "길이 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43836,11 +43836,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "길이 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "어떤 길이 단위를 변환할 수 있나요?",
-          "a": "이 도구는 미터, 킬로미터, 마일, 피트, 인치, 야드와 같은 일반적인 단위를 다룹니다."
+          "a": "이 도구는 미터, 킬로미터, 마일, 피트, 인치 및 야드와 같은 일반적인 단위를 다룹니다."
         }
       ],
       "visual": "converter"
@@ -43851,7 +43851,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "무게 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43896,7 +43896,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "무게 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "질량과 무게의 차이점은 무엇입니까?",
@@ -43911,7 +43911,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "온도 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -43956,7 +43956,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "온도 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "섭씨와 화씨는 어떻게 변환되나요?",
@@ -43971,7 +43971,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "데이터 크기 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -44016,7 +44016,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "데이터 크기 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "GB와 GiB의 차이점은 무엇입니까?",
@@ -44031,7 +44031,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "속도 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -44076,7 +44076,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "속도 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "km/h를 mph로 변환할 수 있나요?",
@@ -44091,7 +44091,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "시간 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -44136,11 +44136,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "시간 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "한 달은 항상 같은 일수인가요?",
-          "a": "아니요. 달력 월의 길이는 다양합니다. 월 및 연도와 관련된 기간 변환은 사용된 규칙 또는 참조 날짜에 따라 다릅니다."
+          "a": "아니요. 월의 길이는 다양합니다. 월 및 연도와 관련된 기간 변환은 사용된 규칙 또는 참조 날짜에 따라 다릅니다."
         }
       ],
       "visual": "converter"
@@ -44151,7 +44151,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "면적 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -44196,7 +44196,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "면적 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "Bigha는 어디에서나 같은 크기인가요?",
@@ -44207,11 +44207,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "pressure-unit-converter": {
       "heroIntro": "파스칼(Pa), bar, PSI 및 표준 대기(atm)를 포함한 압력 단위를 변환합니다.",
-      "intro": "파스칼(Pa), bar, PSI 및 표준 대기(atm)를 포함한 압력 단위를 변환합니다. 예를 들어, 장비 사양에 따라 PSI를 bar로 변환하는 데 사용합니다. 또한 엔지니어링 작업을 위해 파스칼을 kPa로 변환하는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "intro": "파스칼(Pa), bar, PSI 및 표준 대기(atm)를 포함한 압력 단위를 변환합니다. 예를 들어 장비 사양에 따라 PSI를 bar로 변환하는 데 사용합니다. 또한 엔지니어링 작업을 위해 파스칼을 kPa로 변환하는 데 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "압력 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -44256,7 +44256,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "압력 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "게이지압과 절대압력의 차이는 무엇인가요?",
@@ -44271,7 +44271,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "에너지 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -44289,7 +44289,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "소스 정밀도에 적합한 유효 숫자를 사용하십시오.",
         "규제 작업 또는 엔지니어링 작업의 경우 필요한 표준을 확인하십시오.",
         "피하십시오: 에너지와 힘을 혼동하십시오.",
-        "피해야 할 사항: 영양 칼로리와 작은 칼로리 단위를 혼합합니다.",
+        "피해야 할 사항: 영양 칼로리를 작은 칼로리 단위와 혼합합니다.",
         "피해야 할 사항: 최종 단위 계수를 적용하기 전에 변환된 에너지를 반올림합니다."
       ],
       "limitations": [
@@ -44316,7 +44316,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "에너지 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "kWh는 에너지 단위인가요, 전력 단위인가요?",
@@ -44331,7 +44331,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 변환 작업 흐름은 정의된 단위 간의 직접적인 관계를 제공하며 학습, 여행, 엔지니어링, 쇼핑, 과학, 피트니스 및 일상 계획에 유용합니다.",
       "steps": [
         "전력 변환기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -44376,7 +44376,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "전력 변환기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "와트와 킬로와트는 어떤 관계가 있나요?",
@@ -44387,7 +44387,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "sip-wealth-calculator": {
       "heroIntro": "월간 기여도와 연간 수익률 가정을 사용하여 SIP 투자 성장, 총 기여도 및 미래 가치를 추정합니다.",
-      "intro": "월간 기여도와 연간 수익률 가정을 사용하여 SIP 투자 성장, 총 기여도 및 미래 가치를 추정합니다. 예를 들어, 10년, 15년, 20년 동안의 월 기여금을 비교하는 데 사용합니다. 또한 몇 가지 가정된 연간 수익률을 테스트하는 데도 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "intro": "월간 기여도와 연간 수익률 가정을 사용하여 SIP 투자 성장, 총 기여도 및 미래 가치를 추정합니다. 예를 들어, 10년, 15년 또는 20년 동안의 월간 기여금을 비교하는 데 사용합니다. 또한 몇 가지 가정된 연간 수익률을 테스트하는 데도 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "SIP 계산기는 귀하가 기부한 금액과 해당 기부금의 예상 성장을 분리합니다. 이를 통해 기여 규모, 시간 및 가정된 수익률이 예상 미래 가치에 어떤 영향을 미치는지 더 쉽게 확인할 수 있습니다.",
       "steps": [
         "표시된 단위를 사용하여 SIP 계산기에서 요청한 값을 입력하세요.",
@@ -44567,7 +44567,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "gst-calculator": {
       "heroIntro": "송장에 대한 포함 및 독점 상품 및 서비스 세금(GST)을 계산합니다.",
-      "intro": "송장에 대한 포함 및 독점 상품 및 서비스 세금(GST)을 계산합니다. 예를 들어, 과세 송장 값에 GST를 추가하는 데 사용합니다. 또한 포함 가격에서 GST를 추출하는 데도 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "intro": "송장에 대한 포함 및 독점 상품 및 서비스 세금(GST)을 계산합니다. 예를 들어, 과세 송장 값에 GST를 추가하는 데 사용합니다. 또한 포함 가격에서 GST를 추출하는 데 도움이 될 수도 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "GST 계산기를 사용하면 세금 구성 요소와 포함 또는 제외 금액을 표시하여 송장 계산을 더 쉽게 할 수 있습니다.",
       "steps": [
         "표시된 단위를 사용하여 GST 계산기에서 요청한 값을 입력하세요.",
@@ -44581,7 +44581,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "나중에 계산을 반복하고 확인할 수 있도록 가정을 기록합니다.",
         "과세 송장 금액에 GST를 추가합니다.",
         "포함 가격에서 GST를 추출합니다.",
-        "다양한 GST 요율에 따라 송장 총액을 비교하세요."
+        "다양한 GST 요율에 따른 송장 총액을 비교하세요."
       ],
       "tips": [
         "해당 GST 세율을 확인하세요.",
@@ -44626,8 +44626,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "GST 금액 = 과세 가치 × GST 세율. 포함 가격의 경우 세금 구성 요소는 포함 가격 × 요율 / (100 + 요율)로 파생될 수 있습니다."
     },
     "salary-calculator": {
-      "heroIntro": "총 월 급여와 입력한 공제액을 통해 월 실질 급여를 추정합니다.",
-      "intro": "총 월 급여와 입력한 공제액을 통해 월 실질 급여를 추정합니다. 예를 들어 총 급여에서 월별 집으로 가져갈 금액을 추정하는 데 사용합니다. 또한 두 가지 보상 구조를 비교하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "heroIntro": "총 월 급여와 입력한 공제액을 통해 월 급여를 추정하세요.",
+      "intro": "총 월 급여와 입력한 공제액을 통해 월 급여를 추정하세요. 예를 들어, 총 급여에서 월별 수입을 추정하는 데 사용합니다. 또한 두 가지 보상 구조를 비교하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "급여 계산기는 총 보상을 월별 실제 급여 계획 추정치로 변환합니다.",
       "steps": [
         "표시된 단위를 사용하여 급여 계산기에서 요청한 값을 입력하세요.",
@@ -44637,7 +44637,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "다양한 급여 계산기 시나리오를 비교해 보세요.",
-        "테스트할 수 있는 유용한 시나리오는 다음과 같습니다. 총 급여에서 월별 수입을 추정합니다.",
+        "테스트할 유용한 시나리오는 다음과 같습니다. 총 급여에서 월별 수입을 추정합니다.",
         "나중에 계산을 반복하고 확인할 수 있도록 가정을 기록합니다.",
         "총 급여에서 월별 수입을 추정합니다.",
         "두 가지 보상 구조를 비교해보세요.",
@@ -44659,7 +44659,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "급여 계산기는 어떤 용도로 사용되나요?",
-          "a": "총 월 급여와 입력한 공제액을 통해 월 실질 급여를 추정합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "총 월 급여와 입력한 공제액을 통해 월 급여를 추정하세요. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "급여 계산기는 어떻게 작동하나요?",
@@ -44675,7 +44675,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "급여 계산기 출력이 내 급여명세서와 동일합니까?",
-          "a": "반드시 그런 것은 아닙니다. 급여에는 일반 계산기가 알 수 없는 고용주별 혜택, 법정 공제, 세금, 환급 및 가변 구성요소가 포함될 수 있습니다."
+          "a": "반드시 그런 것은 아닙니다. 급여에는 일반 계산기에서는 알 수 없는 고용주별 혜택, 법정 공제, 세금, 환급 및 가변 구성요소가 포함될 수 있습니다."
         },
         {
           "q": "급여 계산기는 무료로 사용할 수 있나요?",
@@ -44686,8 +44686,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "예상 실손금 = 총 급여 - 입력된 공제액. 실제 급여에는 고용주별 세금, 혜택, 환급 및 법정 공제가 포함될 수 있습니다."
     },
     "fd-calculator": {
-      "heroIntro": "정기예금 이자 지급액과 재직 기간 동안의 총 만기 합계를 계산합니다.",
-      "intro": "정기예금 이자 지급액과 재직 기간 동안의 총 만기 합계를 계산합니다. 예를 들어, 다양한 보유 기간에 대한 FD 성숙도를 비교하는 데 사용합니다. 또한 원금과 이자율을 통해 이자를 추정하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "heroIntro": "정기예금 이자지급과 재직기간 동안의 만기총액을 계산합니다.",
+      "intro": "정기예금 이자지급과 재직기간 동안의 만기총액을 계산합니다. 예를 들어, 다양한 보유 기간에 대한 FD 성숙도를 비교하는 데 사용합니다. 또한 원금과 이자율을 통해 이자를 추정하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "FD 계산기는 고정 예금 시나리오를 선택하기 전에 예금 금액, 보유 기간, 이자율 및 복리 가정을 비교하는 데 도움이 됩니다.",
       "steps": [
         "표시된 단위를 사용하여 FD 계산기에서 요청한 값을 입력하세요.",
@@ -44707,7 +44707,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "은행의 실제 복리빈도를 확인하세요.",
         "세금 및 조기 인출 조건을 확인하세요.",
         "단지 공시이율이 아닌 만기가치와 유동성을 비교해보세요.",
-        "피하십시오: 은행의 예금 조건과 다른 복리 계산 일정을 사용하십시오.",
+        "피하십시오: 은행의 예금 조건과 다른 복리 일정을 사용하십시오.",
         "피해야 할 사항: 세금 처리 또는 조기 폐쇄 규정을 무시합니다.",
         "피해야 할 사항: 은행 약관을 확인하지 않고 표시된 환율을 최종 수익 보장으로 간주합니다."
       ],
@@ -44719,7 +44719,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "FD 계산기는 어떤 용도로 사용되나요?",
-          "a": "정기예금 이자 지급액과 재직 기간 동안의 총 만기 합계를 계산합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "정기예금 이자지급과 재직기간 동안의 만기총액을 계산합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "FD 계산기는 어떻게 작동하나요?",
@@ -44747,7 +44747,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "rd-calculator": {
       "heroIntro": "매월 반복되는 은행 예금에 대한 복리이자 이익을 추정합니다.",
-      "intro": "매월 반복되는 은행 예금에 대한 복리이자 이익을 추정합니다. 예를 들어 월별 예금의 만기를 추정하는 데 사용합니다. 또한 다양한 보유 기간에 걸쳐 반복 예금을 비교하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "intro": "매월 반복되는 은행 예금에 대한 복리이자 이익을 추정합니다. 예를 들어, 월별 예금의 만기를 추정하는 데 사용합니다. 또한 다양한 보유 기간에 걸쳐 반복 예금을 비교하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "RD 계산기는 선택한 기간 동안 정기 예금이 얼마나 누적될 수 있는지 추정합니다.",
       "steps": [
         "표시된 단위를 사용하여 RD 계산기에서 요청한 값을 입력하세요.",
@@ -44807,7 +44807,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "retirement-calculator": {
       "heroIntro": "은퇴설계에 수익률과 인플레이션 가정을 활용하여 미래 월별 생활비를 추정합니다.",
-      "intro": "은퇴설계에 수익률과 인플레이션 가정을 활용하여 미래 월별 생활비를 추정합니다. 예를 들어, 향후 은퇴 코퍼스 목표를 추정하는 데 사용합니다. 또한 다양한 퇴직 연령을 테스트하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "intro": "은퇴설계에 수익률과 인플레이션 가정을 활용하여 미래 월별 생활비를 추정합니다. 예를 들어, 미래 은퇴 코퍼스 목표를 추정하는 데 사용합니다. 또한 다양한 퇴직 연령을 테스트하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "은퇴 계획은 가정에 민감합니다. 계산기는 하나의 목표 숫자에 의존하는 대신 시나리오를 테스트하는 데 도움이 됩니다.",
       "steps": [
         "표시된 단위를 사용하여 은퇴 계산기에서 요청한 값을 입력하세요.",
@@ -44944,7 +44944,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "단순 관심 모델과 복리 관심 모델을 비교해 보세요."
       ],
       "tips": [
-        "시간 단위를 연간 비율과 일치하게 유지합니다.",
+        "시간 단위를 연간 비율과 일치하게 유지하십시오.",
         "실제 상품이 단리를 사용하는지 확인해보세요.",
         "결과를 산술 계산으로 사용하십시오.",
         "피해야 할 사항: 잘못된 시간 단위를 사용합니다.",
@@ -45004,7 +45004,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "부분을 전체와 비교해보세요."
       ],
       "tips": [
-        "백분율 포인트와 백분율 변화를 구별합니다.",
+        "백분율 변화와 백분율 포인트를 구별합니다.",
         "어떤 값이 기준선인지 확인하세요.",
         "두 값을 호환되는 단위로 유지하십시오.",
         "피해야 할 사항: 잘못된 기준선 사용.",
@@ -45046,8 +45046,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "백분율 = (부분 ¼ 전체) × 100. 백분율 변화 = ((신규 − 기존) ¼ 기존) × 100."
     },
     "age-calculator": {
-      "heroIntro": "정확한 연대순 연령을 연, 월, 주, 일 단위로 계산합니다.",
-      "intro": "정확한 연대순 연령을 연, 월, 주, 일 단위로 계산합니다. 예를 들어 선택한 날짜의 정확한 나이를 찾는 데 사용합니다. 또한 나이를 연, 월, 일 단위로 계산하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
+      "heroIntro": "연, 월, 주, 일 단위로 정확한 연대순을 계산합니다.",
+      "intro": "연, 월, 주, 일 단위로 정확한 연대순을 계산합니다. 예를 들어 선택한 날짜의 정확한 나이를 찾는 데 사용합니다. 또한 나이를 연, 월, 일 단위로 계산하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
       "why": "나이 계산기는 대략적인 연도 차이보다는 정확한 달력 나이가 필요할 때 유용합니다.",
       "steps": [
         "표시된 단위를 사용하여 나이 계산기에서 요청한 값을 입력하세요.",
@@ -45079,7 +45079,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "나이 계산기는 어떤 용도로 사용되나요?",
-          "a": "정확한 연대순 연령을 연, 월, 주, 일 단위로 계산합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
+          "a": "연, 월, 주, 일 단위로 정확한 연대순을 계산합니다. 별도의 데스크탑 유틸리티를 설치하지 않고도 작업을 완료할 수 있도록 집중된 워크플로우를 위해 설계되었습니다. 정확한 출력은 제공한 값, 파일 또는 코드에 따라 다릅니다."
         },
         {
           "q": "나이 계산기는 어떻게 작동하나요?",
@@ -45117,7 +45117,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "다양한 BMI 계산기 시나리오를 비교해 보세요.",
-        "테스트할 수 있는 유용한 시나리오는 키와 몸무게로 BMI를 계산하는 것입니다.",
+        "테스트할 유용한 시나리오는 키와 몸무게로 BMI를 계산하는 것입니다.",
         "나중에 계산을 반복하고 확인할 수 있도록 가정을 기록합니다.",
         "키와 몸무게로 BMI를 계산합니다.",
         "일반적으로 사용되는 BMI 범주 범위를 이해합니다.",
@@ -45128,7 +45128,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "적절한 참조 모집단을 사용하십시오.",
         "계산기 결과를 진단으로 취급하지 마십시오.",
         "피해야 할 사항: BMI를 진단으로 취급합니다.",
-        "피해야 할 사항: 잘못된 키나 체중 단위를 사용하는 것.",
+        "피해야 할 사항: 잘못된 키나 체중 단위를 사용합니다.",
         "피해야 할 사항: 연령, 신체 구성, 임신 또는 인구별 해석을 무시합니다."
       ],
       "limitations": [
@@ -45241,7 +45241,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "나중에 계산을 반복하고 확인할 수 있도록 가정을 기록합니다.",
         "판매 절감액을 계산합니다.",
         "다양한 할인율을 비교해 보세요.",
-        "추가 세금이나 수수료가 부과되기 전 최종 가격을 알아보세요."
+        "추가 세금이나 수수료가 부과되기 전 최종 가격을 찾아보세요."
       ],
       "tips": [
         "여러 할인이 순차적으로 적용되는지 확인하세요.",
@@ -45288,7 +45288,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "tip-calculator": {
       "heroIntro": "레스토랑 저녁 식사 비용을 나누고 서비스 팁 비율을 균등하게 계산하세요.",
       "intro": "레스토랑 저녁 식사 비용을 나누고 서비스 팁 비율을 균등하게 계산하세요. 예를 들어 레스토랑 팁을 계산하는 데 사용합니다. 또한 여러 사람이 청구서를 분할하는 데 도움이 될 수 있습니다. 이 페이지에는 결과를 올바르게 해석할 수 있도록 대화형 계산기와 실제 설명, 예, 가정 및 일반적인 실수가 결합되어 있습니다.",
-      "why": "팁 계산기는 서비스 요금 계산을 단순화하고 최종 금액을 여러 사람에게 나누어 줄 수 있습니다.",
+      "why": "팁 계산기는 서비스 요금 계산을 단순화하고 최종 금액을 여러 사람에게 나눌 수 있습니다.",
       "steps": [
         "표시된 단위를 사용하여 팁 계산기에서 요청한 값을 입력하세요.",
         "이 계산과 관련된 요율, 기간, 빈도, 세금 또는 기여 일정에 대한 현실적인 가정을 선택하십시오.",
@@ -45309,7 +45309,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "현지 서비스 요금 규정은 자발적인 팁과 별도로 취급됩니다.",
         "피해야 할 사항: 잘못된 기준으로 팁을 계산합니다.",
         "피해야 할 사항: 이미 추가된 서비스 요금을 무시합니다.",
-        "피해야 할 사항: 합계를 나눌 때 고르지 않게 반올림됩니다."
+        "피해야 할 사항: 합계를 분할할 때 고르지 않게 반올림됩니다."
       ],
       "limitations": [
         "추정치는 팁 계산기에서 사용하는 가정과 입력에 따라 달라집니다.",
@@ -45347,7 +45347,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "timetable-maker": {
       "heroIntro": "미리 만들어진 학교, 공부, 직장 또는 개인 템플릿을 사용하여 유연한 주별 또는 일일 시간표를 만들고 모든 시간 슬롯을 직접 편집하세요.",
-      "intro": "미리 만들어진 학교, 공부, 직장 또는 개인 템플릿을 사용하여 유연한 주별 또는 일일 시간표를 만들고 모든 시간 슬롯을 직접 편집하세요. 주제, 휴식 시간, 시작 시간, 편집 가능한 셀을 사용하여 균형 잡힌 주간 시간표를 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "미리 만들어진 학교, 공부, 직장 또는 개인 템플릿을 사용하여 유연한 주별 또는 일일 시간표를 만들고 모든 시간 슬롯을 직접 편집하세요. 주제, 휴식 시간, 시작 시간, 편집 가능한 셀을 사용하여 균형 잡힌 주간 시간표를 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "주제, 휴식 시간, 시작 시간, 편집 가능한 셀을 사용하여 균형 잡힌 주간 시간표를 만드세요.",
       "steps": [
         "수업일과 수업 시간을 선택하세요.",
@@ -45365,7 +45365,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "진정한 휴식을 위한 공간을 남겨두세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45390,7 +45390,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "cute-timetable-maker": {
       "heroIntro": "학생, 어린이, 학습 계획, 일일 루틴을 위해 미리 만들어진 레이아웃으로 귀여운 맞춤형 시간표를 만드세요.",
-      "intro": "학생, 어린이, 학습 계획, 일일 루틴을 위해 미리 만들어진 레이아웃으로 귀여운 맞춤형 시간표를 만드세요. 보다 부드러운 레이아웃, 개인 메시지 및 인쇄 가능한 일정을 사용하여 시각적으로 친숙한 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "학생, 어린이, 학습 계획, 일일 루틴을 위해 미리 만들어진 레이아웃으로 귀여운 맞춤형 시간표를 만드세요. 보다 부드러운 레이아웃, 개인 메시지 및 인쇄 가능한 일정을 사용하여 시각적으로 친숙한 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "보다 부드러운 레이아웃, 개인 메시지 및 인쇄 가능한 일정을 사용하여 시각적으로 친숙한 시간표를 만듭니다.",
       "steps": [
         "수업일과 수업시간을 선택하세요.",
@@ -45408,7 +45408,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "책상이나 벽에 인쇄해 보세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45433,7 +45433,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "student-timetable-maker": {
       "heroIntro": "수업, 학습 세션, 숙제, 복습, 휴식 및 개인 활동을 위한 학생 시간표를 만듭니다.",
-      "intro": "수업, 학습 세션, 숙제, 복습, 휴식 및 개인 활동을 위한 학생 시간표를 만듭니다. 명확한 시간 블록을 사용하여 학생 중심의 주간 수업 및 학습 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "수업, 학습 세션, 숙제, 복습, 휴식 및 개인 활동을 위한 학생 시간표를 만듭니다. 명확한 시간 블록을 사용하여 학생 중심의 주간 수업 및 학습 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "명확한 시간 블록을 사용하여 학생 중심의 주간 수업 및 학습 시간표를 만듭니다.",
       "steps": [
         "학습 요일과 시간대를 선택하세요.",
@@ -45451,7 +45451,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "일관된 주제 이름을 사용하십시오."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45476,7 +45476,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "school-timetable-maker": {
       "heroIntro": "미리 만들어진 수업 시간, 과목, 휴식 시간, 편집 가능한 주간 일정을 사용하여 학교 시간표를 만드세요.",
-      "intro": "미리 만들어진 수업 시간, 과목, 휴식 시간, 편집 가능한 주간 일정을 사용하여 학교 시간표를 만드세요. 수업 시간, 과목, 휴식 시간, 수업일을 중심으로 구성된 학교 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "미리 만들어진 수업 시간, 과목, 휴식 시간, 편집 가능한 주간 일정을 사용하여 학교 시간표를 만드세요. 수업 시간, 과목, 휴식 시간, 수업일을 중심으로 구성된 학교 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "수업 시간, 과목, 휴식 시간, 수업일을 중심으로 구성된 학교 시간표를 만듭니다.",
       "steps": [
         "수업일과 수업시간을 설정하세요.",
@@ -45495,7 +45495,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45520,7 +45520,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "college-timetable-maker": {
       "heroIntro": "강의, 실습, 튜토리얼, 세미나, 학습 블록 및 주간 캠퍼스 루틴에 대한 대학 시간표를 만듭니다.",
-      "intro": "강의, 실습, 튜토리얼, 세미나, 학습 블록 및 주간 캠퍼스 루틴에 대한 대학 시간표를 만듭니다. 대학 주간 동안 강의, 실습, 튜토리얼, 프로젝트 및 학습 블록을 계획하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "강의, 실습, 튜토리얼, 세미나, 학습 블록 및 주간 캠퍼스 루틴에 대한 대학 시간표를 만듭니다. 대학 주간 동안 강의, 실습, 튜토리얼, 프로젝트 및 학습 블록을 계획하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "대학 주간 동안 강의, 실습, 튜토리얼, 프로젝트 및 학습 블록을 계획하세요.",
       "steps": [
         "대학 수업일과 수업 시간을 선택하세요.",
@@ -45539,7 +45539,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45564,7 +45564,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "university-timetable-maker": {
       "heroIntro": "강의, 연구실, 튜토리얼, 연구, 세미나 및 개인 학습 기간에 대한 대학 시간표를 만드세요.",
-      "intro": "강의, 연구실, 튜토리얼, 연구, 세미나 및 개인 학습 기간에 대한 대학 시간표를 만드세요. 강의, 연구실, 연구, 세미나, 자율 학습을 위한 대학 일정을 계획하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "강의, 연구실, 튜토리얼, 연구, 세미나 및 개인 학습 기간에 대한 대학 시간표를 만드세요. 강의, 연구실, 연구, 세미나, 자율 학습을 위한 대학 일정을 계획하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "강의, 연구실, 연구, 세미나, 자율 학습을 위한 대학 일정을 계획하세요.",
       "steps": [
         "대학 날짜와 시간대를 선택하세요.",
@@ -45583,7 +45583,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45608,7 +45608,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "class-timetable-generator": {
       "heroIntro": "기간, 과목, 휴식 시간, 인쇄 가능한 주간 그리드가 포함된 편집 가능한 수업 시간표를 생성하세요.",
-      "intro": "기간, 과목, 휴식 시간, 인쇄 가능한 주간 그리드가 포함된 편집 가능한 수업 시간표를 생성하세요. 여러 과목과 교육 슬롯을 위한 수업 준비 그리드를 생성합니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "기간, 과목, 휴식 시간, 인쇄 가능한 주간 그리드가 포함된 편집 가능한 수업 시간표를 생성하세요. 여러 과목과 교육 슬롯을 위한 수업 준비 그리드를 생성합니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "여러 과목과 교육 슬롯을 위한 수업 준비 그리드를 생성합니다.",
       "steps": [
         "수업 요일과 슬롯 수를 선택하세요.",
@@ -45627,7 +45627,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45651,8 +45651,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "study-timetable-maker": {
-      "heroIntro": "매일 복습, 집중 학습 블록, 연습, 읽기, 모의 테스트 및 휴식을 위한 학습 시간표를 만듭니다.",
-      "intro": "매일 복습, 집중 학습 블록, 연습, 읽기, 모의 테스트 및 휴식을 위한 학습 시간표를 만듭니다. 복습, 연습, 독해, 모의고사를 시간별로 구분하여 공부 계획을 세워보세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "heroIntro": "매일 복습, 집중 학습 블록, 연습, 읽기, 모의고사, 휴식을 위한 학습 시간표를 만듭니다.",
+      "intro": "매일 복습, 집중 학습 블록, 연습, 읽기, 모의고사, 휴식을 위한 학습 시간표를 만듭니다. 복습, 연습, 독해, 모의고사를 시간별로 구분하여 공부 계획을 세워보세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "복습, 연습, 독해, 모의고사를 시간별로 구분하여 공부 계획을 세워보세요.",
       "steps": [
         "학습 요일과 세션을 선택하세요.",
@@ -45671,13 +45671,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
         {
           "q": "공부 시간표 만들기는 어떤 용도로 사용되나요?",
-          "a": "매일 복습, 집중 학습 블록, 연습, 읽기, 모의 테스트 및 휴식을 위한 학습 시간표를 만듭니다. 복습, 연습, 독해, 모의고사를 시간별로 구분하여 공부 계획을 세워보세요."
+          "a": "매일 복습, 집중 학습 블록, 연습, 읽기, 모의고사, 휴식을 위한 학습 시간표를 만듭니다. 복습, 연습, 독해, 모의고사를 시간별로 구분하여 공부 계획을 세워보세요."
         },
         {
           "q": "시험 준비에 사용할 수 있나요?",
@@ -45696,7 +45696,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "exam-timetable-maker": {
       "heroIntro": "시험 과목, 개정 세션, 날짜, 기간 및 편집하기 쉬운 일정으로 시험 시간표를 구축하십시오.",
-      "intro": "시험 과목, 개정 세션, 날짜, 기간 및 편집하기 쉬운 일정으로 시험 시간표를 구축하십시오. 모든 항목을 일반적인 학교 기간 라벨에 강제로 입력하지 않고도 시험 날짜와 개정 블록을 구성할 수 있습니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "시험 과목, 개정 세션, 날짜, 기간 및 편집하기 쉬운 일정으로 시험 시간표를 구축하십시오. 모든 항목을 일반적인 학교 기간 라벨에 강제로 입력하지 않고도 시험 날짜와 개정 블록을 구성할 수 있습니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "모든 항목을 일반적인 학교 기간 라벨에 강제로 입력하지 않고도 시험 날짜와 개정 블록을 구성할 수 있습니다.",
       "steps": [
         "귀하의 계획에 명시된 날짜 또는 시험 날짜를 선택하십시오.",
@@ -45715,7 +45715,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45740,7 +45740,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "weekly-timetable-maker": {
       "heroIntro": "학교, 직장, 공부, 운동, 가족 시간, 취미 및 개인 계획에 대한 주간 시간표를 생성합니다.",
-      "intro": "학교, 직장, 공부, 운동, 가족 시간, 취미 및 개인 계획에 대한 주간 시간표를 생성합니다. 일, 공부, 운동, 가족 시간, 개인 업무에 대한 유연한 7일 계획을 세우세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "학교, 직장, 공부, 운동, 가족 시간, 취미 및 개인 계획에 대한 주간 시간표를 생성합니다. 일, 공부, 운동, 가족 시간, 개인 업무에 대한 유연한 7일 계획을 세우세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "일, 공부, 운동, 가족 시간, 개인 업무에 대한 유연한 7일 계획을 세우세요.",
       "steps": [
         "일수와 시간 블록을 선택합니다.",
@@ -45759,7 +45759,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45783,9 +45783,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "daily-timetable-maker": {
-      "heroIntro": "일과, 공부, 식사, 운동, 가족, 휴식을 위한 시간 슬롯이 포함된 일일 시간표를 만드세요.",
-      "intro": "일과, 공부, 식사, 운동, 가족, 휴식을 위한 시간 슬롯이 포함된 일일 시간표를 만드세요. 학교 스타일의 기간 라벨 대신 실제 시계 시간을 사용하여 하루 일정을 작성하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
-      "why": "학교 스타일의 기간 라벨 대신 실제 시계 시간을 사용하여 하루 일정을 작성하세요.",
+      "heroIntro": "일과, 업무, 공부, 식사, 운동, 가족 및 휴식을 위한 시간 슬롯이 포함된 일일 시간표를 만드세요.",
+      "intro": "일과, 업무, 공부, 식사, 운동, 가족 및 휴식을 위한 시간 슬롯이 포함된 일일 시간표를 만드세요. 학교 스타일의 기간 라벨 대신 실제 시계 시간을 사용하여 하루 일정을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
+      "why": "학교 스타일의 기간 라벨 대신 실제 시계 시간을 사용하여 하루 일정을 만드세요.",
       "steps": [
         "시작 시간과 활동 횟수를 설정하세요.",
         "활동 기간을 선택하세요.",
@@ -45803,13 +45803,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
         {
           "q": "일일 시간표 만들기는 어떤 용도로 사용되나요?",
-          "a": "일과, 공부, 식사, 운동, 가족, 휴식을 위한 시간 슬롯이 포함된 일일 시간표를 만드세요. 학교 스타일의 기간 라벨 대신 실제 시계 시간을 사용하여 하루 일정을 작성하세요."
+          "a": "일과, 업무, 공부, 식사, 운동, 가족 및 휴식을 위한 시간 슬롯이 포함된 일일 시간표를 만드세요. 학교 스타일의 기간 라벨 대신 실제 시계 시간을 사용하여 하루 일정을 만드세요."
         },
         {
           "q": "일일 플래너는 실시간으로 표시되나요?",
@@ -45828,7 +45828,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "kids-timetable-maker": {
       "heroIntro": "학교, 숙제, 놀이, 독서, 창의적 활동, 가족과의 시간, 일상생활 등을 포함하는 간단한 어린이 시간표를 만드세요.",
-      "intro": "학교, 숙제, 놀이, 독서, 창의적 활동, 가족과의 시간, 일상생활 등을 포함하는 간단한 어린이 시간표를 만드세요. 학교, 숙제, 놀이, 독서, 가족 시간 등 어린이에게 친숙한 주간 일정을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "학교, 숙제, 놀이, 독서, 창의적 활동, 가족과의 시간, 일상생활 등을 포함하는 간단한 어린이 시간표를 만드세요. 학교, 숙제, 놀이, 독서, 가족 시간 등 어린이에게 친숙한 주간 일정을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "학교, 숙제, 놀이, 독서, 가족 시간 등 어린이에게 친숙한 주간 일정을 만드세요.",
       "steps": [
         "자녀의 요일과 시간 블록을 선택하십시오.",
@@ -45847,7 +45847,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45872,7 +45872,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "kids-daily-routine-planner": {
       "heroIntro": "기상, 학교, 숙제, 놀이, 독서, 식사, 취침 시간에 대한 어린이 친화적인 일일 일과 계획을 만드세요.",
-      "intro": "기상, 학교, 숙제, 놀이, 독서, 식사, 취침 시간에 대한 어린이 친화적인 일일 일과 계획을 만드세요. 기상, 학교, 숙제, 놀이, 식사, 취침 시간에 대한 실제 시계 시간을 사용하여 어린이를 위한 간단한 일상을 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "기상, 학교, 숙제, 놀이, 독서, 식사, 취침 시간에 대한 어린이 친화적인 일일 일과 계획을 만드세요. 기상, 학교, 숙제, 놀이, 식사, 취침 시간에 대한 실제 시계 시간을 사용하여 어린이를 위한 간단한 일상을 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "기상, 학교, 숙제, 놀이, 식사, 취침 시간에 대한 실제 시계 시간을 사용하여 어린이를 위한 간단한 일상을 만듭니다.",
       "steps": [
         "일일 시간 블록을 선택합니다.",
@@ -45891,7 +45891,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45916,10 +45916,10 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "girls-daily-routine-planner": {
       "heroIntro": "공부, 학교, 운동, 자기 관리, 가족 및 자유 시간을 가진 소녀들을 위한 편집 가능한 일일 및 주간 루틴 플래너를 만듭니다.",
-      "intro": "공부, 학교, 운동, 자기 관리, 가족 및 자유 시간을 가진 소녀들을 위한 편집 가능한 일일 및 주간 루틴 플래너를 만듭니다. 공부, 일, 운동, 자기 관리, 가족, 자유 시간 블록을 통해 개인화된 일일 또는 주간 루틴을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "공부, 학교, 운동, 자기 관리, 가족 및 자유 시간을 가진 소녀들을 위한 편집 가능한 일일 및 주간 루틴 플래너를 만듭니다. 공부, 일, 운동, 자기 관리, 가족, 자유 시간 블록을 통해 개인화된 일일 또는 주간 루틴을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "공부, 일, 운동, 자기 관리, 가족, 자유 시간 블록을 통해 개인화된 일일 또는 주간 루틴을 만드세요.",
       "steps": [
-        "요일과 시간 블록을 선택하세요.",
+        "요일과 시간 블록을 선택합니다.",
         "시작 시간을 설정하세요.",
         "일상적인 활동을 추가하세요.",
         "제목, 메모, 인용문을 개인화하세요."
@@ -45935,7 +45935,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -45960,11 +45960,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "boys-daily-routine-planner": {
       "heroIntro": "공부, 학교, 운동, 취미, 가족, 자유 시간 등 남학생을 위한 편집 가능한 일일 및 주간 루틴 플래너를 만듭니다.",
-      "intro": "공부, 학교, 운동, 취미, 가족, 자유 시간 등 남학생을 위한 편집 가능한 일일 및 주간 루틴 플래너를 만듭니다. 학교, 직장, 운동, 취미, 가족 및 자유 시간에 대한 실용적인 주간 루틴을 만드십시오. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "공부, 학교, 운동, 취미, 가족, 자유 시간 등 남학생을 위한 편집 가능한 일일 및 주간 루틴 플래너를 만듭니다. 학교, 직장, 운동, 취미, 가족 및 자유 시간에 대한 실용적인 주간 루틴을 만드십시오. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "학교, 직장, 운동, 취미, 가족 및 자유 시간에 대한 실용적인 주간 루틴을 만드십시오.",
       "steps": [
         "요일과 시간 블록을 선택하세요.",
-        "현실적인 기간을 설정합니다.",
+        "현실적인 기간을 설정하십시오.",
         "활동과 취미를 추가하세요.",
         "계획을 생성하고 개인화하십시오."
       ],
@@ -45979,7 +45979,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -46004,7 +46004,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "employee-work-timetable": {
       "heroIntro": "집중 작업, 회의, 프로젝트, 계획, 휴식, 팀 작업 및 검토 블록을 위한 직원 작업 시간표를 만듭니다.",
-      "intro": "집중 작업, 회의, 프로젝트, 계획, 휴식, 팀 작업 및 검토 블록을 위한 직원 작업 시간표를 만듭니다. 일주일 내내 집중적인 작업, 회의, 이메일, 프로젝트, 팀 시간, 점심 및 검토 블록을 계획하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "집중 작업, 회의, 프로젝트, 계획, 휴식, 팀 작업 및 검토 블록을 위한 직원 작업 시간표를 만듭니다. 일주일 내내 집중적인 작업, 회의, 이메일, 프로젝트, 팀 시간, 점심 및 검토 블록을 계획하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "일주일 내내 집중적인 작업, 회의, 이메일, 프로젝트, 팀 시간, 점심 및 검토 블록을 계획하세요.",
       "steps": [
         "근무일과 시간대를 선택하세요.",
@@ -46023,7 +46023,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -46048,7 +46048,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "work-shift-schedule-maker": {
       "heroIntro": "주간 그리드에 걸쳐 아침, 저녁, 밤, 교대 또는 맞춤형 교대에 대한 작업 교대 일정을 만듭니다.",
-      "intro": "주간 그리드에 걸쳐 아침, 저녁, 밤, 교대 또는 맞춤형 교대에 대한 작업 교대 일정을 만듭니다. 아침, 저녁, 밤 또는 맞춤형 근무 교대에 대한 교대 중심 일정을 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "주간 그리드에 걸쳐 아침, 저녁, 밤, 교대 또는 맞춤형 교대에 대한 작업 교대 일정을 만듭니다. 아침, 저녁, 밤 또는 맞춤형 근무 교대에 대한 교대 중심 일정을 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "아침, 저녁, 밤 또는 맞춤형 근무 교대에 대한 교대 중심 일정을 만듭니다.",
       "steps": [
         "요일과 교대 근무 시간대를 선택하세요.",
@@ -46062,12 +46062,12 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "팀 적용 범위 초안"
       ],
       "tips": [
-        "인력 및 노동 요구 사항을 별도로 확인하십시오.",
+        "인력 및 노동 요건을 별도로 확인하십시오.",
         "활동 사이에 현실적인 휴식 시간과 전환 시간을 포함합니다.",
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -46091,9 +46091,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "teacher-timetable-maker": {
-      "heroIntro": "수업, 계획, 회의, 준비, 평가, 실습, 자유 시간 등을 포함하는 교사 시간표를 만드세요.",
-      "intro": "수업, 계획, 회의, 준비, 평가, 실습, 자유 시간 등을 포함하는 교사 시간표를 만드세요. 수업, 준비, 회의, 평가, 실습 및 자유 시간을 구분하는 교사 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
-      "why": "수업, 준비, 회의, 평가, 실습 및 자유 시간을 구분하는 교사 시간표를 만듭니다.",
+      "heroIntro": "수업, 계획, 회의, 준비, 평가, 실습 및 자유 시간을 포함하는 교사 시간표를 작성하세요.",
+      "intro": "수업, 계획, 회의, 준비, 평가, 실습 및 자유 시간을 포함하는 교사 시간표를 작성하세요. 수업, 준비, 회의, 평가, 실습, 자유 시간을 구분하는 교사 시간표를 만듭니다. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
+      "why": "수업, 준비, 회의, 평가, 실습, 자유 시간을 구분하는 교사 시간표를 만듭니다.",
       "steps": [
         "수업 요일과 시간대를 선택하세요.",
         "수업시간을 설정하세요.",
@@ -46111,13 +46111,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
         {
           "q": "교사 시간표 만들기는 어떤 용도로 사용되나요?",
-          "a": "수업, 계획, 회의, 준비, 평가, 실습, 자유 시간 등을 포함하는 교사 시간표를 만드세요. 수업, 준비, 회의, 평가, 실습 및 자유 시간을 구분하는 교사 시간표를 만듭니다."
+          "a": "수업, 계획, 회의, 준비, 평가, 실습 및 자유 시간을 포함하는 교사 시간표를 작성하세요. 수업, 준비, 회의, 평가, 실습, 자유 시간을 구분하는 교사 시간표를 만듭니다."
         },
         {
           "q": "준비기간도 포함될 수 있나요?",
@@ -46135,8 +46135,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "class-schedule-maker": {
-      "heroIntro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만드세요.",
-      "intro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만드세요. 명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "heroIntro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만듭니다.",
+      "intro": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만듭니다. 명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요.",
       "steps": [
         "수업 요일과 시간대를 선택하세요.",
@@ -46155,17 +46155,17 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
         {
           "q": "수업 일정 만들기는 어떤 용도로 사용되나요?",
-          "a": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만드세요. 명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요."
+          "a": "기간, 과목, 활동, 휴식 시간 및 인쇄 가능한 주간 시간표가 포함된 편집 가능한 수업 일정을 만듭니다. 명명된 수업과 실제 시계 시간 블록을 사용하여 간단한 수업 일정을 작성하세요."
         },
         {
           "q": "사용자 정의 클래스 이름을 사용할 수 있나요?",
-          "a": "그렇습니다. 생성된 모든 셀을 자신만의 수업이나 활동으로 바꿉니다."
+          "a": "그렇습니다. 생성된 모든 셀을 자신만의 수업이나 활동으로 바꾸세요."
         },
         {
           "q": "수업 일정 만들기을(를) 맞춤설정할 수 있나요?",
@@ -46180,7 +46180,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "personal-timetable-maker": {
       "heroIntro": "일, 공부, 운동, 심부름, 가족 시간, 취미 및 개인 목표에 대한 개인 시간표를 만드십시오.",
-      "intro": "일, 공부, 운동, 심부름, 가족 시간, 취미 및 개인 목표에 대한 개인 시간표를 만드십시오. 일, 공부, 운동, 심부름, 가족, 개인 시간을 결합한 개인 일정을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "일, 공부, 운동, 심부름, 가족 시간, 취미 및 개인 목표에 대한 개인 시간표를 만드십시오. 일, 공부, 운동, 심부름, 가족, 개인 시간을 결합한 개인 일정을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "일, 공부, 운동, 심부름, 가족, 개인 시간을 결합한 개인 일정을 만드세요.",
       "steps": [
         "요일과 시간 블록을 선택하세요.",
@@ -46199,7 +46199,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -46224,7 +46224,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "home-routine-planner": {
       "heroIntro": "청소, 식사, 가족 활동, 심부름, 휴식, 반복되는 집안일에 대한 가정 일과 계획표를 만드세요.",
-      "intro": "청소, 식사, 가족 활동, 심부름, 휴식, 반복되는 집안일에 대한 가정 일과 계획표를 만드세요. 청소, 식사, 가족과의 시간, 휴식 등 집안일과를 일주일 내내 정리하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "청소, 식사, 가족 활동, 심부름, 휴식, 반복되는 집안일에 대한 가정 일과 계획표를 만드세요. 청소, 식사, 가족과의 시간, 휴식 등 집안일과를 일주일 내내 정리하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "청소, 식사, 가족과의 시간, 휴식 등 집안일과를 일주일 내내 정리하세요.",
       "steps": [
         "가족의 요일과 시간을 선택하세요.",
@@ -46243,7 +46243,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -46267,8 +46267,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "workout-timetable-maker": {
-      "heroIntro": "근력, 심장강화, 가동성, 휴식일, 반복 가능한 훈련 루틴을 위한 주간 운동 시간표를 만드세요.",
-      "intro": "근력, 심장강화, 가동성, 휴식일, 반복 가능한 훈련 루틴을 위한 주간 운동 시간표를 만드세요. 근력 강화, 유산소 운동, 이동성 및 회복 세션을 위한 주간 운동 일정을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "heroIntro": "근력, 심장 강화, 이동성, 휴식일 및 반복 가능한 훈련 루틴을 위한 주간 운동 시간표를 만듭니다.",
+      "intro": "근력, 심장강화, 이동성, 휴식일, 반복 가능한 훈련 루틴을 위한 주간 운동 시간표를 만드세요. 근력 강화, 유산소 운동, 이동성 및 회복 세션을 위한 주간 운동 일정을 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "근력 강화, 유산소 운동, 이동성 및 회복 세션을 위한 주간 운동 일정을 만드세요.",
       "steps": [
         "운동 요일을 선택하세요.",
@@ -46287,13 +46287,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
         {
           "q": "운동 시간표 만들기는 어떤 용도로 사용되나요?",
-          "a": "근력, 심장강화, 가동성, 휴식일, 반복 가능한 훈련 루틴을 위한 주간 운동 시간표를 만드세요. 근력 강화, 유산소 운동, 이동성 및 회복 세션을 위한 주간 운동 일정을 만드세요."
+          "a": "근력, 심장강화, 이동성, 휴식일, 반복 가능한 훈련 루틴을 위한 주간 운동 시간표를 만드세요. 근력 강화, 유산소 운동, 이동성 및 회복 세션을 위한 주간 운동 일정을 만드세요."
         },
         {
           "q": "휴식일을 예약할 수 있나요?",
@@ -46312,7 +46312,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "meal-timetable-planner": {
       "heroIntro": "아침, 간식, 점심, 저녁 및 간단한 식사 계획 루틴에 대한 주간 식사 시간표를 만드세요.",
-      "intro": "아침, 간식, 점심, 저녁 및 간단한 식사 계획 루틴에 대한 주간 식사 시간표를 만드세요. 일반적인 학교 시간이 아닌 실제 식사 시간을 사용하여 아침, 간식, 점심 및 저녁 식사를 계획하십시오. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "아침, 간식, 점심, 저녁 및 간단한 식사 계획 루틴에 대한 주간 식사 시간표를 만드세요. 일반적인 학교 시간이 아닌 실제 식사 시간을 사용하여 아침, 간식, 점심 및 저녁 식사를 계획하십시오. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "일반적인 학교 시간이 아닌 실제 식사 시간을 사용하여 아침, 간식, 점심 및 저녁 식사를 계획하십시오.",
       "steps": [
         "요일을 선택하세요.",
@@ -46331,7 +46331,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -46356,7 +46356,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "printable-timetable-maker": {
       "heroIntro": "학교, 공부, 직장 또는 개인 계획을 위해 편집 가능한 기간과 과목이 포함된 깔끔하게 인쇄 가능한 시간표를 생성하세요.",
-      "intro": "학교, 공부, 직장 또는 개인 계획을 위해 편집 가능한 기간과 과목이 포함된 깔끔하게 인쇄 가능한 시간표를 생성하세요. 읽을 수 있는 시계 시간, 편집 가능한 셀, 개인 메모가 포함된 깔끔한 인쇄 우선 시간표를 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "intro": "학교, 공부, 직장 또는 개인 계획을 위해 편집 가능한 기간과 과목이 포함된 깔끔하게 인쇄 가능한 시간표를 생성하세요. 읽을 수 있는 시계 시간, 편집 가능한 셀, 개인 메모가 포함된 깔끔한 인쇄 우선 시간표를 만드세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "읽을 수 있는 시계 시간, 편집 가능한 셀, 개인 메모가 포함된 깔끔한 인쇄 우선 시간표를 만드세요.",
       "steps": [
         "요일과 시간 블록을 선택하세요.",
@@ -46375,7 +46375,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
@@ -46399,8 +46399,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "smart-timetable-generator": {
-      "heroIntro": "외부 AI 서비스 없이도 선택한 요일, 기간, 주제, 일상적 선호 사항에 따라 스마트하고 편집 가능한 시간표를 자동으로 생성하세요.",
-      "intro": "외부 AI 서비스 없이도 선택한 요일, 기간, 주제, 일상적 선호 사항에 따라 스마트하고 편집 가능한 시간표를 자동으로 생성하세요. 외부 AI 서비스 없이 로컬 결정론적 규칙을 사용하여 우선순위에 따라 균형 잡힌 일정을 생성하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 다운로드하거나 인쇄하기 전에 생성된 모든 셀을 편집하세요.",
+      "heroIntro": "외부 AI 서비스 없이도 선택한 요일, 기간, 주제, 일상적 선호 사항에 따라 편집 가능한 스마트한 시간표를 자동으로 생성하세요.",
+      "intro": "외부 AI 서비스 없이도 선택한 요일, 기간, 주제, 일상적 선호 사항에 따라 편집 가능한 스마트한 시간표를 자동으로 생성하세요. 외부 AI 서비스 없이 로컬 결정론적 규칙을 사용하여 우선순위에 따라 균형 잡힌 일정을 생성하세요. 나만의 일정 제목, 개인 메모, 견적을 추가한 다음 생성된 모든 셀을 다운로드하거나 인쇄하기 전에 편집하세요.",
       "why": "외부 AI 서비스 없이 로컬 결정론적 규칙을 사용하여 우선순위에 따라 균형 잡힌 일정을 생성하세요.",
       "steps": [
         "요일과 시간 블록을 선택하세요.",
@@ -46419,13 +46419,13 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "인쇄하거나 공유하기 전에 실제 약속과 비교하여 모든 슬롯을 확인하세요."
       ],
       "limitations": [
-        "이것은 계획 템플릿이며 실제 교사, 방, 직원, 시험, 의료 또는 직장 제약을 알지 못합니다.",
+        "이것은 계획 템플릿이며 실제 교사, 방, 인력, 시험, 의료 또는 직장 제약을 알지 못합니다.",
         "실제 생활에서 사용하기 전에 생성된 일정을 검토하세요."
       ],
       "faq": [
         {
           "q": "스마트 시간표 생성기는 어떤 용도로 사용되나요?",
-          "a": "외부 AI 서비스 없이도 선택한 요일, 기간, 주제, 일상적 선호 사항에 따라 스마트하고 편집 가능한 시간표를 자동으로 생성하세요. 외부 AI 서비스 없이 로컬 결정론적 규칙을 사용하여 우선순위에 따라 균형 잡힌 일정을 생성하세요."
+          "a": "외부 AI 서비스 없이도 선택한 요일, 기간, 주제, 일상적 선호 사항에 따라 편집 가능한 스마트한 시간표를 자동으로 생성하세요. 외부 AI 서비스 없이 로컬 결정론적 규칙을 사용하여 우선순위에 따라 균형 잡힌 일정을 생성하세요."
         },
         {
           "q": "외부 AI API로 구동됩니까?",
@@ -46450,7 +46450,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "10월 11~19일 날짜와 오늘의 컬러를 확인해보세요.",
         "9일 목록에서 필요한 날짜를 찾으세요.",
         "일반적으로 관련된 의미를 읽으십시오.",
-        "축제의상 및 준비 참고자료로 활용해보세요."
+        "축제복장 및 준비 참고자료로 활용해보세요."
       ],
       "useCases": [
         "오늘은 나브라트리 컬러",
@@ -46645,7 +46645,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "여분의 심지와 디야를 보관하세요.",
         "열에 안전한 안정된 표면을 사용하십시오.",
-        "화염에 주의를 기울이고 가연성 물질로부터 멀리 두십시오."
+        "화염에 주의하고 가연성 물질로부터 멀리 두십시오."
       ],
       "limitations": [
         "연료 사용량은 디야 크기와 심지에 따라 다릅니다.",
@@ -46770,7 +46770,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 제작자 워크플로는 공개 YouTube 정보, 콘텐츠 계획 또는 추정을 지원합니다. 가정을 가시적으로 유지하면서 반복적인 생성자 작업을 더 빠르게 수행하도록 설계되었습니다.",
       "steps": [
         "YouTube Thumbnail를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -46815,7 +46815,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "YouTube Thumbnail의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "YouTube 썸네일을 다운로드할 수 있나요?",
@@ -46830,7 +46830,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "why": "이 제작자 워크플로는 공개 YouTube 정보, 콘텐츠 계획 또는 추정을 지원합니다. 가정을 가시적으로 유지하면서 반복적인 생성자 작업을 더 빠르게 수행하도록 설계되었습니다.",
       "steps": [
         "YouTube Tag 생성기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -46875,7 +46875,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "YouTube Tag 생성기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "YouTube 태그가 더 높은 순위를 보장하나요?",
@@ -46886,11 +46886,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "youtube-money-calculator": {
       "heroIntro": "조회수 및 RPM 가정을 통해 잠재적인 YouTube 광고 수익을 추정합니다. 실제 수입은 채널과 시청자에 따라 다릅니다.",
-      "intro": "조회수 및 RPM 가정을 통해 잠재적인 YouTube 광고 수익을 추정합니다. 실제 수입은 채널과 시청자에 따라 다릅니다. 예를 들어 다양한 조회수에서 수익을 모델링하는 데 사용합니다. 또한 RPM 가정을 비교하는 데에도 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
+      "intro": "조회수 및 RPM 가정을 통해 잠재적인 YouTube 광고 수익을 추정합니다. 실제 수입은 채널과 시청자에 따라 다릅니다. 예를 들어 이를 사용하여 다양한 조회수에서 수익을 모델링할 수 있습니다. 또한 RPM 가정을 비교하는 데에도 도움이 될 수 있습니다. 이 가이드에서는 도구의 기능, 유용한 시기, 효과적으로 사용하는 방법, 실제 작업 흐름에서 중요한 실질적인 제한 사항에 대해 설명합니다.",
       "why": "이 제작자 워크플로는 공개 YouTube 정보, 콘텐츠 계획 또는 추정을 지원합니다. 가정을 가시적으로 유지하면서 반복적인 생성자 작업을 더 빠르게 수행하도록 설계되었습니다.",
       "steps": [
         "YouTube Money 계산기를 열고 필요한 입력 형식 또는 값을 식별합니다.",
-        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하십시오.",
+        "입력을 입력하거나 선택하고 작업을 실행하기 전에 사용 가능한 모든 옵션을 검토하세요.",
         "첫 번째 출력이 정확하다고 가정하기보다는 도구를 실행하고 결과를 검사하십시오.",
         "원래 요구 사항과 비교하여 확인한 후에만 결과를 다운로드, 복사 또는 재사용하십시오."
       ],
@@ -46935,7 +46935,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "YouTube Money 계산기의 출력을 사용하기 전에 무엇을 확인해야 합니까?",
-          "a": "원본 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 중요한 세부 정보를 확인하세요."
+          "a": "프로덕션 워크플로에서 결과를 게시, 제출, 전송 또는 사용하기 전에 원래 입력과 비교하여 출력을 확인하고, 의도한 변환이 발생했는지 확인하고, 중요한 세부 정보를 확인하세요."
         },
         {
           "q": "실제 YouTube 수익이 계산기와 다른 이유는 무엇인가요?",
@@ -46949,7 +46949,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "merge-pdf": {
       "heroIntro": "合并PDF 将文件在线整理成一个有组织的文档。按照您选择的顺序合并报告、扫描页面、发票、表格、证书和其他 PDF。",
       "intro": "需要将 PDF 文件合并为一个文档而无需复制和粘贴页面吗？ Toolployee 的在线 合并PDF 工具可帮助您将单独的 PDF 添加到单个有序文件中，以便共享、上传、打印或存档。它对于工作申请、学校和大学提交、商业文书、发票、研究和日常文档管理非常有用。选择要合并的 PDF，将它们按正确的顺序放置，合并它们，并在使用之前查看最终文件。本指南介绍了如何合并 PDF 文件、准备文档以获得干净的结果、解决常见问题以及决定何时需要不同的 PDF 工具。",
-      "why": "可靠的 PDF 合并使相关文档的集合更易于管理。您可以创建一个合并的 PDF，以便收件人更轻松地打开、审阅、下载、打印和存储，而不是发送多个附件。组织良好的文件还可以帮助将支持证据保留在主文档旁边，并减少附件被忽视的机会。合并不同于截取屏幕截图或将每个页面转换为图像：典型的合并将源 PDF 中的页面和资源组合起来。但是，源文档可能包含表单、注释、书签、加密或不寻常的嵌入内容，因此请务必检查最终文件，而不是假设每个特殊功能都会表现相同。",
+      "why": "可靠的 PDF 合并使相关文档的集合更易于管理。您可以创建一个合并的 PDF，以便收件人更轻松地打开、审阅、下载、打印和存储，而不是发送多个附件。组织良好的文件还可以帮助将支持证据保留在主文档旁边，并减少附件被忽视的机会。合并不同于截取屏幕截图或将每个页面转换为图像：典型的合并将源 PDF 中的页面和资源组合在一起。但是，源文档可能包含表单、注释、书签、加密或不寻常的嵌入内容，因此请务必检查最终文件，而不是假设每个特殊功能都会表现相同。",
       "steps": [
         "准备源文件。找到您要加入的 PDF 文档，并确保每个文档都能正确打开。如果文件很重要，请保留每个原件的原样副本。",
         "选择要合并的 PDF。选择属于最终文档的所有文件。如果您有多个名称相似的文件，请先清楚地重命名它们，以便您可以识别每个文件。",
@@ -47306,7 +47306,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "保护 PDF 是否会加密其内容？",
-          "a": "支持的 PDF 保护使用 PDF 加密功能。确切的安全属性取决于 PDF 引擎和文件使用的保护设置。"
+          "a": "支持的 PDF 保护使用 PDF 加密功能。确切的安全属性取决于文件使用的 PDF 引擎和保护设置。"
         }
       ],
       "visual": "workflow"
@@ -47613,7 +47613,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "word-to-pdf": {
       "heroIntro": "将 Microsoft Word 文档（DOCX、DOC）转换为标准 PDF 文件。",
-      "intro": "将 Microsoft Word 文档（DOCX、DOC）转换为标准 PDF 文件。例如，使用它来创建用于共享的固定布局文档。它还可以帮助您准备 DOCX 以供提交或打印。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
+      "intro": "将 Microsoft Word 文档（DOCX、DOC）转换为标准 PDF 文件。例如，使用它创建用于共享的固定布局文档。它还可以帮助您准备 DOCX 以供提交或打印。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "此 PDF 工作流程是围绕重点文档任务设计的：准备源、应用操作、检查输出，并仅在满足您的要求时保留结果。",
       "steps": [
         "打开 Word转PDF转换器 并确定所需的输入格式或值。",
@@ -47634,7 +47634,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "在进行破坏性编辑之前保留原始副本。",
         "检查页面顺序、方向、文件名和输出质量。",
         "对于机密文件，首选在明确支持的情况下进行浏览器端处理，并且切勿输入不必要的机密。",
-        "避免：忽略分页符和边距。",
+        "避免：忽略分页符和页边距。",
         "避免：转换后不检查字体和图像。",
         "避免：假设 PDF 中仍可进行编辑。"
       ],
@@ -47912,8 +47912,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "formats"
     },
     "crop-image-online": {
-      "heroIntro": "使用预设宽高比（16:9、1:1、4:3）或自由框选择裁剪图像。",
-      "intro": "使用预设宽高比（16:9、1:1、4:3）或自由框选择裁剪图像。例如，使用它来创建方形个人资料图像。它还可以帮助您将横幅裁剪为 16:9。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
+      "heroIntro": "使用预设长宽比（16:9、1:1、4:3）或自由框选择裁剪图像。",
+      "intro": "使用预设长宽比（16:9、1:1、4:3）或自由框选择裁剪图像。例如，使用它来创建方形个人资料图像。它还可以帮助您将横幅裁剪为 16:9。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该图像工作流程专注于一次转换，因此无需完整的图形编辑器即可快速完成任务。它对于网络、文档、社交、开发和日常图像工作很有用。",
       "steps": [
         "打开 在线裁剪图片 并确定所需的输入格式或值。",
@@ -47946,7 +47946,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "在线裁剪图片 有何用途？",
-          "a": "使用预设宽高比（16:9、1:1、4:3）或自由框选择裁剪图像。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
+          "a": "使用预设长宽比（16:9、1:1、4:3）或自由框选择裁剪图像。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
           "q": "在线裁剪图片 如何工作？",
@@ -48086,7 +48086,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "WebP 转 PNG 是否保留透明度？",
-          "a": "当源包含支持的透明度时，转换旨在将其保留为 PNG。"
+          "a": "当源包含受支持的透明度时，转换旨在将其保留为 PNG。"
         }
       ],
       "visual": "formats"
@@ -48206,7 +48206,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "为什么要将 PNG 转换为 JPG？",
-          "a": "对于摄影图像来说，JPG 可以小得多，并且得到广泛支持，但它不保留透明度或无损像素数据。"
+          "a": "JPG 对于摄影图像来说要小得多，并且得到广泛支持，但它不保留透明度或无损像素数据。"
         }
       ],
       "visual": "formats"
@@ -48386,7 +48386,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "黑白和灰度一样吗？",
-          "a": "并非总是如此。黑白效果可以使用阈值，而灰度表示黑白之间的灰度范围。"
+          "a": "并非总是如此。黑白效果可以使用阈值，而灰度表示黑色和白色之间的灰度色调范围。"
         }
       ],
       "visual": "formats"
@@ -48813,7 +48813,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-html-editor": {
       "heroIntro": "具有分屏 DOM 预览功能的实时交互式 HTML、CSS 和 JavaScript 编辑器。",
-      "intro": "具有分屏 DOM 预览功能的实时交互式 HTML、CSS 和 JavaScript 编辑器。例如，使用它来构建登陆页面组件的原型。它还可以帮助您测试 CSS 布局更改。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
+      "intro": "具有分屏 DOM 预览功能的实时交互式 HTML、CSS 和 JavaScript 编辑器。例如，使用它来制作登陆页面组件的原型。它还可以帮助您测试 CSS 布局更改。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "此编码工作区对于学习、调试、语法检查和小型可重现示例非常有用。执行模型因语言而异，因此应将其视为开发沙箱而不是生产环境。",
       "steps": [
         "打开 在线HTML编辑器 并确定所需的输入格式或值。",
@@ -48933,7 +48933,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "online-java-compiler": {
       "heroIntro": "直接在 Web 浏览器中编写、调试和运行标准 Java 代码片段。",
-      "intro": "直接在 Web 浏览器中编写、调试和运行标准 Java 代码片段。例如，用它来练习 Java 语法和集合。它还可以帮助您运行小型算法并检查其输出。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
+      "intro": "直接在 Web 浏览器中编写、调试和运行标准 Java 代码片段。例如，用它来练习 Java 语法和集合。它还可以帮助您运行一个小型算法并检查其输出。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "此编码工作区对于学习、调试、语法检查和小型可重现示例非常有用。执行模型因语言而异，因此应将其视为开发沙箱而不是生产环境。",
       "steps": [
         "打开 在线Java编译器 并确定所需的输入格式或值。",
@@ -48956,7 +48956,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "切勿粘贴 API 密钥、密码、私人令牌或生产凭据。",
         "避免：假设每个 Maven 依赖项都存在。",
         "避免：忽略配置的Java版本。",
-        "避免：粘贴私人应用程序代码或凭据。"
+        "避免：粘贴私有应用程序代码或凭据。"
       ],
       "limitations": [
         "沙箱不会重现每个生产依赖项或操作系统功能。",
@@ -49614,7 +49614,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "在提交之前验证转换后的数据。",
         "测试期间包括边缘情况和格式错误的输入。",
         "切勿粘贴生产机密或私人客户数据。",
-        "避免：当只应编码某个组件时，对整个 URL 进行编码。",
+        "避免：当只应编码一个组件时，对整个 URL 进行编码。",
         "避免：双重编码值。",
         "避免：将 URL 编码与 Base64 混淆。"
       ],
@@ -49706,14 +49706,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "JWT 解码器是否验证令牌签名？",
-          "a": "解码 JWT 会揭示其编码的标头和有效负载；它本身并不能证明令牌是真实的。签名验证需要适当的密钥和验证规则。"
+          "a": "解码 JWT 会揭示其编码的标头和负载；它本身并不能证明令牌是真实的。签名验证需要适当的密钥和验证规则。"
         }
       ],
       "visual": "code"
     },
     "uuid-guid-v4-generator": {
       "heroIntro": "批量生成随机 UUID v4 标识符以进行开发和测试。",
-      "intro": "批量生成随机 UUID v4 标识符以进行开发和测试。例如，用它来生成数据库测试数据的ID。它还可以帮助您为开发设备创建唯一标识符。本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
+      "intro": "Generate random UUID v4 identifiers in bulk for development and testing. For example, use it to generate IDs for database test data. It can also help you create unique identifiers for development fixtures.本指南解释了该工具的用途、何时有用、如何有效使用它以及在现实工作流程中重要的实际限制。",
       "why": "该开发人员实用程序的目标是可重复的工作流程，该工作流程通常出现在 API 工作、调试、前端或后端开发、测试和数据准备期间。",
       "steps": [
         "打开 UUID生成器 并确定所需的输入格式或值。",
@@ -49727,7 +49727,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "在较大项目期间检查中间结果。",
         "为另一个应用程序或工作流程准备输出。",
         "为数据库测试数据生成 ID。",
-        "为开发装置创建唯一标识符。",
+        "为开发设备创建唯一标识符。",
         "生成一批 UUID v4 值。"
       ],
       "tips": [
@@ -49735,7 +49735,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "测试期间包括边缘情况和格式错误的输入。",
         "切勿粘贴生产机密或私人客户数据。",
         "避免：使用生成的 UUID 作为机密，而不考虑安全模型。",
-        "避免：假设唯一性是绝对的数学保证。",
+        "Avoid: Assuming uniqueness is an absolute mathematical guarantee.",
         "避免：针对系统要求使用错误的 UUID 版本。"
       ],
       "limitations": [
@@ -49746,7 +49746,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "UUID生成器 有何用途？",
-          "a": "批量生成随机 UUID v4 标识符以进行开发和测试。它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
+          "a": "Generate random UUID v4 identifiers in bulk for development and testing.它专为集中工作流程而设计，因此您无需安装单独的桌面实用程序即可完成任务。确切的输出取决于您提供的值、文件或代码。"
         },
         {
           "q": "UUID生成器 如何工作？",
@@ -50006,7 +50006,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "大小写转换器可以保留每个专有名词的含义吗？",
-          "a": "案例转换主要是机械的。转换后应检查专有名词和特定语言的大写。"
+          "a": "案例转换主要是机械的。转换后应检查专有名词和特定于语言的大写。"
         }
       ],
       "visual": "text"
@@ -50546,7 +50546,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "我可以转换哪些长度单位？",
-          "a": "该工具涵盖米、公里、英里、英尺、英寸和码等常用单位。"
+          "a": "该工具涵盖米、公里、英里、英尺、英寸和码等常见单位。"
         }
       ],
       "visual": "converter"
@@ -50606,7 +50606,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "质量和重量有什么区别？",
-          "a": "质量衡量物质的数量，而重量是受重力影响的力。日常转换工具通常将常见的质量单位标记为重量单位。"
+          "a": "质量衡量物质的量，而重量是受重力影响的力。日常转换工具通常将常见的质量单位标记为重量单位。"
         }
       ],
       "visual": "converter"
@@ -51201,7 +51201,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "每个月的EMI都一样吗？",
-          "a": "对于标准固定利率摊销贷款，计划的 EMI 可以保持不变，而利息和本金部分会随着时间的推移而变化。实际的贷款产品可以采用不同的结构。"
+          "a": "对于标准的固定利率摊销贷款，计划的 EMI 可以保持不变，而利息和本金部分会随着时间的推移而变化。实际的贷款产品可以采用不同的结构。"
         },
         {
           "q": "EMI计算器 可以免费使用吗？",
@@ -51334,7 +51334,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "salary-calculator": {
       "heroIntro": "根据月工资总额和您输入的扣除额估算月实得工资。",
       "intro": "根据月工资总额和您输入的扣除额估算月实得工资。例如，用它来估算总工资的每月实得收入。它还可以帮助您比较两种薪酬结构。本页面将交互式计算器与实用解释、示例、假设和常见错误相结合，以便可以正确解释结果。",
-      "why": "工资计算器将总薪酬转换为每月实得工资的规划估算。",
+      "why": "工资计算器将总薪酬转化为每月实得工资的规划估算。",
       "steps": [
         "使用显示的单位输入 工资计算器 要求的值。",
         "为与此计算相关的利率、期限、频率、税收或缴款表选择现实的假设。",
@@ -51415,7 +51415,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "比较到期价值和流动性，而不仅仅是报价利率。",
         "避免：使用与银行存款条款不同的复利计划。",
         "避免：忽视税收待遇或提前关闭规则。",
-        "避免：将显示的汇率视为有保证的最终回报而不检查银行条款。"
+        "避免：将显示的利率视为有保证的最终回报而不检查银行条款。"
       ],
       "limitations": [
         "该估计取决于 FD计算器 使用的假设和输入。",
@@ -52015,7 +52015,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "将当地服务费规则与自愿小费分开对待。",
         "避免：在错误的底座上计算小费。",
         "避免：忽略已经添加的服务费。",
-        "避免：分割总数时舍入不均匀。"
+        "避免：分割总数时四舍五入不均匀。"
       ],
       "limitations": [
         "该估计取决于 小费计算器 使用的假设和输入。",
@@ -52402,7 +52402,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "exam-timetable-maker": {
       "heroIntro": "制定考试时间表，其中包含考试科目、复习课程、日期、周期和易于编辑的时间表。",
-      "intro": "制定考试时间表，其中包含考试科目、复习课程、日期、周期和易于编辑的时间表。组织考试日期和复习部分，而不强迫每个条目都进入通用的学校时期标签。添加您自己的时间表标题、个人注释和报价，然后在下载或打印之前编辑每个生成的单元格。",
+      "intro": "制定考试时间表，其中包含考试科目、复习课程、日期、周期和易于编辑的时间表。组织考试日期和复习时间段，而不强迫每个条目都进入通用的学校时期标签。添加您自己的时间表标题、个人注释和报价，然后在下载或打印之前编辑每个生成的单元格。",
       "why": "组织考试日期和复习部分，而不强迫每个条目都进入通用的学校时期标签。",
       "steps": [
         "选择您的计划所代表的日期或考试日期。",
@@ -52427,7 +52427,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "考试时间表制作器 有何用途？",
-          "a": "制定考试时间表，其中包含考试科目、复习课程、日期、周期和易于编辑的时间表。组织考试日期和复习部分，而不强迫每个条目都进入通用的学校时期标签。"
+          "a": "制定考试时间表，其中包含考试科目、复习课程、日期、周期和易于编辑的时间表。组织考试日期和复习时间段，而不强迫每个条目都进入通用的学校时期标签。"
         },
         {
           "q": "这是官方考试时间表吗？",
@@ -53335,7 +53335,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "diya-requirement-calculator": {
       "heroIntro": "Diya Requirement计算器 和 Diwali Diya 计算器，用于房间、门、窗户、法会和装饰 diya。",
       "intro": "估计排灯节可能需要多少迪亚以及大约的油或酥油计划数量。有用的搜索包括 diya 计算器、diya 要求计算器、排灯节 diya 计算器、排灯节有多少 diya、排灯节 diya 数量、diya 油计算器和排灯节照明计算器。",
-      "why": "对于诸如 diya 计算器、diya 要求计算器、排灯节需要多少 diya 和 diya 石油计算器等搜索很有用。",
+      "why": "对于诸如 diya 计算器、diya 需求计算器、排灯节需要多少 diya 和 diya 石油计算器等搜索很有用。",
       "steps": [
         "进入房间、门窗或阳台。",
         "添加法会和装饰迪亚。",
@@ -53553,7 +53553,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "使用结果作为计划辅助而不是绩效保证。",
         "在发布决定之前检查公共视频详细信息。",
         "切勿输入私人帐户凭据。",
-        "避免：填充不相关的关键字。",
+        "避免：填充不相关的关键词。",
         "避免：将标签视为排名的保证。",
         "避免：忽略标题、缩略图、内容质量和观看者意图。"
       ],
@@ -53699,7 +53699,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Очень большие PDF-файлы или большое количество отсканированных страниц с высоким разрешением могут быть ограничены доступной памятью браузера, объемом памяти устройства и производительностью обработки.",
         "Различные размеры и ориентации страниц могут остаться смешанными при выводе. Просмотрите документ перед его печатью или отправкой.",
         "Слияние не может исправить ошибки, уже присутствующие в исходных PDF-файлах, такие как размытые сканы, недостающие страницы, неверная информация или нечитаемый текст.",
-        "Объединенный файл не гарантирует, что принимающий веб-сайт примет его. Ограничения на загрузку, файловая политика, правила именования и необходимый порядок документов контролируются принимающей организацией."
+        "Объединенный файл не гарантирует, что принимающий веб-сайт примет его. Ограничения на загрузку, файловая политика, правила именования и требуемый порядок документов контролируются принимающей организацией."
       ],
       "faq": [
         {
@@ -53755,7 +53755,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "Не все специальные функции PDF гарантированно будут вести себя одинаково после слияния. Цифровые подписи могут перестать проверяться после внесения изменений в документ, а формы, аннотации или закладки могут зависеть от того, как были созданы исходные PDF-файлы. Проверьте эти функции и соблюдайте соответствующие требования к подписанию или соответствию."
         },
         {
-          "q": "Является ли объединение PDF-файлов тем же, что и преобразование изображений в PDF?",
+          "q": "Является ли объединение PDF-файлов тем же самым, что и преобразование изображений в PDF?",
           "a": "Нет. Слияние объединяет существующие PDF-документы. Преобразование изображений в PDF создает страницы PDF из файлов изображений. Если у вас есть файлы JPG или PNG, а не PDF-файлы, сначала используйте рабочий процесс преобразования изображения в PDF."
         },
         {
@@ -53764,7 +53764,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Безопасно ли объединять конфиденциальные PDF-документы онлайн?",
-          "a": "Обрабатывайте только файлы, на обработку которых у вас есть разрешение, и проверяйте информацию о конфиденциальности и обработке файлов службы, прежде чем использовать конфиденциальные документы. Для строго конфиденциальных или регулируемых материалов следуйте утвержденной политике обработки документов вашей организации."
+          "a": "Обрабатывайте только те файлы, на обработку которых у вас есть разрешение, и проверяйте информацию о конфиденциальности и обработке файлов службы, прежде чем использовать конфиденциальные документы. Для строго конфиденциальных или регулируемых материалов следуйте утвержденной политике обработки документов вашей организации."
         },
         {
           "q": "Что делать, если объединенный PDF-файл не открывается?",
@@ -53789,7 +53789,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи разделения PDF без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Извлеките выбранные страницы из длинного отчета.",
@@ -53849,7 +53849,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертации PDF в JPG без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Превратите страницу PDF в изображение для презентации.",
@@ -53909,7 +53909,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертации JPG в PDF без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Объедините отсканированные чеки в один PDF-файл.",
@@ -53969,7 +53969,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрая разовая защита PDF-файлов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Защитите документ, прежде чем поделиться им с получателем.",
@@ -54029,7 +54029,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрая разовая разблокировка pdf задач без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Удалите пароль из документа, к которому у вас есть доступ.",
@@ -54040,7 +54040,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Сохраняйте оригинальную копию перед деструктивными изменениями.",
         "Проверьте порядок страниц, ориентацию, имена файлов и качество вывода.",
         "Для конфиденциальных файлов отдавайте предпочтение обработке на стороне браузера, если это явно поддерживается, и никогда не вводите ненужные секреты.",
-        "Избегайте: Попыток обойти доступ к документу без авторизации.",
+        "Избегайте: попыток обойти доступ к документу без авторизации.",
         "Избегайте: предполагается, что любую схему шифрования PDF можно удалить.",
         "Избегайте: потери защищенного оригинала."
       ],
@@ -54089,7 +54089,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрая разовая смена PDF-файлов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Исправьте страницы, отсканированные сбоку.",
@@ -54148,8 +54148,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Скачивайте, копируйте или повторно используйте результат только после проверки его на соответствие исходным требованиям."
       ],
       "useCases": [
-        "Быстрое одноразовое сжатие PDF-файлов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Быстрое разовое сжатие PDF-файлов без установки отдельной утилиты.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Уменьшите документ перед загрузкой по электронной почте.",
@@ -54192,7 +54192,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Влияет ли сжатие PDF на качество?",
-          "a": "Это возможно, в зависимости от того, что оптимизировано внутри документа. Всегда сравнивайте сжатый файл с оригиналом, если качество изображения или печати имеет значение."
+          "a": "Может, в зависимости от того, что оптимизировано внутри документа. Всегда сравнивайте сжатый файл с оригиналом, если качество изображения или печати имеет значение."
         }
       ],
       "visual": "workflow"
@@ -54209,7 +54209,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое разовое добавление номеров страниц в задачи PDF без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Пронумеруйте длинный доклад или диссертацию.",
@@ -54269,7 +54269,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертации PDF в слова без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Превратите насыщенный текстом PDF-файл в редактируемый черновик DOCX.",
@@ -54329,7 +54329,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертации слов в PDF без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте документ с фиксированным макетом для совместного использования.",
@@ -54389,7 +54389,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое разовое удаление страниц из задач pdf без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Удаление пустых страниц из отчета.",
@@ -54449,7 +54449,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое разовое изменение порядка страниц PDF без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Исправьте отсканированный документ, страницы которого расположены не по порядку.",
@@ -54492,7 +54492,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Изменяет ли изменение порядка содержимое страницы?",
-          "a": "Предполагаемая операция меняет последовательность страниц, а не переписывает содержимое страницы. Проверьте выходные данные на предмет поворота, аннотаций и других функций PDF."
+          "a": "Предполагаемая операция меняет последовательность страниц, а не переписывает содержимое страницы. Просмотрите вывод на предмет поворота, аннотаций и других функций PDF."
         }
       ],
       "visual": "workflow"
@@ -54509,7 +54509,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое одноразовое преобразование PDF в оттенки серого без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Подготовьте документы для монохромной печати.",
@@ -54569,7 +54569,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое одноразовое сжатие изображений в режиме онлайн без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Уменьшите изображение перед загрузкой его на сайт.",
@@ -54629,7 +54629,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-задачи по обрезке изображений без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте квадратное изображение профиля.",
@@ -54641,7 +54641,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Выбирайте выходной формат с учетом прозрачности, сжатия, совместимости и предполагаемого использования.",
         "Предварительный просмотр результата в его фактическом размере дисплея.",
         "Избегайте: обрезки до принятия окончательного решения по соотношению сторон.",
-        "Избегайте: Обрезания важных объектов по краю.",
+        "Избегайте: Обрезания важных объектов по краям.",
         "Избегайте: Экспорта в размере, неподходящем для места назначения."
       ],
       "limitations": [
@@ -54689,7 +54689,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое одноразовое изменение размера изображения онлайн-задачи без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Измените размер изображения для загрузки на веб-сайт.",
@@ -54701,7 +54701,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Выбирайте выходной формат с учетом прозрачности, сжатия, совместимости и предполагаемого использования.",
         "Предварительный просмотр результата в его фактическом размере дисплея.",
         "Избегайте: Искажения соотношения сторон.",
-        "Избегайте: Масштабирования источника с низким разрешением и ожидания новых деталей.",
+        "Избегайте: масштабирования источника с низким разрешением и ожидания новых деталей.",
         "Избегайте: Игнорирования формата выходного файла."
       ],
       "limitations": [
@@ -54749,7 +54749,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертации webp в png без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразуйте ресурсы WebP для программного обеспечения, которое ожидает PNG.",
@@ -54809,7 +54809,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертации WebP в JPG без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Подготовьте фотографию WebP для более старого программного обеспечения.",
@@ -54869,7 +54869,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрый одноразовый конвертер PNG в JPG без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Уменьшите большой фотографический PNG.",
@@ -54912,7 +54912,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Зачем конвертировать PNG в JPG?",
-          "a": "JPG может быть существенно меньше для фотографических изображений и широко поддерживается, но он не сохраняет прозрачность или данные пикселей без потерь."
+          "a": "JPG может быть значительно меньше для фотографических изображений и широко поддерживается, но он не сохраняет прозрачность или данные пикселей без потерь."
         }
       ],
       "visual": "formats"
@@ -54929,7 +54929,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертации jpg в png без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Подготовьте изображение для рабочего процесса проектирования на основе PNG.",
@@ -54989,7 +54989,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое разовое конвертирование SVG в PNG без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте превью PNG из векторного логотипа.",
@@ -55049,7 +55049,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрый одноразовый конвертер черно-белых изображений без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Подготовьте монохромное изображение для печати.",
@@ -55109,7 +55109,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи по инвертированию цветов изображения без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте фотографический негативный эффект.",
@@ -55169,7 +55169,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое разовое переворачивание и поворот изображений без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Зеркально отразить фотографию по горизонтали.",
@@ -55229,7 +55229,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи генератора qr-кода без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте QR-код для URL-адреса веб-сайта.",
@@ -55289,7 +55289,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые разовые онлайн-задачи по размытию изображения без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Размытие лица на скриншоте.",
@@ -55349,7 +55349,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи по созданию цветовой палитры изображений без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте палитру дизайна по фотографии.",
@@ -55409,7 +55409,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-задачи компилятора Python без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Протестируйте короткий алгоритм Python.",
@@ -55469,7 +55469,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-задачи компилятора JavaScript без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Тестирование функций JavaScript.",
@@ -55529,7 +55529,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-редакторы HTML без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте прототип компонента целевой страницы.",
@@ -55589,7 +55589,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-задачи компилятора C++ без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Попрактикуйтесь в синтаксисе C++ и примерах STL.",
@@ -55649,7 +55649,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-задачи Java-компилятора без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Практикуйте синтаксис и коллекции Java.",
@@ -55709,7 +55709,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-задачи компилятора C# без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Практикуйте возможности языка C#.",
@@ -55769,7 +55769,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-задачи php-компилятора без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Проверьте синтаксис PHP с помощью небольшого воспроизводимого фрагмента кода.",
@@ -55829,11 +55829,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые онлайн-редакторы sql без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте небольшую таблицу и протестируйте запросы SELECT.",
-        "Практикуйтесь в соединениях и фильтрах.",
+        "Практикуйте соединения и фильтры.",
         "Проверьте преобразования SQL на примерах данных."
       ],
       "tips": [
@@ -55880,7 +55880,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "json-formatter-validator": {
       "heroIntro": "Усовершенствуйте, форматируйте, проверяйте и минимизируйте беспорядочные строки данных JSON с подсветкой синтаксиса.",
       "intro": "Усовершенствуйте, форматируйте, проверяйте и минимизируйте беспорядочные строки данных JSON с подсветкой синтаксиса. Например, используйте его для красивой печати ответа API. Это также может помочь вам проверить JSON перед сохранением файла конфигурации. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Форматтер и валидатор JSON и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -55889,7 +55889,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи форматирования и проверки json без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Довольно распечатать ответ API.",
@@ -55940,7 +55940,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "base64-encoder-decoder": {
       "heroIntro": "Кодируйте и декодируйте обычный текст или двоичные ресурсы UTF-8 в Base64 и обратно.",
       "intro": "Кодируйте и декодируйте обычный текст или двоичные ресурсы UTF-8 в Base64 и обратно. Например, используйте его для кодирования текста для протокола, требующего Base64. Это также может помочь вам декодировать полезные данные Base64 во время отладки. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Кодировщик и декодировщик Base64 и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -55949,7 +55949,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи декодера кодера Base64 без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Кодируйте текст для протокола, требующего Base64.",
@@ -56000,7 +56000,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "clean-url-slug-generator": {
       "heroIntro": "Преобразуйте заголовки статей и необработанные строки в URL-адреса, удобные для SEO.",
       "intro": "Преобразуйте заголовки статей и необработанные строки в URL-адреса, удобные для SEO. Например, используйте его, чтобы превратить заголовок статьи в читаемый URL-адрес. Это также может помочь вам нормализовать название продукта для фрагмента страницы. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Генератор URL Slug и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56009,7 +56009,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи по созданию URL-адресов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Превратите заголовок статьи в читаемый URL-адрес.",
@@ -56052,7 +56052,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Что делает URL-адрес оптимизированным для SEO?",
-          "a": "Полезный фрагмент читаем, краток, описателен, стабилен и соответствует теме страницы. Избегайте ненужных знаков препинания и частых изменений."
+          "a": "Полезный фрагмент удобен для чтения, краток, описателен, стабилен и соответствует теме страницы. Избегайте ненужных знаков препинания и частых изменений."
         }
       ],
       "visual": "code"
@@ -56060,7 +56060,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "html-entity-encoder": {
       "heroIntro": "Преобразуйте специальные символы и зарезервированные символы в соответствующие им объекты HTML.",
       "intro": "Преобразуйте специальные символы и зарезервированные символы в соответствующие им объекты HTML. Например, используйте его для кодирования зарезервированных символов HTML. Это также может помочь вам подготовить текст, содержащий амперсанды или угловые скобки, для разметки. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте HTML Entity Encoder и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56069,7 +56069,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи кодирования html-объектов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Кодируйте зарезервированные символы HTML.",
@@ -56120,7 +56120,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "css-minifier-cleaner": {
       "heroIntro": "Сжимайте правила таблицы стилей, удаляя пробелы и комментарии.",
       "intro": "Сжимайте правила таблицы стилей, удаляя пробелы и комментарии. Например, используйте его, чтобы уменьшить размер передаваемой таблицы стилей. Это также может помочь вам очистить сгенерированный CSS для развертывания. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте CSS Minifier и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56129,7 +56129,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи минификатора CSS без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Уменьшите размер передаваемой таблицы стилей.",
@@ -56178,9 +56178,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "unix-timestamp-converter": {
-      "heroIntro": "Преобразуйте временные метки Эпохи в удобочитаемые даты и обратно.",
-      "intro": "Преобразуйте временные метки Эпохи в удобочитаемые даты и обратно. Например, используйте его для преобразования отметки времени API в читаемую дату. Это также может помочь вам сгенерировать значение эпохи для тестового примера. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "heroIntro": "Преобразуйте временные метки эпох в удобочитаемые даты и обратно.",
+      "intro": "Преобразуйте временные метки эпох в удобочитаемые даты и обратно. Например, используйте его для преобразования отметки времени API в читаемую дату. Это также может помочь вам сгенерировать значение эпохи для тестового примера. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Конвертер Unix Timestamp и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56189,7 +56189,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразования временных меток Unix без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразуйте временную метку API в читаемую дату.",
@@ -56212,7 +56212,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Для чего используется Конвертер Unix Timestamp?",
-          "a": "Преобразуйте временные метки Эпохи в удобочитаемые даты и обратно. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
+          "a": "Преобразуйте временные метки эпох в удобочитаемые даты и обратно. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
           "q": "Как работает Конвертер Unix Timestamp?",
@@ -56240,7 +56240,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "hex-to-rgb-hsl-converter": {
       "heroIntro": "Преобразуйте коды цветов HEX в форматы CSS RGB, RGBA и HSL.",
       "intro": "Преобразуйте коды цветов HEX в форматы CSS RGB, RGBA и HSL. Например, используйте его для преобразования цвета HEX дизайна в CSS RGB. Это также может помочь вам создать значение RGBA с прозрачностью. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Конвертер HEX в RGB и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56249,7 +56249,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразования шестнадцатеричного изображения в RGB без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразуйте HEX-цвет дизайна в CSS RGB.",
@@ -56300,7 +56300,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "url-component-encoder-decoder": {
       "heroIntro": "Безопасное кодирование или декодирование строк запроса URL и параметров URI.",
       "intro": "Безопасное кодирование или декодирование строк запроса URL и параметров URI. Например, используйте его для безопасного кодирования параметра запроса. Это также может помочь вам декодировать текст в процентном кодировании во время отладки. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Кодировщик и декодировщик URL и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56309,7 +56309,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи декодера URL-адресов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Безопасное кодирование параметра запроса.",
@@ -56360,7 +56360,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "jwt-token-inspector": {
       "heroIntro": "Декодируйте веб-токены JSON и просматривайте заявки на полезные данные локально.",
       "intro": "Декодируйте веб-токены JSON и просматривайте заявки на полезные данные локально. Например, используйте его для проверки утверждений в разрабатываемом JWT. Это также может помочь вам декодировать токен во время отладки API. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте JWT Decoder и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56369,7 +56369,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи декодера jwt без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Проверьте претензии в разрабатываемом JWT.",
@@ -56420,7 +56420,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "uuid-guid-v4-generator": {
       "heroIntro": "Массовое создание случайных идентификаторов UUID v4 для разработки и тестирования.",
       "intro": "Массовое создание случайных идентификаторов UUID v4 для разработки и тестирования. Например, используйте его для создания идентификаторов тестовых данных базы данных. Это также может помочь вам создать уникальные идентификаторы для средств разработки. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Генератор UUID и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56429,7 +56429,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые разовые задачи генератора uuid без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Сгенерируйте идентификаторы для тестовых данных базы данных.",
@@ -56480,7 +56480,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "strong-password-generator": {
       "heroIntro": "Создавайте настраиваемые случайные пароли с высокой энтропией.",
       "intro": "Создавайте настраиваемые случайные пароли с высокой энтропией. Например, используйте его для создания случайного пароля для новой учетной записи. Это также может помочь вам создать отдельные учетные данные для тестовых сред. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Генератор паролей и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56489,7 +56489,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые задачи по генерации одноразовых паролей без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Создайте случайный пароль для новой учетной записи.",
@@ -56540,7 +56540,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "user-agent-string-parser": {
       "heroIntro": "Анализируйте строки пользовательского агента, чтобы идентифицировать сообщаемый браузер, механизм рендеринга, операционную систему и сведения об устройстве.",
       "intro": "Анализируйте строки пользовательского агента, чтобы идентифицировать сообщаемый браузер, механизм рендеринга, операционную систему и сведения об устройстве. Например, используйте его для проверки пользовательского агента браузера во время отладки. Это также может помочь вам понять сообщаемые токены операционной системы и браузера. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
-      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, разработки внешнего или внутреннего интерфейса, тестирования и подготовки данных.",
+      "why": "Эта утилита для разработчиков предназначена для повторяемого рабочего процесса, который обычно возникает во время работы API, отладки, внешней или внутренней разработки, тестирования и подготовки данных.",
       "steps": [
         "Откройте Парсер User Agent и определите необходимый формат ввода или значения.",
         "Введите или выберите ввод и просмотрите все доступные параметры перед запуском операции.",
@@ -56549,7 +56549,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи парсера пользовательского агента без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Проверьте пользовательский агент браузера во время отладки.",
@@ -56609,7 +56609,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые разовые задачи по подсчету слов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Проверьте длину эссе или задания.",
@@ -56669,7 +56669,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразования регистра текста без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразование заголовков в регистр заголовков.",
@@ -56729,7 +56729,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое разовое удаление повторяющихся строк без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Очистите список адресов электронной почты или идентификаторов.",
@@ -56789,7 +56789,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи генератора lorem ipsum без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Заполните макет пользовательского интерфейса реалистичными текстовыми блоками.",
@@ -56849,7 +56849,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрая разовая уценка задач конвертера html без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Предварительный просмотр Markdown в формате HTML.",
@@ -56898,8 +56898,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "text"
     },
     "reverse-text-mirror-tool": {
-      "heroIntro": "Обратный строковый символ или порядок слов с обратными текстовыми эффектами.",
-      "intro": "Обратный строковый символ или порядок слов с обратными текстовыми эффектами. Например, используйте его, чтобы перевернуть строку для тестирования. Это также может помочь вам изменить порядок слов в текстовом эксперименте. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
+      "heroIntro": "Обратный строковый порядок символов или слов с обратными текстовыми эффектами.",
+      "intro": "Обратный строковый порядок символов или слов с обратными текстовыми эффектами. Например, используйте его, чтобы перевернуть строку для тестирования. Это также может помочь вам изменить порядок слов в текстовом эксперименте. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Эта текстовая утилита предназначена для повторяющихся задач очистки, сравнения, преобразования или создания, когда ручное редактирование выполняется медленнее или более подвержено ошибкам.",
       "steps": [
         "Откройте Генератор обратного текста и определите необходимый формат ввода или значения.",
@@ -56909,7 +56909,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые разовые задачи генератора обратного текста без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Переверните строку для тестирования.",
@@ -56932,7 +56932,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Для чего используется Генератор обратного текста?",
-          "a": "Обратный строковый символ или порядок слов с обратными текстовыми эффектами. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
+          "a": "Обратный строковый порядок символов или слов с обратными текстовыми эффектами. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
           "q": "Как работает Генератор обратного текста?",
@@ -56969,7 +56969,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи проверки текстовых различий без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Сравните две версии документа.",
@@ -57029,7 +57029,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи инструмента в алфавитном порядке без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Отсортируйте список имен.",
@@ -57041,7 +57041,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Проверьте пробелы, пунктуацию, символы Юникода и окончания строк.",
         "Проверяйте публикации, а не полагайтесь только на автоматизацию.",
         "Избегайте: Игнорирования правил регистра и локали.",
-        "Избегайте: Лексикографической сортировки числовых строк, когда предполагается порядок чисел.",
+        "Избегайте: лексикографической сортировки числовых строк, когда предполагается порядок чисел.",
         "Избегайте: Изменение значимого исходного порядка."
       ],
       "limitations": [
@@ -57089,7 +57089,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое разовое удаление html-тегов без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Извлекайте читаемый текст из фрагментов HTML.",
@@ -57149,7 +57149,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрый одноразовый поиск и замена текстовых задач без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Переименуйте повторяющиеся термины в документе.",
@@ -57199,7 +57199,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "unit-length-converter": {
       "heroIntro": "Конвертируйте метры, километры, мили, футы, дюймы и ярды.",
-      "intro": "Конвертируйте метры, километры, мили, футы, дюймы и ярды. Например, используйте его для преобразования километров в мили для путешествия. Это также может помочь вам конвертировать футы и дюймы для измерения. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
+      "intro": "Конвертируйте метры, километры, мили, футы, дюймы и ярды. Например, используйте его для преобразования километров в мили для путешествия. Это также может помочь вам преобразовать футы и дюймы для измерения. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс преобразования обеспечивает прямую связь между определенными единицами и полезен для учебы, путешествий, инженерного дела, покупок, науки, фитнеса и повседневного планирования.",
       "steps": [
         "Откройте Конвертер Длина и определите необходимый формат ввода или значения.",
@@ -57209,7 +57209,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертера длины без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразуйте километры в мили для путешествий.",
@@ -57269,7 +57269,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи конвертера веса без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Переведите килограммы в фунты.",
@@ -57312,7 +57312,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "В чем разница между массой и весом?",
-          "a": "Масса измеряет количество материи, а вес — это сила, на которую действует гравитация. Повседневные инструменты преобразования часто обозначают распространенные единицы массы как единицы веса."
+          "a": "Масса измеряет количество материи, а вес — это сила, на которую действует гравитация. Повседневные инструменты преобразования часто обозначают общие единицы массы как единицы веса."
         }
       ],
       "visual": "converter"
@@ -57329,7 +57329,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразователя температуры без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразование градусов Цельсия в градусы Фаренгейта для определения погоды.",
@@ -57389,7 +57389,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрое одноразовое преобразование размеров данных без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Конвертируйте МБ в ГБ для планирования хранения.",
@@ -57439,7 +57439,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "speed-velocity-converter": {
       "heroIntro": "Преобразуйте км/ч, мили в час, метры в секунду, узлы и скорости Маха.",
-      "intro": "Преобразуйте км/ч, мили в час, метры в секунду, узлы и скорости Маха. Например, используйте его для преобразования км/ч в мили/ч для путешествий. Это также может помочь вам преобразовать узлы для использования в морской или авиационной сфере. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
+      "intro": "Конвертируйте км/ч, мили в час, метры в секунду, узлы и скорости Маха. Например, используйте его для преобразования км/ч в мили в час для путешествий. Это также может помочь вам преобразовать узлы для использования в морской или авиационной сфере. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс преобразования обеспечивает прямую связь между определенными единицами и полезен для учебы, путешествий, инженерного дела, покупок, науки, фитнеса и повседневного планирования.",
       "steps": [
         "Откройте Конвертер Скорость и определите необходимый формат ввода или значения.",
@@ -57449,7 +57449,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразователя скорости без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразуйте км/ч в мили в час для путешествий.",
@@ -57509,7 +57509,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые разовые задачи конвертера времени без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразуйте минуты в часы.",
@@ -57558,7 +57558,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "converter"
     },
     "area-land-converter": {
-      "heroIntro": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигхи.",
+      "heroIntro": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигха.",
       "intro": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигхи. Например, используйте его для преобразования квадратных футов в квадратные метры. Он также может помочь вам конвертировать акры в гектары. В этом руководстве объясняется, что делает этот инструмент, когда он полезен, как его эффективно использовать, а также практические ограничения, которые имеют значение в реальных рабочих процессах.",
       "why": "Этот рабочий процесс преобразования обеспечивает прямую связь между определенными единицами и полезен для учебы, путешествий, инженерного дела, покупок, науки, фитнеса и повседневного планирования.",
       "steps": [
@@ -57569,19 +57569,19 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразования площадей без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Перевести квадратные футы в квадратные метры.",
         "Переведите акры в гектары.",
-        "Сравните общепринятые единицы земельной площади."
+        "Сравните распространенные единицы земельной площади."
       ],
       "tips": [
         "Подтвердите исходные и целевые единицы.",
         "Используйте значащие цифры, соответствующие точности источника.",
         "Для регламентированных или инженерных работ проверьте требуемый стандарт.",
         "Избегайте: использования линейного коэффициента преобразования площади.",
-        "Избегайте: Предполагать, что региональные земельные единицы, такие как Бигха, имеют одну универсальную ценность.",
+        "Избегайте: предполагать, что региональные земельные единицы, такие как Бигха, имеют одну универсальную ценность.",
         "Избегайте: Округления преобразования площади перед применением окончательного масштаба единиц."
       ],
       "limitations": [
@@ -57592,7 +57592,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Для чего используется Конвертер Площадь?",
-          "a": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигхи. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
+          "a": "Преобразование единиц общей площади, включая квадратные футы, квадратные метры, акры, гектары и бигха. Он предназначен для целенаправленного рабочего процесса, поэтому вы можете выполнить задачу без установки отдельной настольной утилиты. Точный результат зависит от предоставленных вами значений, файлов или кода."
         },
         {
           "q": "Как работает Конвертер Площадь?",
@@ -57629,7 +57629,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразователя давления без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Преобразуйте фунты на квадратный дюйм в бар, чтобы узнать характеристики оборудования.",
@@ -57689,7 +57689,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразователя энергии без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Переведите джоули в калории.",
@@ -57749,7 +57749,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи преобразователя мощности без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Перевести ватты в киловатты.",
@@ -57847,7 +57847,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Гарантирует ли SIP-калькулятор будущую стоимость?",
-          "a": "Нет. Это прогноз, основанный на таких предположениях, как сумма взноса, время и предполагаемый доход. Фактические инвестиционные результаты могут существенно отличаться."
+          "a": "Нет. Это прогноз, основанный на таких предположениях, как сумма вклада, время и предполагаемый доход. Фактические инвестиционные результаты могут существенно отличаться."
         },
         {
           "q": "Можно ли использовать Калькулятор SIP бесплатно?",
@@ -57992,7 +57992,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Полезный сценарий для тестирования: добавьте GST к налогооблагаемой стоимости счета-фактуры.",
         "Запишите предположения, чтобы расчет можно было повторить и проверить позже.",
         "Добавьте GST к налогооблагаемой стоимости счета-фактуры.",
-        "Извлеките НДС из включенной цены.",
+        "Извлеките GST из включенной цены.",
         "Сравните суммы счетов по разным ставкам GST."
       ],
       "tips": [
@@ -58358,7 +58358,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "tips": [
         "Следите за тем, чтобы единицы времени соответствовали годовой ставке.",
         "Проверьте, использует ли реальный продукт простые проценты.",
-        "Используйте результат в качестве арифметического расчета.",
+        "Используйте результат в качестве арифметического вычисления.",
         "Избегайте: Использование неправильной единицы времени.",
         "Избегайте: применения простых процентов к продукту, который на самом деле является составной частью.",
         "Избегайте: путаницы процентной ставки с десятичной ставкой."
@@ -58719,7 +58719,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Решите, будут ли чаевые рассчитываться до или после уплаты налогов.",
         "Проверьте округление при разделении счета.",
         "Рассматривайте местные правила взимания платы за обслуживание отдельно от добровольных чаевых.",
-        "Избегайте: Расчета чаевых на неправильной основе.",
+        "Избегайте: Расчета чаевых на неправильной базе.",
         "Избегайте: Игнорирования уже добавленной платы за обслуживание.",
         "Избегайте: Неравномерного округления при разделении итоговой суммы."
       ],
@@ -59064,8 +59064,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "study-timetable-maker": {
       "heroIntro": "Создайте расписание занятий с ежедневным повторением, целенаправленными учебными блоками, практикой, чтением, пробными тестами и перерывами.",
-      "intro": "Создайте расписание занятий с ежедневным повторением, целенаправленными учебными блоками, практикой, чтением, пробными тестами и перерывами. Создайте план обучения, в котором занятия по повторению, практике, чтению и пробному тестированию будут разделены по времени. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
-      "why": "Создайте план обучения, в котором занятия по повторению, практике, чтению и пробному тестированию будут разделены по времени.",
+      "intro": "Создайте расписание занятий с ежедневным повторением, целенаправленными учебными блоками, практикой, чтением, пробными тестами и перерывами. Создайте учебный план, в котором занятия по повторению, практике, чтению и пробному тестированию будут разделены по времени. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
+      "why": "Создайте учебный план, в котором занятия по повторению, практике, чтению и пробному тестированию будут разделены по времени.",
       "steps": [
         "Выбирайте дни и занятия для занятий.",
         "Установите реалистичную продолжительность сеанса.",
@@ -59089,7 +59089,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Для чего используется Создатель расписания учёбы?",
-          "a": "Создайте расписание занятий с ежедневным повторением, целенаправленными учебными блоками, практикой, чтением, пробными тестами и перерывами. Создайте план обучения, в котором занятия по повторению, практике, чтению и пробному тестированию будут разделены по времени."
+          "a": "Создайте расписание занятий с ежедневным повторением, целенаправленными учебными блоками, практикой, чтением, пробными тестами и перерывами. Создайте учебный план, в котором занятия по повторению, практике, чтению и пробному тестированию будут разделены по времени."
         },
         {
           "q": "Могу ли я использовать его для подготовки к экзамену?",
@@ -59239,8 +59239,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "kids-timetable-maker": {
-      "heroIntro": "Составьте простое расписание для детей, включив в него школу, домашние задания, игры, чтение, творческие занятия, времяпрепровождение с семьей и распорядок дня.",
-      "intro": "Составьте простое расписание для детей, включив в него школу, домашние задания, игры, чтение, творческие занятия, времяпрепровождение с семьей и распорядок дня. Составьте удобный для ребенка еженедельный график занятий в школе, выполнения домашних заданий, игр, чтения и времяпрепровождения с семьей. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
+      "heroIntro": "Составьте простое детское расписание, включающее школу, домашние задания, игры, чтение, творческие занятия, времяпровождение с семьей и распорядок дня.",
+      "intro": "Составьте простое детское расписание, включающее школу, домашние задания, игры, чтение, творческие занятия, времяпровождение с семьей и распорядок дня. Составьте удобный для ребенка еженедельный график занятий в школе, выполнения домашних заданий, игр, чтения и времяпрепровождения с семьей. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
       "why": "Составьте удобный для ребенка еженедельный график занятий в школе, выполнения домашних заданий, игр, чтения и времяпрепровождения с семьей.",
       "steps": [
         "Выбирайте дни и временные блоки ребенка.",
@@ -59265,7 +59265,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Для чего используется Создатель расписания для детей?",
-          "a": "Составьте простое расписание для детей, включив в него школу, домашние задания, игры, чтение, творческие занятия, времяпрепровождение с семьей и распорядок дня. Составьте удобный для ребенка еженедельный график занятий в школе, выполнения домашних заданий, игр, чтения и времяпрепровождения с семьей."
+          "a": "Составьте простое детское расписание, включающее школу, домашние задания, игры, чтение, творческие занятия, времяпровождение с семьей и распорядок дня. Составьте удобный для ребенка еженедельный график занятий в школе, выполнения домашних заданий, игр, чтения и времяпрепровождения с семьей."
         },
         {
           "q": "Это предназначено для детей?",
@@ -59459,8 +59459,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "work-shift-schedule-maker": {
-      "heroIntro": "Составьте график рабочих смен для утренних, вечерних, ночных, чередующихся или пользовательских смен в еженедельной сетке.",
-      "intro": "Составьте график рабочих смен для утренних, вечерних, ночных, чередующихся или пользовательских смен в еженедельной сетке. Создайте посменный график для утренних, вечерних, ночных или индивидуальных рабочих смен. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
+      "heroIntro": "Составьте график рабочих смен для утренних, вечерних, ночных, чередующихся или произвольных смен по еженедельной сетке.",
+      "intro": "Составьте график рабочих смен для утренних, вечерних, ночных, чередующихся или произвольных смен по еженедельной сетке. Создайте посменный график для утренних, вечерних, ночных или индивидуальных рабочих смен. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
       "why": "Создайте посменный график для утренних, вечерних, ночных или индивидуальных рабочих смен.",
       "steps": [
         "Выбирайте дни и смены.",
@@ -59485,7 +59485,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Для чего используется Создатель графика смен?",
-          "a": "Составьте график рабочих смен для утренних, вечерних, ночных, чередующихся или пользовательских смен в еженедельной сетке. Создайте посменный график для утренних, вечерних, ночных или индивидуальных рабочих смен."
+          "a": "Составьте график рабочих смен для утренних, вечерних, ночных, чередующихся или произвольных смен по еженедельной сетке. Создайте посменный график для утренних, вечерних, ночных или индивидуальных рабочих смен."
         },
         {
           "q": "Автоматически ли рассчитывается штатное расписание?",
@@ -59551,9 +59551,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "Создайте редактируемое расписание занятий с периодами, предметами, занятиями, перерывами и расписанием на неделю, которое можно распечатать. Создайте простое расписание занятий с именованными классами и блоками реального времени. Добавьте свой собственный заголовок расписания, личную заметку и цитату, а затем отредактируйте каждую созданную ячейку перед загрузкой или печатью.",
       "why": "Создайте простое расписание занятий с именованными классами и блоками реального времени.",
       "steps": [
-        "Выберите дни занятий и слоты.",
+        "Выберите дни и часы занятий.",
         "Установите время начала и продолжительность.",
-        "Введите имена классов.",
+        "Введите названия классов.",
         "Создайте и отредактируйте расписание."
       ],
       "useCases": [
@@ -59856,7 +59856,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "navratri-colors-2026": {
       "heroIntro": "Navratri Colors 2026: 9-дневный цветной календарь, даты, сегодняшний цвет Наваратри, цвета Наваратри, цвет дня и традиционное значение.",
-      "intro": "Ознакомьтесь с цветовым календарем Шарад Наваратри на 2026 год с 11 по 19 октября, включая сегодняшний цвет Наваратри, цвет дня Наваратри и обычно связанные с ним значения. Эта страница полезна для поиска, таких как цвета Наваратри 2026, 9 цветов Навратри 2026, цвета Навратри 2026, цвет дня Навратри, цвет сегодняшнего дня, цвет платья Навратри 2026, список цветов Навратри и 9 дней 9 цветов Наваратри.",
+      "intro": "Ознакомьтесь с цветовым календарем Шарад Наваратри на 2026 год с 11 по 19 октября, включая сегодняшний цвет Наваратри, цвет Наваратри дня и обычно связанные с ним значения. Эта страница полезна для таких поисковых запросов, как цвета Навратри 2026, 9 цветов Навратри 2026, цвета Навратри 2026, цвет дня Навратри, цвет сегодняшнего дня, цвет платья Навратри 2026, список цветов Навратри и 9 дней 9 цветов Наваратри.",
       "why": "Планируйте наряды Наваратри, цвета платьев Наваратри, аксессуары, наряды Гарбы, наряды Дандия и девятидневные праздничные образы из одного календаря. Значение цвета представлено как традиционная или общепринятая интерпретация, а не как универсальное религиозное правило.",
       "steps": [
         "Проверьте дату и сегодняшний цвет с 11 по 19 октября.",
@@ -59883,7 +59883,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "Каковы цвета Наваратри в 2026 году?",
-          "a": "Оранжевый, белый, красный, королевский синий, желтый, зеленый, серый, фиолетовый и павлиний зеленый с 11 по 19 октября."
+          "a": "Оранжевый, белый, красный, королевский синий, желтый, зеленый, серый, фиолетовый и павлино-зеленый с 11 по 19 октября."
         },
         {
           "q": "Каков сегодня цвет Наваратри?",
@@ -59948,7 +59948,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "diwali-puja-samagri-checklist": {
       "heroIntro": "Интерактивный список Дивали Пуджи Самагри и Контрольный список Пуджи Лакшми с элементами для печати, флажками и возможностью поделиться.",
-      "intro": "Используйте этот интерактивный контрольный список для пуджи Дивали для обычно подготовленных предметов для пуджи Лакшми-Ганеши, включая идолов Лакшми Ганеши, чоуки, калаш, кокос, роли, кумкум, халди, акшат, цветы, дии, хлопковые фитили, масло или топленое масло, агарбатти, дуп, камфору, фрукты, сладости и пуджа тхали. Он предназначен для практических поисков, таких как список самагри пуджи Дивали, список предметов пуджи Дивали, самагри Пуджи Лакшми, предметы пуджи Дивали, контрольный список пуджи Дивали, самагри пуджи Лакшми Ганеша и список саман пуджи Дивали.",
+      "intro": "Используйте этот интерактивный контрольный список для пуджи Дивали для обычно приготовленных предметов для пуджи Лакшми-Ганеши, включая идолов Лакшми Ганеша, чоуки, калаш, кокос, роли, кумкум, халди, акшат, цветы, дии, хлопковые фитили, масло или топленое масло, агарбатти, дуп, камфору, фрукты, сладости и пуджа тхали. Он предназначен для практических поисков, таких как список самагри пуджи Дивали, список предметов пуджи Дивали, самагри Пуджи Лакшми, предметы пуджи Дивали, контрольный список пуджи Дивали, самагри пуджи Лакшми Ганеша и список самагри пуджи Дивали.",
       "why": "Полезно для покупок пуджи Дивали, подготовки к пудже Лакшми, распечатанных списков пуджи и контрольного списка пуджи Дивали в последнюю минуту.",
       "steps": [
         "Просмотрите общие предметы.",
@@ -59957,7 +59957,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "Распечатайте или поделитесь текущим контрольным списком."
       ],
       "useCases": [
-        "Дивали пуджа шопинг",
+        "Дивали пуджа шоппинг",
         "Подготовка к Лакшми Пудже",
         "Координация семейных покупок",
         "Распечатанный список пуджи саман"
@@ -60085,7 +60085,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "finance"
     },
     "diwali-cleaning-planner": {
-      "heroIntro": "Diwali Cleaning Planner и Контрольный список Дивали Сафаи с практической последовательностью уборки дома, основанной на оставшихся днях.",
+      "heroIntro": "Diwali Cleaning Planner и контрольный список Дивали Сафаи с практической последовательностью уборки дома, основанной на оставшихся днях.",
       "intro": "Превратите контрольный список сафай Дивали в управляемую последовательность, включающую наведение порядка, уборку кухни, окон, мебели, места для пуджи, гардероба, прихожей и заключительную уборку. Полезные поисковые запросы включают контрольный список уборки Дивали, список уборки Дивали, контрольный список уборки дома Дивали, контрольный список Сафаи Дивали, график уборки Дивали, контрольный список глубокой уборки Дивали и план уборки Дивали.",
       "why": "Полезно для таких поисковых запросов, как контрольный список уборки Дивали, список уборки Дивали, контрольный список уборки дома Дивали и контрольный список Сафаи Дивали.",
       "steps": [
@@ -60188,7 +60188,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи по загрузке миниатюр YouTube без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Получите общедоступную миниатюру видео для примера дизайна.",
@@ -60231,7 +60231,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "Могу ли я загрузить любую миниатюру YouTube?",
-          "a": "Инструмент может извлекать доступные общедоступные миниатюры изображений, но загрузка не дает разрешения на повторное использование материалов, защищенных авторским правом. Проверьте права и целевое использование."
+          "a": "Инструмент может извлекать доступные общедоступные миниатюры изображений, но загрузка не дает разрешения на повторное использование материалов, защищенных авторским правом. Проверьте права и предполагаемое использование."
         }
       ],
       "visual": "youtube"
@@ -60248,10 +60248,10 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи генератора тегов YouTube без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
-        "Создавайте варианты связанных ключевых слов для темы видео.",
+        "Генерируйте идеи связанных ключевых слов для темы видео.",
         "Создайте стартовый список терминов метаданных.",
         "Сгруппируйте варианты тем для планирования контента."
       ],
@@ -60308,7 +60308,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "useCases": [
         "Быстрые одноразовые задачи калькулятора денег на YouTube без установки отдельной утилиты.",
-        "Повторяемая работа по подготовке документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
+        "Повторяемая подготовительная работа для документов, мультимедиа, текста, кода, данных или рабочих процессов создателей.",
         "Проверка промежуточного результата в ходе более крупного проекта.",
         "Подготовка вывода для другого приложения или рабочего процесса.",
         "Смоделируйте доход при разном количестве просмотров.",
@@ -60370,7 +60370,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "قم بتنزيل ملف PDF المدمج. احفظ الملف المدمج باسم واضح يصف الغرض منه، مثل application-documents.pdf أو Monthly-invoices.pdf.",
         "افتح الإخراج في قارئ PDF. لا تعتمد فقط على اكتمال التنزيل. تحقق من الصفحة الأولى والصفحة الأخيرة وعدد الصفحات والتسلسل والاتجاه وأي صفحات ذات أهمية خاصة.",
         "التحقق من ميزات النص والوثيقة. تأكد من أن النص قابل للقراءة والتحديد في المكان المتوقع، وأن الصور تظهر بشكل صحيح، وأن أي تعليقات توضيحية أو توقيعات أو نماذج أو إشارات مرجعية أساسية موجودة.",
-        "مشاركة أو إرسال الملف الذي تم التحقق منه. اتبع متطلبات حجم الملف والتسمية وترتيب الصفحات وتنسيق المستندات الخاصة بالبوابة المتلقية. احتفظ بملفات PDF الأصلية حتى تعرف أن الملف المدمج قد تم قبوله ولم تعد هناك حاجة إليه."
+        "مشاركة أو إرسال الملف الذي تم التحقق منه. اتبع متطلبات حجم الملف والتسمية وترتيب الصفحات وتنسيق المستندات الخاصة بالبوابة المتلقية. احتفظ بملفات PDF الأصلية حتى تعلم أن الملف المدمج قد تم قبوله ولم تعد هناك حاجة إليه."
       ],
       "useCases": [
         "طلبات العمل: قم بدمج السيرة الذاتية وخطاب التقديم ورسائل الخبرة وشهادات التعليم في ملف PDF واحد عندما يطلب صاحب العمل مرفقًا واحدًا.",
@@ -60380,7 +60380,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "تقارير الأعمال: ضع الملخص التنفيذي والتقرير والرسوم البيانية والملاحق معًا بالتسلسل الصحيح.",
         "الأعمال الورقية القانونية أو الإدارية: تجميع النماذج ذات الصلة والمستندات الداعمة، مع اتباع قواعد التقديم المحددة للمستلم والحفاظ على النسخ الأصلية.",
         "البحث والدراسة: اجمع بين ملاحظات القراءة والأقسام الورقية والمواد المرجعية في نسخة دراسية شخصية حيثما يسمح بذلك.",
-        "الاجتماعات والمشاريع: اجمع جداول الأعمال والمحاضر والمواصفات والمستندات الداعمة معًا لتسليم الفريق.",
+        "الاجتماعات والمشاريع: قم بإحضار جداول الأعمال والمحاضر والمواصفات والمستندات الداعمة معًا لتسليم الفريق.",
         "سجلات السفر والسجلات الشخصية: قم بتنظيم مسارات الرحلات وتأكيدات الحجز والمستندات الأخرى في ملف مرجعي مناسب.",
         "مشاركة البريد الإلكتروني والملفات: استبدل العديد من مرفقات PDF ذات الصلة بملف واحد مدمج عندما يفضل المستلم مستندًا واحدًا.",
         "الأرشفة الرقمية: احتفظ بالسجلات ذات الصلة معًا باستخدام أسماء ملفات واضحة وبنية مجلدات متسقة.",
@@ -60392,7 +60392,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "احتفظ بالنسخ الأصلية. يعد ملف PDF المدمج بمثابة نسخة مدمجة ملائمة، وليس بديلاً للملفات المصدر التي قد تحتاج إلى تحريرها أو إرسالها بشكل منفصل لاحقًا.",
         "تحقق من كل صفحة حول حدود الملف. يعد الانتقال بين الصفحة الأخيرة من ملف PDF المصدر والصفحة الأولى من الصفحة التالية مكانًا سهلاً لملاحظة الصفحات المفقودة أو المكررة أو المرتبة بشكل غير صحيح.",
         "شاهد أحجام الصفحات المختلطة واتجاهها. يمكن أن تتواجد الصفحات بحجم A4 وLetter والصورة والأفقية والممسوحة ضوئيًا في ملف PDF واحد؛ تأكد من أن كل صفحة تظل مقروءة وموجهة بشكل صحيح.",
-        "لا تخلط بين الدمج والضغط. لا يضمن الانضمام إلى ملفات PDF الحصول على ملف أصغر. إذا كانت البوابة الإلكترونية تحتوي على حد تحميل صارم، فتحقق من الحجم النهائي واستخدم أداة الضغط إذا لزم الأمر.",
+        "لا تخلط بين الدمج والضغط. لا يضمن الانضمام إلى ملفات PDF الحصول على ملف أصغر. إذا كان للبوابة حد تحميل صارم، فتحقق من الحجم النهائي واستخدم أداة الضغط إذا لزم الأمر.",
         "تذكر النص الممسوح ضوئيًا. قد يحتوي ملف PDF الممسوح ضوئيًا على صور صفحة بدلاً من نص قابل للبحث. لا يؤدي دمجها إلى إجراء التعرف الضوئي على الحروف تلقائيًا أو جعل الكلمات قابلة للتحديد.",
         "حماية المعلومات الحساسة. قم بمعالجة المستندات المصرح لك بالتعامل معها فقط. تجنب التعرض غير الضروري للمعلومات الشخصية أو المالية أو الطبية أو السرية المتعلقة بالأعمال، وافهم ممارسات التعامل مع الملفات الخاصة بالخدمة قبل استخدامها للمستندات الحساسة.",
         "التحقق من التوقيعات والنماذج. إذا كان ملف PDF يحتوي على توقيعات رقمية، أو نماذج تفاعلية، أو تعليقات توضيحية، أو إشارات مرجعية، فافحص هذه الميزات بعد الدمج لأن السلوك يمكن أن يعتمد على الملف المصدر وبرنامج PDF.",
@@ -60484,9 +60484,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "split-pdf": {
-      "heroIntro": "افصل الصفحات الفردية أو استخرج نطاقات صفحات معينة من ملفات PDF.",
-      "intro": "افصل الصفحات الفردية أو استخرج نطاقات صفحات معينة من ملفات PDF. على سبيل المثال، استخدمه لاستخراج الصفحات المحددة من تقرير طويل. يمكن أن يساعدك أيضًا في إنشاء مستند أصغر من فصل أو قسم. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "heroIntro": "افصل الصفحات الفردية أو استخرج نطاقات صفحات محددة من ملفات PDF.",
+      "intro": "افصل الصفحات الفردية أو استخرج نطاقات صفحات محددة من ملفات PDF. على سبيل المثال، استخدمه لاستخراج الصفحات المحددة من تقرير طويل. يمكن أن يساعدك أيضًا في إنشاء مستند أصغر من فصل أو قسم. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح تقسيم PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60518,7 +60518,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام تقسيم PDF؟",
-          "a": "افصل الصفحات الفردية أو استخرج نطاقات صفحات معينة من ملفات PDF. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
+          "a": "افصل الصفحات الفردية أو استخرج نطاقات صفحات محددة من ملفات PDF. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
           "q": "كيف يعمل تقسيم PDF؟",
@@ -60546,7 +60546,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "pdf-to-jpg": {
       "heroIntro": "استخرج الصفحات من مستند PDF الخاص بك وقم بتصديرها كصور JPG عالية الجودة.",
       "intro": "استخرج الصفحات من مستند PDF الخاص بك وقم بتصديرها كصور JPG عالية الجودة. على سبيل المثال، استخدمه لتحويل صفحة PDF إلى صورة لعرض تقديمي. يمكن أن يساعدك أيضًا في إنشاء معاينات JPG للمستندات الممسوحة ضوئيًا. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح محول PDF إلى JPG وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60606,7 +60606,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "jpg-to-pdf": {
       "heroIntro": "قم بتحويل صور JPG وJPEG وPNG إلى ملف PDF موحد ونظيف.",
       "intro": "قم بتحويل صور JPG وJPEG وPNG إلى ملف PDF موحد ونظيف. على سبيل المثال، استخدمه لدمج الإيصالات الممسوحة ضوئيًا في ملف PDF واحد. يمكن أن يساعدك أيضًا في إعداد الصور الفوتوغرافية أو عمليات مسح المستندات ضوئيًا لتقديمها. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح محول JPG إلى PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60614,7 +60614,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
       ],
       "useCases": [
-        "مهام سريعة لتحويل jpg إلى pdf لمرة واحدة دون تثبيت أداة مساعدة منفصلة.",
+        "مهام تحويل jpg إلى pdf سريعة لمرة واحدة دون تثبيت أداة مساعدة منفصلة.",
         "أعمال تحضيرية متكررة للمستندات أو الوسائط أو النصوص أو التعليمات البرمجية أو البيانات أو سير عمل المنشئ.",
         "التحقق من نتيجة وسيطة خلال مشروع أكبر.",
         "إعداد مخرجات لتطبيق أو سير عمل آخر.",
@@ -60666,7 +60666,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "protect-pdf-password": {
       "heroIntro": "أضف حماية بكلمة مرور إلى مستندات PDF المدعومة باستخدام ميزات تشفير PDF.",
       "intro": "أضف حماية بكلمة مرور إلى مستندات PDF المدعومة باستخدام ميزات تشفير PDF. على سبيل المثال، استخدمه لحماية مستند قبل مشاركته مع المستلم. يمكن أن يساعدك أيضًا في إضافة كلمة مرور وصول إلى نسخة من ملف PDF. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح حماية PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60726,7 +60726,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "unlock-pdf-password": {
       "heroIntro": "قم بإزالة كلمات المرور والأذونات من مستندات PDF المشفرة محليًا.",
       "intro": "قم بإزالة كلمات المرور والأذونات من مستندات PDF المشفرة محليًا. على سبيل المثال، استخدمه لإزالة كلمة المرور من مستند مسموح لك بالوصول إليه. يمكن أن يساعدك أيضًا في إنشاء نسخة عمل يمكن الوصول إليها بعد الحصول على بيانات الاعتماد المطلوبة. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح فك حماية PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60786,7 +60786,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "rotate-pdf": {
       "heroIntro": "قم بتدوير الصفحات الفردية أو جميعها داخل مستند PDF بمقدار 90 أو 180 أو 270 درجة.",
       "intro": "قم بتدوير الصفحات الفردية أو جميعها داخل مستند PDF بمقدار 90 أو 180 أو 270 درجة. على سبيل المثال، استخدمه لتصحيح الصفحات الممسوحة ضوئيًا من الجوانب. يمكن أن يساعدك أيضًا في تدوير الصفحات المحددة للطباعة. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح تدوير PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60846,7 +60846,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "compress-pdf": {
       "heroIntro": "تقليل مساحة ملف مستند PDF مع الحفاظ على دقة النص الواضحة.",
       "intro": "تقليل مساحة ملف مستند PDF مع الحفاظ على دقة النص الواضحة. على سبيل المثال، استخدمه لتصغير مستند قبل تحميله عبر البريد الإلكتروني. يمكن أن يساعدك أيضًا في إعداد ملف PDF لبوابة ذات حد لحجم الملف. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح ضغط PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60906,7 +60906,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "add-page-numbers-pdf": {
       "heroIntro": "قم بإدراج أرقام صفحات الرأس أو التذييل عبر ملف PDF بأكمله.",
       "intro": "قم بإدراج أرقام صفحات الرأس أو التذييل عبر ملف PDF بأكمله. على سبيل المثال، استخدمه لترقيم تقرير طويل أو أطروحة. يمكن أن يساعدك أيضًا في إضافة أرقام الصفحات إلى مستند مُجهز للطباعة. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح إضافة أرقام الصفحات إلى PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60965,8 +60965,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "pdf-to-word": {
       "heroIntro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم محتوى المصدر.",
-      "intro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم محتوى المصدر. على سبيل المثال، استخدمه لتحويل ملف PDF كثيف النص إلى مسودة DOCX قابلة للتحرير. ويمكن أن يساعدك أيضًا في إعادة استخدام محتوى التقرير في سير عمل Word. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "intro": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم المحتوى المصدر. على سبيل المثال، استخدمه لتحويل ملف PDF كثيف النص إلى مسودة DOCX قابلة للتحرير. ويمكن أن يساعدك أيضًا في إعادة استخدام محتوى التقرير في سير عمل Word. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح محول PDF إلى Word وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -60998,7 +60998,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام محول PDF إلى Word؟",
-          "a": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم محتوى المصدر. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
+          "a": "قم بتحويل ملفات PDF إلى تنسيق DOCX Word قابل للتحرير حيث يتم دعم المحتوى المصدر. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
           "q": "كيف يعمل محول PDF إلى Word؟",
@@ -61026,7 +61026,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "word-to-pdf": {
       "heroIntro": "تحويل مستندات Microsoft Word (DOCX، DOC) إلى ملفات PDF قياسية.",
       "intro": "تحويل مستندات Microsoft Word (DOCX، DOC) إلى ملفات PDF قياسية. على سبيل المثال، استخدمه لإنشاء مستند ذو تخطيط ثابت للمشاركة. يمكن أن يساعدك أيضًا في إعداد DOCX لتقديمه أو طباعته. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح محول Word إلى PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -61086,7 +61086,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "delete-pdf-pages": {
       "heroIntro": "قم بتحديد وإزالة الصفحات غير المرغوب فيها من أي ملف PDF من خلال التنزيل الفوري.",
       "intro": "قم بتحديد وإزالة الصفحات غير المرغوب فيها من أي ملف PDF من خلال التنزيل الفوري. على سبيل المثال، استخدمه لإزالة الصفحات الفارغة من التقرير. يمكن أن يساعدك أيضًا على حذف الصفحات المكررة أو غير المرغوب فيها قبل الإرسال. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح حذف صفحات من PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -61146,7 +61146,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "reorder-pdf-pages": {
       "heroIntro": "قم بسحب وإسقاط وإعادة ترتيب تسلسل الصفحات لمستند PDF الخاص بك.",
       "intro": "قم بسحب وإسقاط وإعادة ترتيب تسلسل الصفحات لمستند PDF الخاص بك. على سبيل المثال، استخدمه لإصلاح مستند ممسوح ضوئيًا تكون صفحاته غير متسلسلة. ويمكن أن يساعدك أيضًا في وضع الملاحق بعد التقرير الرئيسي. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح إعادة ترتيب صفحات PDF وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -61206,7 +61206,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "pdf-grayscale-converter": {
       "heroIntro": "قم بتحويل صفحات PDF إلى تدرج رمادي لتقليل معلومات الألوان وإعداد المستندات للطباعة أحادية اللون.",
       "intro": "قم بتحويل صفحات PDF إلى تدرج رمادي لتقليل معلومات الألوان وإعداد المستندات للطباعة أحادية اللون. على سبيل المثال، استخدمه لإعداد المستندات للطباعة أحادية اللون. يمكن أن يساعدك أيضًا على تقليل معلومات الألوان في الأوراق الممسوحة ضوئيًا. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستندية مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
+      "why": "تم تصميم سير عمل PDF هذا حول مهمة مستند مركزة: إعداد المصدر، وتطبيق العملية، ومراجعة المخرجات، والاحتفاظ بالنتيجة فقط إذا كانت تلبي متطلباتك.",
       "steps": [
         "افتح محول PDF إلى تدرج الرمادي وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -61258,7 +61258,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "لماذا تحويل PDF إلى تدرج الرمادي؟",
-          "a": "يمكن أن يعمل التدرج الرمادي على تبسيط المستندات الخاصة بالطباعة أحادية اللون أو سير العمل حيث يكون اللون غير ضروري، ولكنه يمكنه إزالة الفروق القائمة على الألوان."
+          "a": "يمكن أن يعمل التدرج الرمادي على تبسيط المستندات الخاصة بالطباعة أحادية اللون أو سير العمل حيث لا يكون اللون ضروريًا، ولكنه يمكنه إزالة الفروق القائمة على الألوان."
         }
       ],
       "visual": "workflow"
@@ -61318,7 +61318,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "ما هو أفضل تنسيق للصورة للضغط؟",
-          "a": "ذلك يعتمد على الصورة. غالبًا ما يكون JPEG مناسبًا للصور الفوتوغرافية، وPNG للرسومات غير المفقودة أو الشفافية، ويمكن أن يوفر WebP تسليمًا حديثًا فعالاً عند دعمه."
+          "a": "ذلك يعتمد على الصورة. غالبًا ما يكون JPEG مناسبًا للصور الفوتوغرافية، وPNG للرسومات أو الشفافية غير المفقودة، ويمكن أن يوفر WebP تسليمًا حديثًا فعالاً عند دعمه."
         }
       ],
       "visual": "formats"
@@ -61558,7 +61558,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "هل يحافظ WebP إلى JPG على الشفافية؟",
-          "a": "JPG لا يدعم الشفافية. ولذلك يجب تمثيل المناطق الشفافة على خلفية أثناء التحويل."
+          "a": "JPG لا يدعم الشفافية. لذلك يجب تمثيل المناطق الشفافة على خلفية أثناء التحويل."
         }
       ],
       "visual": "formats"
@@ -62000,7 +62000,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "إعداد مخرجات لتطبيق أو سير عمل آخر.",
         "طمس الوجه في لقطة الشاشة.",
         "إخفاء لوحة الترخيص في الصورة.",
-        "قم بإخفاء التفاصيل الخاصة الصغيرة قبل مشاركة الصورة."
+        "قم بإخفاء تفاصيل صغيرة خاصة قبل مشاركة الصورة."
       ],
       "tips": [
         "احتفظ بالصورة الأصلية عندما تكون الجودة مهمة.",
@@ -62038,14 +62038,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "هل يعتبر التمويه طريقة آمنة لتنقيح المعلومات الحساسة؟",
-          "a": "يمكن أن يؤدي التعتيم إلى حجب التفاصيل المرئية، ولكن لا ينبغي التعامل معه كطريقة تنقيح أمنية مضمونة. بالنسبة للمستندات الحساسة، استخدم سير عمل تنقيح حقيقي حيثما كان ذلك مناسبًا."
+          "a": "يمكن أن يؤدي التعتيم إلى حجب التفاصيل المرئية، لكن لا ينبغي التعامل معه كطريقة تنقيح أمنية مضمونة. بالنسبة للمستندات الحساسة، استخدم سير عمل تنقيح حقيقي حيثما كان ذلك مناسبًا."
         }
       ],
       "visual": "formats"
     },
     "image-color-palette-extractor": {
       "heroIntro": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرةً من أي صورة.",
-      "intro": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرة من أي صورة. على سبيل المثال، استخدمه لإنشاء لوحة تصميم من صورة فوتوغرافية. يمكن أن يساعدك أيضًا في تحديد الألوان السائدة للعلامة التجارية. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "intro": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرةً من أي صورة. على سبيل المثال، استخدمه لإنشاء لوحة تصميم من صورة فوتوغرافية. يمكن أن يساعدك أيضًا في تحديد الألوان السائدة للعلامة التجارية. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "يركز سير عمل الصورة هذا على تحويل واحد بحيث يمكن إكمال مهمة سريعة بدون محرر رسومات كامل. إنه مفيد للويب والمستندات والعمل الاجتماعي والتطوير والصور اليومية.",
       "steps": [
         "افتح مولد لوحة ألوان الصورة وحدد تنسيق الإدخال أو القيم المطلوبة.",
@@ -62078,7 +62078,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام مولد لوحة ألوان الصورة؟",
-          "a": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرةً من أي صورة. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
+          "a": "قم باستخراج أنظمة الألوان HEX وRGB السائدة مباشرة من أي صورة. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
           "q": "كيف يعمل مولد لوحة ألوان الصورة؟",
@@ -62126,7 +62126,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "ابدأ بمثال صغير قابل للتكرار.",
         "اقرأ المترجم الأول أو خطأ وقت التشغيل بعناية.",
         "لا تقم مطلقًا بلصق مفاتيح واجهة برمجة التطبيقات أو كلمات المرور أو الرموز المميزة الخاصة أو بيانات اعتماد الإنتاج.",
-        "تجنب: توقع توفر جميع حزم الجهات الخارجية.",
+        "تجنب: توقع توفر كافة حزم الطرف الثالث.",
         "تجنب: لصق بيانات الاعتماد في التعليمات البرمجية.",
         "تجنب: افتراض أن سلوك وضع الحماية يتطابق مع الإنتاج."
       ],
@@ -62258,7 +62258,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام محرر HTML عبر الإنترنت؟",
-          "a": "محرر HTML وCSS وJavaScript تفاعلي مباشر مع معاينة DOM على شاشة مقسمة. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
+          "a": "محرر HTML وCSS وJavaScript تفاعلي مباشر مع معاينة DOM على الشاشة المقسمة. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
           "q": "كيف يعمل محرر HTML عبر الإنترنت؟",
@@ -62344,8 +62344,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "code"
     },
     "online-java-compiler": {
-      "heroIntro": "يمكنك كتابة مقتطفات تعليمات برمجية Java القياسية وتصحيح أخطائها وتشغيلها مباشرة في متصفح الويب الخاص بك.",
-      "intro": "يمكنك كتابة مقتطفات تعليمات برمجية Java القياسية وتصحيح أخطائها وتشغيلها مباشرة في متصفح الويب الخاص بك. على سبيل المثال، استخدمه للتدرب على بناء جملة Java ومجموعاتها. يمكن أن يساعدك أيضًا في تشغيل خوارزمية صغيرة وفحص مخرجاتها. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "heroIntro": "يمكنك كتابة مقتطفات تعليمات برمجية Java القياسية وتصحيحها وتشغيلها مباشرة في متصفح الويب الخاص بك.",
+      "intro": "يمكنك كتابة مقتطفات تعليمات برمجية Java القياسية وتصحيحها وتشغيلها مباشرة في متصفح الويب الخاص بك. على سبيل المثال، استخدمه للتدرب على بناء جملة Java ومجموعاتها. يمكن أن يساعدك أيضًا في تشغيل خوارزمية صغيرة وفحص مخرجاتها. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تعد مساحة عمل البرمجة هذه مفيدة للتعلم وتصحيح الأخطاء والتحقق من بناء الجملة والأمثلة الصغيرة القابلة للتكرار. يختلف نموذج التنفيذ حسب اللغة، لذا يجب التعامل معه على أنه بيئة اختبار تجريبية وليس بيئة إنتاج.",
       "steps": [
         "افتح مترجم Java عبر الإنترنت وحدد تنسيق الإدخال أو القيم المطلوبة.",
@@ -62378,7 +62378,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام مترجم Java عبر الإنترنت؟",
-          "a": "يمكنك كتابة مقتطفات تعليمات برمجية Java القياسية وتصحيح أخطائها وتشغيلها مباشرة في متصفح الويب الخاص بك. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
+          "a": "يمكنك كتابة مقتطفات تعليمات برمجية Java القياسية وتصحيحها وتشغيلها مباشرة في متصفح الويب الخاص بك. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
           "q": "كيف يعمل مترجم Java عبر الإنترنت؟",
@@ -62398,7 +62398,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "هل يمكنني التدرب على برامج Java عبر الإنترنت؟",
-          "a": "نعم. تعد البرامج الصغيرة والخوارزميات والمجموعات والتمارين اللغوية حالات استخدام مناسبة لمترجم المتصفح."
+          "a": "نعم. تُعد البرامج الصغيرة والخوارزميات والمجموعات والتمارين اللغوية حالات استخدام مناسبة لمترجم المتصفح."
         }
       ],
       "visual": "code"
@@ -62728,7 +62728,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "لا تقم مطلقًا بلصق أسرار الإنتاج أو بيانات العملاء الخاصة.",
         "تجنب: تغيير عناوين URL المثبتة دون عمليات إعادة التوجيه.",
         "تجنب: استخدام كلمات التوقف أو علامات الترقيم غير الضرورية.",
-        "تجنب: إنشاء ارتباطات مكررة لصفحات مختلفة."
+        "تجنب: إنشاء روابط ثابتة مكررة لصفحات مختلفة."
       ],
       "limitations": [
         "يتبع الإخراج بناء الجملة والقواعد التي تدعمها الأداة.",
@@ -62858,7 +62858,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام CSS Minifier؟",
-          "a": "ضغط قواعد ورقة الأنماط عن طريق تجريد المسافات البيضاء والتعليقات. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
+          "a": "ضغط قواعد ورقة الأنماط عن طريق إزالة المسافات البيضاء والتعليقات. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
           "q": "كيف يعمل CSS Minifier؟",
@@ -62878,7 +62878,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "هل يؤدي تصغير CSS إلى تغيير كيفية عمل الأنماط؟",
-          "a": "يقوم المصغر الصحيح بإزالة المسافات البيضاء والتعليقات غير الضرورية مع الحفاظ على سلوك CSS، ولكن يجب اختبار الإدخال المعقد أو غير الصالح بعد التصغير."
+          "a": "يقوم المصغر الصحيح بإزالة المسافات البيضاء والتعليقات غير الضرورية مع الحفاظ على سلوك CSS، ولكن يجب الاستمرار في اختبار الإدخال المعقد أو غير الصالح بعد التصغير."
         }
       ],
       "visual": "code"
@@ -62938,7 +62938,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "هل الطوابع الزمنية لنظام Unix بالثواني أم بالمللي ثانية؟",
-          "a": "كلتا الاتفاقيتين شائعتان. التحقق من النظام المصدر قبل التحويل؛ غالبًا ما تشير القيمة التي تختلف بمقدار ثلاثة أوامر من حيث الحجم إلى الثواني مقابل المللي ثانية."
+          "a": "كلتا الاتفاقيتين شائعتان. التحقق من النظام المصدر قبل التحويل؛ غالبًا ما تشير القيمة التي تختلف بمقدار ثلاثة أوامر من حيث الحجم تقريبًا إلى الثواني مقابل المللي ثانية."
         }
       ],
       "visual": "code"
@@ -62998,7 +62998,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "هل يمكن تحويل HEX إلى RGB وHSL؟",
-          "a": "نعم. يمكن تمثيل اللون HEX كقيم RGB وRGBA وHSL لسير عمل CSS والتصميم."
+          "a": "نعم. يمكن تمثيل اللون السداسي كقيم RGB وRGBA وHSL لسير عمل CSS والتصميم."
         }
       ],
       "visual": "code"
@@ -63028,7 +63028,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "لا تقم مطلقًا بلصق أسرار الإنتاج أو بيانات العملاء الخاصة.",
         "تجنب: تشفير عنوان URL بالكامل عندما يجب تشفير مكون واحد فقط.",
         "تجنب: قيم الترميز المزدوج.",
-        "تجنب: الخلط بين تشفير URL وBase64."
+        "تجنب: الخلط بين ترميز URL وBase64."
       ],
       "limitations": [
         "يتبع الإخراج بناء الجملة والقواعد التي تدعمها الأداة.",
@@ -63125,7 +63125,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "uuid-guid-v4-generator": {
       "heroIntro": "قم بإنشاء معرفات UUID v4 عشوائية بشكل مجمّع للتطوير والاختبار.",
-      "intro": "قم بإنشاء معرفات UUID v4 عشوائية بشكل مجمّع للتطوير والاختبار. على سبيل المثال، استخدمه لإنشاء معرفات لبيانات اختبار قاعدة البيانات. يمكن أن يساعدك أيضًا في إنشاء معرفات فريدة لتجهيزات التطوير. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "intro": "قم بإنشاء معرفات UUID v4 عشوائية بشكل مجمّع للتطوير والاختبار. على سبيل المثال، استخدمه لإنشاء معرفات لبيانات اختبار قاعدة البيانات. يمكن أن يساعدك أيضًا في إنشاء معرفات فريدة لتركيبات التطوير. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
       "why": "تستهدف أداة المطور هذه سير عمل قابل للتكرار يظهر بشكل شائع أثناء عمل واجهة برمجة التطبيقات (API)، وتصحيح الأخطاء، وتطوير الواجهة الأمامية أو الخلفية، والاختبار، وإعداد البيانات.",
       "steps": [
         "افتح مولد UUID وحدد تنسيق الإدخال أو القيم المطلوبة.",
@@ -63306,7 +63306,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "word-character-counter": {
       "heroIntro": "قم بإحصاء الكلمات والأحرف والجمل والفقرات ومدة القراءة في الوقت الفعلي.",
       "intro": "قم بإحصاء الكلمات والأحرف والجمل والفقرات ومدة القراءة في الوقت الفعلي. على سبيل المثال، استخدمه للتحقق من طول المقال أو المهمة. يمكن أن يساعدك أيضًا في قياس النسخة مقابل عدد الأحرف المسموح به. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح عداد الكلمات وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63323,16 +63323,16 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "تقدير وقت القراءة لمسودة المقالة."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
-        "تجنب: على افتراض أن كل منصة تحسب الكلمات بشكل مماثل.",
+        "تجنب: بافتراض أن كل منصة تقوم بحساب الكلمات بشكل مماثل.",
         "تجنب: تجاهل المسافة البيضاء أو سلوك Unicode.",
         "تجنب: استخدام عدد الأحرف حيث يكون حد البايت مطلوبًا."
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63366,7 +63366,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "text-case-converter": {
       "heroIntro": "قم بتحويل النص على الفور إلى أحرف كبيرة وأحرف صغيرة وحالة العنوان وحالة الجمل.",
       "intro": "قم بتحويل النص على الفور إلى أحرف كبيرة وأحرف صغيرة وحالة العنوان وحالة الجمل. على سبيل المثال، استخدمه لتحويل العناوين إلى حالة عنوان. يمكن أن يساعدك أيضًا في تطبيع النص المستورد إلى أحرف صغيرة. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح محول حالة النص وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63383,7 +63383,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "قم بإعداد المعرفات أو التسميات في حالة متسقة."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: تغيير حالة الأحرف داخل الكود أو المعرفات الحساسة لحالة الأحرف.",
@@ -63392,7 +63392,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63426,7 +63426,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "remove-duplicate-lines": {
       "heroIntro": "قم بتنظيف القوائم ومصفوفات البيانات عن طريق إزالة أسطر النص المتكررة على الفور.",
       "intro": "قم بتنظيف القوائم ومصفوفات البيانات عن طريق إزالة أسطر النص المتكررة على الفور. على سبيل المثال، استخدمه لتنظيف قائمة رسائل البريد الإلكتروني أو المعرفات. يمكن أن يساعدك أيضًا في إلغاء تكرار البيانات النصية المستوردة. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح إزالة الأسطر المكررة وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63443,7 +63443,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "إزالة الإدخالات المتكررة من قائمة التكوين."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: إزالة التكرارات عندما تكون الأسطر المتكررة ذات معنى.",
@@ -63452,7 +63452,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63486,7 +63486,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "lorem-ipsum-generator": {
       "heroIntro": "قم بإنشاء فقرات وجمل نصية قابلة للتخصيص لنماذج بالأحجام الطبيعية.",
       "intro": "قم بإنشاء فقرات وجمل نصية قابلة للتخصيص لنماذج بالأحجام الطبيعية. على سبيل المثال، استخدمه لملء نموذج واجهة المستخدم بكتل نصية واقعية. يمكن أن يساعدك أيضًا في اختبار الطباعة والتخطيطات سريعة الاستجابة. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح مولد Lorem Ipsum وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63503,7 +63503,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "بطاقة النموذج وتخطيطات المقالة."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: نشر نص العنصر النائب عن طريق الخطأ.",
@@ -63512,7 +63512,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63546,7 +63546,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "markdown-to-html-converter": {
       "heroIntro": "اكتب صيغة Markdown وقم بمعاينة مخرجات HTML المنقحة في الوقت الفعلي.",
       "intro": "اكتب صيغة Markdown وقم بمعاينة مخرجات HTML المنقحة في الوقت الفعلي. على سبيل المثال، استخدمه لمعاينة Markdown بتنسيق HTML. يمكن أن يساعدك أيضًا في إعداد علامات التوثيق. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح محول Markdown إلى HTML وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63563,7 +63563,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "تحقق من العناوين والقوائم والروابط وكتل التعليمات البرمجية قبل النشر."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: بافتراض أن مخرجات Markdown آمنة تلقائيًا لكل سياق.",
@@ -63572,7 +63572,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63605,8 +63605,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "reverse-text-mirror-tool": {
       "heroIntro": "عكس أحرف السلسلة أو ترتيب الكلمات مع تأثيرات النص العكسية.",
-      "intro": "عكس أحرف السلسلة أو ترتيب الكلمات مع تأثيرات النص العكسية. على سبيل المثال، استخدمه لعكس سلسلة للاختبار. ويمكن أن يساعدك أيضًا على عكس ترتيب الكلمات في تجربة نصية. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "intro": "عكس أحرف السلسلة أو ترتيب الكلمات مع تأثيرات النص العكسية. على سبيل المثال، استخدمه لعكس سلسلة للاختبار. يمكن أن يساعدك أيضًا على عكس ترتيب الكلمات في تجربة نصية. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح مولد النص المعكوس وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63623,7 +63623,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "قم بإنشاء تأثير نص معكوس بسيط."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: استخدام النص المعكوس حيث تكون مجموعات حروف Unicode ذات أهمية.",
@@ -63632,7 +63632,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63666,7 +63666,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "text-diff-checker": {
       "heroIntro": "قارن بين كتلتين نصيتين جنبًا إلى جنب لتمييز النص المضاف والمحذوف.",
       "intro": "قارن بين كتلتين نصيتين جنبًا إلى جنب لتمييز النص المضاف والمحذوف. على سبيل المثال، استخدمه لمقارنة إصدارين من المستندات. يمكن أن يساعدك أيضًا في مراجعة الرمز أو تغيير التكوين. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح مدقق اختلاف النصوص وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63683,7 +63683,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "البحث عن الأسطر المفقودة أو المضافة في النص."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: مقارنة المسافات البيضاء التي تمت تسويتها بشكل مختلف.",
@@ -63692,7 +63692,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63726,7 +63726,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "alphabetical-line-sorter": {
       "heroIntro": "فرز القوائم والأسطر أبجديًا (A-Z، Z-A) أو حسب طول السلسلة.",
       "intro": "فرز القوائم والأسطر أبجديًا (A-Z، Z-A) أو حسب طول السلسلة. على سبيل المثال، استخدمه لفرز قائمة الأسماء. يمكن أن يساعدك أيضًا في طلب أسطر نصية لمهمة تنظيف البيانات. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح أداة الترتيب الأبجدي وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63743,7 +63743,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "قم بالفرز حسب A-Z، أو Z-A، أو قواعد الطول المدعومة."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: تجاهل قواعد الحالة والإعدادات المحلية.",
@@ -63752,7 +63752,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63786,7 +63786,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "strip-html-tags": {
       "heroIntro": "قم بتنظيف كود مصدر HTML الخام وصولاً إلى سلاسل نصية واضحة ومقروءة.",
       "intro": "قم بتنظيف كود مصدر HTML الخام وصولاً إلى سلاسل نصية واضحة ومقروءة. على سبيل المثال، استخدمه لاستخراج نص قابل للقراءة من مقتطفات HTML. يمكن أن يساعدك أيضًا في تنظيف العلامات المنسوخة من مصدر ويب. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح إزالة علامات HTML وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63803,7 +63803,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "قم بإعداد نص عادي لنظام آخر."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: توقع أن تصبح النصوص البرمجية أو المحتوى المخفي نصًا ذا معنى.",
@@ -63812,7 +63812,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -63846,7 +63846,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "find-replace-text": {
       "heroIntro": "ابحث عن الكلمات أو الأنماط واستبدلها عبر المستندات النصية الطويلة.",
       "intro": "ابحث عن الكلمات أو الأنماط واستبدلها عبر المستندات النصية الطويلة. على سبيل المثال، استخدمه لإعادة تسمية المصطلحات المتكررة في المستند. يمكن أن يساعدك أيضًا في تصحيح خطأ مطبعي ثابت عبر نص طويل. يشرح هذا الدليل ما تفعله الأداة، ومتى تكون مفيدة، وكيفية استخدامها بفعالية، والقيود العملية التي تهم سير العمل في العالم الحقيقي.",
-      "why": "تم تصميم أداة النص هذه لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
+      "why": "تم تصميم هذه الأداة المساعدة النصية لمهام التنظيف أو المقارنة أو التحويل أو الإنشاء المتكررة حيث يكون التحرير اليدوي أبطأ أو أكثر عرضة للخطأ.",
       "steps": [
         "افتح بحث واستبدال النص وحدد تنسيق الإدخال أو القيم المطلوبة.",
         "أدخل أو حدد الإدخال وراجع كل خيار متاح قبل تشغيل العملية.",
@@ -63863,7 +63863,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "استبدال قيمة العنصر النائب في القالب."
       ],
       "tips": [
-        "احتفظ بالنص المصدر قبل التحولات المدمرة.",
+        "احتفظ بالنص المصدر قبل التحويلات المدمرة.",
         "تحقق من المسافات البيضاء وعلامات الترقيم وأحرف Unicode ونهايات الأسطر.",
         "تدقيق مخرجات النشر بدلاً من الاعتماد فقط على الأتمتة.",
         "تجنب: استبدال الكلمات الداخلية دون قصد.",
@@ -63872,7 +63872,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "limitations": [
         "يمكن تقييد المدخلات الكبيرة جدًا بواسطة ذاكرة المتصفح.",
-        "لا يفهم تحويل النص الآلي كل السياق الدلالي.",
+        "لا يفهم التحويل الآلي للنص كل السياق الدلالي.",
         "قد لا ينجو تنسيق النص المنسق من سير عمل النص العادي."
       ],
       "faq": [
@@ -64034,7 +64034,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "قم بتنزيل النتيجة أو نسخها أو إعادة استخدامها فقط بعد التحقق من مطابقتها لمتطلباتك الأصلية."
       ],
       "useCases": [
-        "مهام سريعة لمحول درجة الحرارة لمرة واحدة دون تثبيت أداة مساعدة منفصلة.",
+        "مهام تحويل درجة الحرارة السريعة لمرة واحدة دون تثبيت أداة مساعدة منفصلة.",
         "أعمال تحضيرية متكررة للمستندات أو الوسائط أو النصوص أو التعليمات البرمجية أو البيانات أو سير عمل المنشئ.",
         "التحقق من نتيجة وسيطة خلال مشروع أكبر.",
         "إعداد مخرجات لتطبيق أو سير عمل آخر.",
@@ -64100,7 +64100,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "إعداد مخرجات لتطبيق أو سير عمل آخر.",
         "تحويل ميغابايت إلى غيغابايت لتخطيط التخزين.",
         "مقارنة أحجام الملفات عبر الأنظمة.",
-        "تحويل البايتات للتحميل أو تقديرات الذاكرة."
+        "تحويل وحدات البايت للتحميل أو تقديرات الذاكرة."
       ],
       "tips": [
         "تأكيد المصدر والوحدات المستهدفة.",
@@ -64506,7 +64506,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "sip-wealth-calculator": {
       "heroIntro": "قم بتقدير نمو استثمار SIP وإجمالي المساهمات والقيمة المستقبلية باستخدام المساهمة الشهرية وافتراض العائد السنوي.",
       "intro": "قم بتقدير نمو استثمار SIP وإجمالي المساهمات والقيمة المستقبلية باستخدام المساهمة الشهرية وافتراض العائد السنوي. على سبيل المثال، استخدمه لمقارنة الاشتراكات الشهرية على مدار 10 أو 15 أو 20 عامًا. يمكن أن يساعدك أيضًا في اختبار العديد من معدلات العائد السنوية المفترضة. تجمع هذه الصفحة بين الآلة الحاسبة التفاعلية والشروحات العملية والأمثلة والافتراضات والأخطاء الشائعة حتى يمكن تفسير النتيجة بشكل صحيح.",
-      "why": "تقوم حاسبة SIP بفصل المبلغ الذي تساهم به عن النمو المقدر لتلك المساهمات. وهذا يجعل من السهل معرفة كيفية تأثير حجم المساهمة والوقت ومعدل العائد المفترض على القيمة المستقبلية المتوقعة.",
+      "why": "تقوم حاسبة SIP بفصل المبلغ الذي تساهم به عن النمو المقدر لتلك المساهمات. وهذا يجعل من السهل معرفة مدى تأثير حجم المساهمة والوقت ومعدل العائد المفترض على القيمة المستقبلية المتوقعة.",
       "steps": [
         "أدخل القيم المطلوبة بواسطة حاسبة SIP باستخدام الوحدات المعروضة.",
         "اختر افتراضات واقعية للمعدل أو المدة أو التكرار أو الضريبة أو جدول المساهمة ذي الصلة بهذا الحساب.",
@@ -64565,7 +64565,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "emi-calculator": {
       "heroIntro": "حساب أقساط القرض الشهرية، وإجمالي تكاليف الفائدة، وجداول الاستهلاك.",
-      "intro": "حساب أقساط القرض الشهرية، وإجمالي تكاليف الفائدة، وجداول الاستهلاك. على سبيل المثال، استخدمه للمقارنة بين فترتي قرض. يمكن أن يساعدك أيضًا في تقدير إجمالي الفائدة لشراء منزل أو مركبة أو قرض شخصي. تجمع هذه الصفحة بين الآلة الحاسبة التفاعلية والشروحات العملية والأمثلة والافتراضات والأخطاء الشائعة حتى يمكن تفسير النتيجة بشكل صحيح.",
+      "intro": "حساب أقساط القرض الشهرية، وإجمالي تكاليف الفائدة، وجداول الاستهلاك. على سبيل المثال، استخدمه للمقارنة بين فترتي قرض. يمكن أن يساعدك أيضًا في تقدير إجمالي الفائدة على المنزل أو السيارة أو القرض الشخصي. تجمع هذه الصفحة بين الآلة الحاسبة التفاعلية والشروحات العملية والأمثلة والافتراضات والأخطاء الشائعة حتى يمكن تفسير النتيجة بشكل صحيح.",
       "why": "تفصل حاسبة EMI بين تأثيرات رأس المال وسعر الفائدة والحيازة بحيث يمكن مقارنة سيناريوهات القروض قبل الاقتراض.",
       "steps": [
         "أدخل القيم المطلوبة بواسطة حاسبة EMI باستخدام الوحدات المعروضة.",
@@ -64579,7 +64579,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "سجل الافتراضات حتى يمكن تكرار الحساب والتحقق منه لاحقًا.",
         "قارن بين فترتي القرض.",
         "تقدير إجمالي الفائدة للمنزل أو السيارة أو القرض الشخصي.",
-        "تحقق من مدى تأثير تغيير السعر على EMI الشهري."
+        "تحقق من مدى تأثير تغيير السعر على القسط الشهري الشهري."
       ],
       "tips": [
         "قارن إجمالي الفائدة، وليس فقط القسط الشهري الشهري.",
@@ -64767,7 +64767,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "استخدم قسيمة الراتب النهائية كمبلغ رسمي.",
         "تجنب: التعامل مع CTC كأخذ شهري للمنزل.",
         "تجنب: تجاهل الأجور المتغيرة ومساهمات أصحاب العمل.",
-        "تجنب: استخدام الخصومات العامة بدلاً من قواعد الرواتب الفعلية."
+        "تجنب: استخدام الاستقطاعات العامة بدلاً من قواعد الرواتب الفعلية."
       ],
       "limitations": [
         "يعتمد التقدير على الافتراضات والمدخلات المستخدمة بواسطة حاسبة الراتب.",
@@ -64885,7 +64885,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "التأكد من طريقة الحساب الدقيقة للبنك.",
         "تحقق من قواعد عدم سداد القسط والإغلاق المبكر.",
         "التحقق من التقدير مقابل شروط البنك.",
-        "تجنب: بافتراض أن جميع البنوك تستخدم صيغ RD متطابقة.",
+        "تجنب: على افتراض أن جميع البنوك تستخدم صيغ RD متطابقة.",
         "تجنب: تجاهل غرامات عدم سداد القسط.",
         "تجنب: تجاهل الضرائب وشروط الإغلاق المبكر."
       ],
@@ -64913,7 +64913,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "كيف يختلف RD عن FD؟",
-          "a": "يتضمن RD عمومًا ودائع دورية، في حين يبدأ FD عادةً بوديعة مبلغ مقطوع. يحدد حساب الفائدة الدقيق للمؤسسة وشروطها المبلغ النهائي."
+          "a": "يتضمن RD عمومًا ودائع دورية، في حين يبدأ FD عادةً بوديعة مبلغ إجمالي. يحدد حساب الفائدة الدقيق للمؤسسة وشروطها المبلغ النهائي."
         },
         {
           "q": "هل حاسبة RD مجاني للاستخدام؟",
@@ -65007,7 +65007,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "استخدم مقارنات السيناريوهات بدلاً من التعامل مع أحد التوقعات على أنه وعد.",
         "تجنب: خلط المعدلات السنوية مع الفترات الشهرية بشكل غير صحيح.",
         "تجنب: مقارنة الأسعار دون مطابقة فترات التركيب.",
-        "تجنب: التعامل مع الإسقاط باعتباره عائدًا مضمونًا."
+        "تجنب: التعامل مع الإسقاط على أنه عائد مضمون."
       ],
       "limitations": [
         "يعتمد التقدير على الافتراضات والمدخلات المستخدمة بواسطة حاسبة الفائدة المركبة.",
@@ -65045,7 +65045,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "simple-interest-calculator": {
       "heroIntro": "حساب الفائدة البسيطة الأساسية المستحقة على المبالغ الأصلية بمعدلات ثابتة.",
-      "intro": "حساب الفائدة البسيطة الأساسية المستحقة على المبالغ الأصلية بمعدلات ثابتة. على سبيل المثال، استخدمه لحساب الفائدة على أصل ثابت. يمكن أن يساعدك أيضًا في التحقق من تمرين الفائدة البسيطة. تجمع هذه الصفحة بين الآلة الحاسبة التفاعلية والشروحات العملية والأمثلة والافتراضات والأخطاء الشائعة حتى يمكن تفسير النتيجة بشكل صحيح.",
+      "intro": "حساب الفائدة البسيطة الأساسية المستحقة على المبالغ الأصلية بمعدلات ثابتة. على سبيل المثال، استخدمه لحساب الفائدة على أصل ثابت. يمكن أن يساعدك أيضًا في التحقق من تمرين ذي فائدة بسيطة. تجمع هذه الصفحة بين الآلة الحاسبة التفاعلية والشروحات العملية والأمثلة والافتراضات والأخطاء الشائعة حتى يمكن تفسير النتيجة بشكل صحيح.",
       "why": "الفائدة البسيطة هي نموذج يتم فيه احتساب الفائدة على أصل المبلغ الأصلي بدلاً من إضافته بشكل متكرر إلى أصل المبلغ.",
       "steps": [
         "أدخل القيم المطلوبة بواسطة حاسبة الفائدة البسيطة باستخدام الوحدات المعروضة.",
@@ -65234,7 +65234,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "تحقق من النتيجة مقابل السجلات الرسمية أو شروط المنتج أو مصدر مؤهل قبل اتخاذ قرار مهم."
       ],
       "useCases": [
-        "قارن بين سيناريوهات حاسبة مؤشر كتلة الجسم المختلفة.",
+        "مقارنة سيناريوهات حاسبة مؤشر كتلة الجسم المختلفة.",
         "السيناريو المفيد الذي يجب اختباره هو: حساب مؤشر كتلة الجسم من الطول والوزن.",
         "سجل الافتراضات حتى يمكن تكرار الحساب والتحقق منه لاحقًا.",
         "حساب مؤشر كتلة الجسم من الطول والوزن.",
@@ -65284,7 +65284,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "formula": "مؤشر كتلة الجسم = الوزن بالكيلو جرام ÷ (الطول بالأمتار)^2."
     },
     "scientific-calculator": {
-      "heroIntro": "أداء حساب المثلثات المتقدمة، واللوغاريتمات، والأس، وتعبيرات الجبر.",
+      "heroIntro": "أداء حساب المثلثات واللوغاريتمات والأسيات وتعبيرات الجبر المتقدمة.",
       "intro": "أداء حساب المثلثات واللوغاريتمات والأسيات وتعبيرات الجبر المتقدمة. على سبيل المثال، استخدمه لتقييم التعبيرات المثلثية. يمكن أن يساعدك أيضًا في حساب اللوغاريتمات والقوى. تجمع هذه الصفحة بين الآلة الحاسبة التفاعلية والشروحات العملية والأمثلة والافتراضات والأخطاء الشائعة حتى يمكن تفسير النتيجة بشكل صحيح.",
       "why": "تساعد الآلة الحاسبة العلمية في إجراء العمليات الحسابية المتكررة التي تتضمن وظائف رياضية متقدمة.",
       "steps": [
@@ -65317,7 +65317,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام حاسبة علمية؟",
-          "a": "أداء حساب المثلثات المتقدمة، واللوغاريتمات، والأس، وتعبيرات الجبر. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
+          "a": "أداء حساب المثلثات واللوغاريتمات والأسيات وتعبيرات الجبر المتقدمة. إنه مصمم لسير عمل مركّز حتى تتمكن من إكمال المهمة دون تثبيت أداة مساعدة منفصلة لسطح المكتب. يعتمد الإخراج الدقيق على القيم أو الملفات أو التعليمات البرمجية التي تقدمها."
         },
         {
           "q": "كيف يعمل حاسبة علمية؟",
@@ -65507,8 +65507,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "cute-timetable-maker": {
-      "heroIntro": "قم بإنشاء جدول زمني لطيف قابل للتخصيص باستخدام تخطيطات جاهزة للطلاب والأطفال وخطط الدراسة والروتين اليومي.",
-      "intro": "قم بإنشاء جدول زمني لطيف قابل للتخصيص باستخدام تخطيطات جاهزة للطلاب والأطفال وخطط الدراسة والروتين اليومي. قم بإنشاء جدول زمني سهل الاستخدام مع تخطيط أكثر ليونة ورسالة شخصية وجدول زمني قابل للطباعة. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
+      "heroIntro": "أنشئ جدولًا زمنيًا لطيفًا وقابلاً للتخصيص باستخدام تخطيطات جاهزة للطلاب والأطفال وخطط الدراسة والروتين اليومي.",
+      "intro": "أنشئ جدولًا زمنيًا لطيفًا وقابلاً للتخصيص باستخدام تخطيطات جاهزة للطلاب والأطفال وخطط الدراسة والروتين اليومي. قم بإنشاء جدول زمني سهل الاستخدام مع تخطيط أكثر ليونة ورسالة شخصية وجدول زمني قابل للطباعة. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
       "why": "قم بإنشاء جدول زمني سهل الاستخدام مع تخطيط أكثر ليونة ورسالة شخصية وجدول زمني قابل للطباعة.",
       "steps": [
         "اختر الأيام الدراسية وفتحات الفصل الدراسي.",
@@ -65532,7 +65532,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام منشئ جدول زمني لطيف؟",
-          "a": "قم بإنشاء جدول زمني لطيف قابل للتخصيص باستخدام تخطيطات جاهزة للطلاب والأطفال وخطط الدراسة والروتين اليومي. قم بإنشاء جدول زمني سهل الاستخدام مع تخطيط أكثر ليونة ورسالة شخصية وجدول زمني قابل للطباعة."
+          "a": "أنشئ جدولًا زمنيًا لطيفًا وقابلاً للتخصيص باستخدام تخطيطات جاهزة للطلاب والأطفال وخطط الدراسة والروتين اليومي. قم بإنشاء جدول زمني سهل الاستخدام مع تخطيط أكثر ليونة ورسالة شخصية وجدول زمني قابل للطباعة."
         },
         {
           "q": "هل يمكنني إضافة اقتباس شخصي؟",
@@ -65902,7 +65902,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "daily-timetable-maker": {
       "heroIntro": "قم بإنشاء جدول زمني يومي يتضمن فترات زمنية للروتين والعمل والدراسة والوجبات وممارسة الرياضة والأسرة والراحة.",
-      "intro": "قم بإنشاء جدول زمني يومي يتضمن فترات زمنية للروتين والعمل والدراسة والوجبات وممارسة الرياضة والأسرة والراحة. أنشئ جدولًا زمنيًا ليوم واحد باستخدام أوقات الساعة الحقيقية بدلاً من تسميات الفترة على النمط المدرسي. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
+      "intro": "قم بإنشاء جدول زمني يومي يتضمن فترات زمنية للروتين والعمل والدراسة والوجبات وممارسة الرياضة والأسرة والراحة. أنشئ جدولًا ليوم واحد باستخدام أوقات الساعة الحقيقية بدلاً من تسميات الفترة على النمط المدرسي. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
       "why": "أنشئ جدولًا ليوم واحد باستخدام أوقات الساعة الحقيقية بدلاً من تسميات الفترة على النمط المدرسي.",
       "steps": [
         "حدد وقت البدء وعدد الأنشطة.",
@@ -65927,7 +65927,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام منشئ جدول يومي؟",
-          "a": "قم بإنشاء جدول زمني يومي يتضمن فترات زمنية للروتين والعمل والدراسة والوجبات وممارسة الرياضة والأسرة والراحة. أنشئ جدولًا زمنيًا ليوم واحد باستخدام أوقات الساعة الحقيقية بدلاً من تسميات الفترة على النمط المدرسي."
+          "a": "قم بإنشاء جدول زمني يومي يتضمن فترات زمنية للروتين والعمل والدراسة والوجبات وممارسة الرياضة والأسرة والراحة. أنشئ جدولًا ليوم واحد باستخدام أوقات الساعة الحقيقية بدلاً من تسميات الفترة على النمط المدرسي."
         },
         {
           "q": "هل يُظهر المخطط اليومي الأوقات الحقيقية؟",
@@ -66342,8 +66342,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "home-routine-planner": {
       "heroIntro": "قم بعمل مخطط روتيني منزلي للتنظيف والوجبات والأنشطة العائلية والمهمات والراحة والمهام المنزلية المتكررة.",
-      "intro": "قم بعمل مخطط روتيني منزلي للتنظيف والوجبات والأنشطة العائلية والمهمات والراحة والمهام المنزلية المتكررة. تنظيم الروتين المنزلي مثل التنظيف والوجبات ووقت العائلة والراحة على مدار الأسبوع. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
-      "why": "تنظيم الروتين المنزلي مثل التنظيف والوجبات ووقت العائلة والراحة على مدار الأسبوع.",
+      "intro": "قم بعمل مخطط روتيني منزلي للتنظيف والوجبات والأنشطة العائلية والمهمات والراحة والمهام المنزلية المتكررة. تنظيم الأعمال الروتينية المنزلية مثل التنظيف والوجبات ووقت العائلة والراحة على مدار الأسبوع. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
+      "why": "تنظيم الأعمال الروتينية المنزلية مثل التنظيف والوجبات ووقت العائلة والراحة على مدار الأسبوع.",
       "steps": [
         "اختر الأيام المنزلية والكتل الزمنية.",
         "ضبط وقت البدء اليومي.",
@@ -66367,7 +66367,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام مخطط روتين المنزل؟",
-          "a": "قم بعمل مخطط روتيني منزلي للتنظيف والوجبات والأنشطة العائلية والمهمات والراحة والمهام المنزلية المتكررة. تنظيم الروتين المنزلي مثل التنظيف والوجبات ووقت العائلة والراحة على مدار الأسبوع."
+          "a": "قم بعمل مخطط روتيني منزلي للتنظيف والوجبات والأنشطة العائلية والمهمات والراحة والمهام المنزلية المتكررة. تنظيم الأعمال الروتينية المنزلية مثل التنظيف والوجبات ووقت العائلة والراحة على مدار الأسبوع."
         },
         {
           "q": "هل يمكن طباعة الخطة؟",
@@ -66429,8 +66429,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "meal-timetable-planner": {
-      "heroIntro": "قم ببناء جدول زمني أسبوعي للوجبات لتناول الإفطار والوجبات الخفيفة والغداء والعشاء وإجراءات بسيطة لتخطيط الوجبات.",
-      "intro": "قم ببناء جدول زمني أسبوعي للوجبات لتناول الإفطار والوجبات الخفيفة والغداء والعشاء وإجراءات بسيطة لتخطيط الوجبات. خطط لوجبات الإفطار والوجبات الخفيفة والغداء والعشاء باستخدام أوقات الوجبات الفعلية بدلاً من فترات الدراسة العامة. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
+      "heroIntro": "قم ببناء جدول زمني أسبوعي للوجبات للإفطار والوجبات الخفيفة والغداء والعشاء وإجراءات بسيطة لتخطيط الوجبات.",
+      "intro": "قم ببناء جدول زمني أسبوعي للوجبات للإفطار والوجبات الخفيفة والغداء والعشاء وإجراءات بسيطة لتخطيط الوجبات. خطط لوجبات الإفطار والوجبات الخفيفة والغداء والعشاء باستخدام أوقات الوجبات الفعلية بدلاً من فترات الدراسة العامة. أضف عنوان الجدول الزمني الخاص بك، والملاحظة الشخصية، والاقتباس، ثم قم بتحرير كل خلية تم إنشاؤها قبل التنزيل أو الطباعة.",
       "why": "خطط لوجبات الإفطار والوجبات الخفيفة والغداء والعشاء باستخدام أوقات الوجبات الفعلية بدلاً من فترات الدراسة العامة.",
       "steps": [
         "اختر الأيام.",
@@ -66455,7 +66455,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هو الغرض من استخدام مخطط جدول الوجبات؟",
-          "a": "قم ببناء جدول زمني أسبوعي للوجبات لتناول الإفطار والوجبات الخفيفة والغداء والعشاء وإجراءات بسيطة لتخطيط الوجبات. خطط لوجبات الإفطار والوجبات الخفيفة والغداء والعشاء باستخدام أوقات الوجبات الفعلية بدلاً من فترات الدراسة العامة."
+          "a": "قم ببناء جدول زمني أسبوعي للوجبات للإفطار والوجبات الخفيفة والغداء والعشاء وإجراءات بسيطة لتخطيط الوجبات. خطط لوجبات الإفطار والوجبات الخفيفة والغداء والعشاء باستخدام أوقات الوجبات الفعلية بدلاً من فترات الدراسة العامة."
         },
         {
           "q": "هل يضع خطة للتغذية؟",
@@ -66589,7 +66589,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "ما هي ألوان نافراتري لعام 2026؟",
-          "a": "البرتقالي والأبيض والأحمر والأزرق الملكي والأصفر والأخضر والرمادي والأرجواني والأخضر الطاووس من 11 أكتوبر حتى 19 أكتوبر."
+          "a": "البرتقالي، الأبيض، الأحمر، الأزرق الملكي، الأصفر، الأخضر، الرمادي، الأرجواني، والأخضر الطاووس من 11 أكتوبر حتى 19 أكتوبر."
         },
         {
           "q": "ما هو لون Navratri اليوم؟",
@@ -66701,7 +66701,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "diwali-budget-calculator": {
       "heroIntro": "حاسبة Diwali Budget ومخطط ميزانية تسوق ديوالي للهدايا والملابس والميتاي والديكور والبوجا والسفر والطعام.",
       "intro": "خطط لإنفاق ديوالي عن طريق إدخال مبالغ للهدايا، والملابس، والميثاي والفارال، والديكور، والدياس والأضواء، والبوجا، والسفر، والطعام، وغيرها من النفقات. تتضمن عمليات البحث المفيدة حاسبة ميزانية ديوالي، ومخطط ميزانية ديوالي، وميزانية التسوق في ديوالي، وحاسبة نفقات ديوالي، ومخطط إنفاق ديوالي، ومخطط ميزانية المهرجان.",
-      "why": "مفيد لميزانية التسوق في ديوالي ومخطط ميزانية ديوالي وتخطيط نفقات المهرجان.",
+      "why": "مفيد لميزانية التسوق في ديوالي، ومخطط ميزانية ديوالي، وتخطيط نفقات المهرجان.",
       "steps": [
         "أدخل المبالغ المخططة حسب الفئة.",
         "اترك الفئات غير المستخدمة فارغة أو صفرًا.",
@@ -66819,7 +66819,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "متى يجب أن أبدأ؟",
-          "a": "في وقت سابق هو أسهل. أدخل الأيام المتوفرة لديك واستخدم التسلسل الذي تم إنشاؤه."
+          "a": "في وقت سابق هو أسهل. أدخل الأيام لديك واستخدم التسلسل الذي تم إنشاؤه."
         },
         {
           "q": "ما هو مدرج؟",
@@ -67065,7 +67065,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
   },
   "hi": {
     "merge-pdf": {
-      "heroIntro": "PDF मर्ज करें फ़ाइलें एक संगठित दस्तावेज़ में ऑनलाइन। अपने चुने हुए क्रम में रिपोर्ट, स्कैन किए गए पेज, चालान, फॉर्म, प्रमाणपत्र और अन्य पीडीएफ को मिलाएं।",
+      "heroIntro": "PDF मर्ज करें फ़ाइलें ऑनलाइन एक संगठित दस्तावेज़ में। अपने चुने हुए क्रम में रिपोर्ट, स्कैन किए गए पेज, चालान, फॉर्म, प्रमाणपत्र और अन्य पीडीएफ को मिलाएं।",
       "intro": "पृष्ठों को कॉपी और पेस्ट किए बिना पीडीएफ फाइलों को एक दस्तावेज़ में संयोजित करने की आवश्यकता है? टूलप्लॉयी का ऑनलाइन PDF मर्ज करें टूल आपको साझा करने, अपलोड करने, प्रिंट करने या संग्रह करने के लिए अलग-अलग पीडीएफ को एक एकल, ऑर्डर की गई फ़ाइल में जोड़ने में मदद करता है। यह नौकरी आवेदन, स्कूल और कॉलेज सबमिशन, व्यावसायिक कागजी कार्रवाई, चालान, अनुसंधान और रोजमर्रा के दस्तावेज़ प्रबंधन के लिए उपयोगी है। उन पीडीएफ़ का चयन करें जिन्हें आप संयोजित करना चाहते हैं, उन्हें सही क्रम में रखें, उन्हें मर्ज करें, और उपयोग करने से पहले अंतिम फ़ाइल की समीक्षा करें। यह मार्गदर्शिका बताती है कि पीडीएफ फाइलों को कैसे मर्ज किया जाए, स्वच्छ परिणाम के लिए दस्तावेज़ कैसे तैयार किए जाएं, सामान्य समस्याओं का समाधान कैसे किया जाए और यह तय किया जाए कि आपको कब एक अलग पीडीएफ टूल की आवश्यकता हो सकती है।",
       "why": "एक विश्वसनीय पीडीएफ विलय संबंधित दस्तावेजों के संग्रह को प्रबंधित करना आसान बनाता है। एकाधिक अनुलग्नक भेजने के बजाय, आप एक संयुक्त पीडीएफ बना सकते हैं जो प्राप्तकर्ता के लिए खोलना, समीक्षा करना, डाउनलोड करना, प्रिंट करना और संग्रहीत करना आसान है। एक सुव्यवस्थित फ़ाइल मुख्य दस्तावेज़ के बगल में सहायक साक्ष्य रखने में भी मदद कर सकती है और किसी अनुलग्नक की अनदेखी की संभावना को कम कर सकती है। विलय स्क्रीनशॉट लेने या प्रत्येक पृष्ठ को एक छवि में परिवर्तित करने से अलग है: एक विशिष्ट विलय स्रोत पीडीएफ में पृष्ठों और संसाधनों को जोड़ता है। हालाँकि, स्रोत दस्तावेज़ों में फॉर्म, एनोटेशन, बुकमार्क, एन्क्रिप्शन, या असामान्य एम्बेडेड सामग्री हो सकती है, इसलिए यह मानने के बजाय कि प्रत्येक विशेष सुविधा समान व्यवहार करेगी, हमेशा अंतिम फ़ाइल की जाँच करें।",
       "steps": [
@@ -67073,7 +67073,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "संयोजित करने के लिए पीडीएफ़ चुनें। अंतिम दस्तावेज़ में शामिल सभी फ़ाइलों का चयन करें। यदि आपके पास समान नाम वाली कई फ़ाइलें हैं, तो पहले उनका स्पष्ट रूप से नाम बदलें ताकि आप प्रत्येक की पहचान कर सकें।",
         "फ़ाइलों को पढ़ने के क्रम में रखें। पहले कवर पेज या परिचय व्यवस्थित करें, उसके बाद मुख्य दस्तावेज़ और फिर परिशिष्ट या सहायक साक्ष्य व्यवस्थित करें। सही क्रम पीडीएफ प्राप्त करने वाले व्यक्ति या संगठन के निर्देशों पर निर्भर करता है।",
         "PDF मर्ज करें ऑपरेशन प्रारंभ करें. चयनित फ़ाइलों और उनके क्रम की जाँच करने के बाद मर्ज चलाएँ। प्रसंस्करण समय पृष्ठों की संख्या, एम्बेडेड छवियों, फ़ाइल आकार, ब्राउज़र मेमोरी और डिवाइस के प्रदर्शन पर निर्भर करता है।",
-        "मर्ज की गई पीडीएफ डाउनलोड करें। संयुक्त फ़ाइल को एक स्पष्ट नाम के साथ सहेजें जो इसके उद्देश्य का वर्णन करता हो, जैसे कि एप्लिकेशन-डॉक्यूमेंट्स.पीडीएफ या मासिक-इनवॉइस.पीडीएफ।",
+        "मर्ज की गई पीडीएफ डाउनलोड करें। संयुक्त फ़ाइल को एक स्पष्ट नाम से सहेजें जो इसके उद्देश्य का वर्णन करता हो, जैसे कि एप्लिकेशन-डॉक्यूमेंट्स.पीडीएफ या मासिक-इनवॉइस.पीडीएफ।",
         "आउटपुट को पीडीएफ रीडर में खोलें। केवल डाउनलोड पूरा होने पर निर्भर न रहें। प्रथम पृष्ठ, अंतिम पृष्ठ, पृष्ठ संख्या, अनुक्रम, अभिविन्यास और विशेष रूप से महत्वपूर्ण किसी भी पृष्ठ की जाँच करें।",
         "पाठ और दस्तावेज़ सुविधाओं की जाँच करें। पुष्टि करें कि पाठ पढ़ने योग्य है और जहां अपेक्षित हो वहां चयन करने योग्य है, छवियां सही ढंग से दिखाई देती हैं, और कोई भी आवश्यक एनोटेशन, हस्ताक्षर, फॉर्म या बुकमार्क मौजूद हैं।",
         "सत्यापित फ़ाइल साझा करें या सबमिट करें. प्राप्तकर्ता पोर्टल की फ़ाइल-आकार, नामकरण, पृष्ठ-क्रम और दस्तावेज़-प्रारूप आवश्यकताओं का पालन करें। मूल पीडीएफ़ तब तक अपने पास रखें जब तक आपको पता न चल जाए कि संयुक्त फ़ाइल स्वीकार कर ली गई है और अब इसकी आवश्यकता नहीं है।"
@@ -67111,11 +67111,11 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "बहुत बड़ी पीडीएफ या कई उच्च-रिज़ॉल्यूशन स्कैन किए गए पृष्ठ उपलब्ध ब्राउज़र मेमोरी, डिवाइस स्टोरेज और प्रोसेसिंग प्रदर्शन द्वारा सीमित हो सकते हैं।",
         "आउटपुट में विभिन्न पेज आयाम और ओरिएंटेशन मिश्रित रह सकते हैं। दस्तावेज़ को प्रिंट करने या सबमिट करने से पहले उसकी समीक्षा करें।",
         "मर्ज स्रोत पीडीएफ में पहले से मौजूद गलतियों को ठीक नहीं कर सकता है, जैसे धुंधले स्कैन, गायब पेज, गलत जानकारी या अपठनीय पाठ।",
-        "एक संयुक्त फ़ाइल यह गारंटी नहीं देती कि प्राप्त करने वाली वेबसाइट इसे स्वीकार करेगी। अपलोड सीमाएं, फ़ाइल नीतियां, नामकरण नियम और आवश्यक दस्तावेज़ क्रम प्राप्तकर्ता संगठन द्वारा नियंत्रित किए जाते हैं।"
+        "एक संयुक्त फ़ाइल यह गारंटी नहीं देती कि प्राप्तकर्ता वेबसाइट इसे स्वीकार करेगी। अपलोड सीमाएं, फ़ाइल नीतियां, नामकरण नियम और आवश्यक दस्तावेज़ क्रम प्राप्तकर्ता संगठन द्वारा नियंत्रित किए जाते हैं।"
       ],
       "faq": [
         {
-          "q": "मैं एकाधिक पीडीएफ फाइलों को ऑनलाइन एक दस्तावेज़ में कैसे मर्ज करूं?",
+          "q": "मैं एकाधिक पीडीएफ फाइलों को ऑनलाइन एक दस्तावेज़ में कैसे मर्ज कर सकता हूं?",
           "a": "PDF मर्ज करें टूल खोलें, उन पीडीएफ का चयन करें जिन्हें आप संयोजित करना चाहते हैं, उन्हें इच्छित पढ़ने के क्रम में व्यवस्थित करें, और मर्ज चलाएं। संयुक्त फ़ाइल डाउनलोड करें और साझा करने से पहले पृष्ठ क्रम, पृष्ठ संख्या, अभिविन्यास और पठनीयता की जांच करने के लिए इसे खोलें।"
         },
         {
@@ -67200,7 +67200,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ स्प्लिट पीडीएफ कार्य।",
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त विभाजन पीडीएफ कार्य।",
         "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
         "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
         "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
@@ -67232,7 +67232,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF विभाजित करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF विभाजित करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67292,7 +67292,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF से JPG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF से JPG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67352,7 +67352,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं JPG से PDF कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या JPG से PDF कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67370,8 +67370,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "workflow"
     },
     "protect-pdf-password": {
-      "heroIntro": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेज़ों में पासवर्ड सुरक्षा जोड़ें।",
-      "intro": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेज़ों में पासवर्ड सुरक्षा जोड़ें। उदाहरण के लिए, किसी दस्तावेज़ को प्राप्तकर्ता के साथ साझा करने से पहले उसे सुरक्षित रखने के लिए इसका उपयोग करें। यह आपको पीडीएफ की एक प्रति में एक्सेस पासवर्ड जोड़ने में भी मदद कर सकता है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "heroIntro": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेजों में पासवर्ड सुरक्षा जोड़ें।",
+      "intro": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेजों में पासवर्ड सुरक्षा जोड़ें। उदाहरण के लिए, किसी दस्तावेज़ को प्राप्तकर्ता के साथ साझा करने से पहले उसे सुरक्षित रखने के लिए इसका उपयोग करें। यह आपको पीडीएफ की एक प्रति में एक्सेस पासवर्ड जोड़ने में भी मदद कर सकता है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह पीडीएफ वर्कफ़्लो एक केंद्रित दस्तावेज़ कार्य के आसपास डिज़ाइन किया गया है: स्रोत तैयार करें, ऑपरेशन लागू करें, आउटपुट की समीक्षा करें, और परिणाम तभी रखें जब यह आपकी आवश्यकता को पूरा करता हो।",
       "steps": [
         "PDF को सुरक्षित करें खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
@@ -67380,7 +67380,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ़ पीडीएफ कार्यों की सुरक्षा करें।",
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित वन-ऑफ पीडीएफ कार्यों की सुरक्षा करें।",
         "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
         "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
         "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
@@ -67404,7 +67404,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "PDF को सुरक्षित करें का उपयोग किसके लिए किया जाता है?",
-          "a": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेज़ों में पासवर्ड सुरक्षा जोड़ें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
+          "a": "पीडीएफ एन्क्रिप्शन सुविधाओं का उपयोग करके समर्थित पीडीएफ दस्तावेजों में पासवर्ड सुरक्षा जोड़ें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
           "q": "PDF को सुरक्षित करें कैसे काम करता है?",
@@ -67412,7 +67412,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF को सुरक्षित करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF को सुरक्षित करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67472,7 +67472,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF अनलॉक करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF अनलॉक करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67532,7 +67532,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF घुमाएँ का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF घुमाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67592,7 +67592,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF कंप्रेस करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF कंप्रेस करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67652,7 +67652,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF में पेज नंबर जोड़ें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF में पेज नंबर जोड़ें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67712,7 +67712,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF से Word कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF से Word कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67772,7 +67772,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं Word से PDF कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या Word से PDF कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67832,7 +67832,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF से पेज हटाएँ का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF से पेज हटाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67892,7 +67892,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF पेजों का क्रम बदलें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF पेजों का क्रम बदलें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -67952,7 +67952,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PDF ग्रेस्केल कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PDF ग्रेस्केल कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68012,7 +68012,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं इमेज ऑनलाइन कंप्रेस करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या इमेज ऑनलाइन कंप्रेस करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68072,7 +68072,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं इमेज ऑनलाइन क्रॉप करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या इमेज ऑनलाइन क्रॉप करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68132,7 +68132,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं इमेज ऑनलाइन रिसाइज़ करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या इमेज ऑनलाइन रिसाइज़ करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68151,7 +68151,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "webp-to-png-converter": {
       "heroIntro": "ब्राउज़र मेमोरी में वेबपी छवियों को पीएनजी प्रारूप में कनवर्ट करें, मौजूद होने पर पारदर्शिता बनाए रखें।",
-      "intro": "ब्राउज़र मेमोरी में वेबपी छवियों को पीएनजी प्रारूप में कनवर्ट करें, मौजूद होने पर पारदर्शिता बनाए रखें। उदाहरण के लिए, पीएनजी की अपेक्षा करने वाले सॉफ़्टवेयर के लिए WebP संपत्तियों को परिवर्तित करने के लिए इसका उपयोग करें। यह ग्राफ़िक्स वर्कफ़्लो के लिए पारदर्शिता बनाए रखने में भी आपकी सहायता कर सकता है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "intro": "ब्राउज़र मेमोरी में वेबपी छवियों को पीएनजी प्रारूप में कनवर्ट करें, मौजूद होने पर पारदर्शिता बनाए रखें। उदाहरण के लिए, पीएनजी की अपेक्षा करने वाले सॉफ़्टवेयर के लिए WebP संपत्तियों को परिवर्तित करने के लिए इसका उपयोग करें। यह आपको ग्राफ़िक्स वर्कफ़्लो के लिए पारदर्शिता बनाए रखने में भी मदद कर सकता है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह छवि वर्कफ़्लो एक परिवर्तन पर केंद्रित है ताकि पूर्ण ग्राफ़िक्स संपादक के बिना एक त्वरित कार्य पूरा किया जा सके। यह वेब, दस्तावेज़, सामाजिक, विकास और रोजमर्रा की छवि कार्य के लिए उपयोगी है।",
       "steps": [
         "WebP से PNG कन्वर्टर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
@@ -68192,7 +68192,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं WebP से PNG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या WebP से PNG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68252,7 +68252,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं WebP से JPG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या WebP से JPG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68312,7 +68312,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं PNG से JPG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या PNG से JPG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68372,7 +68372,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं JPG से PNG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या JPG से PNG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68432,7 +68432,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं SVG से PNG कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या SVG से PNG कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68492,7 +68492,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ब्लैक एंड व्हाइट इमेज कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ब्लैक एंड व्हाइट इमेज कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68504,7 +68504,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या काला और सफेद ग्रेस्केल के समान है?",
-          "a": "हमेशा नहीं. एक काले और सफेद प्रभाव के लिए एक सीमा का उपयोग किया जा सकता है, जबकि ग्रेस्केल काले और सफेद के बीच ग्रे टोन की एक श्रृंखला का प्रतिनिधित्व करता है।"
+          "a": "हमेशा नहीं. एक काले और सफेद प्रभाव में एक सीमा का उपयोग किया जा सकता है, जबकि ग्रेस्केल काले और सफेद के बीच ग्रे टोन की एक श्रृंखला का प्रतिनिधित्व करता है।"
         }
       ],
       "visual": "formats"
@@ -68520,7 +68520,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एक-ऑफ़ इनवर्ट छवि रंग कार्य।",
+        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकबारगी उलटा छवि रंग कार्य।",
         "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
         "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
         "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
@@ -68552,7 +68552,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं इमेज के रंग उलटें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या इमेज के रंग उलटें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68612,7 +68612,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं इमेज फ्लिप और रोटेट करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या इमेज फ्लिप और रोटेट करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68672,7 +68672,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं QR कोड जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या QR कोड जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68732,7 +68732,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं इमेज ऑनलाइन ब्लर करें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या इमेज ऑनलाइन ब्लर करें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68792,7 +68792,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं इमेज कलर पैलेट जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या इमेज कलर पैलेट जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68810,9 +68810,9 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "visual": "formats"
     },
     "online-python-compiler": {
-      "heroIntro": "रीयल-टाइम टर्मिनल आउटपुट के साथ ब्राउज़र सैंडबॉक्स में पायथन 3 स्क्रिप्ट चलाएं।",
-      "intro": "रीयल-टाइम टर्मिनल आउटपुट के साथ ब्राउज़र सैंडबॉक्स में पायथन 3 स्क्रिप्ट चलाएं। उदाहरण के लिए, लघु पायथन एल्गोरिदम का परीक्षण करने के लिए इसका उपयोग करें। यह आपको लूप, फ़ंक्शंस और डेटा संरचनाओं का अभ्यास करने में भी मदद कर सकता है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
-      "why": "यह कोडिंग कार्यक्षेत्र सीखने, डिबगिंग, सिंटैक्स जांच और छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरणों के लिए उपयोगी है। निष्पादन मॉडल भाषा के अनुसार भिन्न होता है, इसलिए इसे उत्पादन वातावरण के बजाय विकास सैंडबॉक्स के रूप में माना जाना चाहिए।",
+      "heroIntro": "Run Python 3 scripts in browser sandbox with real-time terminal output.",
+      "intro": "Run Python 3 scripts in browser sandbox with real-time terminal output. For example, use it to test a short Python algorithm. It can also help you practice loops, functions, and data structures. यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "why": "This coding workspace is useful for learning, debugging, syntax checks, and small reproducible examples. The execution model varies by language, so it should be treated as a development sandbox rather than a production environment.",
       "steps": [
         "ऑनलाइन Python कंपाइलर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
         "इनपुट दर्ज करें या चुनें और ऑपरेशन चलाने से पहले हर उपलब्ध विकल्प की समीक्षा करें।",
@@ -68820,7 +68820,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "परिणाम को अपनी मूल आवश्यकता के अनुसार जांचने के बाद ही डाउनलोड करें, कॉपी करें या पुन: उपयोग करें।"
       ],
       "useCases": [
-        "एक अलग उपयोगिता स्थापित किए बिना त्वरित एकमुश्त ऑनलाइन पायथन कंपाइलर कार्य।",
+        "Quick one-off ऑनलाइन Python कंपाइलर tasks without installing a separate utility.",
         "दस्तावेज़ों, मीडिया, पाठ, कोड, डेटा, या निर्माता वर्कफ़्लो के लिए दोहराए जाने योग्य तैयारी कार्य।",
         "किसी बड़े प्रोजेक्ट के दौरान मध्यवर्ती परिणाम की जाँच करना।",
         "किसी अन्य एप्लिकेशन या वर्कफ़्लो के लिए आउटपुट तैयार करना।",
@@ -68830,21 +68830,21 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       ],
       "tips": [
         "एक छोटे प्रतिलिपि प्रस्तुत करने योग्य उदाहरण से प्रारंभ करें।",
-        "पहले कंपाइलर या रनटाइम त्रुटि को ध्यान से पढ़ें।",
-        "एपीआई कुंजी, पासवर्ड, निजी टोकन या उत्पादन क्रेडेंशियल कभी भी पेस्ट न करें।",
-        "बचें: सभी तृतीय-पक्ष पैकेज उपलब्ध होने की अपेक्षा करना।",
+        "Read the first compiler or runtime error carefully.",
+        "Never paste API keys, passwords, private tokens, or production credentials.",
+        "Avoid: Expecting all third-party packages to be available.",
         "बचें: कोड में क्रेडेंशियल चिपकाने से।",
-        "बचें: यह मानते हुए कि सैंडबॉक्स व्यवहार उत्पादन से मेल खाता है।"
+        "Avoid: Assuming sandbox behavior matches production."
       ],
       "limitations": [
-        "एक सैंडबॉक्स प्रत्येक उत्पादन निर्भरता या ऑपरेटिंग-सिस्टम सुविधा को पुन: उत्पन्न नहीं करता है।",
-        "निष्पादन समय, मेमोरी, पैकेज और भाषा संस्करण परिणामों को प्रभावित कर सकते हैं।",
-        "अपने इच्छित परिनियोजन परिवेश में कार्यशील कोड का दोबारा परीक्षण करें।"
+        "A sandbox does not reproduce every production dependency or operating-system feature.",
+        "Execution time, memory, packages, and language versions can affect results.",
+        "Test working code again in its intended deployment environment."
       ],
       "faq": [
         {
           "q": "ऑनलाइन Python कंपाइलर का उपयोग किसके लिए किया जाता है?",
-          "a": "रीयल-टाइम टर्मिनल आउटपुट के साथ ब्राउज़र सैंडबॉक्स में पायथन 3 स्क्रिप्ट चलाएं। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
+          "a": "Run Python 3 scripts in browser sandbox with real-time terminal output. इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
           "q": "ऑनलाइन Python कंपाइलर कैसे काम करता है?",
@@ -68852,7 +68852,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन Python कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन Python कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68863,7 +68863,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "क्या मैं सीखने के लिए ऑनलाइन पायथन कंपाइलर का उपयोग कर सकता हूँ?",
+          "q": "Can I use an ऑनलाइन Python कंपाइलर for learning?",
           "a": "हाँ. छोटे अभ्यास, वाक्यविन्यास अभ्यास, एल्गोरिदम और प्रतिलिपि प्रस्तुत करने योग्य उदाहरण ब्राउज़र कंपाइलर के लिए उपयुक्त हैं।"
         }
       ],
@@ -68912,7 +68912,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन JavaScript कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन JavaScript कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -68972,7 +68972,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन HTML एडिटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन HTML एडिटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69032,7 +69032,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन C++ कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन C++ कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69092,7 +69092,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन Java कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन Java कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69152,7 +69152,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन C# कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन C# कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69212,7 +69212,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन PHP कंपाइलर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन PHP कंपाइलर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69272,7 +69272,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऑनलाइन SQL एडिटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऑनलाइन SQL एडिटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69332,7 +69332,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं JSON फ़ॉर्मेटर और वैलिडेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या JSON फ़ॉर्मेटर और वैलिडेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69351,7 +69351,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "base64-encoder-decoder": {
       "heroIntro": "यूटीएफ-8 सादे पाठ या बाइनरी संपत्तियों को बेस64 से एनकोड और डीकोड करें।",
-      "intro": "यूटीएफ-8 सादे पाठ या बाइनरी संपत्तियों को बेस64 से एनकोड और डीकोड करें। उदाहरण के लिए, किसी प्रोटोकॉल के लिए टेक्स्ट को एन्कोड करने के लिए इसका उपयोग करें जिसके लिए बेस 64 की आवश्यकता होती है। यह डिबगिंग के दौरान बेस64 पेलोड को डीकोड करने में भी आपकी मदद कर सकता है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
+      "intro": "यूटीएफ-8 सादे पाठ या बाइनरी संपत्तियों को बेस64 से एनकोड और डीकोड करें। उदाहरण के लिए, किसी प्रोटोकॉल के लिए टेक्स्ट को एनकोड करने के लिए इसका उपयोग करें जिसके लिए बेस64 की आवश्यकता होती है। यह डिबगिंग के दौरान बेस64 पेलोड को डीकोड करने में भी आपकी मदद कर सकता है। यह मार्गदर्शिका बताती है कि उपकरण क्या करता है, यह कब उपयोगी है, इसे प्रभावी ढंग से कैसे उपयोग किया जाए, और वास्तविक दुनिया के वर्कफ़्लो में जो व्यावहारिक सीमाएँ मायने रखती हैं।",
       "why": "यह डेवलपर उपयोगिता एक दोहराए जाने योग्य वर्कफ़्लो को लक्षित करती है जो आमतौर पर एपीआई कार्य, डिबगिंग, फ्रंटएंड या बैकएंड डेवलपमेंट, परीक्षण और डेटा तैयारी के दौरान दिखाई देती है।",
       "steps": [
         "Base64 एनकोडर और डिकोडर खोलें और आवश्यक इनपुट प्रारूप या मानों की पहचान करें।",
@@ -69392,7 +69392,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं Base64 एनकोडर और डिकोडर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या Base64 एनकोडर और डिकोडर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69452,7 +69452,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं URL Slug जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या URL Slug जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69512,7 +69512,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं HTML Entity Encoder का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या HTML Entity Encoder को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69572,7 +69572,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं CSS Minifier का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या CSS Minifier को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69632,7 +69632,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं Unix Timestamp कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या Unix Timestamp कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69692,7 +69692,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं HEX से RGB कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या HEX से RGB कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69752,7 +69752,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं URL एनकोडर और डिकोडर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या URL एनकोडर और डिकोडर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69792,7 +69792,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
         "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
         "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
-        "बचें: डिकोड किए गए दावों को सत्यापित दावों के रूप में मानने से।",
+        "बचें: डिकोड किए गए दावों को सत्यापित दावों के रूप में मानें।",
         "बचें: सार्वजनिक उपकरणों में उत्पादन टोकन चिपकाने से बचें।",
         "बचें: मान लें कि डिकोडिंग से हस्ताक्षर करने का रहस्य उजागर हो जाता है।"
       ],
@@ -69812,7 +69812,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं JWT Decoder का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या JWT Decoder को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69872,7 +69872,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं UUID जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या UUID जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69912,7 +69912,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "रूपांतरित डेटा को प्रतिबद्ध करने से पहले सत्यापित करें।",
         "परीक्षण के दौरान किनारे के मामले और विकृत इनपुट शामिल करें।",
         "कभी भी उत्पादन रहस्य या निजी ग्राहक डेटा पेस्ट न करें।",
-        "बचें: सभी खातों में जेनरेट किए गए पासवर्ड का पुन: उपयोग करना।",
+        "बचें: सभी खातों में जनरेट किए गए पासवर्ड का पुन: उपयोग करना।",
         "बचें: पासवर्ड को सादे पाठ में सहेजना।",
         "बचें: जब मजबूत यादृच्छिकता लक्ष्य हो तो पूर्वानुमानित कस्टम पैटर्न शामिल करना।"
       ],
@@ -69932,7 +69932,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं पासवर्ड जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या पासवर्ड जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -69992,7 +69992,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं User Agent पार्सर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या User Agent पार्सर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70004,7 +70004,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या उपयोगकर्ता-एजेंट स्ट्रिंग किसी उपयोगकर्ता की पहचान कर सकती है?",
-          "a": "नहीं, यह ग्राहक द्वारा घोषित जानकारी की रिपोर्ट करता है और इसे बदला या धोखा दिया जा सकता है। इसे एक विश्वसनीय पहचान या सुरक्षा प्रमाण-पत्र के रूप में नहीं माना जाना चाहिए।"
+          "a": "नहीं, यह ग्राहक द्वारा घोषित जानकारी की रिपोर्ट करता है और इसे बदला या धोखा दिया जा सकता है। इसे एक विश्वसनीय पहचान या सुरक्षा क्रेडेंशियल के रूप में नहीं माना जाना चाहिए।"
         }
       ],
       "visual": "code"
@@ -70052,7 +70052,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं वर्ड काउंटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या वर्ड काउंटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70063,7 +70063,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "मूल इनपुट के विरुद्ध आउटपुट की जाँच करें, पुष्टि करें कि इच्छित परिवर्तन हुआ है, और उत्पादन वर्कफ़्लो में परिणाम को प्रकाशित करने, सबमिट करने, भेजने या उपयोग करने से पहले महत्वपूर्ण विवरणों को सत्यापित करें।"
         },
         {
-          "q": "विभिन्न उपकरणों में शब्द गणना भिन्न क्यों हो सकती है?",
+          "q": "विभिन्न टूलों में शब्द गणना भिन्न-भिन्न क्यों हो सकती है?",
           "a": "विभिन्न उपकरण विराम चिह्न, रिक्त स्थान, यूनिकोड पाठ, संकुचन और पंक्ति विराम के लिए विभिन्न नियमों का उपयोग कर सकते हैं। गंतव्य प्लेटफ़ॉर्म के लिए आवश्यक गणना पद्धति का उपयोग करें।"
         }
       ],
@@ -70112,7 +70112,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं टेक्स्ट केस कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या टेक्स्ट केस कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70164,7 +70164,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "डुप्लिकेट लाइन हटाएँ का उपयोग किसके लिए किया जाता है?",
-          "a": "दोहराई जाने वाली पाठ पंक्तियों को तुरंत हटाकर सूचियाँ और डेटा सारणी साफ करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
+          "a": "दोहराई जाने वाली पाठ पंक्तियों को तुरंत हटाकर सूचियाँ और डेटा सारणी साफ़ करें। इसे एक केंद्रित वर्कफ़्लो के लिए डिज़ाइन किया गया है ताकि आप एक अलग डेस्कटॉप उपयोगिता स्थापित किए बिना कार्य पूरा कर सकें। सटीक आउटपुट आपके द्वारा प्रदान किए गए मानों, फ़ाइलों या कोड पर निर्भर करता है।"
         },
         {
           "q": "डुप्लिकेट लाइन हटाएँ कैसे काम करता है?",
@@ -70172,7 +70172,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं डुप्लिकेट लाइन हटाएँ का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या डुप्लिकेट लाइन हटाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70232,7 +70232,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं Lorem Ipsum जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या Lorem Ipsum जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70292,7 +70292,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं Markdown से HTML कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या Markdown से HTML कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70352,7 +70352,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं रिवर्स टेक्स्ट जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या रिवर्स टेक्स्ट जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70412,7 +70412,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं टेक्स्ट डिफ चेकर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या टेक्स्ट डिफ चेकर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70424,7 +70424,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "टेक्स्ट डिफ चेकर क्या दिखाता है?",
-          "a": "यह दो टेक्स्ट इनपुट की तुलना करता है और तुलना पद्धति के अनुसार अंतर को जोड़ने, हटाने या बदले गए अनुभागों जैसे अंतरों को उजागर करता है।"
+          "a": "यह दो टेक्स्ट इनपुट की तुलना करता है और इसकी तुलना पद्धति के अनुसार अंतर को जोड़ने, हटाने या बदले गए अनुभागों जैसे अंतरों पर प्रकाश डालता है।"
         }
       ],
       "visual": "text"
@@ -70472,7 +70472,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं अल्फाबेटिकल ऑर्डर टूल का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या अल्फाबेटिकल ऑर्डर टूल को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70532,7 +70532,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं HTML टैग हटाएँ का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या HTML टैग हटाएँ को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70573,7 +70573,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "रिक्त स्थान, विराम चिह्न, यूनिकोड वर्ण और पंक्ति अंत की जाँच करें।",
         "केवल स्वचालन पर निर्भर रहने के बजाय प्रकाशन आउटपुट को प्रूफ़रीड करें।",
         "बचें: अनजाने में अंदर के शब्दों को बदलना।",
-        "बचें: बिना जाँचे केस-संवेदी नियमों का उपयोग करना।",
+        "बचें: बिना जांच किए केस-संवेदी नियमों का उपयोग करना।",
         "बचें: स्रोत प्रतिलिपि के बिना विनाशकारी प्रतिस्थापन चलाना।"
       ],
       "limitations": [
@@ -70592,7 +70592,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं टेक्स्ट खोजें और बदलें का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या टेक्स्ट खोजें और बदलें को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70652,7 +70652,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं लंबाई कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या लंबाई कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70693,7 +70693,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "स्रोत परिशुद्धता के लिए उपयुक्त महत्वपूर्ण आंकड़ों का उपयोग करें।",
         "विनियमित या इंजीनियरिंग कार्य के लिए, आवश्यक मानक सत्यापित करें।",
         "बचें: भ्रमित करने वाला द्रव्यमान और बल।",
-        "बचें: अंतिम पैमाने को लागू करने से पहले बड़े पैमाने पर रूपांतरण को गोल करना।",
+        "बचें: अंतिम पैमाने को लागू करने से पहले बड़े पैमाने पर रूपांतरण को पूरा करना।",
         "बचें: जहां विनियमित परिशुद्धता की आवश्यकता होती है वहां अनुमानित रूपांतरण का उपयोग करना।"
       ],
       "limitations": [
@@ -70712,7 +70712,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं वज़न कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या वज़न कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70772,7 +70772,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं तापमान कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या तापमान कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70832,7 +70832,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं डेटा साइज़ कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या डेटा साइज़ कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70892,7 +70892,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं स्पीड कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या स्पीड कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -70952,7 +70952,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं समय कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या समय कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -71012,7 +71012,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं क्षेत्रफल कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या क्षेत्रफल कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -71072,7 +71072,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं प्रेशर कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या प्रेशर कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -71132,7 +71132,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं ऊर्जा कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या ऊर्जा कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -71192,7 +71192,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं पावर कन्वर्टर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या पावर कन्वर्टर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -71222,7 +71222,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न सिप कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: 10, 15, या 20 वर्षों में मासिक योगदान की तुलना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "10, 15, या 20 वर्षों में मासिक योगदान की तुलना करें।",
         "कई अनुमानित वार्षिक रिटर्न दरों का परीक्षण करें।",
         "अनुमानित वृद्धि से कुल योगदान को अलग करें।"
@@ -71282,7 +71282,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न ईएमआई कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: दो ऋण अवधियों की तुलना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "दो ऋण अवधियों की तुलना करें।",
         "घर, वाहन या व्यक्तिगत ऋण के लिए कुल ब्याज का अनुमान लगाएं।",
         "जांचें कि दर परिवर्तन मासिक ईएमआई को कैसे प्रभावित करता है।"
@@ -71342,7 +71342,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न एकमुश्त कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: विभिन्न क्षितिजों में एकमुश्त निवेश की तुलना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "विभिन्न क्षितिजों में एकमुश्त निवेश की तुलना करें।",
         "कई अनुमानित रिटर्न दरों का परीक्षण करें।",
         "प्रारंभिक मूलधन को अनुमानित वृद्धि से अलग करें।"
@@ -71402,7 +71402,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न जीएसटी कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: कर योग्य चालान मूल्य में जीएसटी जोड़ें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "कर योग्य चालान मूल्य में जीएसटी जोड़ें।",
         "समावेशी मूल्य से जीएसटी निकालें।",
         "विभिन्न जीएसटी दरों के तहत कुल चालान की तुलना करें।"
@@ -71462,7 +71462,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न वेतन कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: सकल वेतन से मासिक टेक-होम का अनुमान लगाएं।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "सकल वेतन से मासिक टेक-होम का अनुमान लगाएं।",
         "दो मुआवजा संरचनाओं की तुलना करें।",
         "नियोजन के लिए अलग-अलग निश्चित वेतन, परिवर्तनीय वेतन और कटौतियाँ।"
@@ -71522,7 +71522,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न एफडी कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: विभिन्न अवधियों के लिए एफडी परिपक्वता की तुलना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "विभिन्न अवधियों के लिए एफडी परिपक्वता की तुलना करें।",
         "मूलधन और दर से ब्याज का अनुमान लगाएं।",
         "मिश्रित धारणाओं की तुलना करें."
@@ -71558,7 +71558,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
           "a": "योजना और परिदृश्य विश्लेषण के लिए इसका उपयोग करें। आधिकारिक बयान, ऋणदाता उद्धरण, पेरोल रिकॉर्ड, उत्पाद शर्तें, कर और शुल्क में ऐसे नियम शामिल हो सकते हैं जिन्हें एक सामान्य कैलकुलेटर नहीं जान सकता।"
         },
         {
-          "q": "क्या FD पर ब्याज की गणना हर बैंक द्वारा एक ही तरह से की जाती है?",
+          "q": "क्या FD पर ब्याज की गणना हर बैंक द्वारा एक ही तरह की जाती है?",
           "a": "जरूरी नहीं. बैंक विशिष्ट कंपाउंडिंग, भुगतान, कर और समयपूर्व समापन नियम लागू कर सकते हैं। अंतिम राशि के लिए संस्था की शर्तों का उपयोग करें।"
         },
         {
@@ -71572,7 +71572,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     "rd-calculator": {
       "heroIntro": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं।",
       "intro": "आवर्ती मासिक बैंक जमा पर चक्रवृद्धि ब्याज लाभ का अनुमान लगाएं। उदाहरण के लिए, मासिक जमा से परिपक्वता का अनुमान लगाने के लिए इसका उपयोग करें। यह आपको विभिन्न अवधियों में आवर्ती जमा की तुलना करने में भी मदद कर सकता है। यह पृष्ठ इंटरैक्टिव कैलकुलेटर को व्यावहारिक स्पष्टीकरण, उदाहरण, धारणाओं और सामान्य गलतियों के साथ जोड़ता है ताकि परिणाम की सही व्याख्या की जा सके।",
-      "why": "आरडी कैलकुलेटर यह अनुमान लगाता है कि चुनी गई अवधि में नियमित जमा राशि कैसे जमा हो सकती है।",
+      "why": "आरडी कैलकुलेटर यह अनुमान लगाता है कि किसी चुनी हुई अवधि में नियमित जमा कैसे जमा हो सकता है।",
       "steps": [
         "प्रदर्शित इकाइयों का उपयोग करके RD कैलकुलेटर द्वारा अनुरोधित मान दर्ज करें।",
         "इस गणना के लिए प्रासंगिक दर, अवधि, आवृत्ति, कर या योगदान अनुसूची के लिए यथार्थवादी धारणाएँ चुनें।",
@@ -71582,14 +71582,14 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न आरडी कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: मासिक जमा से परिपक्वता का अनुमान लगाएं।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "मासिक जमा से परिपक्वता का अनुमान लगाएं।",
         "विभिन्न अवधियों में आवर्ती जमा की तुलना करें।",
         "देखें कि दर धारणाएँ अनुमानित परिपक्वता को कैसे प्रभावित करती हैं।"
       ],
       "tips": [
         "बैंक की सटीक गणना पद्धति की पुष्टि करें।",
-        "छूटी हुई किश्त और समय से पहले बंद होने के नियमों की जाँच करें।",
+        "छूटी हुई किस्त और समय से पहले बंद होने के नियमों की जाँच करें।",
         "बैंक की शर्तों के अनुसार अनुमान सत्यापित करें.",
         "बचें: यह मानते हुए कि सभी बैंक समान आरडी फॉर्मूले का उपयोग करते हैं।",
         "बचें: छूटी हुई किश्त के जुर्माने को नज़रअंदाज़ करना।",
@@ -71642,7 +71642,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न सेवानिवृत्ति कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: भविष्य के सेवानिवृत्ति कोष लक्ष्य का अनुमान लगाएं।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "भविष्य के सेवानिवृत्ति कोष लक्ष्य का अनुमान लगाएं।",
         "विभिन्न सेवानिवृत्ति आयु का परीक्षण करें।",
         "मुद्रास्फीति और रिटर्न अनुमानों की तुलना करें।"
@@ -71679,7 +71679,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "सेवानिवृत्ति योजना में मुद्रास्फीति क्यों मायने रखती है?",
-          "a": "मुद्रास्फीति समय के साथ क्रय शक्ति को कम कर देती है, इसलिए भविष्य की खर्च की ज़रूरतें आज के खर्च की तुलना में भौतिक रूप से अधिक हो सकती हैं, भले ही जीवनशैली समान बनी रहे।"
+          "a": "मुद्रास्फीति समय के साथ क्रय शक्ति को कम कर देती है, इसलिए भविष्य की खर्च की ज़रूरतें आज के खर्च की तुलना में भौतिक रूप से अधिक हो सकती हैं, भले ही जीवनशैली समान रहे।"
         },
         {
           "q": "क्या रिटायरमेंट कैलकुलेटर का उपयोग निःशुल्क है?",
@@ -71702,7 +71702,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न चक्रवृद्धि ब्याज कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: वार्षिक, मासिक और दैनिक चक्रवृद्धि की तुलना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "वार्षिक, मासिक और दैनिक चक्रवृद्धि की तुलना करें।",
         "कई वर्षों में बचत वृद्धि का अनुमान लगाएं।",
         "मूलधन को ब्याज वृद्धि से अलग करें।"
@@ -71739,7 +71739,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "कंपाउंडिंग आवृत्ति क्यों मायने रखती है?",
-          "a": "समान नाममात्र दर और अवधि के साथ, अधिक लगातार चक्रवृद्धि गणना की गई वृद्धि को बदल सकती है क्योंकि ब्याज को शेष राशि में अधिक बार जोड़ा जाता है।"
+          "a": "समान नाममात्र दर और अवधि के साथ, अधिक बार चक्रवृद्धि गणना की गई वृद्धि को बदल सकती है क्योंकि ब्याज को शेष राशि में अधिक बार जोड़ा जाता है।"
         },
         {
           "q": "क्या चक्रवृद्धि ब्याज कैलकुलेटर का उपयोग निःशुल्क है?",
@@ -71762,7 +71762,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न साधारण ब्याज कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: एक निश्चित मूलधन पर ब्याज की गणना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "निश्चित मूलधन पर ब्याज की गणना करें.",
         "एक सरल-रुचि अभ्यास की जाँच करें।",
         "सरल और चक्रवृद्धि ब्याज मॉडल की तुलना करें।"
@@ -71822,7 +71822,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न प्रतिशत कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: किसी मान के प्रतिशत की गणना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "किसी मान के प्रतिशत की गणना करें.",
         "प्रतिशत वृद्धि या कमी ज्ञात कीजिए।",
         "एक भाग की संपूर्ण से तुलना करें।"
@@ -71882,7 +71882,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न आयु कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: चयनित तिथि पर सटीक आयु का पता लगाएं।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "चयनित तिथि पर सटीक आयु ज्ञात करें।",
         "आयु की गणना वर्षों, महीनों और दिनों में करें।",
         "आयु-संबंधित दिनांक अंतराल की जाँच करें."
@@ -71942,7 +71942,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न बीएमआई कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: ऊंचाई और वजन से बीएमआई की गणना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "ऊंचाई और वजन से बीएमआई की गणना करें।",
         "आमतौर पर उपयोग की जाने वाली बीएमआई श्रेणी श्रेणियों को समझें।",
         "एक स्क्रीनिंग मीट्रिक के रूप में समय के साथ बीएमआई मान को ट्रैक करें।"
@@ -72002,7 +72002,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न वैज्ञानिक कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: त्रिकोणमितीय अभिव्यक्तियों का मूल्यांकन करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "त्रिकोणमितीय व्यंजकों का मूल्यांकन करें.",
         "लघुगणक और घातों की गणना करें.",
         "स्पष्ट कोष्ठकों के साथ बीजगणितीय अंकगणित की जाँच करें।"
@@ -72062,7 +72062,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न छूट कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: बिक्री बचत की गणना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "बिक्री बचत की गणना करें.",
         "विभिन्न छूट प्रतिशत की तुलना करें.",
         "अतिरिक्त करों या शुल्कों से पहले अंतिम कीमत ज्ञात करें।"
@@ -72122,7 +72122,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "useCases": [
         "विभिन्न टिप कैलकुलेटर परिदृश्यों की तुलना करें।",
         "परीक्षण के लिए एक उपयोगी परिदृश्य है: एक रेस्तरां टिप की गणना करें।",
-        "धारणाओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
+        "मान्यताओं को रिकॉर्ड करें ताकि गणना को बाद में दोहराया और जांचा जा सके।",
         "एक रेस्तरां टिप की गणना करें.",
         "एक बिल को कई लोगों के बीच बांटें।",
         "विभिन्न टिप प्रतिशत की तुलना करें."
@@ -72262,7 +72262,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "steps": [
         "अध्ययन के दिन और स्लॉट चुनें।",
         "स्कूल प्रारंभ होने का समय और अवधि निर्धारित करें।",
-        "विषय और अध्ययन गतिविधियाँ जोड़ें।",
+        "विषय और अध्ययन गतिविधियाँ जोड़ें.",
         "सेल संपादित करें और मुद्रण से पहले एक व्यक्तिगत नोट जोड़ें।"
       ],
       "useCases": [
@@ -72696,8 +72696,8 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "kids-daily-routine-planner": {
       "heroIntro": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं।",
-      "intro": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
-      "why": "जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।",
+      "intro": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के वास्तविक समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
+      "why": "जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के वास्तविक समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।",
       "steps": [
         "दैनिक समय ब्लॉक चुनें.",
         "प्रारंभ समय और अवधि निर्धारित करें.",
@@ -72721,7 +72721,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "faq": [
         {
           "q": "बच्चों का डेली रूटीन प्लानर का उपयोग किसके लिए किया जाता है?",
-          "a": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के लिए वास्तविक घड़ी समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।"
+          "a": "जागने, स्कूल, होमवर्क, खेलने, पढ़ने, भोजन और सोने के समय के लिए बच्चों के अनुकूल दैनिक दिनचर्या योजना बनाएं। जागने, स्कूल, होमवर्क, खेल, भोजन और सोने के समय के वास्तविक समय का उपयोग करके बच्चों के लिए एक सरल दैनिक दिनचर्या बनाएं।"
         },
         {
           "q": "क्या यह सोमवार को ही एकमात्र दिन के रूप में उपयोग करता है?",
@@ -72919,7 +72919,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
       "intro": "कक्षाओं, योजना, बैठकों, तैयारी, मूल्यांकन, प्रयोगशालाओं और निःशुल्क अवधियों के साथ एक शिक्षक समय सारिणी बनाएं। एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो। अपना स्वयं का शेड्यूल शीर्षक, व्यक्तिगत नोट और उद्धरण जोड़ें, फिर डाउनलोड करने या प्रिंट करने से पहले प्रत्येक जेनरेट किए गए सेल को संपादित करें।",
       "why": "एक शिक्षक समय सारिणी बनाएं जो कक्षाओं, तैयारी, बैठकों, मूल्यांकन, प्रयोगशालाओं और खाली अवधि को अलग करती हो।",
       "steps": [
-        "शिक्षण दिवस और स्लॉट चुनें।",
+        "शिक्षण दिवस और स्लॉट चुनें.",
         "स्कूल का समय निर्धारित करें.",
         "कक्षाएँ और शिक्षक कार्य दर्ज करें।",
         "अंतिम समय सारिणी बनाएं और जांचें।"
@@ -73018,7 +73018,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         "साप्ताहिक दिनचर्या"
       ],
       "tips": [
-        "कम से कम एक लचीला ब्लॉक रखें।",
+        "कम से कम एक लचीला ब्लॉक रखें.",
         "गतिविधियों के बीच यथार्थवादी ब्रेक और संक्रमण समय शामिल करें।",
         "मुद्रण या साझा करने से पहले वास्तविक प्रतिबद्धताओं के विरुद्ध प्रत्येक स्लॉट की जाँच करें।"
       ],
@@ -73121,7 +73121,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "क्या मैं आराम के दिन निर्धारित कर सकता हूँ?",
-          "a": "हाँ. बाकी को अपनी स्वयं की शेड्यूल गतिविधि के रूप में दर्ज किया जा सकता है।"
+          "a": "हाँ. बाकी को अपनी शेड्यूल गतिविधि के रूप में दर्ज किया जा सकता है।"
         },
         {
           "q": "क्या मैं वर्कआउट टाइम टेबल मेकर को वैयक्तिकृत कर सकता हूँ?",
@@ -73314,7 +73314,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
     },
     "diwali-mithai-faral-calculator": {
       "heroIntro": "दिवाली मिठाई और फराल मात्रा कैलकुलेटर परिवार की सेवा, मेहमानों, उपहार देने और दिवाली मिठाई की खरीदारी के लिए।",
-      "intro": "खरीदारी या खाना पकाने से पहले दिवाली की मिठाइयों और फराल की मात्रा का अनुमान लगाएं। वयस्कों, बच्चों, मेहमानों, उपहार देने वालों और किस्मों की संख्या को समायोजित करें। यह दिवाली मिठाई मात्रा कैलकुलेटर, दिवाली के लिए कितनी मिठाई, दिवाली मिठाई मात्रा, दिवाली फरल मात्रा कैलकुलेटर, कितना फरल बनाना है, महाराष्ट्रियन दिवाली फरल और दिवाली मिठाई बॉक्स मात्रा जैसी खोजों के लिए उपयोगी है। आउटपुट एक सार्वभौमिक सेवा नियम के बजाय एक नियोजन अनुमान है।",
+      "intro": "खरीदारी या खाना पकाने से पहले दिवाली की मिठाइयों और फराल की मात्रा का अनुमान लगाएं। वयस्कों, बच्चों, मेहमानों, उपहार देने वालों और किस्मों की संख्या को समायोजित करें। यह दिवाली मिठाई मात्रा कैलकुलेटर, दिवाली के लिए कितनी मिठाई, दिवाली मिठाई मात्रा, दिवाली फरल मात्रा कैलकुलेटर, कितना फरल बनाना है, महाराष्ट्रीयन दिवाली फरल और दिवाली मिठाई बॉक्स मात्रा जैसी खोजों के लिए उपयोगी है। आउटपुट एक सार्वभौमिक सेवा नियम के बजाय एक नियोजन अनुमान है।",
       "why": "दिवाली खरीदारी सूची, दिवाली मिठाई योजना, दिवाली फरल तैयारी, महाराष्ट्र फरल योजना और मिश्रित मिठाई उपहार बक्से के लिए उपयोगी।",
       "steps": [
         "घर के सदस्यों और मेहमानों का प्रवेश करें।",
@@ -73631,7 +73631,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं YouTube Thumbnail का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या YouTube Thumbnail को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -73691,7 +73691,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं YouTube Tag जनरेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या YouTube Tag जनरेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
@@ -73751,7 +73751,7 @@ export const GENERATED_LOCALIZED_TOOL_SEO: Partial<Record<LocaleCode, Record<str
         },
         {
           "q": "मैं YouTube Money कैलकुलेटर का उपयोग किस लिए कर सकता हूँ?",
-          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। साफ़ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
+          "a": "सामान्य उपयोगों में ऊपर वर्णित वर्कफ़्लो, त्वरित एकबारगी कार्य, दोहराने योग्य तैयारी कार्य और किसी अन्य एप्लिकेशन में ले जाने से पहले आउटपुट की जांच करना शामिल है। स्वच्छ इनपुट और अंतिम समीक्षा आमतौर पर सबसे विश्वसनीय परिणाम देती है।"
         },
         {
           "q": "क्या YouTube Money कैलकुलेटर को किसी खाते या इंस्टॉलेशन की आवश्यकता है?",
