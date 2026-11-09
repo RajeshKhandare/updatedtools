@@ -36,7 +36,7 @@ export function isLocale(code: string): code is LocaleCode {
 }
 
 export function localizedToolPath(locale: LocaleCode, slug: string): string {
-  return locale === 'en' ? `/tools/${slug}` : `/${locale}/tools/${slug}`;
+  return locale === 'en' ? `/tools/${slug}/` : `/${locale}/tools/${slug}/`;
 }
 
 export function getLocalizedAlternates(slug: string): Record<string, string> {

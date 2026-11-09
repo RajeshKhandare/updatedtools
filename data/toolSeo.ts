@@ -1320,18 +1320,41 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
   const localizedHeroIntro = localIntro.length < minMetaLength
     ? localIntro + ' ' + localizedMetaSuffix[locale]
     : localIntro;
+  const localUses = categoryCopy.useCases;
 
   if (generated) {
-    return withStructuredGuide(tool, {
+    // Older generated files could contain English source text after the former
+    // silent-fallback behavior. Keep a localized safety fallback for those exact
+    // source matches, but otherwise preserve the translated, tool-specific copy.
+    const isEnglishFallback = (value: string | undefined, source: string | undefined) => {
+      if (!value?.trim()) return true;
+      if (!source?.trim()) return false;
+      return value.trim() === source.split(tool.name).join(localName).trim();
+    };
+    const heroIntro = isEnglishFallback(generated.heroIntro, base.heroIntro || tool.description)
+      ? localizedHeroIntro
+      : generated.heroIntro!;
+    const intro = isEnglishFallback(generated.intro, base.intro)
+      ? localIntro + ' ' + (localUses || []).slice(0, 2).join(' ')
+      : generated.intro;
+    // Generated guides can contain the same translated category-level explanation
+    // across many tools. Build this section from the localized tool name and its
+    // mapped task purpose so each page explains its own operation.
+    const why = localIntro + ' ' + (localUses || []).slice(0, 2).join(' ');
+    // The localized page already renders the translated intro, why, steps,
+    // use cases, tips, limitations and FAQs above. Synthetic article sections
+    // made from those same fields duplicated content; reserve long-form sections
+    // for authored guides and translate them explicitly when source sections exist.
+    return {
       ...generated,
-      heroIntro: localizedHeroIntro,
-      intro: [localIntro, generated.intro].filter(Boolean).join(' '),
-      why: localIntro,
-    }, locale);
+      heroIntro,
+      intro,
+      why,
+      articleSections: undefined,
+    };
   }
 
   const localSteps = [...categoryCopy.steps, ...categoryCopy.tips.slice(0, 2)];
-  const localUses = categoryCopy.useCases;
   const localTips = categoryCopy.tips;
   const localLimits = categoryCopy.limitations;
   const localizedSpecificFaq: ToolFaq[] = [
