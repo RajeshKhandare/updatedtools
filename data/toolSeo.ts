@@ -1322,7 +1322,21 @@ export function getLocalizedToolSeoContent(tool: ToolMeta, locale: LocaleCode): 
     hi: '{tool} का परिणाम इनपुट की गुणवत्ता, उपलब्ध विकल्पों और ब्राउज़र या डिवाइस पर निर्भर हो सकता है।',
   };
   const taskKey = TASK_BY_SLUG[tool.slug] || 'generic';
-  const localizedPurpose = LOCALIZED_TASK_PURPOSE[locale][taskKey];
+  const sharedLocalizedPurpose = LOCALIZED_TASK_PURPOSE[locale][taskKey];
+  // Interest calculators need distinct explanations: simple interest uses only
+  // the original principal, while compound interest adds earned interest to the
+  // balance and calculates subsequent interest on that growing balance.
+  const localizedPurpose = tool.slug === 'compound-interest-calculator'
+    ? ({
+        ko: '원금뿐 아니라 이전 기간에 발생한 이자에도 다음 이자가 붙는 복리 계산을 수행합니다. 연간·월간 등 복리 주기를 바꾸어 최종 잔액과 누적 이자 차이를 비교할 수 있습니다.',
+        hi: 'चक्रवृद्धि ब्याज में पहले से जुड़ा ब्याज भी आगे की अवधि में मूलधन के साथ बढ़ता है। सालाना, छमाही, तिमाही या मासिक compounding frequency बदलकर अंतिम राशि और कुल ब्याज की तुलना करें।',
+      } as Partial<Record<LocaleCode, string>>)[locale] || sharedLocalizedPurpose
+    : tool.slug === 'simple-interest-calculator'
+      ? ({
+          ko: '단리 계산은 전체 기간 동안 처음 원금에 대해서만 이자를 계산하며, 발생한 이자를 원금에 더해 다시 이자를 붙이지 않습니다. 이자액은 원금·연이율·기간에 비례하므로 I = P × R × T / 100 공식을 사용합니다.',
+          hi: 'साधारण ब्याज में पूरी अवधि के दौरान ब्याज केवल शुरुआती मूलधन पर लगता है; जमा हुआ ब्याज दोबारा मूलधन में नहीं जुड़ता। इसकी गणना I = P × R × T / 100 से करें, जहाँ P मूलधन, R वार्षिक दर और T समय है।',
+        } as Partial<Record<LocaleCode, string>>)[locale] || sharedLocalizedPurpose
+      : sharedLocalizedPurpose;
   // Add a concrete, locale-native distinction for tools that share a broad category.
   // This prevents image formats, programming languages, measurement families and
   // deposit products from inheriting the same explanatory paragraph.
