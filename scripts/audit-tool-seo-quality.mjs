@@ -69,7 +69,12 @@ if (generatedAssignment < 0 || generatedTerminator <= generatedAssignment) {
           }
         }
         if (typeof item.heroIntro === 'string' && item.heroIntro.trim() === (tool.description || '').trim()) {
-          errors.push('Generated localized SEO contains an English hero-description fallback for ' + locale + '/' + tool.slug);
+          // Older generated rows may retain the source description, but the runtime
+          // localized SEO builder must replace that exact fallback before rendering.
+          const hasSafeRuntimeFallback = /const heroIntro = isEnglishFallback\(generated\.heroIntro, base\.heroIntro \|\| tool\.description\)[\s\S]*?\? localizedHeroIntro/.test(seoSource);
+          if (!hasSafeRuntimeFallback) {
+            errors.push('Generated localized SEO contains an English hero-description fallback without a runtime localized replacement for ' + locale + '/' + tool.slug);
+          }
         }
         for (const field of ['steps', 'useCases', 'tips', 'limitations', 'faq']) {
           if (!Array.isArray(item[field]) || item[field].length === 0) {
