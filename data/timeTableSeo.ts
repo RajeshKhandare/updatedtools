@@ -146,7 +146,7 @@ export function getTimeTableSeoContent(tool:ToolMeta,locale:LocaleCode):ToolSeoC
    visual:'workflow'
  };
  // Keep localized timetable pages distinct by describing each tool's actual planning job.
- const TT_LOCALIZED_SLUG_FOCUS:Record<string,string> = {
+ const TT_LOCALIZED_SLUG_FOCUS:Record<Exclude<LocaleCode,'en'>,Record<string,string>> = {
    pt:{
      'timetable-maker':'Monte uma grade semanal de aulas com disciplinas e intervalos.',
      'cute-timetable-maker':'Personalize um quadro de estudos com cores, recado e frase favorita.',
