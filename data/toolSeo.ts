@@ -844,19 +844,27 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
           heading: headings.workflow,
           paragraphs: [
             isTimetableTool
-              ? toolLabel + ': ' + specificExamples.join(' ') + ' ' + specificTips.join(' ')
+              ? toolLabel + ': ' + (seo.why || seo.intro || '') + ' ' + specificExamples.join(' ') + ' ' + specificTips.join(' ')
               : LOCALIZED_GUIDE_LEADS[locale].workflow.replace('{tool}', toolLabel) + ' ' + steps.slice(0, 3).join(' '),
           ].filter(Boolean),
           bullets: steps,
         },
         {
           heading: headings.uses,
-          paragraphs: [LOCALIZED_GUIDE_LEADS[locale].examples.replace('{tool}', toolLabel) + specificExamples.join(' ')].filter(Boolean),
+          paragraphs: [
+            isTimetableTool
+              ? toolLabel + ': ' + (seo.why || seo.intro || '') + ' ' + specificExamples.join(' ')
+              : LOCALIZED_GUIDE_LEADS[locale].examples.replace('{tool}', toolLabel) + specificExamples.join(' '),
+          ].filter(Boolean),
           bullets: examples,
         },
         {
           heading: headings.practices,
-          paragraphs: [toolLabel + ': ' + specificTips.join(' ')].filter(Boolean),
+          paragraphs: [
+            isTimetableTool
+              ? toolLabel + ': ' + (seo.why || seo.intro || '') + ' ' + specificTips.join(' ')
+              : toolLabel + ': ' + specificTips.join(' '),
+          ].filter(Boolean),
           bullets: tips,
         },
         {
