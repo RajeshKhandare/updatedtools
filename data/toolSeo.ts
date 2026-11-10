@@ -831,6 +831,7 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
     const specificTips = tips.slice(-2);
     const specificLimits = limits.slice(-2);
     const toolLabel = getLocalizedToolName(tool, locale);
+    const isTimetableTool = tool.category === 'TimeTable' || tool.category === 'Timetable' || /timetable|schedule|routine-planner/.test(tool.slug);
     return {
       ...seo,
       articleSections: [
@@ -858,7 +859,11 @@ function withStructuredGuide(tool: ToolMeta, seo: ToolSeoContent, locale: Locale
         },
         {
           heading: headings.limits,
-          paragraphs: [toolLabel + ': ' + specificLimits.join(' ')].filter(Boolean),
+          paragraphs: [
+            isTimetableTool
+              ? toolLabel + ': ' + (seo.why || seo.intro || specificLimits.join(' '))
+              : toolLabel + ': ' + specificLimits.join(' '),
+          ].filter(Boolean),
           bullets: limits,
         },
         {
