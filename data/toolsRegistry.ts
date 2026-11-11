@@ -254,8 +254,8 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     name: 'Online C++ Compiler',
     slug: 'online-cpp-compiler',
     category: 'Compiler',
-    description: 'Compile and test C++ programs online in browser memory with instant console logs.',
-    targetKeyword: 'Online C++ Compiler',
+    description: 'Write, compile, and run C++ code online in a browser-based compiler. Test C++ programs, STL examples, algorithms, and standard input, then review compiler errors and console output.',
+    targetKeyword: 'C++ Compiler Online',
   },
   {
     name: 'Online Java Compiler',
@@ -427,11 +427,11 @@ export const TOOLS_REGISTRY: ToolMeta[] = [
     targetKeyword: 'Text Diff Checker Online',
   },
   {
-    name: 'Alphabetical Order Tool',
+    name: 'Alphabetical Order Sorter',
     slug: 'alphabetical-line-sorter',
     category: 'Text',
-    description: 'Sort lists and lines alphabetically (A-Z, Z-A) or by string length.',
-    targetKeyword: 'Alphabetical Order Tool Online',
+    description: 'Sort lines of text and lists in alphabetical order online. Arrange names, words, and entries A to Z or Z to A, or sort by supported length options.',
+    targetKeyword: 'Alphabetical Order Sorter Online',
   },
   {
     name: 'Remove HTML Tags',
