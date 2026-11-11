@@ -69,7 +69,12 @@ if (generatedAssignment < 0 || generatedTerminator <= generatedAssignment) {
           }
         }
         if (typeof item.heroIntro === 'string' && item.heroIntro.trim() === (tool.description || '').trim()) {
-          errors.push('Generated localized SEO contains an English hero-description fallback for ' + locale + '/' + tool.slug);
+          // Older generated rows may retain the source description, but the runtime
+          // localized SEO builder must replace that exact fallback before rendering.
+          const hasSafeRuntimeFallback = /const heroIntro = isEnglishFallback\(generated\.heroIntro, base\.heroIntro \|\| tool\.description\)[\s\S]*?\? localizedHeroIntro/.test(seoSource);
+          if (!hasSafeRuntimeFallback) {
+            errors.push('Generated localized SEO contains an English hero-description fallback without a runtime localized replacement for ' + locale + '/' + tool.slug);
+          }
         }
         for (const field of ['steps', 'useCases', 'tips', 'limitations', 'faq']) {
           if (!Array.isArray(item[field]) || item[field].length === 0) {
@@ -115,7 +120,7 @@ if (!/const LOCALIZED_GUIDE_LEADS/.test(seoSource)) errors.push('Localized guide
 if (seoSource.includes("'Follow these steps for ' + getLocalizedToolName") || seoSource.includes("'Examples for ' + getLocalizedToolName")) errors.push('English workflow/use-case lead-ins leak into localized SEO guides.');
 if (!/bullets: \[seo\.heroIntro \|\| seo\.intro \|\| tool\.description\]/.test(seoSource)) errors.push('Localized guide still uses the English registry description as its first explanatory bullet.');
 const timetableSource = fs.readFileSync('data/timeTableSeo.ts', 'utf8');
-if (!/const localizedLead=name\+': '\+localizedFocus/.test(timetableSource) || !/heroIntro:localizedLead/.test(timetableSource) || !/intro:localizedLead/.test(timetableSource) || !/why:localizedLead/.test(timetableSource) || !/steps:c!\.steps/.test(timetableSource) || !(/useCases:c!\.useCases/.test(timetableSource) || /useCases:locale==='hi'\?\(TT_LOCALIZED_USE_CASES_HI\[tool\.slug\]/.test(timetableSource)) || !/TT_LOCALIZED_FOCUS/.test(timetableSource)) {
+if (!/const localizedLead=name\+': '\+\(localizedToolFocus\|\|localizedFocus\)/.test(timetableSource) || !/heroIntro:localizedLead/.test(timetableSource) || !/intro:localizedLead/.test(timetableSource) || !/why:localizedLead/.test(timetableSource) || !/steps:c!\.steps/.test(timetableSource) || !(/useCases:c!\.useCases/.test(timetableSource) || /useCases:locale==='hi'\?\(TT_LOCALIZED_USE_CASES_HI\[tool\.slug\]/.test(timetableSource)) || !/TT_LOCALIZED_FOCUS/.test(timetableSource)) {
   errors.push('Localized timetable guides must use the selected locale for intro, explanation, steps, and use cases.');
 }
 
