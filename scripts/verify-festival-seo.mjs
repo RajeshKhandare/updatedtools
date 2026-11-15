@@ -59,6 +59,15 @@ for (const slug of festivalSlugs) {
   checked++;
 }
 
+// Every localized Hindi festival tool is indexable and must be discoverable in the sitemap.
+const sitemap = readSource('out/sitemap.xml');
+for (const slug of festivalSlugs) {
+  const localizedFestivalUrl = `https://toolployee.com/hi/tools/${slug}/`;
+  if (!sitemap.includes(localizedFestivalUrl)) {
+    throw new Error('Hindi festival tool page is missing from sitemap: ' + localizedFestivalUrl);
+  }
+}
+
 for (let day = 1; day <= 9; day++) {
   const en = read(`tools/navratri-colors-2026/day-${day}/index.html`);
   const hi = read(`hi/tools/navratri-colors-2026/day-${day}/index.html`);
