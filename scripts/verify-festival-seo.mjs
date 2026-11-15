@@ -45,6 +45,27 @@ function hasHreflang(html, lang, href) {
   });
 }
 
+const homepage = read('index.html');
+const homepageAlternates = [
+  ['en', 'https://toolployee.com/'],
+  ['pt-br', 'https://toolployee.com/pt/'],
+  ['es', 'https://toolployee.com/es/'],
+  ['de', 'https://toolployee.com/de/'],
+  ['fr', 'https://toolployee.com/fr/'],
+  ['it', 'https://toolployee.com/it/'],
+  ['ja', 'https://toolployee.com/ja/'],
+  ['ko', 'https://toolployee.com/ko/'],
+  ['zh-cn', 'https://toolployee.com/zh/'],
+  ['ru', 'https://toolployee.com/ru/'],
+  ['ar', 'https://toolployee.com/ar/'],
+  ['hi', 'https://toolployee.com/hi/'],
+];
+for (const [lang, href] of homepageAlternates) {
+  if (!hasHreflang(homepage, lang, href)) {
+    throw new Error('English homepage is missing reciprocal hreflang ' + lang + ' -> ' + href);
+  }
+}
+
 let checked = 0;
 for (const slug of festivalSlugs) {
   const en = read(`tools/${slug}/index.html`);
