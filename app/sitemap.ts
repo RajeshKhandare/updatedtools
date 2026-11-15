@@ -54,5 +54,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }))
     );
 
-  return [...staticRoutes, ...toolRoutes, ...localizedStaticRoutes, ...localizedRoutes, ...navratriDayRoutes];
+  // Festival tools are intentionally localized only in Hindi; include those
+  // indexable pages explicitly instead of silently omitting them from the sitemap.
+  const localizedFestivalRoutes: MetadataRoute.Sitemap = TOOLS_REGISTRY
+    .filter((tool) => tool.category === 'Festival')
+    .map((tool) => ({
+      url: SITE_URL + localizedToolPath('hi', tool.slug),
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.78,
+    }));
+
+  return [...staticRoutes, ...toolRoutes, ...localizedStaticRoutes, ...localizedRoutes, ...localizedFestivalRoutes, ...navratriDayRoutes];
 }
