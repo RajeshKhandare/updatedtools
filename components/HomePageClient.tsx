@@ -482,3 +482,5 @@ function HomePageClient() {
   );
 }
 
+
+export default HomePageClient;
