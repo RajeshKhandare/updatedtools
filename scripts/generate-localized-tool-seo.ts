@@ -136,6 +136,10 @@ async function translateTool(tool: typeof TOOLS_REGISTRY[number], locale: string
   const translated = await translateMany(values, locale, tool.name, localizedToolName);
   let cursor = 0;
   const heroIntro = translated[cursor++];
+  const sourceHeroIntro = (base.heroIntro || tool.description).trim();
+  if (heroIntro.trim() === sourceHeroIntro) {
+    throw new Error(`Translation returned the English hero description unchanged for ${locale}/${tool.slug}; refusing to publish a fallback.`);
+  }
   const intro = translated[cursor++];
   const why = translated[cursor++];
   const steps = translated.slice(cursor, cursor + base.steps.length); cursor += base.steps.length;

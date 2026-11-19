@@ -45,6 +45,27 @@ function hasHreflang(html, lang, href) {
   });
 }
 
+const homepage = read('index.html');
+const homepageAlternates = [
+  ['en', 'https://toolployee.com/'],
+  ['pt-br', 'https://toolployee.com/pt/'],
+  ['es', 'https://toolployee.com/es/'],
+  ['de', 'https://toolployee.com/de/'],
+  ['fr', 'https://toolployee.com/fr/'],
+  ['it', 'https://toolployee.com/it/'],
+  ['ja', 'https://toolployee.com/ja/'],
+  ['ko', 'https://toolployee.com/ko/'],
+  ['zh-cn', 'https://toolployee.com/zh/'],
+  ['ru', 'https://toolployee.com/ru/'],
+  ['ar', 'https://toolployee.com/ar/'],
+  ['hi', 'https://toolployee.com/hi/'],
+];
+for (const [lang, href] of homepageAlternates) {
+  if (!hasHreflang(homepage, lang, href)) {
+    throw new Error('English homepage is missing reciprocal hreflang ' + lang + ' -> ' + href);
+  }
+}
+
 let checked = 0;
 for (const slug of festivalSlugs) {
   const en = read(`tools/${slug}/index.html`);
@@ -57,6 +78,15 @@ for (const slug of festivalSlugs) {
   const foundKeywords = (hindiKeywordChecks[slug] || []).filter((keyword) => hi.includes(keyword));
   if (foundKeywords.length < 2) throw new Error(`Hindi SEO keyword coverage too low for ${slug}: ${foundKeywords.join(', ')}`);
   checked++;
+}
+
+// Every localized Hindi festival tool is indexable and must be discoverable in the sitemap.
+const sitemap = readSource('out/sitemap.xml');
+for (const slug of festivalSlugs) {
+  const localizedFestivalUrl = `https://toolployee.com/hi/tools/${slug}/`;
+  if (!sitemap.includes(localizedFestivalUrl)) {
+    throw new Error('Hindi festival tool page is missing from sitemap: ' + localizedFestivalUrl);
+  }
 }
 
 for (let day = 1; day <= 9; day++) {

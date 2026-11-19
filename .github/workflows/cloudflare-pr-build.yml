@@ -2,7 +2,7 @@ name: Cloudflare PR Build Check
 
 on:
   pull_request:
-    branches: [cloudflare-test]
+    branches: [cloudflare-test, fix/pr34-sitemap-build-env]
 
 permissions:
   contents: read
